@@ -1,0 +1,14 @@
+{
+  "snippets_file": "\\foralln : $\\forall n \\in N$",
+  "snippets": [
+    "\\foralln : $\\forall n \\in N$"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}
