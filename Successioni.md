@@ -50,4 +50,9 @@ Sia $a=\{a_n\}_{n\ge 0}$ una successione limitata e  $b=\{b_n\}_{n\ge 0}$ una su
 >Allora  $\forall \epsilon \gt 0, \exists n_0 \in N$ tc $\forall n \gt n_0$ si ha $|a_nb_n|\le M\epsilon$
 >Ma M è costante fissata, quindi posso prendere $\epsilon \gt 0$ in omdo tale che $M\epsilon$ sia un qualunque reale positivo
 
+Sia  $a=\{a_n\}_{n\in N}$, si dice che $a$ diverge a +inf se 
+```math
+||{"id":540833062144}||
 
+\forall M\gt 0, \exists n_0\in N, \forall n\in N \text{ si ha } a_n \gt M
+```
