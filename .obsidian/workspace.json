@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Confronti e stime asintotiche.md",
+                "file": "Teorema di Bolzano Weistrass e successioni di Cauchy.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Confronti e stime asintotiche.md",
+                "file": "Teorema di Bolzano Weistrass e successioni di Cauchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Confronti e stime asintotiche.md",
+                "file": "Teorema di Bolzano Weistrass e successioni di Cauchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Confronti e stime asintotiche.md"
+                "file": "Teorema di Bolzano Weistrass e successioni di Cauchy.md"
               }
             }
           }
@@ -174,15 +174,15 @@
   },
   "active": "7e69a201a1a2316a",
   "lastOpenFiles": [
-    "Asintotici noti.md",
+    "Teorema di Bolzano Weistrass e successioni di Cauchy.md",
     "Confronti e stime asintotiche.md",
+    "Asintotici noti.md",
     "Forme di indecisione dei limiti.md",
     "Successioni.md",
     "Limiti notevoli.md",
     "Teoremi per successioni.md",
     "Teorema fondamentale dell'algebra.md",
     "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
-    "Teorema di De Moivre.md",
-    "Teoria degli insiemi.md"
+    "Teorema di De Moivre.md"
   ]
 }
