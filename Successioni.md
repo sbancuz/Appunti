@@ -90,3 +90,9 @@ $$
 
 
 ```
+Analogamente sia $\{{a_{n}}\}_{n\in N}$ una successione convergente con limite $l$, se $\forall {\epsilon} \gt {0},\exists n_{0} \in N,\forall {n} \ge {n_{0}}$ si ha $l-\epsilon\le a_{n}\le l$ e si dice che $\{{a_{n}}\}_{n\in N}$ tende a $l$ per DIFETTO e si scrive $$
+\lim_{ n \to \infty } {a_{n}}=l^-
+$$
+>[!warning]
+>Ci sono successioni convergenti che non tendono al loro limite nè per eccesso nè per difetto
+
