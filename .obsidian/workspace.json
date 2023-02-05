@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teorema fondamentale dell'algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af5d86480a6d65a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Successioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,17 +147,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "af5d86480a6d65a1",
+  "active": "810aea4d3bcbdf21",
   "lastOpenFiles": [
-    "Teorema di De Moivre.md",
     "Teorema fondamentale dell'algebra.md",
+    "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
+    "Successioni.md",
+    "Teorema di De Moivre.md",
     "Teoria degli insiemi.md",
     "Valore assoluto.md",
     "Funzioni.md",
     "Insieme.md",
     "Numeri complessi.md",
-    "Successioni.md",
-    "Proprietà delle funzioni.md",
-    "Principio di induzione.md"
+    "Proprietà delle funzioni.md"
   ]
 }

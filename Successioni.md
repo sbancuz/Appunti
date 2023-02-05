@@ -13,7 +13,7 @@ se $\exists n_0\in N$ tc la successione $\overline{a}=\{a_n\}_{n\ge n_0}$
 
 ## Convergenza
 
-Una successione $a={a_n}_{n\in N}$ si dice CONVERGENTE se esiste un numero reale $l\in R$ tale che per ogni $\epsilon \gt 0$ definitivamente si ha $|a_n - l | \le \epsilon$ 
+Una successione $a=\{a_n\}_{n\in N}$ si dice CONVERGENTE se esiste un numero reale $l\in R$ tale che per ogni $\epsilon \gt 0$ definitivamente si ha $|a_n - l | \le \epsilon$ 
 ```math
 ||{"id":747507161468}||
 
@@ -33,4 +33,21 @@ $$
 >>ovvero $\exists n_0 = max\{n_1,n_2\}$ tc $\forall n\ge n_0$ si ha $|a_n - l_1|\le \epsilon$ e $|a_n - l_2|\le \epsilon$ allora si ha che $|l_1-l_2| \le 2\epsilon$
 >>
 >>Se per assurdo $l_1\not=l_2$ allora $|l_1-l_2|=k\gt 0$, ma se prendo $\epsilon = k/3$ avrò $k\le {2k}/3$ che è assurdo 
+
+>[!info] Teorema dell'unicità del limite
+>
+>Ogni successione convergente è limitata
+>>[!note]- Dimostrazione
+Sia $a=\{a_n\}_{n\in N}$ e sia $\lim_{n\to \inf} a_n = l$ posso prendere $\epsilon=1$, $\exists n_0\in N\text{ | } \forall n\ge n_0$ si ha $|a_n-l| \le 1$ cioè $l-1\le a_n\le l+1$ quindi a è definitivamente limitata.
+D'altra parte l'insieme $\{a_0,a_1,...,a_n\}$ è fubuti quindi ha massimo M e minimo m, dunque $\forall n\in N, a_n \le max\{M,l+1\} \text{ e } a_n \ge min\{m,l-1\}$ e perciò a è limitata
+
+Una successione $a=\{a_n\}_{n\in N}$ si dice infinitesima se $$\lim_{n\to \inf} a_n = 0$$
+Sia $a=\{a_n\}_{n\ge 0}$ una successione limitata e  $b=\{b_n\}_{n\ge 0}$ una successione infinitesima, allora $$ab = \{a_nb_n\}_{n\ge 0}$$ è una successione infinitesima
+
+>[!note]- Dimostrazione
+>$a$ è limitata -> esiste M > 0 tc $\forall n\ge0$ si ha $|a_n|\le M$
+>$b_n\to 0$ per $n\to \inf$ : $\forall \epsilon \gt 0, \exists n_0 \in N$ tc $\forall n \gt n_0$ si ha $|b_n -0| \le \epsilon$
+>Allora  $\forall \epsilon \gt 0, \exists n_0 \in N$ tc $\forall n \gt n_0$ si ha $|a_nb_n|\le M\epsilon$
+>Ma M è costante fissata, quindi posso prendere $\epsilon \gt 0$ in omdo tale che $M\epsilon$ sia un qualunque reale positivo
+
 
