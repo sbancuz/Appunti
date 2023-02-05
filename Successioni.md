@@ -54,5 +54,5 @@ Sia  $a=\{a_n\}_{n\in N}$, si dice che $a$ diverge a +inf se
 ```math
 ||{"id":540833062144}||
 
-\forall M\gt 0, \exists n_0\in N, \forall n\in N \text{ si ha } a_n \gt M
+\forall M\gt 0, \exists n_0\in N, \forall n\ge 0 \text{ si ha } a_n \gt M
 ```
