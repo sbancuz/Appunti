@@ -56,6 +56,7 @@ Sia  $a=\{a_n\}_{n\in N}$, si dice che $a$ diverge a +inf se
 
 \forall M\gt 0, \exists n_0\in N, \forall n\ge 0 \text{ si ha } a_n \gt M
 ```
+
 Sia  $a=\{a_n\}_{n\in N}$, si dice REGOLARE se è divergente o convergente, sarà IRREGOLARE se no.
 
 >[!info] Teorema dell'algebra dei limiti
@@ -81,4 +82,11 @@ Siano $a=\{a_n\}_{n\in N}$, $b=\{b_n\}_{n\in N}$ convergenti e sia $\lim_{n\to \
 >> Ora, se $l$ fosse $< 0$, potrei prendere $\epsilon$ compresa tra 0 e $-l$ e avrei che $l+\epsilon \lt 0$ da cui $0\le a_{n} \le l+\epsilon\le 0$ che è un assurdo, quindi $l\ge 0$
 >> 
 
+Sia $\{{a_{n}}\}_{n\in N}$ una successione convergente con limite $l$, se $\forall {\epsilon} \gt {0},\exists n_{0} \in N,\forall {n} \ge {n_{0}}$ si ha $l\le a_{n}\le l+\epsilon$ e si dice che $\{{a_{n}}\}_{n\in N}$ tende a $l$ per ECCESSO e si scrive $$
+\lim_{ n \to \infty } {a_{n}}=l^+
+$$
+```math
+||{"id":585169041992}||
 
+
+```
