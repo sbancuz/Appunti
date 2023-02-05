@@ -44,7 +44,7 @@ Quest'operazione non è commutativa $g•f \not= f•g$
 
 ## Invertiblità
 
-Sia  $f:A\to B$ si dice che f è invertibile sse $\exists g:B\to A \text{ | } \left\{\begin{align}g•f = i_a \\ f•g = i_b\end{align}\right\|$ in tal caso $g$ si dice inversa di $f$, se $f$ è biiettiva allora sarà invertibile
+Sia  $f:A\to B$ si dice che f è invertibile sse $\exists g:B\to A \text{ | } \left\{\begin{align}g•f = i_a \\ f•g = i_b\end{align}\right|$ in tal caso $g$ si dice inversa di $f$, se $f$ è biiettiva allora sarà invertibile
 
 >[!info] 
 >L'inversa se esiste è unica e può anche essere inversa di se stessa

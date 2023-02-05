@@ -42,8 +42,37 @@ L'$Arg(z)$ non è unico, è periodico per $2k\pi$
 >[!info]
 >Sommare e sottrarre con la rappresentazione normale non è un problema, ma per moltiplicare e dividere diventa laborioso
 
-Siano $z = \rho(cos(\theta)+isen(\theta))$ e $z_1 = \rho_1(cos(\theta_1)+isen(\theta_1))$ allora $$
-z*z_1 = \rho*\rho_1(cos(\theta+\theta_1) + isen(\theta+\theta_1))
+Siano $z = \rho(cos(\theta)+isen(\theta))$ e $z_1 = \rho_1(cos(\theta_1)+isen(\theta_1))$ allora $$\begin{align}
+z*z_1 &= \rho*\rho_1(cos(\theta+\theta_1) + isen(\theta+\theta_1)) \\
+z/z_1 &= \rho/\rho_1(cos(\theta-\theta_1) + isen(\theta-\theta_1))\end{align}
 $$
 ![[Teorema di De Moivre]]
 
+### Interpretazione geometrica
+```math
+||{"id":997833838030}||
+|z*i| = |z|*|i| =|z|
+Arg(z*i) = Arg(z) + Arg(i) = Arg(z) + {\pi }/2
+```
+![[Teorema fondamentale dell'algebra]]
+
+## Radici n-esime 
+
+Dalla formula di de-Moivre per la potenza n-esima, si trova quella per il calcolo delle radici n-esime
+
+Sia $w\in C$ e $n\in N$, si dice che $z\in C$ è una radice n-esima di $w$ se $z^n=w$
+Se $w\not=0$ e $n\in N$ esistono esattamente n diverse radici di $w = \rho(cos(\theta)+isen(\theta))$
+$$
+\forall0\le k\le n-1 \rightarrow
+\left\{
+\begin{align}
+\rho_k&=\sqrt[n]{\rho} \\
+\theta_k &= \frac{\theta + 2k\pi}{n}
+\end{align}
+\right|
+$$
+```math
+||{"id":1310643447814}||
+
+\sqrt[6](1+i)
+```

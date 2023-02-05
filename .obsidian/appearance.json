@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "big_math"
+  ]
 }
