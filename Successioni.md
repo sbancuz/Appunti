@@ -56,3 +56,4 @@ Sia  $a=\{a_n\}_{n\in N}$, si dice che $a$ diverge a +inf se
 
 \forall M\gt 0, \exists n_0\in N, \forall n\ge 0 \text{ si ha } a_n \gt M
 ```
+Sia  $a=\{a_n\}_{n\in N}$, si dice REGOLARE se è divergente o convergente, sarà IRREGOLARE se no.
