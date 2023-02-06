@@ -37,22 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Confronti e stime asintotiche.md",
+                "file": "Limiti di funzioni a 1 variabile.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ff752871d00c97cc",
+            "id": "0dab3ca1b07686a5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Funzioni ad 1 variabile continue.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Confronti e stime asintotiche.md",
+                "file": "Funzioni ad 1 variabile continue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Confronti e stime asintotiche.md",
+                "file": "Funzioni ad 1 variabile continue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Confronti e stime asintotiche.md"
+                "file": "Funzioni ad 1 variabile continue.md"
               }
             }
           }
@@ -180,17 +184,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7e69a201a1a2316a",
+  "active": "0dab3ca1b07686a5",
   "lastOpenFiles": [
-    "Asintotici noti.md",
+    "Limiti di funzioni a 1 variabile.md",
+    "Intorno.md",
+    "Funzioni.md",
     "Confronti e stime asintotiche.md",
+    "Asintotici noti.md",
     "Serie numeriche.md",
     "Teorema di Bolzano Weistrass e successioni di Cauchy.md",
     "Forme di indecisione dei limiti.md",
     "Successioni.md",
-    "Limiti notevoli.md",
-    "Teoremi per successioni.md",
-    "Teorema fondamentale dell'algebra.md",
-    "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md"
+    "Limiti notevoli.md"
   ]
 }

@@ -68,3 +68,4 @@ Tenendo la $f(x) =x^2$ ma cambiando il dominio in $f:R^+ \to R^+$ la posso far d
 
 ![[Proprietà delle funzioni]]
 
+![[Limiti di funzioni a 1 variabile]]
