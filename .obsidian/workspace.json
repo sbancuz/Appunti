@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asintotici noti.md",
+                "file": "Confronti e stime asintotiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asintotici noti.md",
+                "file": "Confronti e stime asintotiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asintotici noti.md",
+                "file": "Confronti e stime asintotiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asintotici noti.md"
+                "file": "Confronti e stime asintotiche.md"
               }
             }
           }
@@ -182,10 +182,10 @@
   },
   "active": "7e69a201a1a2316a",
   "lastOpenFiles": [
+    "Asintotici noti.md",
     "Confronti e stime asintotiche.md",
     "Serie numeriche.md",
     "Teorema di Bolzano Weistrass e successioni di Cauchy.md",
-    "Asintotici noti.md",
     "Forme di indecisione dei limiti.md",
     "Successioni.md",
     "Limiti notevoli.md",

@@ -2,7 +2,8 @@ Siano $\{{a_{n}}\}_{n\in N}$ e $\{{b_{n}}\}_{n\in N}$ successioni tali che $\lim
 
 >[!info] Teorema
 >Siano $\{{a_{n}}\}_{n\in N}$, $\{{b_{n}}\}_{n\in N}$,$\{{c_{n}}\}_{n\in N}$,$\{{d_{n}}\}_{n\in N}$ tali che $a_{n}\sim b_{n}$ e $c_{n}\sim d_{n}$ allora il $\lim_{ n \to \infty } {a_{n}b_{n}}=\lim_{ n \to \infty } {c_{n}d_{n}}$
->Cioè in un rapporto o in un prodotto si può sostituire ad un fattore uno che gli sia asintotico
+>
+>Cioè in un rapporto o in un prodotto si può sostituire ad un fattore uno che gli sia asintotico, però posso sostituire una somma purché gli addendi non si semplifichino e rimanga 0
 
 ![[Asintotici noti]]
 

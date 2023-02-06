@@ -1,5 +1,5 @@
 $\sin x\sim0$
-$e^x-1\sim x$
+$b^x-1\sim \frac{x}{\ln b}$
 $1-\cos x\sim \frac{x^2}{2}$
 $\ln(1+x)\sim x$
 $\arctan x\sim x$
