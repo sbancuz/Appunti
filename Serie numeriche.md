@@ -121,3 +121,41 @@ Questo teorema vale anche se $\{{a_{n}}\}_{n\in N}$ è definitivamente non negat
 Sia $\{{a_{n}}\}_{n\in N}$ una succession, allora la serie $\sum_{i=0}^\infty{a_{n}-a_{n+1}}$ si chiama serie telescopica che in generale $s_{n}=a_{0}-l$
 
 Se $a_{n}$ converge allora la successione $\{{a_{n}-a_{n+1}}\}_{n\in N}=0$
+
+### Serie somma
+
+Siano $\{{a_{n}}\}_{n\in N}$ e $\{{b_{n}}\}_{n\in N}$ successioni definitivamente positive, si chiama serie somma di $\{{a_{n}}\}_{n\in N}$ e $\{{b_{n}}\}_{n\in N}$ la serie $\sum_{i=0}^\infty{(a_{n}+b_{n})}$
+
+Se $\sum_{i=0}^\infty{a_{n}}$ converge e $\sum_{i=0}^\infty{b_{n}}$ converge allora la somma converge a $l+l_{1}$
+Se $\sum_{i=0}^\infty{a_{n}}$ diverge e $\sum_{i=0}^\infty{b_{n}}$ converge allora la somma diverge
+Se $\sum_{i=0}^\infty{a_{n}}$ diverge e $\sum_{i=0}^\infty{b_{n}}$ diverge allora la somma diverge
+
+>[!warning]
+>Se le due serie divergono una a $\infty$ e l'altra a $-\infty$ allora non si può dire nulla
+
+## Serie a termini di segno variabile
+
+Sia $\{{a_{n}}\}_{n\in N}$ una successione qualunque, si dice che $\sum_{i=0}^\infty{a_{n}}$ converge assolutamente se  la serie $\sum_{i=0}^\infty{|a_{n}|}$ converge.
+
+Se la serie  $\sum_{i=0}^\infty{a_{n}}$ converge assolutamente allora converge.
+
+>[!note]- Dimostrazione
+>Data $\{{a_{n}}\}_{n\in N}$ consideriamo le somme $s_{n}^+$ che è la somma dei termini positivi e $s_{n}^-$ che è la somma dei termini negativi
+>Invece sia $s_{n}=\sum_{i=0}^\infty{a_{i}}$ è la somma parziale di tutti i termini.
+>
+>Si ha che $s_{n}=s_{n}^++s_{n}^-$ e se provo che la somma converge allora $s_{n}$ convergerà.
+>
+>Osservo che $s_{n}^+$ è una successione a termini ppositivi o nulli, inoltre per la disuguaglianza triangolare si ha $s_{n}^+\leq \sum_{i=0}^n{|a_{i}|}$ e $-s_{n}^-\leq \sum_{i=0}^n{|a_{i}|}$.
+>
+>Ma per ipotesi $\sum_{i=0}^\infty{|a_{i}|}$ converge, quindi $\{{s_{n}^+}\}_{n\in N}$ e $\{{s_{n}^-}\}_{n\in N}$ sono successioni crescenti e limitate, e per il teorema di monotonia convergono.
+
+## Criterio di Leibniz
+
+Sia data $\sum_{i=0}^\infty{(-1)^na_{n}}$ allora se:
+	1. $\{{a_{n}}\}_{n\in N}$ è a termini definitivamente positivi
+	2. $\lim_{ n \to \infty } {a_{n}}=0$
+	3. $\{{a_{n}}\}_{n\in N}$ è definitivamente decrescente
+
+Si ha che la serie converge
+
+Inoltre si ha che $|\sum_{i=n}^\infty{(-1)^na_{n}|}\leq a_{n}$ cioè l'errore che si commette approssimando la serie troncandola al termine $a_n$ è minore dell'ultimo termine considerato
