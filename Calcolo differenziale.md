@@ -144,3 +144,68 @@ Sia $f:(a,b)\to R$ derivabile in $(a,b)$, allora:
 ### Corollario
 
 Sia $f:(a,b)\to R$, allora $\forall {x} \in {(a,b)}$ tale che $f'(x)=0$ sse $f$ è costante in $(a,b)$
+
+## Estensione di una funzione
+
+Sia $f:[a,c)\cup(c,b]\to R$, se esistono finiti $\lim_{ x \to c^- } {f(x)}$ e $\lim_{ x \to c^+ } {f(x)}$ allora posso definire 
+$$
+g(x) = \left\{\begin{align}
+	f(x), &  & \text{se }x\neq c \\
+	\lim_{ x \to c } {f(c)} &  & \text{se }x=c
+\end{align}
+\right|
+$$
+e $g(x)$ estende la continuità di $f$ in $c$
+
+>[!tip]
+>La stessa cosa si può fare con $f'$ e in questo caso sarebbe un estensione in derivabilità
+
+## Teorema di de L'Hospital
+
+Siano $f,g:(a,b)\to R$ continue e derivabili in $(a,b)$ e siano poi $g$ e $g'$ non nulle in $(a,b)$.
+Se:
+	1. $\lim_{ x \to a^+ } {f(x)}=\lim_{ x \to a^+ } {g(x)}=0$ oppure sono $\infty$ o $-\infty$
+	2. $\lim_{ x \to a^+ } \frac{{f'(x)}}{g'(x)}=l\in R\cup\{-\infty,\infty\}$
+Allora 
+$$
+\lim_{ x \to a^+ } \frac{{f(x)}}{g(x)}=l
+$$
+Lo stesso vale per $x\to b^-$
+
+>[!note]- Dimostrazione
+>Considero solo il caso in cui $f(x_{}),g(x)\to {0}$ per $x\to a^+$
+>Sia $\{{s_{n}}\}_{n\in N}$ una successione contenutta in $(a,b)$ che tenda ad $a$
+>Possiamo prolungare con continuità $f$ e $g$ ponendo $f(a)=0$ e $g(a)=0$
+>Allora $\forall n \in N$
+>$$
+\frac{f(x_{n})}{g(x_{n})}= \frac{f(x_{n})-f(a)}{g(x_{n})-g(a)}
+>$$
+>Definisco $h(x)=f(x_{n})g(x)-g(x_{n})f(x)=0$, in più poiché $f,g$ sono continue e derivabili in $(a,x_{n})$ anche $h$ lo sarà.
+>Questo soddisfa Lagrange e quindi $h'(t_{n})=f(x_{n})g'(t_{n})-g(x_{n})f'(t_{n})=0$
+>Quindi
+>$$
+\frac{f(x_{n})}{g(x_{n})} = \frac{f'(t_{n})}{g'(t_{n})}
+>$$
+>Passo al limite per $n\to \infty$
+>$$
+>\lim_{ x \to a^+ } \frac{{f(x)}}{g(x)}=l
+>$$
+
+## Limite della derivata e derivabilità
+
+Se $f:[a,b]\to R$ è continua in $[a,b]$ e derivabile in $[a,c)\cup(c,b]$ con $c\in[a,b]$
+Per stabilire se $f$ è derivabile in $c$ dovrei fare il limite del rapporto incrementale. Ma se f' risulta continua o prolungabile con continuità in $c$, posso concludere che $f$ è derivabile in $c$?
+
+Sia $f:[a,b]\to R$ continua in $[a,b]$ e derivabile in $(a,b)$, se esiste
+$$
+\lim_{ x \to a^+ } {l }\in R\cup\{-\infty,\infty\} 
+$$
+allora $f'_{+}(a)$ esiste ed è uguale a $l$
+Stesso vale in $b$
+
+>[!note]- Dimostrazione
+>Sia $h>0$, posso applicare Lagrange a $f$ in $[a,a+h]$ allora $\exists {t_{h}}\in  {(a,a+h)}$ tale che
+>$$
+>f'(t_{h})=\frac{f(a+h)-f(a)}{h}\to_{h\to 0^+}l
+>$$
+
