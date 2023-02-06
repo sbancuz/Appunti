@@ -95,3 +95,52 @@ $$f'(x_{0})= \lim_{ h \to 0 } \frac{f(x_{0}+h)-f(x_{0})}{h}$$
 >  
 > Ma $f$ è derivabile in $x_{0}$ quindi $\lim_{ h \to 0 } \frac{f(x_{0}+h)-f(x_{0})}{h}$ deve esistere e questo deve essere $0$
 
+## Teorema di Lagrange
+
+Sia $f:[a,b]\to R$, continua in $[a,b]$ e derivabile in $(a,b)$, allora
+$$
+\exists {c} \in {(a,b)} \text{ tale che } f'(c)=\frac{{f(b)-f(a)}}{b-a} 
+$$
+```math
+||{"id":181311675580}||
+
+
+```
+Geometricamente, c è un punto tra a e b in cui la retta tangente al grafico di $f$ in $(c,f(c))$ risulta parallela alla congiungente dei punti $(a,f(a)),(b,f(b))$
+
+>[!note]- Dimostrazione
+>La retta per i punti $(a,f(a)),(b,f(b))$ ha equazione
+>$$
+>y=\frac{{f(b)-f(a)}}{b-a} (x-a)+f(a)
+>$$
+>Considero la funzione ausiliaria
+>$$
+>w(x)= f(x) - \left( \frac{{f(b)-f(a)}}{b-a} (x-a)+f(a) \right)
+>$$
+>Si ha che $w(a)=w(b)=0$, $w(x)$ è continua in $[a,b]$ e derivabile in $(a,b)$.
+>Per il teorema di Weiestrass esistono punto di max e min per $w \in [a,b]$:
+>1. se $w(x_{1})=w(x_{2})$ allora w è costante, quindi $\forall {x} \in {[a,b]}, w'(x)=0$, quindi $f'(x)=\frac{{f(b)-f(a)}}{b-a}$
+>2. se $w(x_{1})\neq w(x_{2})$ allora uno dei due è diverso sia da $a$ che da $b$, allora supponiamo che $x_{1}\neq a$ che $x_{2}\neq b$, allora $x_{1}$ è estremante per $w \in (a,b)$ e per Fermat $w'(x)=0$, quindi $f'(x)=\frac{{f(b)-f(a)}}{b-a}$
+
+## Test di monotonia
+
+Sia $f:(a,b)\to R$ derivabile in $(a,b)$, allora:
+	1. $f$ è crescente in $(a,b)$ sse $\forall {x} \in {(a,b)}$ si ha $f'(x)\geq 0$
+	2. $f$ è decrescente in $(a,b)$ sse $\forall {x} \in {(a,b)}$ si ha $f'(x)\leq 0$
+
+>[!note]- Dimostrazione
+>Siano $x_{1},x_{2}\in(a,b)$ allora se:
+>
+>$f$ è crescente in $(a,b)$ sse $\forall {x_{1},x_{2}} \in {(a,b)}$ con $x_{1}\neq x_{2}$ si ha $\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}\geq 0$
+>
+>$f$ è decrescente in $(a,b)$ sse $\forall {x_{1},x_{2}} \in {(a,b)}$ con $x_{1}\neq x_{2}$ si ha $\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}\leq 0$
+>
+>Passando al limite per $x_{2}\to x_{1}$ 
+>1. se $f$ è crescente -> $f'(x_{1})\geq0$ 
+>2. se $f$ è decrescente -> $f'(x_{1})\leq0$ 
+>
+>Per provare che $f$ è crescente, applico Lagrange ad $f$ in $[x_{1},x_{2}]$, quindi $x_{2}-x_{1}>0$, $f'(c)\geq 0$ per ipotesi, allora $f(x_{2})-f(x_{1})\geq 0$ e quindi la $f$ è crescente 
+
+### Corollario
+
+Sia $f:(a,b)\to R$, allora $\forall {x} \in {(a,b)}$ tale che $f'(x)=0$ sse $f$ è costante in $(a,b)$
