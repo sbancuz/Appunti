@@ -105,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wei",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,10 +207,10 @@
   },
   "active": "218c2582b94eb8df",
   "lastOpenFiles": [
-    "Derivate fondamentali.md",
-    "Calcolo differenziale.md",
-    "Forme di indecisione dei limiti.md",
     "Funzioni ad 1 variabile continue.md",
+    "Calcolo differenziale.md",
+    "Derivate fondamentali.md",
+    "Forme di indecisione dei limiti.md",
     "Funzioni monotone.md",
     "Limiti di funzioni a 1 variabile.md",
     "Intorno.md",

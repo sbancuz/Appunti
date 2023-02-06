@@ -80,7 +80,8 @@ Se $m\in R$ è tale che esiste un $\delta>0$ per cui $m$ è minimo di $f$ in $[x
 
 ## Lemma di Fermat
 
-Sia $f:[a,b]\to R$ derivabile in $(a,b)$ se $x$ è un punto di minimo o di massimo allora $$
+Sia $f:[a,b]\to R$ derivabile in $(a,b)$ se $x$ è un punto di minimo o di massimo allora 
+$$
 f'(x)=0
 $$
 >[!note]- Dimostrazione
