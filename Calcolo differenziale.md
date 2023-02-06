@@ -209,3 +209,6 @@ Stesso vale in $b$
 >f'(t_{h})=\frac{f(a+h)-f(a)}{h}\to_{h\to 0^+}l
 >$$
 
+## Derivata seconda
+
+Un sottoinsieme A di $R^2$ si dice convesso se $\forall {P,P'} \in A {}$ il segmento congiungente $P$ e 
