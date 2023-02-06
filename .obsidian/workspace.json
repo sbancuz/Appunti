@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teorema di Bolzano Weistrass e successioni di Cauchy.md",
+                "file": "Serie numeriche.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,16 +47,12 @@
             "id": "ff752871d00c97cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Serie numeriche.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,9 +180,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ff752871d00c97cc",
+  "active": "7e69a201a1a2316a",
   "lastOpenFiles": [
     "Teorema di Bolzano Weistrass e successioni di Cauchy.md",
+    "Serie numeriche.md",
     "Confronti e stime asintotiche.md",
     "Asintotici noti.md",
     "Forme di indecisione dei limiti.md",
@@ -194,7 +191,6 @@
     "Limiti notevoli.md",
     "Teoremi per successioni.md",
     "Teorema fondamentale dell'algebra.md",
-    "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
-    "Teorema di De Moivre.md"
+    "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md"
   ]
 }
