@@ -76,6 +76,18 @@
             }
           },
           {
+            "id": "91ee89bc8dd3ce28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formule trigonometriche.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "03883e48bbd76a0c",
             "type": "leaf",
             "state": {
@@ -218,15 +230,15 @@
   },
   "active": "8cb78222bc3241a3",
   "lastOpenFiles": [
-    "Integrali notevoli.md",
+    "Formule trigonometriche.md",
     "Calcolo integrale.md",
+    "Integrali notevoli.md",
     "Disuguaglianza di Schwartz.md",
     "Excalidraw/Calcolo integrale 2023-02-07 11.18.00.excalidraw.md",
     "Calcolo differenziale.md",
     "Derivate fondamentali.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
     "Drawing 2023-02-07 11.59.04.excalidraw.md",
-    "Funzioni monotone.md",
-    "Sviluppi di Taylor.md"
+    "Funzioni monotone.md"
   ]
 }

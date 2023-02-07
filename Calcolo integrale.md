@@ -74,6 +74,7 @@ Sia $f:[a,b]\to R$ continua e sia $\phi:[\alpha,\beta]\to[a,b]$ una funzione inv
 $$
 \int_{a}^{b} f(x) \, dx = \int_{\alpha}^{\beta} f(\phi(t))\phi' \, dt 
 $$
+[[Formule trigonometriche]]
 
 ## Proprietà
 
