@@ -87,3 +87,32 @@ $$
 
 Siano $f,g:[a,b]\to R$ tale che $\forall {a\leq x\leq b} \text{ tale che } f(x_{})\leq g(x)$ allora $\int_{a}^{b} f(x_{}) \, dx \leq \int_{a}^{b} g(x) \, dx$
 
+## Teorema del valor medio integrale
+
+Siano $[a,b]\in R$, con $a<b$ e sia $f:[a,b]\to R$ continua allora $\exists {z} \in {[a,b]}$ tale che 
+$$
+\int_{a}^{b} f(x) \, dx =(b-a)f(z)
+$$
+>[!note]- Dimostrazione
+>Poiché $f$ è continua in $[a,b]$, per il teorema di Weiestrass $f$ ha minimo e massimo in $[a,b]$
+>
+>Per la monotonia dell'integrale abbiamo che:
+>$$(b-a)m=\int_{a}^{b} m \, dx \leq \int_{a}^{b} f(x) \, dx \leq \int_{a}^{b} M \, dx = M(b-a)$$
+>Per il teorema dei valori intermedi, $\exists {z} \in {[a,b]}$  tale che  $f(z)$ è un valore compreso tra m e M di $f$, quindi
+>$$f(z)=\frac{\int_{a}^{b} f(x) \, dx}{(b-a)}$$
+
+## Secondo teorema del calcolo integrale (Torricelli-Borrow)
+
+Sia $f:[a,b]\to R$ una funzione continua in $[a,b]$ e sia  $x_{0}\in[a,b]$, sia poi 
+$$
+F(x)=\int_{x_{0}}^{x} f(t)  \, dt
+$$
+Allora $F(x)$ è detta funzione integrale di $f(x)$ e $F(x)$ è una funzione continua e derivabile in $[a,b]$ e $\forall {x} \in {[a,b]}$ si ha $F'(x)=f(x)$
+
+>[!note]- Dimostrazione
+>$F(x)=\frac{F(x+h)-F(x)}{h}=\frac{1}{h}\left( \int_{x}^{x+h} f(t)  \, dt-\int_{x+h}^{x} f(t)  \, dt \right)=\frac{1}{h}\int_{x}^{x+h} f(t)\, dt$
+>Per il teorema del valor medio integrale $\frac{F(x+h)-F(x)}{h}=f(z)$ con $z\in[x,x+h]$
+>Passando al limite per $h\to_{0}$ dove $z\to x$ dunque
+>$$F'(x)=\lim_{ h \to 0 } {\frac{F(x+h)-F(x)}{h}}=\lim_{ z \to x } {f(z)}=f(x)$$
+>
+
