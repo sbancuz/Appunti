@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estremo superiore ed inferiore.md",
+                "file": "Calcolo integrale.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Calcolo integrale.md"
+              }
             }
           }
         ]
@@ -161,17 +165,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "03883e48bbd76a0c",
+  "active": "8cb78222bc3241a3",
   "lastOpenFiles": [
+    "Asintotici noti.md",
+    "Limiti notevoli.md",
+    "Serie numeriche.md",
     "Estremo superiore ed inferiore.md",
     "Successioni.md",
     "Insieme.md",
     "Assioma di Dedekind.md",
     "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
     "Confronti e stime asintotiche.md",
-    "Calcolo differenziale.md",
-    "Funzioni monotone.md",
-    "Campi ordinati.md",
-    "Calcolo integrale.md"
+    "Calcolo differenziale.md"
   ]
 }
