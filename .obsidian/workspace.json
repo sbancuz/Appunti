@@ -146,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -228,7 +229,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8cb78222bc3241a3",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
     "Sviluppi di Taylor.md",
     "Calcolo integrale.md",
