@@ -52,7 +52,7 @@
             }
           },
           {
-            "id": "218c2582b94eb8df",
+            "id": "fd1c11090a531fb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,12 +64,12 @@
             }
           },
           {
-            "id": "fd1c11090a531fb2",
+            "id": "8cb78222bc3241a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sviluppi di Taylor.md",
+                "file": "Calcolo integrale.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sviluppi di Taylor.md",
+                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sviluppi di Taylor.md",
+                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sviluppi di Taylor.md"
+                "file": "Calcolo integrale.md"
               }
             }
           }
@@ -216,17 +216,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fd1c11090a531fb2",
+  "active": "8cb78222bc3241a3",
   "lastOpenFiles": [
-    "Espansioni di Taylor MacLaurin notevoli.md",
-    "Sviluppi di Taylor.md",
-    "Funzioni monotone.md",
+    "Integrali notevoli.md",
+    "Calcolo integrale.md",
+    "Disuguaglianza di Schwartz.md",
+    "Excalidraw/Calcolo integrale 2023-02-07 11.18.00.excalidraw.md",
     "Calcolo differenziale.md",
-    "Funzioni ad 1 variabile continue.md",
     "Derivate fondamentali.md",
-    "Forme di indecisione dei limiti.md",
-    "Limiti di funzioni a 1 variabile.md",
-    "Intorno.md",
-    "Funzioni.md"
+    "Espansioni di Taylor MacLaurin notevoli.md",
+    "Drawing 2023-02-07 11.59.04.excalidraw.md",
+    "Funzioni monotone.md",
+    "Sviluppi di Taylor.md"
   ]
 }
