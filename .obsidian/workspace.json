@@ -6,26 +6,57 @@
       {
         "id": "cb1ff0f0cf5abdcd",
         "type": "tabs",
-        "dimension": 68.25775656324582,
+        "dimension": 53.341288782816235,
         "children": [
           {
             "id": "8cb78222bc3241a3",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Derivate fondamentali.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1e0b0ce9fa664a49",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Limiti notevoli.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "45a48cc60dff1141",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Asintotici noti.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3aca6a758f229fa4",
         "type": "tabs",
-        "dimension": 31.742243436754176,
+        "dimension": 46.658711217183765,
         "children": [
           {
             "id": "03883e48bbd76a0c",
@@ -36,8 +67,21 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "e22c7e05cab6386f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calcolo differenziale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Calcolo differenziale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Calcolo differenziale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo integrale.md"
+                "file": "Calcolo differenziale.md"
               }
             }
           }
@@ -165,17 +209,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8cb78222bc3241a3",
+  "active": "e22c7e05cab6386f",
   "lastOpenFiles": [
-    "Asintotici noti.md",
     "Limiti notevoli.md",
+    "Calcolo integrale.md",
+    "Limiti di funzioni a 1 variabile.md",
+    "Calcolo differenziale.md",
+    "Massimo e minimo.md",
     "Serie numeriche.md",
-    "Estremo superiore ed inferiore.md",
-    "Successioni.md",
-    "Insieme.md",
-    "Assioma di Dedekind.md",
-    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
-    "Confronti e stime asintotiche.md",
-    "Calcolo differenziale.md"
+    "Sviluppi di Taylor.md",
+    "Asintotici noti.md",
+    "Derivate fondamentali.md",
+    "Formule trigonometriche.md"
   ]
 }
