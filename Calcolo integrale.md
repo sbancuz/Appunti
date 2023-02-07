@@ -116,3 +116,23 @@ Allora $F(x)$ è detta funzione integrale di $f(x)$ e $F(x)$ è una funzione con
 >$$F'(x)=\lim_{ h \to 0 } {\frac{F(x+h)-F(x)}{h}}=\lim_{ z \to x } {f(z)}=f(x)$$
 >
 
+In generale sia $f,g:[a,b]\to R$ continue e $g(x)$ derivabile
+$$
+F(x)=\int_{a}^{g(x)} f(t) \, dt\implies F'(x)=f(g(x))g'(x)
+$$
+
+## Teorema
+
+Sia $f$ continua e $F$ una sua funzione integrale, se $f$ cambia segno in un intorno di un punto $x_{0}$, allora in $x$ $F$ ha un minimo oppure un massimo
+
+## Integrali con Taylor
+
+Sia $f:[a,b]\to R$ derivabile n volte e sia $F$ una sua funzione integrale, allora $F$ è derivabile $n+1$ volte e quindi è sviluppabile in polinomio di Taylor
+$$
+F(x)=\sum_{k=0}^{n+1} \frac{f^{(k)}(x_{0})}{k!}\frac{(x-x_{0})^k}{k+1} + o(x^{n+1})
+$$
+
+
+
+[[Sviluppi di Taylor]]
+
