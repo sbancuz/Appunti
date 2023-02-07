@@ -70,6 +70,10 @@ Metodo LInATE (priorità) -> log, inverse, algebriche, trig, exp
 
 ## Integrazione per sostituzione
 
+Sia $f:[a,b]\to R$ continua e sia $\phi:[\alpha,\beta]\to[a,b]$ una funzione invertibile e derivabile con derivata continua, allora 
+$$
+\int_{a}^{b} f(x) \, dx = \int_{\alpha}^{\beta} f(\phi(t))\phi' \, dt 
+$$
 
 ## Proprietà
 
