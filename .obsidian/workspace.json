@@ -6,101 +6,38 @@
       {
         "id": "cb1ff0f0cf5abdcd",
         "type": "tabs",
+        "dimension": 68.25775656324582,
         "children": [
-          {
-            "id": "810aea4d3bcbdf21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Successioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "303bf40b9c10754c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "7e69a201a1a2316a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Limiti di funzioni a 1 variabile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0dab3ca1b07686a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Funzioni ad 1 variabile continue.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd1c11090a531fb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo differenziale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "8cb78222bc3241a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91ee89bc8dd3ce28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formule trigonometriche.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03883e48bbd76a0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Funzioni monotone.md",
+                "file": "Estremo superiore ed inferiore.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
+      },
+      {
+        "id": "3aca6a758f229fa4",
+        "type": "tabs",
+        "dimension": 31.742243436754176,
+        "children": [
+          {
+            "id": "03883e48bbd76a0c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "successioni",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Calcolo integrale.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -229,17 +161,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "03883e48bbd76a0c",
   "lastOpenFiles": [
-    "Sviluppi di Taylor.md",
-    "Calcolo integrale.md",
-    "Formule trigonometriche.md",
-    "Integrali notevoli.md",
-    "Disuguaglianza di Schwartz.md",
-    "Excalidraw/Calcolo integrale 2023-02-07 11.18.00.excalidraw.md",
+    "Estremo superiore ed inferiore.md",
+    "Successioni.md",
+    "Insieme.md",
+    "Assioma di Dedekind.md",
+    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
+    "Confronti e stime asintotiche.md",
     "Calcolo differenziale.md",
-    "Derivate fondamentali.md",
-    "Espansioni di Taylor MacLaurin notevoli.md",
-    "Drawing 2023-02-07 11.59.04.excalidraw.md"
+    "Funzioni monotone.md",
+    "Campi ordinati.md",
+    "Calcolo integrale.md"
   ]
 }

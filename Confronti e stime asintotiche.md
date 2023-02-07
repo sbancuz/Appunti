@@ -31,4 +31,4 @@ Siano $\{{a_{n}}\}_{n\in N}$ e $\{{b_{n}}\}_{n\in N}$ due successioni infinitesi
 	3. se $\lim_{ n \to \infty } {\frac{a_{n}}{b_{n}}}=\infty$ allora $\{{a_{n}}\}_{n\in N}$ è infinitesimo di ordine inferiore di $\{{b_{n}}\}_{n\in N}$
 	4. se $\lim_{ n \to \infty } {\frac{a_{n}}{b_{n}}}$ non esiste allora si dice che sono infinitesimi non confrontabili
 
-![[Teorema di Bolzano Weistrass e successioni di Cauchy]]
+![[Teorema di Bolzano Weiestrass e successioni di Cauchy]]

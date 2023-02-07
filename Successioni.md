@@ -39,7 +39,7 @@ $$
 >Ogni successione convergente è limitata
 >>[!note]- Dimostrazione
 Sia $a=\{a_n\}_{n\in N}$ e sia $\lim_{n\to \inf} a_n = l$ posso prendere $\epsilon=1$, $\exists n_0\in N\text{ | } \forall n\ge n_0$ si ha $|a_n-l| \le 1$ cioè $l-1\le a_n\le l+1$ quindi a è definitivamente limitata.
-D'altra parte l'insieme $\{a_0,a_1,...,a_n\}$ è fubuti quindi ha massimo M e minimo m, dunque $\forall n\in N, a_n \le max\{M,l+1\} \text{ e } a_n \ge min\{m,l-1\}$ e perciò a è limitata
+D'altra parte l'insieme $\{a_0,a_1,...,a_n\}$ è finito quindi ha massimo M e minimo m, dunque $\forall n\in N, a_n \le max\{M,l+1\} \text{ e } a_n \ge min\{m,l-1\}$ e perciò a è limitata
 
 Una successione $a=\{a_n\}_{n\in N}$ si dice infinitesima se $$\lim_{n\to \inf} a_n = 0$$
 Sia $a=\{a_n\}_{n\ge 0}$ una successione limitata e  $b=\{b_n\}_{n\ge 0}$ una successione infinitesima, allora $$ab = \{a_nb_n\}_{n\ge 0}$$ è una successione infinitesima
@@ -52,10 +52,11 @@ Sia $a=\{a_n\}_{n\ge 0}$ una successione limitata e  $b=\{b_n\}_{n\ge 0}$ una su
 
 >[!info] Criterio di convergenza per le successioni monotone
 >Ogni successioni definitivamente monotona è regolare
->	1. $\{{a_{n}}\}_{n\in N}$ è crescente e superiormente limitata, allora converge per difetto
->	2. se $\{{a_{n}}\}_{n\in N}$ è crescente e illimitata, allora diverge a $+\infty$
->	3. se $\{{a_{n}}\}_{n\in N}$ è decrescent e inferiormente limitata, allora converge per eccesso
->	4. se $\{{a_{n}}\}_{n\in N}$ è decrescente e illimitata, allora diverge a $-\infty$
+>1. $\{{a_{n}}\}_{n\in N}$ è crescente e superiormente limitata, allora converge per difetto
+>2. se $\{{a_{n}}\}_{n\in N}$ è crescente e illimitata, allora diverge a $+\infty$
+>3. se $\{{a_{n}}\}_{n\in N}$ è decrescente e inferiormente limitata, allora converge per eccesso
+>4. se $\{{a_{n}}\}_{n\in N}$ è decrescente e illimitata, allora diverge a $-\infty$
+>
 >>[!note]- Dimostrazione
 >>Sia $\{{a_{n}}\}_{n\in N}$ crescente e limitata superiormente, allora per l'[[assioma di dedekind]], l'insieme $\{a_{n}\text{ | } n\in N\}$ ha estremo superiore, sia questo estremo $l$ .
 >>Per definizione di sup, abbiamo che $\forall {\epsilon} \gt {0}$ esiste un elemento di  $\{a_{n}\text{ | } n\in N\}$, cioè un certo $a_{m}$ tale che $l-\epsilon\lt a_{m}$.
