@@ -38,7 +38,7 @@ $$
 
 Sia $f:[a,b]\to R$, $x_{}\in [a,b]$ continua e derivabile con continuità n volte in $x_{0}$, sia $P_{nx_{0}}(x)$ il polinomio così definito
 $$
-P_{nx_{0}}(x)= \sum_{i=0}^{n}{\frac{f^{(i)}(x_{0})}{i!}}(x-x_{0})^i
+P_{nx_{0}}(x)= \sum_{k=0}^{n}{\frac{f^{(k)}(x_{0})}{k!}}(x-x_{0})^k
 $$
 E si ha che $f(x)-P_{nx_{0}}(x) = o((x-x_{0})^n)$ 
 
@@ -54,3 +54,19 @@ $P_{nx_{0}}(x)$ si chiama polinimio di Taylor di grado $n$ di $f(x)$ in $x_{0}$,
 >$$
 
 ![[Espansioni di Taylor MacLaurin notevoli]]
+
+Si può calcolare esplicitamente il valore di $f(x)-P_{nx_{0}}(x)$ in un punto $x\neq x'$? Se fosse possibile non servirebbe calcolare il polinomio di Taylor, perché conosco il valore esatto.
+
+Piuttosto si può determinare una stima dell'errore per $x'\neq x_{0}$, $|f(x)-P_{nx_{0}}(x)|$ tramite una maggiorazione.
+
+## Teorema di Taylor con resto di Lagrange
+
+Sia $f:[a,b]\to R$, $x_{}\in [a,b]$ continua e derivabile con continuità $n+1$ volte in un intorno $I_{x_{0}}$ , allora 
+$$
+\forall {x} \in {I_{x_{0}}}, \exists {z} \in {[x,x_{0}]} \text{ tale che } f(x)-P_{nx_{0}}(x) = {\frac{f^{(n+1)}(z)}{(n+1)!}}(x-x_{0})^{n+1}
+$$
+In particolare 
+$$
+|f(x)-P_{nx_{0}}(x)| \leq {\frac{|x-x_{0}|^{n+1}}{(n+1)!}}max |f^{(n+1)}(t)|
+$$
+
