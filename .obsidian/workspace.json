@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numeri complessi.md",
+                "file": "Calcolo integrale.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "3aca6a758f229fa4",
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scratchpad.md",
+                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scratchpad.md",
+                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scratchpad.md"
+                "file": "Calcolo integrale.md"
               }
             }
           }
@@ -235,11 +235,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37cdcec0e0c95f43",
+  "active": "a748c945a6bc4afd",
   "lastOpenFiles": [
-    "Calcolo differenziale.md",
-    "Scratchpad.md",
     "Numeri complessi.md",
+    "Scratchpad.md",
+    "Calcolo differenziale.md",
     "Limiti di funzioni a 1 variabile.md",
     "Proprietà delle funzioni.md",
     "Asintotici noti.md",
