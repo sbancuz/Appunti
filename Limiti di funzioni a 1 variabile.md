@@ -1,4 +1,4 @@
-	Sia $f$ una funzione definita su un sottoinsieme da $R\to R$, sia poi $c$ un punto di accumulazione per $f$, cioè $c\in R$ ed esiste un intervallo $c\in I$ tale che $f$ $\forall {x} \in {I}$ tranne eventualmente in c.
+Sia $f$ una funzione definita su un sottoinsieme da $R\to R$, sia poi $c$ un punto di accumulazione per $f$, cioè $c\in R$ ed esiste un intervallo $c\in I$ tale che $f$ $\forall {x} \in {I}$ tranne eventualmente in c.
 
 Per estensione c può anche essere $\infty \lor -\infty$ purché l'intervallo permetta.
 

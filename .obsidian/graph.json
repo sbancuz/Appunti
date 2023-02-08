@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "test",
+  "search": "conti",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9999999999999954,
+  "scale": 0.8388683088718321,
   "close": false
 }

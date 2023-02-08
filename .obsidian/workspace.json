@@ -6,7 +6,7 @@
       {
         "id": "cb1ff0f0cf5abdcd",
         "type": "tabs",
-        "dimension": 53.341288782816235,
+        "dimension": 40.39334341906203,
         "children": [
           {
             "id": "8cb78222bc3241a3",
@@ -49,14 +49,28 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e22c7e05cab6386f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Espansioni di Taylor MacLaurin notevoli.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "3aca6a758f229fa4",
         "type": "tabs",
-        "dimension": 46.658711217183765,
+        "dimension": 59.60665658093798,
         "children": [
           {
             "id": "03883e48bbd76a0c",
@@ -69,12 +83,12 @@
             }
           },
           {
-            "id": "e22c7e05cab6386f",
+            "id": "a748c945a6bc4afd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "Limiti di funzioni a 1 variabile.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -147,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "Espansioni di Taylor MacLaurin notevoli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "Espansioni di Taylor MacLaurin notevoli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo differenziale.md"
+                "file": "Espansioni di Taylor MacLaurin notevoli.md"
               }
             }
           }
@@ -211,15 +226,15 @@
   },
   "active": "e22c7e05cab6386f",
   "lastOpenFiles": [
-    "Limiti notevoli.md",
     "Calcolo integrale.md",
-    "Limiti di funzioni a 1 variabile.md",
     "Calcolo differenziale.md",
-    "Massimo e minimo.md",
+    "Limiti di funzioni a 1 variabile.md",
+    "Espansioni di Taylor MacLaurin notevoli.md",
+    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
+    "Funzioni.md",
+    "Funzioni ad 1 variabile continue.md",
+    "Funzioni monotone.md",
     "Serie numeriche.md",
-    "Sviluppi di Taylor.md",
-    "Asintotici noti.md",
-    "Derivate fondamentali.md",
-    "Formule trigonometriche.md"
+    "Asintotici noti.md"
   ]
 }
