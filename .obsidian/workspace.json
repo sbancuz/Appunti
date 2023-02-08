@@ -6,7 +6,7 @@
       {
         "id": "cb1ff0f0cf5abdcd",
         "type": "tabs",
-        "dimension": 40.39334341906203,
+        "dimension": 72.01210287443268,
         "children": [
           {
             "id": "8cb78222bc3241a3",
@@ -63,14 +63,38 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "a748c945a6bc4afd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numeri complessi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37cdcec0e0c95f43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scratchpad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "3aca6a758f229fa4",
         "type": "tabs",
-        "dimension": 59.60665658093798,
+        "dimension": 27.987897125567322,
         "children": [
           {
             "id": "03883e48bbd76a0c",
@@ -81,21 +105,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "a748c945a6bc4afd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Limiti di funzioni a 1 variabile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Espansioni di Taylor MacLaurin notevoli.md",
+                "file": "Scratchpad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Espansioni di Taylor MacLaurin notevoli.md",
+                "file": "Scratchpad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Espansioni di Taylor MacLaurin notevoli.md"
+                "file": "Scratchpad.md"
               }
             }
           }
@@ -224,17 +235,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e22c7e05cab6386f",
+  "active": "37cdcec0e0c95f43",
   "lastOpenFiles": [
-    "Calcolo integrale.md",
     "Calcolo differenziale.md",
+    "Scratchpad.md",
+    "Numeri complessi.md",
     "Limiti di funzioni a 1 variabile.md",
+    "Proprietà delle funzioni.md",
+    "Asintotici noti.md",
+    "Calcolo integrale.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
     "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
-    "Funzioni.md",
-    "Funzioni ad 1 variabile continue.md",
-    "Funzioni monotone.md",
-    "Serie numeriche.md",
-    "Asintotici noti.md"
+    "Funzioni.md"
   ]
 }
