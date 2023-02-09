@@ -6,7 +6,7 @@
       {
         "id": "cb1ff0f0cf5abdcd",
         "type": "tabs",
-        "dimension": 72.01210287443268,
+        "dimension": 72.01210287443267,
         "children": [
           {
             "id": "8cb78222bc3241a3",
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Serie numeriche.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
       {
         "id": "3aca6a758f229fa4",
         "type": "tabs",
-        "dimension": 27.987897125567322,
+        "dimension": 27.98789712556732,
         "children": [
           {
             "id": "03883e48bbd76a0c",
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Serie numeriche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Serie numeriche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo integrale.md"
+                "file": "Serie numeriche.md"
               }
             }
           }
@@ -237,13 +237,13 @@
   },
   "active": "a748c945a6bc4afd",
   "lastOpenFiles": [
+    "Calcolo differenziale.md",
+    "Calcolo integrale.md",
     "Numeri complessi.md",
     "Scratchpad.md",
-    "Calcolo differenziale.md",
     "Limiti di funzioni a 1 variabile.md",
     "Proprietà delle funzioni.md",
     "Asintotici noti.md",
-    "Calcolo integrale.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
     "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
     "Funzioni.md"
