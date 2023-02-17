@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie numeriche.md",
+                "file": "Funzioni ad 1 variabile continue.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
       {
         "id": "3aca6a758f229fa4",
         "type": "tabs",
-        "dimension": 27.98789712556732,
+        "dimension": 27.987897125567326,
         "children": [
           {
             "id": "03883e48bbd76a0c",
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serie numeriche.md",
+                "file": "Funzioni ad 1 variabile continue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serie numeriche.md",
+                "file": "Funzioni ad 1 variabile continue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serie numeriche.md"
+                "file": "Funzioni ad 1 variabile continue.md"
               }
             }
           }
@@ -237,15 +237,15 @@
   },
   "active": "a748c945a6bc4afd",
   "lastOpenFiles": [
-    "Calcolo differenziale.md",
     "Calcolo integrale.md",
+    "Calcolo differenziale.md",
+    "Funzioni ad 1 variabile continue.md",
+    "Serie numeriche.md",
     "Numeri complessi.md",
     "Scratchpad.md",
     "Limiti di funzioni a 1 variabile.md",
     "Proprietà delle funzioni.md",
     "Asintotici noti.md",
-    "Espansioni di Taylor MacLaurin notevoli.md",
-    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
-    "Funzioni.md"
+    "Espansioni di Taylor MacLaurin notevoli.md"
   ]
 }
