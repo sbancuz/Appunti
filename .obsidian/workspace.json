@@ -13,13 +13,134 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Imprenditore.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79497bcf646eb36b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rischiosa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45a80e5534eabae1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fallimento impresa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6620fe29b25b5e52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obiettivi dell'impresa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e6a3076d8f92cae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tipologia di impresa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a41957cc1e37ebe3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lavoratore subordinato.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "916dbe361a069fc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital servitization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d53edc89a2d1c98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Platformization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bbf2902d6dea19f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Società.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce4103a73fc253ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azienda.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "950d0e6b4400daa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ditta.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Tipologia di impresa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Tipologia di impresa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Tipologia di impresa.md"
               }
             }
           }
@@ -148,17 +269,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "21a4029ca47b57fa",
+  "active": "0e6a3076d8f92cae",
   "lastOpenFiles": [
-    "Criterio di convergenza per le successioni monotone.md",
-    "Convergenza successioni.md",
-    "Successioni.md",
-    "Funzioni ad 1 variabile continue.md",
-    "Teorema dei valori intermedi.md",
-    "Teorema di Weierstrass.md",
-    "Teorema degli zeri.md",
-    "Calcolo integrale.md",
-    "Calcolo differenziale.md",
-    "Serie numeriche.md"
+    "Industria.md",
+    "Tipologia di impresa.md",
+    "Dimensione.md",
+    "Obiettivi dell'impresa.md",
+    "Costi opportunità.md",
+    "Profitto.md",
+    "Fallimento impresa.md",
+    "Imprenditore.md",
+    "Rischiosa.md",
+    "Responsabilità limitata.md"
   ]
 }
