@@ -4,143 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c4c09df63cf380ff",
+        "id": "09f4be2f63b47f83",
         "type": "tabs",
         "children": [
           {
-            "id": "21a4029ca47b57fa",
+            "id": "b4f82d360792f32f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Imprenditore.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79497bcf646eb36b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rischiosa.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45a80e5534eabae1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fallimento impresa.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6620fe29b25b5e52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obiettivi dell'impresa.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e6a3076d8f92cae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tipologia di impresa.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a41957cc1e37ebe3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lavoratore subordinato.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "916dbe361a069fc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital servitization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d53edc89a2d1c98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Platformization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bbf2902d6dea19f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Società.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce4103a73fc253ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Azienda.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "950d0e6b4400daa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ditta.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tipologia di impresa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tipologia di impresa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Tipologia di impresa.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -269,17 +140,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0e6a3076d8f92cae",
+  "active": "b4f82d360792f32f",
   "lastOpenFiles": [
-    "Industria.md",
+    "Ditta.md",
+    "Azienda.md",
+    "Società.md",
+    "Platformization.md",
+    "Digital servitization.md",
+    "Lavoratore subordinato.md",
+    "Calcolo integrale.md",
+    "Sviluppi di Taylor.md",
     "Tipologia di impresa.md",
-    "Dimensione.md",
-    "Obiettivi dell'impresa.md",
-    "Costi opportunità.md",
-    "Profitto.md",
-    "Fallimento impresa.md",
-    "Imprenditore.md",
-    "Rischiosa.md",
-    "Responsabilità limitata.md"
+    "Industria.md"
   ]
 }
