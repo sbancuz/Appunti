@@ -1,3 +1,6 @@
+---
+tags: [economia]
+---
 Le imprese rappresentano una realtà multiforme e possono essere classificate in base a:
 	• Proprietà -> pubblica o privata
 	• [[Obiettivi dell'impresa|Obiettivo]] -> profit o non profit 

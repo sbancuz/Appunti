@@ -1,3 +1,6 @@
+---
+tags: [economia]
+---
 In generale obiettivo dell’[[impresa]] è generare valore per i soggetti a vario titolo coinvolti in essa  
 
 La maggior parte delle imprese si pone l’obiettivo di ottenere [[Profitto]] 

@@ -1,3 +1,6 @@
+---
+tags: [economia]
+---
 [[Rischio]] di impresa -> legato ai risultati economici dell’impresa
 
 Nella genesi del rischio d'impresa si rilvano 3 fattori:

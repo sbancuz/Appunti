@@ -1,3 +1,6 @@
+---
+tags: [economia]
+---
 L’industria è:  
 • insieme di tutte le [[Impresa|imprese]] che producono un dato prodotto o erogano un dato servizio  
 • insieme di tutte le [[Impresa|imprese]] che producono prodotti o erogano servizi che i consumatori considerano sostituti

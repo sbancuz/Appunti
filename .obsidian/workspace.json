@@ -10,9 +10,23 @@
           {
             "id": "4f5984219551ea65",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "bd287498a2f04f5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obiettivi dell'impresa.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -142,15 +156,15 @@
   },
   "active": "4f5984219551ea65",
   "lastOpenFiles": [
-    "Accelerazione.md",
-    "Cinematica del punto.md",
-    "Velocità.md",
-    "Ascissa curvilinea.md",
-    "Calcolo integrale.md",
+    "Obiettivi dell'impresa.md",
+    "Tipologia di impresa.md",
+    "Dimensione.md",
+    "Costi opportunità.md",
+    "Profitto.md",
     "Ditta.md",
     "Azienda.md",
-    "Società.md",
-    "Platformization.md",
-    "Digital servitization.md"
+    "Economica.md",
+    "Fallimento impresa.md",
+    "Lavoratore subordinato.md"
   ]
 }

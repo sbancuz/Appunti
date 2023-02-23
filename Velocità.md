@@ -1,3 +1,6 @@
+---
+tags: [meccanica]
+---
 $$
 \begin{align}
 \overline{v} &  = \frac{d\overline{P}}{dt} = \frac{dx}{dt}\overline{i} + \frac{dy}{dt}\overline{j} = v_{x}\overline{i} + v_{y}\overline{j} \\

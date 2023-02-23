@@ -1,3 +1,6 @@
+---
+tags: [economia]
+---
 Un'[[impresa]] può avere una durata infinita, non muore con l'[[imprenditore]]. Rischia però di morire se non realizza profitti e dunque non riesce a remunerare i fattori produttivi
 
 >[!info]
