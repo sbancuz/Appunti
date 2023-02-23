@@ -13,3 +13,5 @@ Come sistema di riferimento con il piano dei [[numeri complessi]] o posso anche 
 ![[Velocità]]
 
 ![[Accelerazione]]
+
+![[Moto circolare]]

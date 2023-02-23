@@ -18,22 +18,26 @@
             }
           },
           {
-            "id": "bd287498a2f04f5b",
+            "id": "7b67b8cb1da3bf98",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md"
+                "file": "Cinematica del punto.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "bcb8d5ac03f69732",
+            "id": "080a1001b6b3dc98",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.15"
+                "file": "Corpo rigido.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -104,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
+                "file": "Corpo rigido.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
+                "file": "Corpo rigido.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md"
+                "file": "Corpo rigido.md"
               }
             }
           }
@@ -166,8 +171,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bcb8d5ac03f69732",
+  "active": "080a1001b6b3dc98",
   "lastOpenFiles": [
+    "Cinematica del punto.md",
+    "Corpo rigido.md",
+    "Moto circolare.md",
+    "Velocità.md",
+    "Accelerazione.md",
+    "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
     "Insieme.md",
     "Obiettivi dell'impresa.md",
     "Tipologia di impresa.md",
