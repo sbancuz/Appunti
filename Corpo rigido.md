@@ -50,6 +50,8 @@ $$
 
 Il CIR migra tra diversi punti nello spazio.
 
+## Formule di Rivals
+
 ### Posizione
 
 ```math
@@ -62,6 +64,13 @@ Il CIR migra tra diversi punti nello spazio.
 
 ```math
 ||{"id":951346887499}||
+
+
+```
+### Accellerazione
+
+```math
+||{"id":1032926211043}||
 
 
 ```
