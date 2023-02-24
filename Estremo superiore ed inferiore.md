@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 Sia X un insieme qualunque su cui è definita una [[Relazione d'ordine]] totale, sia poi $E\subseteq X$ si dice che E è superiormente limitato se $$\exists M\in X \text{ | } \forall x \in E \text{ si ha } x \le M$$Si dirà che X è inferiormente limitato se
 $$\exists m\in X \text{ | } \forall x \in E \text{ si ha } m \le x$$
 Si dice invece che E è limitato se è superiormente e inferiormente limitato cioè$$\exists m,M\in X \text{ | } \forall x \in E \text{ si ha } m \le x \le M$$

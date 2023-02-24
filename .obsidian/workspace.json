@@ -18,24 +18,24 @@
             }
           },
           {
-            "id": "7b67b8cb1da3bf98",
+            "id": "e24d4a896fa73b61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cinematica del punto.md",
+                "file": "Convergenza successioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "080a1001b6b3dc98",
+            "id": "45d969f3fb6b4796",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Permanenza del segno per successioni monotone.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Permanenza del segno per successioni monotone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Permanenza del segno per successioni monotone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Corpo rigido.md"
+                "file": "Permanenza del segno per successioni monotone.md"
               }
             }
           }
@@ -171,23 +171,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "080a1001b6b3dc98",
+  "active": "45d969f3fb6b4796",
   "lastOpenFiles": [
+    "Convergenza successioni.md",
+    "Untitled.md",
     "Cinematica del punto.md",
-    "Corpo rigido.md",
-    "Moto circolare.md",
-    "Velocità.md",
-    "Accelerazione.md",
-    "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
-    "Insieme.md",
-    "Obiettivi dell'impresa.md",
-    "Tipologia di impresa.md",
-    "Dimensione.md",
-    "Costi opportunità.md",
-    "Profitto.md",
-    "Ditta.md",
-    "Azienda.md",
-    "Economica.md",
-    "Fallimento impresa.md"
+    "Digital servitization.md",
+    "Platformization.md",
+    "Derivate fondamentali.md",
+    "Intorno.md",
+    "Società.md",
+    "Principio di induzione.md",
+    "Buon ordinamento.md",
+    "Dimostrazione Teorema insieme potenza.md",
+    "Criterio di Leibniz.md",
+    "Serie numeriche.md",
+    "Criterio del rapporto per le serie.md",
+    "Criterio della radice per le serie.md",
+    "Criterio del confronto asintotico per le serie.md",
+    "Criterio del confronto per le serie.md",
+    "Forme di indecisione dei limiti.md",
+    "Funzioni ad 1 variabile continue.md",
+    "Teorema dei valori intermedi.md",
+    "Teorema di Weierstrass.md",
+    "Teorema degli zeri.md",
+    "Limiti notevoli.md",
+    "Teorema del confronto per le successioni monotone.md",
+    "Fattoriale.md",
+    "Criterio di convergenza per le successioni monotone.md"
   ]
 }

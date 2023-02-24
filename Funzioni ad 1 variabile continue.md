@@ -1,4 +1,6 @@
-
+---
+tags: [analisi 1]
+---
 ![[Teorema degli zeri]]
 
 ![[Teorema di Weierstrass]]

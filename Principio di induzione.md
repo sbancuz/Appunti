@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 I numeri naturali soddisfano l'assioma di [[Buon ordinamento]].
 
 Sia P una proprietà dipendente da un naturale n, scrivo P(n) per dire che "n ha la proprietà P" dove P può essere vero o falso.

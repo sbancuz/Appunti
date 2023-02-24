@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 5429216
       }
+    },
+    {
+      "query": "analisi 1",
+      "color": {
+        "a": 1,
+        "rgb": 6938706
+      }
     }
   ],
   "collapse-display": true,

@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 Ogni polinomio a coefficienti complessi ammetta almeno una radice
 
 ### Corollario

@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 Sia $f:[a,b]\to R$ continua sull'intervallo chiuso e limitato $[a,b]$, allora $f$ assume massimo e minimo in $[a,b]$ cioè 
 $$
 \forall {x} \in {[a,b]} \text{ tale che} f(m)\leq f(x)\leq f(M) 

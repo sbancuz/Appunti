@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 Sia $f$ continua su $[a,b]$, siano m e M minimo e massimo di $f$ su $[a,b]$, e sia $t$ tale che $m\leq t\leq M$, allora $\exists {x_{0}} \in {[a,b]}$ tale che $f(x_{0})=t$
 
 >[!note]- Dimostrazione

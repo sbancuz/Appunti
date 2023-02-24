@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 $f(x)=k\to f'(x)=0$
 $f(x)=kx^a\to f'(x)=akx^{a-1}$
 $f(x)=a^x\to f'(x)=\frac{a^x}{\ln a}$

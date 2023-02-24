@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 ## Definizione
 
 L'insieme è una collezione di oggetti. Un insieme può essere finito o infinito.

@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 Dati A e B [[Insieme]], si dice che $A \subseteq B$ se tutti gli elementi di A sono elementi di B
 $$B \subseteq A \text{ sse } \forall x \in B \text{, } x \in A $$
 Si denota con $\emptyset$ l'insieme vuoto o privo di elementi ^4125da

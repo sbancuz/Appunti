@@ -1,3 +1,6 @@
+---
+tags: [analisi 1]
+---
 Sia $f:[a,b]\to R$ continua in $[a,b]$ e tale che $f(a)f(b)<0$ allora $\exists {c} \in {(a,b)}$ tale che $f(c)=0$, se poi $f$ è strttamente monotona, allora il punto $c$ è unico
 ```math
 ||{"id":781248353629}||
