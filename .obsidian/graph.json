@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "meccanica",
@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 6938706
       }
+    },
+    {
+      "query": "sistemi informativi",
+      "color": {
+        "a": 1,
+        "rgb": 5396192
+      }
     }
   ],
   "collapse-display": true,
@@ -34,11 +41,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.7478272121606,
+  "collapse-forces": false,
+  "centerStrength": 0.291666666666667,
+  "repelStrength": 9.58333333333333,
+  "linkStrength": 0.864583333333333,
+  "linkDistance": 263,
+  "scale": 0.12434057557859676,
   "close": false
 }

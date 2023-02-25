@@ -13,4 +13,5 @@ Per essere considerata impresa un’attività deve essere:
 	• [[Professionale]]
 	• [[Organizzata]]
 	• [[Rischiosa]]
-	
+
+![[Profitto impresa]]
