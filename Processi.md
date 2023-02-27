@@ -1,5 +1,6 @@
 ---
 aliases: [processi]
+tags: [sistemi_informativi]
 ---
 Processo è l’insieme di attività che l’organizzazione nel suo complesso svolge per gestire il ciclo di vita di una risorsa, o di un gruppo omogeneo di risorse, per raggiungere un risultato definito e misurabile.
 

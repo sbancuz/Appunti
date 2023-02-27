@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 (A, +, •) Si dice campo sse:
 	1 • (A, +) è [[Gruppo abeliano]]

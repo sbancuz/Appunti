@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Siano $[a,b]\in R$, con $a<b$ e sia $f:[a,b]\to R$ continua allora $\exists {z} \in {[a,b]}$ tale che 
 $$

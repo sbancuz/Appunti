@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 I numeri naturali soddisfano l'assioma di [[Buon ordinamento]].
 

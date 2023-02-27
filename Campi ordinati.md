@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 Sia A un [[Insieme]], un'operazione ad A è una funzione da AxA in A
 
 ![[Campo]]

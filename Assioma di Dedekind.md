@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Sia X un [[Insieme]] [[Relazione d'ordine|ordinato]], si dice che X soddisfa l'assioma di Dedekind se si ha che ogni [[Sottoinsieme]] [[Estremo superiore ed inferiore|superiormente limitato]] di X ha estremo superiore
 

@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Sia $f:[a,b]\to R$, continua in $[a,b]$ e derivabile in $(a,b)$, allora
 $$

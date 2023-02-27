@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Sia data $\sum_{i=0}^\infty{(-1)^na_{n}}$ allora se:
 	1. $\{{a_{n}}\}_{n\in N}$ è a termini definitivamente positivi

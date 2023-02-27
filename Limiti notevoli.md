@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 $\lim_{ x \to 0 } {\frac{\log_{a}(1+x)}{x}}=\frac{1}{\ln a}$
 $\lim_{ x \to \infty } {\left( 1+\frac{1}{x} \right)^x} = e$

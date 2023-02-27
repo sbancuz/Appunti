@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 (A, +) dove il + rappresenta un simbolo generico si dice gruppo abeliano se:
 	1 • + è associativa

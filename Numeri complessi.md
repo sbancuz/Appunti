@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Per calcolare la radice quadrata di un numero negativo basta avere la $\sqrt{-1} = i$ infatti $$\text{se} \lt 0\to\sqrt{a} = \sqrt{i*|a|}$$
 Aggiungo a $R$ quindi $i^2 = -1$ in modo tale da poter esprimere tutte le espressioni come $$x+iy \text{ con } x,y \in R$$

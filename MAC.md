@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 I sistemi gestiti in base a politiche mandatorie sono adatti per database con dati sensibili dove esistono diversi livelli di sensitività, e dove sono necessari anche controlli sul flusso di dati, controlli sul rilascio di dati e controlli sugli utenti.
 
 I meccanismi di sicurezza che implementano politiche MAC devono garantire

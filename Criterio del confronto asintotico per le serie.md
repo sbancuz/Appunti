@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 
 Siano $\{{a_{n}}\}_{n\in N}$ e $\{{b_{n}}\}_{n\in N}$ non definitivamente negative e sia $a_{n}\sim b_{n},n\to \infty$ allora: $\sum a_{n}$ e $\sum b_{n}$ hanno lo stesso carattere

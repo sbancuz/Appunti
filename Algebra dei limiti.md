@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Siano $a=\{a_n\}_{n\in N}$, $b=\{b_n\}_{n\in N}$ convergenti e sia $\lim_{n\to \inf} a_n = l_a$, $\lim_{n\to \inf} b_n = l_b$ allora:
 • $\forall \alpha,\beta\in R$ la successione $\alpha a_n + \beta b_n$ è convergente e il suo limite è $$\lim_{n\to \inf}\alpha a_n + \beta b_n=\alpha l_a + \beta l_b$$

@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Il process mining è usato per scoprire, monitorare e migliorare i processi attraverso l'estrazione di conoscenza dai #log
 
 ![[Process mining.png]]

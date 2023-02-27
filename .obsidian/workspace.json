@@ -18,55 +18,31 @@
             }
           },
           {
-            "id": "cbf1c40b7c42e40c",
+            "id": "1b6d03c8d7b98d61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domanda.md",
+                "file": "5. Prospettiva organizzativa.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eea804afcb258937",
+            "id": "df0951d3153a1e92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Utilità marginale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e90c15d6674f780",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mark-up.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bded60aeac43d6f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Consumatori.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "successioni",
+                "query": "tag:#economia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -133,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Domanda.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Domanda.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Domanda.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -195,43 +170,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cbf1c40b7c42e40c",
+  "active": "df0951d3153a1e92",
   "lastOpenFiles": [
-    "Elasticità della domanda.md",
-    "Domanda.md",
-    "Esternalità di rete.md",
-    "Beni.md",
-    "Beni inferiori.md",
-    "Beni sostitutivi.md",
-    "Profitto impresa.md",
-    "Curva di domanda individuale.md",
-    "Impresa.md",
-    "Consumatori.md",
-    "Mark-up.md",
-    "Utilità marginale.md",
-    "Data Warehouse.md",
+    "Untitled.md",
+    "5. Prospettiva organizzativa.md",
+    "4. Prospettiva di business.md",
+    "3. BOAT.md",
+    "6. Architetture funzionali.md",
+    "8. ERP.md",
+    "Intrusion Detection System.md",
+    "12. Cloud Computing.md",
+    "2. Progettazione di SI.md",
+    "10. Tecnologie a livello di piattaforma.md",
+    "11. Tecnologie a livello di architettura fisica.md",
+    "14. Archimate.md",
     "1. Introduzione.md",
-    "Beni normali.md",
-    "Paradosso di Veblen.md",
-    "Paradosso di Giffen.md",
-    "Surplus del consumatore.md",
+    "9. Data Mining.md",
+    "13. Sicurezza dei sistemi.md",
+    "7. Aspetti tecnologici.md",
+    "Indice.md",
+    "Classificazione.md",
+    "ETL.md",
+    "Metadati.md",
+    "Reach.md",
+    "Richness.md",
+    "Efficacia.md",
+    "Efficienza.md",
+    "KPI.md",
+    "Sistemi informativi distribuiti 1.md",
+    "Requiremets 1.png",
+    "Progettazione soluzioni 1.png",
     "Curva domanda.png",
     "Pasted image 20230224113648.png",
     "Pasted image 20230224113635.png",
     "Pasted image 20230224113617.png",
-    "Prezzo di riserva.md",
-    "Funzione di utilità.md",
-    "Stakeholder.md",
     "EA Buy 1.png",
     "EA make 1.png",
     "Analisi gestione 1.png",
-    "COTS vs ad-hoc 1.png",
-    "Progettazione soluzioni 1.png",
-    "studio fattibilita 1.png",
-    "Pianificazione strategica 1.md",
-    "Sistemi informativi 1.md",
-    "Enterprise Architecture 1.md",
-    "stakeholder 1.md",
-    "Informazione 1.md"
+    "COTS vs ad-hoc 1.png"
   ]
 }

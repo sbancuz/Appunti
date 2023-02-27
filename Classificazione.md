@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 La classificazione permette di assegnare in modo automatico gli elementi della
 base di dati a classi predefinite. 
 

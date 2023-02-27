@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Ogni polinomio a coefficienti complessi ammetta almeno una radice
 

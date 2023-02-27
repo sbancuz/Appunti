@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 Sia $f$ una funzione definita su un sottoinsieme da $R\to R$, sia poi $c$ un punto di accumulazione per $f$, cioè $c\in R$ ed esiste un intervallo $c\in I$ tale che $f$ $\forall {x} \in {I}$ tranne eventualmente in c.
 
 Per estensione c può anche essere $\infty \lor -\infty$ purché l'intervallo permetta.
@@ -8,7 +11,8 @@ Allora possiamo passare la limite di successioni al limite di funzioni in questo
 
 ### Definizione successionale di limite
 
-Sia $f$ una funzione e $c$ un punto di accumulazione per $f$, se per ogni successione $\{{x_{n}}\}_{n\in N}$ tale che $\lim_{ n \to \infty } {x_{n}}=c$ si ha che $\lim_{ n \to \infty } {f(x_{n})}=l$, allora si dice che il limite per $x$ che tende a $c$ di $f(x)=l$ e si scrive $$
+Sia $f$ una funzione e $c$ un punto di accumulazione per $f$, se per ogni successione $\{{x_{n}}\}_{n\in N}$ tale che $\lim_{ n \to \infty } {x_{n}}=c$ si ha che $\lim_{ n \to \infty } {f(x_{n})}=l$, allora si dice che il limite per $x$ che tende a $c$ di $f(x)=l$ e si scrive 
+$$
 \lim_{ x \to c } {f(x)}=l
 $$
 Se $f$ è tale che $\lim_{ x \to c } {f(x)}=0$ si dice che $f$ è infinitesima per $x\to c$ 
@@ -71,38 +75,46 @@ Se invece definitivamente $f(x_{n})\leq l$ allora $$
 $$
 ### Limiti destri e sinistri
 
-Sia $f$ una funzione con $c \in R$ e $l \in R \cup\{-\infty,\infty\}$ si dice che $f(x)\to l$ per $x\to c$ da destra se per ogni successione $\{{x_{n}}\}_{n\in N}$ tale che $\lim_{ x \to \infty } {x_{n}}=c^+$ si ha che $\lim_{ n \to \infty } {f(x_{n})}=l$ e si scrive $$
+Sia $f$ una funzione con $c \in R$ e $l \in R \cup\{-\infty,\infty\}$ si dice che $f(x)\to l$ per $x\to c$ da destra se per ogni successione $\{{x_{n}}\}_{n\in N}$ tale che $\lim_{ x \to \infty } {x_{n}}=c^+$ si ha che $\lim_{ n \to \infty } {f(x_{n})}=l$ e si scrive 
+$$
 \lim_{ x \to c^+ } {f(x)}=l
 $$
-Se invece arriva da sinistra si scrive $$
+Se invece arriva da sinistra si scrive 
+$$
 \lim_{ x \to c^- } {f(x)}=l
 $$
 ## Definizione topologica di limite
 
-Sia $c \in R\cup\{-\infty,\infty\}$ e $f$ definita difinitivamente per $x\to c$ si dice che $\lim_{ x \to c } {f(x)}=l$ con $l \in R\cup\{-\infty,\infty\}$ se per ogni intorno $I_{l}$ di $l$ esiste un intorno $J_{c}$ di $c$ tale che $$
+Sia $c \in R\cup\{-\infty,\infty\}$ e $f$ definita difinitivamente per $x\to c$ si dice che $\lim_{ x \to c } {f(x)}=l$ con $l \in R\cup\{-\infty,\infty\}$ se per ogni intorno $I_{l}$ di $l$ esiste un intorno $J_{c}$ di $c$ tale che 
+$$
 \forall {x} \in {J_{c}},x\neq c \text{ si ha che } f(x)\in I_{l} 
 $$
 è una definizione compatta che riassume tutti i casi possibili.
 
 ### Finito al finito
 
-Siano $c,l\in R$ gli intorni sono intervalli centrati in $c,l$ e abbiamo $\lim_{ x \to c } {f(x)}=l$ sse $$
+Siano $c,l\in R$ gli intorni sono intervalli centrati in $c,l$ e abbiamo $\lim_{ x \to c } {f(x)}=l$ sse 
+$$
 \forall {\epsilon} > {0},\exists {\delta} > {0} \text{ | } |x-c|<\delta,x\neq c \text{ si ha } |f(x)-l|<\epsilon  
 $$
 ### Finito all'infinito
 
-Siano $c\in R,l=+\infty$ allora $\lim_{ x \to c } {f(x)}=+ \infty$ sse $$
+Siano $c\in R,l=+\infty$ allora $\lim_{ x \to c } {f(x)}=+ \infty$ sse 
+$$
 \forall {M} > {0},\exists {\delta} > {0} \text{ | } |x-c|<\delta,x\neq c \text{ si ha } f(x) > M
 $$
-Siano $c\in R,l=-\infty$ allora $\lim_{ x \to c } {f(x)}=- \infty$ sse $$
+Siano $c\in R,l=-\infty$ allora $\lim_{ x \to c } {f(x)}=- \infty$ sse
+$$
 \forall {m} < {0},\exists {\delta} > {0} \text{ | } |x-c|<\delta,x\neq c \text{ si ha } f(x) < m
 $$
 ## Infinito al finito
 
-Siano $c=+\infty, l\in R$ allora $\lim_{ x \to \infty } {f(x)}=l$ sse $$
+Siano $c=+\infty, l\in R$ allora $\lim_{ x \to \infty } {f(x)}=l$ sse 
+$$
 \forall {N} > {0},\exists {M} > {0} \text{ | } x>M \text{ si ha } f(x)>N  
 $$
-Siano $c=-\infty, l\in R$ allora $\lim_{ x \to -\infty } {f(x)}=l$ sse $$
+Siano $c=-\infty, l\in R$ allora $\lim_{ x \to -\infty } {f(x)}=l$ sse 
+$$
 \forall {N} > {0},\exists {M} > {0} \text{ | } x<-M \text{ si ha } f(x)>N  
 $$
 ## Asintoti 
@@ -113,7 +125,8 @@ Sia $f$ una funzione definita in un intorno di $\pm\infty$, si dice che $f$ ha u
 
 ### Obliqui
 
-Sia $f$ una funzione definita in un intorno di $\pm\infty$, si dice che $f$ ha un asintoto orizzontale di equazione $y=mx+x$ con $m\neq 0,m\in R$ per $x\to \pm\infty$ se $\lim_{ x \to \pm\infty } {f(x)}=\pm \infty$ se $$
+Sia $f$ una funzione definita in un intorno di $\pm\infty$, si dice che $f$ ha un asintoto orizzontale di equazione $y=mx+x$ con $m\neq 0,m\in R$ per $x\to \pm\infty$ se $\lim_{ x \to \pm\infty } {f(x)}=\pm \infty$ se 
+$$
 \lim_{ x \to \infty } {(f(x)-(mx+q))}=0
 $$
 Dove $m=\lim_{ x \to \infty } {\frac{f(x)}{x}}$ e $q=\lim_{ x \to \infty } {f(x)-mx}$
@@ -156,7 +169,8 @@ Siano $f,g$ funzioni tali che risulti definita la composizione $f(g(x))$ definit
 	2. esiste $\lim_{ t \to d } {f(t)}\in R\cup\{-\infty,\infty\}$
 	3. $g(x)\neq d$ definitivamente per $x\to c$
 
-Allora $$
+Allora 
+$$
 \lim_{ x \to c } {f(g(x))}=\lim_{ t \to d } {f(t)}
 $$
 ### Corollario

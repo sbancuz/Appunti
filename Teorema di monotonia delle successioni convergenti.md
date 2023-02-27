@@ -1,7 +1,7 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
-Siano $\{{a_{n}}\}_{n\in N}$ e $\{{b_{n}}\}_{n\in N}$ siccessioni convergenti tali che $\lim_{ n \to \infty } {a_{n}} = l$ e $\lim_{ n \to \infty } {b_{n}}=l_{1}$
+Siano $\{{a_{n}}\}_{n\in N}$ e $\{{b_{n}}\}_{n\in N}$ successioni convergenti tali che $\lim_{ n \to \infty } {a_{n}} = l$ e $\lim_{ n \to \infty } {b_{n}}=l_{1}$
 Se definitivamente $a_{n}\le b_{n}$ allora $l\le l_{1}$
 
 >[!note]- Dimostrazione

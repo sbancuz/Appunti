@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Il CRM operativo si occupa dell’interazione dei clienti con l’azienda e in particolare, è costituito da diversi componenti per supportare le attività di vendita, di marketing e di supporto al cliente. 
 
 ## Marketing

@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Commercial Off-The-Shelf o Commercially available Off-The-Shelf.
 
 Si possono acquistare in 2 modi:

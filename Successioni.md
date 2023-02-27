@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 Si chiama successione una qualunque funzione da $N\to R$ o più generalmente da un sottoinsieme di $N$ del tipo $\{n\in N \text{ | }n\ge c\}$ in $R$ dove $c$ è una costante arbitraria.
 
 Se ho $f:N\to R$, $f$ è una successione e la rappresento $f_n$ e più in generale si indica $$

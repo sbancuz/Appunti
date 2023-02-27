@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 I nodi sono gli attributi del soggetto da classificare 
 Gli archi sono i valori assumibili dall’attributo
 Le foglie sono le classi a cui gli elementi possono essere assegnati

@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Il firewall è un insieme di componenti e di servizi finalizzati a controllare e limitare il traffico fra una rete e l'esterno.
 I firewall rappresentano la prima linea di difesa per la sicurezza della rete.
 Costituiscono una barriera tra le reti interne ( #Intranet e/o #Extranet)

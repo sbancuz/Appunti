@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Una CPU virtuale è un componente software che, agli occhi dell’utilizzatore, fornisce capacità di elaborazione come una CPU normale con però i vantaggi che arrivano dal disaccoppiamento delle delle risorse:
 	• disaccoppiamento ulteriore tra software e risorse fisiche
 	• frazionamento delle risorse fisiche in più virtuali

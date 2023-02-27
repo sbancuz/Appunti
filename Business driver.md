@@ -1,5 +1,6 @@
 ---
 aliases: [business driver]
+tags: [sistemi_informativi]
 ---
 
 I business driver (fattori chiave per l’azienda) sono quelli che motivano il progetto del sistema informativo o la sua evoluzione identificando uno o più obiettivi generali per il progetto.

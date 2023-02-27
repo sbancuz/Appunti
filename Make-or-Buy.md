@@ -1,5 +1,6 @@
 ---
 aliases [Make, make, Buy, buy, Make or Buy]
+tags: [sistemi_informativi]
 ---
 L’analisi Make-or-Buy prende in considerazione il fatto che sul mercato per alcuni interventi esistono dei prodotti software già pronti: i cosiddetti [[COTS]].
 

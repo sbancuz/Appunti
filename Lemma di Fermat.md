@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Sia $f:[a,b]\to R$ derivabile in $(a,b)$ se $x$ è un punto di minimo o di massimo allora 
 $$

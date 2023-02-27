@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Le regole di accesso possono essere specificate nel profilo utente, oppure associate alla descrizione dell’oggetto. I meccanismi base per la specifica di autorizzazioni possono essere inseriti nel Query Language del DBMS o nei comandi di SO.
 
 **Grant** -> concedere permessi

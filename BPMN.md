@@ -1,3 +1,7 @@
+---
+tags: [sistemi_informativi]
+---
+
 ## Task
 
 Le task sono le attività (Ogni quadrato)

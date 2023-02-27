@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Un servizio è la realizzazione di un modulo di una funzionalità di business che può essere invocato dagli utenti. I servizi sono definiti come task computazionali con un alto livello di disaccoppiamento che comunicano attraverso la rete.
 
 Un servizio, per sua natura, deve fornire una funzionalità che sia autocontenuta.

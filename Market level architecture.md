@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 L’architettura Market-level di un sistema e-business per uno scenario definisce la struttura di quel sistema a livello inter-organizzativo in termini di componenti software funzionali che supportano funzioni specifiche delle principali parti coinvolte nello scenario e di interfacce di alto livello che supportano le interazioni fra quei componenti.
 
 Questa figura corrisponde al [[5. Prospettiva organizzativa#Livello 2|livello 2]] delle strutture organizzative dell’aspetto organizzativo di BOAT.

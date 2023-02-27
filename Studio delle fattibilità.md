@@ -1,4 +1,5 @@
 ---
+tags: [sistemi_informativi]
 aliases: [studio delle fattibilità]
 ---
 Lo studio di fattibilità precisa le caratteristiche di un potenziale intervento al

@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 ### Discutere cosa si intende per sistema di gestione del workflow
 --- [[BPMS]]
 

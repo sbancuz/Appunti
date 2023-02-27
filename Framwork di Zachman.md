@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Il framework di Zachman è organizzato in righe e colonne.
 Le colonne definiscono gli Aspetti da analizzare.
 Le righe invece mettono in luce i diversi Punti di vista che possono interessare

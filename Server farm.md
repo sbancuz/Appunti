@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Insieme di elaboratori che condividono il carico lavorativo, applicazioni e dati.
 Le server farm sono realizzate secondo 2 principi:
 	• [[Cloning]] -> stesse app e dati su più nodi, con servizi di load-balancing

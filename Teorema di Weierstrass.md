@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Sia $f:[a,b]\to R$ continua sull'intervallo chiuso e limitato $[a,b]$, allora $f$ assume massimo e minimo in $[a,b]$ cioè 
 $$

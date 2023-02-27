@@ -1,4 +1,5 @@
 ---
+tags: [sistemi_informativi]
 aliases: [efficacia]
 ---
 L'efficacià è definita come:

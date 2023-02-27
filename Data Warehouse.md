@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Dalla necessità di accedere a dati aggregati in tempo reale
 e di eseguire interrogazioni complesse, come l’analisi della correlazione tra diverse variabili, nascono i Data Warehouse. Ovvero delle basi di dati in grado di di estrarre informazioni sia da fonti interne che da fonti esterne.
 Tali strumenti rientrano all’interno della cosiddetta [[Business Intelligence]] 

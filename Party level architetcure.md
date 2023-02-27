@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 L’architettura Party-level di un sistema di e-business di un partecipante in uno scenario definisce la struttura di quel sistema a livello intra-organizzativo di quel partecipante in termini di: 
 	• componenti funzionali software che supportano funzioni specifiche di quel partecipante 
 	• interfacce di alto livello che supportano le interazioni fra quei componenti

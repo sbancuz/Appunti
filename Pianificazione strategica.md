@@ -1,5 +1,6 @@
 ---
 aliases: [pianificazione strategica]
+tags: [sistemi_informativi]
 ---
 La fase di pianificazione strategica si basa sull’acquisizione della conoscenza sulla
 situazione attuale dell’impresa e sull’identificazione delle aree e/o processi che necessitano interventi informatici. 

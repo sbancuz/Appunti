@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 $$
 \begin{align}
 e^x & =\sum \frac{x^n}{x!}+o(x^n) \\ 

@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Si parla di clonazione quando sui server vengono installate le stesse applicazioni software ed i medesimi dati. Le richieste sono poi instradate ai vari elementi appartenenti all’insieme dei cloni usando un sistema di load-balancing.
 
 Un insieme di cloni dedicati allo svolgimento di un particolare servizio è detto

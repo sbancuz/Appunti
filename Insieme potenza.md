@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 $P(A) = \{B \text{ | } B\subseteq A\}$
 

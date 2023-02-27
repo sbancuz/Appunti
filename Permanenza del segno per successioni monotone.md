@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Sia $a=\{{a_{n}}\}_{n\in N}$ convergente, $\lim_{ n \to \infty } {a_{n}}=l$ e sia $\{{a_{n}}\}_{n\in N}$ definitivamente $\ge 0$ allora $l\ge 0$
 

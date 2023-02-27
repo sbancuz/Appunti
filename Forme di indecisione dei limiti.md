@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Nell'algebra dei limiti delle funzioni divergenti ci sono dei casi i quali non si possono sapere velocemente il risultato
 $$

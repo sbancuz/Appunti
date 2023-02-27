@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Ogni successione definitivamente monotona è regolare
 1. $\{{a_{n}}\}_{n\in N}$ è crescente e superiormente limitata, allora converge per difetto
@@ -43,7 +43,7 @@ $$
 >[!warning]
 >Ci sono successioni convergenti che non tendono al loro limite nè per eccesso nè per difetto
 
-![[Teorema di monotonia delle successioni monotone]]
+![[Teorema di monotonia delle successioni convergenti]]
 
 ![[Teorema del confronto per le successioni monotone]]
 

@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 [[1. Introduzione]]
 [[2. Progettazione di SI]]
 [[3. BOAT]]

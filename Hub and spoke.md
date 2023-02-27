@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Il paradigma hub and spoke è basato su un hub centrale, a cui vengono collegati i sistemi tramite degli spoke, che fungono anche da adattatori.
 
 Un sistema invia il messaggio all'hub senza dire dove dovrà dirigersi, sarà compito dell'hub instradarlo verso il modulo opportuno.

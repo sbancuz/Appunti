@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 La crittografia asimmetrica richiede che ogni agente sia in possesso di una coppia di chiavi correlate: 
 	• una chiave pubblica KP 
 	• una chiave privata Kpr

@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 l'IDS è il processo di monitoraggio degli eventi di un sistema o di una rete, con lo scopo di trovare intrusioni guardando i file #log.
 Gli IDS possono anche lavorare con i [[Firewall]] per bloccare certe connessioni.
 
@@ -24,4 +27,3 @@ Infine in base alla risposta che l'IDS da quando rileva un attacco si hanno:
 	• Active response -> Acquisisce più informazioni o blocca l'attacco alterando l'ambiente
 	• Inactive response -> Invia una notifica all'admin della rete
 
-[[Indice]]

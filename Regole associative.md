@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Sono solitamente espresse con la formula A ⇒ B dove A è detto antecedente e B conseguente.
 
 La validità di una regola associativa può essere valutata sulla base di due

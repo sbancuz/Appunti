@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Siano $f,g:(a,b)\to R$ continue e derivabili in $(a,b)$ e siano poi $g$ e $g'$ non nulle in $(a,b)$.
 Se:

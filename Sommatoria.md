@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 Siano $a_1, a_2,...$ dei numeri si indica con $$\sum_{i=1}^n a_i$$la somma di tutti gli elementi $a_1, a_2,..., a_n$ quidni $S = a_1 + a_2 + ... + a_n$
 
 ## Proprietà

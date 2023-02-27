@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 • Invertibilità
 La funzione $f: R\to R$ non è biunivoca però se cambio dominio e codominio posso ottenere una funzione biunivoca (ci sono infiniti modi per prendere dominio e codominio)
 ```math
@@ -26,17 +29,15 @@ Sia $A\subseteq R$ simmetrico rispetto O, allora $f:R\to R$ si dice
 ```
 
 
->[!note] Teorema
->
->Ogni $f:R\to R$ può essere scritta in modo univoco come somma di $f$ pari e $f$ dispari
->
->>[!note]- Dimostrazione
->> $f:R\to R$ allora $f(x) = \frac{f(x)+f(-x)}{2} + \frac{f(x)-f(-x)}{2}$
->> se chiamo $p(x) = \frac{f(x)+f(-x)}{2}$ e $d(x) = \frac{f(x)-f(-x)}{2}$
->> allora $p(x)$ è pari e $d(x)$ è dispari, adesso provo l'unicità
->> Siano $p(x)$ e $\overline{p}(x)$ pari e $d(x)$ e $\overline{d}(x)$ dispari tc
->> $$\left\{\begin{align}f(x) &= p(x) + d(x)\\ f(x) &= \overline{p}(x) + \overline{d}(x) \end{align}\right\|$$
->> Allora abbiamo che $p(x)- \overline{p}(x) = d(x)- \overline{d}(x)$, ma a sx è pari e a dx è dispari allora l'unico modo che sia possibile è $0=0$ quindi sono uguali
+Ogni $f:R\to R$ può essere scritta in modo univoco come somma di $f$ pari e $f$ dispari
+
+>[!note]- Dimostrazione
+> $f:R\to R$ allora $f(x) = \frac{f(x)+f(-x)}{2} + \frac{f(x)-f(-x)}{2}$
+> se chiamo $p(x) = \frac{f(x)+f(-x)}{2}$ e $d(x) = \frac{f(x)-f(-x)}{2}$
+> allora $p(x)$ è pari e $d(x)$ è dispari, adesso provo l'unicità
+> Siano $p(x)$ e $\overline{p}(x)$ pari e $d(x)$ e $\overline{d}(x)$ dispari tc
+> $$\left\{\begin{align}f(x) &= p(x) + d(x)\\ f(x) &= \overline{p}(x) + \overline{d}(x) \end{align}\right\|$$
+> Allora abbiamo che $p(x)- \overline{p}(x) = d(x)- \overline{d}(x)$, ma a sx è pari e a dx è dispari allora l'unico modo che sia possibile è $0=0$ quindi sono uguali
 
 • Limitata
 $f:R\to R$ si dice LIMITATA se la sua $Im(x)$ è limitata, ovvero $\exists M\in R, M\gt 0 \text{ | } \forall x \in R \text{ si ha } -M\le f(x)\le M$

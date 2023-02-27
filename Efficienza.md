@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 L'efficienza è definita come:
 
 #### Efficienza = Output-effettivo / Input

@@ -1,3 +1,7 @@
+---
+tags: [sistemi_informativi]
+---
+
 ![[Catena Porter.png]]
 
 La catena del valore di Porter considera solo i processi di livello operazionale.

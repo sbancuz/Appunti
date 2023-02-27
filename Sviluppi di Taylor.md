@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 ## Confronto locale 
 
 Siano $f,g:[a,b]\to R$ e $x_{0}\in (a,b)$, si dice che $f$ è un $O(g)$ e si scrive $f=O(g)$, se $\exists {M} \in {R}$ e un intorno $I_{x_{0}}$ di $x_{0}$ tale che $\forall {x} \in {I_{x_{0}}}$ si ha 

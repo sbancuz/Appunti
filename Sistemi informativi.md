@@ -1,4 +1,5 @@
 ---
+tags: [sistemi_informativi]
 aliases: [Sistema informativo, sistema informativo, SI]
 ---
 

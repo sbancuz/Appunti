@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Sia $E\subseteq X$, un elemento $\overline{x}$ è massimo per E se:
 	1 • $\overline{x} \in E$

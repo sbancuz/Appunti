@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 Sia $\{{a_{n}}\}_{n\in N}$ una [[Successioni]], si chiama sottosuccessione estratta da $\{{a_{n}}\}_{n\in N}$ ogni successione $\{{a_{n_{k}}}\}_{n\in N}$ dove $\{{a_{k}}\}_{k\in N}$ è una successione crescente.
 
 Sia $\{{a_{n}}\}_{n\in N}$ una successione limitata in $[a,b]$, allora possiede almeno una sottosuccessione convergente ad un valore tra $a$ e $b$

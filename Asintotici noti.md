@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 $\sin x\sim0$
 $b^x-1\sim \frac{x}{\ln b}$
 $1-\cos x\sim \frac{x^2}{2}$

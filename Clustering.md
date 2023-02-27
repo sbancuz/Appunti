@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Il permette di raggruppare un insieme di elementi in base alle loro caratteristiche, assegnando loro una classe di appartenenza.
 l risultato quindi è un insieme di cluster composti da elementi tali che siano verificate le
 seguenti condizioni: 

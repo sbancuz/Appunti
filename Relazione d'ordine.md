@@ -1,5 +1,5 @@
 ---
-tags: [analisi 1]
+tags: [analisi_1]
 ---
 Sia R una relazione su un [[Insieme]] A, si dice che R è d'ordine sse:
 	1 • riflessiva

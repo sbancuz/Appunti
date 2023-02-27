@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 Questi permettono di estrarre, trasformare e caricare i dati del data warehouse.
 
 ## Estrazione

@@ -1,3 +1,6 @@
+---
+tags: [sistemi_informativi]
+---
 ![[piramide anthony.png]]
 Nel modello di Anthony si distinguono tre livelli, legati alla strut-
 tura dell’organizzazione: 

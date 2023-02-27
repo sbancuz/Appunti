@@ -1,3 +1,6 @@
+---
+tags: [analisi_1]
+---
 Una funzione è una terna formata da:
 	1 • [[Insieme]] Dominio
 	2 • [[Insieme]] Codominio
