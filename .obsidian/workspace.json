@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monopolio.md",
+                "file": "Discriminazione di prezzo.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monopolio.md",
+                "file": "Discriminazione di prezzo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Monopolio.md",
+                "file": "Discriminazione di prezzo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Monopolio.md"
+                "file": "Discriminazione di prezzo.md"
               }
             }
           }
@@ -173,8 +173,11 @@
   },
   "active": "df0951d3153a1e92",
   "lastOpenFiles": [
-    "Perdita secca di monopolio.md",
     "Monopolio.md",
+    "Discriminazione di prezzo.md",
+    "Collusione.md",
+    "Prezzi predatori.md",
+    "Perdita secca di monopolio.md",
     "Potere di mercato.md",
     "surplus monopolio.png",
     "Concorrenza.md",
@@ -203,9 +206,6 @@
     "2. Progettazione di SI.md",
     "10. Tecnologie a livello di piattaforma.md",
     "11. Tecnologie a livello di architettura fisica.md",
-    "14. Archimate.md",
-    "1. Introduzione.md",
-    "9. Data Mining.md",
     "Requiremets 1.png",
     "Progettazione soluzioni 1.png",
     "Curva domanda.png"
