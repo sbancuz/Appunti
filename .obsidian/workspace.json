@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Monopolio.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Monopolio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Monopolio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Monopolio.md"
               }
             }
           }
@@ -172,7 +173,26 @@
   },
   "active": "df0951d3153a1e92",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Perdita secca di monopolio.md",
+    "Monopolio.md",
+    "Potere di mercato.md",
+    "surplus monopolio.png",
+    "Concorrenza.md",
+    "Concorrenza perfetta.md",
+    "Benessere sociale.png",
+    "Pasted image 20230227101141.png",
+    "surplus concorrenza.png",
+    "Competizione.md",
+    "Imitazione.md",
+    "Curva di offerta.md",
+    "Prezzo.md",
+    "prezzo equilibrio.png",
+    "Curve di offerta individuale.md",
+    "Costo marginale in funzione del tempo.md",
+    "seconda condizione offerta.png",
+    "curva offerta indi.png",
+    "Offerta di mercato.md",
+    "Sostituto.md",
     "5. Prospettiva organizzativa.md",
     "4. Prospettiva di business.md",
     "3. BOAT.md",
@@ -186,27 +206,8 @@
     "14. Archimate.md",
     "1. Introduzione.md",
     "9. Data Mining.md",
-    "13. Sicurezza dei sistemi.md",
-    "7. Aspetti tecnologici.md",
-    "Indice.md",
-    "Classificazione.md",
-    "ETL.md",
-    "Metadati.md",
-    "Reach.md",
-    "Richness.md",
-    "Efficacia.md",
-    "Efficienza.md",
-    "KPI.md",
-    "Sistemi informativi distribuiti 1.md",
     "Requiremets 1.png",
     "Progettazione soluzioni 1.png",
-    "Curva domanda.png",
-    "Pasted image 20230224113648.png",
-    "Pasted image 20230224113635.png",
-    "Pasted image 20230224113617.png",
-    "EA Buy 1.png",
-    "EA make 1.png",
-    "Analisi gestione 1.png",
-    "COTS vs ad-hoc 1.png"
+    "Curva domanda.png"
   ]
 }
