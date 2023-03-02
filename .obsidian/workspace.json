@@ -18,31 +18,19 @@
             }
           },
           {
-            "id": "1b6d03c8d7b98d61",
+            "id": "07bcfe002b343c92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Prospettiva organizzativa.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df0951d3153a1e92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discriminazione di prezzo.md",
+                "file": "Corpo rigido.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discriminazione di prezzo.md",
+                "file": "Corpo rigido.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discriminazione di prezzo.md",
+                "file": "Corpo rigido.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discriminazione di prezzo.md"
+                "file": "Corpo rigido.md"
               }
             }
           }
@@ -171,10 +159,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "df0951d3153a1e92",
+  "active": "07bcfe002b343c92",
   "lastOpenFiles": [
-    "Monopolio.md",
+    "5. Prospettiva organizzativa.md",
     "Discriminazione di prezzo.md",
+    "Monopolio.md",
     "Collusione.md",
     "Prezzi predatori.md",
     "Perdita secca di monopolio.md",
@@ -196,7 +185,6 @@
     "curva offerta indi.png",
     "Offerta di mercato.md",
     "Sostituto.md",
-    "5. Prospettiva organizzativa.md",
     "4. Prospettiva di business.md",
     "3. BOAT.md",
     "6. Architetture funzionali.md",
