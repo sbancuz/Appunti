@@ -11,7 +11,7 @@
       "query": "meccanica",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 16349441
       }
     },
     {
@@ -46,6 +46,6 @@
   "repelStrength": 9.58333333333333,
   "linkStrength": 0.864583333333333,
   "linkDistance": 263,
-  "scale": 0.461290606591475,
+  "scale": 0.5443503942551332,
   "close": false
 }

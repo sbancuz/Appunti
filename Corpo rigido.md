@@ -2,6 +2,14 @@
 tags: [meccanica]
 ---
 
+Qualsiasi corpo rigido può essere visto come un'asta rigida
+```math
+||{"id":1659419938319}||
+
+
+```
+
+
 ```math
 ||{"id":625773531285}||
 
@@ -67,10 +75,20 @@ Il CIR migra tra diversi punti nello spazio.
 
 
 ```
-### Accellerazione
+### [[Accelerazione]]
 
 ```math
 ||{"id":1032926211043}||
 
 
 ```
+
+## Limitazioni sui gradi di libertà
+
+```math
+||{"id":128936735199}||
+
+
+```
+
+## ![[Rotolamento]]

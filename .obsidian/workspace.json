@@ -10,22 +10,22 @@
           {
             "id": "4f5984219551ea65",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "07bcfe002b343c92",
-            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Rotolamento.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "136491790d4b5b05",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
               }
             }
           }
@@ -75,6 +75,18 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "749625244d59695e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Moto relativo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Rotolamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Rotolamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Corpo rigido.md"
+                "file": "Rotolamento.md"
               }
             }
           }
@@ -156,11 +168,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "07bcfe002b343c92",
+  "active": "136491790d4b5b05",
   "lastOpenFiles": [
+    "Corpo rigido.md",
+    "Rotolamento.md",
+    "Moto relativo.md",
+    "Accelerazione.md",
+    "Clustering.md",
     "5. Prospettiva organizzativa.md",
     "Discriminazione di prezzo.md",
     "Monopolio.md",
@@ -189,11 +207,6 @@
     "3. BOAT.md",
     "6. Architetture funzionali.md",
     "8. ERP.md",
-    "Intrusion Detection System.md",
-    "12. Cloud Computing.md",
-    "2. Progettazione di SI.md",
-    "10. Tecnologie a livello di piattaforma.md",
-    "11. Tecnologie a livello di architettura fisica.md",
     "Requiremets 1.png",
     "Progettazione soluzioni 1.png",
     "Curva domanda.png"
