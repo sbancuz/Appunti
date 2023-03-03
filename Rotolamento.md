@@ -29,3 +29,4 @@ x= & -R\theta \\
 \end{align}
 $$
 
+Per ipotesi si ha $\omega = cost \to \overline{a_{C}}=0$

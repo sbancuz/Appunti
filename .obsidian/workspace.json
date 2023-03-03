@@ -20,12 +20,14 @@
             }
           },
           {
-            "id": "136491790d4b5b05",
+            "id": "31d6ee9c09dff0d7",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.16"
+                "file": "Contabilità interna.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -109,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rotolamento.md",
+                "file": "Contabilità interna.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rotolamento.md",
+                "file": "Contabilità interna.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rotolamento.md"
+                "file": "Contabilità interna.md"
               }
             }
           }
@@ -172,10 +174,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "136491790d4b5b05",
+  "active": "31d6ee9c09dff0d7",
   "lastOpenFiles": [
-    "Corpo rigido.md",
     "Rotolamento.md",
+    "Contabilità interna.md",
+    "Corpo rigido.md",
     "Moto relativo.md",
     "Accelerazione.md",
     "Clustering.md",
@@ -206,7 +209,6 @@
     "4. Prospettiva di business.md",
     "3. BOAT.md",
     "6. Architetture funzionali.md",
-    "8. ERP.md",
     "Requiremets 1.png",
     "Progettazione soluzioni 1.png",
     "Curva domanda.png"
