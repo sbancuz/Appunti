@@ -8,24 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f5984219551ea65",
+            "id": "31d6ee9c09dff0d7",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rotolamento.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {},
+              "pinned": true
             }
           },
           {
-            "id": "31d6ee9c09dff0d7",
+            "id": "52afc05f1578fc30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contabilità interna.md",
+                "file": "Voci di costo.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contabilità interna.md",
+                "file": "Voci di costo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Contabilità interna.md",
+                "file": "Voci di costo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Contabilità interna.md"
+                "file": "Voci di costo.md"
               }
             }
           }
@@ -174,43 +172,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "52afc05f1578fc30",
   "lastOpenFiles": [
-    "Rotolamento.md",
+    "Costi obbligatori.md",
+    "Voci di costo.md",
+    "Costi evitabili.md",
+    "Costi fissi.md",
+    "Costi variabili.md",
+    "costi fisii vs variabili.png",
+    "Costi di periodo.md",
+    "Costi di prodotto.md",
+    "Costi indiretti.md",
+    "Costi diretti.md",
+    "Costi diretti vs indiretti.md",
+    "Sistemi a costi standard.md",
     "Contabilità interna.md",
+    "Make-or-Buy.md",
+    "Sistema a costi storici.md",
+    "Costo.md",
+    "Centri di costo.md",
+    "Oggetto di costo.md",
+    "Rotolamento.md",
+    "Contabilità analitica.md",
+    "Contabilità aziendale.md",
+    "Contabilità manageriale.md",
+    "Contabilità esterna.md",
     "Corpo rigido.md",
     "Moto relativo.md",
     "Accelerazione.md",
     "Clustering.md",
-    "5. Prospettiva organizzativa.md",
-    "Discriminazione di prezzo.md",
-    "Monopolio.md",
-    "Collusione.md",
-    "Prezzi predatori.md",
-    "Perdita secca di monopolio.md",
-    "Potere di mercato.md",
     "surplus monopolio.png",
-    "Concorrenza.md",
-    "Concorrenza perfetta.md",
     "Benessere sociale.png",
     "Pasted image 20230227101141.png",
     "surplus concorrenza.png",
-    "Competizione.md",
-    "Imitazione.md",
-    "Curva di offerta.md",
-    "Prezzo.md",
     "prezzo equilibrio.png",
-    "Curve di offerta individuale.md",
-    "Costo marginale in funzione del tempo.md",
     "seconda condizione offerta.png",
     "curva offerta indi.png",
-    "Offerta di mercato.md",
-    "Sostituto.md",
-    "4. Prospettiva di business.md",
-    "3. BOAT.md",
-    "6. Architetture funzionali.md",
     "Requiremets 1.png",
-    "Progettazione soluzioni 1.png",
-    "Curva domanda.png"
+    "Progettazione soluzioni 1.png"
   ]
 }
