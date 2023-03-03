@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "allocazione",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "meccanica",
@@ -46,6 +46,6 @@
   "repelStrength": 9.58333333333333,
   "linkStrength": 0.864583333333333,
   "linkDistance": 263,
-  "scale": 0.026635821082363027,
+  "scale": 0.5883413415553024,
   "close": false
 }

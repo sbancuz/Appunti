@@ -23,14 +23,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Voci di costo.md",
+                "file": "Oggetto di costo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af756f14f86526cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metodi di allocazione dei costi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Voci di costo.md",
+                "file": "Metodi di allocazione dei costi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Voci di costo.md",
+                "file": "Metodi di allocazione dei costi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Voci di costo.md"
+                "file": "Metodi di allocazione dei costi.md"
               }
             }
           }
@@ -172,10 +184,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "52afc05f1578fc30",
+  "active": "af756f14f86526cb",
   "lastOpenFiles": [
-    "Costi obbligatori.md",
+    "Metodi di allocazione dei costi.md",
+    "Centro di costo.png",
+    "Oggetto di costo.md",
+    "Metodi di rilevazione dei costi.md",
+    "Costi.png",
     "Voci di costo.md",
+    "Costi obbligatori.md",
     "Costi evitabili.md",
     "Costi fissi.md",
     "Costi variabili.md",
@@ -191,24 +208,18 @@
     "Sistema a costi storici.md",
     "Costo.md",
     "Centri di costo.md",
-    "Oggetto di costo.md",
     "Rotolamento.md",
     "Contabilità analitica.md",
     "Contabilità aziendale.md",
     "Contabilità manageriale.md",
     "Contabilità esterna.md",
     "Corpo rigido.md",
-    "Moto relativo.md",
-    "Accelerazione.md",
-    "Clustering.md",
     "surplus monopolio.png",
     "Benessere sociale.png",
     "Pasted image 20230227101141.png",
     "surplus concorrenza.png",
     "prezzo equilibrio.png",
     "seconda condizione offerta.png",
-    "curva offerta indi.png",
-    "Requiremets 1.png",
-    "Progettazione soluzioni 1.png"
+    "curva offerta indi.png"
   ]
 }
