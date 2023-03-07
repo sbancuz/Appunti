@@ -31,6 +31,12 @@ Ho scelto come grado di libertà le 2 posizione la rotazione vincolando la dista
 
 ```
 
+### Formula di Grubler
+
+$$
+\#GDL_{res} = \#GDL_{ini} - \#GDV = \#N_{corpi} •3GDL
+$$
+
 ### Movimeto
 
 Ci sono 3 tipi di movimento 
@@ -83,12 +89,5 @@ Il CIR migra tra diversi punti nello spazio.
 
 ```
 
-## Limitazioni sui gradi di libertà
-
-```math
-||{"id":128936735199}||
-
-
-```
-
+![[Limitazioni sui gradi di libertà dei corpi rigidi]]
 ## ![[Rotolamento]]

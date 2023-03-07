@@ -24,6 +24,7 @@ $$
 \begin{align}
 \overline{V_{C}} =  & -\omega R\overline{i} =\dot{x}\overline{i}\\
 \overline{V_{D}} =  & \omega R\overline{j} - \omega R\overline{i} \\
+\overline{a_{D}} =  & -\omega ^{2}R\overline{i}\\
 x= & -R\theta \\
 \dot{x} =  & -R\omega
 \end{align}

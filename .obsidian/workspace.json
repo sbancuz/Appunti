@@ -18,42 +18,19 @@
             }
           },
           {
-            "id": "52afc05f1578fc30",
+            "id": "e84412e25a70f03e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Oggetto di costo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af756f14f86526cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metodi di allocazione dei costi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11f9f3af3af2c6e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Consumatori.md",
+                "file": "Meccanismi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analisi_1",
+                "query": "tag:#meccanica",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Meccanismi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Meccanismi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Meccanismi.md"
+              }
             }
           }
         ]
@@ -190,8 +171,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "e84412e25a70f03e",
   "lastOpenFiles": [
+    "Meccanismi.md",
+    "Limitazioni sui gradi di libertà dei corpi rigidi.md",
+    "Strutture meccaniche.md",
+    "Corpo rigido.md",
+    "Rotolamento.md",
+    "Untitled.md",
     "Consumatori.md",
     "Ring buffer.md",
     "Metodi di allocazione dei costi.md",
@@ -215,12 +202,6 @@
     "Make-or-Buy.md",
     "Sistema a costi storici.md",
     "Costo.md",
-    "Centri di costo.md",
-    "Rotolamento.md",
-    "Contabilità analitica.md",
-    "Contabilità aziendale.md",
-    "Contabilità manageriale.md",
-    "Contabilità esterna.md",
     "surplus monopolio.png",
     "Benessere sociale.png",
     "Pasted image 20230227101141.png",
