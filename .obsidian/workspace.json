@@ -40,9 +40,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "11f9f3af3af2c6e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Consumatori.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#analisi_1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -121,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi di allocazione dei costi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi di allocazione dei costi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Metodi di allocazione dei costi.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -184,8 +190,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af756f14f86526cb",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
+    "Consumatori.md",
+    "Ring buffer.md",
     "Metodi di allocazione dei costi.md",
     "Centro di costo.png",
     "Oggetto di costo.md",
@@ -213,7 +221,6 @@
     "Contabilità aziendale.md",
     "Contabilità manageriale.md",
     "Contabilità esterna.md",
-    "Corpo rigido.md",
     "surplus monopolio.png",
     "Benessere sociale.png",
     "Pasted image 20230227101141.png",
