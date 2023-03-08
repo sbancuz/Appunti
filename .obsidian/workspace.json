@@ -16,8 +16,21 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "7c421430dfc2dcf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Infinito - N.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -95,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Infinito - N.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Infinito - N.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Infinito - N.md"
+              }
             }
           },
           {
@@ -148,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,9 +182,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Infinito - N.md",
+    "Ring buffer.md",
+    "Verbi - N.md",
     "Excalidraw/Drawing 2023-03-07 15.49.05.excalidraw.md",
     "Meccanismi.md",
     "Limitazioni sui gradi di libertà dei corpi rigidi.md",
@@ -173,7 +194,6 @@
     "Corpo rigido.md",
     "Rotolamento.md",
     "Consumatori.md",
-    "Ring buffer.md",
     "Metodi di allocazione dei costi.md",
     "Centro di costo.png",
     "Oggetto di costo.md",
@@ -193,7 +213,6 @@
     "Sistemi a costi standard.md",
     "Contabilità interna.md",
     "Make-or-Buy.md",
-    "Sistema a costi storici.md",
     "surplus monopolio.png",
     "Benessere sociale.png",
     "Pasted image 20230227101141.png",

@@ -43,10 +43,17 @@
       }
     },
     {
-      "query": "C",
+      "query": "Clang",
       "color": {
         "a": 1,
         "rgb": 5419488
+      }
+    },
+    {
+      "query": "norks",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
       }
     }
   ],
@@ -60,6 +67,6 @@
   "repelStrength": 9.58333333333333,
   "linkStrength": 0.864583333333333,
   "linkDistance": 263,
-  "scale": 0.13412295858212886,
-  "close": true
+  "scale": 0.11213197859063578,
+  "close": false
 }

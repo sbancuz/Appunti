@@ -1,5 +1,5 @@
 ---
-tags: [coding, C]
+tags: [coding, Clang]
 ---
 
 TODO ::: https://abhinavag.medium.com/a-fast-circular-ring-buffer-4d102ef4d4a3
