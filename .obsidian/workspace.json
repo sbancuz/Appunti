@@ -134,13 +134,21 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "be22b456ae706a51",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,7 +159,8 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "31d6ee9c09dff0d7",
