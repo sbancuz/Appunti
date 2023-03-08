@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "7c421430dfc2dcf7",
+            "id": "d7bb4b71bba11499",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infinito - N.md",
+                "file": "Aleknovich.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infinito - N.md",
+                "file": "Aleknovich.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infinito - N.md",
+                "file": "Aleknovich.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infinito - N.md"
+                "file": "Aleknovich.md"
               }
             }
           },
@@ -182,8 +182,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "d7bb4b71bba11499",
   "lastOpenFiles": [
+    "Aleknovich.md",
     "Infinito - N.md",
     "Ring buffer.md",
     "Verbi - N.md",
@@ -212,7 +213,6 @@
     "Costi diretti vs indiretti.md",
     "Sistemi a costi standard.md",
     "Contabilità interna.md",
-    "Make-or-Buy.md",
     "surplus monopolio.png",
     "Benessere sociale.png",
     "Pasted image 20230227101141.png",
