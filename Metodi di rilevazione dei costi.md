@@ -14,6 +14,8 @@ I metodi di rilevazione dei costi sono adottati in funzione di:
 
 ![[JOC]]
 
+![[ABC]]
+
 ![[funzione rilevazione costi.png]]
 
 ![[Precisione rilevazione dei costi.png]]

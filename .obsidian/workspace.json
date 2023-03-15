@@ -23,13 +23,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unità Equivalente.md",
+                "file": "ABC.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ABC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ABC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ABC.md"
+              }
             }
           },
           {
@@ -176,22 +182,25 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "f9bbccc03594fd70",
   "lastOpenFiles": [
+    "ABC.png",
+    "Resource driver.md",
+    "ABC.md",
+    "Metodi di rilevazione dei costi.md",
+    "Process costing.md",
+    "Unità Equivalente.md",
+    "Grado di completamento.md",
     "Corpo rigido.md",
     "Moto circolare.md",
     "Cinematica del punto.md",
     "Accelerazione.md",
     "Operation costing.md",
-    "Metodi di rilevazione dei costi.md",
     "JOC.md",
     "Job-cost sheet.md",
     "JOC.png",
     "().md",
-    "Process costing.md",
     "Schema di processo.png",
-    "Unità Equivalente.md",
-    "Grado di completamento.md",
     "WIP.md",
     "Oggetto di costo.md",
     "funzione rilevazione costi.png",
@@ -206,9 +215,6 @@
     "Excalidraw/Drawing 2023-03-07 15.49.05.excalidraw.md",
     "Meccanismi.md",
     "Limitazioni sui gradi di libertà dei corpi rigidi.md",
-    "Strutture meccaniche.md",
-    "Rotolamento.md",
-    "Consumatori.md",
     "Centro di costo.png",
     "Costi.png",
     "costi fisii vs variabili.png",
