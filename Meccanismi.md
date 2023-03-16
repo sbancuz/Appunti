@@ -97,6 +97,39 @@ a\ddot{\alpha }\cos\alpha -a\dot{\alpha}^{2}\sin\alpha + b\ddot{\beta }\cos\beta
 \right|
 $$
 
-e notte ted ungi e lava le ignude tettone
-enottet edungi el aval e ignu det etton e
+Se mi serve $\dot{c}$ posso semplicemente fare la derivata $\frac{dc}{dt}=\frac{ \partial c }{ \partial \alpha }\frac{ \partial \alpha }{ \partial t } \implies \dot{c}=\frac{ \partial c }{ \partial \alpha }\dot{\alpha}$
+$\Lambda=\frac{ \partial c }{ \partial \alpha }$ è detto il [[Jacobiano]]
+$$
+\ddot{c}=\frac{d\Lambda}{dt}\dot{\alpha}+\Lambda \ddot{\alpha} = \frac{d\Lambda}{dt}\dot{\alpha}^{2}+\Lambda \ddot{\alpha}  
+$$
+
+Nel caso sopra il Jacobiano sarà
+$$
+\Lambda_{c}=-a\left( sen\alpha \cos\alpha\tan\left( \arcsin\left( -\frac{a\sin\alpha}{b} \right) \right) \right)=\Lambda(\alpha)
+$$
+Definiamo anche $\frac{a}{b}=\lambda<<1$ quindi
+$$
+\sin\beta=-\frac{a}{b}\sin\alpha\implies\cos\beta=\sqrt{ 1-\left( \frac{a}{b} \right)^{2}\sin^{2}\alpha } = \sqrt{ a-\epsilon }\approx 1+\frac{\epsilon}{2}
+$$
+e infine
+$$
+\begin{align}
+c  & \approx a\cos\alpha+b\left( 1-\frac{1}{2}\left( \frac{a}{b} \right)^{2}\sin^{2}\alpha \right) \\
+\dot{c} & \approx-a\sin\dot{\alpha}-\frac{1}{2}b\lambda^{2}2\sin\alpha \cos\alpha\dot{\alpha}=-a\left( \sin\alpha+\frac{\lambda}{2}\sin2\alpha \right)\dot{\alpha}=\Lambda
+
+\end{align}
+$$
+Se $\lambda$ è molto piccolo allora vale anche l'approssimazione
+$$
+\dot{c}\approx-{a}\sin\alpha\dot{\alpha}
+$$
+
+
+```math
+||{"id":1428314055392}||
+
+
+
+```
+Se ho $\dot{\alpha}> 0 \implies \beta<0,\dot{c}<0$
 
