@@ -16,22 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "f9bbccc03594fd70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ABC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ABC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ABC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ABC.md"
-              }
+              "state": {}
             }
           },
           {
@@ -182,11 +164,26 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f9bbccc03594fd70",
+  "active": "31d6ee9c09dff0d7",
   "lastOpenFiles": [
+    "Aleknovich.md",
+    "alberi di decisione.md",
+    "Asimmetriuca.png",
+    "Sistemi lineari.md",
+    "().md",
+    "Vettori fisici.md",
+    "Eliminazione di Gauss.md",
+    "Matrici triangolari.md",
+    "Matrici.md",
+    "Matrici a blocchi.md",
+    "Matrice inversa.md",
+    "Determinante.md",
+    "Complemento algebrico.md",
+    "Matrice identità.md",
+    "Vettori.md",
+    "ABC.md",
     "ABC.png",
     "Resource driver.md",
-    "ABC.md",
     "Metodi di rilevazione dei costi.md",
     "Process costing.md",
     "Unità Equivalente.md",
@@ -197,28 +194,13 @@
     "Accelerazione.md",
     "Operation costing.md",
     "JOC.md",
-    "Job-cost sheet.md",
     "JOC.png",
-    "().md",
     "Schema di processo.png",
-    "WIP.md",
-    "Oggetto di costo.md",
     "funzione rilevazione costi.png",
     "Precisione rilevazione dei costi.png",
     "Pasted image 20230311152826.png",
-    "Contabilità interna.md",
-    "Costo.md",
-    "Aleknovich.md",
-    "Infinito - N.md",
-    "Ring buffer.md",
-    "Verbi - N.md",
-    "Excalidraw/Drawing 2023-03-07 15.49.05.excalidraw.md",
-    "Meccanismi.md",
-    "Limitazioni sui gradi di libertà dei corpi rigidi.md",
     "Centro di costo.png",
     "Costi.png",
-    "costi fisii vs variabili.png",
-    "surplus monopolio.png",
-    "Benessere sociale.png"
+    "costi fisii vs variabili.png"
   ]
 }

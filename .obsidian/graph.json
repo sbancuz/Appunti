@@ -55,6 +55,13 @@
         "a": 1,
         "rgb": 16711680
       }
+    },
+    {
+      "query": "gal",
+      "color": {
+        "a": 1,
+        "rgb": 11272084
+      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +74,6 @@
   "repelStrength": 9.58333333333333,
   "linkStrength": 0.864583333333333,
   "linkDistance": 263,
-  "scale": 0.4803786937983333,
+  "scale": 0.09585637078991452,
   "close": false
 }
