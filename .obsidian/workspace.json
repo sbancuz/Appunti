@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Meccanismi.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#meccanica rivals",
+                "query": "tag:#meccanica",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Meccanismi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Corpo rigido.md",
+                "file": "Meccanismi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,20 +148,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Corpo rigido.md"
+                "file": "Meccanismi.md"
               }
-            }
-          },
-          {
-            "id": "be22b456ae706a51",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,12 +169,12 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "9ade2786bd10f316",
+  "active": "ffffd76ad16031a1",
   "lastOpenFiles": [
+    "Corpo rigido.md",
     "Aleknovich.md",
     "alberi di decisione.md",
     "Asimmetriuca.png",
@@ -205,7 +197,6 @@
     "Process costing.md",
     "Unità Equivalente.md",
     "Grado di completamento.md",
-    "Corpo rigido.md",
     "Moto circolare.md",
     "Cinematica del punto.md",
     "Accelerazione.md",

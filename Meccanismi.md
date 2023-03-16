@@ -96,3 +96,7 @@ a\ddot{\alpha }\cos\alpha -a\dot{\alpha}^{2}\sin\alpha + b\ddot{\beta }\cos\beta
 
 \right|
 $$
+
+e notte ted ungi e lava le ignude tettone
+enottet edungi el aval e ignu det etton e
+
