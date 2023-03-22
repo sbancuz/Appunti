@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanismi.md",
+                "file": "Aleknovich.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#meccanica",
+                "query": "alekno",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanismi.md",
+                "file": "Aleknovich.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanismi.md",
+                "file": "Aleknovich.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanismi.md"
+                "file": "Aleknovich.md"
               }
             }
           }
@@ -172,7 +172,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ffffd76ad16031a1",
+  "active": "9ade2786bd10f316",
   "lastOpenFiles": [
     "Corpo rigido.md",
     "Aleknovich.md",
