@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "meccanica",
+                "query": "manovell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Meccanismi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Meccanismi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Meccanismi.md"
+              }
             }
           }
         ],
@@ -167,7 +172,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "9ade2786bd10f316",
   "lastOpenFiles": [
     "Meccanismi.md",
     "Limitazioni sui gradi di libertà dei corpi rigidi.md",
