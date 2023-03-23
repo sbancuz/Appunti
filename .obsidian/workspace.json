@@ -23,14 +23,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aleknovich.md",
+                "file": "Meccanismi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -49,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alekno",
+                "query": "meccanica",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aleknovich.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aleknovich.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Aleknovich.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -172,10 +167,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9ade2786bd10f316",
+  "active": "31d6ee9c09dff0d7",
   "lastOpenFiles": [
-    "Corpo rigido.md",
+    "Meccanismi.md",
+    "Limitazioni sui gradi di libertà dei corpi rigidi.md",
     "Aleknovich.md",
+    "Corpo rigido.md",
     "alberi di decisione.md",
     "Asimmetriuca.png",
     "Sistemi lineari.md",
@@ -200,8 +197,6 @@
     "Moto circolare.md",
     "Cinematica del punto.md",
     "Accelerazione.md",
-    "Operation costing.md",
-    "JOC.md",
     "JOC.png",
     "Schema di processo.png",
     "funzione rilevazione costi.png",
