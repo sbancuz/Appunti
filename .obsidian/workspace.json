@@ -18,31 +18,19 @@
             }
           },
           {
-            "id": "9ade2786bd10f316",
+            "id": "4ecc2097e375f86c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanismi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0812beaf56eced5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statica.md",
+                "file": "Aprire un impresa.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statica.md",
+                "file": "Aprire un impresa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statica.md",
+                "file": "Aprire un impresa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statica.md"
+                "file": "Aprire un impresa.md"
               }
             }
           }
@@ -184,11 +172,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a0812beaf56eced5",
+  "active": "4ecc2097e375f86c",
   "lastOpenFiles": [
-    "Equazioni cardinali della statica.md",
-    "Statica.md",
+    "Aprire un impresa.md",
     "Meccanismi.md",
+    "Statica.md",
+    "Equazioni cardinali della statica.md",
     "Limitazioni sui gradi di libertà dei corpi rigidi.md",
     "Aleknovich.md",
     "Corpo rigido.md",
@@ -213,7 +202,6 @@
     "Process costing.md",
     "Unità Equivalente.md",
     "Grado di completamento.md",
-    "Moto circolare.md",
     "JOC.png",
     "Schema di processo.png",
     "funzione rilevazione costi.png",
