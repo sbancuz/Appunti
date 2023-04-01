@@ -12,3 +12,5 @@ tags: [economia]
 In Italia l'impresa è una [[Persona giuridica]]
 
 ![[Forme giuridiche]]
+
+###
