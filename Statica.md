@@ -86,4 +86,48 @@ $$
  & \overline{M_{oi}}=\sum_{j}(P_{ij}-o_{i})\land \overline{F_{ij}} =\sum_{j}(P_{ij}-o_{i})\land \overline{F_{ij}}+\sum_{k}\overline{C_{jk}}=0   
 \end{align}\right|
 $$
-Con la $C$ che rappresenta la coppia di forze sul sistema
+Con la $C$ che rappresenta la coppia di forze sul sistema.
+
+## Come agiscono le forze all'interno del sistema?
+
+Le forze sul sistema viaggiano alla velocità del suono all'interno del materiale
+
+```math
+||{"id":658219379040}||
+
+
+
+
+
+```
+$$
+\begin{cases}
+V_{A}+V_B = F \\
+H_{A} = F \\
+Fa = V_{B}L
+\end{cases} \implies \begin{cases}
+H_{A} = F \\
+V_{B} = \frac{Fa}{L} \\
+V_{A}=  \frac{Fb}{L}
+\end{cases}
+$$
+
+In ogni sottosistema che si può creare ci deve essere equilibrio
+$$
+\begin{cases}
+H=H_{A} \\
+V=V_{A} \\
+M=V_{A}x \\
+\end{cases}
+$$
+
+```math
+||{"id":215538916354}||
+
+
+```
+
+Queste forze che mantengono l'equilibrio si chiamano forze interne della trave.
+
+![[Azione assiale]]
+
