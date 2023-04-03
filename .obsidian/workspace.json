@@ -52,9 +52,9 @@
                 "query": "tag:#meccanica",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -172,7 +172,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9d6210d82f29cdbb",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
     "Azione assiale.md",
     "Statica.md",
