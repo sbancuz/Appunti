@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convergenza successioni.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analisi_1 accumulazione",
+                "query": "tag:#analisi_1 we",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -186,13 +186,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "9d6210d82f29cdbb",
   "lastOpenFiles": [
-    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
+    "Teorema di Weierstrass.md",
+    "Numeri complessi.md",
+    "Teorema di De Moivre.md",
+    "Convergenza successioni.md",
     "Dimostrazioni per Ciprio.md",
+    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
     "Massimo e minimo.md",
     "Estremo superiore ed inferiore.md",
-    "Convergenza successioni.md",
     "Successioni.md",
     "Criterio di convergenza per le successioni monotone.md",
     "Teorema di monotonia delle successioni convergenti.md",
@@ -211,9 +214,6 @@
     "Società a responsabilità limitata semplificata S.R.L.S..md",
     "Società per azioni S.P.A..md",
     "Società in accomandita per azioni S.A.P.A..md",
-    "Società a responsabilità limitata S.R.L.md",
-    "Atto costitutivo.md",
-    "Società di persone.md",
     "Asimmetriuca.png",
     "ABC.png",
     "JOC.png",
