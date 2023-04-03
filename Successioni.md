@@ -3,10 +3,12 @@ tags: [analisi_1]
 ---
 Si chiama successione una qualunque funzione da $N\to R$ o più generalmente da un sottoinsieme di $N$ del tipo $\{n\in N \text{ | }n\ge c\}$ in $R$ dove $c$ è una costante arbitraria.
 
-Se ho $f:N\to R$, $f$ è una successione e la rappresento $f_n$ e più in generale si indica $$
+Se ho $f:N\to R$, $f$ è una successione e la rappresento $f_n$ e più in generale si indica 
+$$
 f=\{f_n\}_{n\in N}
 $$
 >[!tip] Esempio
+>
 >se $a=\{n^2\}_{n\in }N$ allora $a_5=25$
 
 Una successione è un particolare tipo di [[Funzioni]]. 
