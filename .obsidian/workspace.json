@@ -98,6 +98,7 @@
               "state": {
                 "file": "Moto relativo.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
