@@ -107,3 +107,33 @@ $$
 $\overline{x}$ sarà sicuramente punto di accumulazione.
 
 ____
+
+### Teorema di Weiestrass / Esistenza max/min per funzioni continue
+
+Sia $f$ continua in $[a,b]$ allora ammette massimo e minimo assoluti nell'intervallo $[a,b]$, quindi 
+$$
+\forall {x} \in {[a,b]}, \exists {x_{m}, x_{M}} \in {[a,b]} \text{ tc } m= f(x_{m})\leq f(x) \leq f(x_{M})= M 
+$$
+### Dimostrazione
+
+Sia $M=\sup Im(f)\in \mathbb R \cup\{+\infty\}$. Per le proprità del $\sup$ $\exists \{y_{n}\} \subset \mathrm{Im}(f) {}$ convergente ad M
+$$
+\lim_{ n \to \infty } {y_{n}}=M
+$$
+Se per un certo $m$ si ha $y_{m}=M$ allora $M=\max\mathrm{Im}(f)$ e la dimostrazione termina.
+Ma se questo non vale, allora possiamo supporre che $y_{n}\neq y_{m}$ se $n\neq m$. 
+Quindi $\exists \{x_{n}\} \in {[a,b]} \text{ tc } y_{n}=f(x_{n}), \forall {n}  {}$, di conseguenza $n\neq m\implies x_{n}\neq n_{m}$ e quindi
+$$
+\{x_{n}\}\subset[a,b]\text{ è un insieme limitato e infinito}
+$$
+
+Per il teorema di Bolzano-Weiestrass $\{x_{n}\}$ ammette un punto $x_{M}\in[a,b]$ di accumulazione. Quindi
+$$
+\exists \{x_{nk}\}_{k}\subset\{x_{n}\} \text{ convergente a } x_{M} : \lim_{ k \to \infty } {x_{nk}}=x_{M}  
+$$
+
+Allora $M=\lim_{ n \to \infty } {y_{n}} = \lim_{ k \to \infty } {y_{nk}} = \lim_{ k \to \infty } {f(x_{nk})}$ e poiché $f$ è continua ho che $f(\lim_{ k \to \infty } {x_{nk}})$
+$$
+M=f(x_{M}) \in \mathbb R \implies M=\max \mathrm{Im}(f)
+$$
+
