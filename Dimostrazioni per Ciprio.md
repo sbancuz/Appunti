@@ -10,12 +10,12 @@ $$
 $$
 e superiormente limitata che vuol dire
 $$
-\exists {M} \in {R} \text{ tc } x_{m}\leq M \text{  } \forall {m} \geq  {0}   
+\exists {M} \in {\mathbb R} \text{ tc } x_{m}\leq M \text{  } \forall {m} \geq  {0}   
 $$
 
-Allora $\{x_{n}\} \subset R$ è di Cauchy e quindi convergente cioè
+Allora $\{x_{n}\} \subset \mathbb R$ è di Cauchy e quindi convergente cioè
 $$
-\exists {\lim_{ n \to \infty } {x_{n}}} \in {R} 
+\exists {\lim_{ n \to \infty } {x_{n}}} \in {\mathbb R} 
 $$
 
 ### Dimostrazione
@@ -47,11 +47,11 @@ ____
 
 ### Esistenza di SUP e INF in R
 
-Se $A\subseteq R$ è superiormente limitato, cioè ha almeno un maggiorante, allora $\exists {\sup A} \subseteq {R}$
+Se $A\subseteq \mathbb R$ è superiormente limitato, cioè ha almeno un maggiorante, allora $\exists {\sup A} \subseteq {\mathbb R}$
 
 ### Dimostrazione
 
-Poiché $A$ è superiormente limitato possiamo dire che $\exists {b_{0}} \in {R} \text{ tc } x\in A \implies x \leq b_{0}$  
+Poiché $A$ è superiormente limitato possiamo dire che $\exists {b_{0}} \in {\mathbb R} \text{ tc }\forall x\in A \implies x \leq b_{0}$  
 
 Sia ora $a_{0}\in A$ fissato, avremo che $[a_{0},b_{0}]\cap A\neq 0$.
 Consideriamo il punto medio $c = \frac{a_{0}+b_{0}}{2}$ e consideriamo $[a_{0},c],[c,b_{0}]$ in cui in almeno una delle 2 metà vi saranno punti di $A$.
@@ -64,7 +64,7 @@ Quello che ottengo è una successione decrescente di intervalli tale che $b_{n}$
 
 ${a_{n}}$ è crescrente e superiormente limitata da $b_{0}$ invece ${b_{n}}$ è decrescrente e inferiormente limitata da $a_{0}$.
 
-Allora per il teorema di convergenza delle successioni monotonelimitate 
+Allora per il teorema di convergenza delle successioni monotone limitate 
 $$
 \exists {\lim_{ n \to \infty } {a_{n}}} ,\exists {\lim_{ n \to \infty } {b_{n}}} , \exists {\lim_{ n \to \infty } {(b_{n}-a_{n})}} =\lim_{ n \to \infty } {\frac{b_{0}-a_{0}}{2^{n}}} = \overline{x} \in R
 $$

@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statica.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#meccanica",
+                "query": "tag:#analisi_1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statica.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statica.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statica.md"
+                "file": "Dimostrazioni per Ciprio.md"
               }
             }
           }
@@ -176,6 +176,7 @@
   },
   "active": "9d6210d82f29cdbb",
   "lastOpenFiles": [
+    "Statica.md",
     "Dimostrazioni per Ciprio.md",
     "Teorema di Weierstrass.md",
     "Numeri complessi.md",
@@ -188,7 +189,6 @@
     "Criterio di convergenza per le successioni monotone.md",
     "Teorema di monotonia delle successioni convergenti.md",
     "Azione assiale.md",
-    "Statica.md",
     "conflict-files-obsidian-git.md",
     "Ring buffer.md",
     "Strutture di pagamento.md",
