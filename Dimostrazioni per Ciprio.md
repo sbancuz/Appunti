@@ -137,3 +137,64 @@ $$
 M=f(x_{M}) \in \mathbb R \implies M=\max \mathrm{Im}(f)
 $$
 
+----
+
+### Teorema degli zeri
+
+Sia $f$ continua in $[a,b]$ tale che 
+$$
+f(a)f(b) < 0
+$$
+cioè ammette segno opposto agli estremi del sistema.
+$\exists {x_{0}} \in {(a,b)}$ dove $f$ si annulla in $f(x_{0}) = 0$
+
+### Dimostrazione
+
+Poniamo $a_{0}=a$, $b_{0}=b$  allora consideriamo il punto medio $c = \frac{a_{0}+b_{0}}{2}$
+Se $f(c) = 0$ la dimostrazione è fatta, se no considero $[a_{0},c]$ e $[c,b_{0}]$ e consideriamo quella a cui estremi si hanno segni opposti e la denotiamo con $[a_{1},b_{1}]$ e ripeto per dicotomia.
+
+Iterando se $f\left( \frac{a_{n}+b_{n}}{2} \right) = 0$ la dimostrazione termina, altrimenti abbiamo una successione decrescente di intervalli tale che 
+$$
+[a_{n+1},b_{n+1}] \subset [a_{n},b_{n}] \subset \dots \subset [a_{0},b_{0}] \text{ con } \forall {n}  {} f(a_{n}) f(b_{n})<0
+$$
+E per la dicotomia si ha che
+$$
+\exists {\lim_{ n \to \infty } {a_{n}}} =\lim_{ n \to \infty } {b_{n}} = x_{0} \in [a_{0},b_{0}] 
+$$
+e quindi si ha anche che 
+$$
+\lim_{ n \to \infty } {f(a_{n})f(b_{n})} = 0
+$$
+Per la continuita di $f$ in $x_{0}$ si ha che
+$$
+f(\lim_{ n \to \infty } {a_{n}})f(\lim_{ n \to \infty } {b_{n}}) \leq 0 \implies f(x_0)f(x_0)\leq 0 \implies f(x_{0}) = 0
+$$
+
+----
+
+### Teorema dei valori intermedi
+
+Sia $f$ continua in $[a,b]$ allora ammette massimo e minimo assoluti nell'intervallo $[a,b]$, quindi 
+$$
+\forall {x} \in {[a,b]}, \exists {x_{m}, x_{M}} \in {[a,b]} \text{ tc } m= f(x_{m})\leq f(x) \leq f(x_{M})= M 
+$$
+allora 
+$$
+\forall {\lambda} \in {(m,M)}, \exists {x_{\lambda}}\in [a,b] \text{ tc } f(x_\lambda) = \lambda  
+$$
+cioè $\mathrm{Im}(f)=[m,M]$ e quindi la funzione assume tutti i valori in $[m,M]$
+
+### Dimostrazione
+
+Supponiamo $x_{m}<x_{M}$ e applico il teorema degli zeri, allora si ha che
+$$
+g:[x_{m},x_{M}] , g(x)=f(x) - \lambda
+$$
+allora $g$ è continua in $[x_{m}, x_{M}]$ e in più si ha
+$$
+g(x_{m}) = f(x_{m})- \lambda < 0 \text{ e }  g(x_{M}) = f(x_{M})- \lambda > 0 \implies g(x_{m})g(x_{M}) < 0
+$$
+quindi $\exists {x_{\lambda}} \in {(x_{m}, x_{M})}$ tc $0 = g(x_{m}) = f(x_{m}) - \lambda \implies f(x_{m}) = \lambda$ 
+
+---
+

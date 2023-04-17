@@ -18,14 +18,25 @@
             }
           },
           {
-            "id": "9d6210d82f29cdbb",
+            "id": "3d297dd0c12e14a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
-                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dffede520af586c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atto costitutivo.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -50,12 +61,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analisi_1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -85,7 +96,6 @@
               "state": {
                 "file": "Moto relativo.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -94,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -174,34 +185,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9d6210d82f29cdbb",
+  "active": "3d297dd0c12e14a4",
   "lastOpenFiles": [
-    "Statica.md",
-    "Dimostrazioni per Ciprio.md",
-    "Teorema di Weierstrass.md",
-    "Numeri complessi.md",
-    "Teorema di De Moivre.md",
-    "Convergenza successioni.md",
-    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
-    "Massimo e minimo.md",
-    "Estremo superiore ed inferiore.md",
-    "Successioni.md",
-    "Criterio di convergenza per le successioni monotone.md",
-    "Teorema di monotonia delle successioni convergenti.md",
-    "Azione assiale.md",
-    "conflict-files-obsidian-git.md",
-    "Ring buffer.md",
-    "Strutture di pagamento.md",
-    "Minimum viable product.md",
-    "Lean startup.md",
-    "Customer development model.md",
     "Aprire un impresa.md",
+    "Dimostrazioni per Ciprio.md",
+    "Azione assiale.md",
+    "Lean startup.md",
+    "Minimum viable product.md",
+    "Customer development model.md",
+    "Atto costitutivo.md",
+    "Strutture di pagamento.md",
     "Società cooperativa.md",
     "Società di capitali.md",
     "Società a responsabilità limitata a capitale ridotto S.R.L.C.R..md",
     "Società a responsabilità limitata semplificata S.R.L.S..md",
     "Società per azioni S.P.A..md",
     "Società in accomandita per azioni S.A.P.A..md",
+    "Società a responsabilità limitata S.R.L.md",
+    "Società di persone.md",
+    "Società in accomandita semplice S.A.S.md",
+    "Società in nome collettivo S.N.C..md",
+    "Società semplice S.S..md",
+    "Forma collettiva.md",
+    "Persona giuridica.md",
+    "Forme giuridiche.md",
+    "Impresa coniugale.md",
+    "Impresa familiare.md",
+    "Impresa individuale.md",
+    "Forma individuale.md",
     "Asimmetriuca.png",
     "ABC.png",
     "JOC.png",
