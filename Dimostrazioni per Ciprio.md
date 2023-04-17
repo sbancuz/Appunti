@@ -198,3 +198,16 @@ quindi $\exists {x_{\lambda}} \in {(x_{m}, x_{M})}$ tc $0 = g(x_{m}) = f(x_{m}) 
 
 ---
 
+### Continuità delle funzioni derivabili
+
+Sia $f:(a,b) \to \mathbb R$ e derivabile in $x_{0} \in (a,b)$ allora $f$ è continua in $x_{0}$
+
+### Dimostrazione
+
+$$
+\lim_{ x \to x_{0} } {(f(x)-f(x_{0}))} = \lim_{ x \to x_{0} } \frac{{f(x)-f(x_{0})}}{(x-x_{0})}(x-x_{0})=\lim_{ x \to x_{0} } \frac{{f(x)-f(x_{0})}}{(x-x_{0})}\lim_{ x \to x_{0} } {(x-x_{0})}=0
+$$
+
+----
+
+### Lemma di Fermat
