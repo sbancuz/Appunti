@@ -18,7 +18,7 @@ $$
 \exists {\lim_{ n \to \infty } {x_{n}}} \in {\mathbb R} 
 $$
 
-### Dimostrazione
+#### Dimostrazione
 
 Per la completezza di $R$ è sufficiente mostrare che la successione $x_{n}$ sia di Cauchy. Cioè
 $$
@@ -49,7 +49,7 @@ ____
 
 Se $A\subseteq \mathbb R$ è superiormente limitato, cioè ha almeno un maggiorante, allora $\exists {\sup A} \subseteq {\mathbb R}$
 
-### Dimostrazione
+#### Dimostrazione
 
 Poiché $A$ è superiormente limitato possiamo dire che $\exists {b_{0}} \in {\mathbb R} \text{ tc }\forall x\in A \implies x \leq b_{0}$  
 
@@ -84,7 +84,7 @@ _____
 
 Sia $E \subseteq R$ limitato e infinito, allora $\exists {}  {}$ almeno un punto di accumulazione quindi $E'\neq 0$.
 
-### Dimostrazione
+#### Dimostrazione
 
 Visto che $E$ è limitato, quindi è contenuto in un intervallo $E\subseteq[a_{0},b_{0}]$. Sia $c=\frac{a_{0}+b_{0}}{2}$il punto medio e consideriamo adesso $[a_{0},c], [c,b_{0}]$ in cui in almeno una delle 2 vi sono infiniti punti.
 Scelgo una delle 2 metà che contiene infiniti punti di $E$ e la chiamo $[a_{1},b_{1}]$. 
@@ -114,7 +114,8 @@ Sia $f$ continua in $[a,b]$ allora ammette massimo e minimo assoluti nell'interv
 $$
 \forall {x} \in {[a,b]}, \exists {x_{m}, x_{M}} \in {[a,b]} \text{ tc } m= f(x_{m})\leq f(x) \leq f(x_{M})= M 
 $$
-### Dimostrazione
+
+#### Dimostrazione
 
 Sia $M=\sup Im(f)\in \mathbb R \cup\{+\infty\}$. Per le proprità del $\sup$ $\exists \{y_{n}\} \subset \mathrm{Im}(f) {}$ convergente ad M
 $$
@@ -148,7 +149,7 @@ $$
 cioè ammette segno opposto agli estremi del sistema.
 $\exists {x_{0}} \in {(a,b)}$ dove $f$ si annulla in $f(x_{0}) = 0$
 
-### Dimostrazione
+#### Dimostrazione
 
 Poniamo $a_{0}=a$, $b_{0}=b$  allora consideriamo il punto medio $c = \frac{a_{0}+b_{0}}{2}$
 Se $f(c) = 0$ la dimostrazione è fatta, se no considero $[a_{0},c]$ e $[c,b_{0}]$ e consideriamo quella a cui estremi si hanno segni opposti e la denotiamo con $[a_{1},b_{1}]$ e ripeto per dicotomia.
@@ -184,7 +185,7 @@ $$
 $$
 cioè $\mathrm{Im}(f)=[m,M]$ e quindi la funzione assume tutti i valori in $[m,M]$
 
-### Dimostrazione
+#### Dimostrazione
 
 Supponiamo $x_{m}<x_{M}$ e applico il teorema degli zeri, allora si ha che
 $$
@@ -202,7 +203,7 @@ quindi $\exists {x_{\lambda}} \in {(x_{m}, x_{M})}$ tc $0 = g(x_{m}) = f(x_{m}) 
 
 Sia $f:(a,b) \to \mathbb R$ e derivabile in $x_{0} \in (a,b)$ allora $f$ è continua in $x_{0}$
 
-### Dimostrazione
+#### Dimostrazione
 
 $$
 \lim_{ x \to x_{0} } {(f(x)-f(x_{0}))} = \lim_{ x \to x_{0} } \frac{{f(x)-f(x_{0})}}{(x-x_{0})}(x-x_{0})=\lim_{ x \to x_{0} } \frac{{f(x)-f(x_{0})}}{(x-x_{0})}\lim_{ x \to x_{0} } {(x-x_{0})}=0
@@ -211,3 +212,33 @@ $$
 ----
 
 ### Lemma di Fermat
+
+Sia $f:(a,b) \to \mathbb R$ e sia $x_{0}\in(a,b)$ un punto di estremo di $f$. Se $f$ è derivabile in $x_{0}$ allora 
+$$
+f'(x_{0}) = 0
+$$
+I punti dove si annulla $f'$ sono detti stazionari o critici
+
+#### Dimostrazione
+
+Sia $x_{0}\in (a,b)$ massimo di $f$ in $(a,b)$ quindi
+$$
+\forall {x} \in {(a,b)} \implies f(x)\leq f(x_{0})
+$$
+Se $x>x_{0}$ si ha $\frac{f(x)-f(x_{0})}{x-x_{0}}\leq 0$
+Per la permanenza del segno ho che
+$$
+\lim_{ x \to x_{0}^{+} } {\frac{f(x)-f(x_{0})}{x-x_{0}}\leq 0}
+$$
+Se $x<x_{0}$ si ha $\frac{f(x)-f(x_{0})}{x-x_{0}}\geq 0$
+Per la permanenza del segno ho che
+$$
+\lim_{ x \to x_{0}^{-} } {\frac{f(x)-f(x_{0})}{x-x_{0}}\geq 0}
+$$
+Quindi si deduce che 
+$$
+\begin{cases}
+f'(x)\geq 0 \\
+f'(x)\leq 0
+\end{cases} \implies f'(x) = 0
+$$
