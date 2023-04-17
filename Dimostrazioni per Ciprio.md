@@ -242,3 +242,44 @@ f'(x)\geq 0 \\
 f'(x)\leq 0
 \end{cases} \implies f'(x) = 0
 $$
+----
+
+### Teorema di Lagrange
+
+Sia $f$ continua in $[a,b]$ derivabile in $(a,b)$ allora
+$$
+\exists {c} \in {(a,b)} \text{ tc }\frac{ f(b)-f(a)}{b-a} = f'(c) 
+$$
+In generale i punti di Lagrange non sono unici
+
+#### Dimostrazione
+
+Consideriamo 
+$$
+g:[a,b]\to \mathbb R \implies g(x)=f(a)+\frac{f(b)-f(a)}{b-a}(x-a)
+$$
+Il cui grafico è una retta e in cui $g(a) = f(a)$ e $g(b)=f(b)$. Ovvero sarà la retta passante per $(a,f(a))$ e $(b, f(b))$ con coefficiente angolare $\frac{f(b)-f(a)}{b-a}$
+
+$g$ è continua e derivabile in $\mathbb R$ e $g'(x) = \frac{f(b)-f(a)}{b-a}$
+
+Considero adesso $h=f-g$ su $[a,b]$, questa funzione sarà continua su $[a,b]$ e derivabile su $(a,b)$. 
+
+Per il teorema di Weiestrass $\exists {x_{m},x_{M}} \in {[a,b]}$ di estremo globale
+
+**Primo caso** => $x_{m},x_{M}$ sono agli estremi di $[a,b]$
+$$
+\forall {x}\in  {}[a,b] \implies
+\begin{cases}
+h(a) = f(a) - g(a) = 0 \\
+h(b) = f(b) - g(b) = 0 
+\end{cases} 
+$$
+cioè $0 = h(x) \implies f(x) = g(x) \implies f'(x) = g'(x) = \frac{f(b)-f(a)}{b-a}$ che verifica il teorema $\forall {c}\in  {}(a,b)$
+
+**Secondo caso** => almeno uno tra $x_{m}, x_{M} \in (a,b)$, per esempio $x_{M}$.
+Applico quindi il lemma di Fermat
+$$
+h'(x_{M}) = 0 = f'(x_{M})-g'(x_{M}) = \frac{f(b)-f(a)}{b-a}
+$$
+e quindi è verificato il teorema con $c=x_{M}$
+
