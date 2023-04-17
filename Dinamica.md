@@ -25,10 +25,15 @@ Queste sono le equazioni di equilibrio dinamico.
 
 ### Principio dei lavori virtuali (PLV)
 
+Q = Lagrangiana
+
 Questa formula vale su ogni i-esimo corpo
 $$
 \delta L=\sum_{j}\overrightarrow{F_{j}}\land\delta \overrightarrow{P_{j}}+\sum_{k}\overrightarrow{C_{k}}\land\delta \overrightarrow{\theta}+\overrightarrow{F_{IN}}\land\delta \overrightarrow{G}+\overrightarrow{C_{IN}}\land\delta \overrightarrow{\theta} = 0
 $$
 $$
-\delta L = Q(q)\delta q
+\delta L = Q(q)\delta q + Q_{IN}(q)\delta q = 0
+$$
+$$
+Q_{IN}(q) = \sum_{i}\left( m_{i}a_{ix}\frac{\delta G_{x}}{\delta q} + m_{i}a_{iy}\frac{\delta G_{y}}{\delta q} + J_{i} \ddot{\theta_{i}} \frac{ \partial \theta_{i} }{ \partial q }   \right)
 $$
