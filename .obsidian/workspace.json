@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "9d6210d82f29cdbb",
+            "id": "cd72459b2c0caa64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Dinamica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analisi_1",
+                "query": "tag:#meccanica",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Dinamica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Dinamica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md"
+                "file": "Dinamica.md"
               }
             }
           }
@@ -174,9 +174,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9d6210d82f29cdbb",
+  "active": "cd72459b2c0caa64",
   "lastOpenFiles": [
     "Statica.md",
+    "Dinamica.md",
     "Dimostrazioni per Ciprio.md",
     "Teorema di Weierstrass.md",
     "Numeri complessi.md",
@@ -201,7 +202,6 @@
     "Società a responsabilità limitata a capitale ridotto S.R.L.C.R..md",
     "Società a responsabilità limitata semplificata S.R.L.S..md",
     "Società per azioni S.P.A..md",
-    "Società in accomandita per azioni S.A.P.A..md",
     "Asimmetriuca.png",
     "ABC.png",
     "JOC.png",

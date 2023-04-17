@@ -179,3 +179,23 @@ J & =Mr^{2} = J_{O}\overline{\dot{\omega}} \\
 $$
 
 Dove la $r$ cambia rispetto a quello che sto calcolando, la $r$ di $J_{G}$ è $(G-O)$ invece l'altra è $(P-G)$
+
+Le forze ed i momenti si possono sommare.
+
+```math
+||{"id":644889132490}||
+
+
+```
+
+$$
+\begin{cases}
+F_{1x}+F_{2x} = R_{x} \\
+F_{1y}+F_{2y} = R_{y} \\
+F_{2x}b-F_{1x}a = M 
+
+\end{cases}
+$$
+
+>[!tip] 
+>Notare che in queste relazioni non è importante se le masse siano collegate o meno
