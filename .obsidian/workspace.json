@@ -29,9 +29,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1984c2503c676b07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -50,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#meccanica",
+                "query": "tag:#analisi_1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dinamica.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dinamica.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dinamica.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -174,11 +187,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd72459b2c0caa64",
+  "active": "1984c2503c676b07",
   "lastOpenFiles": [
-    "Statica.md",
     "Dinamica.md",
     "Dimostrazioni per Ciprio.md",
+    "conflict-files-obsidian-git.md",
+    "Statica.md",
     "Teorema di Weierstrass.md",
     "Numeri complessi.md",
     "Teorema di De Moivre.md",
@@ -190,7 +204,6 @@
     "Criterio di convergenza per le successioni monotone.md",
     "Teorema di monotonia delle successioni convergenti.md",
     "Azione assiale.md",
-    "conflict-files-obsidian-git.md",
     "Ring buffer.md",
     "Strutture di pagamento.md",
     "Minimum viable product.md",

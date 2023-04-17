@@ -18,7 +18,7 @@ $$
 \exists {\lim_{ n \to \infty } {x_{n}}} \in {\mathbb R} 
 $$
 
-### Dimostrazione
+#### Dimostrazione
 
 Per la completezza di $R$ è sufficiente mostrare che la successione $x_{n}$ sia di Cauchy. Cioè
 $$
@@ -49,7 +49,7 @@ ____
 
 Se $A\subseteq \mathbb R$ è superiormente limitato, cioè ha almeno un maggiorante, allora $\exists {\sup A} \subseteq {\mathbb R}$
 
-### Dimostrazione
+#### Dimostrazione
 
 Poiché $A$ è superiormente limitato possiamo dire che $\exists {b_{0}} \in {\mathbb R} \text{ tc }\forall x\in A \implies x \leq b_{0}$  
 
@@ -84,7 +84,7 @@ _____
 
 Sia $E \subseteq R$ limitato e infinito, allora $\exists {}  {}$ almeno un punto di accumulazione quindi $E'\neq 0$.
 
-### Dimostrazione
+#### Dimostrazione
 
 Visto che $E$ è limitato, quindi è contenuto in un intervallo $E\subseteq[a_{0},b_{0}]$. Sia $c=\frac{a_{0}+b_{0}}{2}$il punto medio e consideriamo adesso $[a_{0},c], [c,b_{0}]$ in cui in almeno una delle 2 vi sono infiniti punti.
 Scelgo una delle 2 metà che contiene infiniti punti di $E$ e la chiamo $[a_{1},b_{1}]$. 
@@ -114,7 +114,8 @@ Sia $f$ continua in $[a,b]$ allora ammette massimo e minimo assoluti nell'interv
 $$
 \forall {x} \in {[a,b]}, \exists {x_{m}, x_{M}} \in {[a,b]} \text{ tc } m= f(x_{m})\leq f(x) \leq f(x_{M})= M 
 $$
-### Dimostrazione
+
+#### Dimostrazione
 
 Sia $M=\sup Im(f)\in \mathbb R \cup\{+\infty\}$. Per le proprità del $\sup$ $\exists \{y_{n}\} \subset \mathrm{Im}(f) {}$ convergente ad M
 $$
@@ -136,4 +137,149 @@ Allora $M=\lim_{ n \to \infty } {y_{n}} = \lim_{ k \to \infty } {y_{nk}} = \lim_
 $$
 M=f(x_{M}) \in \mathbb R \implies M=\max \mathrm{Im}(f)
 $$
+
+----
+
+### Teorema degli zeri
+
+Sia $f$ continua in $[a,b]$ tale che 
+$$
+f(a)f(b) < 0
+$$
+cioè ammette segno opposto agli estremi del sistema.
+$\exists {x_{0}} \in {(a,b)}$ dove $f$ si annulla in $f(x_{0}) = 0$
+
+#### Dimostrazione
+
+Poniamo $a_{0}=a$, $b_{0}=b$  allora consideriamo il punto medio $c = \frac{a_{0}+b_{0}}{2}$
+Se $f(c) = 0$ la dimostrazione è fatta, se no considero $[a_{0},c]$ e $[c,b_{0}]$ e consideriamo quella a cui estremi si hanno segni opposti e la denotiamo con $[a_{1},b_{1}]$ e ripeto per dicotomia.
+
+Iterando se $f\left( \frac{a_{n}+b_{n}}{2} \right) = 0$ la dimostrazione termina, altrimenti abbiamo una successione decrescente di intervalli tale che 
+$$
+[a_{n+1},b_{n+1}] \subset [a_{n},b_{n}] \subset \dots \subset [a_{0},b_{0}] \text{ con } \forall {n}  {} f(a_{n}) f(b_{n})<0
+$$
+E per la dicotomia si ha che
+$$
+\exists {\lim_{ n \to \infty } {a_{n}}} =\lim_{ n \to \infty } {b_{n}} = x_{0} \in [a_{0},b_{0}] 
+$$
+e quindi si ha anche che 
+$$
+\lim_{ n \to \infty } {f(a_{n})f(b_{n})} = 0
+$$
+Per la continuita di $f$ in $x_{0}$ si ha che
+$$
+f(\lim_{ n \to \infty } {a_{n}})f(\lim_{ n \to \infty } {b_{n}}) \leq 0 \implies f(x_0)f(x_0)\leq 0 \implies f(x_{0}) = 0
+$$
+
+----
+
+### Teorema dei valori intermedi
+
+Sia $f$ continua in $[a,b]$ allora ammette massimo e minimo assoluti nell'intervallo $[a,b]$, quindi 
+$$
+\forall {x} \in {[a,b]}, \exists {x_{m}, x_{M}} \in {[a,b]} \text{ tc } m= f(x_{m})\leq f(x) \leq f(x_{M})= M 
+$$
+allora 
+$$
+\forall {\lambda} \in {(m,M)}, \exists {x_{\lambda}}\in [a,b] \text{ tc } f(x_\lambda) = \lambda  
+$$
+cioè $\mathrm{Im}(f)=[m,M]$ e quindi la funzione assume tutti i valori in $[m,M]$
+
+#### Dimostrazione
+
+Supponiamo $x_{m}<x_{M}$ e applico il teorema degli zeri, allora si ha che
+$$
+g:[x_{m},x_{M}] , g(x)=f(x) - \lambda
+$$
+allora $g$ è continua in $[x_{m}, x_{M}]$ e in più si ha
+$$
+g(x_{m}) = f(x_{m})- \lambda < 0 \text{ e }  g(x_{M}) = f(x_{M})- \lambda > 0 \implies g(x_{m})g(x_{M}) < 0
+$$
+quindi $\exists {x_{\lambda}} \in {(x_{m}, x_{M})}$ tc $0 = g(x_{m}) = f(x_{m}) - \lambda \implies f(x_{m}) = \lambda$ 
+
+---
+
+### Continuità delle funzioni derivabili
+
+Sia $f:(a,b) \to \mathbb R$ e derivabile in $x_{0} \in (a,b)$ allora $f$ è continua in $x_{0}$
+
+#### Dimostrazione
+
+$$
+\lim_{ x \to x_{0} } {(f(x)-f(x_{0}))} = \lim_{ x \to x_{0} } \frac{{f(x)-f(x_{0})}}{(x-x_{0})}(x-x_{0})=\lim_{ x \to x_{0} } \frac{{f(x)-f(x_{0})}}{(x-x_{0})}\lim_{ x \to x_{0} } {(x-x_{0})}=0
+$$
+
+----
+
+### Lemma di Fermat
+
+Sia $f:(a,b) \to \mathbb R$ e sia $x_{0}\in(a,b)$ un punto di estremo di $f$. Se $f$ è derivabile in $x_{0}$ allora 
+$$
+f'(x_{0}) = 0
+$$
+I punti dove si annulla $f'$ sono detti stazionari o critici
+
+#### Dimostrazione
+
+Sia $x_{0}\in (a,b)$ massimo di $f$ in $(a,b)$ quindi
+$$
+\forall {x} \in {(a,b)} \implies f(x)\leq f(x_{0})
+$$
+Se $x>x_{0}$ si ha $\frac{f(x)-f(x_{0})}{x-x_{0}}\leq 0$
+Per la permanenza del segno ho che
+$$
+\lim_{ x \to x_{0}^{+} } {\frac{f(x)-f(x_{0})}{x-x_{0}}\leq 0}
+$$
+Se $x<x_{0}$ si ha $\frac{f(x)-f(x_{0})}{x-x_{0}}\geq 0$
+Per la permanenza del segno ho che
+$$
+\lim_{ x \to x_{0}^{-} } {\frac{f(x)-f(x_{0})}{x-x_{0}}\geq 0}
+$$
+Quindi si deduce che 
+$$
+\begin{cases}
+f'(x)\geq 0 \\
+f'(x)\leq 0
+\end{cases} \implies f'(x) = 0
+$$
+----
+
+### Teorema di Lagrange
+
+Sia $f$ continua in $[a,b]$ derivabile in $(a,b)$ allora
+$$
+\exists {c} \in {(a,b)} \text{ tc }\frac{ f(b)-f(a)}{b-a} = f'(c) 
+$$
+In generale i punti di Lagrange non sono unici
+
+#### Dimostrazione
+
+Consideriamo 
+$$
+g:[a,b]\to \mathbb R \implies g(x)=f(a)+\frac{f(b)-f(a)}{b-a}(x-a)
+$$
+Il cui grafico è una retta e in cui $g(a) = f(a)$ e $g(b)=f(b)$. Ovvero sarà la retta passante per $(a,f(a))$ e $(b, f(b))$ con coefficiente angolare $\frac{f(b)-f(a)}{b-a}$
+
+$g$ è continua e derivabile in $\mathbb R$ e $g'(x) = \frac{f(b)-f(a)}{b-a}$
+
+Considero adesso $h=f-g$ su $[a,b]$, questa funzione sarà continua su $[a,b]$ e derivabile su $(a,b)$. 
+
+Per il teorema di Weiestrass $\exists {x_{m},x_{M}} \in {[a,b]}$ di estremo globale
+
+**Primo caso** => $x_{m},x_{M}$ sono agli estremi di $[a,b]$
+$$
+\forall {x}\in  {}[a,b] \implies
+\begin{cases}
+h(a) = f(a) - g(a) = 0 \\
+h(b) = f(b) - g(b) = 0 
+\end{cases} 
+$$
+cioè $0 = h(x) \implies f(x) = g(x) \implies f'(x) = g'(x) = \frac{f(b)-f(a)}{b-a}$ che verifica il teorema $\forall {c}\in  {}(a,b)$
+
+**Secondo caso** => almeno uno tra $x_{m}, x_{M} \in (a,b)$, per esempio $x_{M}$.
+Applico quindi il lemma di Fermat
+$$
+h'(x_{M}) = 0 = f'(x_{M})-g'(x_{M}) = \frac{f(b)-f(a)}{b-a}
+$$
+e quindi è verificato il teorema con $c=x_{M}$
 
