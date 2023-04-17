@@ -23,3 +23,12 @@ $$
 $$
 Queste sono le equazioni di equilibrio dinamico.
 
+### Principio dei lavori virtuali (PLV)
+
+Questa formula vale su ogni i-esimo corpo
+$$
+\delta L=\sum_{j}\overrightarrow{F_{j}}\land\delta \overrightarrow{P_{j}}+\sum_{k}\overrightarrow{C_{k}}\land\delta \overrightarrow{\theta}+\overrightarrow{F_{IN}}\land\delta \overrightarrow{G}+\overrightarrow{C_{IN}}\land\delta \overrightarrow{\theta} = 0
+$$
+$$
+\delta L = Q(q)\delta q
+$$
