@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dinamica.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dinamica.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dinamica.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dinamica.md"
+                "file": "Dimostrazioni per Ciprio.md"
               }
             }
           }
@@ -176,8 +176,8 @@
   },
   "active": "cd72459b2c0caa64",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Dinamica.md",
+    "conflict-files-obsidian-git.md",
     "Dimostrazioni per Ciprio.md",
     "Statica.md",
     "Teorema di Weierstrass.md",

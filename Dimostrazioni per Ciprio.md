@@ -2,9 +2,9 @@
 tags: [analisi_1]
 ---
 
-### Teorema di convergenza delle successioni monotone limitate in $\mathrm{R}$
+### Teorema di convergenza delle successioni monotone limitate in $\mathbb{R}$
 
-Sia $x_{n}\in R$ una successione di numeri reali monotona crescente quindi
+Sia $x_{n}\in \mathbb R$ una successione di numeri reali monotona crescente quindi
 $$
 \forall {n} \geq {0} \implies x_{n}\leq x_{n+1} 
 $$
@@ -20,7 +20,7 @@ $$
 
 #### Dimostrazione
 
-Per la completezza di $R$ è sufficiente mostrare che la successione $x_{n}$ sia di Cauchy. Cioè
+Per la completezza di $\mathbb R$ è sufficiente mostrare che la successione $x_{n}$ sia di Cauchy. Cioè
 $$
 \forall {\epsilon} > {0}, \exists {N(\epsilon)} \geq {0} \text{ | }  n,m \geq N(\epsilon) \implies |x_{n}-x_{m}| < \epsilon
 $$
@@ -35,7 +35,7 @@ Per $N_{2}=m_{1}, \exists {m_{2}>n_{2}\geq N_{2} = n_{1}>m_{1}}$
 
 Allora avremo che $x_{n_{2}}\geq 2\epsilon +x_{m_{1}}$ e più in generale
 $$
-X_{K+1}=m_{k}>m_{k}, \exists {m_{k+1}>n_{k+1}} >N_{k+1}>m_{k}>n_{k}>\dots>k\epsilon+x_{n_{1}} 
+X_{K+1}=m_{k}>n_{k}, \exists {m_{k+1}>n_{k+1}} >N_{k+1}>m_{k}>n_{k}>\dots>k\epsilon+x_{n_{1}} 
 $$
 Per la monotonia del limite non esiste
 $$
@@ -45,7 +45,7 @@ e quindi $\{x_{n}\}$ è di Cauchy.
 
 ____
 
-### Esistenza di SUP e INF in R
+### Esistenza di SUP e INF in $\mathbb R$
 
 Se $A\subseteq \mathbb R$ è superiormente limitato, cioè ha almeno un maggiorante, allora $\exists {\sup A} \subseteq {\mathbb R}$
 
@@ -66,7 +66,7 @@ ${a_{n}}$ è crescrente e superiormente limitata da $b_{0}$ invece ${b_{n}}$ è 
 
 Allora per il teorema di convergenza delle successioni monotone limitate 
 $$
-\exists {\lim_{ n \to \infty } {a_{n}}} ,\exists {\lim_{ n \to \infty } {b_{n}}} , \exists {\lim_{ n \to \infty } {(b_{n}-a_{n})}} =\lim_{ n \to \infty } {\frac{b_{0}-a_{0}}{2^{n}}} = \overline{x} \in R
+\exists {\lim_{ n \to \infty } {a_{n}}} ,\exists {\lim_{ n \to \infty } {b_{n}}} , \exists {\lim_{ n \to \infty } {(b_{n}-a_{n})}} =\lim_{ n \to \infty } {\frac{b_{0}-a_{0}}{2^{n}}} = \overline{x} \in \mathbb  R
 $$
 Infatti mostriamo che $\overline{x}$ è estremo superiore di $A$, infatti $\forall {x} \in {A}$ fissato $x\leq b$ passando al limite
 $$
@@ -82,7 +82,7 @@ _____
 
 ### Proprietà di Bolzano Weiestrass
 
-Sia $E \subseteq R$ limitato e infinito, allora $\exists {}  {}$ almeno un punto di accumulazione quindi $E'\neq 0$.
+Sia $E \subseteq \mathbb R$ limitato e infinito (Reale), allora $\exists {}  {}$ almeno un punto di accumulazione quindi $E'\neq 0$.
 
 #### Dimostrazione
 
@@ -95,7 +95,7 @@ $$
 $$
 tali che ogni intervallo abbia cardinalità infinita.
 
-${a_{n}}$ è crescrente e superiormente limitata da $a_{0}$ invece ${b_{n}}$ è decrescrente e inferiormente limitata da $b_{0}$
+${a_{n}}$ è crescrente e superiormente limitata da $b_{0}$ invece ${b_{n}}$ è decrescrente e inferiormente limitata da $a_{0}$
 $$
 \lim_{ n \to \infty } {(b_{n}-a_{n})= \lim_{ n \to \infty } {\frac{b_{0}-a_{0}}{2^{n}}}=0}\implies \exists {\lim_{ n \to \infty } {a_{n}}} , \exists {\lim_{ n \to \infty } {b_{n}}} = \overline{x}  
 $$
@@ -122,8 +122,9 @@ $$
 \lim_{ n \to \infty } {y_{n}}=M
 $$
 Se per un certo $m$ si ha $y_{m}=M$ allora $M=\max\mathrm{Im}(f)$ e la dimostrazione termina.
+
 Ma se questo non vale, allora possiamo supporre che $y_{n}\neq y_{m}$ se $n\neq m$. 
-Quindi $\exists \{x_{n}\} \in {[a,b]} \text{ tc } y_{n}=f(x_{n}), \forall {n}  {}$, di conseguenza $n\neq m\implies x_{n}\neq n_{m}$ e quindi
+Quindi $\exists \{x_{n}\} \in {[a,b]} \text{ tc } y_{n}=f(x_{n}), \forall {n}  {}$, di conseguenza $n\neq m\implies x_{n}\neq x_{m}$ e quindi
 $$
 \{x_{n}\}\subset[a,b]\text{ è un insieme limitato e infinito}
 $$
