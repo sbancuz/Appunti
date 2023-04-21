@@ -284,3 +284,23 @@ h'(x_{M}) = 0 = f'(x_{M})-g'(x_{M}) = \frac{f(b)-f(a)}{b-a}
 $$
 e quindi è verificato il teorema con $c=x_{M}$
 
+---
+
+### Test di monotonia
+
+Sia $f:(a,b) \to \mathbb R$ derivabile in $(a,b)$ allora:
+	- $f$ è crescente <=> $f'(x) >0, \forall {x} \in {(a,b)}$ 
+	- $f$ è decrescente <=> $f'(x) <0, \forall {x} \in {(a,b)}$ 
+
+#### Dimostrazione
+
+Sia $f$ crescente allora
+$$
+\frac{f(y)-f(x)}{y-x}\geq 0 \text{ se }a<x<y<b
+$$
+e per la permanenza del segno ho che 
+$$
+f'(x)=\lim_{ y \to x } \frac{{f(y)-f(x)}}{y-x}\geq 0 
+$$
+
+----
