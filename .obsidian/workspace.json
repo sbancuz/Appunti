@@ -31,6 +31,19 @@
             }
           },
           {
+            "id": "1475c59e345ee128",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "dffede520af586c6",
             "type": "leaf",
             "state": {
@@ -44,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -188,10 +201,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3d297dd0c12e14a4",
+  "active": "1475c59e345ee128",
   "lastOpenFiles": [
-    "Aprire un impresa.md",
     "Dimostrazioni per Ciprio.md",
+    "conflict-files-obsidian-git.md",
+    "Dinamica.md",
+    "Aprire un impresa.md",
     "Azione assiale.md",
     "Lean startup.md",
     "Minimum viable product.md",
@@ -214,8 +229,6 @@
     "Forme giuridiche.md",
     "Impresa coniugale.md",
     "Impresa familiare.md",
-    "Impresa individuale.md",
-    "Forma individuale.md",
     "Asimmetriuca.png",
     "ABC.png",
     "JOC.png",
