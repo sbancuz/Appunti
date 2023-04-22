@@ -18,19 +18,20 @@
             }
           },
           {
-            "id": "dffede520af586c6",
+            "id": "0a1c4a34e22e6167",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atto costitutivo.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dimostrazioni per Ciprio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Dimostrazioni per Ciprio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dimostrazioni per Ciprio.md"
+              }
             }
           }
         ],
@@ -170,7 +175,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "0a1c4a34e22e6167",
   "lastOpenFiles": [
     "Dimostrazioni per Ciprio.md",
     "conflict-files-obsidian-git.md",
