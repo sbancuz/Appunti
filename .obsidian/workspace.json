@@ -25,6 +25,7 @@
               "state": {
                 "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -37,6 +38,7 @@
               "state": {
                 "file": "Atto costitutivo.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -96,6 +98,7 @@
               "state": {
                 "file": "Moto relativo.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
