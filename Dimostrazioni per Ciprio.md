@@ -85,7 +85,7 @@ _____
 Sia $E \subseteq \mathbb R$ limitato e infinito (Reale), allora $\exists {}  {}$ almeno un punto di accumulazione quindi $E'\neq 0$.
 
 #### Dimostrazione
-
+ 
 Visto che $E$ è limitato, quindi è contenuto in un intervallo $E\subseteq[a_{0},b_{0}]$. Sia $c=\frac{a_{0}+b_{0}}{2}$il punto medio e consideriamo adesso $[a_{0},c], [c,b_{0}]$ in cui in almeno una delle 2 vi sono infiniti punti.
 Scelgo una delle 2 metà che contiene infiniti punti di $E$ e la chiamo $[a_{1},b_{1}]$. 
 
@@ -304,3 +304,4 @@ f'(x)=\lim_{ y \to x } \frac{{f(y)-f(x)}}{y-x}\geq 0
 $$
 
 ----
+
