@@ -1,3 +1,4 @@
+
 ---
 tags: [analisi_1]
 ---
@@ -304,3 +305,10 @@ f'(x)=\lim_{ y \to x } \frac{{f(y)-f(x)}}{y-x}\geq 0
 $$
 
 ----
+
+### Teorema di de L'Hopital
+
+Siano $f,g:(a,b)\to \mathbb R$ derivabili e con $g\neq 0$ allora si ha che 
+$$
+
+$$
