@@ -32,8 +32,8 @@ $$
 
 Possiamo assumere che il punto $x_{m_{N}}\geq x_{n_{N}}$ così $x_{m_{N}}\geq \epsilon+x_{n_{N}}$ 
 Per $N_{1}=1, \exists {m_{1}>n_{1}} \text{ tc } x_{m_{1}} \geq \epsilon x_{n_{1}}$
-Per $N_{2}=m_{1}, \exists {m_{2}>n_{2}\geq N_{2} = n_{1}>m_{1}}$
-
+Per $N_{2}=m_{1}, \exists {m_{2}>n_{2}\geq N_{2} = m_{1}>n_{1}}$
+	
 Allora avremo che $x_{n_{2}}\geq 2\epsilon +x_{m_{1}}$ e più in generale
 $$
 X_{K+1}=m_{k}>n_{k}, \exists {m_{k+1}>n_{k+1}} >N_{k+1}>m_{k}>n_{k}>\dots>k\epsilon+x_{n_{1}} 
@@ -67,7 +67,7 @@ ${a_{n}}$ è crescrente e superiormente limitata da $b_{0}$ invece ${b_{n}}$ è 
 
 Allora per il teorema di convergenza delle successioni monotone limitate 
 $$
-\exists {\lim_{ n \to \infty } {a_{n}}} ,\exists {\lim_{ n \to \infty } {b_{n}}} , \exists {\lim_{ n \to \infty } {(b_{n}-a_{n})}} =\lim_{ n \to \infty } {\frac{b_{0}-a_{0}}{2^{n}}} = \overline{x} \in \mathbb  R
+\exists {\lim_{ n \to \infty } {a_{n}}} = \exists {\lim_{ n \to \infty } {b_{n}}} =\overline{x} \in \mathbb  R, \exists {\lim_{ n \to \infty } {(b_{n}-a_{n})}} =\lim_{ n \to \infty } {\frac{b_{0}-a_{0}}{2^{n}}} = 0
 $$
 Infatti mostriamo che $\overline{x}$ è estremo superiore di $A$, infatti $\forall {x} \in {A}$ fissato $x\leq b$ passando al limite
 $$
@@ -86,7 +86,7 @@ _____
 Sia $E \subseteq \mathbb R$ limitato e infinito (Reale), allora $\exists {}  {}$ almeno un punto di accumulazione quindi $E'\neq 0$.
 
 #### Dimostrazione
-
+ 
 Visto che $E$ è limitato, quindi è contenuto in un intervallo $E\subseteq[a_{0},b_{0}]$. Sia $c=\frac{a_{0}+b_{0}}{2}$il punto medio e consideriamo adesso $[a_{0},c], [c,b_{0}]$ in cui in almeno una delle 2 vi sono infiniti punti.
 Scelgo una delle 2 metà che contiene infiniti punti di $E$ e la chiamo $[a_{1},b_{1}]$. 
 
