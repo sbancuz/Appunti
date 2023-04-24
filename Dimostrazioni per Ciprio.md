@@ -308,7 +308,33 @@ $$
 
 ### Teorema di de L'Hopital
 
-Siano $f,g:(a,b)\to \mathbb R$ derivabili e con $g\neq 0$ allora si ha che 
+Siano $f,g:(a,b)\to \mathbb R$ derivabili e infinitesime con $g\neq 0$ allora si ha che 
+$$
+\exists	\lim_{ x \to a^{+} } {\frac{f'(x)}{g'(x)}}= l \implies \exists \lim_{ x \to a^{+} } {\frac{f(x)}{g(x)}} = l
 $$
 
+#### Dimostrazione
+
+Definiamo $f(a)=g(a)= 0$ e le enstendo in maniera continua a $[a,b)$.
+
+Fisso adesso $x\in(a,b)$
+Abbiamo che $f,g$ sono continue in $[a,x]$ e derivabili in $(a,x)$ poiché $f,g$ derivabilii in $(a,b)$
+
+Applico il teorema di Lagrange ad $h:[a,x]\to \mathbb R$ definita
 $$
+\forall {y} \in {[a,x]}, h(y)=f(x)g(y) -f(y)g(x)
+$$
+Quindi $\exists {y(x)} \in {(a,x)} \text{ tc } \frac{h(x)-h(a)}{x-a} = h'(g(x)) = 0$
+$$
+\frac{d}{dx}h(x) = f(x)g'(y(x)) - f'(y(x))g(x) \implies \frac{f(x)}{g(x)} = \frac{f'(y(x))}{g'(y(x))}
+$$
+quindi ho che
+$$
+\lim_{ x \to a^{+} } {\frac{f(x)}{g(x)}} = \lim_{ x \to a^{+} } {\frac{f'(y(x))}{g'(y(x))}}
+$$
+che per il teorema del limite della funzione composto diventerà
+$$
+\lim_{ y \to a^{+} } {\frac{f'(y)}{g'(y)}} = l
+$$
+
+---
