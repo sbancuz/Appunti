@@ -338,3 +338,32 @@ $$
 $$
 
 ---
+
+### Teorema di Taylor con resto di Peano
+
+Sia $f:(a,b)\to \mathbb R$ derivabile n-volte in $x_{0}\in(a,b)$. Definiamo il suo polinomio di Taylor di ordine n in $x_{0}$ come 
+$$
+T^{f}_{n,x_{0}} (x) = \sum_{k=0}^{n} \frac{f^{k}(x_{0})}{k!} (x-x_{0})^{k}
+$$
+
+allora $\exists {}  {}$ una funzione di resto di ordine n, in cui $x_{0}$
+$$
+R^{f}_{n,x_{0}}:(a,b)\to \mathbb R \implies f(x) = T_{n,x_{0}}^{f}(x)+ R_{n,x_{0}}^{f}(x)
+$$
+ed il resto è infinitesimo di ordine maggiore di n 
+
+#### Dimostrazione
+
+Definisco $R_{n,x_{0}}^{f}(x) = f(x) - T_{n,x_{0}}^{f}(x)$
+
+Uso quindi de L'Hopital
+$$
+\lim_{ x \to x_{0} } \frac{{ f(x) - T_{n,x_{0}}^{f}(x)}}{(x-x_{0})^{n}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - (T_{n,x_{0}}^{f})'(x)}}{n(x-x_{0})^{n-1}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - ( \sum_{k=0}^{n} \frac{f^{k}(x_{0})}{(k-1)!} (x-x_{0})^{k-1}}}{n(x-x_{0})^{n-1}} 
+$$
+Applico n-1 volte de L'Hopital
+$$
+\lim_{ x \to x_{0} } \frac{{f^{n-1}(x)-(f^{n-1}(x_{0})+f^{n}(x_{0})(x-x_{0}))}}{n!(x-x_{0})} = \frac{1}{n!}\lim_{ x \to x_{0} } \left[ \frac{{f^{n-1}(x)-f^{n-1}(x_{0})}}{x-x_{0}} -f^{n}(x_{0})\right] = 0
+$$
+
+---
+
