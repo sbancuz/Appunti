@@ -4,5 +4,6 @@
     "big_math"
   ],
   "baseFontSize": 14,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "cssTheme": "Catppuccin"
 }
