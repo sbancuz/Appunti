@@ -66,3 +66,17 @@ con $\overrightarrow{v_{p} } = \overrightarrow{v}_{G} + \overrightarrow{\omega}\
 $$
 \frac{dE_{C}}{dt} = M\overrightarrow{v_{G}}\times \overrightarrow{a}_{G}+J_{g}\overrightarrow{\omega}\times\dot{\overrightarrow{\omega}} = -W_{IN} 
 $$
+### Dinamica con [[Rotolamento]]
+```math
+||{"id":224164428547}||
+
+
+```
+$$
+|\overrightarrow{T}| \leq f_{s}|\overrightarrow{N}|
+$$
+>[!warning]
+L'attrito è sempre in verso opposto alla velocità con cui il corpo si muove
+$$
+\overrightarrow{T} = -f_{d}|\overrightarrow{N}|\frac{\overrightarrow{V}_{rel}}{|\overrightarrow{V}_{rel}|}
+$$
