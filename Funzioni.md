@@ -34,9 +34,9 @@ Sia $f:A\to B$ si dice che $f$ è iniettiva se ogni elemento del codominio ha al
 
 ## Suriettività
 
-Sia $f:A\to B$ si dice che $f$ è suriettiva se ogni elemento del codominio ha almeno una controimamgine ovvero $\forall y \in B \text{ | } \exists x \in A \text{ tc } f(x) = y$ 
+Sia $f:A\to B$ si dice che $f$ è suriettiva se ogni elemento del codominio ha almeno una controimmagine ovvero $\forall y \in B \text{ | } \exists x \in A \text{ tc } f(x) = y$ 
 
-## Biiettiva
+## Biettiva
 
 Se è sia iniettiva e suriettiva.
 
@@ -45,16 +45,16 @@ Se è sia iniettiva e suriettiva.
 Se $f:A\to B$ e $g:B \to C$ allora si può definire la funzione $$\begin{align}g•f: A&\to C\\x&\to g(f(x))\end{align}$$
 Quest'operazione non è commutativa $g•f \not= f•g$
 
-## Invertiblità
+## Invertibilità
 
-Sia  $f:A\to B$ si dice che f è invertibile sse $\exists g:B\to A \text{ | } \left\{\begin{align}g•f = i_a \\ f•g = i_b\end{align}\right|$ in tal caso $g$ si dice inversa di $f$, se $f$ è biiettiva allora sarà invertibile
+Sia  $f:A\to B$ si dice che f è invertibile sse $\exists g:B\to A \text{ | } \left\{\begin{align}g•f = i_a \\ f•g = i_b\end{align}\right|$ in tal caso $g$ si dice inversa di $f$, se $f$ è biettiva allora sarà invertibile
 
 >[!info] 
 >L'inversa se esiste è unica e può anche essere inversa di se stessa
 
 Sia $f:A\to B$ qualunque, se $y \in B$ indico con $$f^{-1}(y) = \{x\in A \text{ | }f(x) = y\}$$
-l'insieme delle controimmagini di y $f^{-1}$ è un sottoinsieme del dominio.
-Affinche $f$ sia invertibile, si deve avere che la corrispondenza che associa ad un elemento del codominio gli elementi della controimmagine sia una funzione
+l'insieme delle contro immagini di y $f^{-1}$ è un sottoinsieme del dominio.
+Affinché $f$ sia invertibile, si deve avere che la corrispondenza che associa ad un elemento del codominio gli elementi della controimmagine sia una funzione
 
 >[!note]
 >$f:x\to x^2$, $f^{-1}(-4) = \emptyset$ $f^{-1}(4) = \{-2, 2\}$
@@ -69,6 +69,7 @@ Il grafico si una $f^{-1}$ è dato dal grafico di $f$ specchiato per la bisettri
 ```
 Tenendo la $f(x) =x^2$ ma cambiando il dominio in $f:R^+ \to R^+$ la posso far diventare biunivoca
 
-![[Proprietà delle funzioni]]
+## [[Proprietà delle funzioni]]
+## [[Limiti di funzioni a 1 variabile]]
 
-![[Limiti di funzioni a 1 variabile]]
+Analisi 2 -> [[Funzioni a più variabili]]

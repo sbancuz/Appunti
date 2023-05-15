@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 11272084
       }
+    },
+    {
+      "query": "analisi_2",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +81,6 @@
   "repelStrength": 9.58333333333333,
   "linkStrength": 0.864583333333333,
   "linkDistance": 263,
-  "scale": 0.12518368387702894,
+  "scale": 0.14973432430986316,
   "close": false
 }
