@@ -41,3 +41,18 @@ Sostituiamo il valore delle constanti nell'integrale generale
 >Passo III => La soluzione particolare del problema di Cauchy è $y(t)=\ln t-\ln_{2}$
 
 Nel caso ci siano soluzioni costanti è facile trovarle. Data una EDO del primo ordine in forma normale per un intervallo $I\subseteq \mathbb R$, una soluzione costante è una funzione $y(t)=c$ per ogni $t\in I$ e $c \in \mathbb R$ che è soluzione. Siccome per ogni $c \in \mathbb R, (c)' = 0$ allora abbiamo necessariamente che  $f(t,c) =0, \forall {t}  {}$ 
+
+### Cauchy per [[EDO lineari]]
+
+Sia un sistema di Cauchy definito con un EDO lineare
+$$
+\begin{cases}
+y'(t) = a(t)y(t) + b(t) \\
+y(t_{0}) = y_{0}
+\end{cases}
+$$
+allora si ha che esiste un'unica soluzione $y$ su tutto $I$ per il problema di Cauchy
+
+>[!warning]
+>Questo teorema vale solo se a,b sono continue
+
