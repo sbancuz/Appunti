@@ -50,7 +50,7 @@ $$• Rotazione -> Esiste un punto del corpo che rimane fisso => centro di rotaz
 
 Lo spostamento infinitesimo si ha quando tutti i punti hanno un movimento infinitesimo in un tempo infinitesimo.
 
-L'insieme di tutti i vetttori velocità di tutti i punti del corpo in un istante è detto atto di moto.
+L'[[insieme]] di tutti i vetttori velocità di tutti i punti del corpo in un istante è detto atto di moto.
 Tutti i legami cinematici che esistono nell'atto di moto valgono anche per lo spostamento infinitesimo.
 
 Nell'atto di moto non esiste la rototraslazione visto che è sempre riconducibile ad una rotazione.

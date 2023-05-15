@@ -24,7 +24,7 @@ Una EDO di ordine $n\in \mathbb N$ è una equazione che ha  come incognita una f
 $$
 F(t,y(t),y'(t),t''(t),\dots,y^{(k)}(t)) = 0, t \in I
 $$
-dove $I$ è un intervallo in $\mathbb R$ e $F$ è una funzione in n-variabili. Inoltre si chiama soluzione particolare della EDO in un intervallo $J \subset I$ ogni funzione $\overline{y}(t)\in \mathcal C^{n}(J)$. L'insieme di tutte le soluzioni si chiama integrale generale.
+dove $I$ è un intervallo in $\mathbb R$ e $F$ è una funzione in n-variabili. Inoltre si chiama soluzione particolare della EDO in un intervallo $J \subset I$ ogni funzione $\overline{y}(t)\in \mathcal C^{n}(J)$. L'[[insieme]] di tutte le soluzioni si chiama integrale generale.
 
 ### Ordine di una EDO
 
@@ -46,4 +46,4 @@ $$
 
 ### Tipologie di EDO
  - [[EDO A variabili separabili]]
- -  [[]]
+ -  [[EDO Lineari]]

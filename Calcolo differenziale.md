@@ -152,7 +152,7 @@ Un sottoinsieme A di $R^2$ si dice convesso se $\forall {P,P'} \in A {}$ il segm
 
 
 ```
-Sia $f:[a,b]\to R$, si chiama sopragrafico e epigrafico di $f$ l'insieme
+Sia $f:[a,b]\to R$, si chiama sopragrafico e epigrafico di $f$ l'[[insieme]]
 $$
 epi(f)=\{(x,y)\in R^2 \text{ tale che } x \in[a,b],y\geq f(x)\}
 $$
