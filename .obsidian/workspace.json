@@ -23,33 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insieme.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55c1789cbb1497a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Equazioni differenziali ordinarie.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b2c48a20ff3a749",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDO di Bernoulli.md",
+                "file": "Attività.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +31,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analisi_2",
+                "query": "tag:#economia contabili",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355
+    "width": 229,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -131,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDO di Bernoulli.md",
+                "file": "Attività.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDO di Bernoulli.md",
+                "file": "Attività.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDO di Bernoulli.md"
+                "file": "Attività.md"
               }
             }
           }
@@ -195,43 +170,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "0f3ba7bfdc01cd60",
   "lastOpenFiles": [
-    "Equazioni differenziali ordinarie.md",
-    "EDO di Bernoulli.md",
-    "EDO Lineari.md",
-    "Problema di Cauchy.md",
-    "Insieme.md",
-    "Corpo rigido.md",
-    "Dimostrazioni per Ciprio.md",
-    "2. Progettazione di SI.md",
-    "Funzioni.md",
-    "Funzioni a più variabili.md",
-    "Sistemi lineari.md",
-    "Principio di sovrapposizione.md",
-    "EDO A variabili separabili.md",
-    "Calcolo differenziale.md",
-    "Macchine ad un grado di libertà.md",
-    "Dinamica.md",
-    "Rotolamento.md",
-    "Moto relativo.md",
-    "conflict-files-obsidian-git.md",
-    "Statica.md",
-    "Teorema di Weierstrass.md",
-    "Numeri complessi.md",
-    "Teorema di De Moivre.md",
-    "Convergenza successioni.md",
-    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
-    "Massimo e minimo.md",
+    "Contabilità esterna.md",
+    "Attività cessate.md",
+    "Attività.md",
+    "Attività correnti.md",
+    "Ratei e risconti.md",
+    "rateo.png",
+    "Attivita.png",
+    "Attività non correnti.md",
+    "Metodo del fair value.md",
+    "Metodo del costo storico.md",
+    "Impairment test.md",
+    "Ammortamenti.md",
+    "Stato patrimoniale.md",
+    "Sistemi a costi standard.md",
+    "Bilancio d'esercizio.md",
+    "Utile.md",
+    "Cassa.md",
+    "Crediti di regolamento.md",
+    "Debiti di regolamento.md",
+    "ciclo di gestione.png",
+    "Principi contabili.md",
+    "Esercizio.md",
+    "Shareholders.md",
+    "Contabilità aziendale.md",
+    "Contabilità interna.md",
+    "Stakeholder.md",
+    "Aprire un impresa.md",
+    "Lean startup.md",
+    "Minimum viable product.md",
     "Asimmetriuca.png",
     "ABC.png",
     "JOC.png",
     "Schema di processo.png",
     "funzione rilevazione costi.png",
     "Precisione rilevazione dei costi.png",
-    "Pasted image 20230311152826.png",
-    "Centro di costo.png",
-    "Costi.png",
-    "costi fisii vs variabili.png"
+    "Pasted image 20230311152826.png"
   ]
 }
