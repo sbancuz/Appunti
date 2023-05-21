@@ -1,5 +1,6 @@
 ---
 tags: [gal]
+alias: Matrice
 ---
 
 Le matrici sono $[N\times M]$ dove $N$ sono le righe e $M$ le colonne

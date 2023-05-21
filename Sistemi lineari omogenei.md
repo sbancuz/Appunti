@@ -43,3 +43,22 @@ Data $A\in \mathbb M_{2\times2}$ diagonale, un sfs per $\underline{y}'(x)=A\unde
 $$
 \underline{y}_{\sigma}=\sum_{i=1}^{n}c_{i}e^{\lambda_{i}x}\underline{v}_{i}
 $$
+### Teorema integrale generale con autovalori complessi coniugati
+
+Sia $A\in \mathbb M_{2\times2}$ avente autovalori complessi coniugati $\lambda,\overline{\lambda} \in \mathbb C$ con $\mathrm{Im}(\lambda)\neq 0$. Sia $\underline{v}\in \mathbb C^{2}$ l'autovettore associato a $\lambda$.
+Abbiamo che un sfs per il SDL omogeneo $\underline{y}'(t)=A\underline{y}(t)$ è dato da $\underline{y}_{\sigma,1}(t)=\mathrm{Re}(e^{\lambda(t)}\underline{v})$ e   $\underline{y}_{\sigma,2}(t)=\mathrm{Im}(e^{\lambda(t)}\underline{v})$. 
+Ovvero l'integrale generale è 
+$$
+\underline{y}_{\sigma}(t) =  c_{1}\mathrm{Re}(e^{\lambda(t)}\underline{v}) + c_{2}\mathrm{Im}(e^{\lambda(t)}\underline{v}). 
+$$
+per $c_{1},c_{2}\in \mathbb R$. 
+
+>[!info]
+>Essa corrisponde al caso di $\Delta<0$ delle EDO di secondo ordine grazie alla formula di Eulero
+
+Posso indicare l'integrale generale di un SDL anche in forma compatta come una [[Matrice esponenziale]].
+La serie ha somma finita rispetto alla [[Norma canonica]] dello spazio di matrici.
+
+Data una matrice diagonale D allora abbiamo che 
+$$
+$$
