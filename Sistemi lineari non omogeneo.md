@@ -27,3 +27,34 @@ sia soluzione del sistema
 $$
 \underline{y}'_{\phi}(x) = A\underline{y}_{\phi}(x) + \underline{b}(x)
 $$
+### Altro metodo per ottenere l'integrale particolare
+
+Dato un sfs, l'integrale generale nel caso omogeneo è dato da 
+$$
+\underline{y}_{\sigma}(x) = W(x)\underline{c}
+$$
+dove la W è la matrice Wroskiana relativa al sfs e $c$ un vettore di costanti.
+Possiamo generalizzare questa formula al caso non omogeneo utilizzando il fatto che la $W$ è invertibile
+$$
+\underline{y}(x) = W(x) \left( \int [W(s)]^{-1}\underline{b}(s) \, ds +\underline{c} \right)
+$$
+>[!tip]
+>La primitiva di un vettore di funzioni integrabili è il vettore delle primitive delle funzioni
+
+In particolare, nel caso A sia diagonale avremo che 
+$$
+\underline{y}_{\sigma}(x) = e^{Ax}\underline{c}'
+$$
+con $\underline{c}'$ un'altro vettore di costanti, con questo otteniamo che
+$$
+W(x) = c_{0}e^{Ax}
+$$
+dove $c_{0}\in \mathbb R$ e mettendo tutto assieme
+$$
+\underline{y}(x) = e^{Ax}\left(  \int e^{-As} \underline{b}(s) \, ds + \underline{c}  \right)
+$$
+>[!nota]
+>Questa è una generalizzazione della formula risolutiva per le EDO del primo ordine lineari
+
+
+

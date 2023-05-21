@@ -37,7 +37,7 @@ Rimane il problema di trovare n soluzioni linearmente indipendenti. Lo trattiamo
 - Con $A(x)$ costante [[Diagonalizzabile]] in $\mathbb R$
 - Con $A(x)$ con 2 autovalori complessi coniugati
 
-### Teorema integrale generale per un sistema differenziale lineare omogeneo con A diagonalizzablie 
+### Teorema integrale generale per un sistema differenziale lineare omogeneo con A diagonale
 
 Data $A\in \mathbb M_{2\times2}$ diagonale, un sfs per $\underline{y}'(x)=A\underline{y}(x)$ con $x\in \mathbb R$ è $\underline{y}_{\sigma,1}(x)=e^{\lambda_{1}x}\underline{v}_{1},\dots,\underline{y}_{\sigma,n}(x)=e^{\lambda_{n}x}\underline{v }_{n},$ dove $v_{1},\dots ,v_{n}$ sono autovettori linearmente indipendenti relativi agli autovalori $\lambda_{1},\dots,\lambda _n$
 $$
@@ -76,9 +76,9 @@ e^{\lambda_{1}} & 0 & 0 \\
 \right) 
 $$
 ### Teorema
-Sia $A\in\mathbb M_{n\times n}$ diagonalizzabile con autovalori reali o no. Abbiamo che le colonne della matrice $e^{At}$ formano un sfs di 
+Sia $A\in\mathbb M_{n\times n}$ diagonale con autovalori reali o no. Abbiamo che le colonne della matrice $e^{At}$ formano un sfs di 
 $$
 \underline{y}'(t) = A\underline{y}(t) \implies \underline{y}(t)=e^{At}\underline{c}
 $$
 >[!note]
->Questo teorema vale anche se $A$ non è diagonalizzabile, ma in tal caso è difficile calcolare $e^{At}$ e corrisponde al caso $\Delta=0$ per le EDO di secondo ordine
+>Questo teorema vale anche se $A$ non è diagonale, ma in tal caso è difficile calcolare $e^{At}$ e corrisponde al caso $\Delta=0$ per le EDO di secondo ordine

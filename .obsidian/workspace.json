@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi lineari non omogeneo.md",
+                "file": "EDO del secondo ordine lineare.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 388,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi lineari non omogeneo.md",
+                "file": "EDO del secondo ordine lineare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi lineari non omogeneo.md",
+                "file": "EDO del secondo ordine lineare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi lineari non omogeneo.md"
+                "file": "EDO del secondo ordine lineare.md"
               }
             }
           }
@@ -171,6 +172,8 @@
   },
   "active": "212f04012108189e",
   "lastOpenFiles": [
+    "Problema di Cauchy.md",
+    "EDO del secondo ordine lineare.md",
     "Sistemi differenziali lineari.md",
     "Sistemi lineari non omogeneo.md",
     "Sistemi lineari omogenei.md",
@@ -180,7 +183,6 @@
     "Norma canonica.md",
     "Norma.md",
     "Principio di sovrapposizione.md",
-    "Problema di Cauchy.md",
     "Equazioni differenziali ordinarie.md",
     "EDO di Bernoulli.md",
     "Bilancio d'esercizio.md",
@@ -198,7 +200,6 @@
     "Riserve.md",
     "Utile.md",
     "Azione assiale.md",
-    "Attività.md",
     "rateo.png",
     "Attivita.png",
     "ciclo di gestione.png",

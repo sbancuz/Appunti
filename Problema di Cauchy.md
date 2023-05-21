@@ -56,6 +56,24 @@ allora si ha che esiste un'unica soluzione $y$ su tutto $I$ per il problema di C
 >[!warning]
 >Questo teorema vale solo se a,b sono continue
 
+### Cauchy per EDO del secondo ordine lineare
+
+Data una EDO del secondo ordine lineare è un equazione della forma:
+$$
+a(t)y''(y)+b(t)y'(t)+c(t)y(t)=f(t)
+$$
+dove $a,b,c,d:I\subseteq \mathbb R\to \mathbb R$ e $a\neq 0$, e assegnati $t_{0}\in I$ e $y_{0},z_{0}\in \mathbb R$ si chiama problema di Cauchy associato il problema di determinare una funzione $y:I\subseteq J\to \mathbb R$ che soddisfa il sistema 
+$$
+\begin{cases}
+a(t)y''(y)+b(t)y'(t)+c(t)y(t)=f(t) \\
+y(t_{0}) = y_{0} \\
+y'(t_{0}) = z_{0}
+\end{cases}
+$$
+>[!note]
+>L'integrale generale della EDO di secondo ordine è una famiglia di infinite soluzioni, quindi abbiamo bisogno di 2 condizioni per il secondo ordine
+
+
 ### Cauchy per SDL
 
 Dato un SDL 
