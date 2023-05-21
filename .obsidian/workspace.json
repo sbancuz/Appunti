@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equazioni differenziali ordinarie.md",
+                "file": "Sistemi differenziali lineari.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equazioni differenziali ordinarie.md",
+                "file": "Sistemi differenziali lineari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equazioni differenziali ordinarie.md",
+                "file": "Sistemi differenziali lineari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equazioni differenziali ordinarie.md"
+                "file": "Sistemi differenziali lineari.md"
               }
             }
           }
@@ -171,8 +171,9 @@
   },
   "active": "212f04012108189e",
   "lastOpenFiles": [
-    "EDO di Bernoulli.md",
     "Equazioni differenziali ordinarie.md",
+    "Sistemi differenziali lineari.md",
+    "EDO di Bernoulli.md",
     "Bilancio d'esercizio.md",
     "Conto economico.md",
     "Stato patrimoniale.md",
@@ -200,7 +201,6 @@
     "Metodo del costo storico.md",
     "Impairment test.md",
     "Ammortamenti.md",
-    "Sistemi a costi standard.md",
     "ciclo di gestione.png",
     "Asimmetriuca.png",
     "ABC.png",

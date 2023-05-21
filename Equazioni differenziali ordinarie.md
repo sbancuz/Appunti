@@ -1,5 +1,6 @@
 ---
 tags: [analisi_2]
+aliases: [equazioni del primo ordine]
 ---
 L'obiettivo delle EDO è di trovare una funzione $y$ derivabile con derivata $y'$
 
@@ -48,3 +49,5 @@ $$
  - [[EDO A variabili separabili]]
  - [[EDO Lineari]]
  - [[EDO di Bernoulli]]
+
+[[Sistemi differenziali lineari]]
