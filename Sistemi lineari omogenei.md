@@ -61,4 +61,24 @@ La serie ha somma finita rispetto alla [[Norma canonica]] dello spazio di matric
 
 Data una matrice diagonale D allora abbiamo che 
 $$
+D = \left( 
+\begin{matrix}
+\lambda_{1} & 0 & 0 \\
+0 & \ddots & 0 \\
+0 & 0 & \lambda_{n}
+\end{matrix}
+\right) \implies e^{D} = \left( 
+\begin{matrix}
+e^{\lambda_{1}} & 0 & 0 \\
+0 & \ddots & 0 \\
+0 & 0 & e^{\lambda_{n}}
+\end{matrix}
+\right) 
 $$
+### Teorema
+Sia $A\in\mathbb M_{n\times n}$ diagonalizzabile con autovalori reali o no. Abbiamo che le colonne della matrice $e^{At}$ formano un sfs di 
+$$
+\underline{y}'(t) = A\underline{y}(t) \implies \underline{y}(t)=e^{At}\underline{c}
+$$
+>[!note]
+>Questo teorema vale anche se $A$ non è diagonalizzabile, ma in tal caso è difficile calcolare $e^{At}$ e corrisponde al caso $\Delta=0$ per le EDO di secondo ordine

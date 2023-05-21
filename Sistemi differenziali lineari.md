@@ -115,3 +115,4 @@ Se $A:I\subseteq \mathbb R \to M_{n\times n}$ e $\underline{b}:I\to \mathbb R^{n
 ### Teorema [[Principio di sovrapposizione]]
 
 ### [[Sistemi lineari omogenei]]
+### [[Sistemi lineari non omogeneo]]

@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi lineari omogenei.md",
+                "file": "Sistemi lineari non omogeneo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi lineari omogenei.md",
+                "file": "Sistemi lineari non omogeneo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi lineari omogenei.md",
+                "file": "Sistemi lineari non omogeneo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi lineari omogenei.md"
+                "file": "Sistemi lineari non omogeneo.md"
               }
             }
           }
@@ -172,13 +172,14 @@
   },
   "active": "212f04012108189e",
   "lastOpenFiles": [
+    "Sistemi differenziali lineari.md",
+    "Sistemi lineari non omogeneo.md",
     "Sistemi lineari omogenei.md",
     "Matrice esponenziale.md",
     "Matrici.md",
     "Matrice.md",
     "Norma canonica.md",
     "Norma.md",
-    "Sistemi differenziali lineari.md",
     "Principio di sovrapposizione.md",
     "Problema di Cauchy.md",
     "Equazioni differenziali ordinarie.md",
@@ -199,7 +200,6 @@
     "Utile.md",
     "Azione assiale.md",
     "Attività.md",
-    "Attività correnti.md",
     "rateo.png",
     "Attivita.png",
     "ciclo di gestione.png",
