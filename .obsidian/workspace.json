@@ -23,6 +23,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Sistemi lineari omogenei.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e4c67e70aa2e936",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Sistemi differenziali lineari.md",
                 "mode": "source",
                 "backlinks": true,
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi differenziali lineari.md",
+                "file": "Sistemi lineari omogenei.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi differenziali lineari.md",
+                "file": "Sistemi lineari omogenei.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi differenziali lineari.md"
+                "file": "Sistemi lineari omogenei.md"
               }
             }
           }
@@ -171,8 +184,11 @@
   },
   "active": "212f04012108189e",
   "lastOpenFiles": [
-    "Equazioni differenziali ordinarie.md",
     "Sistemi differenziali lineari.md",
+    "Sistemi lineari omogenei.md",
+    "Principio di sovrapposizione.md",
+    "Problema di Cauchy.md",
+    "Equazioni differenziali ordinarie.md",
     "EDO di Bernoulli.md",
     "Bilancio d'esercizio.md",
     "Conto economico.md",
@@ -198,9 +214,6 @@
     "rateo.png",
     "Attivita.png",
     "Metodo del fair value.md",
-    "Metodo del costo storico.md",
-    "Impairment test.md",
-    "Ammortamenti.md",
     "ciclo di gestione.png",
     "Asimmetriuca.png",
     "ABC.png",

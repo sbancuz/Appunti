@@ -56,3 +56,16 @@ allora si ha che esiste un'unica soluzione $y$ su tutto $I$ per il problema di C
 >[!warning]
 >Questo teorema vale solo se a,b sono continue
 
+### Cauchy per SDL
+
+Dato un SDL 
+$$
+\underline{y}'(x) = A(x)\underline{y}(x)+\underline{b}(x)
+$$
+si chiama problema di Cauchy associato. il sistema
+$$
+\begin{cases}
+\underline{y}'(x) = A(x)\underline{y}(x)+\underline{b}(x) \\
+\underline{y}(x_{0})=\underline{y}_{0}
+\end{cases}
+$$
