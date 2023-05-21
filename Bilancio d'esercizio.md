@@ -36,7 +36,7 @@ Le operazioni di gestione posso essere viste in diverse prospettive:
 ### Da cosa è composto? (Secondo IFRS/IAS)
 
 - [[Stato patrimoniale]]
-- Conto economico -> riassume i flussi economici avvenuti nell'[[esercizio]]
+- [[Conto economico]] -> riassume i flussi economici avvenuti nell'[[esercizio]]
 - Rendiconto finanziario -> cash flow
 - Prospetto delle variazioni delle voci di patrimonio netto
 - Nota integrativa -> eventuali chiarimenti, convenzioni per redigere SP e CE

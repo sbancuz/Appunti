@@ -18,12 +18,25 @@
             }
           },
           {
-            "id": "0f3ba7bfdc01cd60",
+            "id": "1d6b8ab3d341b681",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attività.md",
+                "file": "Bilancio d'esercizio.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e2169d3202353eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Passività correnti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attività.md",
+                "file": "Bilancio d'esercizio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attività.md",
+                "file": "Bilancio d'esercizio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attività.md"
+                "file": "Bilancio d'esercizio.md"
               }
             }
           }
@@ -170,43 +183,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f3ba7bfdc01cd60",
+  "active": "1d6b8ab3d341b681",
   "lastOpenFiles": [
-    "Contabilità esterna.md",
-    "Attività cessate.md",
+    "Conto economico.md",
+    "Bilancio d'esercizio.md",
+    "Stato patrimoniale.md",
+    "stato patrimoniale.png",
+    "Passività non correnti.md",
+    "Passività.md",
+    "Patrimonio netto.md",
+    "Capitale sociale.md",
+    "Passivita.png",
+    "Passività correnti.md",
+    "Finanziarie.md",
+    "Obbligazioni.md",
+    "Riserve.md",
+    "Utile.md",
+    "Azione assiale.md",
     "Attività.md",
     "Attività correnti.md",
+    "Attività non correnti.md",
+    "Contabilità esterna.md",
+    "Attività cessate.md",
     "Ratei e risconti.md",
     "rateo.png",
     "Attivita.png",
-    "Attività non correnti.md",
     "Metodo del fair value.md",
     "Metodo del costo storico.md",
     "Impairment test.md",
     "Ammortamenti.md",
-    "Stato patrimoniale.md",
     "Sistemi a costi standard.md",
-    "Bilancio d'esercizio.md",
-    "Utile.md",
     "Cassa.md",
     "Crediti di regolamento.md",
-    "Debiti di regolamento.md",
     "ciclo di gestione.png",
-    "Principi contabili.md",
-    "Esercizio.md",
-    "Shareholders.md",
-    "Contabilità aziendale.md",
-    "Contabilità interna.md",
-    "Stakeholder.md",
-    "Aprire un impresa.md",
-    "Lean startup.md",
-    "Minimum viable product.md",
     "Asimmetriuca.png",
     "ABC.png",
     "JOC.png",
     "Schema di processo.png",
-    "funzione rilevazione costi.png",
-    "Precisione rilevazione dei costi.png",
-    "Pasted image 20230311152826.png"
+    "funzione rilevazione costi.png"
   ]
 }
