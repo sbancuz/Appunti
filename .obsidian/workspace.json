@@ -18,25 +18,12 @@
             }
           },
           {
-            "id": "1d6b8ab3d341b681",
+            "id": "212f04012108189e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bilancio d'esercizio.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e2169d3202353eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Passività correnti.md",
+                "file": "Equazioni differenziali ordinarie.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia contabili",
+                "query": "tag:#analisi_2",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229,
-    "collapsed": true
+    "width": 388
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -119,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bilancio d'esercizio.md",
+                "file": "Equazioni differenziali ordinarie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bilancio d'esercizio.md",
+                "file": "Equazioni differenziali ordinarie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bilancio d'esercizio.md"
+                "file": "Equazioni differenziali ordinarie.md"
               }
             }
           }
@@ -183,10 +169,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1d6b8ab3d341b681",
+  "active": "212f04012108189e",
   "lastOpenFiles": [
-    "Conto economico.md",
+    "EDO di Bernoulli.md",
+    "Equazioni differenziali ordinarie.md",
     "Bilancio d'esercizio.md",
+    "Conto economico.md",
     "Stato patrimoniale.md",
     "stato patrimoniale.png",
     "Passività non correnti.md",
@@ -213,8 +201,6 @@
     "Impairment test.md",
     "Ammortamenti.md",
     "Sistemi a costi standard.md",
-    "Cassa.md",
-    "Crediti di regolamento.md",
     "ciclo di gestione.png",
     "Asimmetriuca.png",
     "ABC.png",

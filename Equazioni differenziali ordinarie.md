@@ -47,4 +47,4 @@ $$
 ### Tipologie di EDO
  - [[EDO A variabili separabili]]
  - [[EDO Lineari]]
- -  [[EDO di Bernoulli]]
+ - [[EDO di Bernoulli]]
