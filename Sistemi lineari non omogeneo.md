@@ -10,4 +10,20 @@ dove $\underline{y}_{\sigma}(t)$ è l'integrale generale del SDL omogeneo ($\und
 >[!note]
 >Si possono quindi utilizzare i metodi di risoluzione visti per i [[Sistemi lineari omogenei]] per l'integrale generale e al metodo di somiglianza per la soluzione particolare
 
+### Metodo di somiglianza per sistemi lineari non omogenei
 
+Dopo aver trovato l'integrale generale dato dal sistema lineare omogeneo associato ci rimane da trovare $\underline{y}_{\phi}$, quindi cerco $a,b,c,d\in \mathbb R$ tali che
+$$
+\underline{y}_{\phi} = \left( \begin{matrix}
+ae^{x}+b \\
+ce^{x}+d
+\end{matrix} \right), 
+\underline{y}_{\phi}' = \left( \begin{matrix}
+ae^{x} \\
+ce^{x}
+\end{matrix} \right) 
+$$
+sia soluzione del sistema
+$$
+\underline{y}'_{\phi}(x) = A\underline{y}_{\phi}(x) + \underline{b}(x)
+$$
