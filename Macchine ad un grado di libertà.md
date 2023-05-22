@@ -44,7 +44,17 @@ $$
 L'efficienza della trasmissione è data da
 $$
 \begin{align}
-\eta_{D} = \frac{|W_{TU}|}{|W_{MT}|} \implies 0 \leq\eta_{D} < 1\\ 
-\eta_{R} = \frac{|W_{TM}|}{|W_{UT}|} \implies 0 \leq\eta_{R} < 1
+\eta_{D}  & = \frac{|W_{TU}|}{|W_{MT}|} \implies 0 \leq\eta_{D} < 1\\ 
+\eta_{R}  & = \frac{|W_{TM}|}{|W_{UT}|} \implies 0 \leq\eta_{R} < 1 \\
+W_{P}  & = -( 1 - \eta_{R})W_{UT} \\
+W_{P}  & =-(1-\eta_{D})W_{MT}
 \end{align}
+$$
+
+Il rapporto di trasmissione è 
+$$
+\tau = \frac{\omega_{U}}{\omega_{M}}
+$$
+$$
+M_{U} = -\frac{\eta_{D}M_{M}}{\tau}
 $$
