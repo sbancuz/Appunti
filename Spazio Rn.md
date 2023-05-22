@@ -40,4 +40,9 @@ Sia $E$ un [[sottoinsieme]] di $\mathbb R^{n}$ e sia $\underline{x}_{0}\in \math
 
 
 
+
+
 ```
+
+
+
