@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spazio Rn.md",
+                "file": "Insieme.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDO del secondo ordine lineare.md",
+                "file": "Calcolo integrale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spazio Rn.md",
+                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spazio Rn.md",
+                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spazio Rn.md"
+                "file": "Calcolo integrale.md"
               }
             }
           }
@@ -183,11 +183,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8dacd2c57a5b7620",
+  "active": "212f04012108189e",
   "lastOpenFiles": [
     "Spazio Rn.md",
-    "Sistemi differenziali lineari.md",
+    "Untitled.md",
     "EDO del secondo ordine lineare.md",
+    "Insieme.md",
+    "Sistemi differenziali lineari.md",
     "Problema di Cauchy.md",
     "Sistemi lineari non omogeneo.md",
     "Sistemi lineari omogenei.md",
@@ -211,8 +213,6 @@
     "Passività correnti.md",
     "Finanziarie.md",
     "Obbligazioni.md",
-    "Riserve.md",
-    "Utile.md",
     "rateo.png",
     "Attivita.png",
     "ciclo di gestione.png",

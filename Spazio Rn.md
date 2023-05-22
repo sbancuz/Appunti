@@ -35,9 +35,4 @@ Sia $E$ un [[sottoinsieme]] di $\mathbb R^{n}$ e sia $\underline{x}_{0}\in \math
 - $\underline{x}_{0}$ è punto di frontiera di $E$ se $\forall {}  {}r>0$ si ha che $B_{r}(\underline{x}_{0})\cap E\neq 0$, e $B_{r}(\underline{x}_{0}) \setminus E = B_{r}(\underline{x}_{0})\cap E^{c}\neq 0$
 - $\underline{x}_{0}$ è esterno a $E$ se $\underline{x}_{0}\notin E$ ed esiste $r>0$ tale che $B_{r}(\underline{x}_{0})\subseteq E^{c}$
 
-```math
-||{"id":1675817655606}||
 
-
-
-```
