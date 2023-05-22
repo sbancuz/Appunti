@@ -28,3 +28,23 @@ $$
 >[!warning]
 >Non è detto che la potenza uscente dal motore sia positiva
 
+### Trasmissione
+
+La trasmissione serve per portare la potenza del motore all'utilizzatore. Tuttavia ne perde sempre un po solitamente sotto forma di energia termica
+$$
+W=\overrightarrow{M}\times \overrightarrow{\omega} = M\omega
+$$
+```math
+||{"id":305379663382}||
+
+
+
+
+```
+L'efficienza della trasmissione è data da
+$$
+\begin{align}
+\eta_{D} = \frac{|W_{TU}|}{|W_{MT}|} \implies 0 \leq\eta_{D} < 1\\ 
+\eta_{R} = \frac{|W_{TM}|}{|W_{UT}|} \implies 0 \leq\eta_{R} < 1
+\end{align}
+$$
