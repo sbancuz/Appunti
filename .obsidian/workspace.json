@@ -29,22 +29,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5a1fa26e1d0df652",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Spazio Rn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Spazio Rn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Spazio Rn.md"
               }
             }
           }
@@ -183,10 +170,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5a1fa26e1d0df652",
+  "active": "66d6c9314ecf4e44",
   "lastOpenFiles": [
-    "Spazio Rn.md",
     "Untitled.md",
+    "Spazio Rn.md",
     "Excalidraw/Spazio Rn 2023-05-22 15.27.14.excalidraw.md",
     "Spazio Rn 2023-05-22 15.25.57.excalidraw.md",
     "EDO del secondo ordine lineare.md",
