@@ -18,6 +18,19 @@
             }
           },
           {
+            "id": "8dacd2c57a5b7620",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spazio Rn.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "212f04012108189e",
             "type": "leaf",
             "state": {
@@ -30,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spazio Rn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spazio Rn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +158,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spazio Rn.md"
+              }
             }
           }
         ],
@@ -165,8 +183,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "8dacd2c57a5b7620",
   "lastOpenFiles": [
+    "Spazio Rn.md",
     "Sistemi differenziali lineari.md",
     "EDO del secondo ordine lineare.md",
     "Problema di Cauchy.md",
@@ -194,7 +213,6 @@
     "Obbligazioni.md",
     "Riserve.md",
     "Utile.md",
-    "Azione assiale.md",
     "rateo.png",
     "Attivita.png",
     "ciclo di gestione.png",
