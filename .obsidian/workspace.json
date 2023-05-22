@@ -18,33 +18,19 @@
             }
           },
           {
-            "id": "8dacd2c57a5b7620",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Insieme.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "212f04012108189e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Curva in Rn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analisi_2",
+                "query": "tag:#meccanica",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -119,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Calcolo integrale.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -183,12 +165,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "212f04012108189e",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
+    "Curva in Rn.md",
     "Spazio Rn.md",
+    "Insieme.md",
+    "Funzioni a più variabili.md",
+    "Calcolo integrale.md",
     "Untitled.md",
     "EDO del secondo ordine lineare.md",
-    "Insieme.md",
     "Sistemi differenziali lineari.md",
     "Problema di Cauchy.md",
     "Sistemi lineari non omogeneo.md",
@@ -210,9 +195,6 @@
     "Patrimonio netto.md",
     "Capitale sociale.md",
     "Passivita.png",
-    "Passività correnti.md",
-    "Finanziarie.md",
-    "Obbligazioni.md",
     "rateo.png",
     "Attivita.png",
     "ciclo di gestione.png",
