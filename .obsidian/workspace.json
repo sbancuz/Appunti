@@ -18,25 +18,12 @@
             }
           },
           {
-            "id": "8dacd2c57a5b7620",
+            "id": "66d6c9314ecf4e44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Spazio Rn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "212f04012108189e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDO del secondo ordine lineare.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -179,15 +166,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8dacd2c57a5b7620",
+  "active": "66d6c9314ecf4e44",
   "lastOpenFiles": [
+    "Excalidraw/Spazio Rn 2023-05-22 15.27.14.excalidraw.md",
     "Spazio Rn.md",
-    "Sistemi differenziali lineari.md",
+    "Spazio Rn 2023-05-22 15.25.57.excalidraw.md",
     "EDO del secondo ordine lineare.md",
+    "Excalidraw/Spazio Rn 2023-05-22 15.25.57.excalidraw.md",
+    "Sistemi differenziali lineari.md",
     "Problema di Cauchy.md",
     "Sistemi lineari non omogeneo.md",
     "Sistemi lineari omogenei.md",
@@ -210,9 +200,6 @@
     "Passivita.png",
     "Passività correnti.md",
     "Finanziarie.md",
-    "Obbligazioni.md",
-    "Riserve.md",
-    "Utile.md",
     "rateo.png",
     "Attivita.png",
     "ciclo di gestione.png",
