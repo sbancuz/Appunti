@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Macchine ad un grado di libertà.md",
+                "file": "Gestione operativa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#meccanica",
+                "query": "tag:#economia",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Macchine ad un grado di libertà.md",
+                "file": "Gestione operativa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Macchine ad un grado di libertà.md",
+                "file": "Gestione operativa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Macchine ad un grado di libertà.md"
+                "file": "Gestione operativa.md"
               }
             }
           }
@@ -172,6 +172,12 @@
   },
   "active": "212f04012108189e",
   "lastOpenFiles": [
+    "Gestioni del CE.md",
+    "Gestione operativa.md",
+    "Conto economico.md",
+    "CE per destinazione.png",
+    "conti per natura.png",
+    "Macchine ad un grado di libertà.md",
     "Curva in Rn.md",
     "Spazio Rn.md",
     "Insieme.md",
@@ -192,21 +198,15 @@
     "Equazioni differenziali ordinarie.md",
     "EDO di Bernoulli.md",
     "Bilancio d'esercizio.md",
-    "Conto economico.md",
     "Stato patrimoniale.md",
     "stato patrimoniale.png",
     "Passività non correnti.md",
-    "Passività.md",
-    "Patrimonio netto.md",
-    "Capitale sociale.md",
     "Passivita.png",
     "rateo.png",
     "Attivita.png",
     "ciclo di gestione.png",
     "Asimmetriuca.png",
     "ABC.png",
-    "JOC.png",
-    "Schema di processo.png",
-    "funzione rilevazione costi.png"
+    "JOC.png"
   ]
 }
