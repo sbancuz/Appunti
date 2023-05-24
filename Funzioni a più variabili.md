@@ -24,3 +24,9 @@ quindi l'insieme dato dall'intersezione di un piano con $A$.
 ```
 
 ### [[Curva in Rn]]
+
+### Classi
+
+Sia $I\subseteq \mathbb R$ un'intervallo aperto. Una funzione $f: I\subseteq \mathbb R\to \mathbb R$ si dice di classe
+- $\mathcal C^{0}$ su $I$ se $f$ è continua su $I$
+- $\mathcal C^{1}$ su $I$ se $f$ è derivabile in $I$ e $f'$ è continua su $I$
