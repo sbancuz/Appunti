@@ -94,3 +94,24 @@ La serie di termine generale $f_{n}(x), x \in J$, converge totalmente in un inte
 >
 >Ma non il contrario
 
+### Continuità della somma
+
+Sia $I \subseteq \mathbb R$ un intervallo e siano $f_{n}:I\to \mathbb R$ funzioni continue in $x_{0}\in I, \forall {x} \in  {\mathbb N}$. Se la serie di funzioni $\sum_{n=1}^\infty{f_{n}}$ converge totalmente in $I$ allora la somma della serie 
+$$
+f(x) = \sum_{n=1}^\infty{f_{n}(x)} 
+$$
+è una funzione continua in $x_{0}$. In particolare, se le $f_{n}$ sono continue in tutto $I$, anche $f$ è continua in $I$
+
+### Derivabilità termine a termine
+
+Siano $I \subseteq \mathbb R$ un intervallo e siano $f_{n}:I\to \mathbb R$ funzioni derivabili in $I$ $\forall {n} \in {\mathbb N}$, se:
+- la serie $\sum f_{n}(x)$ converga puntualmente $\forall {x} \in {I}$
+- la serie $\sum f'_{n}(x)$ converga totalmente in $I$
+allora la funzione $f(x)=\sum f_{n}(x)$ è derivabile in $I$ e $f'(x) = \sum f_{n}'(x)$ 
+
+### Integrabilità termine a termine
+
+Siano $a<b\in\mathbb R$ e siano $f_{n}:[a,b]\to \mathbb R$ funzioni continue in $[a,b]$ $\forall {n} \in {}\mathbb N$. Se $\sum f_{n}$ converge totalmente in $[a,b]$ allora la somma $f(x)=\sum f_{n}(x)$ è una funzione integrabile e
+$$
+\int _{a}^{b}f(x) \, dx =\sum\left( \int _{a}^{b}f_{n}(x) \, dx  \right)
+$$

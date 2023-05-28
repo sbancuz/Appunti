@@ -52,3 +52,20 @@ Se $\sum_{i=0}^\infty{a_{n}}$ diverge e $\sum_{i=0}^\infty{b_{n}}$ diverge allor
 >Se le due serie divergono una a $\infty$ e l'altra a $-\infty$ allora non si può dire nulla
 
 ### [[Serie di potenze]]
+
+### Serie logaritmica
+$$
+\sum_{n = 1}^\infty{\frac{x^{n}}{n}}
+$$
+Questa [[Serie di potenze]] ha centro $x_{0}=0$ , il raggio $R=1$ e coefficiente $a_{n} = \frac{1}{n}$
+Converge assolutamente per $|x|<1$ e non converge per $|x|>1$, per $x= 1$ la serie coincide con la serie armonica e quindi diverge invece per $x=-1$ converge semplicemente per Leibniz.
+
+Ha quindi insieme di convergenza puntuale $[-1, 1)$ e assoluta $(-1,1)$
+
+### Serie esponenziale
+$$
+\sum_{n = 1}^\infty{\frac{x^{n}}{n!}}
+$$
+Questa [[Serie di potenze]] ha centro $x_{0}=0$ , il raggio $R=+\infty$ e coefficiente $a_{n} = \frac{1}{n!}$
+Converge assolutamente in tutto $\mathbb R$
+
