@@ -45,4 +45,12 @@ $$
 
 ### [[Serie numeriche]]
 
+### Continuità
+
+Sia $\underline{x}_{0}\in A\subseteq \mathbb{R}^{n}$ con $A$ aperto e $f:A\to \mathbb{R}$. Diciamo che $f$ è continua in $\underline{x}_{0}$ se 
+$$
+\exists {\lim_{ \underline{x} \to \underline{x}_{0} } {f(\underline{x})}} = f(\underline{x}_{0})  {} 
+$$
+Inoltre $f$ è detta continua in $A$ se $f$ è continua in ogni $\underline{x}_{0}\in A$
+
 ### [[Calcolo differenziale per funzioni a più variabili]]
