@@ -69,3 +69,63 @@ $$
 $$
 
 ### Convergenza => [[Polinomio trigonometrico]]
+
+### Convergenza puntuale
+
+Sia $f: \mathbb{R}\to \mathbb{R}$ $2\pi$-periodica e regolare a tratti in $[-\pi,\pi]$ allora la serie di Fourier $f$ converge puntualmente in tutto $\mathbb{R}$
+
+>[!warning]
+>Non è detto che converga necessariamente a $f$ in tutti i punti
+
+In particolare, sia $F_{m}(x)$ il polinomio di Fourier di ordine $m\in \mathbb{N}$ associato a $f$, si ha che:
+1) se $f$ è continua in $x$ allora $\lim_{ m \to \infty } {F_{m}(x)} = f(x)$
+2) se $f$ è discontinua in $x$ allora $\lim_{ m\to \infty } {F_{m}(x)} = \frac{1}{2} (\lim_{ s \to x^{+} }f(s) + \lim_{ s \to x^{-} } {f(s)})$ 
+
+### Convergenza totale della serie di Fourier e integrabilità
+
+Sia $f:\mathbb{R}\to \mathbb{R}$ $2\pi$-periodica e regolare a tratti in $[-\pi,\pi]$, se $f$ è continua in $\mathbb{R}$ allora la serie di Fourier di $f$ converge totalmente a $f$ in tutto $\mathbb{R}$ e vale la formula di integrabilità termine a termine negli intervalli limitati.
+
+### Derivabilità termine a termine
+
+Sia $f:\mathbb{R}\to \mathbb{R}$ $2\pi$-periodica e tale che:
+1) $f$ è derivabile su $\mathbb{R}$, e quindi regolare a tratti
+2) $f'$ è regolare a tratti in $[-\pi,\pi]$
+3) $f'$ è continua
+
+Allora la serie è derivabile in $\mathbb{R}$
+
+### Convergenza in media quadratica
+
+Sia $f:\mathbb{R}\to \mathbb{R}$ $2\pi$-periodica, si dice che la serie di Fourier converge in norma quadratica a $f$ se 
+$$
+\lim_{ m \to \infty } {\int _{-\pi}^{\pi}|f(x)-F_{m}(x)|^{2} \, dx  = 0}
+$$
+
+### Teorema
+
+Sia $f:\mathbb{R}\to \mathbb{R}$ $2\pi$-periodica e regolare a tratti in $[-\pi,\pi]$. Allora la serie di Fourier di $f$ converge in norma quadratica a $f$.
+
+### Diseguaglianza di Bessel
+
+Sia $f:\mathbb{R}\to \mathbb{R}$ $2\pi$-periodica e regolare a tratti in $[-\pi,\pi]$.  Siano $a_{0},a_{n}, b_{n}\in\mathbb{R}$ i coefficienti di Fourier di $f$. Abbiamo che 
+$$
+2a_{0}^{2} + \sum(a_{n}^{2} + b_{n}^{2})\leq \frac{1}{\pi}\int _{-\pi}^{\pi}|f(x)|^{2} \, dx 
+$$
+
+### Identità di Parseval
+
+Sia $f:\mathbb{R}\to \mathbb{R}$ $2\pi$-periodica e regolare a tratti in $[-\pi,\pi]$.  Siano $a_{0},a_{n}, b_{n}\in\mathbb{R}$ i coefficienti di Fourier di $f$. Abbiamo che 
+$$
+2a_{0}^{2} + \sum(a_{n}^{2} + b_{n}^{2})= \frac{1}{\pi}\int _{-\pi}^{\pi}|f(x)|^{2} \, dx 
+$$
+
+### Forma esponenziale
+
+Dalla formula di Eulero $e^{ix}=\cos x+i\sin x$ e $e^{i(-x)} = \cos x-i\sin x$ quindi
+$$
+\cos x = \frac{{e^{ix} + e^{-ix}}}{2} \text{ e }\sin x = \frac{{e^{ix}-e^{-ix}}}{2i}
+$$
+e sostituendo $x$ con $nx$ riesco ad ottenere
+$$
+F_{m}(x) = \sum_{-\infty}^{\infty}c_{n}e^{inx}, c_{n} = \left( \frac{a_{n}}{2} - \frac{ib_{n}}{2} \right)
+$$

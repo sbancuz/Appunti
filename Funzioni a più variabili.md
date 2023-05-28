@@ -44,3 +44,5 @@ $$
 
 
 ### [[Serie numeriche]]
+
+### [[Calcolo differenziale per funzioni a più variabili]]

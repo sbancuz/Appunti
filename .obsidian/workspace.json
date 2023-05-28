@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polinomio trigonometrico.md",
+                "file": "Limiti di funzioni a più variabili.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polinomio trigonometrico.md",
+                "file": "Limiti di funzioni a più variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polinomio trigonometrico.md",
+                "file": "Limiti di funzioni a più variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polinomio trigonometrico.md"
+                "file": "Limiti di funzioni a più variabili.md"
               }
             }
           }
@@ -172,17 +172,20 @@
   },
   "active": "6d3c85efd7128087",
   "lastOpenFiles": [
+    "Limiti di funzioni a più variabili.md",
+    "Calcolo differenziale per funzioni a più variabili.md",
+    "Funzioni a più variabili.md",
+    "Curva in Rn.md",
+    "Calcolo differenziale.md",
     "Serie di Fourier.md",
     "Polinomio trigonometrico.md",
+    "Funzioni ad 1 variabile continue.md",
     "Proprietà delle funzioni.md",
     "Serie notevoli.md",
     "Serie di potenze.md",
-    "Funzioni ad 1 variabile continue.md",
     "Serie di potenze complesse.md",
     "Serie di Taylor.md",
     "Serie numeriche.md",
-    "Funzioni a più variabili.md",
-    "Curva in Rn.md",
     "Spazio Rn.md",
     "Limitazioni sui gradi di libertà dei corpi rigidi.md",
     "Gestione operativa.md",
@@ -197,9 +200,6 @@
     "Calcolo integrale.md",
     "Untitled.md",
     "EDO del secondo ordine lineare.md",
-    "Sistemi differenziali lineari.md",
-    "Problema di Cauchy.md",
-    "Sistemi lineari non omogeneo.md",
     "stato patrimoniale.png",
     "Passivita.png",
     "rateo.png",
