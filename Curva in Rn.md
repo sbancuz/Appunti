@@ -81,3 +81,72 @@ Sia $\underline{r}: I\subseteq \mathbb R\to \mathbb R^{n}$ una curva regolare. C
 $$
 \underline{T}(t) = \frac{\underline{r}'(t)}{|| \underline{r}'(t)||}
 $$
+
+### Lunghezza di una curva
+
+Sia $\underline{r}: I\subseteq \mathbb R\to \mathbb R^n$ una curva regolare su un intervallo $I$ con sostegno $\gamma$. Si dice lunghezza di $\gamma$ il numero
+$$
+L(\gamma) = \int _{I}| | \underline{r}'(t) | | \, dt 
+$$
+#### Lunghezza per regolare a tratti
+
+Sia $I$ un intervallo in $\mathbb R$ con estremi $a,b \in \mathbb R \cup\{\pm \infty\}$ e sia $\underline{r} : I\to \mathbb R^n$ una curva regolare a tratti con sostegno $\gamma$. Si dice lunghezza
+$$
+L(\gamma) = \int _{a}^{t_{1}}| | \underline{r}'(t) | | \, dt  + \int _{t_{1}}^{t_{2}}| | \underline{r}'(t) | | \, dt +\dots+\int _{t_{k}}^{t_{b}}| | \underline{r}'(t) | | \, dt
+$$
+
+### Riparametrizzazione di $\gamma$
+
+Siano $I$ e $J$ due intervalli in $\mathbb R$. Sia $\underline{r}:I \to \mathbb R^n$ una curva con sostegno $\gamma$ e si a $\phi:J\to I$ una funzione derivabile in $J$ e invertibile.
+Si chiama riparametrizzazione di $\gamma$ la nuova curva $\underline{v}:J\to \mathbb R^n$ definita da
+$$
+\underline{v}(s)= \underline{r} \cdot \phi (s) = \underline{r}(\phi(s))
+$$
+>[!note] 
+>$\phi:J\to I$ derivabile in Int$J$ e invertibile implica che $\phi$ è monotona. cioè o strettamente crescente o strettamente descrescente 
+
+### Teorema di invarianza della lunghezza di una curva per riparametrizzazioni
+
+Sia $\underline{r}:[a,b] \subseteq \mathbb R \to \mathbb R^n$ una curva regolare di sostegno $\gamma$ e sia $\underline{v}: [c,d] \subseteq \mathbb R \to \mathbb R^n$ una riparametrizzazione di $\gamma$ relativa al cambiamento di variabile $\phi:[c,d] \to [a,b]$. Abbiamo che 
+$$
+L(\underline{r}([a,b])) = \int _{c}^{d} | | v'(s)| |  \, ds = \int _{a} ^{b} | | \underline{r}'(t)| |  \, dt 
+$$
+
+#### Dimostrazione
+
+Ricordiamo che siccome $\underline{r}$ è regolare, abbiamo che $L(\underline{r}([a,b])) =\int _{a} ^{b} | | \underline{r}'(t)| |  \, dt$.
+Unendo la formula di derivazione di funzione composte componente per componente otteniamo $\forall {s} \in {(c,d)}$
+$$
+\underline{v}'(s) = (\underline{r}(\phi(s)))' = \underline{r}'(\phi(s))\phi'(s)
+$$
+e quindi,
+$$
+|| \underline{v}'(s) | | = | \phi'(s) | \cdot | | \underline{r}'(\phi(s))| |
+$$
+Vogliamo fare il cambio di variabile $t=\phi(s)$ che implica $dt = \phi'(s)ds$ e per gli estremi di integrazione abbiamo due possibilità:
+- Se $\phi$ è crescente allora $\phi(c) = a<b=\phi(d), \phi'(s)\geq 0$ $\forall {s} \in {(c,d)}$ e $|| \underline{v}'(s) | | =  \phi'(s)  \cdot | | \underline{r}'(\phi(s))| |$
+- Se $\phi$ è decrescente allora $\phi(c) = b<a=\phi(d), \phi'(s)\leq 0$ $\forall {s} \in {(c,d)}$ e $|| \underline{v}'(s) | | =  -\phi'(s)  \cdot | | \underline{r}'(\phi(s))| |$
+
+Nel primo caso abbiamo che
+$$
+\int _{a}^{b} | | \underline{r}'(t) | | dt \, = \int _{c} ^d  \underline{r}'(\phi(s))\phi'(s)\, ds  = \int _{c} ^d  || \underline{v}'(s)| | \, ds   
+$$
+Nel secondo caso
+$$
+\int _{a}^{b} | | \underline{r}'(t) | | dt \, = \int _{d} ^c  \underline{r}'(\phi(s))(-\phi'(s))\, ds  = \int _{c} ^d  \underline{r}'(\phi(s))\phi'(s)\, ds = \int _{c} ^d  || \underline{v}'(s)| | \, ds   
+$$
+
+### Lunghezza d'arco
+
+Se $\underline{r}:[a,b] \to \mathbb R^n$ è una curva con sostegno $\gamma$, la lunghezza f'arco di $\underline{r}$ da $a$ a $t\in[a,b]$ è una funzione di $t$ definita da
+$$
+s(t) = \int _{a} ^{t }||\underline{r}'(\tau) \, d\tau 
+$$
+mentre la lunghezza dell'arco elementare, quando calcolabile, è la quantità 
+$$
+ds = ||\underline{r}'(t)|| dt
+$$
+Inoltre, se la funzione lunghezza d'arco esiste, è derivabile ed è invertibile. Allora chiamiamo $s$ parametro d'arco o ascissa curvilinea di $\gamma$, e possiamo riparametrizzare $\gamma$ rispetto al parametro d'arco di variabile $s^{-1}$ cioè
+$$
+\underline{v}(s) = \underline{r}(s^{-1}(s))
+$$

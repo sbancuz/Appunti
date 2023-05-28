@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Limitazioni sui gradi di libertà dei corpi rigidi.md",
+                "file": "Serie di potenze.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analisi_2",
+                "query": "tag:#analisi_2 ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Limitazioni sui gradi di libertà dei corpi rigidi.md",
+                "file": "Serie di potenze.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Limitazioni sui gradi di libertà dei corpi rigidi.md",
+                "file": "Serie di potenze.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Limitazioni sui gradi di libertà dei corpi rigidi.md"
+                "file": "Serie di potenze.md"
               }
             }
           }
@@ -172,9 +172,13 @@
   },
   "active": "45167c702d7a8d38",
   "lastOpenFiles": [
-    "Curva in Rn.md",
+    "Serie di potenze.md",
+    "Serie notevoli.md",
+    "Serie numeriche.md",
     "Funzioni a più variabili.md",
+    "Curva in Rn.md",
     "Spazio Rn.md",
+    "Limitazioni sui gradi di libertà dei corpi rigidi.md",
     "Gestione operativa.md",
     "Gestioni del CE.md",
     "Conto economico.md",
@@ -196,10 +200,6 @@
     "Matrice.md",
     "Norma canonica.md",
     "Norma.md",
-    "Principio di sovrapposizione.md",
-    "Equazioni differenziali ordinarie.md",
-    "EDO di Bernoulli.md",
-    "Bilancio d'esercizio.md",
     "stato patrimoniale.png",
     "Passivita.png",
     "rateo.png",
