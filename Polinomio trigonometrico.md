@@ -39,3 +39,8 @@ $$
 >[!note]
 >La periodicità non implica la regolarità, possiamo quindi anche includere le funzioni discontinue
 
+### Convergenza a partire dai coefficienti
+
+Data una serie trigonometrica generica, abbiamo che:
+1) Se la serie numerica di termine generale $|a_{n}| + |b_{n}|$ è convergente allora la serie converge totalmente in $\mathbb{R}$, inoltre la somma sarà continua ed è possibile integrare termine a termine su intervalli limitati
+2) Se la serie numerica di termine generale $n(|a_{n}| + |b_{n}|)$ è derivabile e la derivata è data dalla serie delle derivate termine a termine

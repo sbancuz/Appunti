@@ -67,3 +67,5 @@ con $a_{0}, a_{n}, b_{n}$ definiti come coefficienti di Fourier, mentre chiamiam
 $$
 \lim_{ m \to \infty } {F_{m}(x)}
 $$
+
+### Convergenza => [[Polinomio trigonometrico]]

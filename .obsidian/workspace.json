@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di Fourier.md",
+                "file": "Polinomio trigonometrico.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serie di Fourier.md",
+                "file": "Polinomio trigonometrico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serie di Fourier.md",
+                "file": "Polinomio trigonometrico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serie di Fourier.md"
+                "file": "Polinomio trigonometrico.md"
               }
             }
           }
@@ -172,8 +172,8 @@
   },
   "active": "6d3c85efd7128087",
   "lastOpenFiles": [
-    "Polinomio trigonometrico.md",
     "Serie di Fourier.md",
+    "Polinomio trigonometrico.md",
     "Proprietà delle funzioni.md",
     "Serie notevoli.md",
     "Serie di potenze.md",
