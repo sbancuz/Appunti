@@ -23,25 +23,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curva in Rn.md",
+                "file": "Limitazioni sui gradi di libertà dei corpi rigidi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "599d582b2e5f72e9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.4"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Curva in Rn.md",
+                "file": "Limitazioni sui gradi di libertà dei corpi rigidi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Curva in Rn.md",
+                "file": "Limitazioni sui gradi di libertà dei corpi rigidi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Curva in Rn.md"
+                "file": "Limitazioni sui gradi di libertà dei corpi rigidi.md"
               }
             }
           }
@@ -180,10 +170,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "599d582b2e5f72e9",
+  "active": "45167c702d7a8d38",
   "lastOpenFiles": [
-    "Funzioni a più variabili.md",
     "Curva in Rn.md",
+    "Funzioni a più variabili.md",
     "Spazio Rn.md",
     "Gestione operativa.md",
     "Gestioni del CE.md",
