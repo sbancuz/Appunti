@@ -89,7 +89,7 @@ $$
 
 
 
-[[Sviluppi di Taylor]]
+[[Serie di Taylor]]
 
 ## Integrali impropri o generalizzati
 

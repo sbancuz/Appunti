@@ -45,7 +45,7 @@ P_{nx_{0}}(x)= \sum_{k=0}^{n}{\frac{f^{(k)}(x_{0})}{k!}}(x-x_{0})^k
 $$
 E si ha che $f(x)-P_{nx_{0}}(x) = o((x-x_{0})^n)$ 
 
-$P_{nx_{0}}(x)$ si chiama polinimio di Taylor di grado $n$ di $f(x)$ in $x_{0}$, se poi $x_{0}=0$ allora sarebbe il polinomio di MacLaurin  
+$P_{nx_{0}}(x)$ si chiama polinomio di Taylor di grado $n$ di $f(x)$ in $x_{0}$, se poi $x_{0}=0$ allora sarebbe il polinomio di MacLaurin  
 
 >[!note]- Dimostrazione
 >Devo provare che $\lim_{ x \to x_{0} } \frac{{f(x)-P_{nx_{0}}(x)}}{(x-x_{0})^n}=0$ che per il lemma 2 vale a dire che $f(x)-P_{nx_{0}}(x)=0$

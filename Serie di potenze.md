@@ -90,3 +90,5 @@ ed è una serie di potenza centrata in $x_{0}$ e con raggio di convergenza $R$
 $$
 \int _{a}^{b}p(x) \, dx = \sum\int _{a}^{b}a_{n}(x-x_{0})^{n} \, dx 
 $$
+
+### [[Serie di potenze complesse]]

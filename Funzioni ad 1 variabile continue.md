@@ -26,3 +26,12 @@ Sia $f:I\to R$ con $I$ intervallo qualunque continua in $I$, allora $f$ è inver
 >
 >Ma se ha discontinuità a salto, la sua immagine non è un intervallo, assurdo poiché l'immagine di $f^{-1}$ è $I$
 
+
+### Funzione analitica
+
+Sia $f:(a,b)\subseteq \mathbb R \to \mathbb R$ derivabile infinite volte in $x_{0}\in(a,b)$ si dice che $f$ è una funzione analitica in $x_{0}$ se la [[Serie di Taylor]] con centro $x_{0}$ ha raggio di convergenza $R\in (0,\infty)\cup\{\infty\}$ e inoltre $\exists {R_{1}} \in {(0,R]}$ tale che 
+$$
+f(x) = \sum \frac{f^{(n)}(x_{0})}{n!}(x-x_{0})^{n}
+$$
+
+=> [[Serie di potenze]]

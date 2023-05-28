@@ -51,7 +51,7 @@ Se $\sum_{i=0}^\infty{a_{n}}$ diverge e $\sum_{i=0}^\infty{b_{n}}$ diverge allor
 >[!warning]
 >Se le due serie divergono una a $\infty$ e l'altra a $-\infty$ allora non si può dire nulla
 
-### [[Serie di potenze]]
+=> [[Serie di potenze]]
 
 ### Serie logaritmica
 $$
@@ -69,3 +69,14 @@ $$
 Questa [[Serie di potenze]] ha centro $x_{0}=0$ , il raggio $R=+\infty$ e coefficiente $a_{n} = \frac{1}{n!}$
 Converge assolutamente in tutto $\mathbb R$
 
+### [[Serie di Taylor]]
+
+### [[Serie di Fourier]]
+
+### Serie trigonometrica
+
+Si dice serie trigonometrica l'espressione
+$$
+a_{0} + \sum a_{n} \cos(nx) + b_{n}\sin(nx)
+$$
+dove $a_{0},a_{n},b_{n}\in \mathbb{R}$ assegnati e $x\in\mathbb{R}$
