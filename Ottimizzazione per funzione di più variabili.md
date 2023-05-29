@@ -30,6 +30,8 @@ $$
 
 Se tutte le derivate parziali seconde sono continue in $A$ allora si dice che $f$ è di classe $\mathcal C^{2}$ in $A$
 
+La "versione" a n variabili è la Jacobiana
+
 ### Teorema di Schwarz
 
 Sia $A\subseteq \mathbb{R}^{2}$ aperto e $f\in\mathcal C^{2}(A)$ allora
@@ -154,4 +156,19 @@ $$
 dove $L_\lambda$ è una funzione in 3 variabili detta Lagrangiana e definita da
 $$
 L(x,y,z) = f(x,y) - zF(x,y)
+$$
+
+### Vincoli con diseguaglianza nel caso di un insieme non unidimensionale chiuso e limitato
+
+Sia $f:A\subseteq \mathbb R^n\to \mathbb{R}$ continua definita su $A$ chiuso e limitato.
+
+1) $A$ è chiuso e limitato, $f$ è continua. Quindi per Weierstrass esistono massimi e minimi in $A$
+2) Escludo momentaneamente il bordo di $A$ e usando il teorema di Fermat su $Int(A)$ applico l'ottimizzazione libera ($P,Q$)
+3) Cerco i punti candidati sul bordo di $A$ come punti estremali di $f$ vincolati al vincolo $z=$ bordo di $A$ utilizzando l'ottimizzazione vincolata $(R)$
+4) Confronto i valori delle immagini
+$$
+\begin{align}
+max_{\underline{x}\in A}f(\underline{x}) = max \{ f(P_{1}),\dots,f(P_{k}),f(Q_{1}),\dots,f(Q_{k}),f(R_{1}),\dots,f(R_{k}) \} \\
+max_{\underline{x}\in A}f(\underline{x}) = min \{ f(P_{1}),\dots,f(P_{k}),f(Q_{1}),\dots,f(Q_{k}),f(R_{1}),\dots,f(R_{k}) \}
+\end{align}
 $$
