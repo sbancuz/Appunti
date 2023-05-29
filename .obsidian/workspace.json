@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo differenziale per funzioni a più variabili.md",
+                "file": "Ottimizzazione per funzione di più variabili.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo differenziale per funzioni a più variabili.md",
+                "file": "Ottimizzazione per funzione di più variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo differenziale per funzioni a più variabili.md",
+                "file": "Ottimizzazione per funzione di più variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo differenziale per funzioni a più variabili.md"
+                "file": "Ottimizzazione per funzione di più variabili.md"
               }
             }
           }
@@ -172,8 +172,9 @@
   },
   "active": "6d3c85efd7128087",
   "lastOpenFiles": [
-    "Versori.md",
     "Calcolo differenziale per funzioni a più variabili.md",
+    "Ottimizzazione per funzione di più variabili.md",
+    "Versori.md",
     "Limiti di funzioni a più variabili.md",
     "Funzioni a più variabili.md",
     "Coordinate polari.md",
@@ -199,7 +200,6 @@
     "conti per natura.png",
     "Macchine ad un grado di libertà.md",
     "Insieme.md",
-    "Calcolo integrale.md",
     "stato patrimoniale.png",
     "Passivita.png",
     "rateo.png",

@@ -156,3 +156,33 @@ $$
 F'(t) = <\triangledown (\underline{r}(t)), \underline{r}'(t)>
 $$
 
+### Ortogonalità del gradiente agli insiemi di livello
+
+Sia $A\subseteq \mathbb R^n$ aperto e $f:A\to \mathbb{R}$ differenziabile. Supponiamo che l'insieme di livello $k\in\mathbb{R}$ di $f$, cioè
+$$
+I_{k}  =\{ \underline{x}\in A:f(\underline{x}) = k \}
+$$
+sia il sostegno di una curva regolare $\underline{r}: I\to A$ dove $I \subseteq \mathbb{R}$ è un intervallo. Abbiamo allora che
+$$
+\left<  \triangledown f(\underline{r}(t)), \underline{r}'(t) \right> = 0 
+$$
+
+#### Dimostrazione
+
+Abbiamo che 
+$$
+\{ \underline{r}(t) : t\in I \} = I_{k} = \{ \underline{x} \in \mathbb R^n : f(\underline{x}) = k \}
+$$
+e quindi $f(\underline{r}(t)) = k$ e $F(t) = f(\underline{r}(t))) = k, \forall {t} \in {I}$ ovvero $F$ è costante su I e quindi
+$$
+F'(t) = 0
+$$
+per il teorema di derivazione delle funzioni composte abbiamo che 
+$$
+F'(t) = \left< \triangledown f(\underline{r}(t)), \underline{r}'(t) \right> 
+$$
+Quindi otteniamo che 
+$$
+F'(t) = \left<  \triangledown f(\underline{r}(t)), \underline{r}' \right> = 0, \forall {t} \in {I}  
+$$
+### ==> [[Ottimizzazione per funzione di più variabili]]
