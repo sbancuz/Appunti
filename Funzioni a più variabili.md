@@ -31,18 +31,6 @@ Sia $I\subseteq \mathbb R$ un'intervallo aperto. Una funzione $f: I\subseteq \ma
 - $\mathcal C^{0}$ su $I$ se $f$ è continua su $I$
 - $\mathcal C^{1}$ su $I$ se $f$ è derivabile in $I$ e $f'$ è continua su $I$
 
-### [[Calcolo integrale]] di linea
-
-Sia $\underline{r}:[a,b] \subseteq \mathbb R\to \mathbb R^n$ una curva regolare con sostegno $\gamma$ e sia $f$ una funzione continua a valori reali definita su un sottoinsieme $A$ di $\mathbb R^n$ contenete $\gamma$ si dice integrale di linea di $f$ il numero
-$$
-\int _{\gamma}f \, ds = \int _{a}^{b}f(\underline{r}(t))||\underline{r}'(t)|| \, dt  
-$$
-
->[!tip] Applicazioni
->- Massa => $M = \int _{\gamma}f \, ds$
->- Baricentro => $B_{i} = \frac{1}{M}\int _{a}^{b} r_{i}(t) \rho(\underline{r}(t))||\underline{r}'(t)||\, dt$
-
-
 ### [[Serie numeriche]]
 
 ### Continuità
@@ -54,3 +42,4 @@ $$
 Inoltre $f$ è detta continua in $A$ se $f$ è continua in ogni $\underline{x}_{0}\in A$
 
 ### [[Calcolo differenziale per funzioni a più variabili]]
+### [[Calcolo integrale per funzioni a più variabili]]
