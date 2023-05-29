@@ -29,9 +29,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9e5b6e37316eb0f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classificazione dei punti critici.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ottimizzazione per funzione di più variabili.md",
+                "file": "Classificazione dei punti critici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ottimizzazione per funzione di più variabili.md",
+                "file": "Classificazione dei punti critici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ottimizzazione per funzione di più variabili.md"
+                "file": "Classificazione dei punti critici.md"
               }
             }
           }
@@ -170,10 +183,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6d3c85efd7128087",
+  "active": "9e5b6e37316eb0f8",
   "lastOpenFiles": [
-    "Calcolo differenziale per funzioni a più variabili.md",
     "Ottimizzazione per funzione di più variabili.md",
+    "Classificazione dei punti critici.md",
+    "Calcolo differenziale per funzioni a più variabili.md",
     "Versori.md",
     "Limiti di funzioni a più variabili.md",
     "Funzioni a più variabili.md",
@@ -199,7 +213,6 @@
     "CE per destinazione.png",
     "conti per natura.png",
     "Macchine ad un grado di libertà.md",
-    "Insieme.md",
     "stato patrimoniale.png",
     "Passivita.png",
     "rateo.png",

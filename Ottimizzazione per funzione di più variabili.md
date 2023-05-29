@@ -83,3 +83,26 @@ Se $(x_{0},y_{0})$ è un punto di massimo o minimo locale allora è detto punto 
 ### Ottimizzazione libera
 
 Si parla di ottimizzazione libera quando si cercano i punto estremali di $f$nel suo dominio
+
+### Teorema di Weierstrass
+
+Sia $A\subseteq \mathbb R^n$ insieme chiuso e limitato e sia $f:A\to \mathbb{R}$ continua. Allora $f$ ammette massimo e minimo assoluti in $A$ quindi esistono
+$$
+f(\underline{x}_{m})\leq f(\underline{x})\leq f(\underline{x}_{M})
+$$
+
+### Teorema degli zeri
+
+Sia $A$ un insieme connesso per archi in $\mathbb R^n$ e $f:A\to \mathbb{R}$ continua. Se $f(\underline{x})>0$ e $f(\underline{y})<0$ per due punti $\underline{x}$ e $\underline{y}$ in $A$, allora $\exists {\underline{z}} \in {A}$ tale che $f(\underline{z}) = 0$
+
+### Teorema di Fermat
+
+Sia $A\subseteq \mathbb{R}^{2}$ un insieme aperto e sia $f:A\to \mathbb{R}$ derivabile in $(x_{0},y_{0})\in A$. Se esso è un punto estremale di $f$ allora
+$$
+\triangledown f(x_{0},y_{0}) = 0
+$$
+
+>[!warning]
+>Fermat non si applica sul bordo
+
+### ==> [[Classificazione dei punti critici]]
