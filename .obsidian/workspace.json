@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classificazione dei punti critici.md",
+                "file": "Ottimizzazione per funzione di più variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classificazione dei punti critici.md",
+                "file": "Ottimizzazione per funzione di più variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classificazione dei punti critici.md"
+                "file": "Ottimizzazione per funzione di più variabili.md"
               }
             }
           }
@@ -183,10 +183,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9e5b6e37316eb0f8",
+  "active": "6d3c85efd7128087",
   "lastOpenFiles": [
-    "Ottimizzazione per funzione di più variabili.md",
     "Classificazione dei punti critici.md",
+    "Ottimizzazione per funzione di più variabili.md",
     "Calcolo differenziale per funzioni a più variabili.md",
     "Versori.md",
     "Limiti di funzioni a più variabili.md",

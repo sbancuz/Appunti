@@ -65,3 +65,16 @@ f(\underline{x}_{0}+\underline{h}) - f(\underline{x}_{0})  & \geq \frac{1}{2} \l
 \end{align}
 $$
 $\forall {\underline{h}} \in {B_{\delta}(0)}$ tale che $\underline{x}_{0}+\underline{h}\in A$, che implica che, $\underline{x}_{0}$ è un punto minimo locale di $f$
+
+### Convessità
+
+Sia $f:\mathbb{R}^{2} \to \mathbb{R}\in \mathcal C^{2}(\mathbb{R}^{2})$. Diciamo che $f$ è convessa (concava) se $\forall {(x,y)} \in {\mathbb{R}^{2}}$ la matrice Hessiana è definita positiva o semi-definita positiva (o negativa per concava) 
+
+Sia $f:\mathbb{R}^{2} \to \mathbb{R}\in \mathcal C^{2}(\mathbb{R}^{2})$ e $(x_{0},y_{0})$ un punto critico di $f$ allora:
+- Se $f$ è convessa su $\mathbb{R}^{2}$ allora il punto è un punto di minimo assoluto
+- Se $f$ è concava su $\mathbb{R}^{2}$ allora il punto è di massimo assoluto
+
+>[!note]
+>Se $H_{f}$ è semi-definita positiva o negativa solo nel punto critico non possiamo concludere nulla
+>
+> Se $H_{f}$ è semi-definita ovunque positiva o negativa su $\mathbb{R}^{2}$ allora tutti i punti critici sono estremanti e per giunta assoluti

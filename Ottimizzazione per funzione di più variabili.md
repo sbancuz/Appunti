@@ -82,7 +82,7 @@ Se $(x_{0},y_{0})$ è un punto di massimo o minimo locale allora è detto punto 
 
 ### Ottimizzazione libera
 
-Si parla di ottimizzazione libera quando si cercano i punto estremali di $f$nel suo dominio
+Si parla di ottimizzazione libera quando si cercano i punto estremali di $f$ nel suo dominio
 
 ### Teorema di Weierstrass
 
@@ -106,3 +106,25 @@ $$
 >Fermat non si applica sul bordo
 
 ### ==> [[Classificazione dei punti critici]]
+
+### Ottimizzazione vincolata
+
+Si parla di ottimizzazione vincolata di $f$ con vincolo $z$ per indicare la ricerca dei punti estremali di $f$ vincolati a $z$
+
+Sia $A\subseteq \mathbb{R}^{2}$ aperto e $f,F\in\mathcal C'(A)$. Sia $z$ l'insieme di livello $0$ che viene chiamato vincolo dell'ottimizzazione.
+Sia $(x_{0},y_{0})\in z$ abbiamo che
+1) $\underline{x}_{0}$ è punto di massimo/minimo locale di $f$ vincolato a $z$ se esiste $\delta>0$ tale che $f(x_{0},y_{0})\geq f(x,y), \forall {(x,y)\in B_{\delta}}(x_{0},y_{0})\cap z  {}$
+2) $\underline{x}_{0}$ è punto di massimo/minimo assoluto di $f$ vincolato a $z$ se $f(x_{0},y_{0})\geq f(x,y), \forall {(x,y)} \in {z}$ 
+3) $\underline{x}_{0}$ è punto estremale vincolato a $z$ se è punto di massimo o minimo locale vincolato a $z$
+
+Considero 2 strategie:
+- Per sostituzione
+- Moltiplicatori di Lagrange
+
+### Strategia per sostituzione
+
+1) Considero la funzione $g$ definita di una variabile ottenuta restringendo $f$ a $z$
+	1) Esprimo il vincolo come curva dipendente da una delle due coordinate
+	2) Definisco $g(x)=f(x,h(x))$ o con la $y$
+2) Studio $g$ come funzione di $1$ variabile nel suo dominio e trovo i punti estremanti
+3) Considero tutti i punti $(x_{0},h(x_{0}))$ dove $x_{0}$ è stato trovato al punto 2)
