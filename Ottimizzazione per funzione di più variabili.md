@@ -128,3 +128,30 @@ Considero 2 strategie:
 	2) Definisco $g(x)=f(x,h(x))$ o con la $y$
 2) Studio $g$ come funzione di $1$ variabile nel suo dominio e trovo i punti estremanti
 3) Considero tutti i punti $(x_{0},h(x_{0}))$ dove $x_{0}$ è stato trovato al punto 2)
+
+### Metodo dei moltiplicatori di Lagrange
+
+Sia $A\subseteq \mathbb{R}^{2}$ aperto e siano $f,F\in\mathcal C'(A)$. Inoltre sia $(x_{0},y_{0})\in A$ un punto di estremo di $f$ vincolato sul vincolo $z = \{ (x,y)\in A : F(x,y) =0\}$. Se $\triangledown F(x_{0},y_{0}) \neq 0$, allora esiste $\lambda_{0}\in \mathbb{R}$ detto moltiplicatore di Lagrange tale che
+$$
+\triangledown f(x_{0},y_{0}) = \lambda_{0} \triangledown F(x_{0},y_{0})
+$$
+Il Teorema ci fornisce una condizione necessaria ad essere punto estremale vincolato. Possiamo vedere questo teorema coma la versione del teorema di Fermat per l'ottimizzazione vincolata. Infatti ci dice che:
+- se $\lambda_{0}=0$ e $\underline{x}$ è estremale vincolato a $z$ allora sarà punto critico di $f$ appartenente a $z$
+- se $\lambda_{0}\neq 0$  e $\underline{x}$ è punto estremale vincolato a $z$ allora $\triangledown f(\underline{x}) // \triangledown F(\underline{x})$
+
+Possiamo riscrivere la condizione necessaria con il fatto che $\underline{x}$ è nel vincolo come un sistema non lineare nelle tre incognite
+$$
+\begin{cases}
+f_{x}(\underline{x}) = \lambda_{0}F_{x}(\underline{x}) \\
+f_{y}(\underline{x}) = \lambda_{0}F_{y}(\underline{x}) \\
+F(\underline{x} )= 0
+\end{cases}
+$$
+che viene spesso riscritto come
+$$
+\triangledown L(\underline{x},\lambda_{0}) = 0
+$$
+dove $L_\lambda$ è una funzione in 3 variabili detta Lagrangiana e definita da
+$$
+L(x,y,z) = f(x,y) - zF(x,y)
+$$
