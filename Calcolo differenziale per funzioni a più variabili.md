@@ -83,3 +83,76 @@ Sia $A\subseteq \mathbb R^n$ aperto, $f\in \mathcal C'(A)$, allora è differenzi
 ### Condizione necessaria per la differenziabilità
 
 Sia $A\subseteq \mathbb R^n$ aperto, $f_:A\to \mathbb{R}$ differenziabile.  Allora $f$ è continua in $\underline{x}_{0}$
+
+#### Dimostrazione
+
+Dobbiamo dimostrare che $\exists {\lim_{ \underline{x} \to \underline{x}_{0} }} f(\underline{x}) = f(\underline{x}_{0}) {}$
+
+Siccome $f$ è differenziabile in $\underline{x}_{0}$, abbiamo che
+$$
+f(\underline{x}) = f(\underline{x}_{0}) + <\underline{a}, \underline{x} - \underline{x}_{0}> + \sigma(||\underline{x}-\underline{x}_{0}||)
+$$
+e quindi grazie alla diseguaglianza triangolare e a quella di Cauchy-Schwarz 
+$$
+0\leq |f(\underline{x})-f(\underline{x}_{0})| \leq ||\triangledown f(\underline{x}_{0})|| \cdot ||\underline{x}-\underline{x}_{0}||+ \sigma(||\underline{x}-\underline{x}_{0}||)
+$$
+Prendendo il limite per $\underline{x}\to \underline{x}_{0}$ si ottiene
+$$
+0\leq \lim_{ \underline{x} \to \underline{x}_{0} } {}|f(\underline{x})-f(\underline{x}_{0})| \leq\lim_{ \underline{x} \to \underline{x}_{0} } ||\triangledown f(\underline{x}_{0})|| \cdot ||\underline{x}-\underline{x}_{0}||+ \lim_{ \underline{x} \to \underline{x}_{0} }\sigma(||\underline{x}-\underline{x}_{0}||) = 0+0 = 0
+$$
+e quindi concludiamo che 
+$$
+\lim_{ \underline{x} \to \underline{x}_{0} } {}|f(\underline{x})-f(\underline{x}_{0})| = 0
+$$
+### Formula del gradiente
+
+Sia $A\subseteq \mathbb R^n$ aperto, $f_:A\to \mathbb{R}$ differenziabile.  Allora per ogni [[Versori]] $\underline{v}\in \mathbb R^n$ esiste la derivata direzionale in $\underline{x}_{0}$ lungo la direzione $\underline{v}$ e inoltre
+$$
+\frac{ \partial f }{ \partial \underline{v} } = <\triangledown f(\underline{x}_{0}), \underline{v}>
+$$
+
+#### Dimostrazione
+
+Siccome $f$ è differenziabile in $\underline{x}_{0}$, abbiamo che 
+$$
+f(\underline{x}_{0} + \underline{h}) = f(\underline{x}_{0}) + <\triangledown f(\underline{x}_{0}),\underline{h}> + \sigma(||\underline{h}||)
+$$
+per $\underline{h}\to0$ e applichiamo tale equazione a $\underline{h}=t\underline{v}$ per $t\in\mathbb{R}$ piccolo ottenendo 
+$$
+f(\underline{x}_{0} + t\underline{v}) = f(\underline{x}_{0}) + <\triangledown f(\underline{x}_{0}),t\underline{v}> + \sigma(t)
+$$
+e quindi
+$$
+\begin{align}
+\frac{{f(\underline{x}_{0} + t\underline{v}) - f(\underline{x}_{0})}}{t}  & =  \frac{{<\triangledown f(\underline{x}_{0}),t\underline{v}>}}{t} + \frac{{\sigma(t)}}{t} \\
+  & = {<\triangledown f(\underline{x}_{0}),\underline{v}>} + \frac{{\sigma(t)}}{t}
+\end{align}
+$$
+e concludiamo che 
+$$
+\frac{ \partial f }{ \partial \underline{v} } = \lim_{ t \to 0 } {\frac{{f(\underline{x}_{0} + t\underline{v}) - f(\underline{x}_{0})}}{t} } = \lim_{ t \to 0 } {<\triangledown f(\underline{x}_{0}), \underline{v}>} + \lim_{ t \to 0 } \frac{{\sigma(t)}}{t} = <\triangledown f(\underline{x}_{0}), \underline{v}>
+$$
+
+### Direzione di massima e minima pendenza
+
+Sia $A\subseteq \mathbb R^n$ aperto e $f:A\to \mathbb{R}$ differenziabile e con $\triangledown f(\underline{x}_{0}) \neq \underline{0}$. Allora per ogni versore $\underline{v} \in \mathbb R^n$ si ha che 
+$$
+\left|\frac{ \partial f }{ \partial \underline{v} } (\underline{x}_{0})\right| \leq ||\triangledown f(\underline{x}_{0})||
+$$
+e inoltre detti 
+$$
+\underline{v}_{MAX} = \frac{{\triangledown f(\underline{x}_{0})}}{{||{\triangledown f(\underline{x}_{0})}}||},\underline{v}_{MIN} = \frac{{-\triangledown f(\underline{x}_{0})}}{{||{\triangledown f(\underline{x}_{0})}}||},
+$$
+si ha che
+$$
+\frac{ \partial f }{ \partial \underline{v}_{MAX}(\underline{x}_{0}) } = ||\triangledown f(\underline{x}_{0})||,  \frac{ \partial f }{ \partial \underline{v}_{MIN}(\underline{x}_{0}) } = -||\triangledown f(\underline{x}_{0})||,  
+$$
+
+### Derivazione di funzioni composte
+
+Sia $I\subseteq \mathbb{R}$ un intervallo e $A\subset \mathbb R^n$ uno aperto. Sia $\underline{r}:I->A$ una [[Curva in Rn]] regolare e $f:A\to \mathbb{R}$ una funzione differenziabile in $A$.
+Detta $F:I\to \mathbb{R}$ la funzione composta definita per ogni $t\in I$ come $F(t)=(f\cdot \underline{r})(t) = f(\underline{r}(t))$, abbiamo che $F$ è derivabile in I e inoltre 
+$$
+F'(t) = <\triangledown (\underline{r}(t)), \underline{r}'(t)>
+$$
+
