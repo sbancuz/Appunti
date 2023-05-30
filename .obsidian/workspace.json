@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "EDO autonome.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "EDO autonome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "EDO autonome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md"
+                "file": "EDO autonome.md"
               }
             }
           }
@@ -172,8 +172,12 @@
   },
   "active": "b4bec05426f01482",
   "lastOpenFiles": [
-    "Diffeomorfismo.md",
+    "Equazioni differenziali ordinarie.md",
+    "EDO autonome.md",
+    "Studio qualitativo delle EDO del primo ordine.md",
+    "Calcolo differenziale.md",
     "Calcolo integrale per funzioni a più variabili.md",
+    "Diffeomorfismo.md",
     "Funzioni a più variabili.md",
     "Calcolo integrale.md",
     "Ottimizzazione per funzione di più variabili.md",
@@ -183,7 +187,6 @@
     "Limiti di funzioni a più variabili.md",
     "Coordinate polari.md",
     "Curva in Rn.md",
-    "Calcolo differenziale.md",
     "Serie di Fourier.md",
     "Polinomio trigonometrico.md",
     "Funzioni ad 1 variabile continue.md",
@@ -195,9 +198,6 @@
     "Serie numeriche.md",
     "Spazio Rn.md",
     "Limitazioni sui gradi di libertà dei corpi rigidi.md",
-    "Gestione operativa.md",
-    "Gestioni del CE.md",
-    "Conto economico.md",
     "CE per destinazione.png",
     "conti per natura.png",
     "stato patrimoniale.png",
