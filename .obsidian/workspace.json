@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi lineari omogenei.md",
+                "file": "Meccanismi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,20 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di potenze.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51cf15a303cf6967",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "Integrali notevoli.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "Meccanismi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "Meccanismi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md"
+                "file": "Meccanismi.md"
               }
             }
           }
@@ -196,36 +183,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "51cf15a303cf6967",
+  "active": "b4bec05426f01482",
   "lastOpenFiles": [
-    "Ottimizzazione per funzione di più variabili.md",
-    "Calcolo differenziale per funzioni a più variabili.md",
-    "Serie di Fourier.md",
-    "Serie notevoli.md",
-    "Polinomio trigonometrico.md",
-    "Proprietà delle funzioni.md",
-    "Funzioni ad 1 variabile continue.md",
-    "Serie di potenze.md",
     "Integrali notevoli.md",
+    "Ring buffer.md",
+    "Meccanismi.md",
+    "Limiti di funzioni a 1 variabile.md",
+    "Funzioni.md",
+    "Serie di Taylor.md",
     "Sistemi lineari omogenei.md",
-    "Sistemi differenziali lineari.md",
-    "Sistemi lineari.md",
-    "Studio qualitativo delle EDO del primo ordine.md",
-    "Equazioni differenziali ordinarie.md",
-    "EDO autonome.md",
-    "EDO del secondo ordine lineare.md",
-    "Problema di Cauchy.md",
-    "EDO A variabili separabili.md",
-    "Calcolo differenziale.md",
-    "Calcolo integrale per funzioni a più variabili.md",
-    "Diffeomorfismo.md",
-    "Funzioni a più variabili.md",
-    "Calcolo integrale.md",
-    "Classificazione dei punti critici.md",
-    "Versori.md",
-    "Limiti di funzioni a più variabili.md",
-    "CE per destinazione.png",
     "conti per natura.png",
+    "Versori.md",
+    "Studio qualitativo delle EDO del primo ordine.md",
+    "Serie notevoli.md",
+    "Serie di potenze.md",
+    "Serie di potenze complesse.md",
+    "Serie di Fourier.md",
+    "Polinomio trigonometrico.md",
+    "Ottimizzazione per funzione di più variabili.md",
+    "Limiti di funzioni a più variabili.md",
+    "Gestioni del CE.md",
+    "Gestione operativa.md",
+    "Gestione fiscale.md",
+    "Gestione finanziaria.md",
+    "EDO autonome.md",
+    "Diffeomorfismo.md",
+    "Curva in Rn.md",
+    "Coordinate polari.md",
+    "Classificazione dei punti critici.md",
+    "Calcolo integrale per funzioni a più variabili.md",
+    "CE per destinazione.png",
     "stato patrimoniale.png",
     "Passivita.png",
     "rateo.png",
