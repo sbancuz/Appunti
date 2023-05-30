@@ -111,7 +111,7 @@ dove $a,b,c,d\in \mathbb R$  e $a\neq 0$
 
 Si chiama polinomio caratteristico il polinomio
 $$
-p(\lambda) ) a\lambda^{2}+b\lambda+c
+p(\lambda) = a\lambda^{2}+b\lambda+c
 $$
 per $\lambda\in \mathbb C$ e equazione caratteristica 
 $$

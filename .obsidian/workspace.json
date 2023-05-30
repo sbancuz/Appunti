@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanismi.md",
+                "file": "EDO del secondo ordine lineare.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanismi.md",
+                "file": "EDO del secondo ordine lineare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meccanismi.md",
+                "file": "EDO del secondo ordine lineare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meccanismi.md"
+                "file": "EDO del secondo ordine lineare.md"
               }
             }
           }
@@ -185,9 +185,9 @@
   },
   "active": "b4bec05426f01482",
   "lastOpenFiles": [
+    "Meccanismi.md",
     "Integrali notevoli.md",
     "Ring buffer.md",
-    "Meccanismi.md",
     "Limiti di funzioni a 1 variabile.md",
     "Funzioni.md",
     "Serie di Taylor.md",
