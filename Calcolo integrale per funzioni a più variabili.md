@@ -106,3 +106,64 @@ $$
 Sia $n=2,3$. Chiamiamo cambiamento di variabili tra due regimi $U$ e $V$ in $\mathbb{R}^{n}$ ogni [[Diffeomorfismo]]
 
 ### Teorema dell'inversione locale
+
+Sia $\underline{f}:A\subseteq \mathbb{R}^{n}\to \mathbb{R}^{n}\in \mathcal C'(A;\mathbb{R}^{n})$ con $A$ aperto. Se lo Jacobiano di $\underline{f}$ in $\underline{x}_{0}\in A$, ovvero $\det J_{f}(\underline{x}_{0})$ è non nullo allora        
+$\exists {}  {}U$ aperto $\subseteq A$ contenente $\underline{x}_{0}$ e $V \text{}$ aperto costante $\underline{f}(x_{0})$ tale che $\underline{f}:U\to V$ è un cambiamento di variabile 
+$$
+J_{\underline{f}^{-1}}(\underline{f}(\underline{x})) = (J_{\underline{f}}(\underline{x}))^{-1}
+$$
+
+### Cambio di variabili di integrazione
+
+Sia $\Omega \subseteq \mathbb R^n$ un dominio regolare per $n=2,3$ e sia $f:\Omega\to \mathbb{R}$ una funzione continua. Se $\underline{T}:U\to V$ è un cambiamento di variabile tra le regioni $U$ e $V$ con $\Omega \subseteq \overline V$ allora denotiamo 
+$$
+(x_{1},x_{2},\dots,x_{n}) = \underline{T}(u_{1},u_{2},\dots ,u_{n})
+$$
+e abbiamo che
+$$
+\int \dots \int _{\Omega}f(\underline{x}) \, dx_{1}  \, dx_{n}  = \int \dots \int _{T^{-1}(\Omega)}f(\underline{T}(\underline{u})) |\det J_{\underline{T}}| \, du_{1}  \, du_{n}  
+$$
+
+### ==> [[Coordinate polari]] per n=2
+$$
+\iint _{D}f(x,y) \ dxdy = \iint _{T_{\rho}^{-1}(D)} f(\rho \cos\theta,\rho \sin\Theta)\rho\ d\rho d\theta
+$$
+### Coordinate cilindriche per n=3
+$$
+\iiint _{\Omega}f(x,y,z) \ dxdydz = \iiint _{T_{\rho}^{-1}(D)} f(\rho \cos\theta,\rho \sin\Theta,z)\rho\ d\rho d\theta dz
+$$
+### Coordinate sferiche
+
+La funzione relativa alle coordinate sferiche è
+$$
+\underline{T}_{s}: \mathbb{R}^{+}\times[0,\pi]\times[0,2\pi) \to \mathbb{R}^{3}
+$$
+$$
+\left( \begin{matrix}
+\rho\\\phi\\\theta
+\end{matrix} \right) 
+ \to \left( \begin{matrix}
+\rho \sin\phi \cos\theta \\
+\rho \sin\phi \sin\theta \\
+\rho \cos\phi
+\end{matrix} \right) =
+\left( \begin{matrix}
+x\\y\\z
+\end{matrix} \right) 
+$$
+$$
+\iiint _{\Omega}f(x,y,z) \ dxdydz = \iiint _{T_{\rho}^{-1}(\Omega)} f(\rho \sin\phi\cos\theta,\rho \sin\phi\sin\Theta,\rho \cos\theta)\rho^{2}\sin\phi\ d\rho d\theta dz
+$$
+
+### Dimostrazione
+
+Abbiamo che 
+$$
+J_{\underline{T}s}(\rho,\phi,\theta) = \left( \begin{matrix}
+\sin\phi \cos\theta  & \rho \cos\phi \cos\theta  & -\rho \sin\phi \cos\theta \\
+\sin\phi \sin\theta & \rho \cos\phi \sin\theta & \rho \sin\phi \cos\theta \\
+\cos\phi & -\rho \sin\phi & o
+\end{matrix} \right) 
+$$
+e quindi il determinante sarà $\rho^{2}\sin\phi$
+
