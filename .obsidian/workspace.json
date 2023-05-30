@@ -23,7 +23,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDO autonome.md",
+                "file": "Sistemi lineari omogenei.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31de84fb370ff7c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Serie di potenze.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51cf15a303cf6967",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calcolo integrale per funzioni a più variabili.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -31,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -50,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "integrale cur",
+                "query": "tag:analisi_2 W",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDO autonome.md",
+                "file": "Calcolo integrale per funzioni a più variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDO autonome.md",
+                "file": "Calcolo integrale per funzioni a più variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDO autonome.md"
+                "file": "Calcolo integrale per funzioni a più variabili.md"
               }
             }
           }
@@ -170,34 +196,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b4bec05426f01482",
+  "active": "51cf15a303cf6967",
   "lastOpenFiles": [
+    "Ottimizzazione per funzione di più variabili.md",
+    "Calcolo differenziale per funzioni a più variabili.md",
+    "Serie di Fourier.md",
+    "Serie notevoli.md",
+    "Polinomio trigonometrico.md",
+    "Proprietà delle funzioni.md",
+    "Funzioni ad 1 variabile continue.md",
+    "Serie di potenze.md",
+    "Integrali notevoli.md",
+    "Sistemi lineari omogenei.md",
+    "Sistemi differenziali lineari.md",
+    "Sistemi lineari.md",
+    "Studio qualitativo delle EDO del primo ordine.md",
     "Equazioni differenziali ordinarie.md",
     "EDO autonome.md",
-    "Studio qualitativo delle EDO del primo ordine.md",
+    "EDO del secondo ordine lineare.md",
+    "Problema di Cauchy.md",
+    "EDO A variabili separabili.md",
     "Calcolo differenziale.md",
     "Calcolo integrale per funzioni a più variabili.md",
     "Diffeomorfismo.md",
     "Funzioni a più variabili.md",
     "Calcolo integrale.md",
-    "Ottimizzazione per funzione di più variabili.md",
     "Classificazione dei punti critici.md",
-    "Calcolo differenziale per funzioni a più variabili.md",
     "Versori.md",
     "Limiti di funzioni a più variabili.md",
-    "Coordinate polari.md",
-    "Curva in Rn.md",
-    "Serie di Fourier.md",
-    "Polinomio trigonometrico.md",
-    "Funzioni ad 1 variabile continue.md",
-    "Proprietà delle funzioni.md",
-    "Serie notevoli.md",
-    "Serie di potenze.md",
-    "Serie di potenze complesse.md",
-    "Serie di Taylor.md",
-    "Serie numeriche.md",
-    "Spazio Rn.md",
-    "Limitazioni sui gradi di libertà dei corpi rigidi.md",
     "CE per destinazione.png",
     "conti per natura.png",
     "stato patrimoniale.png",

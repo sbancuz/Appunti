@@ -20,8 +20,7 @@ L'integrale multiplo su insiemi $A$ k-dimensionali con $k>1$ con notazione
 $$
 \int _{A}f(\underline{x}) \, d\underline{x} 
 $$
-calcola il volume della regione racchiusa tra il dominio $A$ della funzio
-ne e $Gr_{f}$ un analogia al caso ad una variabile
+calcola il volume della regione racchiusa tra il dominio $A$ della funzione e $Gr_{f}$ un analogia al caso ad una variabile
 
 ### Integrale doppio
 
