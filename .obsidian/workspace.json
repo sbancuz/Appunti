@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDO di Bernoulli.md",
+                "file": "Serie di potenze.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +75,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ottimizzazione per funzione di più variabili.md",
+                "file": "EDO Lineari.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a385e89e8bbf9cc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calcolo differenziale per funzioni a più variabili.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3041122a74f4b86a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calcolo differenziale per funzioni a più variabili.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -102,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:analisi_2 gradiente",
+                "query": "tag:analisi_2 livello",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -158,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDO di Bernoulli.md",
+                "file": "Calcolo differenziale per funzioni a più variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDO di Bernoulli.md",
+                "file": "Calcolo differenziale per funzioni a più variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDO di Bernoulli.md"
+                "file": "Calcolo differenziale per funzioni a più variabili.md"
               }
             }
           }
@@ -222,20 +248,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b4bec05426f01482",
+  "active": "3041122a74f4b86a",
   "lastOpenFiles": [
-    "Ottimizzazione per funzione di più variabili.md",
+    "Funzioni a più variabili.md",
     "Calcolo differenziale per funzioni a più variabili.md",
+    "Serie di potenze.md",
+    "Dimostrazioni per Piovo.md",
     "EDO Lineari.md",
+    "Calcolo integrale per funzioni a più variabili.md",
+    "Classificazione dei punti critici.md",
+    "Curva in Rn.md",
+    "Serie di Fourier.md",
+    "Serie numeriche.md",
+    "EDO del secondo ordine lineare.md",
+    "Ottimizzazione per funzione di più variabili.md",
+    "Espansioni di Taylor MacLaurin notevoli.md",
+    "EDO di Bernoulli.md",
     "Polinomio trigonometrico.md",
     "Integrali notevoli.md",
-    "Calcolo integrale per funzioni a più variabili.md",
-    "Serie di Fourier.md",
     "Sistemi differenziali lineari.md",
     "2023-05-31.md",
     "Serie di Taylor.md",
     "Calcolo integrale.md",
-    "EDO del secondo ordine lineare.md",
     "Derivate fondamentali.md",
     "Meccanismi.md",
     "Ring buffer.md",
@@ -243,14 +277,6 @@
     "Funzioni.md",
     "Sistemi lineari omogenei.md",
     "conti per natura.png",
-    "Versori.md",
-    "Studio qualitativo delle EDO del primo ordine.md",
-    "Serie notevoli.md",
-    "Serie di potenze.md",
-    "Serie di potenze complesse.md",
-    "Limiti di funzioni a più variabili.md",
-    "Gestioni del CE.md",
-    "Gestione operativa.md",
     "CE per destinazione.png",
     "stato patrimoniale.png",
     "Passivita.png",
