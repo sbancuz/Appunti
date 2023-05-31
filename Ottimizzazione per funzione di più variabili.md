@@ -46,7 +46,7 @@ cioè la matrice Hessiana è simmetrica.
 
 Sia $A\subseteq \mathbb{R}^{2}$ aperto e $f\in\mathcal C^{2}(A)$ allora
 $$
-f(\underline{x}_{0} + \underline{h}) = f(\underline{x}_{0}) + \left< \triangledown f(\underline{x}_{0}, \underline{h}) \right> + \frac{1}{2} \underline{h}^{T}H_{f}(\underline{x}_{0}) \underline{h} +\sigma(||\underline{h}||^{2})
+f(\underline{x}_{0} + \underline{h}) = f(\underline{x}_{0}) + \left< \triangledown f(\underline{x}_{0}), \underline{h} \right> + \frac{1}{2} \underline{h}^{T}H_{f}(\underline{x}_{0}) \underline{h} +\sigma(||\underline{h}||^{2})
 $$
 ### Forma quadratica
 
