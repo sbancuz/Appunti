@@ -107,7 +107,7 @@ e quindi le ipotesi sono dirette conseguenze del criterio della radice per la se
 
 ---
 
-Teorema per il calcolo dei coefficienti di Fourier
+### Teorema per il calcolo dei coefficienti di Fourier
 
 Se $f: \mathbb{R}\to \mathbb{R}$ $2\pi$-periodica è somma di una serie trigonometrica con convergenza totale su $[-\pi,\pi]$ allora abbiamo che $a_{0},a_{n},b_{n}$ sono i coefficienti di Fourier di $f$
 
@@ -253,7 +253,7 @@ $$
 \iiint _{\Omega}f(x,y,z) \ dxdydz = \iiint _{T_{\rho}^{-1}(\Omega)} f(\rho \sin\phi\cos\theta,\rho \sin\phi\sin\Theta,\rho \cos\theta)\rho^{2}\sin\phi\ d\rho d\theta dz
 $$
 
-### Dimostrazione
+#### Dimostrazione
 
 Abbiamo che 
 $$
@@ -267,7 +267,7 @@ e quindi il determinante sarà $\rho^{2}\sin\phi$
 
 ---
 
-Condizione necessaria per la differenziabilità
+### Condizione necessaria per la differenziabilità
 
 Sia $A\subseteq \mathbb R^n$ aperto, $f_:A\to \mathbb{R}$ differenziabile.  Allora $f$ è continua in $\underline{x}_{0}$
 
