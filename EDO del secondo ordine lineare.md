@@ -156,6 +156,6 @@ Ho tre casi semplici per determinare $f(t)$:
 	2) Se $p(0)= 0$ e $0$ è radice singola allora la soluzione è del tipo $y_{\phi}(t) =t( \beta_{n}t^{n}+\dots+\beta_{0})$
 	3) Se $p(0)= 0$ e $0$ è radice doppia allora la soluzione è del tipo $y_{\phi}(t) =t^{2}( \beta_{n}t^{n}+\dots+\beta_{0})$
 
-3) $f(t)$ è trigonometrica quindi $f(t)=A\cos(\eta t)+B\sin(\eta t)$
+3) $f(t)$ è trigonometrica quindi $f(t)=A\cos(\eta t)+B\sin(\eta t)$alla fine
 	1) Se $p(i\eta)\neq 0$ allora $p_{\phi}(t)=c_{1}\sin(\eta t)+c_{2}\cos(\eta t)$
 	2)  Se $p(i\eta)=0$ allora $p_{\phi}(t)=t[c_{1}\sin(\eta t)+c_{2}\cos(\eta t)]$
