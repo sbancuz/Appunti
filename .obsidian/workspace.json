@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curva in Rn.md",
+                "file": "Classificazione dei punti critici.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:analisi_2 livello",
+                "query": "tag:analisi_2 quadrat",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -206,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388,
-    "collapsed": true
+    "width": 388
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -223,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Curva in Rn.md",
+                "file": "Classificazione dei punti critici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Curva in Rn.md",
+                "file": "Classificazione dei punti critici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Curva in Rn.md"
+                "file": "Classificazione dei punti critici.md"
               }
             }
           }
@@ -289,11 +288,14 @@
   },
   "active": "b3f88c7108531b77",
   "lastOpenFiles": [
+    "Ottimizzazione per funzione di più variabili.md",
+    "Classificazione dei punti critici.md",
+    "Calcolo integrale.md",
+    "Curva in Rn.md",
     "Calcolo integrale per funzioni a più variabili.md",
     "EDO del secondo ordine lineare.md",
     "Dimostrazioni per Piovo.md",
     "EDO Lineari.md",
-    "Ottimizzazione per funzione di più variabili.md",
     "Sistemi lineari omogenei.md",
     "Sistemi differenziali lineari.md",
     "Serie di Fourier.md",
@@ -301,8 +303,6 @@
     "Funzioni ad 1 variabile continue.md",
     "Calcolo differenziale per funzioni a più variabili.md",
     "Funzioni a più variabili.md",
-    "Classificazione dei punti critici.md",
-    "Curva in Rn.md",
     "Serie numeriche.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
     "EDO di Bernoulli.md",
@@ -310,7 +310,6 @@
     "Integrali notevoli.md",
     "2023-05-31.md",
     "Serie di Taylor.md",
-    "Calcolo integrale.md",
     "Derivate fondamentali.md",
     "Meccanismi.md",
     "Ring buffer.md",

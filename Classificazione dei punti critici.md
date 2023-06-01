@@ -9,6 +9,14 @@ Per ogni forma quadratica $q\in\mathbb R^n$ esiste una matrice simmetrica $A\in\
 $$
 q(\underline{x}) = \left< \underline{x}, A\underline{x} \right> 
 $$
+La matrice $A$ associata ad una generale $q = ax^{2} +by^{2} + 2cxy$ è
+$$
+A = \left[ \begin{matrix}
+a  & \frac{c}{2} \\
+\frac{c}{2}  & b
+\end{matrix} \right] 
+$$
+
 Per ogni $A$ simmetrica abbiamo che $\underline{q}(\underline{x}) = \left< \underline{x}, A\underline{x} \right>$ è una forma quadratica in $\mathbb R^n$ inoltre abbiamo che 
 $$
 \lambda_{max}||\underline{x}||^{2} \geq \left< \underline{x}, A\underline{x} \right> \geq \lambda_{min}||\underline{x}||^{2} 
@@ -21,6 +29,11 @@ Sia $q$ una forma quadratica in $\mathbb R^n$ con matrice di rappresentazione $A
 - definita positiva/negativa => tutti gli autovalori di $A$ sono strettamente positivi/negativi
 - semi-definita positiva/negativa =>  tutti gli autovalori di $A$ sono $\geq,\leq 0$ 
 - indefinita => quando $A$ ammette sia un autovalore negativo e uno positivo
+
+Se no il segno si può controllare come:
+- definita positiva/negativa => $\det A>0$ e $a>/<0$ 
+- semi-definita positiva/negativa => $\det A = 0$ e $a > / < 0$
+- indefinita => $\det A < 0$
 
 ### Teorema della matrice Hessiana
 
