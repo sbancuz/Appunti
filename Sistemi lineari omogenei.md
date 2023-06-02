@@ -57,7 +57,7 @@ per $c_{1},c_{2}\in \mathbb R$.
 >Essa corrisponde al caso di $\Delta<0$ delle EDO di secondo ordine grazie alla formula di Eulero
 
 Posso indicare l'integrale generale di un SDL anche in forma compatta come una [[Matrice esponenziale]].
-La serie ha somma fi**nita rispetto alla [[Norma canonica]] dello spazio di matrici.
+La serie ha somma finita rispetto alla [[Norma canonica]] dello spazio di matrici.
 
 Data una matrice diagonale D allora abbiamo che 
 $$

@@ -127,7 +127,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spazio Rn.md",
+                "file": "Sistemi lineari omogenei.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spazio Rn.md",
+                "file": "Sistemi lineari omogenei.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spazio Rn.md",
+                "file": "Sistemi lineari omogenei.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spazio Rn.md"
+                "file": "Sistemi lineari omogenei.md"
               }
             }
           }
@@ -276,6 +276,8 @@
   },
   "active": "a6cba0b4589c11ce",
   "lastOpenFiles": [
+    "Sistemi differenziali lineari.md",
+    "Spazio Rn.md",
     "Ottimizzazione per funzione di più variabili.md",
     "Calcolo differenziale per funzioni a più variabili.md",
     "Serie numeriche.md",
@@ -289,7 +291,6 @@
     "Dimostrazioni per Piovo.md",
     "EDO Lineari.md",
     "Sistemi lineari omogenei.md",
-    "Sistemi differenziali lineari.md",
     "Serie di Fourier.md",
     "Funzioni a più variabili.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
@@ -301,7 +302,6 @@
     "Derivate fondamentali.md",
     "Meccanismi.md",
     "Ring buffer.md",
-    "Limiti di funzioni a 1 variabile.md",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",
