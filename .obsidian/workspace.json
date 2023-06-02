@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Serie notevoli.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -153,7 +153,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di potenze.md",
+                "file": "Curva in Rn.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3803da3a617a95e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Serie di Fourier.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e10a64ec9e383879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dimostrazioni per Piovo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea5a78a20a6a72b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calcolo differenziale per funzioni a più variabili.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -161,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -180,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:analisi_2 Schwa",
+                "query": "tag:analisi_2 Fourier",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -300,16 +339,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3539a58ee85d167b",
+  "active": "e10a64ec9e383879",
   "lastOpenFiles": [
-    "Serie di potenze.md",
-    "Dimostrazioni per Piovo.md",
+    "Serie di Fourier.md",
+    "Ottimizzazione per funzione di più variabili.md",
     "Curva in Rn.md",
+    "Calcolo differenziale per funzioni a più variabili.md",
+    "Dimostrazioni per Piovo.md",
+    "Serie di potenze.md",
+    "Serie notevoli.md",
     "Sistemi lineari omogenei.md",
     "Sistemi differenziali lineari.md",
     "Spazio Rn.md",
-    "Ottimizzazione per funzione di più variabili.md",
-    "Calcolo differenziale per funzioni a più variabili.md",
     "Serie numeriche.md",
     "Funzioni ad 1 variabile continue.md",
     "EDO del secondo ordine lineare.md",
@@ -317,7 +358,6 @@
     "Calcolo integrale.md",
     "Calcolo integrale per funzioni a più variabili.md",
     "EDO Lineari.md",
-    "Serie di Fourier.md",
     "Funzioni a più variabili.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
     "EDO di Bernoulli.md",
@@ -327,7 +367,6 @@
     "Serie di Taylor.md",
     "Derivate fondamentali.md",
     "Meccanismi.md",
-    "Ring buffer.md",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",

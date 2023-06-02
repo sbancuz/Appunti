@@ -161,7 +161,7 @@ $$
 #### Dimostrazione
 
 Ricordiamo che siccome $\underline{r}$ è regolare, abbiamo che $L(\underline{r}([a,b])) =\int _{a} ^{b} | | \underline{r}'(t)| |  \, dt$.
-Unendo la formula di derivazione di funzione composte componente per componente otteniamo $\forall {s} \in {(c,d)}$
+Usando la formula di derivazione di funzione composte componente per componente otteniamo $\forall {s} \in {(c,d)}$
 $$
 \underline{v}'(s) = (\underline{r}(\phi(s)))' = \underline{r}'(\phi(s))\phi'(s)
 $$
@@ -250,7 +250,7 @@ x\\y\\z
 \end{matrix} \right) 
 $$
 $$
-\iiint _{\Omega}f(x,y,z) \ dxdydz = \iiint _{T_{\rho}^{-1}(\Omega)} f(\rho \sin\phi\cos\theta,\rho \sin\phi\sin\Theta,\rho \cos\theta)\rho^{2}\sin\phi\ d\rho d\theta dz
+\iiint _{\Omega}f(x,y,z) \ dxdydz = \iiint _{T_{\rho}^{-1}(\Omega)} f(\rho \sin\phi\cos\theta,\rho \sin\phi\sin\Theta,\rho \cos\theta)\rho^{2}\sin\phi\ d\rho d\theta d\phi
 $$
 
 #### Dimostrazione
