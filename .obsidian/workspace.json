@@ -122,25 +122,12 @@
             }
           },
           {
-            "id": "d0e8022317a8fb6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDO Lineari.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a6cba0b4589c11ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDO del secondo ordine lineare.md",
+                "file": "Spazio Rn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -148,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -167,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:analisi_2 quadrat",
+                "query": "tag:analisi_2 Schwa",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -206,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 388,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -222,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classificazione dei punti critici.md",
+                "file": "Spazio Rn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classificazione dei punti critici.md",
+                "file": "Spazio Rn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classificazione dei punti critici.md"
+                "file": "Spazio Rn.md"
               }
             }
           }
@@ -286,24 +274,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f88c7108531b77",
+  "active": "a6cba0b4589c11ce",
   "lastOpenFiles": [
     "Ottimizzazione per funzione di più variabili.md",
+    "Calcolo differenziale per funzioni a più variabili.md",
+    "Serie numeriche.md",
+    "Funzioni ad 1 variabile continue.md",
+    "Serie di potenze.md",
+    "EDO del secondo ordine lineare.md",
     "Classificazione dei punti critici.md",
     "Calcolo integrale.md",
     "Curva in Rn.md",
     "Calcolo integrale per funzioni a più variabili.md",
-    "EDO del secondo ordine lineare.md",
     "Dimostrazioni per Piovo.md",
     "EDO Lineari.md",
     "Sistemi lineari omogenei.md",
     "Sistemi differenziali lineari.md",
     "Serie di Fourier.md",
-    "Serie di potenze.md",
-    "Funzioni ad 1 variabile continue.md",
-    "Calcolo differenziale per funzioni a più variabili.md",
     "Funzioni a più variabili.md",
-    "Serie numeriche.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
     "EDO di Bernoulli.md",
     "Polinomio trigonometrico.md",
