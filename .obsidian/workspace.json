@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curva in Rn.md",
+                "file": "Limiti di funzioni a più variabili.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -224,12 +224,13 @@
   },
   "active": "4795e684188934ce",
   "lastOpenFiles": [
-    "Scratchpad.md",
-    "Serie numeriche.md",
-    "Curva in Rn.md",
+    "Limiti di funzioni a più variabili.md",
     "EDO del secondo ordine lineare.md",
-    "EDO autonome.md",
     "Dimostrazioni per Piovo.md",
+    "Scratchpad.md",
+    "Curva in Rn.md",
+    "Serie numeriche.md",
+    "EDO autonome.md",
     "Equazioni differenziali ordinarie.md",
     "Calcolo differenziale per funzioni a più variabili.md",
     "Dimostrazioni per Ciprio.md",
@@ -249,7 +250,6 @@
     "Espansioni di Taylor MacLaurin notevoli.md",
     "EDO di Bernoulli.md",
     "Polinomio trigonometrico.md",
-    "Integrali notevoli.md",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",

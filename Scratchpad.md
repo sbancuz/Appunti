@@ -57,3 +57,22 @@ Sia $r(t)$ una curva regolare in $\mathbb{R}^{n}$ definita con sostegno $\gamma$
 $$
 \int _{I}||r'(t)|| \, dx 
 $$
+
+Per dimostrare che la lunghezza è invariante per una riparametrizzazione di una curva con sostegno $\gamma$ prendo $\phi$ il cambiamento di variabile definito su $[c,d]\to[a,b]$ e $\underline{v}(s)$ come $v(\phi(t))$
+
+Sia ha che $\underline{v}' = (v(\phi(t)))'$ che per la regola di derivazione delle funzioni composte sarà $=\underline{v}'(\phi(t))\phi'(t)$ oltretutto col cambio di variabile $t = \phi(s)$ $dt = \phi'(s)ds$.
+Quindi la riparametrizzazione ha due casi: 
+- se $f$ è crescente allora $a<b \implies \phi(c)<\phi(d)$ quindi
+$$
+\int _{a}^{b} r'(t)\, dt = \int _{c}^{d} (v(\phi(t)))' \, dt = \int _{c}^{d} v'(s)\, ds   
+$$
+
+...
+
+---
+
+Sia $A\subseteq \mathbb{R}^{2}$ e sia $f:A\to \mathbb{R}$.  Se esiste $\delta>0$ tale che per ogni $x_{0}\in A$ $\forall {\epsilon}> 0 {}$ $|f(x)-l|<\epsilon$ e$x\in B_{\delta}\setminus \{ x_{0} \}$
+$$
+\lim_{ (x,y) \to (x_{0},y_{0}) } {f(x)} = l
+$$
+
