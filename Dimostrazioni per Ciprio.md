@@ -62,7 +62,7 @@ Ripeto il procedimento per dicotomia.
 
 Quello che ottengo è una successione decrescente di intervalli tale che $b_{n}$ è maggiorante di $A$.
 
-${a_{n}}$ è crescrente e superiormente limitata da $b_{0}$ invece ${b_{n}}$ è decrescrente e inferiormente limitata da $a_{0}$.
+${a_{n}}$ è crescente e superiormente limitata da $b_{0}$ invece ${b_{n}}$ è decrescente e inferiormente limitata da $a_{0}$.
 
 Allora per il teorema di convergenza delle successioni monotone limitate 
 $$
@@ -167,7 +167,7 @@ e quindi si ha anche che
 $$
 \lim_{ n \to \infty } {f(a_{n})f(b_{n})} = 0
 $$
-Per la continuita di $f$ in $x_{0}$ si ha che
+Per la continuità di $f$ in $x_{0}$ si ha che
 $$
 f(\lim_{ n \to \infty } {a_{n}})f(\lim_{ n \to \infty } {b_{n}}) \leq 0 \implies f(x_0)f(x_0)\leq 0 \implies f(x_{0}) = 0
 $$
