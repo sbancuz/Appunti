@@ -31,168 +31,15 @@
             }
           },
           {
-            "id": "31de84fb370ff7c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Integrali notevoli.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b9788d7a698c8a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polinomio trigonometrico.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60e5265ed11d17fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3f88c7108531b77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classificazione dei punti critici.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82d9e6c99c1ac541",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDO Lineari.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a385e89e8bbf9cc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo differenziale per funzioni a più variabili.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3041122a74f4b86a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDO del secondo ordine lineare.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6cba0b4589c11ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi lineari omogenei.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3539a58ee85d167b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Serie notevoli.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d178471502f6939d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curva in Rn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3803da3a617a95e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Serie di Fourier.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e10a64ec9e383879",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Scratchpad.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b73374fdb1b49b5f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.5"
               }
             }
           },
@@ -202,7 +49,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo differenziale per funzioni a più variabili.md",
+                "file": "Serie numeriche.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4795e684188934ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dimostrazioni per Piovo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -210,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -285,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Scratchpad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Scratchpad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md"
+                "file": "Scratchpad.md"
               }
             }
           }
@@ -349,19 +209,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b73374fdb1b49b5f",
+  "active": "e10a64ec9e383879",
   "lastOpenFiles": [
+    "Serie numeriche.md",
+    "Scratchpad.md",
+    "EDO autonome.md",
     "Dimostrazioni per Piovo.md",
+    "Equazioni differenziali ordinarie.md",
+    "Calcolo differenziale per funzioni a più variabili.md",
+    "Dimostrazioni per Ciprio.md",
     "Serie di Fourier.md",
     "Ottimizzazione per funzione di più variabili.md",
     "Curva in Rn.md",
-    "Calcolo differenziale per funzioni a più variabili.md",
     "Serie di potenze.md",
     "Serie notevoli.md",
     "Sistemi lineari omogenei.md",
     "Sistemi differenziali lineari.md",
     "Spazio Rn.md",
-    "Serie numeriche.md",
     "Funzioni ad 1 variabile continue.md",
     "EDO del secondo ordine lineare.md",
     "Classificazione dei punti critici.md",
@@ -373,10 +237,6 @@
     "EDO di Bernoulli.md",
     "Polinomio trigonometrico.md",
     "Integrali notevoli.md",
-    "2023-05-31.md",
-    "Serie di Taylor.md",
-    "Derivate fondamentali.md",
-    "Meccanismi.md",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",
