@@ -48,3 +48,12 @@ Dare la definizione di convergenza puntuale e totale delle funzioni. Dare esempi
 
 Una funzione converge puntualmente in un intervallo $I$ se per ogni punto $x\in I$ la successione numerica converge.
 Se inoltre la funzione converge puntualmente in tutto $\mathbb{R}$ e la somma $\sum sup|f(x)|$ converge
+
+---
+
+lunghezza di una curva
+
+Sia $r(t)$ una curva regolare in $\mathbb{R}^{n}$ definita con sostegno $\gamma$ su un intervallo $I$ allora la sua lunghezza sarà
+$$
+\int _{I}||r'(t)|| \, dx 
+$$
