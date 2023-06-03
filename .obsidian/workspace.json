@@ -179,10 +179,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "b73374fdb1b49b5f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
               }
             }
           },
@@ -200,7 +210,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -275,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +325,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Piovo.md"
+                "file": "Dimostrazioni per Ciprio.md"
               }
             }
           }
@@ -339,13 +349,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e10a64ec9e383879",
+  "active": "b73374fdb1b49b5f",
   "lastOpenFiles": [
+    "Dimostrazioni per Piovo.md",
     "Serie di Fourier.md",
     "Ottimizzazione per funzione di più variabili.md",
     "Curva in Rn.md",
     "Calcolo differenziale per funzioni a più variabili.md",
-    "Dimostrazioni per Piovo.md",
     "Serie di potenze.md",
     "Serie notevoli.md",
     "Sistemi lineari omogenei.md",
