@@ -366,3 +366,64 @@ $$
 
 ---
 
+### Primo teorema fondamentale del calcolo integrale
+
+Sia $f:[a,b]\to R$ una funzione continua, allora se $F$ è una primitiva di $f$ allora 
+$$
+\int_{a}^{b} f(x) \, dx =F(b)-F(a)
+$$
+
+### Dimostrazione
+
+$F(b)-F(a)=F(x_{n})-F(x_{0})=F(x_{n})-F(x_{n-1})+F(x_{n-1})-F(x_{n-2})+\dots$
+
+Allora $\sum_{i=0}^{x-1}(F(x_{i+1})-F(x_{i}))$ è continua e derivabile in $[a,b]$ e per il teorema di Lagrange si ha che $$\frac{F(x_{i+1})-F(x_{i})}{x_{i+1}-x_{i}}=F'(z_{i})=f(z_{i})$$
+
+Cioè $F(x_{i+1})-F(x_{i})=f(z_{i})(x_{i+1}-x_{i})$
+
+Allora $F(b)-F(a)=\sum_{i=0}^{n-1}f(z_{i})(x_{i+1}-x_{i})$ che è la somma di C-R, passando al limite $$F(b)-F(a)=\lim_{ n \to \infty } \sum_{i=0}^{n-1}f(z_{i})(x_{i+1}-x_{i})=\int_{a}^{b} f(x_{}) \, dx $$
+
+---
+### Secondo teorema fondamentale del calcolo integrale
+
+Sia $f:[a,b]\to R$ una funzione continua in $[a,b]$ e sia  $x_{0}\in[a,b]$, sia poi 
+$$
+F(x)=\int_{x_{0}}^{x} f(t)  \, dt
+$$
+Allora $F(x)$ è detta funzione integrale di $f(x)$ e $F(x)$ è una funzione continua e derivabile in $[a,b]$ e $\forall {x} \in {[a,b]}$ si ha $F'(x)=f(x)$
+
+### Dimostrazione
+$F(x)=\frac{F(x+h)-F(x)}{h}=\frac{1}{h}\left( \int_{x}^{x+h} f(t)  \, dt-\int_{x+h}^{x} f(t)  \, dt \right)=\frac{1}{h}\int_{x}^{x+h} f(t)\, dt$
+Per il teorema del valor medio integrale $\frac{F(x+h)-F(x)}{h}=f(z)$ con $z\in[x,x+h]$
+Passando al limite per $h\to_{0}$ dove $z\to x$ dunque
+$$F'(x)=\lim_{ h \to 0 } {\frac{F(x+h)-F(x)}{h}}=\lim_{ z \to x } {f(z)}=f(x)$$
+
+---
+
+### Criterio della radice
+
+Sia $\{{a_{n}}\}_{n\in N}$ una successione non negativa, se esiste il $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}$ allora 
+	• se $l<1$, $\sum_{i=0}^\infty{a_{i}}$ converge
+	• se $l>1$, $\sum_{i=0}^\infty{a_{i}}$ diverge
+	• se $l=1$ non si sa
+
+### Dimostrazione
+Sia $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}<1$ allora $\forall {\epsilon} \geq {0}, \exists {n_{0}} \text{ tale che } \forall {n} \geq {n_{0}}$, $l-\frac{\epsilon}{2}<\sqrt[n]{ a_{n} }<l+\frac{\epsilon}{2}$ e quindi $\sqrt[n]{ a_{n} }<(1-\epsilon)+\frac{\epsilon}{2}=1+\frac{\epsilon}{2}$  Allora $a_{n}<\left( 1-\frac{\epsilon}{2} \right)^n$ che converge e per il teorema del confronto anche $\{{a_{n}}\}_{n\in N}$ convergerà
+
+
+---
+
+### Criterio del rapporto
+
+Sia $\{{a_{n}}\}_{n\in N}$ una successione positiva, se esiste il $\lim_{ n \to \infty } {\frac{{ a_{n+1} }}{a_{n}}}$ allora 
+	• se $l<1$, $\sum_{i=0}^\infty{a_{i}}$ converge
+	• se $l>1$, $\sum_{i=0}^\infty{a_{i}}$ diverge
+	• se $l=1$ non si sa
+
+### Dimostrazione
+
+ $\forall {\epsilon} > {0}, \exists {N} | {n\geq N} \implies |\frac{a_{n+1}}{a_{n}}-l|<\epsilon$ quindi ho che $l-\epsilon<\frac{a_{n+1}}{a_{n}}<l+\epsilon$
+ Se $\epsilon<l$ allora $(l-\epsilon)a_{n}<a_{n+1}<(l+\epsilon)a_{n}$
+ 1) Se $l<1$ scegliendo $\epsilon$ tale che $l+\epsilon<1$ si ha $$a_{n+1}<(l+\epsilon)a_{n}<(l+\epsilon)^{2}a_{n-1}<\dots<(l+\epsilon)^{n+1}a_{0}$$ e essendo $(l+\epsilon)^{n+1}$ una serie geometrica $<1$ converge per il teorema del confronto
+ 2) Se $l>1$ scegliendo $\epsilon$ tale che $l+\epsilon>1$ si ha $$a_{n+1}<(l+\epsilon)a_{n}<(l+\epsilon)^{2}a_{n-1}<\dots<(l+\epsilon)^{n+1}a_{0}$$  e essendo $(l+\epsilon)^{n+1}$ una serie geometrica $>1$ diverge per il teorema del confronto
+ 

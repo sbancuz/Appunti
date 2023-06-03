@@ -75,7 +75,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Limiti di funzioni a più variabili.md",
+                "file": "Dimostrazioni per Ciprio.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6398678352e5673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Criterio del rapporto per le serie.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Piovo.md"
+                "file": "Dimostrazioni per Ciprio.md"
               }
             }
           }
@@ -222,18 +235,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4795e684188934ce",
+  "active": "272c74cef37fe46c",
   "lastOpenFiles": [
-    "Limiti di funzioni a più variabili.md",
-    "EDO del secondo ordine lineare.md",
-    "Dimostrazioni per Piovo.md",
+    "Criterio del rapporto per le serie.md",
+    "Criterio della radice per le serie.md",
+    "Dimostrazioni per Ciprio.md",
+    "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
+    "Calcolo integrale.md",
+    "Primo teorema fondamentale del calcolo integrale.md",
     "Scratchpad.md",
+    "EDO del secondo ordine lineare.md",
+    "Limiti di funzioni a più variabili.md",
+    "Dimostrazioni per Piovo.md",
     "Curva in Rn.md",
     "Serie numeriche.md",
     "EDO autonome.md",
     "Equazioni differenziali ordinarie.md",
     "Calcolo differenziale per funzioni a più variabili.md",
-    "Dimostrazioni per Ciprio.md",
     "Serie di Fourier.md",
     "Ottimizzazione per funzione di più variabili.md",
     "Serie di potenze.md",
@@ -243,13 +261,8 @@
     "Spazio Rn.md",
     "Funzioni ad 1 variabile continue.md",
     "Classificazione dei punti critici.md",
-    "Calcolo integrale.md",
     "Calcolo integrale per funzioni a più variabili.md",
     "EDO Lineari.md",
-    "Funzioni a più variabili.md",
-    "Espansioni di Taylor MacLaurin notevoli.md",
-    "EDO di Bernoulli.md",
-    "Polinomio trigonometrico.md",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",
