@@ -314,7 +314,7 @@ $$
 
 #### Dimostrazione
 
-Definiamo $f(a)=g(a)= 0$ e le enstendo in maniera continua a $[a,b)$.
+Definiamo $f(a)=g(a)= 0$ e le estendo in maniera continua a $[a,b)$.
 
 Fisso adesso $x\in(a,b)$
 Abbiamo che $f,g$ sono continue in $[a,x]$ e derivabili in $(a,x)$ poiché $f,g$ derivabilii in $(a,b)$

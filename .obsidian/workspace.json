@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Piovo.md"
+                "file": "Secondo teorema del calcolo integrale (Torricelli-Borrow).md"
               }
             }
           }
@@ -235,9 +235,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4795e684188934ce",
+  "active": "272c74cef37fe46c",
   "lastOpenFiles": [
     "Dimostrazioni per Ciprio.md",
+    "Dimostrazioni per Piovo.md",
     "Criterio del rapporto per le serie.md",
     "Criterio della radice per le serie.md",
     "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
@@ -246,7 +247,6 @@
     "Scratchpad.md",
     "EDO del secondo ordine lineare.md",
     "Limiti di funzioni a più variabili.md",
-    "Dimostrazioni per Piovo.md",
     "Curva in Rn.md",
     "Serie numeriche.md",
     "EDO autonome.md",
