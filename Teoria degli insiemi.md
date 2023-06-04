@@ -1,0 +1,6 @@
+>[!Note]-
+>![[Insieme]]
+
+
+> [!Warning]
+> Incompleta

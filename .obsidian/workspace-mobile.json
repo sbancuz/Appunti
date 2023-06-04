@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "c1a7ec2c67a2e950",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4b66c5cc2c3162d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b11e69c66a7f2f97",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "402eb489cb7a914a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f40da3e610c5de7d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "9e0748052b497823",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "9d8938e93e728043",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "cec69fc2f8698a2c",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "b29434104204643b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "9d9a5e66a13dabed",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9b406bf47b5f7286",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "daf9671be817f3ba",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "08703d472d1832b8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b11e69c66a7f2f97",
+  "lastOpenFiles": [
+    "xor.png",
+    "web service.png",
+    "virt arch.png",
+    "two tir.png",
+    "transazioni.md",
+    "traccia.png",
+    "task.png",
+    "surplus monopolio.png",
+    "surplus concorrenza.png",
+    "studio fattibilita.png",
+    "studio fattibilita 1.png",
+    "stato patrimoniale.png",
+    "silos.md",
+    "l’architettura funzionale.md",
+    "alberi di decisione.md",
+    "WIP.md",
+    "Voci di costo.md",
+    "Virtualizzazione.md",
+    "Vettori.md",
+    "Vettori fisici.md",
+    "Versori.md",
+    "Verbi - N.md",
+    "Velocità.md",
+    "Utilità marginale.md",
+    "Utile.md",
+    "Unità Equivalente.md",
+    "Unicità informazione.md",
+    "Two tiered.md",
+    "Tipologia di impresa.md",
+    "Three tiered.md",
+    "Teorema di monotonia delle successioni convergenti.md",
+    "Teorema di de L'Hospital.md",
+    "Teorema di Weierstrass.md",
+    "Teorema di Lagrange.md",
+    "Teorema del valor medio integrale.md",
+    "Teorema del confronto per le successioni monotone.md"
+  ]
+}
