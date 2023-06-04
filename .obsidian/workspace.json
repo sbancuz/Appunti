@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie numeriche.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo teorema del calcolo integrale (Torricelli-Borrow).md"
+                "file": "Dimostrazioni per Ciprio.md"
               }
             }
           }
@@ -235,20 +235,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "272c74cef37fe46c",
+  "active": "ea5a78a20a6a72b5",
   "lastOpenFiles": [
-    "Dimostrazioni per Ciprio.md",
+    "Serie numeriche.md",
     "Dimostrazioni per Piovo.md",
+    "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
+    "Dimostrazioni per Ciprio.md",
     "Criterio del rapporto per le serie.md",
     "Criterio della radice per le serie.md",
-    "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
     "Calcolo integrale.md",
     "Primo teorema fondamentale del calcolo integrale.md",
     "Scratchpad.md",
     "EDO del secondo ordine lineare.md",
     "Limiti di funzioni a più variabili.md",
     "Curva in Rn.md",
-    "Serie numeriche.md",
     "EDO autonome.md",
     "Equazioni differenziali ordinarie.md",
     "Calcolo differenziale per funzioni a più variabili.md",
