@@ -1,7 +1,0 @@
----
-tags: [norks]
----
-
-![[Infinito - N]]
-
-
