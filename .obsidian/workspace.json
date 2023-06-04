@@ -96,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Dimostrazioni per Piovo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Dimostrazioni per Piovo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md"
+                "file": "Dimostrazioni per Piovo.md"
               }
             }
           }
@@ -235,11 +235,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "272c74cef37fe46c",
+  "active": "4795e684188934ce",
   "lastOpenFiles": [
+    "Dimostrazioni per Ciprio.md",
     "Criterio del rapporto per le serie.md",
     "Criterio della radice per le serie.md",
-    "Dimostrazioni per Ciprio.md",
     "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
     "Calcolo integrale.md",
     "Primo teorema fondamentale del calcolo integrale.md",
