@@ -393,7 +393,7 @@ $$
 Allora $F(x)$ è detta funzione integrale di $f(x)$ e $F(x)$ è una funzione continua e derivabile in $[a,b]$ e $\forall {x} \in {[a,b]}$ si ha $F'(x)=f(x)$
 
 ### Dimostrazione
-$F'(x)=\frac{F(x+h)-F(x)}{h}=\frac{1}{h}\left( \int_{x}^{x+h} f(t)  \, dt-\int_{x+h}^{x} f(t)  \, dt \right)=\frac{1}{h}\int_{x}^{x+h} f(t)\, dt$
+$F'(x)=\frac{F(x+h)-F(x)}{h}=\frac{1}{h}\left( \int_{x_{0}}^{x+h} f(t)  \, dt-\int_{x_{0}}^{x} f(t)  \, dt \right)=\frac{1}{h}\int_{x}^{x+h} f(t)\, dt$
 Per il teorema del valor medio integrale $\frac{F(x+h)-F(x)}{h}=f(z)$ con $z\in[x,x+h]$
 Passando al limite per $h\to{0}$ dove $z\to x$ dunque
 $$F'(x)=\lim_{ h \to 0 } {\frac{F(x+h)-F(x)}{h}}=\lim_{ z \to x } {f(z)}=f(x)$$
@@ -403,9 +403,9 @@ $$F'(x)=\lim_{ h \to 0 } {\frac{F(x+h)-F(x)}{h}}=\lim_{ z \to x } {f(z)}=f(x)$$
 ### Criterio della radice
 
 Sia $\{{a_{n}}\}_{n\in N}$ una successione non negativa, se esiste il $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}$ allora 
-	• se $l<1$, $\sum_{i=0}^\infty{a_{i}}$ converge
-	• se $l>1$, $\sum_{i=0}^\infty{a_{i}}$ diverge
-	• se $l=1$ non si sa
+-  se $l<1$, $\sum_{i=0}^\infty{a_{i}}$ converge
+-  se $l>1$, $\sum_{i=0}^\infty{a_{i}}$ diverge
+-  se $l=1$ non si sa
 
 ### Dimostrazione
 Sia $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}<1$ allora $\forall {\epsilon} \geq {0}, \exists {n_{0}} \text{ tale che } \forall {n} \geq {n_{0}}$, $l-\frac{\epsilon}{2}<\sqrt[n]{ a_{n} }<l+\frac{\epsilon}{2}$ e quindi $\sqrt[n]{ a_{n} }<(1-\epsilon)+\frac{\epsilon}{2}=1+\frac{\epsilon}{2}$  Allora $a_{n}<\left( 1-\frac{\epsilon}{2} \right)^n$ che converge e per il teorema del confronto anche $\{{a_{n}}\}_{n\in N}$ convergerà
@@ -416,9 +416,9 @@ Sia $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}<1$ allora $\forall {\epsilon} \ge
 ### Criterio del rapporto
 
 Sia $\{{a_{n}}\}_{n\in N}$ una successione positiva, se esiste il $\lim_{ n \to \infty } {\frac{{ a_{n+1} }}{a_{n}}}$ allora 
-	• se $l<1$, $\sum_{i=0}^\infty{a_{i}}$ converge
-	• se $l>1$, $\sum_{i=0}^\infty{a_{i}}$ diverge
-	• se $l=1$ non si sa
+-  se $l<1$, $\sum_{i=0}^\infty{a_{i}}$ converge
+-  se $l>1$, $\sum_{i=0}^\infty{a_{i}}$ diverge
+-  se $l=1$ non si sa
 
 ### Dimostrazione
 
