@@ -49,8 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
-                "mode": "preview",
+                "file": "Calcolo integrale.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Piovo.md"
+                "file": "Calcolo integrale.md"
               }
             }
           }
@@ -237,8 +237,10 @@
   },
   "active": "ea5a78a20a6a72b5",
   "lastOpenFiles": [
-    "Dimostrazioni per Ciprio.md",
+    "Asintotici noti.md",
+    "Numeri complessi.md",
     "Dimostrazioni per Piovo.md",
+    "Dimostrazioni per Ciprio.md",
     "Teoria degli insiemi.md",
     "Sviluppi di Taylor.md",
     "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
@@ -262,8 +264,6 @@
     "Calcolo differenziale per funzioni a più variabili.md",
     "Serie di Fourier.md",
     "Ottimizzazione per funzione di più variabili.md",
-    "Serie di potenze.md",
-    "Serie notevoli.md",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",

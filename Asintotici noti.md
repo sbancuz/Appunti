@@ -10,6 +10,6 @@ $\tan x\sim x$
 $(1+x)^c-1\sim cx$
 $\arcsin x\sim x$
 
-### formula di Sitrling
+### formula di Stirling
 $n!\sim \sqrt{ 2\pi n }\left( \frac{n}{e} \right)^n$
 
