@@ -59,6 +59,7 @@ $$
 \end{cases}
 $$
 Per questa scelta di costanti la funzione diventa $y_{\sigma}(t) = y_{\sigma,1}(t)+y_{\sigma,2}(t)$. Concludiamo osservando che sia $z(t)$ che $\overline{y}_{\sigma}(t)$ soddisfano il problema di Cauchy
+
 $$
 
 \begin{cases}

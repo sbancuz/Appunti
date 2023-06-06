@@ -49,8 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
-                "mode": "source",
+                "file": "Dimostrazioni per Piovo.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Piovo.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Dimostrazioni per Piovo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Dimostrazioni per Piovo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md"
+                "file": "Dimostrazioni per Piovo.md"
               }
             }
           }
@@ -237,6 +237,8 @@
   },
   "active": "ea5a78a20a6a72b5",
   "lastOpenFiles": [
+    "Dimostrazioni per Ciprio.md",
+    "Dimostrazioni per Piovo.md",
     "Teoria degli insiemi.md",
     "Sviluppi di Taylor.md",
     "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
@@ -246,9 +248,7 @@
     "Excalidraw",
     "Dimostrazione Teorema insieme potenza.md",
     "Serie numeriche.md",
-    "Dimostrazioni per Piovo.md",
     "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
-    "Dimostrazioni per Ciprio.md",
     "Criterio del rapporto per le serie.md",
     "Criterio della radice per le serie.md",
     "Calcolo integrale.md",
