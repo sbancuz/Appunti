@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "promptDelete": false,
   "spellcheckLanguages": [
     "en-GB",

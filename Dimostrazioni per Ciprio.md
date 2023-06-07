@@ -30,7 +30,7 @@ $$
 $$
 
 Possiamo assumere che il punto $x_{m_{N}}\geq x_{n_{N}}$ così $x_{m_{N}}\geq \epsilon+x_{n_{N}}$ 
-Per $N_{1}=1, \exists {m_{1}>n_{1}} \text{ tc } x_{m_{1}} \geq \epsilon x_{n_{1}}$
+Per $N_{1}=1, \exists {m_{1}>n_{1}} \text{ tc } x_{m_{1}} \geq \epsilon + x_{n_{1}}$
 Per $N_{2}=m_{1}, \exists {m_{2}>n_{2}\geq N_{2} = m_{1}>n_{1}}$
 	
 Allora avremo che $x_{n_{2}}\geq 2\epsilon +x_{m_{1}}$ e più in generale

@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asintotici noti.md",
+                "file": "Calcolo integrale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
               "type": "markdown",
               "state": {
                 "file": "Dimostrazioni per Ciprio.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -96,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asintotici noti.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asintotici noti.md",
+                "file": "Dimostrazioni per Ciprio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asintotici noti.md"
+                "file": "Dimostrazioni per Ciprio.md"
               }
             }
           }
@@ -235,14 +235,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ea5a78a20a6a72b5",
+  "active": "4795e684188934ce",
   "lastOpenFiles": [
+    "Calcolo integrale.md",
+    "Asintotici noti.md",
     "Numeri complessi.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
     "Sviluppi di Taylor.md",
     "Criterio di Leibniz.md",
-    "Asintotici noti.md",
-    "Calcolo integrale.md",
     "Dimostrazioni per Piovo.md",
     "Dimostrazioni per Ciprio.md",
     "Teoria degli insiemi.md",
