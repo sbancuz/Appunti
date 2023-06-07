@@ -357,7 +357,7 @@ Definisco $R_{n,x_{0}}^{f}(x) = f(x) - T_{n,x_{0}}^{f}(x)$
 
 Uso quindi de L'Hopital
 $$
-\lim_{ x \to x_{0} } \frac{{ f(x) - T_{n,x_{0}}^{f}(x)}}{(x-x_{0})^{n}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - (T_{n,x_{0}}^{f})'(x)}}{n(x-x_{0})^{n-1}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - ( \sum_{k=0}^{n} \frac{f^{k}(x_{0})}{(k-1)!} (x-x_{0})^{k-1}}}{n(x-x_{0})^{n-1}} 
+\lim_{ x \to x_{0} } \frac{{ f(x) - T_{n,x_{0}}^{f}(x)}}{(x-x_{0})^{n}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - (T_{n,x_{0}}^{f})'(x)}}{n(x-x_{0})^{n-1}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - ( \sum_{k=0}^{n} \frac{f^{k}(x_{0})}{(k-1)!} (x-x_{0})^{k-1})'}}{n(x-x_{0})^{n-1}} 
 $$
 Applico n-1 volte de L'Hopital
 $$
@@ -408,7 +408,7 @@ Sia $\{{a_{n}}\}_{n\in N}$ una successione non negativa, se esiste il $\lim_{ n 
 -  se $l=1$ non si sa
 
 ### Dimostrazione
-Sia $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}<1$ allora $\forall {\epsilon} \geq {0}, \exists {n_{0}} \text{ tale che } \forall {n} \geq {n_{0}}$, $l-\frac{\epsilon}{2}<\sqrt[n]{ a_{n} }<l+\frac{\epsilon}{2}$ e quindi $\sqrt[n]{ a_{n} }<(1-\epsilon)+\frac{\epsilon}{2}=1+\frac{\epsilon}{2}$  Allora $a_{n}<\left( 1-\frac{\epsilon}{2} \right)^n$ che converge e per il teorema del confronto anche $\{{a_{n}}\}_{n\in N}$ convergerà
+Sia $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}<1$ allora $\forall {\epsilon} \geq {0}, \exists {n_{0}} \text{ tale che } \forall {n} \geq {n_{0}}$, $l-\frac{\epsilon}{2}<\sqrt[n]{ a_{n} }<l+\frac{\epsilon}{2}$ e quindi $\sqrt[n]{ a_{n} }<(1-\epsilon)+\frac{\epsilon}{2}=1-\frac{\epsilon}{2}$  Allora $a_{n}<\left( 1-\frac{\epsilon}{2} \right)^n$ che converge e per il teorema del confronto anche $\{{a_{n}}\}_{n\in N}$ convergerà
 
 
 ---
@@ -426,4 +426,39 @@ Sia $\{{a_{n}}\}_{n\in N}$ una successione positiva, se esiste il $\lim_{ n \to 
  Se $\epsilon<l$ allora $(l-\epsilon)a_{n}<a_{n+1}<(l+\epsilon)a_{n}$
  1) Se $l<1$ scegliendo $\epsilon$ tale che $l+\epsilon<1$ si ha $$a_{n+1}<(l+\epsilon)a_{n}<(l+\epsilon)^{2}a_{n-1}<\dots<(l+\epsilon)^{n+1}a_{0}$$ e essendo $(l+\epsilon)^{n+1}$ una serie geometrica $<1$ converge per il teorema del confronto
  2) Se $l>1$ scegliendo $\epsilon$ tale che $l+\epsilon>1$ si ha $$a_{n+1}<(l+\epsilon)a_{n}<(l+\epsilon)^{2}a_{n-1}<\dots<(l+\epsilon)^{n+1}a_{0}$$  e essendo $(l+\epsilon)^{n+1}$ una serie geometrica $>1$ diverge per il teorema del confronto
- 
+
+---
+
+### Criterio di Leibniz
+
+Consideriamo la serie $\sum_{n=0}^\infty{(-1)^{n}a_{n}}$ allora se si ha che:
+- $a_{n}\geq0$
+- $\lim_{ n \to \infty } {a_{n} = 0}$
+- $\{ a_{n} \}_{\infty}$ è definitivamente decrescente
+
+Allora si ha che la serie converge semplicemente.
+
+
+### Dimostrazione
+
+Poiché $\lim_{ m \to \infty } {|(-1)^{n}a_{n}|} = \lim_{ n \to \infty } {|a_{n}| = 0}$ la condizione necessaria è verificata.
+
+Studiamo le somme parziali pari e dispari:
+$$
+\begin{align}
+s_{0}  & = a_{0} \leq 0 \\
+s_{2}  & = a_{0}- a_{1} + a_{2} \leq s_{0} \\
+\end{align}
+$$
+Quindi $s_{2n}$ è decrescente
+$$
+\begin{align}
+s_{1}  & = a_{0} - a_{1} \geq 0 \\
+s_{2}  & = a_{0}- a_{1} + a_{2} - a_{3} \geq s_{1} \\
+\end{align}
+$$
+Quindi $s_{2n +1}$ è crescente, e le due successioni sono monotone e limitate, quindi esistono i limiti. Inoltre per la seconda Hp.
+$$
+\lim_{ n \to \infty } {(s_{2n+1} - s_{n})} = \lim_{ n \to \infty } {-a_{2n+1}} = 0
+$$
+E quindi i due limiti sono uguali.
