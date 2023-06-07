@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numeri complessi.md",
+                "file": "Asintotici noti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numeri complessi.md",
+                "file": "Asintotici noti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numeri complessi.md",
+                "file": "Asintotici noti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numeri complessi.md"
+                "file": "Asintotici noti.md"
               }
             }
           }
@@ -237,12 +237,12 @@
   },
   "active": "ea5a78a20a6a72b5",
   "lastOpenFiles": [
+    "Numeri complessi.md",
     "Espansioni di Taylor MacLaurin notevoli.md",
     "Sviluppi di Taylor.md",
     "Criterio di Leibniz.md",
     "Asintotici noti.md",
     "Calcolo integrale.md",
-    "Numeri complessi.md",
     "Dimostrazioni per Piovo.md",
     "Dimostrazioni per Ciprio.md",
     "Teoria degli insiemi.md",

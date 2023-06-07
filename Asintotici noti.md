@@ -1,7 +1,7 @@
 ---
 tags: [analisi_1]
 ---
-$\sin x\sim0$
+$\sin x\sim x$
 $b^x-1\sim \frac{x}{\ln b}$
 $1-\cos x\sim \frac{x^2}{2}$
 $\ln(1+x)\sim x$
