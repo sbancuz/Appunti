@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Numeri complessi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Numeri complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Numeri complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo integrale.md"
+                "file": "Numeri complessi.md"
               }
             }
           }
@@ -237,12 +237,15 @@
   },
   "active": "ea5a78a20a6a72b5",
   "lastOpenFiles": [
+    "Espansioni di Taylor MacLaurin notevoli.md",
+    "Sviluppi di Taylor.md",
+    "Criterio di Leibniz.md",
     "Asintotici noti.md",
+    "Calcolo integrale.md",
     "Numeri complessi.md",
     "Dimostrazioni per Piovo.md",
     "Dimostrazioni per Ciprio.md",
     "Teoria degli insiemi.md",
-    "Sviluppi di Taylor.md",
     "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
     "Excalidraw/Insieme 2023-02-04 14.47.41.excalidraw.md",
     "Excalidraw/Drawing 2023-02-09 13.43.50.excalidraw.md",
@@ -253,7 +256,6 @@
     "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
     "Criterio del rapporto per le serie.md",
     "Criterio della radice per le serie.md",
-    "Calcolo integrale.md",
     "Primo teorema fondamentale del calcolo integrale.md",
     "Scratchpad.md",
     "EDO del secondo ordine lineare.md",
@@ -262,8 +264,6 @@
     "EDO autonome.md",
     "Equazioni differenziali ordinarie.md",
     "Calcolo differenziale per funzioni a più variabili.md",
-    "Serie di Fourier.md",
-    "Ottimizzazione per funzione di più variabili.md",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",
