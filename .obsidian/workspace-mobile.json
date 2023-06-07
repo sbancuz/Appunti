@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Asintotici noti.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +154,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Formule trigonometriche.md",
+            "file": "Asintotici noti.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Formule trigonometriche.md",
+            "file": "Asintotici noti.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -184,7 +183,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Formule trigonometriche.md"
+            "file": "Asintotici noti.md"
           }
         }
       }
@@ -203,14 +202,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4437a02e6e940cf5",
+  "active": "b11e69c66a7f2f97",
   "lastOpenFiles": [
+    "Dimostrazioni per Ciprio.md",
+    "Formule trigonometriche.md",
     "Unità Equivalente.md",
     "Untitled.md",
-    "Formule trigonometriche.md",
     "Derivate fondamentali.md",
     "/Asintotici noti.md",
-    "Dimostrazioni per Ciprio.md",
     "/Dimostrazioni per Ciprio.md",
     "Dimostrazioni per Piovo.md",
     "/Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
