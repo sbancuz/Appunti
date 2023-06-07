@@ -462,3 +462,24 @@ $$
 \lim_{ n \to \infty } {(s_{2n+1} - s_{n})} = \lim_{ n \to \infty } {-a_{2n+1}} = 0
 $$
 E quindi i due limiti sono uguali.
+$$
+\exists {\lim_{ n \to \infty } {s_{2n}}} = \lim_{ n \to \infty } {s_{2n+1}} = s{ \in \mathbb{R}} 
+$$
+
+Quindi esiste il limite dalla serie per il suo termine generale
+$$
+s_{2n+1}\leq\exists {\lim_{ n \to \infty } {s_{n}}}  =s  {} \leq s_{2n}
+$$
+e ho che $|s_{n} - s|\leq a_{n}$
+Definisco poi
+$$
+R_{N}=\sum_{n=N}^\infty{(-1)^{n}a_{n}} = s - s_{N-1}
+$$
+che preso al limite sarà
+$$
+\lim_{ N \to \infty } {R_{N}} = s - \lim_{ N \to \infty } {s_{N-1}} = 0
+$$
+Mettendo tutto assieme si avrà che 
+$$
+|R_{N}| \leq a_{N-1}
+$$
