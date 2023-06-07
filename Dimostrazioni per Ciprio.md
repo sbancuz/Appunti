@@ -323,7 +323,7 @@ Applico il teorema di Lagrange ad $h:[a,x]\to \mathbb R$ definita
 $$
 \forall {y} \in {[a,x]}, h(y)=f(x)g(y) -f(y)g(x)
 $$
-Quindi $\exists {y(x)} \in {(a,x)} \text{ tc } \frac{h(x)-h(a)}{x-a} = h'(g(x)) = 0$
+Quindi $\exists {y(x)} \in {(a,x)} \text{ tc } \frac{h(x)-h(a)}{x-a} = h'(y(x)) = 0$
 $$
 \frac{d}{dx}h(x) = f(x)g'(y(x)) - f'(y(x))g(x) \implies \frac{f(x)}{g(x)} = \frac{f'(y(x))}{g'(y(x))}
 $$
@@ -459,7 +459,7 @@ s_{2}  & = a_{0}- a_{1} + a_{2} - a_{3} \geq s_{1} \\
 $$
 Quindi $s_{2n +1}$ è crescente, e le due successioni sono monotone e limitate, quindi esistono i limiti. Inoltre per la seconda Hp.
 $$
-\lim_{ n \to \infty } {(s_{2n+1} - s_{n})} = \lim_{ n \to \infty } {-a_{2n+1}} = 0
+\lim_{ n \to \infty } {(s_{2n+1} - s_{2n})} = \lim_{ n \to \infty } {-a_{2n+1}} = 0
 $$
 E quindi i due limiti sono uguali.
 $$

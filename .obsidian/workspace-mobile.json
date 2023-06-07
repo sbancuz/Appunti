@@ -14,13 +14,74 @@
               "type": "markdown",
               "state": {
                 "file": "Dimostrazioni per Ciprio.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57af64a67f5f9ead",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8f0796cc3e2319ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Derivate fondamentali.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4437a02e6e940cf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formule trigonometriche.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "703c4b3878e963a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unità Equivalente.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4843bc927bfcae0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +155,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Dimostrazioni per Ciprio.md",
+            "file": "Formule trigonometriche.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +172,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Dimostrazioni per Ciprio.md",
+            "file": "Formule trigonometriche.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,7 +184,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Dimostrazioni per Ciprio.md"
+            "file": "Formule trigonometriche.md"
           }
         }
       }
@@ -142,10 +203,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b11e69c66a7f2f97",
+  "active": "4437a02e6e940cf5",
   "lastOpenFiles": [
-    "/Dimostrazioni per Ciprio.md",
+    "Unità Equivalente.md",
+    "Untitled.md",
+    "Formule trigonometriche.md",
+    "Derivate fondamentali.md",
     "/Asintotici noti.md",
+    "Dimostrazioni per Ciprio.md",
+    "/Dimostrazioni per Ciprio.md",
     "Dimostrazioni per Piovo.md",
     "/Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
     "/Dimostrazioni per Piovo.md",
@@ -173,12 +239,7 @@
     "Velocità.md",
     "Utilità marginale.md",
     "Utile.md",
-    "Unità Equivalente.md",
     "Unicità informazione.md",
-    "Two tiered.md",
-    "Tipologia di impresa.md",
-    "Three tiered.md",
-    "Teorema di monotonia delle successioni convergenti.md",
-    "Teorema di de L'Hospital.md"
+    "Two tiered.md"
   ]
 }
