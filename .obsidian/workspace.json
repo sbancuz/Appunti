@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "EDO di Bernoulli.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "EDO di Bernoulli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md",
+                "file": "EDO di Bernoulli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo integrale per funzioni a più variabili.md"
+                "file": "EDO di Bernoulli.md"
               }
             }
           }
@@ -249,6 +249,7 @@
   },
   "active": "272c74cef37fe46c",
   "lastOpenFiles": [
+    "Calcolo integrale per funzioni a più variabili.md",
     "Curva in Rn.md",
     "Serie di Fourier.md",
     "Serie notevoli.md",
@@ -274,7 +275,6 @@
     "Teoria degli insiemi.md",
     "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
     "Excalidraw/Insieme 2023-02-04 14.47.41.excalidraw.md",
-    "Excalidraw/Drawing 2023-02-09 13.43.50.excalidraw.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
