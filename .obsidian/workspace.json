@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Serie di potenze.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:analisi_2 Fourier",
+                "query": "tag:analisi_2 termine",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -154,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388,
-    "collapsed": true
+    "width": 388
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Serie di potenze.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md",
+                "file": "Serie di potenze.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dimostrazioni per Ciprio.md"
+                "file": "Serie di potenze.md"
               }
             }
           }
@@ -237,8 +236,14 @@
   },
   "active": "4795e684188934ce",
   "lastOpenFiles": [
-    "Criterio di Leibniz.md",
+    "Ottimizzazione per funzione di più variabili.md",
+    "Serie numeriche.md",
+    "Sistemi lineari omogenei.md",
+    "Sistemi differenziali lineari.md",
+    "Classificazione dei punti critici.md",
     "Dimostrazioni per Ciprio.md",
+    "Untitled.md",
+    "Criterio di Leibniz.md",
     "Calcolo integrale.md",
     "Asintotici noti.md",
     "Numeri complessi.md",
@@ -252,18 +257,12 @@
     "Excalidraw/Calcolo integrale 2023-02-07 11.18.00.excalidraw.md",
     "Excalidraw",
     "Dimostrazione Teorema insieme potenza.md",
-    "Serie numeriche.md",
     "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
     "Criterio del rapporto per le serie.md",
     "Criterio della radice per le serie.md",
     "Primo teorema fondamentale del calcolo integrale.md",
     "Scratchpad.md",
     "EDO del secondo ordine lineare.md",
-    "Limiti di funzioni a più variabili.md",
-    "Curva in Rn.md",
-    "EDO autonome.md",
-    "Equazioni differenziali ordinarie.md",
-    "Calcolo differenziale per funzioni a più variabili.md",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",
