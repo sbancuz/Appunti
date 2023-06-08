@@ -25,6 +25,11 @@ La serie $\sum_{i=1}^\infty{\frac{1}{n}}$ si chiama serie armonica ed è una ser
 \right|
 $$
 
+>[!note]
+>$$
+>\sum \frac{1}{k^{2}} = \frac{\pi}{6}
+>$$
+
 ### Serie a termini non negativi
 
 Sia $\{{a_{n}}\}_{n\in N}$ una successione non negativa, cioè $\forall n \in N, a_{n}\geq 0$ allora $\sum_{i=0}^\infty{a_{n}}$ o converge o diverge, quindi non può essere irregolare
