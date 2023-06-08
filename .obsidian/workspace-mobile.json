@@ -79,8 +79,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6ae4ace8f0727ec4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Serie di Taylor.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdaeb652c0c072f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dimostrazioni per Piovo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -154,7 +181,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Asintotici noti.md",
+            "file": "Dimostrazioni per Piovo.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,7 +198,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Asintotici noti.md",
+            "file": "Dimostrazioni per Piovo.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -183,7 +210,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Asintotici noti.md"
+            "file": "Dimostrazioni per Piovo.md"
           }
         }
       }
@@ -202,15 +229,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b11e69c66a7f2f97",
+  "active": "bdaeb652c0c072f6",
   "lastOpenFiles": [
     "Dimostrazioni per Ciprio.md",
+    "/Serie notevoli.md",
+    "/Dimostrazioni per Ciprio.md",
+    "Espansioni di Taylor MacLaurin notevoli.md",
+    "Serie di Taylor.md",
+    "Asintotici noti.md",
     "Formule trigonometriche.md",
     "Unità Equivalente.md",
     "Untitled.md",
     "Derivate fondamentali.md",
     "/Asintotici noti.md",
-    "/Dimostrazioni per Ciprio.md",
     "Dimostrazioni per Piovo.md",
     "/Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
     "/Dimostrazioni per Piovo.md",
@@ -235,10 +266,6 @@
     "Vettori fisici.md",
     "Versori.md",
     "Verbi - N.md",
-    "Velocità.md",
-    "Utilità marginale.md",
-    "Utile.md",
-    "Unicità informazione.md",
-    "Two tiered.md"
+    "Velocità.md"
   ]
 }
