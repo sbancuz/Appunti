@@ -437,7 +437,7 @@ Consideriamo la serie $\sum_{n=0}^\infty{(-1)^{n}a_{n}}$ allora se si ha che:
 - $\{ a_{n} \}_{\infty}$ è definitivamente decrescente
 
 Allora si ha che la serie converge semplicemente.
-
+In più il resto sarà convergente e $\leq a_{n}$
 
 ### Dimostrazione
 
@@ -471,7 +471,7 @@ $$
 s_{2n+1}\leq\exists {\lim_{ n \to \infty } {s_{n}}}  =s  {} \leq s_{2n}
 $$
 e ho che $|s_{n} - s|\leq a_{n}$
-Definisco poi
+Ho poi che 
 $$
 R_{N}=\sum_{n=N}^\infty{(-1)^{n}a_{n}} = s - s_{N-1}
 $$
