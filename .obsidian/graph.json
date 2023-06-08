@@ -6,50 +6,7 @@
   "hideUnresolved": true,
   "showOrphans": false,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "economia",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "sistemi_informativi",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "meccanica",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "gal",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "analisi_1",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "analisi_2",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -60,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.16570826947227343,
+  "scale": 0.33924034685976406,
   "close": true
 }
