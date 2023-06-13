@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "b4bec05426f01482",
+            "id": "7b0e715f81692276",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDO del secondo ordine lineare.md",
+                "file": "Rotolamento.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -31,12 +31,12 @@
             }
           },
           {
-            "id": "e10a64ec9e383879",
+            "id": "53edb79bb7c56f55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scratchpad.md",
+                "file": "Sviluppi di Taylor.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -44,72 +44,19 @@
             }
           },
           {
-            "id": "ea5a78a20a6a72b5",
+            "id": "427d099b9cc2e830",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ottimizzazione per funzione di più variabili.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4795e684188934ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi lineari non omogeneo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3eeb9289d63a0263",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dimostrazioni per Piovo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "272c74cef37fe46c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDO di Bernoulli.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6398678352e5673",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classificazione dei punti critici.md",
+                "file": "Teoria degli insiemi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:analisi_2 linea",
+                "query": "tag:meccanica",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -167,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 306
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -183,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDO di Bernoulli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDO di Bernoulli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "EDO di Bernoulli.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -247,14 +190,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "272c74cef37fe46c",
+  "active": "31d6ee9c09dff0d7",
   "lastOpenFiles": [
+    "Teoria degli insiemi.md",
+    "Sviluppi di Taylor.md",
+    "Rotolamento.md",
+    "Principio di sovrapposizione.md",
+    "Dimostrazioni per Piovo.md",
+    "EDO di Bernoulli.md",
     "Calcolo integrale per funzioni a più variabili.md",
     "Curva in Rn.md",
     "Serie di Fourier.md",
     "Serie notevoli.md",
     "Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
-    "Dimostrazioni per Piovo.md",
     "Sistemi lineari omogenei.md",
     "Sistemi lineari non omogeneo.md",
     "Sistemi differenziali lineari.md",
@@ -270,11 +218,6 @@
     "Criterio di Leibniz.md",
     "Asintotici noti.md",
     "Numeri complessi.md",
-    "Espansioni di Taylor MacLaurin notevoli.md",
-    "Sviluppi di Taylor.md",
-    "Teoria degli insiemi.md",
-    "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
-    "Excalidraw/Insieme 2023-02-04 14.47.41.excalidraw.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
