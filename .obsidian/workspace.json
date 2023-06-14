@@ -55,8 +55,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "809b241c739bf7b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Macchine ad un grado di libertà.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -75,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:meccanica",
+                "query": "tag:meccanica ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -130,6 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Macchine ad un grado di libertà.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Macchine ad un grado di libertà.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +183,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Macchine ad un grado di libertà.md"
+              }
             }
           }
         ],
@@ -190,11 +208,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "809b241c739bf7b9",
   "lastOpenFiles": [
+    "Strutture meccaniche.md",
+    "Meccanismi.md",
+    "Rotolamento.md",
     "Teoria degli insiemi.md",
     "Sviluppi di Taylor.md",
-    "Rotolamento.md",
     "Principio di sovrapposizione.md",
     "Dimostrazioni per Piovo.md",
     "EDO di Bernoulli.md",
@@ -216,8 +236,6 @@
     "Dimostrazioni per Ciprio.md",
     "Untitled.md",
     "Criterio di Leibniz.md",
-    "Asintotici noti.md",
-    "Numeri complessi.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
