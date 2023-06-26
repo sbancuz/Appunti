@@ -37,7 +37,7 @@ $$
 \#GDL_{res} = \#GDL_{ini} - \#GDV = \#N_{corpi} •3GDL
 $$
 
-### Movimeto
+### Movimento
 
 Ci sono 3 tipi di movimento 
 	• Traslazione -> Il movimento di un punto è identico a quello di tutti gli altri 
@@ -50,12 +50,12 @@ $$• Rotazione -> Esiste un punto del corpo che rimane fisso => centro di rotaz
 
 Lo spostamento infinitesimo si ha quando tutti i punti hanno un movimento infinitesimo in un tempo infinitesimo.
 
-L'[[insieme]] di tutti i vetttori velocità di tutti i punti del corpo in un istante è detto atto di moto.
+L'[[insieme]] di tutti i vettori velocità di tutti i punti del corpo in un istante è detto atto di moto.
 Tutti i legami cinematici che esistono nell'atto di moto valgono anche per lo spostamento infinitesimo.
 
 Nell'atto di moto non esiste la rototraslazione visto che è sempre riconducibile ad una rotazione.
 Nella traslazione tutte le velocità sono identiche.
-Nella rotazione la velocità deve essere ortogonale alla congiungente tra il centro di rotazione ed il centro di ritazione sarà il CIR (centro di instantanea rotazione)
+Nella rotazione la velocità deve essere ortogonale alla congiungente tra il centro di rotazione ed il centro di rotazione sarà il CIR (centro di istantanea rotazione)
 $$
 \overline{V}_{CIR} = 0, \overline{a}_{CIR}\neq 0
 $$

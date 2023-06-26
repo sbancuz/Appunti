@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ascissa curvilinea.md",
+                "file": "Azione assiale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ascissa curvilinea.md",
+                "file": "Azione assiale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ascissa curvilinea.md",
+                "file": "Azione assiale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ascissa curvilinea.md"
+                "file": "Azione assiale.md"
               }
             }
           }
@@ -184,13 +184,18 @@
   },
   "active": "809b241c739bf7b9",
   "lastOpenFiles": [
-    "Accelerazione.md",
+    "Equazioni cardinali della statica.md",
+    "Limitazioni sui gradi di libertà dei corpi rigidi.md",
+    "Corpo rigido.md",
     "Rotolamento.md",
+    "Strutture meccaniche.md",
+    "Moto circolare.md",
+    "Ascissa curvilinea.md",
+    "Accelerazione.md",
     "Meccanismi.md",
     "Dinamica.md",
     "Macchine ad un grado di libertà.md",
     "Teoria degli insiemi.md",
-    "Strutture meccaniche.md",
     "Sviluppi di Taylor.md",
     "Principio di sovrapposizione.md",
     "Dimostrazioni per Piovo.md",
@@ -205,11 +210,6 @@
     "Sistemi differenziali lineari.md",
     "Serie di potenze.md",
     "Ottimizzazione per funzione di più variabili.md",
-    "Calcolo differenziale per funzioni a più variabili.md",
-    "Calcolo integrale.md",
-    "Classificazione dei punti critici.md",
-    "Criterio del rapporto per le serie.md",
-    "Serie numeriche.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
