@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Macchine ad un grado di libertà.md",
+                "file": "Ascissa curvilinea.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Macchine ad un grado di libertà.md",
+                "file": "Ascissa curvilinea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Macchine ad un grado di libertà.md",
+                "file": "Ascissa curvilinea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Macchine ad un grado di libertà.md"
+                "file": "Ascissa curvilinea.md"
               }
             }
           }
@@ -184,11 +184,13 @@
   },
   "active": "809b241c739bf7b9",
   "lastOpenFiles": [
+    "Accelerazione.md",
     "Rotolamento.md",
-    "Teoria degli insiemi.md",
-    "Macchine ad un grado di libertà.md",
-    "Strutture meccaniche.md",
     "Meccanismi.md",
+    "Dinamica.md",
+    "Macchine ad un grado di libertà.md",
+    "Teoria degli insiemi.md",
+    "Strutture meccaniche.md",
     "Sviluppi di Taylor.md",
     "Principio di sovrapposizione.md",
     "Dimostrazioni per Piovo.md",
@@ -208,8 +210,6 @@
     "Classificazione dei punti critici.md",
     "Criterio del rapporto per le serie.md",
     "Serie numeriche.md",
-    "Dimostrazioni per Ciprio.md",
-    "Untitled.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",

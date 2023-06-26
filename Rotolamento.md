@@ -13,7 +13,7 @@ $$
 \overline{V_{P}} = \overline{\omega}\land(P-A)
 $$
 
-Qunado non c'è strisciamento non c'è neanche l'attrito visto che $\overline{v_{a}} = 0$
+Quando non c'è strisciamento non c'è neanche l'attrito visto che $\overline{v_{a}} = 0$
 
 ```math
 ||{"id":416703588309}||
