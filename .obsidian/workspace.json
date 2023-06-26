@@ -31,32 +31,6 @@
             }
           },
           {
-            "id": "53edb79bb7c56f55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sviluppi di Taylor.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "427d099b9cc2e830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoria degli insiemi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "809b241c739bf7b9",
             "type": "leaf",
             "state": {
@@ -70,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,10 +184,11 @@
   },
   "active": "809b241c739bf7b9",
   "lastOpenFiles": [
-    "Strutture meccaniche.md",
-    "Meccanismi.md",
     "Rotolamento.md",
     "Teoria degli insiemi.md",
+    "Macchine ad un grado di libertà.md",
+    "Strutture meccaniche.md",
+    "Meccanismi.md",
     "Sviluppi di Taylor.md",
     "Principio di sovrapposizione.md",
     "Dimostrazioni per Piovo.md",
@@ -235,7 +210,6 @@
     "Serie numeriche.md",
     "Dimostrazioni per Ciprio.md",
     "Untitled.md",
-    "Criterio di Leibniz.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
