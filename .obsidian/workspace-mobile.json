@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asintotici noti.md",
+                "file": "Dimostrazioni per Piovo.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -24,8 +24,13 @@
             "id": "57af64a67f5f9ead",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Macchine ad un grado di libertà.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -107,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +186,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Dimostrazioni per Piovo.md",
+            "file": "Macchine ad un grado di libertà.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -198,7 +203,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Dimostrazioni per Piovo.md",
+            "file": "Macchine ad un grado di libertà.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -210,7 +215,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Dimostrazioni per Piovo.md"
+            "file": "Macchine ad un grado di libertà.md"
           }
         }
       }
@@ -229,43 +234,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bdaeb652c0c072f6",
+  "active": "57af64a67f5f9ead",
   "lastOpenFiles": [
-    "Dimostrazioni per Ciprio.md",
-    "/Serie notevoli.md",
-    "/Dimostrazioni per Ciprio.md",
-    "Espansioni di Taylor MacLaurin notevoli.md",
-    "Serie di Taylor.md",
-    "Asintotici noti.md",
-    "Formule trigonometriche.md",
-    "Unità Equivalente.md",
-    "Untitled.md",
-    "Derivate fondamentali.md",
-    "/Asintotici noti.md",
+    "Serie di Fourier.md",
+    "/Sviluppi di Taylor.md",
+    "/Rotolamento.md",
+    "/Corpo rigido.md",
     "Dimostrazioni per Piovo.md",
-    "/Secondo teorema del calcolo integrale (Torricelli-Borrow).md",
-    "/Dimostrazioni per Piovo.md",
+    "Calcolo integrale per funzioni a più variabili.md",
+    "Equazioni differenziali ordinarie.md",
+    "Studio qualitativo delle EDO del primo ordine.md",
+    "Sistemi differenziali lineari.md",
+    "Sistemi lineari non omogeneo.md",
+    "Sistemi lineari omogenei.md",
+    "Matrice esponenziale.md",
+    "Principio di sovrapposizione.md",
+    "EDO autonome.md",
+    "EDO di Bernoulli.md",
+    "EDO A variabili separabili.md",
+    "Problema di Cauchy.md",
+    "EDO del secondo ordine lineare.md",
+    "Calcolo differenziale per funzioni a più variabili.md",
+    "Ottimizzazione per funzione di più variabili.md",
+    "Classificazione dei punti critici.md",
+    "Funzioni a più variabili.md",
+    "Limiti di funzioni a più variabili.md",
+    "Curva in Rn.md",
+    "Asintotici noti.md",
+    "Dimostrazioni per Ciprio.md",
     "xor.png",
     "web service.png",
     "virt arch.png",
     "two tir.png",
-    "transazioni.md",
     "traccia.png",
     "task.png",
     "surplus monopolio.png",
     "surplus concorrenza.png",
     "studio fattibilita.png",
-    "studio fattibilita 1.png",
-    "silos.md",
-    "l’architettura funzionale.md",
-    "alberi di decisione.md",
-    "WIP.md",
-    "Voci di costo.md",
-    "Virtualizzazione.md",
-    "Vettori.md",
-    "Vettori fisici.md",
-    "Versori.md",
-    "Verbi - N.md",
-    "Velocità.md"
+    "studio fattibilita 1.png"
   ]
 }
