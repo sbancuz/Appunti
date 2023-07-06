@@ -12,7 +12,7 @@ $$
 
 Essa è negativa per i [[Beni normali]].
 
-I [[Beni sostitutivi]] sono poco elastici.
+La domanda di un bene con pochi [[Beni sostitutivi]] è poco elastica e viceversa
 
 ### Elasticità incrociata
 

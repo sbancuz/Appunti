@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Profitto impresa.md",
+                "file": "Concorrenza.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Profitto impresa.md",
+                "file": "Concorrenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Profitto impresa.md",
+                "file": "Concorrenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Profitto impresa.md"
+                "file": "Concorrenza.md"
               }
             }
           }
@@ -172,12 +172,16 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
+    "Competizione.md",
+    "Concorrenza.md",
+    "Profitto impresa.md",
+    "Domanda.md",
+    "Elasticità della domanda.md",
+    "Beni.md",
     "Consumatori.md",
     "Funzione di utilità.md",
-    "Profitto impresa.md",
     "Profitto.md",
     "Impresa.md",
-    "Domanda.md",
     "Economica.md",
     "Fallimento impresa.md",
     "Rischiosa.md",
@@ -194,10 +198,6 @@
     "Equazioni cardinali della statica.md",
     "Limitazioni sui gradi di libertà dei corpi rigidi.md",
     "Corpo rigido.md",
-    "Rotolamento.md",
-    "Strutture meccaniche.md",
-    "Moto circolare.md",
-    "Ascissa curvilinea.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
