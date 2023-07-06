@@ -1,7 +1,7 @@
 ---
 tags: [economia]
 ---
-I profitti di un impresa dipenddono da:
+I [[Profitto|profitti]] di un impresa dipendono da:
 	• [[Domanda]] del servizio/bene dai [[Consumatori]]
 	• Competizione
 	• Interazione tra [[impresa]] e [[Stakeholder]]

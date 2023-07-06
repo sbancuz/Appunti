@@ -3,9 +3,9 @@ tags: [economia]
 ---
 [[Rischio]] di impresa -> legato ai risultati economici dell’impresa
 
-Nella genesi del rischio d'impresa si rilvano 3 fattori:
+Nella genesi del rischio d'impresa si rilevano 3 fattori:
 	• Tempo -> L'[[Imprenditore]] prende decisioni oggi sui dati di domani 
-	• Struttura dell'impresa -> l’[[impresa]] ha un’organizzazione non immediatamente modificabile in risposta all’ambiente interno
+	• Struttura dell'impresa -> l’[[impresa]] ha un’organizzazione non immediatamente modificabile in risposta all'ambiente interno
 	• Contesto -> L'[[Impresa]] deve adattarsi ad un ambiente esterno mutevole
 
 C'è anche un grande rischio nell'assunzione del personale:
