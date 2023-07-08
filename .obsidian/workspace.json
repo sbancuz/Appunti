@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stato patrimoniale.md",
+                "file": "Oggetto di costo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia ammorta",
+                "query": "tag:#economia stato",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stato patrimoniale.md",
+                "file": "Oggetto di costo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stato patrimoniale.md",
+                "file": "Oggetto di costo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stato patrimoniale.md"
+                "file": "Oggetto di costo.md"
               }
             }
           }
@@ -171,12 +171,19 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
+    "Metodi di rilevazione dei costi.md",
+    "JOC.md",
+    "Stato patrimoniale.md",
+    "Conto economico.md",
+    "Passività.md",
+    "Patrimonio netto.md",
+    "Utile.md",
+    "Metodo del costo storico.md",
+    "Attività non correnti.md",
     "Bilancio d'esercizio.md",
     "Attività.md",
     "Cassa.md",
     "Debiti di regolamento.md",
-    "Attività non correnti.md",
-    "Metodo del costo storico.md",
     "Ammortamenti.md",
     "Contabilità aziendale.md",
     "Contabilità esterna.md",
@@ -190,13 +197,6 @@
     "Consumatori.md",
     "Funzione di utilità.md",
     "Profitto.md",
-    "Impresa.md",
-    "Economica.md",
-    "Fallimento impresa.md",
-    "Rischiosa.md",
-    "Responsabilità limitata.md",
-    "Responsabilità illimitata.md",
-    "Azienda.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
