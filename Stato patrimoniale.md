@@ -6,6 +6,7 @@ Lo stato patrimoniale descrive la situazione patrimoniale dell'impresa in un dat
 Esso è composto da due sezioni contrapposte:
 - Attivo -> tutte le risorse a disposizione per produrre e vendere
 - Passivo -> diritti vantati sulle risorse da parte di enti
+- Patrimonio netto -> valore residuo dopo le passività
 
 Totale Attività = Totale passività + Patrimonio netto
 

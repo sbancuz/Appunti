@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concorrenza.md",
+                "file": "Stato patrimoniale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia",
+                "query": "tag:#economia ammorta",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306,
-    "collapsed": true
+    "width": 306
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concorrenza.md",
+                "file": "Stato patrimoniale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concorrenza.md",
+                "file": "Stato patrimoniale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concorrenza.md"
+                "file": "Stato patrimoniale.md"
               }
             }
           }
@@ -172,8 +171,18 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
-    "Competizione.md",
+    "Bilancio d'esercizio.md",
+    "Attività.md",
+    "Cassa.md",
+    "Debiti di regolamento.md",
+    "Attività non correnti.md",
+    "Metodo del costo storico.md",
+    "Ammortamenti.md",
+    "Contabilità aziendale.md",
+    "Contabilità esterna.md",
+    "Contabilità analitica.md",
     "Concorrenza.md",
+    "Competizione.md",
     "Profitto impresa.md",
     "Domanda.md",
     "Elasticità della domanda.md",
@@ -188,16 +197,6 @@
     "Responsabilità limitata.md",
     "Responsabilità illimitata.md",
     "Azienda.md",
-    "Società.md",
-    "Lavoratore subordinato.md",
-    "Imprenditore.md",
-    "Ditta.md",
-    "Statica.md",
-    "Azione assiale.md",
-    "Accelerazione.md",
-    "Equazioni cardinali della statica.md",
-    "Limitazioni sui gradi di libertà dei corpi rigidi.md",
-    "Corpo rigido.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
