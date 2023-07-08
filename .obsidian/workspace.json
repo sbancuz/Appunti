@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Oggetto di costo.md",
+                "file": "Passività.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia stato",
+                "query": "tag:#economia capitale",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Oggetto di costo.md",
+                "file": "Passività.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Oggetto di costo.md",
+                "file": "Passività.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Oggetto di costo.md"
+                "file": "Passività.md"
               }
             }
           }
@@ -171,32 +171,32 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
+    "Patrimonio netto.md",
+    "Capitale sociale.md",
+    "Obbligazioni.md",
+    "Conto economico.md",
+    "Responsabilità limitata.md",
+    "Impresa.md",
+    "Stato patrimoniale.md",
+    "Attività.md",
+    "Aprire un impresa.md",
+    "Forme giuridiche.md",
+    "Forma collettiva.md",
+    "Società di persone.md",
+    "Società.md",
+    "Elasticità della domanda.md",
+    "Oggetto di costo.md",
     "Metodi di rilevazione dei costi.md",
     "JOC.md",
-    "Stato patrimoniale.md",
-    "Conto economico.md",
     "Passività.md",
-    "Patrimonio netto.md",
     "Utile.md",
     "Metodo del costo storico.md",
     "Attività non correnti.md",
     "Bilancio d'esercizio.md",
-    "Attività.md",
     "Cassa.md",
     "Debiti di regolamento.md",
     "Ammortamenti.md",
     "Contabilità aziendale.md",
-    "Contabilità esterna.md",
-    "Contabilità analitica.md",
-    "Concorrenza.md",
-    "Competizione.md",
-    "Profitto impresa.md",
-    "Domanda.md",
-    "Elasticità della domanda.md",
-    "Beni.md",
-    "Consumatori.md",
-    "Funzione di utilità.md",
-    "Profitto.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
