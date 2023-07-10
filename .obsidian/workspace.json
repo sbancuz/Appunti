@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Passività.md",
+                "file": "Aprire un impresa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Passività.md",
+                "file": "Aprire un impresa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Passività.md",
+                "file": "Aprire un impresa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Passività.md"
+                "file": "Aprire un impresa.md"
               }
             }
           }
@@ -171,6 +171,12 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
+    "Lean startup.md",
+    "Aprire un impresa.md",
+    "Forme giuridiche.md",
+    "Forma collettiva.md",
+    "Società di capitali.md",
+    "Passività.md",
     "Patrimonio netto.md",
     "Capitale sociale.md",
     "Obbligazioni.md",
@@ -179,24 +185,18 @@
     "Impresa.md",
     "Stato patrimoniale.md",
     "Attività.md",
-    "Aprire un impresa.md",
-    "Forme giuridiche.md",
-    "Forma collettiva.md",
     "Società di persone.md",
     "Società.md",
     "Elasticità della domanda.md",
     "Oggetto di costo.md",
     "Metodi di rilevazione dei costi.md",
     "JOC.md",
-    "Passività.md",
     "Utile.md",
     "Metodo del costo storico.md",
     "Attività non correnti.md",
     "Bilancio d'esercizio.md",
     "Cassa.md",
     "Debiti di regolamento.md",
-    "Ammortamenti.md",
-    "Contabilità aziendale.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
