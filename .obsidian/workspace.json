@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aprire un impresa.md",
+                "file": "Conto economico.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia capitale",
+                "query": "tag:#economia minus",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aprire un impresa.md",
+                "file": "Conto economico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aprire un impresa.md",
+                "file": "Conto economico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aprire un impresa.md"
+                "file": "Conto economico.md"
               }
             }
           }
@@ -171,8 +171,10 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
-    "Lean startup.md",
+    "Gestioni del CE.md",
+    "Gestione operativa.md",
     "Aprire un impresa.md",
+    "Lean startup.md",
     "Forme giuridiche.md",
     "Forma collettiva.md",
     "Società di capitali.md",
@@ -195,8 +197,6 @@
     "Metodo del costo storico.md",
     "Attività non correnti.md",
     "Bilancio d'esercizio.md",
-    "Cassa.md",
-    "Debiti di regolamento.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
