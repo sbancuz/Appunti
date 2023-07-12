@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi di rilevazione dei costi.md",
+                "file": "Ratei e risconti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia job",
+                "query": "tag:#economia",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodi di rilevazione dei costi.md",
+                "file": "Ratei e risconti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodi di rilevazione dei costi.md",
+                "file": "Ratei e risconti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodi di rilevazione dei costi.md"
+                "file": "Ratei e risconti.md"
               }
             }
           }
@@ -171,6 +171,12 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
+    "Attività correnti.md",
+    "Attività.md",
+    "Stato patrimoniale.md",
+    "Metodi di rilevazione dei costi.md",
+    "Strutture di pagamento.md",
+    "Customer development model.md",
     "ABC.md",
     "JOC.md",
     "Job-cost sheet.md",
@@ -188,15 +194,9 @@
     "Obbligazioni.md",
     "Responsabilità limitata.md",
     "Impresa.md",
-    "Stato patrimoniale.md",
-    "Attività.md",
     "Società di persone.md",
     "Società.md",
     "Elasticità della domanda.md",
-    "Oggetto di costo.md",
-    "Metodi di rilevazione dei costi.md",
-    "Utile.md",
-    "Metodo del costo storico.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
