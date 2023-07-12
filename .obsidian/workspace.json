@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conto economico.md",
+                "file": "Metodi di rilevazione dei costi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia minus",
+                "query": "tag:#economia job",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conto economico.md",
+                "file": "Metodi di rilevazione dei costi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conto economico.md",
+                "file": "Metodi di rilevazione dei costi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conto economico.md"
+                "file": "Metodi di rilevazione dei costi.md"
               }
             }
           }
@@ -171,6 +171,10 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
+    "ABC.md",
+    "JOC.md",
+    "Job-cost sheet.md",
+    "Conto economico.md",
     "Gestioni del CE.md",
     "Gestione operativa.md",
     "Aprire un impresa.md",
@@ -182,7 +186,6 @@
     "Patrimonio netto.md",
     "Capitale sociale.md",
     "Obbligazioni.md",
-    "Conto economico.md",
     "Responsabilità limitata.md",
     "Impresa.md",
     "Stato patrimoniale.md",
@@ -192,11 +195,8 @@
     "Elasticità della domanda.md",
     "Oggetto di costo.md",
     "Metodi di rilevazione dei costi.md",
-    "JOC.md",
     "Utile.md",
     "Metodo del costo storico.md",
-    "Attività non correnti.md",
-    "Bilancio d'esercizio.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
