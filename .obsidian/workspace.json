@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ratei e risconti.md",
+                "file": "Impresa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#economia",
+                "query": "tag:#economia impresa",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ratei e risconti.md",
+                "file": "Impresa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ratei e risconti.md",
+                "file": "Impresa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ratei e risconti.md"
+                "file": "Impresa.md"
               }
             }
           }
@@ -171,6 +171,13 @@
   },
   "active": "ac2072d697516fde",
   "lastOpenFiles": [
+    "Azienda.md",
+    "Impresa.md",
+    "Società.md",
+    "Ditta.md",
+    "Società di persone.md",
+    "Società semplice S.S..md",
+    "Ratei e risconti.md",
     "Attività correnti.md",
     "Attività.md",
     "Stato patrimoniale.md",
@@ -190,13 +197,6 @@
     "Società di capitali.md",
     "Passività.md",
     "Patrimonio netto.md",
-    "Capitale sociale.md",
-    "Obbligazioni.md",
-    "Responsabilità limitata.md",
-    "Impresa.md",
-    "Società di persone.md",
-    "Società.md",
-    "Elasticità della domanda.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
