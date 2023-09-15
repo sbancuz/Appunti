@@ -2,10 +2,7 @@
   "alwaysUpdateLinks": true,
   "strictLineBreaks": false,
   "promptDelete": false,
-  "spellcheckLanguages": [
-    "en-GB",
-    "it"
-  ],
+  "spellcheckLanguages": null,
   "spellcheck": true,
   "readableLineLength": true
 }
