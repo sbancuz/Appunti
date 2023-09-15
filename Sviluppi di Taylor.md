@@ -1,5 +1,5 @@
 ---
-tags: [analisi_1]
+tags:analisi_1
 ---
 ## Confronto locale 
 

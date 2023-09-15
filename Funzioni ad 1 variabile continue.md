@@ -26,3 +26,20 @@ Sia $f:I\to R$ con $I$ intervallo qualunque continua in $I$, allora $f$ è inver
 >
 >Ma se ha discontinuità a salto, la sua immagine non è un intervallo, assurdo poiché l'immagine di $f^{-1}$ è $I$
 
+
+### Funzione analitica
+
+Sia $f:(a,b)\subseteq \mathbb R \to \mathbb R$ derivabile infinite volte in $x_{0}\in(a,b)$ si dice che $f$ è una funzione analitica in $x_{0}$ se la [[Serie di Taylor]] con centro $x_{0}$ ha raggio di convergenza $R\in (0,\infty)\cup\{\infty\}$ e inoltre $\exists {R_{1}} \in {(0,R]}$ tale che 
+$$
+f(x) = \sum \frac{f^{(n)}(x_{0})}{n!}(x-x_{0})^{n}
+$$
+
+=> [[Serie di potenze]]
+
+### Funzione regolare a tratti
+
+Sia $f:[a,b]\to \mathbb{R}$, diciamo che $f$ è regolare a tratti in $[a,b]$ se esiste un numero finito di punti $a=x_{1}<x_{2}<\dots<x_{n}=b$ ovvero una partizione di $[a,b]$ tale che:
+1) $f$ è continua in $(x_{i},x_{i+1}), \forall {i} =1,\dots ,n-1 {}$  ed esistano finiti i limiti $\lim_{ x \to x_{i}^{+} } {f(x)}$ e $\lim_{ x \to x_{i}^{-} } f(x){}$
+2) $f$ è derivabile in $(x_{i},x_{i+1}), \forall {i} =1,\dots ,n-1 {}$  ed esistono finiti i limiti $\lim_{ x \to x_{i}^{+} } {f'(x)}$ e $\lim_{ x \to x_{i}^{-} } f'(x){}$
+
+ 

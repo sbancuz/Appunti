@@ -1,5 +1,11 @@
 {
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": true,
-  "promptDelete": false
+  "strictLineBreaks": false,
+  "promptDelete": false,
+  "spellcheckLanguages": [
+    "en-GB",
+    "it"
+  ],
+  "spellcheck": true,
+  "readableLineLength": true
 }

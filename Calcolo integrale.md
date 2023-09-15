@@ -89,7 +89,7 @@ $$
 
 
 
-[[Sviluppi di Taylor]]
+[[Serie di Taylor]]
 
 ## Integrali impropri o generalizzati
 
@@ -162,3 +162,5 @@ Siano $f,g:[a,\infty)\to R$ continue in $[a,\infty)$ e $\forall {x} \in {[a,\inf
 Se per $x\to \infty$ si ha $f(x)\sim g(x)$ allora $f(x)$ è integrabile in $\infty$ sse lo è anche $g(x)$
 Se $f(x)=o(g(x))$ per $x\to \infty$ e $g$ è integrabile a $\infty$, allora anche $f$ lo è
 Se $f$ è assolutamente integrabile a $\infty$ allora $f$ è integrabile a $\infty$
+
+### ==> [[Calcolo integrale per funzioni a più variabili]]

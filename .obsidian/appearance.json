@@ -1,7 +1,8 @@
 {
   "accentColor": "",
   "enabledCssSnippets": [
-    "big_math"
+    "big_math",
+    "editor_size"
   ],
   "baseFontSize": 14,
   "theme": "obsidian",

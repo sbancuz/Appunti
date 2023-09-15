@@ -12,7 +12,7 @@ Se:
 Allora P(n) è vera per ogni naturale $n\ge 0$
 
 >[!note]- Dimostrazione
-Sia S l'insieme così definito $$S=\{n \in N \text{ | } P(n) \text{ è falsa}\}$$
+Sia S l'[[insieme]] così definito $$S=\{n \in N \text{ | } P(n) \text{ è falsa}\}$$
 Allora provo che $S = \emptyset$ 
 Supponiamo per assurdo che $S \not= \emptyset$ allora per l'assioma dell'ordinamento S ha un minimo m.
 Per definizione di S, P(m) è falsa di conseguenza $m \not= 0$ allora $m- 1  \in N$ e dunque $m-1\notin S$

@@ -8,7 +8,7 @@ Ogni successione definitivamente monotona è regolare
 4. se $\{{a_{n}}\}_{n\in N}$ è decrescente e illimitata, allora diverge a $-\infty$
 
 >[!note]- Dimostrazione
->Sia $\{{a_{n}}\}_{n\in N}$ crescente e limitata superiormente, allora per l'[[assioma di dedekind]], l'insieme $\{a_{n}\text{ | } n\in N\}$ ha estremo superiore, sia questo estremo $l$ .
+>Sia $\{{a_{n}}\}_{n\in N}$ crescente e limitata superiormente, allora per l'[[assioma di dedekind]], l'[[insieme]] $\{a_{n}\text{ | } n\in N\}$ ha estremo superiore, sia questo estremo $l$ .
 >Per definizione di sup, abbiamo che $\forall {\epsilon} \gt {0}$ esiste un elemento di  $\{a_{n}\text{ | } n\in N\}$, cioè un certo $a_{m}$ tale che $l-\epsilon\lt a_{m}$.
 >Ma la successione $\{{a_{n}}\}_{n\in N}$ è crescente quindi $\forall {n} \ge {m}$, si ha $l-\epsilon\le a_{m}\le a_{n}\le l$
 
@@ -55,6 +55,6 @@ Ogni successioni definitivamente monotona è regolare
 4. se $\{{a_{n}}\}_{n\in N}$ è decrescente e illimitata, allora diverge a $-\infty$
 
 >[!note]- Dimostrazione
->Sia $\{{a_{n}}\}_{n\in N}$ crescente e limitata superiormente, allora per l'[[assioma di dedekind]], l'insieme $\{a_{n}\text{ | } n\in N\}$ ha estremo superiore, sia questo estremo $l$ .
+>Sia $\{{a_{n}}\}_{n\in N}$ crescente e limitata superiormente, allora per l'[[assioma di dedekind]], l'[[insieme]] $\{a_{n}\text{ | } n\in N\}$ ha estremo superiore, sia questo estremo $l$ .
 >Per definizione di sup, abbiamo che $\forall {\epsilon} \gt {0}$ esiste un elemento di  $\{a_{n}\text{ | } n\in N\}$, cioè un certo $a_{m}$ tale che $l-\epsilon\lt a_{m}$.
 >Ma la successione $\{{a_{n}}\}_{n\in N}$ è crescente quindi $\forall {n} \ge {m}$, si ha $l-\epsilon\le a_{m}\le a_{n}\le l$

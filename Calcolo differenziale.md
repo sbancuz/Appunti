@@ -152,7 +152,7 @@ Un sottoinsieme A di $R^2$ si dice convesso se $\forall {P,P'} \in A {}$ il segm
 
 
 ```
-Sia $f:[a,b]\to R$, si chiama sopragrafico e epigrafico di $f$ l'insieme
+Sia $f:[a,b]\to R$, si chiama sopragrafico e epigrafico di $f$ l'[[insieme]]
 $$
 epi(f)=\{(x,y)\in R^2 \text{ tale che } x \in[a,b],y\geq f(x)\}
 $$
@@ -164,3 +164,4 @@ Sia $f:(a,b)\to R$ se:
 	1. $f$ è convessa in $(a,b)$ sse $f'$ è crescente in $(a,b)$, è concava in $(a,b)$ sse $f'$ è decrescente in $(a,b)$
 	2. $f$ è derivabile 2 volte allora è convessa in $(a,b)$ sse $f''(x)\geq 0$ in $(a,b)$; concava sse $f''(x)\leq 0$ in $(a,b)$  
 
+ANALISI 2 -> [[Equazioni differenziali ordinarie]], [[Calcolo differenziale per funzioni a più variabili]]

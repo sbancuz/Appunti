@@ -1,4 +1,3 @@
-
 ---
 tags: [analisi_1]
 ---
@@ -31,7 +30,7 @@ $$
 $$
 
 Possiamo assumere che il punto $x_{m_{N}}\geq x_{n_{N}}$ così $x_{m_{N}}\geq \epsilon+x_{n_{N}}$ 
-Per $N_{1}=1, \exists {m_{1}>n_{1}} \text{ tc } x_{m_{1}} \geq \epsilon x_{n_{1}}$
+Per $N_{1}=1, \exists {m_{1}>n_{1}} \text{ tc } x_{m_{1}} \geq \epsilon + x_{n_{1}}$
 Per $N_{2}=m_{1}, \exists {m_{2}>n_{2}\geq N_{2} = m_{1}>n_{1}}$
 	
 Allora avremo che $x_{n_{2}}\geq 2\epsilon +x_{m_{1}}$ e più in generale
@@ -63,7 +62,7 @@ Ripeto il procedimento per dicotomia.
 
 Quello che ottengo è una successione decrescente di intervalli tale che $b_{n}$ è maggiorante di $A$.
 
-${a_{n}}$ è crescrente e superiormente limitata da $b_{0}$ invece ${b_{n}}$ è decrescrente e inferiormente limitata da $a_{0}$.
+${a_{n}}$ è crescente e superiormente limitata da $b_{0}$ invece ${b_{n}}$ è decrescente e inferiormente limitata da $a_{0}$.
 
 Allora per il teorema di convergenza delle successioni monotone limitate 
 $$
@@ -168,7 +167,7 @@ e quindi si ha anche che
 $$
 \lim_{ n \to \infty } {f(a_{n})f(b_{n})} = 0
 $$
-Per la continuita di $f$ in $x_{0}$ si ha che
+Per la continuità di $f$ in $x_{0}$ si ha che
 $$
 f(\lim_{ n \to \infty } {a_{n}})f(\lim_{ n \to \infty } {b_{n}}) \leq 0 \implies f(x_0)f(x_0)\leq 0 \implies f(x_{0}) = 0
 $$
@@ -315,7 +314,7 @@ $$
 
 #### Dimostrazione
 
-Definiamo $f(a)=g(a)= 0$ e le enstendo in maniera continua a $[a,b)$.
+Definiamo $f(a)=g(a)= 0$ e le estendo in maniera continua a $[a,b)$.
 
 Fisso adesso $x\in(a,b)$
 Abbiamo che $f,g$ sono continue in $[a,x]$ e derivabili in $(a,x)$ poiché $f,g$ derivabilii in $(a,b)$
@@ -324,7 +323,7 @@ Applico il teorema di Lagrange ad $h:[a,x]\to \mathbb R$ definita
 $$
 \forall {y} \in {[a,x]}, h(y)=f(x)g(y) -f(y)g(x)
 $$
-Quindi $\exists {y(x)} \in {(a,x)} \text{ tc } \frac{h(x)-h(a)}{x-a} = h'(g(x)) = 0$
+Quindi $\exists {y(x)} \in {(a,x)} \text{ tc } \frac{h(x)-h(a)}{x-a} = h'(y(x)) = 0$
 $$
 \frac{d}{dx}h(x) = f(x)g'(y(x)) - f'(y(x))g(x) \implies \frac{f(x)}{g(x)} = \frac{f'(y(x))}{g'(y(x))}
 $$
@@ -358,7 +357,7 @@ Definisco $R_{n,x_{0}}^{f}(x) = f(x) - T_{n,x_{0}}^{f}(x)$
 
 Uso quindi de L'Hopital
 $$
-\lim_{ x \to x_{0} } \frac{{ f(x) - T_{n,x_{0}}^{f}(x)}}{(x-x_{0})^{n}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - (T_{n,x_{0}}^{f})'(x)}}{n(x-x_{0})^{n-1}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - ( \sum_{k=0}^{n} \frac{f^{k}(x_{0})}{(k-1)!} (x-x_{0})^{k-1}}}{n(x-x_{0})^{n-1}} 
+\lim_{ x \to x_{0} } \frac{{ f(x) - T_{n,x_{0}}^{f}(x)}}{(x-x_{0})^{n}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - (T_{n,x_{0}}^{f})'(x)}}{n(x-x_{0})^{n-1}} = \lim_{ x \to x_{0} } \frac{{ f'(x) - ( \sum_{k=0}^{n} \frac{f^{k}(x_{0})}{(k-1)!} (x-x_{0})^{k-1})'}}{n(x-x_{0})^{n-1}} 
 $$
 Applico n-1 volte de L'Hopital
 $$
@@ -367,3 +366,120 @@ $$
 
 ---
 
+### Primo teorema fondamentale del calcolo integrale
+
+Sia $f:[a,b]\to R$ una funzione continua, allora se $F$ è una primitiva di $f$ allora 
+$$
+\int_{a}^{b} f(x) \, dx =F(b)-F(a)
+$$
+
+### Dimostrazione
+
+$F(b)-F(a)=F(x_{n})-F(x_{0})=F(x_{n})-F(x_{n-1})+F(x_{n-1})-F(x_{n-2})+\dots$
+
+Allora $\sum_{i=0}^{x-1}(F(x_{i+1})-F(x_{i}))$ è continua e derivabile in $[a,b]$ e per il teorema di Lagrange si ha che $$\frac{F(x_{i+1})-F(x_{i})}{x_{i+1}-x_{i}}=F'(z_{i})=f(z_{i})$$
+
+Cioè $F(x_{i+1})-F(x_{i})=f(z_{i})(x_{i+1}-x_{i})$
+
+Allora $F(b)-F(a)=\sum_{i=0}^{n-1}f(z_{i})(x_{i+1}-x_{i})$ che è la somma di C-R, passando al limite $$F(b)-F(a)=\lim_{ n \to \infty } \sum_{i=0}^{n-1}f(z_{i})(x_{i+1}-x_{i})=\int_{a}^{b} f(x_{}) \, dx $$
+
+---
+### Secondo teorema fondamentale del calcolo integrale
+
+Sia $f:[a,b]\to R$ una funzione continua in $[a,b]$ e sia  $x_{0}\in[a,b]$, sia poi 
+$$
+F(x)=\int_{x_{0}}^{x} f(t)  \, dt
+$$
+Allora $F(x)$ è detta funzione integrale di $f(x)$ e $F(x)$ è una funzione continua e derivabile in $[a,b]$ e $\forall {x} \in {[a,b]}$ si ha $F'(x)=f(x)$
+
+### Dimostrazione
+$F'(x)=\frac{F(x+h)-F(x)}{h}=\frac{1}{h}\left( \int_{x_{0}}^{x+h} f(t)  \, dt-\int_{x_{0}}^{x} f(t)  \, dt \right)=\frac{1}{h}\int_{x}^{x+h} f(t)\, dt$
+Per il teorema del valor medio integrale $\frac{F(x+h)-F(x)}{h}=f(z)$ con $z\in[x,x+h]$
+Passando al limite per $h\to{0}$ dove $z\to x$ dunque
+$$F'(x)=\lim_{ h \to 0 } {\frac{F(x+h)-F(x)}{h}}=\lim_{ z \to x } {f(z)}=f(x)$$
+
+---
+
+### Criterio della radice
+
+Sia $\{{a_{n}}\}_{n\in N}$ una successione non negativa, se esiste il $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}$ allora 
+-  se $l<1$, $\sum_{i=0}^\infty{a_{i}}$ converge
+-  se $l>1$, $\sum_{i=0}^\infty{a_{i}}$ diverge
+-  se $l=1$ non si sa
+
+### Dimostrazione
+Sia $\lim_{ n \to \infty } {\sqrt[n]{ a_{n} }}<1$ allora $\forall {\epsilon} \geq {0}, \exists {n_{0}} \text{ tale che } \forall {n} \geq {n_{0}}$, $l-\frac{\epsilon}{2}<\sqrt[n]{ a_{n} }<l+\frac{\epsilon}{2}$ e quindi $\sqrt[n]{ a_{n} }<(1-\epsilon)+\frac{\epsilon}{2}=1-\frac{\epsilon}{2}$  Allora $a_{n}<\left( 1-\frac{\epsilon}{2} \right)^n$ che converge e per il teorema del confronto anche $\{{a_{n}}\}_{n\in N}$ convergerà
+
+
+---
+
+### Criterio del rapporto
+
+Sia $\{{a_{n}}\}_{n\in N}$ una successione positiva, se esiste il $\lim_{ n \to \infty } {\frac{{ a_{n+1} }}{a_{n}}}$ allora 
+-  se $l<1$, $\sum_{i=0}^\infty{a_{i}}$ converge
+-  se $l>1$, $\sum_{i=0}^\infty{a_{i}}$ diverge
+-  se $l=1$ non si sa
+
+### Dimostrazione
+
+ $\forall {\epsilon} > {0}, \exists {N} | {n\geq N} \implies |\frac{a_{n+1}}{a_{n}}-l|<\epsilon$ quindi ho che $l-\epsilon<\frac{a_{n+1}}{a_{n}}<l+\epsilon$
+ Se $\epsilon<l$ allora $(l-\epsilon)a_{n}<a_{n+1}<(l+\epsilon)a_{n}$
+ 1) Se $l<1$ scegliendo $\epsilon$ tale che $l+\epsilon<1$ si ha $$a_{n+1}<(l+\epsilon)a_{n}<(l+\epsilon)^{2}a_{n-1}<\dots<(l+\epsilon)^{n+1}a_{0}$$ e essendo $(l+\epsilon)^{n+1}$ una serie geometrica $<1$ converge per il teorema del confronto
+ 2) Se $l>1$ scegliendo $\epsilon$ tale che $l+\epsilon>1$ si ha $$a_{n+1}<(l+\epsilon)a_{n}<(l+\epsilon)^{2}a_{n-1}<\dots<(l+\epsilon)^{n+1}a_{0}$$  e essendo $(l+\epsilon)^{n+1}$ una serie geometrica $>1$ diverge per il teorema del confronto
+
+---
+
+### Criterio di Leibniz
+
+Consideriamo la serie $\sum_{n=0}^\infty{(-1)^{n}a_{n}}$ allora se si ha che:
+- $a_{n}\geq0$
+- $\lim_{ n \to \infty } {a_{n} = 0}$
+- $\{ a_{n} \}_{\infty}$ è definitivamente decrescente
+
+Allora si ha che la serie converge semplicemente.
+In più il resto sarà convergente e $\leq a_{n}$
+
+### Dimostrazione
+
+Poiché $\lim_{ m \to \infty } {|(-1)^{n}a_{n}|} = \lim_{ n \to \infty } {|a_{n}| = 0}$ la condizione necessaria è verificata.
+
+Studiamo le somme parziali pari e dispari:
+$$
+\begin{align}
+s_{0}  & = a_{0} \leq 0 \\
+s_{2}  & = a_{0}- a_{1} + a_{2} \leq s_{0} \\
+\end{align}
+$$
+Quindi $s_{2n}$ è decrescente
+$$
+\begin{align}
+s_{1}  & = a_{0} - a_{1} \geq 0 \\
+s_{2}  & = a_{0}- a_{1} + a_{2} - a_{3} \geq s_{1} \\
+\end{align}
+$$
+Quindi $s_{2n +1}$ è crescente, e le due successioni sono monotone e limitate, quindi esistono i limiti. Inoltre per la seconda Hp.
+$$
+\lim_{ n \to \infty } {(s_{2n+1} - s_{2n})} = \lim_{ n \to \infty } {-a_{2n+1}} = 0
+$$
+E quindi i due limiti sono uguali.
+$$
+\exists {\lim_{ n \to \infty } {s_{2n}}} = \lim_{ n \to \infty } {s_{2n+1}} = s{ \in \mathbb{R}} 
+$$
+
+Quindi esiste il limite dalla serie per il suo termine generale
+$$
+s_{2n+1}\leq\exists {\lim_{ n \to \infty } {s_{n}}}  =s  {} \leq s_{2n}
+$$
+e ho che $|s_{n} - s|\leq a_{n}$
+Ho poi che 
+$$
+R_{N}=\sum_{n=N}^\infty{(-1)^{n}a_{n}} = s - s_{N-1}
+$$
+che preso al limite sarà
+$$
+\lim_{ N \to \infty } {R_{N}} = s - \lim_{ N \to \infty } {s_{N-1}} = 0
+$$
+Mettendo tutto assieme si avrà che 
+$$
+|R_{N}| \leq a_{N-1}
+$$

@@ -49,9 +49,22 @@
                 "currentVersion": "1.3.5"
               }
             }
+          },
+          {
+            "id": "9ac85a2e88ff9f6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -125,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dinamica.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dinamica.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dinamica.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -189,43 +202,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "519ccc33d0a10c75",
+  "active": "9ac85a2e88ff9f6d",
   "lastOpenFiles": [
-    "Rotolamento.md",
-    "Dinamica.md",
-    "Moto relativo.md",
-    "Dimostrazioni per Ciprio.md",
     "conflict-files-obsidian-git.md",
-    "Statica.md",
-    "Teorema di Weierstrass.md",
-    "Numeri complessi.md",
-    "Teorema di De Moivre.md",
-    "Convergenza successioni.md",
-    "Teorema di Bolzano Weiestrass e successioni di Cauchy.md",
-    "Massimo e minimo.md",
-    "Estremo superiore ed inferiore.md",
-    "Successioni.md",
-    "Criterio di convergenza per le successioni monotone.md",
-    "Teorema di monotonia delle successioni convergenti.md",
-    "Azione assiale.md",
-    "Ring buffer.md",
-    "Strutture di pagamento.md",
-    "Minimum viable product.md",
-    "Lean startup.md",
-    "Customer development model.md",
-    "Aprire un impresa.md",
-    "Società cooperativa.md",
-    "Società di capitali.md",
-    "Società a responsabilità limitata a capitale ridotto S.R.L.C.R..md",
+    "stato patrimoniale.png",
+    "rateo.png",
+    "conti per natura.png",
+    "ciclo di gestione.png",
+    "Versori.md",
+    "Utile.md",
+    "Untitled.md",
+    "Teoria degli insiemi.md",
+    "Studio qualitativo delle EDO del primo ordine.md",
+    "Stato patrimoniale.md",
+    "Spazio Rn.md",
+    "Sistemi lineari omogenei.md",
+    "Sistemi lineari non omogeneo.md",
+    "Sistemi differenziali lineari.md",
+    "Shareholders.md",
+    "Serie notevoli.md",
+    "Serie di potenze.md",
+    "Serie di potenze complesse.md",
+    "Serie di Taylor.md",
+    "Serie di Fourier.md",
+    "Riserve.md",
+    "Ratei e risconti.md",
+    "Problema di Cauchy.md",
+    "Principio di sovrapposizione.md",
+    "Principi contabili.md",
+    "Polinomio trigonometrico.md",
+    "Patrimonio netto.md",
+    "Passività.md",
+    "Passività non correnti.md",
+    "Passivita.png",
+    "Excalidraw",
+    "CE per destinazione.png",
+    "Attivita.png",
     "Asimmetriuca.png",
     "ABC.png",
-    "JOC.png",
-    "Schema di processo.png",
-    "funzione rilevazione costi.png",
-    "Precisione rilevazione dei costi.png",
-    "Pasted image 20230311152826.png",
-    "Centro di costo.png",
-    "Costi.png",
-    "costi fisii vs variabili.png"
+    "JOC.png"
   ]
 }

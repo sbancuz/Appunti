@@ -25,7 +25,7 @@ I vari insiemi numerici sono:
 
 >[!INFO]- Dimostrazione
 >Per assurdo siano $x,y \gt 0 \text{ | } \forall n \in N \text{ si abbia } y \ge xn$ 
->Consideriamo l'insieme $Y = \{nx\text{ | }n \in N\}$, allora per ipotesi, Y è superiormente limitato con $\overline{y} = sup(Y)$ quindi $\forall n \in N, \overline{y} \ge nx$ e quindi vale anche che $\forall m \in N \text{ si ha che } \overline{y} \ge (m + 1)x$ 
+>Consideriamo l'[[insieme]] $Y = \{nx\text{ | }n \in N\}$, allora per ipotesi, Y è superiormente limitato con $\overline{y} = sup(Y)$ quindi $\forall n \in N, \overline{y} \ge nx$ e quindi vale anche che $\forall m \in N \text{ si ha che } \overline{y} \ge (m + 1)x$ 
 >Allora $\overline{y} = mx +x$, cioè $\overline{y} -x = mx$ e questo è vero $\forall m$, quindi anche $\overline{y} -x$ è maggiorante di Y, inoltre visto che $x \gt 0 \text{ si ha che } \overline{y} -x \lt \overline{y}$ che è assurdo perché $\overline{y}$ dovrebbe essere il minimo dei maggioranti
 
 3 • Q è denso in se cioè

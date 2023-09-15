@@ -14,6 +14,5 @@ In Italia l'impresa è una [[Persona giuridica]]
 ![[Forme giuridiche]]
 
 Ci sono vari tipi di procedure per aprire un impresa
-	• [[Customer development model]]
-	• [[Lean startup]]
-	
+-  [[Customer development model]]
+-  [[Lean startup]]
