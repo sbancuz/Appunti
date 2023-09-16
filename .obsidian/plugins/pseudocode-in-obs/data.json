@@ -1,5 +1,5 @@
 {
-  "blockSize": 99,
+  "blockSize": 150,
   "preambleEnabled": false,
   "preamblePath": "preamble.sty",
   "preambleLoadedNotice": false,
@@ -9,6 +9,6 @@
     "lineNumber": true,
     "lineNumberPunc": ":",
     "noEnd": false,
-    "scopeLines": false
+    "scopeLines": true
   }
 }

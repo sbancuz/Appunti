@@ -25,5 +25,4 @@ From the perspective of an agent the environment can be:
 ### Actions
 
 An agent can change the status of its environment through actions.
-
-## [[Building an agent]]
+## ![[Types of  agents]]
