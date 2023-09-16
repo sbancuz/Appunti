@@ -18,25 +18,12 @@
             }
           },
           {
-            "id": "ac2072d697516fde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Impresa.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d2c3f5f03a214fa6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Performance measure.md",
+                "file": "Rational Agents.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -44,17 +31,20 @@
             }
           },
           {
-            "id": "af1700ceed30820e",
+            "id": "426abecc4ed57479",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.13"
+                "file": "Building an agent.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 306,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -128,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Performance measure.md",
+                "file": "Building an agent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Performance measure.md",
+                "file": "Building an agent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Performance measure.md"
+                "file": "Building an agent.md"
               }
             }
           }
@@ -192,9 +183,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af1700ceed30820e",
+  "active": "426abecc4ed57479",
   "lastOpenFiles": [
+    "Agent coplexity.png",
     "Rational Agents.md",
+    "Building an agent.md",
     "Performance measure.md",
     "AI environment.png",
     "acting v thinking.png",
@@ -220,8 +213,6 @@
     "Gestione operativa.md",
     "Aprire un impresa.md",
     "Lean startup.md",
-    "Forme giuridiche.md",
-    "Forma collettiva.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
