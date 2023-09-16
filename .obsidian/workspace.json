@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af1700ceed30820e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +192,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2c3f5f03a214fa6",
+  "active": "af1700ceed30820e",
   "lastOpenFiles": [
     "Rational Agents.md",
     "Performance measure.md",
