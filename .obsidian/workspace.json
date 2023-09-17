@@ -31,12 +31,12 @@
             }
           },
           {
-            "id": "4c90ae641697fca4",
+            "id": "061b400fee797d75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "11. Tecnologie a livello di architettura fisica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -185,14 +185,17 @@
   },
   "active": "d2c3f5f03a214fa6",
   "lastOpenFiles": [
+    "11. Tecnologie a livello di architettura fisica.md",
+    "Server farm.md",
+    "Single tiered.md",
+    "Search algorithm.md",
+    "Minimax algorithm.md",
     "Building a goal based agent.md",
     "Rational Agents.md",
-    "Search algorithm.md",
     "8puzzle.png",
     "Types of  agents.md",
     "learning agents.png",
     "Boids.md",
-    "Minimax algorithm.md",
     "Teoria degli insiemi.md",
     "Agent coplexity.png",
     "Performance measure.md",
@@ -213,8 +216,6 @@
     "Strutture di pagamento.md",
     "Customer development model.md",
     "ABC.md",
-    "JOC.md",
-    "Job-cost sheet.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
