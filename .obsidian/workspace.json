@@ -42,6 +42,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0010ca266d9eae2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sottoinsieme.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "048ec42f30d1faa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Types of  agents.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -185,15 +211,22 @@
   },
   "active": "d2c3f5f03a214fa6",
   "lastOpenFiles": [
+    "Priority queue.md",
+    "Search algorithm.md",
+    "Types of  agents.md",
+    "Rational Agents.md",
+    "Building a goal based agent.md",
+    "Sottoinsieme.md",
+    "Insieme.md",
+    "search tree.png",
     "11. Tecnologie a livello di architettura fisica.md",
+    "Dimostrazione Teorema insieme potenza.md",
+    "step cost.png",
+    "step cost 1.png",
     "Server farm.md",
     "Single tiered.md",
-    "Search algorithm.md",
     "Minimax algorithm.md",
-    "Building a goal based agent.md",
-    "Rational Agents.md",
     "8puzzle.png",
-    "Types of  agents.md",
     "learning agents.png",
     "Boids.md",
     "Teoria degli insiemi.md",
@@ -212,15 +245,8 @@
     "Attività correnti.md",
     "Attività.md",
     "Stato patrimoniale.md",
-    "Metodi di rilevazione dei costi.md",
-    "Strutture di pagamento.md",
-    "Customer development model.md",
-    "ABC.md",
     "Excalidraw",
     "conti per natura.png",
-    "CE per destinazione.png",
-    "stato patrimoniale.png",
-    "Passivita.png",
-    "rateo.png"
+    "CE per destinazione.png"
   ]
 }
