@@ -52,12 +52,11 @@ This agent also asks whats the consequences of it's actions and how the environm
 
 This could be achieved with the [[Minimax algorithm]] 
 
+--> [[Boids]]
+--> [[Building a goal based agent]]
 ### Utility-based agents
 
 This agents tends to maximise the utility while still achieving the goal. This could be because there might be a lot of ways to reach a certain goal, but there could be a 'best' way. 
-
---> [[Boids]]
-
 ### Learning agents
 
 Learning allows the agent to operate in initially unknown environments and to become more competent than its initial knowledge alone might allow.

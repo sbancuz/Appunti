@@ -23,20 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rational Agents.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "426abecc4ed57479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Types of  agents.md",
+                "file": "Search algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Types of  agents.md",
+                "file": "Search algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Types of  agents.md",
+                "file": "Search algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Types of  agents.md"
+                "file": "Search algorithm.md"
               }
             }
           }
@@ -196,14 +183,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "426abecc4ed57479",
+  "active": "d2c3f5f03a214fa6",
   "lastOpenFiles": [
+    "Building a goal based agent.md",
+    "Rational Agents.md",
+    "Search algorithm.md",
+    "8puzzle.png",
+    "Types of  agents.md",
     "learning agents.png",
     "Boids.md",
-    "Types of  agents.md",
     "Minimax algorithm.md",
     "Teoria degli insiemi.md",
-    "Rational Agents.md",
     "Agent coplexity.png",
     "Performance measure.md",
     "AI environment.png",
@@ -225,15 +215,11 @@
     "ABC.md",
     "JOC.md",
     "Job-cost sheet.md",
-    "Conto economico.md",
-    "Gestioni del CE.md",
     "Excalidraw",
     "conti per natura.png",
     "CE per destinazione.png",
     "stato patrimoniale.png",
     "Passivita.png",
-    "rateo.png",
-    "Attivita.png",
-    "ciclo di gestione.png"
+    "rateo.png"
   ]
 }
