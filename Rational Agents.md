@@ -88,3 +88,4 @@ This agents tends to maximise the utility while still achieving the goal. This c
 Learning allows the agent to operate in initially unknown environments and to become more competent than its initial knowledge alone might allow.
 
 ![[learning agents.png]]
+

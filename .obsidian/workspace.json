@@ -23,14 +23,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rational Agents.md",
+                "file": "Machine learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine learning.md"
+              }
             }
           }
         ],
@@ -165,11 +170,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "d2c3f5f03a214fa6",
   "lastOpenFiles": [
-    "Rational Agents.md",
-    "Types of  agents.md",
+    "Markov property.md",
+    "Machine learning.md",
+    "Criterio del confronto per le serie.md",
+    "9. Data Mining.md",
     "Building a goal based agent.md",
+    "Rational Agents.md",
+    "Machine learning.png",
+    "Types of  agents.md",
     "Search algorithm.md",
     "Priority queue.md",
     "Sottoinsieme.md",
@@ -197,12 +207,7 @@
     "Ditta.md",
     "Società di persone.md",
     "Società semplice S.S..md",
-    "Ratei e risconti.md",
-    "Attività correnti.md",
-    "Attività.md",
-    "Stato patrimoniale.md",
     "Excalidraw",
-    "conti per natura.png",
-    "CE per destinazione.png"
+    "conti per natura.png"
   ]
 }
