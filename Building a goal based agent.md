@@ -1,6 +1,6 @@
 ---
 tags:
-  - AI
+  - artificial_intelligence
 aliases:
   - machine learning
 ---

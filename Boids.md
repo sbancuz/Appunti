@@ -1,6 +1,6 @@
 ---
 tags:
-  - AI
+  - artificial_intelligence
 ---
 **Boids** is an artificial life program, developed by [Craig Reynolds](https://en.wikipedia.org/wiki/Craig_Reynolds_(computer_graphics) "Craig Reynolds (computer graphics)") in 1986, which simulates the flocking behaviour of birds. The name "boid" corresponds to a shortened version of "bird-oid object", which refers to a bird-like object.
 

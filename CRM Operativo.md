@@ -5,13 +5,13 @@ Il CRM operativo si occupa dell’interazione dei clienti con l’azienda e in p
 
 ## Marketing
 
-La strategia delle aziende non si focalizza più sull’estendere la clientela e vendere i propri prodotti a più clienti possibili, ma sul fidelizzare.
+La strategia delle aziende non si focalizza più sull'estendere la clientela e vendere i propri prodotti a più clienti possibili, ma sul fidelizzare.
 
-I sistemi da implementare per aumentare la soddisfazionedei clienti sono:
-	• Generazione #liste_clienti -> produce liste di clienti adatti a ricevere una comunicazione di marketing. 
-	• Gestione #campagne -> guida gli utenti nella definizione, pianificazione, programmazione e analisi dei risultati delle campagne di marketing.
-	• #Cross-selling -> vendere un maggior numero prodotti o servizi a un cliente
-	• #Upselling -> strategia con cui si cerca di aumentare il valore delle vendite a un cliente
+I sistemi da implementare per aumentare la soddisfazione clienti sono:
+	• Generazione liste_clienti -> produce liste di clienti adatti a ricevere una comunicazione di marketing. 
+	• Gestione campagne -> guida gli utenti nella definizione, pianificazione, programmazione e analisi dei risultati delle campagne di marketing.
+	• Cross-selling -> vendere un maggior numero prodotti o servizi a un cliente
+	• Up-selling -> strategia con cui si cerca di aumentare il valore delle vendite a un cliente
 
 ## Automazione vendite
 

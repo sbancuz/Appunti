@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
@@ -50,7 +50,7 @@
       }
     },
     {
-      "query": "AI",
+      "query": "artificial_intelligence",
       "color": {
         "a": 1,
         "rgb": 5395168
@@ -62,11 +62,18 @@
         "a": 1,
         "rgb": 11621088
       }
+    },
+    {
+      "query": "distributed_systems",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -1,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
@@ -74,6 +81,6 @@
   "repelStrength": 9.47916666666667,
   "linkStrength": 1,
   "linkDistance": 275,
-  "scale": 0.9097613237645488,
-  "close": true
+  "scale": 0.6757621765136719,
+  "close": false
 }

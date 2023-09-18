@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "d2c3f5f03a214fa6",
+            "id": "094404af64e08b5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Data centered.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AI",
+                "query": "tag:#Piramide_della_conoscenza",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Data centered.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Data centered.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine learning.md"
+                "file": "Data centered.md"
               }
             }
           }
@@ -170,44 +170,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2c3f5f03a214fa6",
+  "active": "094404af64e08b5c",
   "lastOpenFiles": [
-    "Markov property.md",
-    "Machine learning.md",
-    "Criterio del confronto per le serie.md",
+    "Data centered.md",
+    "RPC.md",
+    "Modeling a distributed system.md",
+    "Object-oriented distributed system.md",
+    "SOAP.md",
+    "P2P.md",
+    "REST.md",
+    "2023-09-18.md",
+    "UDDI.md",
+    "Service oriented.md",
+    "Ring buffer.md",
+    "Teoria degli insiemi.md",
+    "1. Introduzione.md",
+    "Prescrittività.md",
+    "CRM Operativo.md",
+    "Servizi.md",
+    "transazioni.md",
+    "Firewall.md",
+    "13. Sicurezza dei sistemi.md",
+    "Chiave asimmetrica.md",
     "9. Data Mining.md",
-    "Building a goal based agent.md",
-    "Rational Agents.md",
+    "MAC.md",
+    "Intrusion Detection System.md",
+    "Clustering.md",
+    "10. Tecnologie a livello di piattaforma.md",
+    "Regole associative.md",
+    "services oriented.png",
+    "Ntiers.png",
+    "DS.png",
     "Machine learning.png",
-    "Types of  agents.md",
-    "Search algorithm.md",
-    "Priority queue.md",
-    "Sottoinsieme.md",
-    "Insieme.md",
     "search tree.png",
-    "11. Tecnologie a livello di architettura fisica.md",
-    "Dimostrazione Teorema insieme potenza.md",
     "step cost.png",
     "step cost 1.png",
-    "Server farm.md",
-    "Single tiered.md",
-    "Minimax algorithm.md",
     "8puzzle.png",
     "learning agents.png",
-    "Boids.md",
-    "Teoria degli insiemi.md",
     "Agent coplexity.png",
-    "Performance measure.md",
-    "AI environment.png",
-    "acting v thinking.png",
-    "conflict-files-obsidian-git.md",
-    "Impresa.md",
-    "Azienda.md",
-    "Società.md",
-    "Ditta.md",
-    "Società di persone.md",
-    "Società semplice S.S..md",
-    "Excalidraw",
-    "conti per natura.png"
+    "Excalidraw"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 tags:
-  - AI
+  - artificial_intelligence
 ---
 Search algorithms are used to resolve search problems and are implemented to have three states:
 - Problem formulation
