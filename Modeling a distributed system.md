@@ -16,5 +16,5 @@ It identifies the classes of components that build the system, the various types
 - [[P2P]]
 - [[Object-oriented distributed system]]
 - [[Data centered]]
-- Event based
-- Mobile code
+- [[Event based]]
+- [[Mobile code]]

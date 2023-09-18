@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data centered.md",
+                "file": "Mobile code.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data centered.md",
+                "file": "Mobile code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data centered.md",
+                "file": "Mobile code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data centered.md"
+                "file": "Mobile code.md"
               }
             }
           }
@@ -172,9 +172,12 @@
   },
   "active": "094404af64e08b5c",
   "lastOpenFiles": [
+    "mobile code.png",
+    "Modeling a distributed system.md",
+    "Mobile code.md",
+    "Event based.md",
     "Data centered.md",
     "RPC.md",
-    "Modeling a distributed system.md",
     "Object-oriented distributed system.md",
     "SOAP.md",
     "P2P.md",
@@ -195,9 +198,6 @@
     "9. Data Mining.md",
     "MAC.md",
     "Intrusion Detection System.md",
-    "Clustering.md",
-    "10. Tecnologie a livello di piattaforma.md",
-    "Regole associative.md",
     "services oriented.png",
     "Ntiers.png",
     "DS.png",
