@@ -2,6 +2,7 @@
 tags:
   - artificial_intelligence
 ---
+
 ```math
 ||{"id":672843645648}||
 

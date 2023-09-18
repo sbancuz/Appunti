@@ -73,4 +73,51 @@ These are too many states to check, we need to find a way to minimize the state 
 >The problem remained the same, but just changing the search space reduced the complexity so much that before the solution couldn't be found at all, now it's just a matter of milliseconds
 >
 
+### Evaluation of a search algorithm
 
+A search algorithm is evaluated by it's:
+- Completeness : is the search strategy guaranteed to find a solution when there is one?
+- Optimality :  does the search find the best solution?
+- Complexity : time and space complexity
+- Parameters : 
+	- $b \to$ is the branching factor
+	- $d \to$ is the depth of the shallowest goal node
+
+### Breadth-First Search
+
+It's a search algorithm in which all the nodes at level $k$ of the search tree must be selected before selecting any node at level $k+1$. It always selects the node with minimum depth.
+```pseudo
+   \begin{algorithm}
+    \begin{algorithmic}
+      \PROCEDURE{Breadth-first-search}{$problem$} 
+		\STATE $node \gets$Node($problem.$INITIAL)
+		\If{$problem.$IsGoal($node$.STATE)} \return $node$
+		\EndIf
+		\State $frontier \gets$ a FIFO queue, with $node$ as an element
+		\State $reached \gets \lbrace problem.$INITIAL $\rbrace$ 
+		\While{$\textbf{not}$ IsEmpty($frontier$)}
+			\State $node \gets $Pop($frontier$)
+			\For{$\textbf{each}$ child $\textbf{in}$ Expand($problem, node$)}
+				\State $s \gets child.$STATE
+				\If{$problem.$IsGoal($s$)} \Return $child$
+				\EndIf
+				\If{$s$ is not in $reached$}
+					\State add $s$ to reached
+					\State add $child$ to frontier
+				\EndIf
+			\EndFor
+		\EndWhile
+		\Return $failure$
+      \ENDPROCEDURE
+      \end{algorithmic}
+    \end{algorithm}
+```
+This is implemented with a [[Priority queue]] and it's complete, optimal and has a temporal complexity of $O(b^{d+1})$ nodes
+
+### Uniform-Cost Search
+
+It generalizes BFS sorting the nodes in the frontier according to their increasing path cost from the root. It does not choose the shallowest node. This algorithm is complete, optimal and it's complexity is $O(b^{1+\lceil C^{*} / \epsilon\rceil})$ nodes
+
+### Depth First Search
+
+It's an algorithm that selects a root node, then, it expands one of its successor the one of its successor, and so on. When it reaches a node without successor, it 'backtracks' and chooses one of the deepest nodes not yet chosen. It's frontier can be represented by a Last-In-First-Out queue (LIFO) or it can be implemented using recursion.

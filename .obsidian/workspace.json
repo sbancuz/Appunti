@@ -18,12 +18,25 @@
             }
           },
           {
-            "id": "094404af64e08b5c",
+            "id": "33fdf8bace810b1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mobile code.md",
+                "file": "Search algorithm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48899d4288c4d064",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rational Agents.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mobile code.md",
+                "file": "Search algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mobile code.md",
+                "file": "Search algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mobile code.md"
+                "file": "Search algorithm.md"
               }
             }
           }
@@ -170,11 +183,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "094404af64e08b5c",
+  "active": "33fdf8bace810b1e",
   "lastOpenFiles": [
+    "Rational Agents.md",
+    "Search algorithm.md",
+    "Building a goal based agent.md",
+    "Machine learning.md",
+    "Priority queue.md",
+    "Mobile code.md",
     "mobile code.png",
     "Modeling a distributed system.md",
-    "Mobile code.md",
     "Event based.md",
     "Data centered.md",
     "RPC.md",
@@ -194,10 +212,6 @@
     "transazioni.md",
     "Firewall.md",
     "13. Sicurezza dei sistemi.md",
-    "Chiave asimmetrica.md",
-    "9. Data Mining.md",
-    "MAC.md",
-    "Intrusion Detection System.md",
     "services oriented.png",
     "Ntiers.png",
     "DS.png",
@@ -207,7 +221,6 @@
     "step cost 1.png",
     "8puzzle.png",
     "learning agents.png",
-    "Agent coplexity.png",
     "Excalidraw"
   ]
 }
