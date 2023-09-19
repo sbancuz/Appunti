@@ -29,9 +29,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "23054ab4adfd8298",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributed System.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76b05f77a798d1a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RPC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model optimization problems.md",
+                "file": "RPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Model optimization problems.md",
+                "file": "RPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Model optimization problems.md"
+                "file": "RPC.md"
               }
             }
           }
@@ -170,10 +196,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e8c74a95eef2f0cb",
+  "active": "76b05f77a798d1a3",
   "lastOpenFiles": [
-    "Regular expressions.md",
+    "Distributed algorithms.md",
+    "RPC.md",
+    "RPC.png",
+    "synchronization.png",
+    "OSI.png",
+    "Distributed System.md",
+    "Modeling a distributed system.md",
     "Model optimization problems.md",
+    "Regular expressions.md",
     "Formal languages.md",
     "Search algorithm.md",
     "Rational Agents.md",
@@ -182,10 +215,8 @@
     "Priority queue.md",
     "Mobile code.md",
     "mobile code.png",
-    "Modeling a distributed system.md",
     "Event based.md",
     "Data centered.md",
-    "RPC.md",
     "Object-oriented distributed system.md",
     "SOAP.md",
     "P2P.md",
@@ -196,18 +227,12 @@
     "Ring buffer.md",
     "Teoria degli insiemi.md",
     "1. Introduzione.md",
-    "Prescrittività.md",
-    "CRM Operativo.md",
-    "Servizi.md",
     "services oriented.png",
     "Ntiers.png",
     "DS.png",
     "Machine learning.png",
     "search tree.png",
     "step cost.png",
-    "step cost 1.png",
-    "8puzzle.png",
-    "learning agents.png",
     "Excalidraw"
   ]
 }

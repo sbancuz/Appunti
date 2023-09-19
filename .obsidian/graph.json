@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "distri",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -88,6 +88,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 275,
-  "scale": 0.11388322764038221,
-  "close": true
+  "scale": 0.9442112457999686,
+  "close": false
 }

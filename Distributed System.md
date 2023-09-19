@@ -15,6 +15,7 @@ The defining features of a distributed system are:
 - Independent failures
 
 --> [[Modeling a distributed system]]
+--> [[Distributed algorithms]]
 ### Biggest problems
 
 ##### Heterogeneity
