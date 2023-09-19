@@ -18,51 +18,12 @@
             }
           },
           {
-            "id": "33fdf8bace810b1e",
+            "id": "e8c74a95eef2f0cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Search algorithm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e813e204d72de6f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formal languages.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9caf3d3934364185",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regular expressions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48899d4288c4d064",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rational Agents.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +31,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular expressions.md"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -209,10 +170,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9caf3d3934364185",
+  "active": "e8c74a95eef2f0cb",
   "lastOpenFiles": [
-    "Formal languages.md",
     "Regular expressions.md",
+    "Untitled 1.md",
+    "Formal languages.md",
     "Search algorithm.md",
     "Rational Agents.md",
     "Building a goal based agent.md",
@@ -237,7 +199,6 @@
     "Prescrittività.md",
     "CRM Operativo.md",
     "Servizi.md",
-    "transazioni.md",
     "services oriented.png",
     "Ntiers.png",
     "DS.png",

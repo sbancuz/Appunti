@@ -54,4 +54,9 @@ $$
 (a\cup b)^{*}a(a\cup b)^{*} &\implies \epsilon a(a\cup b)^{*} \implies \epsilon a(a\cup b) \to \epsilon aa \implies aa \\
 \end{align}
 $$
-A regex can be considered ambiguos if the corresponfing marked regex $f_{}$
+A regex can be considered ambiguous if the corresponding marked regex $f_{\#}$ generates two marked strings $x$ and $y$ such that, if the indices are removed, the unmarked strings obtained are identical.
+
+It's better to have non ambiguous regexes if possible. It's always possible to disambiguate a regex.
+$$
+\Sigma^{*} a \Sigma^{*}= (a|b)^{*}a(a|b)^{*} = \Sigma^{*}ab^{*}
+$$
