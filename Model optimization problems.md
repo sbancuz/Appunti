@@ -24,6 +24,6 @@ $$
 $$
 \pi_{i} = \pi_{i}^{+} - \pi_{i}^{-} \text{ where } \pi_{i}^{+},\pi_{i}^{-} \geq 0 
 $$
-- relative value : 
+- relative value : it's a fraction of a value
 - 0-1
 - discrete value
