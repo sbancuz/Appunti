@@ -29,9 +29,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3188c177f9f28dfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model optimization problems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Divide and conquer approach.md",
+                "file": "Model optimization problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Divide and conquer approach.md",
+                "file": "Model optimization problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Divide and conquer approach.md"
+                "file": "Model optimization problems.md"
               }
             }
           }
@@ -170,7 +183,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "79a8e54b11ba5c53",
+  "active": "3188c177f9f28dfd",
   "lastOpenFiles": [
     "Divide and conquer approach.md",
     "Algorithms.md",
