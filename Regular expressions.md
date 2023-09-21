@@ -19,7 +19,7 @@ A regex e is a language $L_{e}$ over $\Sigma$ according to the following table
 | - | - |
 | $\epsilon$ | $\{ \epsilon \}$ |*
 | $a \in \Sigma$ | $\{ a \}$ |
-| $s\cup t \text{ or }s|t$ | $L_{s}\cup L_{t}$ |
+| $s\cup t$ | $L_{s}\cup L_{t}$ |
 | $st$ | $L_{s}L_{t}$ |
 | $s^{*}$ | $L_{s}^{*}$ |
 
