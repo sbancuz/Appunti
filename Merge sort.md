@@ -1,6 +1,7 @@
 ---
 tags:
   - parallel_computing
+  - coding
 ---
 
 ```pseudo

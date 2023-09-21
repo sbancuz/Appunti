@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "analisi_1",
@@ -92,16 +92,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1,
+  "textFadeMultiplier": -2,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1.04427083333333,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.739583333333333,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 275,
-  "scale": 0.49688742792420776,
+  "scale": 0.28261660368123903,
   "close": true
 }

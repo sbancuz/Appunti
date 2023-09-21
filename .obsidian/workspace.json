@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "b8ef692b902d0a07",
+            "id": "0c813f0e1587e322",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Algorithms.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Piramide_della_conoscenza",
+                "query": "tag:#parallel_computing",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular expressions.md"
+                "file": "Algorithms.md"
               }
             }
           }
@@ -170,13 +170,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b8ef692b902d0a07",
+  "active": "0c813f0e1587e322",
   "lastOpenFiles": [
+    "Merge sort.md",
+    "Algorithms.md",
+    "Regular expressions.md",
     "Divide and conquer approach.md",
     "Model optimization problems.md",
     "Pasted image 20230920115409.png",
-    "Algorithms.md",
-    "Merge sort.md",
     "Master method.md",
     "merge sort.png",
     "RPC.md",
@@ -186,7 +187,6 @@
     "OSI.png",
     "Distributed System.md",
     "Modeling a distributed system.md",
-    "Regular expressions.md",
     "Formal languages.md",
     "Search algorithm.md",
     "Rational Agents.md",
