@@ -23,6 +23,22 @@ A regex e is a language $L_{e}$ over $\Sigma$ according to the following table
 | $st$ | $L_{s}L_{t}$ |
 | $s^{*}$ | $L_{s}^{*}$ |
 
+| Syntax | Match |
+| - | - |
+| x | the 'x' character |
+| . | any character |
+| [xyz] | x or y or z |
+| [a-z] | any character between a and z |
+| [\^a-z] | any character except between a and z |
+| R* | any occurrences of R |
+| R+ | one or more occurrences of R|
+| R? | zero or one occurrences of of R|
+| R \| S| either R or S|
+|R {n, N} | a number of occurrences of R ranging from n to N|
+|\^R | R at the beginning of the line|
+| R$ | R at the end of the line|
+| (R) | capture groups |
+
 **REG** is defined as the collection of all regular languages.
 **FIN** is the collection of all languages of finite cardinality.
 
