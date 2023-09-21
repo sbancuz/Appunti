@@ -42,7 +42,25 @@ $$
 $$
 #### Logical constraint
 
-Binary values can be seen as logical variables and thus can be used to express propositional operator.
+Binary values can be seen as logical variables and thus can be used to express propositional operator. To use a logical constraint onto real variables we have to create systems
+$$
+\begin{align}
+ y_{1}   = & \begin{cases}
+1  &  x_{1} > 0 \\
+0  & \text{otherwise}
+\end{cases} \\
+ y_{2}   = & \begin{cases}
+1  &  x_2 > 0 \\
+0  & \text{otherwise}
+\end{cases} \\ 
+\implies  & \begin{cases}
+y_{1} + y_{2} \leq 1 \\
+x_{1} \leq M y_{1} \\
+x_{2} \leq M y_{2}
+\end{cases}
+\end{align}
+$$
+where $M$ is just a big constant or just a limit.
 ### Transformations
 
 We can transform a rule into another equivalent rule if we need.
@@ -52,7 +70,6 @@ $$
 This could be needed if the solver can't work with a certain constraint.
 To transform an inequality to an equality we can just add a parameter $s \geq 0$ such that
 $$
-\sum_{i} a_{i}x_{i} + s\leq b
+\sum_{i} a_{i}x_{i} ± s\leq b
 $$
 and varying the value of $s$ gives us a discriminant that tells us if our result is equal or not to $b$
-
