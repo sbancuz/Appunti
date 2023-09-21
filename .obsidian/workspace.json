@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "0c813f0e1587e322",
+            "id": "96667744abe7fc09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms.md",
+                "file": "Time complexity for PRAM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms.md",
+                "file": "Time complexity for PRAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms.md",
+                "file": "Time complexity for PRAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms.md"
+                "file": "Time complexity for PRAM.md"
               }
             }
           }
@@ -170,10 +170,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0c813f0e1587e322",
+  "active": "96667744abe7fc09",
   "lastOpenFiles": [
-    "Merge sort.md",
+    "Parallel machine model.md",
+    "Time complexity for PRAM.md",
     "Algorithms.md",
+    "Merge sort.md",
     "Regular expressions.md",
     "Divide and conquer approach.md",
     "Model optimization problems.md",
@@ -202,7 +204,6 @@
     "P2P.md",
     "REST.md",
     "2023-09-18.md",
-    "UDDI.md",
     "services oriented.png",
     "Ntiers.png",
     "DS.png",
