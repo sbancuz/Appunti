@@ -2,25 +2,11 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
-  "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": true,
   "colorGroups": [
-    {
-      "query": "meccanica",
-      "color": {
-        "a": 1,
-        "rgb": 16349441
-      }
-    },
-    {
-      "query": "economia",
-      "color": {
-        "a": 1,
-        "rgb": 5429216
-      }
-    },
     {
       "query": "analisi_1",
       "color": {
@@ -29,58 +15,93 @@
       }
     },
     {
+      "query": "analisi_2",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
       "query": "sistemi_informativi",
       "color": {
         "a": 1,
-        "rgb": 5396192
+        "rgb": 11657298
       }
     },
     {
-      "query": "coding",
+      "query": "economia",
       "color": {
         "a": 1,
-        "rgb": 14111456
-      }
-    },
-    {
-      "query": "Clang",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "norks",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
+        "rgb": 5431378
       }
     },
     {
       "query": "gal",
       "color": {
         "a": 1,
-        "rgb": 11272084
+        "rgb": 5431473
       }
     },
     {
-      "query": "AI",
+      "query": "meccanica",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "artificial_intelligence",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "coding",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "distributed_systems",
       "color": {
         "a": 1,
         "rgb": 14701233
       }
+    },
+    {
+      "query": "compilers",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "operations_research",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "parallel_computing",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1,
-  "nodeSizeMultiplier": 0.993229166666667,
-  "lineSizeMultiplier": 0.508333333333333,
+  "textFadeMultiplier": -2,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.04427083333333,
   "collapse-forces": true,
-  "centerStrength": 0.291666666666667,
-  "repelStrength": 9.58333333333333,
-  "linkStrength": 0.864583333333333,
-  "linkDistance": 263,
-  "scale": 0.073152101921792,
-  "close": false
+  "centerStrength": 0.739583333333333,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 275,
+  "scale": 0.11349907970656742,
+  "close": true
 }

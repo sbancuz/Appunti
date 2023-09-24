@@ -18,32 +18,6 @@
             }
           },
           {
-            "id": "b2e28f89fb66302a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mind vs Brain.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21ed57a181acd47b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mind vs Brain.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d1e2bafec2bd1b29",
             "type": "leaf",
             "state": {
@@ -52,9 +26,22 @@
                 "currentVersion": "1.4.13"
               }
             }
+          },
+          {
+            "id": "9338b2c4845f562a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind vs Brain.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind vs Brain.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind vs Brain.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -192,44 +179,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d1e2bafec2bd1b29",
+  "active": "9338b2c4845f562a",
   "lastOpenFiles": [
-    "Mind vs Brain.md",
-    "Dinamica.md",
     "conflict-files-obsidian-git.md",
-    "stato patrimoniale.png",
-    "rateo.png",
-    "conti per natura.png",
-    "ciclo di gestione.png",
-    "Versori.md",
-    "Utile.md",
-    "Untitled.md",
-    "Teoria degli insiemi.md",
-    "Studio qualitativo delle EDO del primo ordine.md",
-    "Stato patrimoniale.md",
-    "Spazio Rn.md",
-    "Sistemi lineari omogenei.md",
-    "Sistemi lineari non omogeneo.md",
-    "Sistemi differenziali lineari.md",
-    "Shareholders.md",
-    "Serie notevoli.md",
-    "Serie di potenze.md",
-    "Serie di potenze complesse.md",
-    "Serie di Taylor.md",
-    "Serie di Fourier.md",
-    "Riserve.md",
-    "Ratei e risconti.md",
-    "Problema di Cauchy.md",
-    "Principio di sovrapposizione.md",
-    "Principi contabili.md",
-    "Polinomio trigonometrico.md",
-    "Patrimonio netto.md",
-    "Passivita.png",
-    "Excalidraw",
-    "CE per destinazione.png",
-    "Attivita.png",
-    "Asimmetriuca.png",
-    "ABC.png",
-    "JOC.png"
+    "synchronization.png",
+    "step cost.png",
+    "step cost 1.png",
+    "services oriented.png",
+    "search tree.png",
+    "mobile code.png",
+    "merge sort.png",
+    "learning agents.png",
+    "acting v thinking.png",
+    "UDDI.md",
+    "Time complexity for PRAM.md",
+    "Service oriented.md",
+    "Search algorithm.md",
+    "Regular expressions.md",
+    "Rational Agents.md",
+    "RPC.png",
+    "RPC.md",
+    "Priority queue.md",
+    "Performance measure.md",
+    "Party level architecture.md",
+    "Parallel machine model.md",
+    "P2P.md",
+    "Object-oriented distributed system.md",
+    "Modeling a distributed system.md",
+    "Model optimization problems.md",
+    "Mobile code.md",
+    "Minimax algorithm.md",
+    "Middleware.md",
+    "Merge sort.md",
+    "Master method.md",
+    "Markov property.md",
+    "Machine learning.md",
+    "Formal languages.md",
+    "Event based.md",
+    "Divide and conquer approach.md",
+    "Excalidraw"
   ]
 }

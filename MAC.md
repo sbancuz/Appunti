@@ -6,8 +6,8 @@ I sistemi gestiti in base a politiche mandatorie sono adatti per database con da
 I meccanismi di sicurezza che implementano politiche MAC devono garantire
 che tutti i soggetti abbiano accesso solo ai dati per cui possiedono la clearance
 appropriata. Le regole sono base sono:
-	1. #No-Read-Up -> Un soggetto S è autorizzato ad accedere in lettura a un oggetto O solo se L(S) >= L(O).
-	2. #No-Write-Down -> un soggetto S è autorizzato ad accedere in scrittura a un oggetto O solo se L(S) <= L(O).
+	1. No-Read-Up -> Un soggetto S è autorizzato ad accedere in lettura a un oggetto O solo se L(S) >= L(O).
+	2. No-Write-Down -> un soggetto S è autorizzato ad accedere in scrittura a un oggetto O solo se L(S) <= L(O).
 
 Tipici livelli di classificazione sono:
 	• Unclassified (U)
@@ -17,6 +17,6 @@ Tipici livelli di classificazione sono:
 
 ![[MAC.png]]
 
-Meccanismo fondamentale per la realizzazione è la polinstanziazione, ovvero l’istanziazione multipla di tabelle fisicamente separate a seconda della loro classificazione di sicurezza. Essa avviene tramite delle regole di relazione degli elementi #MLR
+Meccanismo fondamentale per la realizzazione è la polinstanziazione, ovvero l’istanziazione multipla di tabelle fisicamente separate a seconda della loro classificazione di sicurezza. Essa avviene tramite delle regole di relazione degli elementi MLR
 
 ![[polistanza.png]]

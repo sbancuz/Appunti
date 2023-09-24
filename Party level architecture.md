@@ -10,12 +10,12 @@ In un’architettura Party-level, diamo più dettagli che nel [[Market level arc
 	• Interfacce tra sistemi back end.
 	• Dettaglio delle interfacce tra sistemi front end e back end.
 
-I compponenti delle architetture Party-level sono:
+I componenti delle architetture Party-level sono:
 	• Componenti generici -> i principali componenti funzionali.
-	• #Database e #DBMS -> denotano componenti per la memorizzazione di dati e i componenti necessari per l’accesso ad essi.
+	• Database e DBMS -> denotano componenti per la memorizzazione di dati e i componenti necessari per l’accesso ad essi.
 	• Connettori -> entità di collegamento fra i componenti. 
 	
-Nell’architettura Party-level, mostriamo gli stessi sistemi front-end dell’architettura Market-level e gli altri partecipanti vengono viste come entità esterne.
+Nell'architettura Party-level, mostriamo gli stessi sistemi front-end dell’architettura Market-level e gli altri partecipanti vengono viste come entità esterne.
 
 ![[Party level.png]]
 

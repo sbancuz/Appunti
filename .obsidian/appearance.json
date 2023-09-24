@@ -2,9 +2,10 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "big_math",
-    "editor_size"
+    "editor_size",
+    "center_image"
   ],
-  "baseFontSize": 14,
+  "baseFontSize": 15,
   "theme": "obsidian",
   "cssTheme": "Catppuccin"
 }

@@ -6,8 +6,8 @@ Una CPU virtuale è un componente software che, agli occhi dell’utilizzatore, 
 	• frazionamento delle risorse fisiche in più virtuali
 	• condivisione delle risorse fisiche tra quelle virtuali
 
-Questi applicativi sono detti macchine virtuali #VM, la corrispondenza tra le risorse virtuali e fisiche è gestita dall' #hypervisor che può essere installato bare metal o sopra ad un OS. #XEN #VMWare #VirtualBox #KVM
+Questi applicativi sono detti macchine virtuali, la corrispondenza tra le risorse virtuali e fisiche è gestita dall' hypervisor che può essere installato bare metal o sopra ad un OS. 
 
 ![[VM.png]]
 
-Un ultimo vantaggio delle #VM è la capacità di migrazione da una macchina fisica ad un'altra, normalmente si fa a freddo, ma si possono anche fare a caldo
+Un ultimo vantaggio delle VM è la capacità di migrazione da una macchina fisica ad un'altra, normalmente si fa a freddo, ma si possono anche fare a caldo
