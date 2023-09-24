@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1e2bafec2bd1b29",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +192,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "21ed57a181acd47b",
+  "active": "d1e2bafec2bd1b29",
   "lastOpenFiles": [
     "Mind vs Brain.md",
     "Dinamica.md",
