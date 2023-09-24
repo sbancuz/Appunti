@@ -76,3 +76,26 @@ $$
 \lim_{ (x,y) \to (x_{0},y_{0}) } {f(x)} = l
 $$
 
+---
+
+$$
+\begin{align}
+y_{s}  =  & \begin{cases}
+1  & x_{s} > 0 \\
+0  & otherwise
+\end{cases} \\
+y_{a}  =  & \begin{cases}
+1  & x_{s} \geq a \\
+0  & otherwise
+\end{cases} \\
+y_{b}  =  & \begin{cases}
+1  & x_{s} \leq b \\
+0  & otherwise
+\end{cases} \\
+ & \begin{cases} 
+z = y_{a} \times y_{b} \\
+z + (1 - y_{s}) - s_{l} \geq 1  & \text{ xor }\\ 
+x_{s} \leq My_{a} \\
+\end{cases}
+\end{align}
+$$
