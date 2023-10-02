@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "1a0c62b3f061e44d",
+            "id": "ceaee3352fdc8703",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model optimization problems.md",
+                "file": "Free grammars.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,11 +50,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#operations_research",
-                "matchingCase": false,
+                "query": "tag:#parallel_computing",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "byModifiedTime"
               }
             }
@@ -78,7 +78,7 @@
             }
           },
           {
-            "id": "333786a07003e6bf",
+            "id": "16be7a463d311452",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 306,
     "collapsed": true
   },
   "right": {
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model optimization problems.md",
+                "file": "Free grammars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Model optimization problems.md",
+                "file": "Free grammars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Model optimization problems.md"
+                "file": "Free grammars.md"
               }
             }
           }
@@ -170,44 +170,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1a0c62b3f061e44d",
+  "active": "ceaee3352fdc8703",
   "lastOpenFiles": [
-    "Scratchpad.md",
-    "Model optimization problems.md",
-    "conflict-files-obsidian-git.md",
-    "synchronization.png",
-    "step cost.png",
-    "step cost 1.png",
-    "services oriented.png",
-    "search tree.png",
-    "mobile code.png",
-    "merge sort.png",
-    "learning agents.png",
-    "acting v thinking.png",
-    "UDDI.md",
-    "Time complexity for PRAM.md",
-    "Service oriented.md",
-    "Search algorithm.md",
-    "Regular expressions.md",
-    "Rational Agents.md",
-    "RPC.png",
-    "RPC.md",
-    "Priority queue.md",
-    "Performance measure.md",
-    "Party level architecture.md",
-    "Parallel machine model.md",
-    "P2P.md",
-    "Object-oriented distributed system.md",
-    "Modeling a distributed system.md",
-    "Mobile code.md",
-    "Minimax algorithm.md",
-    "Middleware.md",
-    "Merge sort.md",
-    "Master method.md",
-    "Markov property.md",
-    "Machine learning.md",
+    "Algorithm for reduced BNF.md",
+    "Free grammars.md",
+    "grammar.png",
     "Formal languages.md",
+    "Regular expressions.md",
+    "Time complexity for PRAM.md",
+    "Parallel machine model.md",
+    "Algorithms.md",
+    "Merge sort.md",
+    "Divide and conquer approach.md",
+    "Model optimization problems.md",
+    "Pasted image 20230920115409.png",
+    "Master method.md",
+    "merge sort.png",
+    "RPC.md",
+    "Distributed algorithms.md",
+    "RPC.png",
+    "synchronization.png",
+    "OSI.png",
+    "Distributed System.md",
+    "Modeling a distributed system.md",
+    "Search algorithm.md",
+    "Rational Agents.md",
+    "Building a goal based agent.md",
+    "Machine learning.md",
+    "Priority queue.md",
+    "Mobile code.md",
+    "mobile code.png",
     "Event based.md",
+    "Data centered.md",
+    "Object-oriented distributed system.md",
+    "SOAP.md",
+    "P2P.md",
+    "services oriented.png",
+    "Ntiers.png",
+    "DS.png",
     "Excalidraw"
   ]
 }
