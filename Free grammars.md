@@ -8,7 +8,14 @@ The symbols that represent a grammar are:
 - **axioms** -> they define the whole language phrase (this doesn't use strings but just phrases)
 - **phrases** -> they define the phrase components
 
-Two grammars are considered equals only if they generate the same language.
+Almost all the formal languages of practical use are infinite, that means that in order to generate an infinite language a grammar has to allow recursion if it does not already have a circular derivation.
+A grammar that does not contain a recursion is represented by an **acyclic** graph. To better visualize a grammar we use a [[Syntax tree]].
+
+A special case of language used in defining grammars is the [[Dyck language]] where parenthesis are defined to give precedence for operations. 
+
+Two grammars are considered equals only if they generate the same language but they can be divided in two cases:
+- weak equivalence -> the generated language is the same
+- strong equivalence -> the language is the same and the syntactic tree is structurally equivalent
 ### Derivation chain
 In order to represent the 'creation' of a phrase of a grammar we use a derivation chain that represents the steps took to represent it.
 
@@ -48,3 +55,19 @@ To ensure that every non terminal is defined and that it actually meaningfully c
 - The grammar may not have inessential circular derivations
 
 This can be achieved through [[Algorithm for reduced BNF]]. Reduced forms however doesn't prohibit redundancy 
+### Operations 
+
+The basic regular operations, applied to a free language, still yields free languages.
+- Union -> $G = (\Sigma_{1} \cup \Sigma_{2}, \{ S \}\cup V_{1}\cup V_{2}, \{ S \to S_{1} | S_{2} \} \cup P_{1}\cup P_{2}, S)$
+- Concatenation -> $G = (\Sigma_{1} \cup \Sigma_{2}, \{ S \}\cup V_{1}\cup V_{2}, \{ S \to S_{1} S_{2} \} \cup P_{1}\cup P_{2}, S)$
+- Star -> Just adds the rules $S\to S S_{1} | \epsilon$ 
+- Cross -> Just adds the rules $S \to S S_{1}|S_{1}$
+### Ambiguity
+
+If a string generated from a grammar can come from at least two different syntactic trees the grammar is considered ambiguous. There can be various types of ambiguity:
+1) Two-sided recursion -> a non-terminal symbol that is recursive both on the left and on the right always allows two or more derivations
+2) Left-right recursion
+3) Union -> if 2 languages share some phrases it's union will surely be ambiguous
+4) Concatenation -> if there is a suffix of a phrase of the former language that is a prefix of a phrase in the latter
+
+To resolve this issues the solutions can be to separate some rules to resolve ambiguities.
