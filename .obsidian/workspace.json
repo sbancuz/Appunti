@@ -18,19 +18,20 @@
             }
           },
           {
-            "id": "d4926934b3fc0635",
+            "id": "ac72941e4a3bff1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quicksort.md",
+                "file": "Radix sort.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Radix sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Radix sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Radix sort.md"
+              }
             }
           }
         ],
@@ -165,9 +170,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31d6ee9c09dff0d7",
+  "active": "ac72941e4a3bff1c",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "Machine learning.md",
+    "Markov property.md",
+    "Performance measure.md",
     "Quicksort.md",
+    "Radix sort.md",
+    "Search algorithm.md",
+    "Sorting algorithms.md",
+    "Stable sorting algorithm.md",
+    "Counting sort.md",
     "Numeri complessi.md",
     "Teorema fondamentale dell'algebra.md",
     "Randomized based algorithms.md",
@@ -189,20 +203,11 @@
     "Algorithms.md",
     "Complexity of an algorithm.md",
     "Master method.md",
-    "Performance measure.md",
-    "Merge sort.md",
-    "Divide and conquer approach.md",
     "chomsky.png",
-    "Model optimization problems.md",
     "Frontier.png",
-    "Dyck language.md",
-    "Syntax tree.md",
-    "Algorithm for reduced BNF.md",
     "grammar.png",
-    "Regular expressions.md",
     "Pasted image 20230920115409.png",
     "merge sort.png",
-    "RPC.md",
     "Excalidraw"
   ]
 }
