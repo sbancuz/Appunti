@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Randomized based algorithms.md",
+                "file": "Karger's min-cut algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Randomized based algorithms.md",
+                "file": "Karger's min-cut algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Randomized based algorithms.md",
+                "file": "Karger's min-cut algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Randomized based algorithms.md"
+                "file": "Karger's min-cut algorithm.md"
               }
             }
           }
@@ -167,14 +167,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false,
-      "translate:Open translation view": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "d4926934b3fc0635",
   "lastOpenFiles": [
-    "Costi variabili.md",
+    "Monte Carlo algorithm.md",
+    "Karger's min-cut algorithm.md",
+    "contract edge.png",
+    "mimncut.png",
     "Randomized based algorithms.md",
+    "Costi variabili.md",
     "Time complexity for PRAM.md",
     "amdal.png",
     "Parallel machine model.md",
@@ -203,12 +206,8 @@
     "merge sort.png",
     "RPC.md",
     "Distributed algorithms.md",
-    "RPC.png",
-    "synchronization.png",
     "Distributed System.md",
     "Modeling a distributed system.md",
-    "Search algorithm.md",
-    "Rational Agents.md",
     "Excalidraw"
   ]
 }
