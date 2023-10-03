@@ -14,3 +14,5 @@ The sorting algorithm always gives the correct solution, the only variation is t
 The Las Vegas is efficient if on any input its expected running time is bounded by a  polynomial function of the input size.
 
 ![[Monte Carlo algorithm]]
+
+![[Quicksort]]

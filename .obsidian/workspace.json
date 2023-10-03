@@ -23,15 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Karger's min-cut algorithm.md",
+                "file": "Quicksort.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Karger's min-cut algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Karger's min-cut algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Karger's min-cut algorithm.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -170,13 +165,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d4926934b3fc0635",
+  "active": "31d6ee9c09dff0d7",
   "lastOpenFiles": [
+    "Quicksort.md",
+    "Numeri complessi.md",
+    "Teorema fondamentale dell'algebra.md",
+    "Randomized based algorithms.md",
     "Monte Carlo algorithm.md",
     "Karger's min-cut algorithm.md",
     "contract edge.png",
     "mimncut.png",
-    "Randomized based algorithms.md",
     "Costi variabili.md",
     "Time complexity for PRAM.md",
     "amdal.png",
@@ -205,9 +203,6 @@
     "Pasted image 20230920115409.png",
     "merge sort.png",
     "RPC.md",
-    "Distributed algorithms.md",
-    "Distributed System.md",
-    "Modeling a distributed system.md",
     "Excalidraw"
   ]
 }
