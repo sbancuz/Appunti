@@ -37,6 +37,19 @@ Prams are classified based on their read/write abilities:
 - CW : Concurrent Write -> Write from the same memory location
 
 To deal with CW we could implement some kind of priority on the processor.
+### Common CRCW conflict
+
+The sum product can be simplified as 
+```pseudo
+\begin{algorithm}
+\begin{algorithmic}
+\If{$a_\$b_\$$} 
+	\State $x \gets 1$
+\EndIf
+\end{algorithmic}
+\end{algorithm}
+```
+with the time of $O(1)$, every processor if it writes, it writes the same value so it doesn't matter who writes it and we don't care about conflicts.
 ### [[Time complexity for PRAM]]
 ### Variants of PRAM
 

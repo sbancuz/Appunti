@@ -12,7 +12,13 @@ tags:
 | $C(n) = P(n)T(n)$ | Cost of processors and time |
 | $W(n)$ | Work = total number of operations |
 
-
 >[!example]
 >![[Logarithmic sum]]
 
+### Amdahl's law
+
+He was one of the three architects of IBM mainframes in 1967 and he objected to parallelism. In his model a computation can be divided in 2 segments:
+- sequential 
+- parallelizable
+
+And so a computation can be divided in either a sequential work done by a singular processor or some batches of work done by others.
