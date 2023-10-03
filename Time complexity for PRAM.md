@@ -12,3 +12,7 @@ tags:
 | $C(n) = P(n)T(n)$ | Cost of processors and time |
 | $W(n)$ | Work = total number of operations |
 
+
+>[!example]
+>![[Logarithmic sum]]
+

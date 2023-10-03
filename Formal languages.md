@@ -74,3 +74,10 @@ $$
 - quotient operator $\to L = L_{1}/L_{2} = \{ y|(x-yz \in L_{1}) \land z \in L_{2} \}$
 
 --> [[Regular expressions]]
+### Regular languages
+
+These are languages which are recognized by a [[Finite state automata]] and they are a sub-family of the languages recognizable by a [[Turing machine]]
+
+### Free languages
+
+These are a sub-family of the languages recognized by a [[Turing machine]] which have polynomial time [[Complexity of an algorithm]]

@@ -37,5 +37,18 @@ Prams are classified based on their read/write abilities:
 - CW : Concurrent Write -> Write from the same memory location
 
 To deal with CW we could implement some kind of priority on the processor.
-
 ### [[Time complexity for PRAM]]
+### Variants of PRAM
+
+1) Bounded number of shared memory cells
+#### Lemma
+
+Any problem that can be solved for a processor $P$ and $M$ cells in $T$ steps can be solved on a $\max(P,M')$ processors $M'$ cell pram in $O\left( \frac{TM}{M'} \right)$
+
+2) Bounded number of processor
+#### Lemma
+
+Any problem that can be solved for a $P$ processor pram in $T$ steps can be solved in a $P'$ simulating processor pram in $T'=O(\frac{TP}{P'})$ steps, assuming shared memory.
+
+3) Bounded size of a machine word
+4) Handling access conflicts

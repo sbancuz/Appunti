@@ -69,5 +69,23 @@ If a string generated from a grammar can come from at least two different syntac
 2) Left-right recursion
 3) Union -> if 2 languages share some phrases it's union will surely be ambiguous
 4) Concatenation -> if there is a suffix of a phrase of the former language that is a prefix of a phrase in the latter
+5) Concatenation of [[Dyck language]]
 
 To resolve this issues the solutions can be to separate some rules to resolve ambiguities.
+### Normal form
+
+Normal forms impose more restriction to the rules, but without reducing the family of the generated languages.
+- Removing the axiom from the right member of the rules
+- Removing copy rules
+### Extensions
+
+A free grammar can be extended by means of [[Regular expressions]] since they can be more readable than a grammar. Programming languages are often presented in extended form.
+
+>[!note]
+>In an ABNF they arity may be unlimited
+
+This extension is also ambiguous since there are both the ambiguity of the grammar and regexes.
+
+![[chomsky.png]]
+
+

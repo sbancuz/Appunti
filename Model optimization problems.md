@@ -73,3 +73,8 @@ $$
 \sum_{i} a_{i}x_{i} ± s\leq b
 $$
 and varying the value of $s$ gives us a discriminant that tells us if our result is equal or not to $b$
+### Multi-criteria analysis
+
+When there are conflicting objective functions like minimize $a$ and maximise $b$ we can get the solution by graphing all the values and getting the boundaries 
+
+![[Frontier.png]]
