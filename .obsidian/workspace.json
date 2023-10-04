@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Message oriented communication.md",
+                "file": "Event based.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Message oriented communication.md",
+                "file": "Event based.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Message oriented communication.md",
+                "file": "Event based.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Message oriented communication.md"
+                "file": "Event based.md"
               }
             }
           }
@@ -172,8 +172,14 @@
   },
   "active": "4fe902d22ba2867a",
   "lastOpenFiles": [
-    "Modeling a distributed system.md",
     "Message oriented communication.md",
+    "messageQ.png",
+    "MPI.md",
+    "Berkeley sockets.md",
+    "Sockets in C.png",
+    "messages.png",
+    "Impresa.md",
+    "Modeling a distributed system.md",
     "Client server.md",
     "Object-oriented distributed system.md",
     "Service oriented.md",
@@ -196,18 +202,11 @@
     "contract edge.png",
     "mimncut.png",
     "Costi variabili.md",
-    "Time complexity for PRAM.md",
     "amdal.png",
-    "Parallel machine model.md",
-    "Logarithmic sum.md",
-    "Finite state automata.md",
     "NDFSM.png",
     "fms.png",
     "chomsky.png",
     "Frontier.png",
-    "grammar.png",
-    "Pasted image 20230920115409.png",
-    "merge sort.png",
     "Excalidraw"
   ]
 }
