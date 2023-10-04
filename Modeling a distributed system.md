@@ -23,3 +23,4 @@ It identifies the classes of components that build the system, the various types
 The communication in a distributed system can be implemented in:
 - [[Message oriented communication]]
 - [[RPC]]
+- [[Stream oriented communication]]
