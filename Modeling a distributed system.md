@@ -18,3 +18,8 @@ It identifies the classes of components that build the system, the various types
 - [[Data centered]]
 - [[Event based]]
 - [[Mobile code]]
+### Communication
+
+The communication in a distributed system can be implemented in:
+- [[Message oriented communication]]
+- [[RPC]]

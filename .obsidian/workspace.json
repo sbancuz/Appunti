@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "ac72941e4a3bff1c",
+            "id": "4fe902d22ba2867a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Radix sort.md",
+                "file": "Message oriented communication.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel_computing  ",
+                "query": "tag:#distributed_systems  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Radix sort.md",
+                "file": "Message oriented communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Radix sort.md",
+                "file": "Message oriented communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Radix sort.md"
+                "file": "Message oriented communication.md"
               }
             }
           }
@@ -170,14 +170,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ac72941e4a3bff1c",
+  "active": "4fe902d22ba2867a",
   "lastOpenFiles": [
+    "Modeling a distributed system.md",
+    "Message oriented communication.md",
+    "Client server.md",
+    "Object-oriented distributed system.md",
+    "Service oriented.md",
+    "UDDI.md",
+    "Radix sort.md",
     "Untitled 1.md",
     "Machine learning.md",
     "Markov property.md",
     "Performance measure.md",
     "Quicksort.md",
-    "Radix sort.md",
     "Search algorithm.md",
     "Sorting algorithms.md",
     "Stable sorting algorithm.md",
@@ -195,14 +201,8 @@
     "Parallel machine model.md",
     "Logarithmic sum.md",
     "Finite state automata.md",
-    "Non-deterministic finite state automaton.md",
     "NDFSM.png",
     "fms.png",
-    "Formal languages.md",
-    "Free grammars.md",
-    "Algorithms.md",
-    "Complexity of an algorithm.md",
-    "Master method.md",
     "chomsky.png",
     "Frontier.png",
     "grammar.png",
