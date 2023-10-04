@@ -23,20 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modeling a distributed system.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db9a613ce4665834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stream oriented communication.md",
+                "file": "Flat naming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -44,7 +31,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stream oriented communication.md",
+                "file": "Flat naming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stream oriented communication.md",
+                "file": "Flat naming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stream oriented communication.md"
+                "file": "Flat naming.md"
               }
             }
           }
@@ -183,17 +170,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "db9a613ce4665834",
+  "active": "4fe902d22ba2867a",
   "lastOpenFiles": [
+    "Name resolution.md",
+    "Flat naming.md",
+    "DHT.md",
+    "DHT.png",
+    "Modeling a distributed system.md",
+    "Stream oriented communication.md",
     "QoS.png",
     "stream.png",
     "Data streams.md",
-    "Stream oriented communication.md",
-    "Modeling a distributed system.md",
     "Event based.md",
     "Complex event processing.md",
     "Publish-Subscribe.md",
-    "DHT.md",
     "Message oriented communication.md",
     "messageQ.png",
     "MPI.md",
@@ -213,14 +203,10 @@
     "Quicksort.md",
     "Search algorithm.md",
     "Sorting algorithms.md",
-    "Stable sorting algorithm.md",
-    "Counting sort.md",
     "contract edge.png",
     "mimncut.png",
     "amdal.png",
     "NDFSM.png",
-    "fms.png",
-    "chomsky.png",
     "Excalidraw"
   ]
 }
