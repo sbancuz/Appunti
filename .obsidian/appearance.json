@@ -3,7 +3,9 @@
   "enabledCssSnippets": [
     "big_math",
     "editor_size",
-    "center_image"
+    "center_image",
+    "embed",
+    "fitting_embed"
   ],
   "baseFontSize": 15,
   "theme": "obsidian",

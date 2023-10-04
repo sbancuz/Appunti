@@ -1,0 +1,5 @@
+.markdown-embed {
+    border-right: var(--embed-border-left);
+    border-left: unset;
+    padding: unset;
+}
