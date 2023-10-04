@@ -13,3 +13,5 @@ The communication is:
 - Multicast
 - Implicit
 - Anonymous
+
+This type of communication has simple API
