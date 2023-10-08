@@ -18,12 +18,25 @@
             }
           },
           {
-            "id": "4fe902d22ba2867a",
+            "id": "166f431d7d800ebf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Garbage collector.md",
+                "file": "Graphs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09a6e570b086cb59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph problems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -31,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -50,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems  ",
+                "query": "tag:#operations_research  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Garbage collector.md",
+                "file": "Graph problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Garbage collector.md",
+                "file": "Graph problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Garbage collector.md"
+                "file": "Graph problems.md"
               }
             }
           }
@@ -170,11 +183,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4fe902d22ba2867a",
+  "active": "09a6e570b086cb59",
   "lastOpenFiles": [
+    "Graphs.md",
+    "Graph problems.md",
+    "Find union.md",
+    "graph.png",
+    "Garbage collector.md",
     "refcount.png",
     "Modeling a distributed system.md",
-    "Garbage collector.md",
     "Name resolution.md",
     "Flat naming.md",
     "Attribute based naming.md",
@@ -204,10 +221,6 @@
     "UDDI.md",
     "Radix sort.md",
     "Untitled 1.md",
-    "Machine learning.md",
-    "Markov property.md",
-    "contract edge.png",
-    "mimncut.png",
     "Excalidraw"
   ]
 }
