@@ -7,3 +7,5 @@ It's a group of server that resolves all names to IP on the internet. It's organ
 Each node may represent several entities through a set of resource records.
 
 ![[DNS.png]]
+
+When dealing with moving entities the DNS uses a forwarding pointer approach.
