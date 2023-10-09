@@ -27,4 +27,26 @@ The general technique for masking a failure is redundancy:
 - Information redundancy -> hamming codes, ECC, ...
 - Time redundancy -> try again
 - Physical redundancy -> multiple machines
+### Process resilience
 
+Redundancy can be used o mask the presence of faulty processes, with redundant process groups the work that can be done by a group of processes can be taken care of by multiple instances and when a process fails it doesn't have any impact on healthy processes. This method can be implemented in 2 methods:
+
+![[process group.png]]
+
+Having a group coordinator is "easy" but it's always a single point of failure.
+
+The size of the group depend on the types of failure that can occur to the group, let's consider a replicated-write system: information is stored by a set of replicated processes so $k + 1$ processes allow the system to be $k$-fault tolerant. But if the failures are byzantine then we need $2k + 1$ processes.
+
+In this method the failures are dealt with a majority of consensus approach, if the processes are deterministic, when all the processes finish executing the result will be the agreement dictated by all non faulty processes.
+
+All algorithms that detect crash failures must have these properties:
+- Agreement -> no 2 processes decide on different values
+- Validity -> $v$ is the only possible decision value
+- Termination -> All non-faulty processes eventually decide
+
+![[FloodSet algorithm]]
+
+On the other hand an algorithm that can handle also byzantine failures needs to have these properties:
+- Agreement -> No 2 non-faulty processes decide on different values
+- Validity -> If all non-faulty processes start with a starting value $v$, then $v$ is the only possible decision value
+- Termination -> all non-faulty processes eventually decide

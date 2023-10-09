@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Client server.md",
+                "file": "Fault tolerance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems  failure",
+                "query": "tag:#operations_research  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Client server.md",
+                "file": "Fault tolerance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Client server.md",
+                "file": "Fault tolerance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Client server.md"
+                "file": "Fault tolerance.md"
               }
             }
           }
@@ -172,11 +172,14 @@
   },
   "active": "f3e56232bcff30b4",
   "lastOpenFiles": [
+    "FloodSet algorithm.md",
     "Fault tolerance.md",
+    "process group.png",
+    "Paths.md",
+    "Client server.md",
     "Distributed System.md",
     "Distributed algorithms.md",
     "MPI.md",
-    "Paths.md",
     "Graph search algorithm.md",
     "Graph problems.md",
     "Graphs.md",
@@ -205,9 +208,6 @@
     "messageQ.png",
     "Berkeley sockets.md",
     "Sockets in C.png",
-    "messages.png",
-    "Impresa.md",
-    "Client server.md",
     "Excalidraw"
   ]
 }
