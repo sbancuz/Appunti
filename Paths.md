@@ -21,3 +21,8 @@ Given a graph, either there exists a directed path that goes from one node to an
 
 ### Shortest path problem
 
+If $G$ is acyclic we can define the topological order starting from the initial node, which is a node without any input arcs, then we repeat the process always selecting nodes with only 1 input. When we are done with all the nodes we can define a simple recursive algorithm that can find the shortest path.
+$$
+d[i] = \min\{d[j] + c_{ij}: (ij) \in BS(i)\}
+$$
+
