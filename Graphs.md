@@ -2,7 +2,7 @@
 tags:
   - operations_research
 ---
-A graph is a collection of nodes and arcs interconnected with each other. These arcs may have an associated weight that is represented by some constant.
+A graph is a collection of nodes and arcs interconnected with each other. These arcs may have an associated weight that is represented by some non negative constant.
 
 ![[graph.png]]
 ### Path

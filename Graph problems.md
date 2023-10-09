@@ -2,7 +2,7 @@
 tags:
   - operations_research
 ---
-Given a [[Graphs]], we define a [[Model optimization problems]] in which a solution is a subgraph or path that minimizes/maximises the sum of all the weights.
+Given a [[Graphs]], we define a [[Model optimization problems]] in which a solution is a subgraph or [[Paths]] that minimizes/maximises the sum of all the weights.
 $$
 \begin{align}
 \text{Sets: } &  N, A \\
@@ -23,7 +23,7 @@ $$
 \Procedure{Kruskal}{G}
 	\State sortWeights($G$)
 	\State $A' \gets \emptyset$
-	\While{|$A' \ne n-1$|}
+	\While{|$A'$|$ \ne n-1$}
 		\If{doesInduceCycle($A' \cup \{i,j\}$)}
 			\State $A' \gets A' \cup \{i,j\}$
 		\EndIf
