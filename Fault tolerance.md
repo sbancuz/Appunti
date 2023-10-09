@@ -44,9 +44,16 @@ All algorithms that detect crash failures must have these properties:
 - Validity -> $v$ is the only possible decision value
 - Termination -> All non-faulty processes eventually decide
 
-![[FloodSet algorithm]]
-
 On the other hand an algorithm that can handle also byzantine failures needs to have these properties:
 - Agreement -> No 2 non-faulty processes decide on different values
 - Validity -> If all non-faulty processes start with a starting value $v$, then $v$ is the only possible decision value
 - Termination -> all non-faulty processes eventually decide
+
+![[FloodSet algorithm]]
+#### Reliable group communication
+
+The idea with this approach is to exploit process resilience by means of replication. In this approach groups are fixed and process must be non-faulty. In case of a multicast failure the receiver must send 
+back a NACK. The problem here is that there must be an agreement about who is in the group and that the receiver must be able to infer if a packet is missing.
+
+![[non rel comm.png]]
+

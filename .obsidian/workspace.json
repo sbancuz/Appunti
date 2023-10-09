@@ -172,6 +172,8 @@
   },
   "active": "f3e56232bcff30b4",
   "lastOpenFiles": [
+    "non rel comm.png",
+    "Pasted image 20231009143834.png",
     "FloodSet algorithm.md",
     "Fault tolerance.md",
     "process group.png",
@@ -206,8 +208,6 @@
     "Publish-Subscribe.md",
     "Message oriented communication.md",
     "messageQ.png",
-    "Berkeley sockets.md",
-    "Sockets in C.png",
     "Excalidraw"
   ]
 }
