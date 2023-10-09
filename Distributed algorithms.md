@@ -13,17 +13,8 @@ There are 2 types of distributed systems:
 - Synchronous : the time to execute each step has known bounds of executions, transmission and clock
 - Asynchronous : there isn't any bounds
 
-### Failure model
+### ([[Fault tolerance]])
 
-Both processes and communication channels may fail. The failure model defines the ways in which failure may occur to provide a better understanding of the effects of failures.
-We distinguish between:
-- Omission failures : crash / can't send / can't receive
-- Byzantine failures : omit processing steps / message contents may be corrupted
-- Timing failures : (only synchronous) when a time limit is violated
-
-#### Failure detection
-
-Distributed consensus is formally proved to be impossible in an asynchronous system because a message can always be lost. But in reality if we can create a system that can work almost always.
 
 ### Layered protocols
 
