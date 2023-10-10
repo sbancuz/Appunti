@@ -47,4 +47,16 @@ This has a **unique** initial and **non unique** final states. This graph can al
 
 ### Minimal automaton
 
-For every finite state language there exists one, and only one, deterministic finite state recognizer that has the smallest possible number of states. This type of FSM doesn't have indistinguishable states
+For every finite state language there exists one, and only one, deterministic finite state recognizer that has the smallest possible number of states. This type of FSM doesn't have indistinguishable states, and it's provable that a minimal deterministic automaton is unique.
+
+The uniqueness of the minimal automaton offers a way to check whether two deterministic finite state automata are equivalent. Check if the two minimal state-transition graphs are topologically
+identical and if they are then the 2 automaton are equivalent.
+
+To reduce an automaton we can use the indistinguishably table. (Copiare le slide di reti logiche...)
+### [[Regular expressions]] in automatons
+
+Assume the initial and final states $i$ and $t$ are unique and do not have incoming or outgoing arcs. We can construct the so called **generalized finite automaton**: its arcs may be labeled with regular expressions. To get this automaton we can remove a node and add arcs with regular expression such that the equivalence is preserved.
+
+>[!note]
+>The elimination order does not matter, but a different order may lead to different regexes
+

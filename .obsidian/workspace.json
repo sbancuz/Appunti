@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fault tolerance.md",
+                "file": "Finite state automata.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fault tolerance.md",
+                "file": "Finite state automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fault tolerance.md",
+                "file": "Finite state automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fault tolerance.md"
+                "file": "Finite state automata.md"
               }
             }
           }
@@ -172,9 +172,13 @@
   },
   "active": "f3e56232bcff30b4",
   "lastOpenFiles": [
+    "Regular expressions.md",
+    "Finite state automata.md",
+    "Non-deterministic finite state automaton.md",
+    "grammar vs ndfsm.png",
+    "Fault tolerance.md",
     "Client server.md",
     "Paths.md",
-    "Fault tolerance.md",
     "Logging.md",
     "FloodSet algorithm.md",
     "Minimax algorithm.md",
@@ -203,11 +207,7 @@
     "Flat naming.md",
     "Attribute based naming.md",
     "Structured naming.md",
-    "DNS.md",
     "DNS.png",
-    "name space.png",
-    "DHT.md",
-    "Stream oriented communication.md",
     "Excalidraw"
   ]
 }
