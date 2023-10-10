@@ -29,9 +29,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e578df6e4ae92b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Randomized based algorithms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Synchronization.md",
+                "file": "Randomized based algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Synchronization.md",
+                "file": "Randomized based algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Synchronization.md"
+                "file": "Randomized based algorithms.md"
               }
             }
           }
@@ -170,12 +183,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e56fe4ba2e191809",
+  "active": "6e578df6e4ae92b0",
   "lastOpenFiles": [
+    "Synchronization.md",
     "logic clock.png",
     "NTP.md",
     "NTP.png",
-    "Synchronization.md",
     "Berkley algorithm.md",
     "Cristian's algorithm.md",
     "cristian algo.png",
@@ -201,7 +214,6 @@
     "Rollback dependency graph.md",
     "checkpointing.png",
     "Virtual sync.png",
-    "hie feedback control.png",
     "Distributed System.md",
     "Distributed algorithms.md",
     "MPI.md",

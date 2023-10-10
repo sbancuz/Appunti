@@ -16,3 +16,7 @@ The Las Vegas is efficient if on any input its expected running time is bounded 
 ![[Monte Carlo algorithm]]
 
 ![[Quicksort]]
+
+TODO: COPY SELECT-ITH
+====
+
