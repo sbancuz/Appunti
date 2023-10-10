@@ -59,4 +59,8 @@ Assume the initial and final states $i$ and $t$ are unique and do not have incom
 
 >[!note]
 >The elimination order does not matter, but a different order may lead to different regexes
+### Elimination of indeterminism
 
+For efficiency reasons, usually the final automaton ought to be in deterministic form. The algorithm to transform and indeterminate to a determinate finite state automaton has 2 steps:
+1) Elimination of spontaneous moves, this translates to the removal of copy rules with either backward of forward propagation. This just means we decide when we remove a connection how we should move the connections such that the 2 automatons are equivalent 
+2) Replacement of the non-deterministic multiple transitions by changing the automaton state set.

@@ -76,3 +76,10 @@ It's better to have non ambiguous regexes if possible. It's always possible to d
 $$
 \Sigma^{*} a \Sigma^{*}= (a|b)^{*}a(a|b)^{*} = \Sigma^{*}ab^{*}
 $$
+### Translate to [[Finite state automata]]
+
+There are a few algorithms that can perform this transformation:
+- [[Thompson]] 
+- [[Berry-Sethi]]
+
+
