@@ -56,4 +56,37 @@ The idea with this approach is to exploit process resilience by means of replica
 back a NACK. The problem here is that there must be an agreement about who is in the group and that the receiver must be able to infer if a packet is missing.
 
 ![[non rel comm.png]]
+#### Hierarchical feedback control
 
+Receivers are organized in groups headed by a coordinator and groups are organized in a tree routed at the sender.
+
+![[hie feedback control.png]]
+### Synchrony
+
+Ideally we would like:
+- any 2 processes that receive the same multicast message to see the corresponding events in the same order
+- multicast will be delivered to all the members of the group
+
+Unfortunately this can't be the case, thus we need a mechanism to detect these types of failures, and even if we can detect failures correctly, we cannot know whether a failed process has received and processed a message. To resolve this we implement a form of virtual synchrony. With virtual synchrony a group view is the set of processes to which a message should be delivered as seen by the sender at the sending time and also all group view changes must be delivered in a consistent order with respect to other multicasts and each other. We say that a view change occurs when a process joins or leaves the group.
+
+![[Virtual sync.png]]
+
+Retaining the virtual synchrony property, we can identify different orderings for the multicast messages: 
+- Unordered multicasts
+- FIFO
+- Causally-ordered multicast
+
+>[!warning]
+>No matter the ordering chosen, we must guarantee that messages must be delivered to every group member in the same order
+#### Atomic multicast
+
+Atomic multicast is defined as a virtually synchronous reliable multicast offering totally ordered delivery of messages.
+### Recovering
+
+When a process resumes its work after a failure, they have to be taken back to a correct state:
+- Backward recovery -> the system is brought back to a previously saved correct state
+- Forward recovery -> the system is brought into a new correct state from which execution can be resumed
+
+This can be achieved through:
+- [[Checkpointing]]
+- [[Logging]]
