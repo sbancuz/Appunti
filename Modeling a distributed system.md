@@ -13,7 +13,7 @@ It identifies the classes of components that build the system, the various types
 - [[Client server]] (Most common)
 - [[Service oriented]]
 - [[REST]]
-- [[P2P]]
+- [[Peer to peer]]
 - [[Object-oriented distributed system]]
 - [[Data centered]]
 - [[Event based]]

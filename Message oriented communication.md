@@ -14,7 +14,7 @@ The well-known protocols that implement this interface are:
 To use them we need to program with [[Berkeley sockets]] or [[MPI]].
 ### Message queuing
 
-It's a point-to-point persistent asynchronous communication, intrinsically [[P2P]]. It works by creating queues that send and receive messages. In principle it's like how e-mail works.
+It's a point-to-point persistent asynchronous communication, intrinsically [[Peer to peer]]. It works by creating queues that send and receive messages. In principle it's like how e-mail works.
 
 ![[messageQ.png]]
 
