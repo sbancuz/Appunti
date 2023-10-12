@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Peer to peer.md",
+                "file": "Randomized data structure.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Peer to peer.md",
+                "file": "Randomized data structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Peer to peer.md",
+                "file": "Randomized data structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Peer to peer.md"
+                "file": "Randomized data structure.md"
               }
             }
           }
@@ -172,6 +172,15 @@
   },
   "active": "7d097d25a32aebc7",
   "lastOpenFiles": [
+    "Randomized based algorithms.md",
+    "Primality test.md",
+    "RSA Cryptosystem.md",
+    "I-th selection.md",
+    "algo.png",
+    "Quicksort.md",
+    "Divide and conquer approach.md",
+    "Merge sort.md",
+    "Peer to peer.md",
     "Blockchain.md",
     "Consensus protocols.md",
     "Agreement.md",
@@ -188,8 +197,6 @@
     "3pc.png",
     "2pc.png",
     "Randomized data structure.md",
-    "Randomized based algorithms.md",
-    "Primality test.md",
     "Synchronization.md",
     "logic clock.png",
     "NTP.md",
@@ -197,17 +204,10 @@
     "Berkley algorithm.md",
     "Cristian's algorithm.md",
     "cristian algo.png",
-    "Berry-Sethi.md",
     "non ho voglia di copiare.png",
-    "Regular expressions.md",
-    "Thompson.md",
     "regex to fsm.png",
-    "Finite state automata.md",
-    "Non-deterministic finite state automaton.md",
     "grammar vs ndfsm.png",
-    "Paths.md",
     "non rel comm.png",
-    "Pasted image 20231009143834.png",
     "Excalidraw"
   ]
 }

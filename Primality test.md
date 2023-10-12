@@ -75,4 +75,4 @@ Now the idea is during the computation of $a^{n-1}$ to check if the number is a 
 \end{algorithmic}
 \end{algorithm}
 ```
-TODO: [[RSA Cryptosystem]]
+An example of an application of these algorithms are [[RSA Cryptosystem]]

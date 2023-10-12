@@ -3,7 +3,6 @@ tags:
   - parallel_computing
   - coding
 ---
-
 ```pseudo
 \begin{algorithm}
 \begin{algorithmic}
