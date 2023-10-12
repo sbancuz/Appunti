@@ -3,7 +3,7 @@ tags: [analisi_1]
 ---
 ## Confronto locale 
 
-Siano $f,g:[a,b]\to R$ e $x_{0}\in (a,b)$, si dice che $f$ è un $O(g)$ e si scrive $f=O(g)$, se $\exists {M} \in {R}$ e un intorno $I_{x_{0}}$ di $x_{0}$ tale che $\forall {x} \in {I_{x_{0}}}$ si ha 
+Siano $f,g:[a,b]\to R$ e $x_{0}\in (a,b)$, si dice che $f$ è un $O(g)$ e si scrive $f=O(g)$, se $\exists {M} \in {R}$ e un [[intorno]] $I_{x_{0}}$ di $x_{0}$ tale che $\forall {x} \in {I_{x_{0}}}$ si ha 
 $$
 |f(x_{})|\leq M\leq|f(x)|
 $$
@@ -64,7 +64,7 @@ Piuttosto si può determinare una stima dell'errore per $x'\neq x_{0}$, $|f(x)-P
 
 ## Teorema di Taylor con resto di Lagrange
 
-Sia $f:[a,b]\to R$, $x_{}\in [a,b]$ continua e derivabile con continuità $n+1$ volte in un intorno $I_{x_{0}}$ , allora 
+Sia $f:[a,b]\to R$, $x_{}\in [a,b]$ continua e derivabile con continuità $n+1$ volte in un [[intorno]] $I_{x_{0}}$ , allora 
 $$
 \forall {x} \in {I_{x_{0}}}, \exists {z} \in {[x,x_{0}]} \text{ tale che } f(x)-P_{nx_{0}}(x) = {\frac{f^{(n+1)}(z)}{(n+1)!}}(x-x_{0})^{n+1}
 $$

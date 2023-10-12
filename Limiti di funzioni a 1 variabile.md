@@ -85,7 +85,7 @@ $$
 $$
 ## Definizione topologica di limite
 
-Sia $c \in R\cup\{-\infty,\infty\}$ e $f$ definita difinitivamente per $x\to c$ si dice che $\lim_{ x \to c } {f(x)}=l$ con $l \in R\cup\{-\infty,\infty\}$ se per ogni intorno $I_{l}$ di $l$ esiste un intorno $J_{c}$ di $c$ tale che 
+Sia $c \in R\cup\{-\infty,\infty\}$ e $f$ definita difinitivamente per $x\to c$ si dice che $\lim_{ x \to c } {f(x)}=l$ con $l \in R\cup\{-\infty,\infty\}$ se per ogni [[intorno]] $I_{l}$ di $l$ esiste un [[intorno]] $J_{c}$ di $c$ tale che 
 $$
 \forall {x} \in {J_{c}},x\neq c \text{ si ha che } f(x)\in I_{l} 
 $$
@@ -117,15 +117,17 @@ Siano $c=-\infty, l\in R$ allora $\lim_{ x \to -\infty } {f(x)}=l$ sse
 $$
 \forall {N} > {0},\exists {M} > {0} \text{ | } x<-M \text{ si ha } f(x)>N  
 $$
+
+![[Forme di indecisione dei limiti]]
 ## Asintoti 
 
 ### Orizzontali
 
-Sia $f$ una funzione definita in un intorno di $\pm\infty$, si dice che $f$ ha un asintoto orizzontale di equazione $y=l$ per $x\to \pm\infty$ se $\lim_{ x \to \pm\infty } {f(x)}=l$ con $l\in R$
+Sia $f$ una funzione definita in un [[intorno]] di $\pm\infty$, si dice che $f$ ha un asintoto orizzontale di equazione $y=l$ per $x\to \pm\infty$ se $\lim_{ x \to \pm\infty } {f(x)}=l$ con $l\in R$
 
 ### Obliqui
 
-Sia $f$ una funzione definita in un intorno di $\pm\infty$, si dice che $f$ ha un asintoto orizzontale di equazione $y=mx+x$ con $m\neq 0,m\in R$ per $x\to \pm\infty$ se $\lim_{ x \to \pm\infty } {f(x)}=\pm \infty$ se 
+Sia $f$ una funzione definita in un [[intorno]] di $\pm\infty$, si dice che $f$ ha un asintoto orizzontale di equazione $y=mx+x$ con $m\neq 0,m\in R$ per $x\to \pm\infty$ se $\lim_{ x \to \pm\infty } {f(x)}=\pm \infty$ se 
 $$
 \lim_{ x \to \infty } {(f(x)-(mx+q))}=0
 $$
@@ -175,5 +177,5 @@ $$
 $$
 ### Corollario
 
-Sia $g$ funzione continua definita in un intorno di $c$ e $f$ definita e continua in un intorno di $g(c)$ allora $f(g(x))$ sarà definita e continua in $c$
+Sia $g$ funzione continua definita in un [[intorno]] di $c$ e $f$ definita e continua in un [[intorno]] di $g(c)$ allora $f(g(x))$ sarà definita e continua in $c$
 

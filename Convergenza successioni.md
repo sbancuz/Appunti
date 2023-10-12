@@ -7,7 +7,7 @@ Una successione $a=\{a_n\}_{n\in N}$ si dice CONVERGENTE se esiste un numero rea
 
 
 ```
-Si dice che l'intervallo $[l-\epsilon,l+\epsilon]$ è un intorno circolare centrato in $l$ di raggio $\epsilon$
+Si dice che l'intervallo $[l-\epsilon,l+\epsilon]$ è un [[intorno]] circolare centrato in $l$ di raggio $\epsilon$
 Se è $a_n$ è convergente allora si dice che $a_n$ converge ad $l$ 
 $$
 	\lim_{n\to \inf} a_n = l

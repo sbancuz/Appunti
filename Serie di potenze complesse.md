@@ -21,7 +21,7 @@ Data una serie di potenza $\sum a_{n} (z-z_{0})^{n}$ in $\mathbb{C}$ si verifica
 	-  La serie converge assolutamente $\forall {z} \in {\mathbb{C}}$ tale che $|z-z_{0}|<R$
 	- La serie non converge $\forall {z} \in {\mathbb{C}}$ tale che $|z-z_{0}|>R$
 
-Siccome $\mathbb{C}$ è un isomorfismo a $\mathbb{R}^{2}$ possiamo rappresentare ogni numero complesso su un piano cartesiano, e l'intorno di convergenza per una serie di potenze con centro $z_{0}\in\mathbb{C}$ e raggio $R>0$ è la palla 
+Siccome $\mathbb{C}$ è un isomorfismo a $\mathbb{R}^{2}$ possiamo rappresentare ogni numero complesso su un piano cartesiano, e l'[[intorno]] di convergenza per una serie di potenze con centro $z_{0}\in\mathbb{C}$ e raggio $R>0$ è la palla 
 $$
 B_{R}(z_{0})\subset \mathbb{C}
 $$

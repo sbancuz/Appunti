@@ -78,7 +78,7 @@ Siano $f,g:[a,b]\to R$ tale che $\forall {a\leq x\leq b} \text{ tale che } f(x_{
 
 ## Teorema
 
-Sia $f$ continua e $F$ una sua funzione integrale, se $f$ cambia segno in un intorno di un punto $x_{0}$, allora in $x$ $F$ ha un minimo oppure un massimo
+Sia $f$ continua e $F$ una sua funzione integrale, se $f$ cambia segno in un [[intorno]] di un punto $x_{0}$, allora in $x$ $F$ ha un minimo oppure un massimo
 
 ## Integrali con Taylor
 

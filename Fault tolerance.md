@@ -40,20 +40,18 @@ The size of the group depend on the types of failure that can occur to the group
 In this method the failures are dealt with a majority of consensus approach, if the processes are deterministic, when all the processes finish executing the result will be the agreement dictated by all non faulty processes.
 
 All algorithms that detect crash failures must have these properties:
-- Agreement -> no 2 processes decide on different values
+- [[Agreement]] -> no 2 processes decide on different values
 - Validity -> $v$ is the only possible decision value
 - Termination -> All non-faulty processes eventually decide
 
 On the other hand an algorithm that can handle also byzantine failures needs to have these properties:
-- Agreement -> No 2 non-faulty processes decide on different values
+- [[Agreement]] -> No 2 non-faulty processes decide on different values
 - Validity -> If all non-faulty processes start with a starting value $v$, then $v$ is the only possible decision value
 - Termination -> all non-faulty processes eventually decide
-
-![[FloodSet algorithm]]
 #### Reliable group communication
 
-The idea with this approach is to exploit process resilience by means of replication. In this approach groups are fixed and process must be non-faulty. In case of a multicast failure the receiver must send 
-back a NACK. The problem here is that there must be an agreement about who is in the group and that the receiver must be able to infer if a packet is missing.
+The idea with this approach is to exploit process resilience by means of [[Replication]]. In this approach groups are fixed and process must be non-faulty. In case of a multicast failure the receiver must send 
+back a NACK. The problem here is that there must be an [[Agreement]] about who is in the group and that the receiver must be able to infer if a packet is missing.
 
 ![[non rel comm.png]]
 #### Hierarchical feedback control
@@ -61,6 +59,7 @@ back a NACK. The problem here is that there must be an agreement about who is in
 Receivers are organized in groups headed by a coordinator and groups are organized in a tree routed at the sender.
 
 ![[hie feedback control.png]]
+
 ### Synchrony
 
 Ideally we would like:

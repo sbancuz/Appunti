@@ -54,7 +54,7 @@ $$
 ### Insiemi aperti/chiusi
 
 Sia $E\subseteq \mathbb R^n$ e si dica
-- aperto se $\forall {\underline{x}\in E}  {}$ si ha che $\underline{x}$ è intorno ad E
+- aperto se $\forall {\underline{x}\in E}  {}$ si ha che $\underline{x}$ è [[intorno]] ad E
 - chiuso se $E^{c}$ è aperto
 
 >[!tip]
