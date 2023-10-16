@@ -36,3 +36,8 @@ min \sum_{ij \in A} c_{ij}x_{ij} \\
 \end{cases}
 $$
 
+If the graph is cyclic it means that nodes and arcs are examined only once according to the order when a node $i$ is considered $d[i]$ has the final value.
+$$
+c_{ij} \ge 0, \forall {(i,j)}\in A 
+$$
+![[Dijkstra algorithm]]
