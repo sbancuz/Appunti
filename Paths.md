@@ -26,3 +26,13 @@ $$
 d[i] = \min\{d[j] + c_{ij}: (ij) \in BS(i)\}
 $$
 
+![[Shortest path algorithm in acyclic graph]]
+$$
+\text{objective function } = \begin{cases}
+min \sum_{ij \in A} c_{ij}x_{ij} \\
+\sum_{sj \in FS(s)} x_{sj} = 1 \\
+\sum_{it \in BS(t)} x_{it} = 1 \\
+\sum_{ji \in BS(i)} x_{ji} - \sum_{ij \in FS(i)} x_{ij} = 0 
+\end{cases}
+$$
+

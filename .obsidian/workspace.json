@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel machine model.md",
+                "file": "Paths.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel machine model.md",
+                "file": "Paths.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel machine model.md",
+                "file": "Paths.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallel machine model.md"
+                "file": "Paths.md"
               }
             }
           }
@@ -170,8 +170,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "7d097d25a32aebc7",
   "lastOpenFiles": [
+    "Shortest path algorithm in acyclic graph.md",
+    "Paths.md",
+    "Graph search algorithm.md",
+    "Parallel machine model.md",
     "Randomized data structure.md",
     "Randomized based algorithms.md",
     "Primality test.md",
@@ -197,12 +201,8 @@
     "Intorno.md",
     "3pc.png",
     "2pc.png",
-    "Synchronization.md",
     "logic clock.png",
-    "NTP.md",
     "NTP.png",
-    "Berkley algorithm.md",
-    "Cristian's algorithm.md",
     "cristian algo.png",
     "non ho voglia di copiare.png",
     "regex to fsm.png",
