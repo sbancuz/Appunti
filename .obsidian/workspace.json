@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Parallel machine model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems  repli ",
+                "query": "tag:#parallel_computing   ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Parallel machine model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Parallel machine model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Randomized data structure.md"
+                "file": "Parallel machine model.md"
               }
             }
           }
@@ -170,8 +170,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7d097d25a32aebc7",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
+    "Randomized data structure.md",
     "Randomized based algorithms.md",
     "Primality test.md",
     "RSA Cryptosystem.md",
@@ -196,7 +197,6 @@
     "Intorno.md",
     "3pc.png",
     "2pc.png",
-    "Randomized data structure.md",
     "Synchronization.md",
     "logic clock.png",
     "NTP.md",
