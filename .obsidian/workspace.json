@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "875dfd2792312722",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,7 +193,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fa3f88814d0fc5d4",
+  "active": "875dfd2792312722",
   "lastOpenFiles": [
     "Paths.md",
     "Untitled 2.md",
