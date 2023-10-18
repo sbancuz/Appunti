@@ -15,7 +15,7 @@ Paxos was the reference algorithm for consensus for about 30 years but became ob
 
 Is a new algorithm that requires agreement on single decision and designed to be easily understandable and easy to implement. This is done through the decomposition of problems:
 - Log replication: the leader accepts commands from clients and replicates it's log
-- Leader election: if the leader crashes, another will take its place
+- [[Leader election]]: if the leader crashes, another will take its place
 - Safety: only up-to-date server may become leaders
 
 Crashes may result in log inconsistencies, in this case the leaders' log is considered the only point of truth in the systems and gets replicated to all the other servers.

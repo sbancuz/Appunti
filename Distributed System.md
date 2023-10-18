@@ -11,7 +11,7 @@ A distributed system is a collection of independent computers that appears to it
 
 The defining features of a distributed system are:
 - concurrency
-- absence of a global clock : you **cannot** use the computer physical clock for the purpose to synchronize systems
+- absence of a [[global clock]] : you **cannot** use the computer physical clock for the purpose to synchronize systems
 - Independent failures
 
 --> [[Modeling a distributed system]]
@@ -24,35 +24,29 @@ The defining features of a distributed system are:
 - Computer hardware : Data representation may vary with the hardware platform
 - OS : The API provided to access TCP/IP may vary
 - Programming languages : Different languages represent data structures differently
-
 #### Openness
 
 It determines whether a system can be extended and re-implemented in various ways through the adoption of protocols and standards of communication.
-
 #### Security
 
 Security for the information resources made available and maintained has three components:
 - Confidentiality
 - Integrity
 - Availability
-
 #### Scalability
 
 The ability of a system to increase size with some points of centralization like databases and decentralized algorithms for caching and asynchronous communication.
-
 #### Failure handling
 
 A system may fail partially so we need to:
 - detect failures
 - masking failures
-- tolerating failures
+- [[Fault tolerance]]
 - recovering from them
 - add redundancy
-
 #### Concurrency
 
-Managing the access to shared resources must be carefully synchronized
-
+Managing the access to shared resources must be carefully [[Synchronization|synchonized]]
 #### Transparency
 
-A system must hide the fact the everything could change, could have copies or has failed from the end user.
+A system must hide the fact the everything could change, could have copies or has failed from the end user. This is done through [[Replication]].

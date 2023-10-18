@@ -23,38 +23,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paths.md",
+                "file": "Termination and deadlock detection.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "fa3f88814d0fc5d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "875dfd2792312722",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel_computing   ",
+                "query": "tag:#distributed_systems  leader ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -129,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "Termination and deadlock detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "Termination and deadlock detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 2.md"
+                "file": "Termination and deadlock detection.md"
               }
             }
           }
@@ -193,8 +170,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "875dfd2792312722",
+  "active": "7d097d25a32aebc7",
   "lastOpenFiles": [
+    "Synchronization.md",
+    "Termination and deadlock detection.md",
+    "Logging.md",
+    "Global clock.md",
+    "Distributed System.md",
+    "Intrusion Detection System.md",
+    "Modeling a distributed system.md",
+    "Client server.md",
+    "NTP.md",
+    "Peer to peer.md",
+    "Replication.md",
+    "Leader election.md",
+    "vec clocks.png",
     "Paths.md",
     "Untitled 2.md",
     "Graph problems.md",
@@ -210,18 +200,6 @@
     "algo.png",
     "Quicksort.md",
     "Divide and conquer approach.md",
-    "Merge sort.md",
-    "Peer to peer.md",
-    "Blockchain.md",
-    "Consensus protocols.md",
-    "Agreement.md",
-    "Replication.md",
-    "Fault tolerance.md",
-    "Modeling a distributed system.md",
-    "Message oriented communication.md",
-    "Client server.md",
-    "Commit protocols.md",
-    "Forme di indecisione dei limiti.md",
     "3pc.png",
     "2pc.png",
     "logic clock.png",
@@ -230,7 +208,6 @@
     "non ho voglia di copiare.png",
     "regex to fsm.png",
     "grammar vs ndfsm.png",
-    "non rel comm.png",
     "Excalidraw"
   ]
 }

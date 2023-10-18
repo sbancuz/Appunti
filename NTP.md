@@ -2,7 +2,7 @@
 tags:
   - distributed_systems
 ---
-Designed for UTC to sync over large-scale networks. It applies hierarchical synchronization through means of daemons running on the computer and keeping the machine in sync.  
+Designed for UTC to sync over large-scale networks. It applies hierarchical [[Synchronization]] through means of daemons running on the computer and keeping the machine in sync.  
 
 It becomes a tree structure with the nodes on the top that are synchronized with atomic clocks, and all the nodes below that are kept in sync with the one on the top. In LANs we use multicast to signal the clock to all the nodes in the network. When a link is longer we can use procedure-call and symmetric mode.
 
