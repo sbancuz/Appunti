@@ -17,6 +17,7 @@ With this approach we can also use  scalar clocks to ensure the orederness of th
 #### Token ring
 
 Another approach is using a token ring solution, all processes are organized in a logical ring that keeps passing a token and this token grants access to the shared resource.
+#### [[Transactions]]
 ### Global state
 
 The global state represents the local state of every process in a distributed system together with the messages in transit over the links. A global state can be useful for debugging, [[Termination and deadlock detection]]. Though this would need a [[Global clock]]. A global state can be approximated with the use of cuts that represent the state of all the process and their history up to a certain event. This is called [[Logging]].
