@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Randomized data structure.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Randomized data structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Randomized data structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distributed consistency model.md"
+                "file": "Randomized data structure.md"
               }
             }
           }
@@ -172,10 +172,10 @@
   },
   "active": "7d097d25a32aebc7",
   "lastOpenFiles": [
+    "Distributed consistency model.md",
     "causal consistency.png",
     "linear.png",
     "data centric consistency.png",
-    "Distributed consistency model.md",
     "Availability.md",
     "Replication.md",
     "CAP theorem.md",
@@ -207,7 +207,6 @@
     "3pc.png",
     "2pc.png",
     "logic clock.png",
-    "NTP.png",
     "Excalidraw"
   ]
 }

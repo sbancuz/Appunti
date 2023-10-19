@@ -38,4 +38,27 @@ For each element $x$:
 - elements $y$ in the right subtree $x$ satisfy: $key(y)>key(x)$
 - if $y$ is a child of $x$ then $prio(y)>prio(x)$
 
+>[!Lemma]
+>
+For elements $x_{1},\dots,x_{n}$ with $key(x_i)$ and $prio(x_{i})$, there exists a unique treap.
+
+The search tree has the structure that would result if elements were inserted in the order of their priorities.
+
+```pseudo
+\begin{algorithm}\begin{algorithmic}
+\Procedure{Search}{$root$}
+	\State $v \gets root$
+	\While{$v \ne nil$}
+		\If{$key(v) = k$}
+			\Return $v$
+		\Elif{$key(v) \lt k$}
+			\State $v \gets $rightChild($v$)
+		\Elif{$key(v) \gt k$}
+			\State $v \gets $leftChild($v$)
+		\EndIf
+	\EndWhile
+	\Return $nil$
+\EndProcedure
+\end{algorithmic}\end{algorithm}
+```
 
