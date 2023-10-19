@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Paths.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Paths.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Paths.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Randomized data structure.md"
+                "file": "Paths.md"
               }
             }
           }
@@ -172,6 +172,10 @@
   },
   "active": "7d097d25a32aebc7",
   "lastOpenFiles": [
+    "Shortest path algorithm in acyclic graph.md",
+    "Randomized data structure.md",
+    "Paths.md",
+    "Dijkstra algorithm.md",
     "Distributed consistency model.md",
     "causal consistency.png",
     "linear.png",
@@ -198,11 +202,8 @@
     "Peer to peer.md",
     "Leader election.md",
     "vec clocks.png",
-    "Paths.md",
     "Graph problems.md",
     "Parallel machine model.md",
-    "Dijkstra algorithm.md",
-    "Shortest path algorithm in acyclic graph.md",
     "algo.png",
     "3pc.png",
     "2pc.png",

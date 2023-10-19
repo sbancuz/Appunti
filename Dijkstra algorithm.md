@@ -20,6 +20,7 @@ tags:
 			\If{$d[i] + c_{ij} \lt d[j]$}
 				\State $P[j] \gets i$
 				\State $d[j] \gets d[i] + c_{ij}$
+				\State $Q \gets Q \cup \{j\}$
 			\EndIf
 		\EndFor
 	\EndWhile	
@@ -27,3 +28,4 @@ tags:
 \end{algorithmic}
 \end{algorithm}
 ```
+
