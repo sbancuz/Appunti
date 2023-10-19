@@ -172,6 +172,8 @@
   },
   "active": "7d097d25a32aebc7",
   "lastOpenFiles": [
+    "causal consistency.png",
+    "linear.png",
     "data centric consistency.png",
     "Distributed consistency model.md",
     "Availability.md",
@@ -206,8 +208,6 @@
     "2pc.png",
     "logic clock.png",
     "NTP.png",
-    "cristian algo.png",
-    "non ho voglia di copiare.png",
     "Excalidraw"
   ]
 }
