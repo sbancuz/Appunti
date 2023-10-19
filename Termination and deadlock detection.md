@@ -15,4 +15,6 @@ In diffusing computations initially all processes are idle except the init one. 
 #### Dijkstra-Scholten termination detection
 
 Each node keeps track of nodes it sends a message to.  If a node was already awake when the message arrived, then it is already part of the tree, and should not be added as a child of the sender. When a node has no more children and it is idle, it tells its parent to remove it as a child.
+### Distributed deadlock detection
 
+The is no coordinator in charge of building the global wait-for graph. Processes are allowed to request multiple resources simultaneously and when a process does get blocked, it sends a probe message to the processes holding resources it wants to acquire. When a probe makes it back to the initiator it means that a cycle occurred. In this case the initiator may abort the connection or it may pick the process with the higher identifier and kills it.
