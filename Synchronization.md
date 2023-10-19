@@ -5,7 +5,7 @@ tags:
 The problem of synchronization doesn't appear only in distributed systems, but when it does, it makes things a lot more complicated. The problem is that every clock in every machine will be out of sync so we need to maintain a sort of [[Global clock]].
 ### Mutual exclusion
 
-It's a system that prevents interference and ensures consistency of resources access. And it requires:
+It's a system that prevents interference and ensures [[Distributed consistency model|consistency]] of resources access. And it requires:
 - Safety property
 - Liveness property
 - Happens-before relationship

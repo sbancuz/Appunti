@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Replication.md",
+                "file": "Distributed consistency model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems  phase ",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Replication.md",
+                "file": "Distributed consistency model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Replication.md",
+                "file": "Distributed consistency model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Replication.md"
+                "file": "Distributed consistency model.md"
               }
             }
           }
@@ -172,7 +172,15 @@
   },
   "active": "7d097d25a32aebc7",
   "lastOpenFiles": [
+    "data centric consistency.png",
+    "Distributed consistency model.md",
+    "Availability.md",
+    "Replication.md",
+    "CAP theorem.md",
+    "Modeling a distributed system.md",
     "Distributed System.md",
+    "consistency.png",
+    "CDN.md",
     "Synchronization.md",
     "Termination and deadlock detection.md",
     "Optimistic timestamp ordering.md",
@@ -183,11 +191,9 @@
     "Logging.md",
     "Global clock.md",
     "Intrusion Detection System.md",
-    "Modeling a distributed system.md",
     "Client server.md",
     "NTP.md",
     "Peer to peer.md",
-    "Replication.md",
     "Leader election.md",
     "vec clocks.png",
     "Paths.md",
@@ -195,11 +201,6 @@
     "Parallel machine model.md",
     "Dijkstra algorithm.md",
     "Shortest path algorithm in acyclic graph.md",
-    "Graph search algorithm.md",
-    "Randomized data structure.md",
-    "Randomized based algorithms.md",
-    "Primality test.md",
-    "RSA Cryptosystem.md",
     "algo.png",
     "3pc.png",
     "2pc.png",
@@ -207,7 +208,6 @@
     "NTP.png",
     "cristian algo.png",
     "non ho voglia di copiare.png",
-    "regex to fsm.png",
     "Excalidraw"
   ]
 }

@@ -2,12 +2,12 @@
 tags:
   - distributed_systems
 ---
-Replication means that we may have more machines to work as a coherent groups, that to the outside observe behave like one singular machine though [[Fault tolerance]]. They offer continuous service and they operate on identical copies of the same state with reaching [[Agreement]].
+Replication means that we may have more machines to work as a coherent groups, that to the outside observe behave like one singular machine though [[Fault tolerance]]. They offer continuous service and they operate on identical copies of the same state with reaching [[Agreement]]. Another reason to use replication is [[Availability]], so data locality of the data. 
 
 They usually work with [[Logging]] to ensure that they execute the same command in the same order.
 A replicated machine guarantees:
 - safety
-- availability
+- [[availability]]
 ### Paxos
 
 Paxos was the reference algorithm for consensus for about 30 years but became obsolete since it's very hard to understand an difficult to implement.
@@ -28,3 +28,4 @@ If log entries on different servers have the same index and term:
 - they are equal in all preceding entries
 
 If a given entry is committed, all preceding ones are also committed. 
+[[Availability]]

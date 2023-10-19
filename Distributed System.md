@@ -32,7 +32,7 @@ It determines whether a system can be extended and re-implemented in various way
 Security for the information resources made available and maintained has three components:
 - Confidentiality
 - Integrity
-- Availability
+- [[Availability]]
 #### Scalability
 
 The ability of a system to increase size with some points of centralization like databases and decentralized algorithms for caching and asynchronous communication.
@@ -46,7 +46,7 @@ A system may fail partially so we need to:
 - add redundancy
 #### Concurrency
 
-Managing the access to shared resources must be carefully [[Synchronization|synchonized]]
+Managing the access to shared resources must be carefully [[Synchronization|synchronized]]
 #### Transparency
 
 A system must hide the fact the everything could change, could have copies or has failed from the end user. This is done through [[Replication]].
