@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "3e6043085cb51bbd",
+            "id": "c22d201f67b13719",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Longest common subsequence.md",
+                "file": "Finite state automata.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#compilers logiche ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Longest common subsequence.md",
+                "file": "Finite state automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Longest common subsequence.md",
+                "file": "Finite state automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Longest common subsequence.md"
+                "file": "Finite state automata.md"
               }
             }
           }
@@ -170,11 +170,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3e6043085cb51bbd",
+  "active": "c22d201f67b13719",
   "lastOpenFiles": [
+    "Formal languages.md",
+    "Non-deterministic finite state automaton.md",
+    "Regular expressions.md",
+    "Free grammars.md",
+    "Thompson.md",
+    "Finite state automata.md",
+    "Syntax analysis.md",
+    "net of FSM.png",
+    "PDFSM grammar rules.png",
+    "Push-down stack automaton.md",
+    "Context-free language recognizer.md",
+    "PDFSM exa.png",
+    "PDAUTOMATA states.png",
+    "product.png",
+    "complement fsm.png",
+    "Berry-Sethi.md",
+    "Longest common subsequence.md",
     "LCS example.png",
     "Dynamic programming.md",
-    "Longest common subsequence.md",
     "LCS.png",
     "Paths.md",
     "Shortest path algorithm in acyclic graph.md",
@@ -183,31 +199,14 @@
     "Distributed consistency model.md",
     "causal consistency.png",
     "linear.png",
-    "data centric consistency.png",
     "Availability.md",
     "Replication.md",
     "CAP theorem.md",
     "Modeling a distributed system.md",
     "Distributed System.md",
-    "consistency.png",
     "CDN.md",
     "Synchronization.md",
     "Termination and deadlock detection.md",
-    "Optimistic timestamp ordering.md",
-    "Transactions.md",
-    "Pessimistic timestamp ordering.md",
-    "conc trans.png",
-    "transazioni.md",
-    "Logging.md",
-    "Global clock.md",
-    "Intrusion Detection System.md",
-    "Client server.md",
-    "NTP.md",
-    "Peer to peer.md",
-    "vec clocks.png",
-    "algo.png",
-    "3pc.png",
-    "2pc.png",
     "Excalidraw"
   ]
 }

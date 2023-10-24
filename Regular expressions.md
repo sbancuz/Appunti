@@ -78,8 +78,59 @@ $$
 $$
 ### Translate to [[Finite state automata]]
 
+The local set of the language is:
+$$
+\begin{align}
+\text{initials } \to& Ini(L) = \{ a \in \Sigma | a \Sigma^{*}\cap L \neq \emptyset \} \\
+& Ini(\emptyset) = \emptyset \\
+& Ini(\epsilon) = \emptyset \\
+& Ini(a) = \{ a \} \\
+& Ini(e \cup e') = Ini(e) \cup Ini(e') \\
+& Ini(ee') = \text{if } Null(\epsilon) \text{ then } Ini(e) \cup Ini(e') \text{ else } Ini(e) \\
+& Ini(e^{*}) = Ini(e^{+}) = Ini(e)\\
+\text{finals } \to& Fin(L) = \{ a \in \Sigma | \Sigma^{*} a \cap L \neq \emptyset \} \\
+& Fin(\emptyset) = \emptyset \\
+& Fin(\epsilon) = \emptyset \\
+& Fin(a) = \{ a \} \\
+& Fin(e \cup e') = Fin(e) \cup Fin(e') \\
+& Fin(ee') = \text{if } Null(\epsilon) \text{ then } Fin(e) \cup Fin(e') \text{ else } Fin(e) \\
+& Fin(e^{*}) = Fin(e^{+}) = Fin(e) \\
+\text{digrams } \to& Dig(L) = \{ x \in \Sigma^{2} | \Sigma^{*} x \Sigma^{*} \cap L\neq \emptyset \} \\
+& Dig(\emptyset) = \emptyset \\
+& Dig(\epsilon) = \emptyset \\
+& Dig(a) = \{ a \} \\
+& Dig(e \cup e') = Dig(e) \cup Dig(e') \\
+& Dig(ee') = Fin(e) \cup Fin(e') \cup Fin(e) Ini(e) \\
+& Dig(e^{*}) = Dig(e^{+}) = Dig(e) \cup Fin(e) Ini(e)\
+\end{align}
+$$
+
+We define a regexp that generates an empty string as 
+$$
+\begin{align}
+&Null(\emptyset) = false \\
+&Null(\epsilon) = true \\
+&Null(a) = false \\
+&Null(e \cup e') = Null(e) \lor Null(e') \\
+&Null(e  e') = Null(e) \land Null(e') \\
+&Null(e^{*}) = true \\
+&Null(e^{+}) = Null(e)
+\end{align}
+$$
+
 There are a few algorithms that can perform this transformation:
 - [[Thompson]] 
 - [[Berry-Sethi]]
+### Complement and intersection
 
-
+Regex may also contain the operators of complement, intersection and set difference.
+$$
+\begin{align}
+\text{ if } L, L' \in REG \text{ then }& \lnot L \in REG \land L \cap L'  \in REG \\
+\lnot &= \Sigma^{*} \setminus L
+\end{align}
+$$
+Using [[De Morgan Law]] we can rewrite the intersection as a complement and union. 
+$$
+L \cap L' = \lnot(\lnot L\cup \lnot L')
+$$

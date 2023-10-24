@@ -78,6 +78,6 @@ $$
 
 These are languages which are recognized by a [[Finite state automata]] and they are a sub-family of the languages recognizable by a [[Turing machine]]
 
-### Free languages
+### Context-free languages
 
-These are a sub-family of the languages recognized by a [[Turing machine]] which have polynomial time [[Complexity of an algorithm]]
+These are a sub-family of the languages recognized by a [[Turing machine]], [[Push-down stack automaton]] which have polynomial time [[Complexity of an algorithm]]

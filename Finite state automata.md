@@ -64,3 +64,20 @@ Assume the initial and final states $i$ and $t$ are unique and do not have incom
 For efficiency reasons, usually the final automaton ought to be in deterministic form. The algorithm to transform and indeterminate to a determinate finite state automaton has 2 steps:
 1) Elimination of spontaneous moves, this translates to the removal of copy rules with either backward of forward propagation. This just means we decide when we remove a connection how we should move the connections such that the 2 automatons are equivalent 
 2) Replacement of the non-deterministic multiple transitions by changing the automaton state set.
+### Complement automaton
+
+To complement an automaton we just need to remove the final states and insert new one everywhere they weren't.
+
+![[complement fsm.png]]
+
+>[!warning]
+>To do this operation the original FSM must be deterministic.
+### Cartesian product
+
+The state set of the product machine is the Cartesian product of the state sets of the two automata.
+$$
+(q, q') \to (r, r') \text{ iff } q \to r \;\land q' \to r' 
+$$
+The initial and the final state sets are the Cartesian products of the initial and final state sets.
+
+![[product.png]]
