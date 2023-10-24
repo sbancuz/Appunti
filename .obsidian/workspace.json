@@ -29,9 +29,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "98ff9d910effb86f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amortized analysis.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finite state automata.md",
+                "file": "Amortized analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finite state automata.md",
+                "file": "Amortized analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finite state automata.md"
+                "file": "Amortized analysis.md"
               }
             }
           }
@@ -170,14 +183,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c22d201f67b13719",
+  "active": "98ff9d910effb86f",
   "lastOpenFiles": [
+    "Dynamic tables.md",
+    "Amortized analysis.md",
+    "Finite state automata.md",
     "Formal languages.md",
     "Non-deterministic finite state automaton.md",
     "Regular expressions.md",
     "Free grammars.md",
     "Thompson.md",
-    "Finite state automata.md",
     "Syntax analysis.md",
     "net of FSM.png",
     "PDFSM grammar rules.png",
@@ -206,7 +221,6 @@
     "Distributed System.md",
     "CDN.md",
     "Synchronization.md",
-    "Termination and deadlock detection.md",
     "Excalidraw"
   ]
 }
