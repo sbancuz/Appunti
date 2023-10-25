@@ -42,9 +42,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "334c0b25347c8e18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amortized analysis.md",
+                "file": "Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amortized analysis.md",
+                "file": "Untitled 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amortized analysis.md"
+                "file": "Untitled 2.md"
               }
             }
           }
@@ -183,10 +196,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "98ff9d910effb86f",
+  "active": "334c0b25347c8e18",
   "lastOpenFiles": [
-    "Dynamic tables.md",
     "Amortized analysis.md",
+    "Untitled 2.md",
+    "Dynamic tables.md",
     "Finite state automata.md",
     "Formal languages.md",
     "Non-deterministic finite state automaton.md",
@@ -220,7 +234,6 @@
     "Modeling a distributed system.md",
     "Distributed System.md",
     "CDN.md",
-    "Synchronization.md",
     "Excalidraw"
   ]
 }
