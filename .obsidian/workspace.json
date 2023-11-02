@@ -8,26 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31d6ee9c09dff0d7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
             "id": "c22d201f67b13719",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Finite state automata.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -36,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amortized analysis.md",
+                "file": "Time complexity for PRAM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#compilers logiche ",
+                "query": "tag:#parallel_computing Gus ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306,
-    "collapsed": true
+    "width": 306
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -132,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "esercizi ds.md",
+                "file": "Time complexity for PRAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "esercizi ds.md",
+                "file": "Time complexity for PRAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "esercizi ds.md"
+                "file": "Time complexity for PRAM.md"
               }
             }
           }
@@ -196,12 +180,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "334c0b25347c8e18",
+  "active": "98ff9d910effb86f",
   "lastOpenFiles": [
+    "Graph problems.md",
+    "Model optimization problems.md",
     "Amortized analysis.md",
     "esercizi ds.md",
-    "Dynamic tables.md",
     "Finite state automata.md",
+    "Dynamic tables.md",
     "Formal languages.md",
     "Non-deterministic finite state automaton.md",
     "Regular expressions.md",
@@ -232,8 +218,6 @@
     "Replication.md",
     "CAP theorem.md",
     "Modeling a distributed system.md",
-    "Distributed System.md",
-    "CDN.md",
     "Excalidraw"
   ]
 }
