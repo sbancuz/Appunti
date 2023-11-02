@@ -14,11 +14,26 @@ There are three common amortization arguments:
 - potential method
 
 No method is **best**, and in the case of accounting and potential method different schemes may yield radically different bounds.
+### Aggregate method
 
 The [[Dynamic tables]] example is a case of the aggregate method and is, though simple, lacking in any kind of precision in respect to the other methods.
-RIVEDERE LEZIONE PERCHE NON C HO CAPITO NULLA DELLE ACCOUNTING
-==
+### Accounting method
 
+The idea is to charge the $i$-th operation a fictitious amortized cost $\dot{c}_{i}$ where $\$1$ pays for $1$ unit of work. This fee is consumed to perform the operation and any amount not immediately consumed is stored in the bank for use by subsequent operations.
+
+>[!warning]
+>The bank account must not be negative
+
+Thus, the total amortized cost provide an upper bound on the total true cost.
+$$
+\sum c_{i} \leq \sum \dot{c}_{i}
+$$
+
+In the example of the [[Dynamic tables]] we can assume an amortized cost of $\$3$ for the $i$-th insertion divided in:
+- immediate insertion
+- move a recent item
+- move an old item
+### Potential method
 
 The idea of the potential method is very similar to the accounting method but the framework is:
 - Initial data is $D_{0}$

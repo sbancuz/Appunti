@@ -25,47 +25,8 @@ But how do we implement this?
 	1) Search/Insert/Deletion: $O(\log n)$ 
 5) Splay tree -> Self balancing tree
 	1) Search/Insert/Deletion: $O(\log n)$ 
+6) [[Random Treaps]] 
+7) [[Skip list]]
 
 >[!note]
 >The idea behind the splay tree is to put in the root a node accessed by a FIND operation, and if it is accessed enough it will remain at the top of the tree
-### Random Treaps
-
-Treaps achieve the same time bounds, but they do not require any balancing information. The idea behind them is to assign a priority to any element $x$ at random 
-
-A treap is actually a binary tree implemented as a heap. Each node contains one element with $key(x)$ and $prio(x)$ with the lowest priority is put at the top of this tree.
-
-For each element $x$:
-- elements $y$ in the left subtree $x$ satisfy: $key(y)<key(x)$
-- elements $y$ in the right subtree $x$ satisfy: $key(y)>key(x)$
-- if $y$ is a child of $x$ then $prio(y)>prio(x)$
-
->[!Lemma]
->
-For elements $x_{1},\dots,x_{n}$ with $key(x_i)$ and $prio(x_{i})$, there exists a unique treap.
-
-The search tree has the structure that would result if elements were inserted in the order of their priorities.
-
-The search algorithm is the same as the one in a normal BST with it's time [[Complexity of an algorithm]] of $O(\#elements)$ and it grows with $O(\log n)$
-```pseudo
-\begin{algorithm}\begin{algorithmic}
-\Procedure{Search}{$root$}
-	\State $v \gets root$
-	\While{$v \ne nil$}
-		\If{$key(v) = k$}
-			\Return $v$
-		\Elif{$key(v) \lt k$}
-			\State $v \gets $rightChild($v$)
-		\Elif{$key(v) \gt k$}
-			\State $v \gets $leftChild($v$)
-		\EndIf
-	\EndWhile
-	\Return $nil$
-\EndProcedure
-\end{algorithmic}\end{algorithm}
-```
-
->[!lemma]
->Let $P_{min}(M) = min(prio(M_{x}))$ and $x_{i}$ the i-th smallest key then
->- let $i<m$. $x_{i}$ is ancestor of $x_{m}$ iff $P_{min}(\{x_{\mathbf{i}}\dots,x_{m}\}) = x_{i}$ 
->- let $m<i$. $x_{i}$ is ancestor of $x_{m}$ iff $P_{min}(\{x_{\mathbf{m}}\dots,x_{i}\}) = x_{i}$ 
-

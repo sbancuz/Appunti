@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Amortized analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel_computing Gus ",
+                "query": "tag:#parallel_computing amo ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Amortized analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Randomized data structure.md",
+                "file": "Amortized analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Randomized data structure.md"
+                "file": "Amortized analysis.md"
               }
             }
           }
@@ -161,13 +161,19 @@
   },
   "active": "98ff9d910effb86f",
   "lastOpenFiles": [
+    "Competitive analysis.md",
+    "Self-organizing lists.md",
+    "Amortized analysis.md",
+    "Dynamic tables.md",
+    "Randomized data structure.md",
+    "Skip list.md",
+    "skiplist.png",
+    "Random Treaps.md",
     "Time complexity for PRAM.md",
     "Graph problems.md",
     "Model optimization problems.md",
-    "Amortized analysis.md",
     "esercizi ds.md",
     "Finite state automata.md",
-    "Dynamic tables.md",
     "Formal languages.md",
     "Non-deterministic finite state automaton.md",
     "Regular expressions.md",
@@ -189,14 +195,8 @@
     "LCS.png",
     "Paths.md",
     "Shortest path algorithm in acyclic graph.md",
-    "Randomized data structure.md",
     "Dijkstra algorithm.md",
-    "Distributed consistency model.md",
     "causal consistency.png",
-    "linear.png",
-    "Availability.md",
-    "Replication.md",
-    "CAP theorem.md",
     "Excalidraw"
   ]
 }
