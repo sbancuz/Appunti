@@ -8,41 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c22d201f67b13719",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "98ff9d910effb86f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time complexity for PRAM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "334c0b25347c8e18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "esercizi ds.md",
+                "file": "Randomized data structure.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 306,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -116,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Time complexity for PRAM.md",
+                "file": "Randomized data structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Time complexity for PRAM.md",
+                "file": "Randomized data structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Time complexity for PRAM.md"
+                "file": "Randomized data structure.md"
               }
             }
           }
@@ -182,6 +161,7 @@
   },
   "active": "98ff9d910effb86f",
   "lastOpenFiles": [
+    "Time complexity for PRAM.md",
     "Graph problems.md",
     "Model optimization problems.md",
     "Amortized analysis.md",
@@ -217,7 +197,6 @@
     "Availability.md",
     "Replication.md",
     "CAP theorem.md",
-    "Modeling a distributed system.md",
     "Excalidraw"
   ]
 }
