@@ -84,7 +84,7 @@ $$
 split(T, k, T_{1}, T_{2}):=\forall {x_{1}} \in {T_{1}}, x_{2}\in T_{2}: key(x_{1})\leq k \land k < key(x_{2})
 $$
 
-If $k$ is not in $T$, delete it and the re-insert after into $T_{1}$. This operation is implemented as
+If $k$ is in $T$, delete it and the re-insert after into $T_{1}$. This operation is implemented as
 ```pseudo
 \begin{algorithm}\begin{algorithmic}
 \Procedure{Split}{$T, k, T_1, T_2$}
