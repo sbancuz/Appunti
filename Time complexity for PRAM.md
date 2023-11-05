@@ -21,7 +21,9 @@ He was one of the three architects of IBM mainframes in 1967 and he objected to 
 - sequential 
 - parallelizable
 
-And so a computation can be divided in either a sequential work done by a singular processor or some batches of work done by others. This means that
+And so a computation can be divided in either a sequential work done by a singular processor or some batches of work done by others. 
+![[amdahl.png]]
+This means that
 $$
 SU(P,f) = \frac{T_{1}}{T_{P}} = \frac{1}{(1-f)+\frac{f}{P}}, \lim_{ P \to \infty } {SU(P,f)=\frac{1}{1-f}}
 $$
@@ -32,4 +34,5 @@ $$
 In 1988 Gustafson didn't agree, because he managed to achieve a speedup that is linear to the number of processors at a large scale. In this case we disregard the idea of having a fixed portion of the workload. This law shows that the computing resources can be scaled up to utilize the available resources effectively.
 $$
 SU(P) = s + P(1-s)
-$$where $s$ is the fixed time to compute the serial part.
+$$
+where $s$ is the fixed time to compute the serial part.

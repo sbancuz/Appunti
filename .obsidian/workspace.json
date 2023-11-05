@@ -175,6 +175,7 @@
   },
   "active": "9919d86233d3b281",
   "lastOpenFiles": [
+    "amdahl.png",
     "Parallel machine model.md",
     "Time complexity for PRAM.md",
     "Parallelization.md",
@@ -210,7 +211,6 @@
     "PDFSM exa.png",
     "PDAUTOMATA states.png",
     "product.png",
-    "Berry-Sethi.md",
     "Excalidraw"
   ]
 }
