@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "98ff9d910effb86f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amortized analysis.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9919d86233d3b281",
             "type": "leaf",
             "state": {
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,9 +161,18 @@
   },
   "active": "9919d86233d3b281",
   "lastOpenFiles": [
+    "Amortized analysis.md",
+    "Dynamic tables.md",
+    "Karger's min-cut algorithm.md",
+    "Monte Carlo algorithm.md",
+    "Self-organizing lists.md",
+    "Competitive analysis.md",
+    "I-th selection.md",
+    "Quicksort.md",
+    "Randomized based algorithms.md",
+    "Time complexity for PRAM.md",
     "amdahl.png",
     "Parallel machine model.md",
-    "Time complexity for PRAM.md",
     "Parallelization.md",
     "Automatic parallelization.md",
     "Parallel technologies.md",
@@ -186,10 +181,6 @@
     "parallel tools 2.png",
     "parallel tools.png",
     "Parallelization by hand.md",
-    "Amortized analysis.md",
-    "Competitive analysis.md",
-    "Self-organizing lists.md",
-    "Dynamic tables.md",
     "Randomized data structure.md",
     "Skip list.md",
     "skiplist.png",
@@ -202,15 +193,10 @@
     "Non-deterministic finite state automaton.md",
     "Regular expressions.md",
     "Free grammars.md",
-    "Thompson.md",
-    "Syntax analysis.md",
     "net of FSM.png",
     "PDFSM grammar rules.png",
-    "Push-down stack automaton.md",
-    "Context-free language recognizer.md",
     "PDFSM exa.png",
     "PDAUTOMATA states.png",
-    "product.png",
     "Excalidraw"
   ]
 }

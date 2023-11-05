@@ -2,7 +2,7 @@
 tags:
   - parallel_computing
 ---
-Let $G = (V,E)$ be a connected undirected graph. Let $n = |V|$, $m = |E|$. For $S \subset V$, the set $\delta(S) = \{ (u,v) \in E : u \in S, v \in S' \}$ is a cut since their removal from $G$ disconnects $G$ into more than one component. Find the minimum sized cut.
+Let $G = (V,E)$ be a connected undirected [[Graphs]]. Let $n = |V|$, $m = |E|$. For $S \subset V$, the set $\delta(S) = \{ (u,v) \in E : u \in S, v \in S' \}$ is a cut since their removal from $G$ disconnects $G$ into more than one component. Find the minimum sized cut.
 
 ![[mimncut.png]]
 
