@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallelization.md",
-                "mode": "source",
+                "file": "Time complexity for PRAM.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Time complexity for PRAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Time complexity for PRAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallelization.md"
+                "file": "Time complexity for PRAM.md"
               }
             }
           }
@@ -175,9 +175,11 @@
   },
   "active": "9919d86233d3b281",
   "lastOpenFiles": [
+    "Parallel machine model.md",
+    "Time complexity for PRAM.md",
+    "Parallelization.md",
     "Automatic parallelization.md",
     "Parallel technologies.md",
-    "Parallelization.md",
     "parallel tools 3.png",
     "parallel vs overhead.png",
     "parallel tools 2.png",
@@ -191,7 +193,6 @@
     "Skip list.md",
     "skiplist.png",
     "Random Treaps.md",
-    "Time complexity for PRAM.md",
     "Graph problems.md",
     "Model optimization problems.md",
     "esercizi ds.md",
@@ -210,7 +211,6 @@
     "PDAUTOMATA states.png",
     "product.png",
     "Berry-Sethi.md",
-    "Longest common subsequence.md",
     "Excalidraw"
   ]
 }

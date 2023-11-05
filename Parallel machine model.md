@@ -4,7 +4,7 @@ tags:
 ---
 ### RAM (Random access machine)
 
-It'a a theoretical machine that is:
+It'a a theoretical machine that has:
 - unbounded number of local memory cells
 - each memory can hold an integer of unbounded size
 - instruction set includes simple operations
