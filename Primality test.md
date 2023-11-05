@@ -11,7 +11,7 @@ The naive approach for testing if a number is prime is
 	\If{$n = 2$} 
 		\Return \True
 	\EndIf
-	\If{isEven*$n$)} 
+	\If{isEven($n$)} 
 		\Return \False
 	\EndIf
 	\For{$i = 1$ to $\sqrt{n/2}$}
@@ -65,7 +65,7 @@ Now the idea is during the computation of $a^{n-1}$ to check if the number is a 
 	\State $x \gets $powerWithCheck($a, p/2, n$)
 	\State $res \gets x \times x$ mod $ n$
 	\If{$res =  1 \land x \ne 1 \land x \ne n - 1$}
-		\State isProbablyFalse $\gets$ \False
+		\State isProbablyPrime $\gets$ \False
 	\EndIf
 	\If{$p$ mod $2 = 1$}
 		\State $res \gets a \times res$ mod $n$

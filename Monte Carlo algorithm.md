@@ -11,4 +11,6 @@ There are 2 kinds of Monte Carlo:
 
 The Monte Carlo is efficient if on any input its worst case running time is bounded by a polynomial function of the input size.
 
-[[Karger's min-cut algorithm]]
+Examples of such approach are:
+- [[Karger's min-cut algorithm]]
+- [[Primality test]]
