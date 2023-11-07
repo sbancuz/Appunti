@@ -11,11 +11,30 @@
             "id": "18242b08fe621dea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Distributed consistency model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f295a39adbfab28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Client centric consistency model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -34,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag",
+                "query": "tag:#distributed_systems con  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 306,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -89,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Client centric consistency model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Client centric consistency model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Client centric consistency model.md"
+              }
             }
           }
         ],
@@ -149,8 +173,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "0f295a39adbfab28",
   "lastOpenFiles": [
+    "Distributed consistency model.md",
+    "Client centric consistency model.md",
+    "Eventual consistency model.md",
+    "Data centric consistency model.md",
+    "fifo consistency.png",
+    "Karger's min-cut algorithm.md",
     "Self-organizing lists.md",
     "Verbi - N.md",
     "Infinito - N.md",
@@ -158,7 +188,6 @@
     "Monte Carlo algorithm.md",
     "Primality test.md",
     "Las Vegas algorithm.md",
-    "Karger's min-cut algorithm.md",
     "Random Treaps.md",
     "Longest common subsequence.md",
     "Time complexity for PRAM.md",
@@ -178,15 +207,10 @@
     "parallel tools.png",
     "Parallelization by hand.md",
     "Randomized data structure.md",
-    "Skip list.md",
     "skiplist.png",
-    "Graph problems.md",
-    "Model optimization problems.md",
-    "esercizi ds.md",
     "net of FSM.png",
     "PDFSM grammar rules.png",
     "PDFSM exa.png",
-    "PDAUTOMATA states.png",
     "Excalidraw"
   ]
 }
