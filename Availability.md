@@ -6,3 +6,15 @@ Replicating machine makes the system more performant since it allows more throug
 
 The problems with replication is data [[Distributed consistency model|consistency]], what will happen is something changes in a replica?
 To solve this issue we define a [[Distributed consistency model]].
+### Implementation
+
+The first thing to decide is the placement of such replicas:
+- Statically configured (CDN, [[DNS]])
+- Server initiated
+- Client initiated
+
+Then we want to define how to propagate an update:
+- Propagate a notification of a write
+- Transfer all the writes
+- Active replication, this means just transfer the operation, not the result
+

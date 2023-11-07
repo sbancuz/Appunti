@@ -28,4 +28,4 @@ If log entries on different servers have the same index and term:
 - they are equal in all preceding entries
 
 If a given entry is committed, all preceding ones are also committed. 
-[[Availability]]
+
