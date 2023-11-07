@@ -1,5 +1,5 @@
 ---
-tags: [norks] 
+tags: []
 ---
 
 La maggior parte dei verbi all'infinito finisce con una vocale, spesso la -e.

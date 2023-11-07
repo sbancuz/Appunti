@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ac98ebd82500938f",
+        "id": "fc81823bd9661295",
         "type": "tabs",
         "children": [
           {
-            "id": "9919d86233d3b281",
+            "id": "18242b08fe621dea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self-organizing lists.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -39,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel_computing amo ",
+                "query": "tag",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306,
-    "collapsed": true
+    "width": 306
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-organizing lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-organizing lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Self-organizing lists.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,8 +149,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9919d86233d3b281",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
+    "Self-organizing lists.md",
+    "Verbi - N.md",
+    "Infinito - N.md",
     "Randomized based algorithms.md",
     "Monte Carlo algorithm.md",
     "Primality test.md",
@@ -171,7 +164,6 @@
     "Time complexity for PRAM.md",
     "Amortized analysis.md",
     "Dynamic tables.md",
-    "Self-organizing lists.md",
     "Competitive analysis.md",
     "I-th selection.md",
     "Quicksort.md",
@@ -191,8 +183,6 @@
     "Graph problems.md",
     "Model optimization problems.md",
     "esercizi ds.md",
-    "Finite state automata.md",
-    "Formal languages.md",
     "net of FSM.png",
     "PDFSM grammar rules.png",
     "PDFSM exa.png",
