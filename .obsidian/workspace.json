@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3bd1589c9097143",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Big data.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Availability.md",
+                "file": "Big data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Availability.md",
+                "file": "Big data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Availability.md"
+                "file": "Big data.md"
               }
             }
           }
@@ -159,10 +173,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18242b08fe621dea",
+  "active": "d3bd1589c9097143",
   "lastOpenFiles": [
-    "Replication.md",
+    "example map.png",
+    "map reduce.png",
     "Availability.md",
+    "Big data.md",
+    "Replication.md",
     "Distributed consistency model.md",
     "Karger's min-cut algorithm.md",
     "Client centric consistency model.md",
@@ -191,12 +208,9 @@
     "amdahl.png",
     "Parallel machine model.md",
     "Parallelization.md",
-    "Automatic parallelization.md",
-    "Parallel technologies.md",
     "parallel tools 3.png",
     "parallel vs overhead.png",
     "parallel tools 2.png",
-    "parallel tools.png",
     "Excalidraw"
   ]
 }
