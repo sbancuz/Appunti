@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Peer to peer.md",
+                "file": "Structured naming.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Peer to peer.md",
+                "file": "Structured naming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Peer to peer.md",
+                "file": "Structured naming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Peer to peer.md"
+                "file": "Structured naming.md"
               }
             }
           }
@@ -175,7 +175,13 @@
   },
   "active": "d3bd1589c9097143",
   "lastOpenFiles": [
+    "DNS.md",
+    "Structured naming.md",
+    "Name resolution.md",
+    "Flat naming.md",
+    "DHT.md",
     "Modeling a distributed system.md",
+    "Peer to peer.md",
     "REST.md",
     "Service oriented.md",
     "UDDI.md",
@@ -195,14 +201,8 @@
     "Random Treaps.md",
     "Complexity of an algorithm.md",
     "Merge sort.md",
-    "Algorithms.md",
-    "Big data.md",
     "example map.png",
     "map reduce.png",
-    "Availability.md",
-    "Replication.md",
-    "Distributed consistency model.md",
-    "Client centric consistency model.md",
     "write follows read.png",
     "read your writes.png",
     "monotic writes.png",
