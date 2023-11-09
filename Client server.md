@@ -2,7 +2,7 @@
 tags:
   - distributed_systems
 ---
-Components have different roles and provide a well defined API to access its services.
+Components have different roles and provide a well defined API to access its services. There is a clear difference in the responsibilities of processes, some work as **servers**, which are often passive, and some as **clients** which are active and responsible for starting an operation. 
 #### Tiers
 
 Often servers operate by taking advantage of the services offered by other components. So an application can be partitioned by 3 classes:
@@ -17,7 +17,7 @@ Often servers operate by taking advantage of the services offered by other compo
 
 ### [[Fault tolerance]] 
 
-Reliable point-to-point communication is usually provided by TCP, which masks omission failures using acks and retrasmissions. The benign cases of a crash are, these can be easily managed:
+Reliable point-to-point communication is usually provided by TCP, which masks omission failures using acks and retrasmissions. The benign cases of a crash are those that can be easily managed:
 - the client can't find the server
 - client request is lost
 

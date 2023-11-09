@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self-organizing lists.md",
+                "file": "Peer to peer.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-organizing lists.md",
+                "file": "Peer to peer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self-organizing lists.md",
+                "file": "Peer to peer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self-organizing lists.md"
+                "file": "Peer to peer.md"
               }
             }
           }
@@ -175,6 +175,14 @@
   },
   "active": "d3bd1589c9097143",
   "lastOpenFiles": [
+    "Modeling a distributed system.md",
+    "REST.md",
+    "Service oriented.md",
+    "UDDI.md",
+    "SOAP.md",
+    "Client server.md",
+    "Distributed System.md",
+    "Self-organizing lists.md",
     "Amortized analysis.md",
     "Dynamic tables.md",
     "I-th selection.md",
@@ -199,15 +207,7 @@
     "read your writes.png",
     "monotic writes.png",
     "client centric.png",
-    "Eventual consistency model.md",
-    "Data centric consistency model.md",
     "fifo consistency.png",
-    "Self-organizing lists.md",
-    "Verbi - N.md",
-    "Infinito - N.md",
-    "Las Vegas algorithm.md",
-    "Longest common subsequence.md",
-    "Time complexity for PRAM.md",
     "amdahl.png",
     "parallel tools 3.png",
     "parallel vs overhead.png",
