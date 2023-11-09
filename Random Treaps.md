@@ -3,7 +3,7 @@ tags:
   - parallel_computing
 ---
 
-Treaps achieve the same time bounds, but they do not require any balancing information. The idea behind them is to assign a priority to any element $x$ at random 
+Treaps achieve the same time bounds as other auto balancing tree, but they do not require any balancing information. The idea behind them is to assign a priority to any element $x$ at random in an uniform way.
 
 A treap is actually a binary tree implemented as a heap. Each node contains one element with $key(x)$ and $prio(x)$ with the lowest priority is put at the top of this tree.
 
@@ -48,7 +48,7 @@ The insertion works as follows:
 \Procedure{Insert}{$root, x$}
 	\State $prio \gets $rand()
 	\State $pos \gets $Search($root, x$)
-	\State makeLeaf($pos, x$)
+	\State $v \gets$ makeLeaf($pos, x$)
 	\While{$prio(parent(x)) > prio(x)$}
 		\If{isLeftChild($key(v))$}
 			\State rotateRight($parent(x))$

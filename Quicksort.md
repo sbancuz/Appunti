@@ -16,8 +16,6 @@ The quicksort algorithm is a [[Divide and conquer approach]] to sorting an array
 			\State quicksort($A, p, q-1$)
 			\State quicksort($A, q + 1, r$)
 		\EndIf
-	\State exchange $A[p], A[i]$
-	\Return $i$
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}

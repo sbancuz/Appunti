@@ -19,12 +19,12 @@ No method is **best**, and in the case of accounting and potential method differ
 The [[Dynamic tables]] example is a case of the aggregate method and is, though simple, lacking in any kind of precision in respect to the other methods.
 ### Accounting method
 
-The idea is to charge the $i$-th operation a fictitious amortized cost $\dot{c}_{i}$ where $\$1$ pays for $1$ unit of work. This fee is consumed to perform the operation and any amount not immediately consumed is stored in the bank for use by subsequent operations.
+The idea is to charge the $i$-th operation a fictitious amortized cost $\dot{c}_{i}$ where $\$1$ pays for $1$ unit of work. This fee is consumed to perform the operation and any amount not immediately consumed is stored in the bank for use by subsequent operation.
 
 >[!warning]
 >The bank account must not be negative
 
-Thus, the total amortized cost provide an upper bound on the total true cost.
+Thus, the total amortized cost provides an upper bound on the total true cost.
 $$
 \sum c_{i} \leq \sum \dot{c}_{i}
 $$

@@ -33,4 +33,4 @@ So $T(n) = \Theta(\log n)$
 ### Matrix multiplication
 
 The naive algorithm is $\Theta(n^{3})$ where $n \in \mathbb N$
-Strassen algorithm
+[[Strassen algorithm]]

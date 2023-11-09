@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Big data.md",
-                "mode": "source",
+                "file": "Self-organizing lists.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems con  ",
+                "query": "tag:#parallel_computing  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Big data.md",
+                "file": "Self-organizing lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Big data.md",
+                "file": "Self-organizing lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Big data.md"
+                "file": "Self-organizing lists.md"
               }
             }
           }
@@ -175,13 +175,25 @@
   },
   "active": "d3bd1589c9097143",
   "lastOpenFiles": [
+    "Amortized analysis.md",
+    "Dynamic tables.md",
+    "I-th selection.md",
+    "Randomized based algorithms.md",
+    "Quicksort.md",
+    "Divide and conquer approach.md",
+    "Karger's min-cut algorithm.md",
+    "Monte Carlo algorithm.md",
+    "Primality test.md",
+    "Random Treaps.md",
+    "Complexity of an algorithm.md",
+    "Merge sort.md",
+    "Algorithms.md",
+    "Big data.md",
     "example map.png",
     "map reduce.png",
     "Availability.md",
-    "Big data.md",
     "Replication.md",
     "Distributed consistency model.md",
-    "Karger's min-cut algorithm.md",
     "Client centric consistency model.md",
     "write follows read.png",
     "read your writes.png",
@@ -193,24 +205,12 @@
     "Self-organizing lists.md",
     "Verbi - N.md",
     "Infinito - N.md",
-    "Randomized based algorithms.md",
-    "Monte Carlo algorithm.md",
-    "Primality test.md",
     "Las Vegas algorithm.md",
-    "Random Treaps.md",
     "Longest common subsequence.md",
     "Time complexity for PRAM.md",
-    "Amortized analysis.md",
-    "Dynamic tables.md",
-    "Competitive analysis.md",
-    "I-th selection.md",
-    "Quicksort.md",
     "amdahl.png",
-    "Parallel machine model.md",
-    "Parallelization.md",
     "parallel tools 3.png",
     "parallel vs overhead.png",
-    "parallel tools 2.png",
     "Excalidraw"
   ]
 }

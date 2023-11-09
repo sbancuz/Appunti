@@ -6,8 +6,9 @@ Let $G = (V,E)$ be a connected undirected [[Graphs]]. Let $n = |V|$, $m = |E|$. 
 
 ![[mimncut.png]]
 
-Traditionally it was solved by running the minimum st-cut problem (complexity of $O(nm \log(\frac{n^{2}}{m}))$) $n-1$ times. In the minimum st-cut is to find the set $S$ which minimize the size of the cut.
+Traditionally it was solved by running the minimum st-cut problem (complexity of $O(nm \log(\frac{n^{2}}{m}))$) $n-1$ times. 
 
+Karger's approach to find the set $S$ which minimize the size of the cut consists in:
 1) The first thing to do is to transform the graph in a multiedge graph (it allows multiple edges between 2 nodes).
 2) Then we pick an edge and we contract it.
 ![[contract edge.png]]
@@ -15,8 +16,10 @@ Traditionally it was solved by running the minimum st-cut problem (complexity of
 #### Lemma
 
 The minimum cut size of the graph is found with $Pr(cut)\geq \frac{1}{{n}\choose{2}}$
-
 In order to boost the probability of success, we simply run the algorithm $l$ times. This improves the probability to $1 - e^{-l}$  and it takes $O(n^{2})$ time [[Complexity of an algorithm]]
+#### Corollary
+
+Every [[Graphs]] has at most $O(n^{2})$ minimum cuts.
 #### Improved algorithm
 
-An improvement over this algorithm is to repeat until the graph is reduced to have at least $\frac{n}{\sqrt{ 2 } + 1}$ vertices then recursing on a graph. The idea is that the initial contraction is very unlikely to contract to a minimum cut and the further we go this probability improves. So for a minimum cut, the probability that it survives is at least ${{l}\choose {2}}/{{n\choose{2}}}$ and for $l = \frac{n}{\sqrt{ 2 }}$ we have a probability of $\frac{1}{2}$ of succeeding. The new complexity is $O(\log^{2}n)$ and the probability of success is $\geq 1-\frac{1}{poly(n)}$
+An improvement over this algorithm is to repeat until the graph is reduced to have at least $\frac{n}{\sqrt{ 2 } + 1}$ vertices then recursing on a graph. The idea is that the initial contraction is very unlikely to contract to a minimum cut and the further we go this probability improves. So for a minimum cut, the probability that it survives is at least ${{l}\choose {2}}/{{n\choose{2}}}$ and for $l = \frac{n}{\sqrt{ 2 }}$ we have a probability of $\frac{1}{2}$ of succeeding. The new complexity is $O(n^{2}\log^{3}n)$ because we have to repeat the process $O(\log^{2}n)$ times and the probability of success is $\geq 1-\frac{1}{poly(n)}$
