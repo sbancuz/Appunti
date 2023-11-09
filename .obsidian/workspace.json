@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structured naming.md",
+                "file": "Parallel machine model.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Structured naming.md",
+                "file": "Parallel machine model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Structured naming.md",
+                "file": "Parallel machine model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Structured naming.md"
+                "file": "Parallel machine model.md"
               }
             }
           }
@@ -175,8 +175,9 @@
   },
   "active": "d3bd1589c9097143",
   "lastOpenFiles": [
-    "DNS.md",
+    "Time complexity for PRAM.md",
     "Structured naming.md",
+    "DNS.md",
     "Name resolution.md",
     "Flat naming.md",
     "DHT.md",
@@ -200,7 +201,6 @@
     "Primality test.md",
     "Random Treaps.md",
     "Complexity of an algorithm.md",
-    "Merge sort.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
