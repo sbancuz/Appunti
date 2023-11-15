@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Naming.md",
+                "file": "Fault tolerance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Naming.md",
+                "file": "Fault tolerance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Naming.md",
+                "file": "Fault tolerance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Naming.md"
+                "file": "Fault tolerance.md"
               }
             }
           }
@@ -161,10 +161,13 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Garbage collector.md",
-    "Naming.md",
-    "Name resolution.md",
+    "Checkpointing.md",
+    "Rollback dependency graph.md",
     "Structured naming.md",
+    "Fault tolerance.md",
+    "Naming.md",
+    "Garbage collector.md",
+    "Name resolution.md",
     "Availability.md",
     "Attribute based naming.md",
     "DNS.md",
@@ -183,10 +186,7 @@
     "Event based.md",
     "Client server.md",
     "RPC.md",
-    "Fault tolerance.md",
     "Parallel machine model.md",
-    "Time complexity for PRAM.md",
-    "REST.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",

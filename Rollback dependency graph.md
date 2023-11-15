@@ -2,7 +2,7 @@
 tags:
   - distributed_systems
 ---
-This is a method to computed the dependency graph in a certain moment. 
+This is a method to compute the dependency graph in a certain moment. 
 
 We draw an arrow between 2 checkpoints $c_{ix}$ and $c_{iy}$ and if either:
 - $i =j$ and $y = x+ 1$
