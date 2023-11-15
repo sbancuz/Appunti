@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fault tolerance.md",
+                "file": "Synchronization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems public",
+                "query": "tag:#distributed_systems  access",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306,
-    "collapsed": true
+    "width": 306
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fault tolerance.md",
+                "file": "Synchronization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fault tolerance.md",
+                "file": "Synchronization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fault tolerance.md"
+                "file": "Synchronization.md"
               }
             }
           }
@@ -161,10 +160,14 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Checkpointing.md",
+    "Transactions.md",
+    "Pessimistic timestamp ordering.md",
+    "Optimistic timestamp ordering.md",
     "Rollback dependency graph.md",
-    "Structured naming.md",
+    "Synchronization.md",
     "Fault tolerance.md",
+    "Checkpointing.md",
+    "Structured naming.md",
     "Naming.md",
     "Garbage collector.md",
     "Name resolution.md",
@@ -183,10 +186,6 @@
     "MPI.md",
     "Berkeley sockets.md",
     "Complex event processing.md",
-    "Event based.md",
-    "Client server.md",
-    "RPC.md",
-    "Parallel machine model.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",

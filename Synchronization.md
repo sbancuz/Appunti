@@ -13,7 +13,7 @@ It's a system that prevents interference and ensures [[Distributed consistency m
 The simplest solution is to manage the shared resource with only one server and handle access with tokens. Printers utilize this model because it's easy to implement and to use.
 #### [[Global clock|Scalar clock]]
 
-With this approach we can also use  scalar clocks to ensure the orederness of the messages . This has the advantages of having the possibility to implement a wait queue to acknowledge all the requests and removing the single point of failure that was the centralized server.
+With this approach we can also use  scalar clocks to ensure the orderness of the messages . This has the advantages of having the possibility to implement a wait queue to acknowledge all the requests and removing the single point of failure that was the centralized server.
 #### Token ring
 
 Another approach is using a token ring solution, all processes are organized in a logical ring that keeps passing a token and this token grants access to the shared resource.
