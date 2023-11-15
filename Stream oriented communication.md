@@ -2,6 +2,8 @@
 tags:
   - distributed_systems
 ---
+In this type of communication the temporal impact of the message matters, this is because this technique is used in the streaming of videos/sounds.
+
 A stream oriented communication works with [[Data streams]] and can be:
 - synchronous -> the is a max end-to-end delay for each unit in the data stream
 - asynchronous -> The items in a stream are transmitted one after the other
@@ -12,9 +14,8 @@ A stream oriented communication works with [[Data streams]] and can be:
 Non functional requirements are often referred to as **Quality of Service**. 
 
 The header of a stream packet contains an 8-bit field that encodes
-- 6 bits for the Differentiated Services Code Point, this encodes the Per Hop Behaviour
+- 6 bits for the Differentiated Services Code Point, this encodes the Per Hop Behavior
 - 2 bits for the Explicit Congestion Notification
-
 ### Enforce QoS at the application layer
 
 ![[QoS.png]]

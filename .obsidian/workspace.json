@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Availability.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3bd1589c9097143",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Message oriented communication.md",
+                "file": "Naming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Message oriented communication.md",
+                "file": "Naming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Message oriented communication.md",
+                "file": "Naming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Message oriented communication.md"
+                "file": "Naming.md"
               }
             }
           }
@@ -173,34 +159,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d3bd1589c9097143",
+  "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "MPI.md",
-    "Message oriented communication.md",
-    "Berkeley sockets.md",
+    "Garbage collector.md",
+    "Naming.md",
+    "Name resolution.md",
+    "Structured naming.md",
+    "Availability.md",
+    "Attribute based naming.md",
+    "DNS.md",
+    "Peer to peer.md",
+    "Flat naming.md",
     "Modeling a distributed system.md",
     "Distributed algorithms.md",
+    "Stream oriented communication.md",
+    "Message oriented communication.md",
     "Publish-Subscribe.md",
+    "Data streams.md",
+    "DHT.md",
+    "MPI.md",
+    "Berkeley sockets.md",
     "Complex event processing.md",
     "Event based.md",
     "Client server.md",
-    "Stream oriented communication.md",
     "RPC.md",
-    "Flat naming.md",
     "Fault tolerance.md",
     "Parallel machine model.md",
     "Time complexity for PRAM.md",
-    "Structured naming.md",
-    "DNS.md",
-    "Name resolution.md",
-    "DHT.md",
-    "Peer to peer.md",
     "REST.md",
-    "Service oriented.md",
-    "UDDI.md",
-    "SOAP.md",
-    "Distributed System.md",
-    "Self-organizing lists.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",

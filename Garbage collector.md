@@ -16,7 +16,6 @@ The object keeps track of how many other objects have been given references, if 
 ### Weighted reference counting
 
 The objects tries to circumvent the race condition by communicating only counter decrements, removing a counter from the total counter of the skeleton and when the total and partial weights become equal, the object can be removed.
-
 ### Reference listing
 
 Instead of keeping track of the number of references, keep track of the identities of the proxies. This has the advantage that insertion and deletion of a proxy is idempotent and is easier to maintain. Though this method still suffers from race conditions. It keeps checking if an entities are still alive through pings.

@@ -8,4 +8,4 @@ Each node may represent several entities through a set of resource records.
 
 ![[DNS.png]]
 
-When dealing with moving entities the DNS uses a forwarding pointer approach.
+When dealing with moving entities the DNS uses a forwarding pointer approach. 

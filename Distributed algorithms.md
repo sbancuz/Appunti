@@ -18,7 +18,7 @@ There are 2 types of distributed systems:
 
 This is achieved with encapsulation of the payload with headers. The middleware includes common services and protocols that can be used by many different applications :
 - Marshalling data
-- [[Name resolution]]
+- [[Naming]]
 - Security protocols
 - Scaling mechanisms e.g. [[Replication]]
 
