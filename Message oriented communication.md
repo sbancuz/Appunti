@@ -19,3 +19,7 @@ It's a point-to-point persistent asynchronous communication, intrinsically [[Pee
 ![[messageQ.png]]
 
 In [[Client server]] application, message queuing functions by asynchronously fetching requests from the queue and then responding to the clients' queue. In this way the client doesn't know how many servers handle the requests, it only cares about the response. It's a nice way to implement a sort of load balancing.
+
+![[Publish-Subscribe]]
+
+![[Complex event processing]]

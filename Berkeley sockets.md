@@ -10,7 +10,6 @@ Sockets are a common abstraction interface for the network stack available on ev
 Each connected socket is uniquely identified by 4 numbers:
 - IP address server/client
 - port server/client
-
 ### Datagram connection
 
 Client and server use the same approach to send and receive datagrams. They both create a socket bound to a port and use it to both send and receive datagrams. 

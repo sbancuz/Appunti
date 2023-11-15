@@ -21,6 +21,8 @@ We distinguish between:
 #### Failure detection
 
 Distributed consensus is formally proved to be impossible in an asynchronous system because a message can always be lost. But in reality if we can create a system that can work almost always.
+
+In practice we can assume bounds of execution so large that it would never cause problems.
 ### Masking a failure
 
 The general technique for masking a failure is redundancy:

@@ -20,7 +20,7 @@ It identifies the classes of components that build the system, the various types
 - [[Mobile code]]
 ### Communication
 
-The communication in a distributed system can be implemented in:
+The communication in a distributed system can be implemented with [[Distributed algorithms]] in:
 - [[Message oriented communication]]
 - [[RPC]]
 - [[Stream oriented communication]]

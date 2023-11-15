@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel machine model.md",
-                "mode": "preview",
+                "file": "Message oriented communication.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel_computing  ",
+                "query": "tag:#distributed_systems public",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel machine model.md",
+                "file": "Message oriented communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel machine model.md",
+                "file": "Message oriented communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallel machine model.md"
+                "file": "Message oriented communication.md"
               }
             }
           }
@@ -175,32 +175,32 @@
   },
   "active": "d3bd1589c9097143",
   "lastOpenFiles": [
+    "MPI.md",
+    "Message oriented communication.md",
+    "Berkeley sockets.md",
+    "Modeling a distributed system.md",
+    "Distributed algorithms.md",
+    "Publish-Subscribe.md",
+    "Complex event processing.md",
+    "Event based.md",
+    "Client server.md",
+    "Stream oriented communication.md",
+    "RPC.md",
+    "Flat naming.md",
+    "Fault tolerance.md",
+    "Parallel machine model.md",
     "Time complexity for PRAM.md",
     "Structured naming.md",
     "DNS.md",
     "Name resolution.md",
-    "Flat naming.md",
     "DHT.md",
-    "Modeling a distributed system.md",
     "Peer to peer.md",
     "REST.md",
     "Service oriented.md",
     "UDDI.md",
     "SOAP.md",
-    "Client server.md",
     "Distributed System.md",
     "Self-organizing lists.md",
-    "Amortized analysis.md",
-    "Dynamic tables.md",
-    "I-th selection.md",
-    "Randomized based algorithms.md",
-    "Quicksort.md",
-    "Divide and conquer approach.md",
-    "Karger's min-cut algorithm.md",
-    "Monte Carlo algorithm.md",
-    "Primality test.md",
-    "Random Treaps.md",
-    "Complexity of an algorithm.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
