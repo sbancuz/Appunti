@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synchronization.md",
+                "file": "Global clock.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems  access",
+                "query": "tag:#distributed_systems clock ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Synchronization.md",
+                "file": "Global clock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Synchronization.md",
+                "file": "Global clock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Synchronization.md"
+                "file": "Global clock.md"
               }
             }
           }
@@ -160,11 +160,14 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Synchronization.md",
+    "SOAP.md",
+    "Service oriented.md",
+    "UDDI.md",
     "Transactions.md",
     "Pessimistic timestamp ordering.md",
     "Optimistic timestamp ordering.md",
     "Rollback dependency graph.md",
-    "Synchronization.md",
     "Fault tolerance.md",
     "Checkpointing.md",
     "Structured naming.md",
@@ -183,9 +186,6 @@
     "Publish-Subscribe.md",
     "Data streams.md",
     "DHT.md",
-    "MPI.md",
-    "Berkeley sockets.md",
-    "Complex event processing.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
