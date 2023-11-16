@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NTP.md",
+                "file": "Name resolution.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems clock ",
+                "query": "tag:#distributed_systems  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NTP.md",
+                "file": "Name resolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NTP.md",
+                "file": "Name resolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NTP.md"
+                "file": "Name resolution.md"
               }
             }
           }
@@ -160,6 +160,11 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Flat naming.md",
+    "Hierarchical flat naming.md",
+    "Name resolution.md",
+    "Structured naming.md",
+    "NTP.md",
     "NTP-Algorithm.svg.png",
     "Global clock.md",
     "Synchronization.md",
@@ -172,20 +177,16 @@
     "Rollback dependency graph.md",
     "Fault tolerance.md",
     "Checkpointing.md",
-    "Structured naming.md",
     "Naming.md",
     "Garbage collector.md",
-    "Name resolution.md",
     "Availability.md",
     "Attribute based naming.md",
     "DNS.md",
     "Peer to peer.md",
-    "Flat naming.md",
     "Modeling a distributed system.md",
     "Distributed algorithms.md",
     "Stream oriented communication.md",
     "Message oriented communication.md",
-    "Publish-Subscribe.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
@@ -195,7 +196,6 @@
     "fifo consistency.png",
     "amdahl.png",
     "parallel tools 3.png",
-    "parallel vs overhead.png",
     "Excalidraw"
   ]
 }
