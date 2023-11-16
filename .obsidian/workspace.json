@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Name resolution.md",
+                "file": "Distributed consistency model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems  ",
+                "query": "tag:#distributed_systems theorem ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Name resolution.md",
+                "file": "Distributed consistency model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Name resolution.md",
+                "file": "Distributed consistency model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Name resolution.md"
+                "file": "Distributed consistency model.md"
               }
             }
           }
@@ -160,9 +160,16 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Modeling a distributed system.md",
+    "Distributed System.md",
+    "Distributed algorithms.md",
+    "Consensus protocols.md",
+    "Agreement.md",
+    "Fault tolerance.md",
+    "Mobile code.md",
+    "Name resolution.md",
     "Flat naming.md",
     "Hierarchical flat naming.md",
-    "Name resolution.md",
     "Structured naming.md",
     "NTP.md",
     "NTP-Algorithm.svg.png",
@@ -175,18 +182,11 @@
     "Pessimistic timestamp ordering.md",
     "Optimistic timestamp ordering.md",
     "Rollback dependency graph.md",
-    "Fault tolerance.md",
     "Checkpointing.md",
     "Naming.md",
     "Garbage collector.md",
     "Availability.md",
     "Attribute based naming.md",
-    "DNS.md",
-    "Peer to peer.md",
-    "Modeling a distributed system.md",
-    "Distributed algorithms.md",
-    "Stream oriented communication.md",
-    "Message oriented communication.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",

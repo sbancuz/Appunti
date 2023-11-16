@@ -12,7 +12,7 @@ A consistency model is a contract between the processes and the data store that 
 Different models will have different guarantees and different protocols that implement them:
 - Guarantees on content -> max difference on the versions stored at different replicas
 - Guarantees on staleness -> max time between a a change and its propagation for the replicas
-- Guarantees on the order of updates -> constraints on behaviour in case of conflicts
+- Guarantees on the order of updates -> constraints on behavior in case of conflicts
 
 These models are implemented though:
 - [[Data centric consistency model]]
