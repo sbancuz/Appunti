@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Global clock.md",
+                "file": "NTP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Global clock.md",
+                "file": "NTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Global clock.md",
+                "file": "NTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Global clock.md"
+                "file": "NTP.md"
               }
             }
           }
@@ -160,6 +160,8 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "NTP-Algorithm.svg.png",
+    "Global clock.md",
     "Synchronization.md",
     "SOAP.md",
     "Service oriented.md",
@@ -184,8 +186,6 @@
     "Stream oriented communication.md",
     "Message oriented communication.md",
     "Publish-Subscribe.md",
-    "Data streams.md",
-    "DHT.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
