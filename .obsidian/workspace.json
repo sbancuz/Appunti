@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Synchronization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems theorem ",
+                "query": "tag:#distributed_systems synchr ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Synchronization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Synchronization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distributed consistency model.md"
+                "file": "Synchronization.md"
               }
             }
           }
@@ -160,6 +160,11 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Termination and deadlock detection.md",
+    "Logging.md",
+    "Synchronization.md",
+    "Global clock.md",
+    "Distributed consistency model.md",
     "Modeling a distributed system.md",
     "Distributed System.md",
     "Distributed algorithms.md",
@@ -173,8 +178,6 @@
     "Structured naming.md",
     "NTP.md",
     "NTP-Algorithm.svg.png",
-    "Global clock.md",
-    "Synchronization.md",
     "SOAP.md",
     "Service oriented.md",
     "UDDI.md",
@@ -184,9 +187,6 @@
     "Rollback dependency graph.md",
     "Checkpointing.md",
     "Naming.md",
-    "Garbage collector.md",
-    "Availability.md",
-    "Attribute based naming.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
