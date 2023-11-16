@@ -2,7 +2,6 @@
 tags:
   - distributed_systems
 ---
-
 This type of communication has simple API with only 2 primitives:
 - publish
 - subscribe

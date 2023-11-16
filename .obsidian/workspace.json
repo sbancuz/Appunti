@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Checkpointing.md",
+                "file": "Publish-Subscribe.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems cut",
+                "query": "tag:#distributed_systems clock",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Checkpointing.md",
+                "file": "Publish-Subscribe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Checkpointing.md",
+                "file": "Publish-Subscribe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Checkpointing.md"
+                "file": "Publish-Subscribe.md"
               }
             }
           }
@@ -160,15 +160,16 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Global clock.md",
+    "Commit protocols.md",
+    "Checkpointing.md",
     "Mobile code.md",
     "Replication.md",
     "Agreement.md",
     "Consensus protocols.md",
     "Logging.md",
-    "Commit protocols.md",
     "Fault tolerance.md",
     "Blockchain.md",
-    "Global clock.md",
     "vector ordered clokc.png",
     "Cristian's algorithm.md",
     "Pessimistic timestamp ordering.md",
@@ -187,7 +188,6 @@
     "SOAP.md",
     "Service oriented.md",
     "UDDI.md",
-    "Transactions.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
