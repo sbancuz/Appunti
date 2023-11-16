@@ -44,3 +44,7 @@ If a reply arrives before it's message/request, the system will delay it's accep
 > For example if it sees that $P_{1}$ sent a message to $P_{2}$ and $P_{2}$ sends its response to $P_{3}$, $P_{3}$ will not accept the message from $P_{2}$ until it receives the one from $P_{1}$. And it knows that there exist a message sent from $P_{1}$ just by looking at the vector clock in the message received from $P_{2}$ since it will be $(z+ 1,x + 1,y)$ and in $P_{3}$ we will hold $(z, x, y)$
 > 
 > ![[vec clocks.png]]
+
+Causal delivery is an extension of the normal vector clock functionality that can be implemented by incrementing the clock value only when the message is being accepted and not when it's received. If a process receives a message before it can actually be processed, it delays its acceptance util the previous message is accepted and processed.
+
+![[vector ordered clokc.png]]

@@ -18,7 +18,9 @@ Is a new algorithm that requires agreement on single decision and designed to be
 - [[Leader election]]: if the leader crashes, another will take its place
 - Safety: only up-to-date server may become leaders
 
-Crashes may result in log inconsistencies, in this case the leaders' log is considered the only point of truth in the systems and gets replicated to all the other servers.
+The result of any operation is what the majority of the machine return.  
+
+Crashes may result in log inconsistencies, in this case the leaders' log is considered the only point of truth in the systems and gets replicated to all the other servers. 
 #### Log matching property
 
 This property is guaranteed in raft through an header in the message that contains a pair of index and term of any entry preceding the new ones.

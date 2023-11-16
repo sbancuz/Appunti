@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synchronization.md",
+                "file": "Checkpointing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems synchr ",
+                "query": "tag:#distributed_systems cut",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 453
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Synchronization.md",
+                "file": "Checkpointing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Synchronization.md",
+                "file": "Checkpointing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Synchronization.md"
+                "file": "Checkpointing.md"
               }
             }
           }
@@ -160,18 +160,24 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Termination and deadlock detection.md",
+    "Mobile code.md",
+    "Replication.md",
+    "Agreement.md",
+    "Consensus protocols.md",
     "Logging.md",
-    "Synchronization.md",
+    "Commit protocols.md",
+    "Fault tolerance.md",
+    "Blockchain.md",
     "Global clock.md",
+    "vector ordered clokc.png",
+    "Cristian's algorithm.md",
+    "Pessimistic timestamp ordering.md",
+    "Synchronization.md",
+    "Termination and deadlock detection.md",
     "Distributed consistency model.md",
     "Modeling a distributed system.md",
     "Distributed System.md",
     "Distributed algorithms.md",
-    "Consensus protocols.md",
-    "Agreement.md",
-    "Fault tolerance.md",
-    "Mobile code.md",
     "Name resolution.md",
     "Flat naming.md",
     "Hierarchical flat naming.md",
@@ -182,11 +188,6 @@
     "Service oriented.md",
     "UDDI.md",
     "Transactions.md",
-    "Pessimistic timestamp ordering.md",
-    "Optimistic timestamp ordering.md",
-    "Rollback dependency graph.md",
-    "Checkpointing.md",
-    "Naming.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
@@ -195,7 +196,6 @@
     "client centric.png",
     "fifo consistency.png",
     "amdahl.png",
-    "parallel tools 3.png",
     "Excalidraw"
   ]
 }

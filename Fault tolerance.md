@@ -50,7 +50,7 @@ On the other hand an algorithm that can handle also byzantine failures needs to 
 - [[Agreement]] -> No 2 non-faulty processes decide on different values
 - Validity -> If all non-faulty processes start with a starting value $v$, then $v$ is the only possible decision value
 - Termination -> all non-faulty processes eventually decide
-#### Reliable group communication
+#### Reliable group communication multicast
 
 The idea with this approach is to exploit process resilience by means of [[Replication]]. In this approach groups are fixed and process must be non-faulty. In case of a multicast failure the receiver must send 
 back a NACK. The problem here is that there must be an [[Agreement]] about who is in the group and that the receiver must be able to infer if a packet is missing.
