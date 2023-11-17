@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flat naming.md",
+                "file": "Transactions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems clock",
+                "query": "tag:#distributed_systems access ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flat naming.md",
+                "file": "Transactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flat naming.md",
+                "file": "Transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flat naming.md"
+                "file": "Transactions.md"
               }
             }
           }
@@ -160,11 +160,18 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Publish-Subscribe.md",
+    "Pessimistic timestamp ordering.md",
+    "Transactions.md",
     "Global clock.md",
+    "Synchronization.md",
+    "Distributed consistency model.md",
+    "Publish-Subscribe.md",
+    "Client centric consistency model.md",
+    "Mobile code.md",
+    "Leader election.md",
+    "Flat naming.md",
     "Commit protocols.md",
     "Checkpointing.md",
-    "Mobile code.md",
     "Replication.md",
     "Agreement.md",
     "Consensus protocols.md",
@@ -173,21 +180,14 @@
     "Blockchain.md",
     "vector ordered clokc.png",
     "Cristian's algorithm.md",
-    "Pessimistic timestamp ordering.md",
-    "Synchronization.md",
     "Termination and deadlock detection.md",
-    "Distributed consistency model.md",
     "Modeling a distributed system.md",
     "Distributed System.md",
     "Distributed algorithms.md",
     "Name resolution.md",
-    "Flat naming.md",
     "Hierarchical flat naming.md",
     "Structured naming.md",
-    "NTP.md",
     "NTP-Algorithm.svg.png",
-    "SOAP.md",
-    "Service oriented.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
