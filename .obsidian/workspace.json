@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Publish-Subscribe.md",
+                "file": "Flat naming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Publish-Subscribe.md",
+                "file": "Flat naming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Publish-Subscribe.md",
+                "file": "Flat naming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Publish-Subscribe.md"
+                "file": "Flat naming.md"
               }
             }
           }
@@ -160,6 +160,7 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Publish-Subscribe.md",
     "Global clock.md",
     "Commit protocols.md",
     "Checkpointing.md",
@@ -187,7 +188,6 @@
     "NTP-Algorithm.svg.png",
     "SOAP.md",
     "Service oriented.md",
-    "UDDI.md",
     "example map.png",
     "map reduce.png",
     "write follows read.png",
