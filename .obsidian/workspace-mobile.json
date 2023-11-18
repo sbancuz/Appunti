@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Macchine ad un grado di libertà.md",
+                "file": "Stream oriented communication.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -186,7 +186,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Macchine ad un grado di libertà.md",
+            "file": "Stream oriented communication.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Macchine ad un grado di libertà.md",
+            "file": "Stream oriented communication.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -215,7 +215,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Macchine ad un grado di libertà.md"
+            "file": "Stream oriented communication.md"
           }
         }
       }
@@ -236,41 +236,41 @@
   },
   "active": "57af64a67f5f9ead",
   "lastOpenFiles": [
-    "Serie di Fourier.md",
-    "/Sviluppi di Taylor.md",
-    "/Rotolamento.md",
-    "/Corpo rigido.md",
-    "Dimostrazioni per Piovo.md",
-    "Calcolo integrale per funzioni a più variabili.md",
-    "Equazioni differenziali ordinarie.md",
-    "Studio qualitativo delle EDO del primo ordine.md",
-    "Sistemi differenziali lineari.md",
-    "Sistemi lineari non omogeneo.md",
-    "Sistemi lineari omogenei.md",
-    "Matrice esponenziale.md",
-    "Principio di sovrapposizione.md",
-    "EDO autonome.md",
-    "EDO di Bernoulli.md",
-    "EDO A variabili separabili.md",
-    "Problema di Cauchy.md",
-    "EDO del secondo ordine lineare.md",
-    "Calcolo differenziale per funzioni a più variabili.md",
-    "Ottimizzazione per funzione di più variabili.md",
-    "Classificazione dei punti critici.md",
-    "Funzioni a più variabili.md",
-    "Limiti di funzioni a più variabili.md",
-    "Curva in Rn.md",
-    "Asintotici noti.md",
-    "Dimostrazioni per Ciprio.md",
-    "xor.png",
-    "web service.png",
-    "virt arch.png",
-    "two tir.png",
-    "traccia.png",
-    "task.png",
-    "surplus monopolio.png",
-    "surplus concorrenza.png",
-    "studio fattibilita.png",
-    "studio fattibilita 1.png"
+    "Macchine ad un grado di libertà.md",
+    "write follows read.png",
+    "vector ordered clokc.png",
+    "vec clocks.png",
+    "synchronization.png",
+    "stream.png",
+    "step cost.png",
+    "step cost 1.png",
+    "skiplist.png",
+    "services oriented.png",
+    "search tree.png",
+    "esercizi ds.md",
+    "UDDI.md",
+    "Transactions.md",
+    "Time complexity for PRAM.md",
+    "Thompson.md",
+    "Termination and deadlock detection.md",
+    "Syntax tree.md",
+    "Syntax analysis.md",
+    "Synchronization.md",
+    "Structured naming.md",
+    "Stream oriented communication.md",
+    "Stable sorting algorithm.md",
+    "Sorting algorithms.md",
+    "Skip list.md",
+    "Shortest path algorithm in acyclic graph.md",
+    "Service oriented.md",
+    "Self-organizing lists.md",
+    "Search algorithm.md",
+    "Rollback dependency graph.md",
+    "Replication.md",
+    "Regular expressions.md",
+    "Rational Agents.md",
+    "Randomized data structure.md",
+    "Randomized based algorithms.md",
+    "Random Treaps.md"
   ]
 }
