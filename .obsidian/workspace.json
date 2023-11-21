@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Model optimization problems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91f3191896bdd649",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimization problem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Optimization problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Optimization problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallelization.md"
+                "file": "Optimization problem.md"
               }
             }
           }
@@ -158,10 +172,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18242b08fe621dea",
+  "active": "91f3191896bdd649",
   "lastOpenFiles": [
-    "Map pattern.md",
+    "Model optimization problems.md",
+    "Optimization problem.md",
     "Parallelization.md",
+    "Map pattern.md",
     "Stencil pattern.md",
     "stencil.png",
     "Pasted image 20231121110609.png",
@@ -194,7 +210,6 @@
     "Consensus protocols.md",
     "Logging.md",
     "Fault tolerance.md",
-    "Blockchain.md",
     "Excalidraw"
   ]
 }
