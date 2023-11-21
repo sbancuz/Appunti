@@ -2,7 +2,7 @@
 tags:
   - operations_research
 ---
-Given a [[Graphs]], we define a [[Model optimization problems]] in which a solution is a sub graph or [[Paths]] that minimizes/maximises the sum of all the weights.
+Given a [[Graphs]], we define a [[Model optimization problems]] in which a solution is a sub graph or [[Paths]] that minimizes/maximizes the sum of all the weights.
 $$
 \begin{align}
 \text{Sets: } &  N, A \\
@@ -17,6 +17,7 @@ $$
 $$
 ### Kruskal algorithm
 
+To find the minimum spanning tree for a weighted, undirected graph we use
 ```pseudo
 \begin{algorithm}
 \begin{algorithmic}
@@ -32,6 +33,6 @@ $$
 \end{algorithmic}
 \end{algorithm}
 ```
-But how do we check if a subgraph has a loop? We use a [[Find union]] that allows to do this check in almost constant time [[Complexity of an algorithm]].
+But how do we check if a sub-graph has a loop? We use a [[Find union]] that allows to do this check in almost constant time [[Complexity of an algorithm]].
 
 There are also other algorithms like [Boruvka's](https://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm) that was designed much earlier
