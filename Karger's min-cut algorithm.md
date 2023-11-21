@@ -6,7 +6,7 @@ Let $G = (V,E)$ be a connected undirected [[Graphs]]. Let $n = |V|$, $m = |E|$. 
 
 ![[mimncut.png]]
 
-Traditionally it was solved by running the minimum st-cut problem (complexity of $O(nm \log(\frac{n^{2}}{m}))$) $n-1$ times. 
+Traditionally it was solved by running the [[Flow optimization problems#Cuts|minimum st-cut problem]] (complexity of $O(nm \log(\frac{n^{2}}{m}))$) $n-1$ times. 
 
 Karger's approach to find the set $S$ which minimize the size of the cut consists in:
 1) The first thing to do is to transform the graph in a multiedge graph (it allows multiple edges between 2 nodes).

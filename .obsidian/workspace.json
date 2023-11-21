@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paths.md",
+                "file": "Flow optimization problems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c8e3ecf720c739b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flow optimization problems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paths.md",
+                "file": "Flow optimization problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paths.md",
+                "file": "Flow optimization problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Paths.md"
+                "file": "Flow optimization problems.md"
               }
             }
           }
@@ -203,9 +216,15 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "flow 3.png",
+    "flow ex1.png",
+    "Karger's min-cut algorithm.md",
+    "Paths.md",
+    "Flow optimization problems.md",
+    "flow ex.png",
+    "Dijkstra algorithm.md",
     "Graph problems.md",
     "Graphs.md",
-    "Paths.md",
     "Model optimization problems.md",
     "feasible solution.png",
     "Optimization problem.md",
@@ -222,9 +241,7 @@
     "map.png",
     "Scatter.png",
     "gather.png",
-    "view.png",
     "Pipeline pattern.md",
-    "pipeline.png",
     "Transactions.md",
     "Pessimistic timestamp ordering.md",
     "Global clock.md",
@@ -235,10 +252,6 @@
     "Mobile code.md",
     "Leader election.md",
     "Flat naming.md",
-    "Commit protocols.md",
-    "Checkpointing.md",
-    "Replication.md",
-    "Agreement.md",
     "Excalidraw"
   ]
 }
