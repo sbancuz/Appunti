@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "91f3191896bdd649",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Optimization problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimization problem.md",
+                "file": "Model optimization problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimization problem.md",
+                "file": "Model optimization problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimization problem.md"
+                "file": "Model optimization problems.md"
               }
             }
           }
@@ -172,10 +158,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "91f3191896bdd649",
+  "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Model optimization problems.md",
     "Optimization problem.md",
+    "Model optimization problems.md",
     "Parallelization.md",
     "Map pattern.md",
     "Stencil pattern.md",

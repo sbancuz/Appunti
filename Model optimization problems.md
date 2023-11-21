@@ -2,13 +2,21 @@
 tags:
   - operations_research
 ---
-When we need to resolve an optimization problem we have to think about:
+When we want to resolve an optimization problem we have to construct a mathematical model. 
+The formulation of such model implies three fundamental points:
 - Decisions $\to$ Variables
-- Rules $\to$ Mathematical constraints
-- Objective $\to$ Functions
+- Objective to be optimize $\to$ Functions
+- Definition of feasible solution using rules $\to$ Mathematical constraints
 
 >[!warning]
 >In this course the function MUST be linear
+
+Models can be divided in three main classes:
+- Mathematical programming -> the entire system is described through mathematical functions who's objective is to minimize/maximize
+- Game theory -> we model mathematical behavior through players, each of whom has a fixed role and strategy
+- Simulation models -> we try to reproduce reality (or a very complex system) to study its behavior
+
+In any case, the result of a model is always an abstraction of reality and, therefore, can't represent all the details and nuances of a system needed to approach the real problem. 
 
 ### Variables
 
