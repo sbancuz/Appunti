@@ -51,7 +51,7 @@ We can prove this can be easily parallelised just by unrolling the loop into all
 for(int i = 1; i < 100; i++)
 	a[i] = a[i-1] + 100;
 ```
-cannot be parallelised since the $i$-th operation depends on the $i-1$ but,
+cannot be parallelized since the $i$-th operation depends on the $i-1$ but,
 ```c
 for(int i = 5; i < 100; i++)
 	a[i - 5] = a[i] + 100;
@@ -72,8 +72,8 @@ This is based on extracting execution form a sequence and parallelizing them, in
 #### Parallel control patterns
 
 - Fork-join: allows control flow to fork into multiple parallel flows, then rejoin later
-- Map: performs a **pure** function over every element of a collection
-- Stencil: **pure** function that has access to a set of neighbours (convolution)
+- [[Map pattern]]: performs a **pure** function over every element of a collection
+- [[Stencil pattern]]: **pure** function that has access to a set of neighbors (convolution)
 - Reduction: combine every element in a collection using an associative combiner **pure** function
 - Recurrence: loop iteration can depend on one another
 
@@ -88,3 +88,14 @@ This is based on extracting execution form a sequence and parallelizing them, in
 ### Parallel Data management patterns
 
 - [[Pack pattern]]
+- [[Pipeline pattern]]
+- [[Geometric decomposition]]
+- [[Gather vs Scatter pattern]]
+- Superscalar sequence -> write a sequence of tasks ordered by dependencies
+- Futures
+- Speculative selection -> general version of serial selection, both outcomes of a condition can run in parallel
+- Workpile -> General map where each instance of the elemental function can generate more instances
+- Search
+- Segmentation -> Generalization of [[Geometric decomposition]]
+- Expand -> Combination of pack and map
+- Category reduction -> Given a collection with labels, find all elements with a certain label and reduce them
