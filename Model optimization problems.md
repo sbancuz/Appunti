@@ -16,8 +16,11 @@ Models can be divided in three main classes:
 - Game theory -> we model mathematical behavior through players, each of whom has a fixed role and strategy
 - Simulation models -> we try to reproduce reality (or a very complex system) to study its behavior
 
-In any case, the result of a model is always an abstraction of reality and, therefore, can't represent all the details and nuances of a system needed to approach the real problem. 
+In any case, the result of a model is always an abstraction of reality and, therefore, can't represent all the details and nuances of a system needed to approach the real problem. The space of feasible solutions of a problem can be represented on a Cartesian plane by representing each constraint as a lines.
 
+![[feasible solution.png]]
+
+Any points belonging to the feasible region corresponds to a possible combination of the two. In order to find the best one, we have to restrict the range of research by remarking that the optimal solution must exploit at least one resource to the utmost extent. This means that our research can be limited to the edge of the feasible region space.
 ### Variables
 
 Variables are used to represent decisions, and can be:

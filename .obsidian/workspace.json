@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321
+    "width": 321,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -160,6 +161,7 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "feasible solution.png",
     "Optimization problem.md",
     "Model optimization problems.md",
     "Parallelization.md",
@@ -195,7 +197,6 @@
     "Agreement.md",
     "Consensus protocols.md",
     "Logging.md",
-    "Fault tolerance.md",
     "Excalidraw"
   ]
 }
