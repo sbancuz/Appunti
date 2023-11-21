@@ -141,6 +141,48 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "06b3c2de6d2cd6ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13d608ab472d6fb2",
+            "type": "leaf",
+            "state": {
+              "type": "ob_comments",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "adba6d7c494d8bfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e29be9463de357d",
+            "type": "leaf",
+            "state": {
+              "type": "ob_comments",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "0ed275f3ff99eeee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e293017314722dd9",
+            "type": "leaf",
+            "state": {
+              "type": "ob_comments",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",

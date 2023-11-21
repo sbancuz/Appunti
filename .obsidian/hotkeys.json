@@ -1,1 +1,18 @@
-{}
+{
+  "obsidian-comments:add-comment": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "reading-comments:toggle-block-inline-reading-comment": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ]
+}
