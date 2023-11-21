@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transactions.md",
+                "file": "Parallelization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453
+    "width": 321
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transactions.md",
+                "file": "Parallelization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transactions.md",
+                "file": "Parallelization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transactions.md"
+                "file": "Parallelization.md"
               }
             }
           }
@@ -160,8 +160,8 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Pessimistic timestamp ordering.md",
     "Transactions.md",
+    "Pessimistic timestamp ordering.md",
     "Global clock.md",
     "Synchronization.md",
     "Distributed consistency model.md",
