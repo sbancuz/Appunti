@@ -35,7 +35,7 @@ $$
 $$
 \pi_{i} = \pi_{i}^{+} - \pi_{i}^{-} \text{ where } \pi_{i}^{+},\pi_{i}^{-} \geq 0 
 $$
-- relative value : it's a fraction of a value
+- relative value : it's a fraction of a value, usually between  $0$ and $1$ to represent percentages
 - 0-1 : this represent a logical value
 - discrete value
 
@@ -45,12 +45,18 @@ The rules are constraints that our system must follow. This are expressed as mul
 $$
 x_{a}+ 2x_{b} \leq 15
 $$
+To transform a requirement from an inequality to an equality we can add a slack variable such that
+$$
+x_{a} + 2 x_{b} -x_{s} = 15
+$$
+and it measures how much of a given resource is still available in the system.
 #### Blending constraints
 
 There can also be blending constraints that require a certain percentage goal to a mix of variables
 $$
 \frac{35x_{s} + 40 x_{c} + 180 x_{p} + 100 x_{b}}{300 + \dots + 400x_{b}} \geq 30 \%
 $$
+though this type of constraint is not linear, but we can resolve this just by multiplying the denominator to both sides and then putting all the variables on one side of the constraint.
 #### Logical constraint
 
 Binary values can be seen as logical variables and thus can be used to express propositional operator. To use a logical constraint onto real variables we have to create systems
@@ -84,8 +90,30 @@ $$
 \sum_{i} a_{i}x_{i} ± s\leq b
 $$
 and varying the value of $s$ gives us a discriminant that tells us if our result is equal or not to $b$
+### Objective function
+
+The objective function is used to represent the minimization or maximization of appropriate linear functions. In order to switch between the two we just
+$$
+max \sum c_{j}x_{j} = - min \sum (-c_{j})x_{j}
+$$
+>[!note]
+>We don't have to change the sign of decision variables
+
+Another type of objective function are the **bottleneck functions**, which are used either to minimize the maximum (**minimax**) or to maximize the minimum (**maxmin**). The problem is that such functions are non linear. This is resolved by adding another variable to separate the constraints of the objective functions.
+$$
+\begin{align}
+\min \max p_{ij}x_{ij} \implies \begin{cases}
+\min d \\
+d \geq p_{ij}x_{ij}
+\end{cases} \\
+\max \min p_{ij}x_{ij} \implies \begin{cases}
+\max d \\
+d \leq p_{ij}x_{ij}
+\end{cases}
+\end{align}
+$$
 ### Multi-criteria analysis
 
-When there are conflicting objective functions like minimize $a$ and maximise $b$ we can get the solution by graphing all the values and getting the boundaries 
+When there are conflicting objective functions like minimize $a$ and maximize $b$ we can get the solution by graphing all the values and getting the boundaries 
 
 ![[Frontier.png]]

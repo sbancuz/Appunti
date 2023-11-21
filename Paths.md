@@ -2,11 +2,23 @@
 tags:
   - operations_research
 ---
+
+We can define a **path** as the sequence of consecutive arcs that link 2 nodes with each other. A **simple path** is special path that doesn't have repeated arcs, and an **elementary path** doesn't repeat nodes. 
 ```math
 ||{"id":1117737196070}||
 
 
 ```
+### Cycle
+
+A **cycle** that is a closed path. Some special types of cycles are:
+ - elementary cycle that has no repeated nodes
+ - Hamiltonian cycle that visits all the nodes
+ - simple cycles that don't repeat arcs
+ - Eulerian tours that visit all nodes once
+### Chain
+
+A chain is a type of digraph such that every node $a_{k}$ is $(i_{k}, i_{k+1})$ and a closed chain is also constrained to have $a_{last} = (i_{last}, i_{1})$ 
 ### Existing path problem
 
 In this simple example, given a [[Graphs]] of a city in which the intersections are the nodes and the street represent the arcs, we need to check if all nodes can be reached from all other nodes. These arcs may be uni or bi-directional.

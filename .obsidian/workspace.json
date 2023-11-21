@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model optimization problems.md",
+                "file": "Graphs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1c9ad2ddc8e8373",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paths.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model optimization problems.md",
+                "file": "Paths.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Model optimization problems.md",
+                "file": "Paths.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Model optimization problems.md"
+                "file": "Paths.md"
               }
             }
           }
@@ -159,11 +173,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18242b08fe621dea",
+  "active": "a1c9ad2ddc8e8373",
   "lastOpenFiles": [
+    "Graphs.md",
+    "Paths.md",
+    "Graph problems.md",
+    "Model optimization problems.md",
     "feasible solution.png",
     "Optimization problem.md",
-    "Model optimization problems.md",
     "Parallelization.md",
     "Map pattern.md",
     "Stencil pattern.md",
@@ -180,7 +197,6 @@
     "view.png",
     "Pipeline pattern.md",
     "pipeline.png",
-    "Pasted image 20231121101549.png",
     "Transactions.md",
     "Pessimistic timestamp ordering.md",
     "Global clock.md",
@@ -195,8 +211,6 @@
     "Checkpointing.md",
     "Replication.md",
     "Agreement.md",
-    "Consensus protocols.md",
-    "Logging.md",
     "Excalidraw"
   ]
 }

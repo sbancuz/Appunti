@@ -2,7 +2,7 @@
 tags:
   - operations_research
 ---
-Given a [[Graphs]], we define a [[Model optimization problems]] in which a solution is a subgraph or [[Paths]] that minimizes/maximises the sum of all the weights.
+Given a [[Graphs]], we define a [[Model optimization problems]] in which a solution is a sub graph or [[Paths]] that minimizes/maximises the sum of all the weights.
 $$
 \begin{align}
 \text{Sets: } &  N, A \\
