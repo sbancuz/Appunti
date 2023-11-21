@@ -73,7 +73,7 @@ This is based on extracting execution form a sequence and parallelizing them, in
 
 - Fork-join: allows control flow to fork into multiple parallel flows, then rejoin later
 - Map: performs a **pure** function over every element of a collection
-- Stencil: **pure** function that has access to a set of neighbors (convolution)
+- Stencil: **pure** function that has access to a set of neighbours (convolution)
 - Reduction: combine every element in a collection using an associative combiner **pure** function
 - Recurrence: loop iteration can depend on one another
 
@@ -84,3 +84,7 @@ This is based on extracting execution form a sequence and parallelizing them, in
 - stack allocation $\to$ preserves locality, each thread has is own thread
 - heap allocation $\to$ slower but can be accessed by other threads if need be
 - objects
+
+### Parallel Data management patterns
+
+- [[Pack pattern]]
