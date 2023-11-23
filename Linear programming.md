@@ -51,3 +51,33 @@ This relation holds not only for this example, but for every LP problem and are 
 >[!note]
 >The dual of the dual is the primal
 
+Given a LP problem in any form, we can always derive its dual in an automatic way.
+### Weak duality theorem
+
+If $P$ and $D$ admit the feasible solutions $\dot{x}$ and $\dot{y}$, respectively, then $c\dot{x}\leq \dot{y}b$
+
+>[!corollary]
+>If $\dot{x}$ and $\dot{y}$ are feasible solutions and $c\dot{x}=\dot{y}b$ then the two solutions are optimal
+
+In case we are provided with a feasible solution for the primal and a feasible solution for the dual we may be sure that none of the two can be improved.
+
+>[!corollary]
+>If $P$ has unbounded optimality, then $D$ is empty
+
+In fact, even if $D$ contained only one solution, its value would represent a bound to the value of the solutions of $P$.
+### Feasible growth directions
+
+Let $\dot{x} \in \mathbb{R}^{n}$ be a feasible solution for $P$, the question is whether such solution is optimal or it is improvable. We can state that is there exists a point $\dot{x}$ better than $\ddot{x}$, it must be possible to express it in the form
+$$
+\dot{x} = \ddot{x} + \lambda \xi
+$$
+where $\lambda>0$ is a scalar called **displacement step**, and $\xi$ is a vector of $\mathbb{R}^{n}$ called **displacement direction**. So we can say that $\ddot{x}$ is improvable iff there exists a **feasible growth direction** $\xi$ for which a point $\dot{x}$ still falls in the interior of the feasible region and has objective function value $c\dot{x}>cx$. In other terms, $\ddot{x}$ is optimal iff there exists no such direction $\xi$.
+
+Formally we can say that optimality conditions for $P$ at point $\ddot{x}$ are the non-existence of a solution for
+$$
+\begin{align}
+c\xi > 0 \\
+A_{I}\xi \leq 0
+\end{align}
+$$
+where $A_{I}$ indicates the sub-matrix of $A$ relative to the active constraints $I(\ddot{x})$ 
