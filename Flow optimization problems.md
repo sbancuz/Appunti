@@ -17,6 +17,8 @@ Given a cut, the quantity of flow crossing the cut is given by the quantity of f
 
 >[!tip]
 >It is obvious that the cut that is most limiting is the one of minimum capacity
+
+The overall complexity is $O(nm^{2}\log n)$
 ### Maximum flow problem
 
 ![[Augmenting path algorithm]]
@@ -35,3 +37,9 @@ The minimum cost flow problem can be seen as a generalization of both the maximu
 We also assume that the global network balance is null: $\sum b_{i} = 0$
 
 ![[Negative cycle elimination algorithm]]
+### Feasible starting flow
+
+The computation if a feasible flow can be performed in polynomial time by means of a maximum flow algorithm on an appropriate graph. 
+### Multi-commodity flow problems
+
+The problems characterized so far are homogeneous in respect to the flow. 

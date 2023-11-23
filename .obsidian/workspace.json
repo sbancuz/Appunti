@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Negative cycle elimination algorithm.md",
+                "file": "Flow optimization problems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Negative cycle elimination algorithm.md",
+                "file": "Flow optimization problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Negative cycle elimination algorithm.md",
+                "file": "Flow optimization problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Negative cycle elimination algorithm.md"
+                "file": "Flow optimization problems.md"
               }
             }
           }
@@ -203,9 +203,9 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "neg flow.png",
-    "Flow optimization problems.md",
     "Negative cycle elimination algorithm.md",
+    "Flow optimization problems.md",
+    "neg flow.png",
     "Maximum cardinality flow.md",
     "cardinality flow.png",
     "Augmenting path algorithm.md",
@@ -229,7 +229,6 @@
     "Map pattern.md",
     "Stencil pattern.md",
     "stencil.png",
-    "Pasted image 20231121110609.png",
     "Geometric decomposition.md",
     "Pack pattern.md",
     "Gather vs Scatter pattern.md",
