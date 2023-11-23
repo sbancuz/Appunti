@@ -203,6 +203,7 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "neg flow.png",
     "Flow optimization problems.md",
     "Negative cycle elimination algorithm.md",
     "Maximum cardinality flow.md",
@@ -238,7 +239,6 @@
     "Global clock.md",
     "Synchronization.md",
     "Distributed consistency model.md",
-    "Publish-Subscribe.md",
     "Excalidraw"
   ]
 }
