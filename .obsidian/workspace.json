@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flow optimization problems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c8e3ecf720c739b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Negative cycle elimination algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Negative cycle elimination algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Negative cycle elimination algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flow optimization problems.md"
+                "file": "Negative cycle elimination algorithm.md"
               }
             }
           }
@@ -216,11 +203,20 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Flow optimization problems.md",
+    "Negative cycle elimination algorithm.md",
+    "Maximum cardinality flow.md",
+    "cardinality flow.png",
+    "Augmenting path algorithm.md",
+    "Edmonds-Karp algorithm.md",
+    "Karger's min-cut algorithm.md",
+    "Search algorithm.md",
+    "pathological flow.png",
+    "flow 5.png",
+    "flow4.png",
     "flow 3.png",
     "flow ex1.png",
-    "Karger's min-cut algorithm.md",
     "Paths.md",
-    "Flow optimization problems.md",
     "flow ex.png",
     "Dijkstra algorithm.md",
     "Graph problems.md",
@@ -233,14 +229,9 @@
     "Stencil pattern.md",
     "stencil.png",
     "Pasted image 20231121110609.png",
-    "cache fusion.png",
-    "compress map.png",
     "Geometric decomposition.md",
     "Pack pattern.md",
     "Gather vs Scatter pattern.md",
-    "map.png",
-    "Scatter.png",
-    "gather.png",
     "Pipeline pattern.md",
     "Transactions.md",
     "Pessimistic timestamp ordering.md",
@@ -248,10 +239,6 @@
     "Synchronization.md",
     "Distributed consistency model.md",
     "Publish-Subscribe.md",
-    "Client centric consistency model.md",
-    "Mobile code.md",
-    "Leader election.md",
-    "Flat naming.md",
     "Excalidraw"
   ]
 }

@@ -72,7 +72,6 @@ These are too many states to check, we need to find a way to minimize the state 
 >[!Note]
 >The problem remained the same, but just changing the search space reduced the complexity so much that before the solution couldn't be found at all, now it's just a matter of milliseconds
 >
-
 ### Evaluation of a search algorithm
 
 A search algorithm is evaluated by it's:
@@ -82,7 +81,6 @@ A search algorithm is evaluated by it's:
 - Parameters : 
 	- $b \to$ is the branching factor
 	- $d \to$ is the depth of the shallowest goal node
-
 ### Breadth-First Search
 
 It's a search algorithm in which all the nodes at level $k$ of the search tree must be selected before selecting any node at level $k+1$. It always selects the node with minimum depth.

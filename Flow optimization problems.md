@@ -17,54 +17,21 @@ Given a cut, the quantity of flow crossing the cut is given by the quantity of f
 
 >[!tip]
 >It is obvious that the cut that is most limiting is the one of minimum capacity
-### Augmenting path algorithm
+### Maximum flow problem
 
-Given a flow problem with a feasible solution, we test if it's improvable. In order to discover if such flow augmentation is practicable, we introduce the **residual graph of a flow** $\dot{x}$.
+![[Augmenting path algorithm]]
 
-Given a graph $G = (N,A)$ with capacity on the arcs $u$ and $a$ feasible flow $\dot{x}$, we define the residual graph 
-$$
-G_{R}(\dot{x}) = (N, A(\dot{x}))
-$$
-where the arcs are defined as follows
-$$
-\begin{align}
-A(\dot{x})  & = A^{+}(\dot{x}) \cup A^{-}(\dot{x}) \\
-A^{+}(\dot{x})  & = \{ (i,j) : (i,j) \in A, \dot{x}\leq u_{ij} \}  \\
-A^{-}(\dot{x})  & = \{ (i,j) : (i,j) \in A, \dot{x}\geq 0 \} 
-\end{align}
-$$
->[!example]-
->Given this graph where a feasible flow is show as well
->![[flow ex1.png]]
->We can construct the residual graph by testing, arc by arc, if the flow can be augmented by introducing an arc of $A^{+}$ and/or diminished by introducing an arc of $A^{-}$
->![[flow 3.png]]
+![[Edmonds-Karp algorithm]]
 
-```pseudo
-\begin{algorithm}\begin{algorithmic}
-\Procedure{Augmenting\_paths}{$G,s,t,x$}
-	\For{$(i,j)\in A$}
-		\State $x[i,j] \gets 0$
-	\EndFor
-	\While{$P[t] \ne \emptyset$}
-		\State $G_R \gets $ Residual\_graph($x$)
-		\State Graph\_search($G_R,s,P$)
-		\If{P[t] \ne \emptyset}
-			\State Augment\_flow($P,x$)
-		\EndIf
-	\EndWhile
-	\State Augment_flow($P,x$)
-	\State $\theta \gets$ Residual\_capacity($P,x$)
-	\For{$(i,j)\in A$}
-		\If{$(i,j) \in A^+$}
-			\State $x[i,j] \gets x[i,j] + \theta 0$
-		\Else
-			\State $x[i,j] \gets x[i,j] - \theta 0$
-		\EndIf	
-	\EndFor
-	\State
-\EndProcedure
-\end{algorithmic}\end{algorithm}
-```
+![[Maximum cardinality flow]]
+### Minimum cost flow problem
 
+The minimum cost flow problem can be seen as a generalization of both the maximum flow and shortest path. A network flow is specified by a digraph $G=(N,A)$, with each node $i\in N$ we associate a value $b_{i}$ called the **balance** of the node, and with each arc $(i,j)$ we associate the unit **cost** $c_{ij}$ and the **capacity** $u_{ij}$ limiting the maximum quantity of flow that can transit. There can be 3 types of nodes:
+- transshipment node -> $b_{i} = 0$
+- source node -> $b_{i} < 0$
+- sink node -> $b_{i} > 0$
 
+>[!info]
+We also assume that the global network balance is null: $\sum b_{i} = 0$
 
+![[Negative cycle elimination algorithm]]
