@@ -80,4 +80,4 @@ c\xi > 0 \\
 A_{I}\xi \leq 0
 \end{align}
 $$
-where $A_{I}$ indicates the sub-matrix of $A$ relative to the active constraints $I(\ddot{x})$ 
+where $A_{I}$ indicates the sub-matrix of $A$ relative to the active constraints $I(\ddot{x})$. Also, when moving along $\xi$ we must take care not to go out of the feasible region.
