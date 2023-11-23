@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flow optimization problems.md"
+                "file": "Linear programming.md"
               }
             }
           }
@@ -203,8 +203,10 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Linear programming.md",
+    "dual.png",
+    "geometric.png",
     "Flow optimization problems.md",
+    "Linear programming.md",
     "Negative cycle elimination algorithm.md",
     "neg flow.png",
     "Maximum cardinality flow.md",
@@ -229,7 +231,6 @@
     "Parallelization.md",
     "Map pattern.md",
     "Stencil pattern.md",
-    "stencil.png",
     "Geometric decomposition.md",
     "Pack pattern.md",
     "Gather vs Scatter pattern.md",
@@ -238,7 +239,6 @@
     "Pessimistic timestamp ordering.md",
     "Global clock.md",
     "Synchronization.md",
-    "Distributed consistency model.md",
     "Excalidraw"
   ]
 }
