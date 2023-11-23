@@ -42,4 +42,6 @@ We also assume that the global network balance is null: $\sum b_{i} = 0$
 The computation if a feasible flow can be performed in polynomial time by means of a maximum flow algorithm on an appropriate graph. 
 ### Multi-commodity flow problems
 
-The problems characterized so far are homogeneous in respect to the flow. 
+The problems characterized so far are homogeneous in respect to the flow. This means that more than one **type** of item can be passed around the graph and the flows generated are distinct.
+
+This however does not imply solving the two flow problems separately and then recompose them after. This is a very difficult problem, and it's the reason that [[Linear programming]] exists.
