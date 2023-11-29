@@ -169,3 +169,29 @@ AP : \begin{align}
 \end{align}
 $$
 and it can be immediately verified that $x = 0, v=-b_{J_{-}}$ is a feasible solution for $AP$. The simplex primal dual allows to determine an optimal solution $(\dot{x},\dot{v})$ of $AP$. Observe that an optimal solution exists and is found just by running the simple primal dual algorithm twice.
+
+![[Complementary slackness theorem]]
+### Sensitivity analysis
+
+In order to build LP models, approximations may have been made, and if that is the case non-linear phenomena have been considered as linear. Therefore, it's useful to know how stable the detected solution is, or, in other words, how sensible it is to small variations of data. Consider
+$$
+P : \text{ } \begin{aligned}
+\max \text{ }&cx \\
+  & Ax\leq b
+\end{aligned}
+\text{ } D : \text{ } \begin{aligned}
+\min \text{ }&yb \\
+  & y A =  c\\
+  & y\geq 0
+\end{aligned}
+$$
+with optimal solutions $\dot{x},\dot{y}$. Suppose the cost vector is replaced with $c'$. In order to keep having $\dot{x}$ as optimal we must have that the complementary $y'$ relative to $c'$ must remain optimal. Hence if $I$ is the set of active indices
+$$
+\begin{align}
+y'A_{i} = c' \\
+y'\geq 0
+\end{align}
+$$
+and if $c'$ is a function of a parameter $\alpha$ we can extract the optimality conditions to be imposed on the parameter.
+
+
