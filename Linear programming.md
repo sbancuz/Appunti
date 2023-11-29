@@ -193,5 +193,23 @@ y'\geq 0
 \end{align}
 $$
 and if $c'$ is a function of a parameter $\alpha$ we can extract the optimality conditions to be imposed on the parameter.
+### Complementary bases
 
+Reconsider the dual problem $P,D$ and let $B \subseteq \{ 1,\dots ,m \}$ be a set of indices such that
+$$
+\begin{align}
+|B| = n \\
+\det(A_{B}) \ne 0
+\end{align}
+$$
+We associate with matrix $A_{B}$ the two vector $\dot{x}\in \mathbb{R}^{n}$ and $\dot{y}\in \mathbb{R}^{n}$ defined as follows
+$$
+\begin{align}
+\dot{x}  & = A_{B}^{-1}b_{B}   \\
+\dot{y}  & = (\dot{y}_{B}, \dot{y}_{N})   \text{ with } \dot{y}_{B} = c A^{-1}_{B}, \dot{y}_{N} = 0 \text{ and } N = \{ 1,\dots,m \} \setminus B
+\end{align}
+$$
+Such vectors are called **basic solutions** for problems $P$ and $D$ and are associate with the **basis matrix** $A_{B}$
+
+![[slackness condition.png]]
 

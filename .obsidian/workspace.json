@@ -203,6 +203,7 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "slackness condition.png",
     "Complementary slackness theorem.md",
     "Linear programming.md",
     "lp optimum.png",
@@ -238,7 +239,6 @@
     "Transactions.md",
     "Pessimistic timestamp ordering.md",
     "Global clock.md",
-    "Synchronization.md",
     "Excalidraw"
   ]
 }
