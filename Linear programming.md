@@ -17,6 +17,8 @@ $$
 \end{align}
 $$
 where $A\in \mathbb{R}^{m\times n}$, $c\in \mathbb{R}^{m}$ and $b\in \mathbb{R}^{n}$. This form of LP problem is called **canonical** or **general**. 
+
+In case the values of $x\in\mathbb{Z}^{n}$ then we are resolving an [[Integer linear programming]] problem.
 ### Geometric representation
 
 When presented with canonical LP problems with 2 or 3 variables, we can make use of a geometric representation in order to get a better intuition for the problem. We model constraints as straight lines that represent the boundaries of the half-spaces defined by the constraints themselves. The non-negativity constraint is represented by the Cartesian axes.
@@ -213,3 +215,17 @@ Such vectors are called **basic solutions** for problems $P$ and $D$ and are ass
 
 ![[slackness condition.png]]
 
+Given a basic solution $\dot{x}$ for $P$, there exists at least one basic solution $\dot{y}$ for $D$ forming with $\dot{x}$ a pair of **complementary basic solutions**. And since basic solutions are characterized by the basis defining them, we can directly extract feasibility and optimality conditions on the basis matrix.
+$$
+\begin{align}
+ & \text{ primal feasible: } b_{N} - A_{N}A^{-1}_{N} b_{B} \geq 0 \\
+ & \text{ dual feasible: } cA^{-1}_{B} \geq 0 
+\end{align}
+$$
+We can optimize the optimality conditions in the following theorem which is a consequence of the [[Complementary slackness theorem]]
+
+Let $\dot{x}$ be a basic feasible solution for $P$ and $A_{B}$ a corresponding basis matrix, then $\dot{x}$ is an optimal solution if 
+$$
+cA^{-1}_{B} \geq 0 \text{ or } b_{N}- A_{N}A_{B}^{-1}b_{B} \geq 0
+$$
+If $P$ and $D$ have finite optimum, then there exists at least one pair of complementary basic solution, such that $\dot{x}$ is optimal solution of $P$ and $\dot{y}$ is optimal solution of $D$
