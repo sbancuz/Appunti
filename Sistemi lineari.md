@@ -4,7 +4,7 @@ tags: [gal]
 $$
 Ax=b
 $$
-Dove $A$ è la [[matrici]] dei coefficienti, $x$ è il [[vettori]] delle incognite e $b$ sono i termini noti.
+Dove $A$ è la [[Matrix]] dei coefficienti, $x$ è il [[Vectors]] delle incognite e $b$ sono i termini noti.
 
 ### Sistemi omogenei
 

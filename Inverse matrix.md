@@ -1,7 +1,8 @@
 ---
-tags: [gal]
+tags:
+  - gal
 ---
-L'inversa di una matrice quadrata esiste solo se $\det A\neq 0$
+The inverse of a matrix exists iff $\det A\neq 0$
 $$
 A^{-1}=\frac{1}{\det A}\left(
 \begin{align}
@@ -12,4 +13,5 @@ A_{i1} & \dots &  A_{ij}
 \right)^{t}
 $$
 
-Dove $A_{ij}$ sono i complementi algebrici
+Where $A_{ij}$ is the [[algebraic complement]] 
+

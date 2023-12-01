@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrici.md",
+                "file": "Disjunctive constraints.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrici.md",
+                "file": "Disjunctive constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrici.md",
+                "file": "Disjunctive constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrici.md"
+                "file": "Disjunctive constraints.md"
               }
             }
           }
@@ -198,16 +198,22 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false,
-      "translate:Open translation view": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Matrici triangolari.md",
-    "Matrici.md",
-    "Disjunctive constraints.md",
     "Linear programming.md",
+    "Disjunctive constraints.md",
+    "Matrix.md",
+    "Spazio Rn.md",
+    "Matrici triangolari.md",
+    "Matrici a blocchi.md",
+    "Inverse matrix.md",
+    "Determinant.md",
+    "Algebraic complement.md",
+    "Vectors.md",
+    "Identity matrix.md",
     "ILPEx2.png",
     "ILPex.png",
     "Integer linear programming.md",
@@ -233,13 +239,6 @@
     "Graph problems.md",
     "Graphs.md",
     "Model optimization problems.md",
-    "Optimization problem.md",
-    "Parallelization.md",
-    "Map pattern.md",
-    "Stencil pattern.md",
-    "Geometric decomposition.md",
-    "Pack pattern.md",
-    "Gather vs Scatter pattern.md",
     "Excalidraw"
   ]
 }

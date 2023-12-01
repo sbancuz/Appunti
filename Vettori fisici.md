@@ -1,7 +1,7 @@
 ---
 tags: [gal, fisica]
 ---
-Questi sono [[vettori]] che hanno una grandezza numerica, direzione e verso
+Questi sono [[Vectors]] che hanno una grandezza numerica, direzione e verso
 ```math
 ||{"id":940315219111}||
 

@@ -1,10 +1,8 @@
 ---
 tags: [gal]
 ---
-I vettori sono delle matrici "speciali" nel senso che hanno o una colonna o una riga.
-
-### Vettore colonna
-
+Vectors are a special case of matrices where either the number of columns or rows is $1$.
+### Column vector
 $$
 [M\times 1] \implies 
 \left [
@@ -20,8 +18,8 @@ n_{m}
 \end{align}
 \right]
 
-$$ 
-### Vettore riga
+$$
+### Row Vector
 
 $$
 [1\times M] \implies [n_{1},n_{2},n_{3},\dots,n_{m}]

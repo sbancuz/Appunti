@@ -77,7 +77,7 @@ y_{1}'(t)=y_{2}(t) \\
 y_{2}'(t)= -\frac{b}{a}y_{2}(x)-\frac{c}{a}y_{1}(x)+\frac{f}{a}
 \end{cases}
 $$
-o con le [[Matrici]]
+o con le [[Matrix]]
 $$
 \underline{y}'(x) = A\underline{y}(x) + \underline{b}
 $$
