@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine task scheduling.md",
+                "file": "Disjunctive constraints.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine task scheduling.md",
+                "file": "Disjunctive constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine task scheduling.md",
+                "file": "Disjunctive constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine task scheduling.md"
+                "file": "Disjunctive constraints.md"
               }
             }
           }
@@ -204,6 +204,7 @@
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
     "Integer linear programming.md",
+    "Disjunctive constraints.md",
     "Machine task scheduling.md",
     "example ILP.png",
     "dc poly.png",
@@ -238,7 +239,6 @@
     "Gather vs Scatter pattern.md",
     "Pipeline pattern.md",
     "Transactions.md",
-    "Pessimistic timestamp ordering.md",
     "Excalidraw"
   ]
 }
