@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Matrici.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Matrici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Matrici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Disjunctive constraints.md"
+                "file": "Matrici.md"
               }
             }
           }
@@ -198,28 +198,31 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "translate:Open translation view": false
     }
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Integer linear programming.md",
+    "Matrici triangolari.md",
+    "Matrici.md",
     "Disjunctive constraints.md",
+    "Linear programming.md",
+    "ILPEx2.png",
+    "ILPex.png",
+    "Integer linear programming.md",
     "Machine task scheduling.md",
     "example ILP.png",
     "dc poly.png",
     "nc poly.png",
     "Pasted image 20231129111847.png",
     "ilp.png",
-    "Linear programming.md",
     "slackness condition.png",
     "Complementary slackness theorem.md",
     "lp optimum.png",
     "dual.png",
-    "geometric.png",
     "Flow optimization problems.md",
     "Negative cycle elimination algorithm.md",
-    "neg flow.png",
     "Maximum cardinality flow.md",
     "Augmenting path algorithm.md",
     "Edmonds-Karp algorithm.md",
@@ -237,8 +240,6 @@
     "Geometric decomposition.md",
     "Pack pattern.md",
     "Gather vs Scatter pattern.md",
-    "Pipeline pattern.md",
-    "Transactions.md",
     "Excalidraw"
   ]
 }
