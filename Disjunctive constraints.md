@@ -99,4 +99,23 @@ Let $\dot{x}$ be a basic solution ([[Linear programming#Complementary bases]]) o
 $$
 x_{h} + \sum \dot{a}_{tj}x_{j} = \dot{b}_{t} \implies x_{h} = \lfloor\dot{b}_{t}\rfloor
 $$
-### Implicit enumeration
+### Implicit enumeration methods
+
+This is another method for solving ILP. The concept of these algorithms is quite simple, we systematically enumerate all feasible solutions of the problem, evaluate the objective function and choose the best ones. The set of solution for ILP can be represented with a [[Decision tree]].
+
+Let us consider the optimization problem $P:\max \{ c(x): x \in F \}$, we call $P':\max \{ c'(x): x \in F' \}$ a **relaxation** if 
+$$
+\begin{align}
+  & F \subseteq F' \\
+  & x \in F \implies c'(x) \geq c(x)
+\end{align}
+$$
+According to this definition we can easily verify that the value of the relaxation of a maximization problem represents an overestimation of the optimal solution value
+$$
+\zeta(P) \leq \zeta(P')
+$$
+Now let $\dot{x} \in F'$ be an optimal solution for the relaxation $P'$ and let  $\dot{x}\in F$ and $c(\dot{x})=c'(\dot{x})$, then $\dot{x}$ is optimal solution even for $P$.
+
+>[!tip]
+>In defining a relaxation of a problem we generally take into account the fact that the optimal solution of a relaxation should be simpler to compute than the optimal solution of the original problem
+

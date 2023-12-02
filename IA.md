@@ -29,4 +29,4 @@ Una rete neurale è composta da più livelli.
 
 Il deep learning è un metodo di machine learning che incorpora reti neurali in livelli successivi al fine di imparare dai dati in modo iterativo, ed è utile quando si cercano pattern da dati non strutturati.
 
-Per valutare la qualità dei risultati si applicano alcuni [[alberi di decisione|parametri]] 
+Per valutare la qualità dei risultati si applicano alcuni [[Decision tree classifier|parametri]] 

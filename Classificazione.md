@@ -9,7 +9,7 @@ La classificazione è una procedura guidata:
 	2. Si testa il modello con dei dati con classe nota (test set)
 
 Una volta ottenuto un modello soddisfacente è possibile usarlo su dati non classificati per effettuare una predizione sulla classe di appartenenza.
-Esistono diversi tipi di classificatori basati su diverse tecniche tra cui funzioni matematiche, reti Bayesiane, [[alberi di decisione]] e reti neurali che differiscono per:
+Esistono diversi tipi di classificatori basati su diverse tecniche tra cui funzioni matematiche, reti Bayesiane, [[Decision tree classifier]] e reti neurali che differiscono per:
 	• Accuratezza -> percentuale elementi classificati correttamente
 	• Velocità -> tempo di costruzione del modello e tempo di classificazione
 	• Scalabilità -> capacità del classificatore di costruire un modello con un crescente numero di variabili
