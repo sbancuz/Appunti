@@ -2,14 +2,16 @@
 tags:
   - artificial_intelligence
 ---
+A rational agent is an agent -- literally something that acts -- who's goal is to achieve the best possible outcome.
+In a nutshell the goal of [[Artificial intelligence]] is to create agents that **do the right thing**.
+
+For this reason an agent it's described by it's function $f(\dots)$ that maps a sequence of perceptions to an action. So a rational agent is an agent that for every possible sequence of perceptions chooses the action that maximizes the expected value of it's [[Performance measure]], given it's knowledge up to that moment.
 
 ```math
 ||{"id":672843645648}||
 
 
 ```
-The goal of artificial intelligence is to design rational agents. An agent it's described by it's function $f(\dots)$ that maps a sequence of perceptions to an action. So a rational agent is an agent that for every possible sequence of perceptions chooses the action that maximises the expected value of it's [[Performance measure]], given it's knowledge up to that moment.
-
 An agent can be considered intelligent if it can act rationally given it's knowledge up to that moment.
 ### Environment
 

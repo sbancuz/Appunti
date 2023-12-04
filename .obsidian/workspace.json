@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Artificial intelligence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems access ",
+                "query": "tag:#artificial_intelligence   ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Artificial intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Artificial intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Disjunctive constraints.md"
+                "file": "Artificial intelligence.md"
               }
             }
           }
@@ -203,10 +203,12 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Rational Agents.md",
+    "Artificial intelligence.md",
+    "Disjunctive constraints.md",
     "Implicit enumeration methods.md",
     "Decision tree.md",
     "bipartite branch.png",
-    "Disjunctive constraints.md",
     "Polyhedral methods.md",
     "burglar.png",
     "Minimax algorithm.md",
@@ -237,7 +239,6 @@
     "Flow optimization problems.md",
     "Negative cycle elimination algorithm.md",
     "Maximum cardinality flow.md",
-    "Augmenting path algorithm.md",
     "Excalidraw"
   ]
 }
