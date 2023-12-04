@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Decision tree.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Decision tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Disjunctive constraints.md",
+                "file": "Decision tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Disjunctive constraints.md"
+                "file": "Decision tree.md"
               }
             }
           }
@@ -203,8 +203,11 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Decision tree.md",
+    "Implicit enumeration methods.md",
+    "bipartite branch.png",
     "Disjunctive constraints.md",
+    "Polyhedral methods.md",
+    "Decision tree.md",
     "burglar.png",
     "Minimax algorithm.md",
     "Decision tree classifier.md",
@@ -230,14 +233,11 @@
     "dc poly.png",
     "nc poly.png",
     "Pasted image 20231129111847.png",
-    "ilp.png",
     "Complementary slackness theorem.md",
     "Flow optimization problems.md",
     "Negative cycle elimination algorithm.md",
     "Maximum cardinality flow.md",
     "Augmenting path algorithm.md",
-    "Edmonds-Karp algorithm.md",
-    "Karger's min-cut algorithm.md",
     "Excalidraw"
   ]
 }
