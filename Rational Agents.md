@@ -102,6 +102,8 @@ Goals alone are not enough to generate high-quality behavior in most environment
 An agent's **utility function** is an internalization of the performance measure. Provided that the internal utility function and the external performance measure are in agreement, an agent chooses actions to maximize its utility will be rational according to the external performance measure.
 ### Learning agents
 
+This is the preferred method of building AI, and proposes their construction by simply teaching machines how to do something. Other than the ease of creation, the learning agent has another advantage: it allow the agent to operate in initially unknown environments.
+
 Learning allows the agent to operate in initially unknown environments and to become more competent than its initial knowledge alone might allow.
 
 ![[learning agents.png]]
