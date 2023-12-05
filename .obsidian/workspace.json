@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Artificial intelligence.md",
+                "file": "Rational Agents.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#artificial_intelligence   ",
+                "query": "tag:#artificial_intelligence  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Artificial intelligence.md",
+                "file": "Rational Agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Artificial intelligence.md",
+                "file": "Rational Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Artificial intelligence.md"
+                "file": "Rational Agents.md"
               }
             }
           }
@@ -203,21 +203,25 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Rational Agents.md",
     "Artificial intelligence.md",
+    "Rational Agents.md",
+    "Performance measure.md",
+    "Model optimization problems.md",
+    "Linear programming.md",
+    "Maximum cardinality flow.md",
+    "Minimax algorithm.md",
+    "Complexity of an algorithm.md",
     "Disjunctive constraints.md",
     "Implicit enumeration methods.md",
     "Decision tree.md",
     "bipartite branch.png",
     "Polyhedral methods.md",
     "burglar.png",
-    "Minimax algorithm.md",
     "Decision tree classifier.md",
     "Classificazione.md",
     "decision tree2.png",
     "Pasted image 20231202214057.png.md",
     "decision tree.png",
-    "Linear programming.md",
     "Matrix.md",
     "Spazio Rn.md",
     "Matrici triangolari.md",
@@ -235,10 +239,6 @@
     "dc poly.png",
     "nc poly.png",
     "Pasted image 20231129111847.png",
-    "Complementary slackness theorem.md",
-    "Flow optimization problems.md",
-    "Negative cycle elimination algorithm.md",
-    "Maximum cardinality flow.md",
     "Excalidraw"
   ]
 }
