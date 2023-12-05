@@ -35,8 +35,7 @@ $$
 agent = architecture + program
 $$
 
-
-
+In general the architecture makes the percepts from the sensors available to the program.
 ### Types of agents
 
 The is no unique solution but there are some approaches to build agents of increasing complexity. You could try to encode your knowledge, but that could be either too complex or you could be just not skilled enough in the topic your training your agent.  
@@ -45,7 +44,7 @@ The is no unique solution but there are some approaches to build agents of incre
 
 ### Simple reflex agent
 
- This is based on rules encoded when building the agent.
+This is the simplest kind of agent. These agents select actions on the basis of the current percept, ignoring the rest of the percept history. This kind of agent will work only if the correct decision can be made on the basis of just the current percept -- that is, only if the environment is fully observable. Even a little bit of unobservability can cause serious trouble.
 ```pseudo
    \begin{algorithm}
     \begin{algorithmic}
@@ -59,11 +58,17 @@ The is no unique solution but there are some approaches to build agents of incre
       \end{algorithmic}
     \end{algorithm}
 ```
-The first Roomba was a simple reflex agent that detected whenever it needed to change direction if there was an obstacle in the way. 
+>[!example]
+>The first Roomba was a simple reflex agent that detected whenever it needed to change direction if there was an obstacle in the way. 
 
+Simple reflex agents can easily be caught in infinite loops unless the agent can **randomize** its actions. 
 ### Model-based reflex agents
 
-This agent can hold a state that indicate how it should behave.
+The most effective way to handle partial observability is for the agent to keep track of the part of the world it can't see now, that is, the agent should maintain some sort of **internal state** that depends on the percept history. 
+
+Updating this internal state information as time goes by requires two kinds of knowledge:
+- Some information on how the world changes over time called the **transition model** of the world
+- Some information about how the state of the world is reflected in the agent percepts. This is called the **sensor model**
 ```pseudo
    \begin{algorithm}
     \begin{algorithmic}
@@ -82,18 +87,19 @@ This agent can hold a state that indicate how it should behave.
     \end{algorithm}
 ```
  The next Roomba can create a model of the environment.
-
 ### Goal-based agents
 
-This agent also asks whats the consequences of it's actions and how the environment will change.
+Knowing something about the current state of the environment is not always enough to decide what to do. The correct decision depends on its **goal** that has to describe what situations are desirable. This agent also has to use [[Search algorithm]] to plan it's actions while considering their consequence upon the environment. 
 
 This could be achieved with the [[Minimax algorithm]] 
 
---> [[Boids]]
---> [[Building a goal based agent]]
+>[!example]-
+ ![[Boids]]
 ### Utility-based agents
 
-This agents tends to maximise the utility while still achieving the goal. This could be because there might be a lot of ways to reach a certain goal, but there could be a 'best' way. 
+Goals alone are not enough to generate high-quality behavior in most environments. In this type of agent goal are still present, but they only provide a binary distinction of good and bad states. A more general performance measure should allow a comparison of different world states according to the **utility**.
+
+An agent's **utility function** is an internalization of the performance measure. Provided that the internal utility function and the external performance measure are in agreement, an agent chooses actions to maximize its utility will be rational according to the external performance measure.
 ### Learning agents
 
 Learning allows the agent to operate in initially unknown environments and to become more competent than its initial knowledge alone might allow.
