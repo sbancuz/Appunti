@@ -45,7 +45,7 @@ In this case the $i$ variable can be ignored. This is known as a DOALL loop in w
 - all iteration are independent of each other
 - all statement be executed in parallel at the same time
 
-We can prove this can be easily parallelised just by unrolling the loop into all its instructions or by splitting/merging loops depending on their overhead.
+We can prove this can be easily parallelized just by unrolling the loop into all its instructions or by splitting/merging loops depending on their overhead.
 #### Loop carried dependency
 ```c
 for(int i = 1; i < 100; i++)

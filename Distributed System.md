@@ -46,7 +46,7 @@ A system may fail partially so we need to:
 - add redundancy
 #### Concurrency
 
-Managing the access to shared resources must be carefully [[Synchronization|synchronized]]
+Managing the access to shared resources must be carefully [[Distributed synchronization|synchronized]]
 #### Transparency
 
 A system must hide the fact the everything could change, could have copies or has failed from the end user. This is done through [[Replication]].

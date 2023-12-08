@@ -1,23 +1,28 @@
 ---
 tags:
-  - distributed_systems
+  - parallel_computing
 ---
-The problem of synchronization doesn't appear only in distributed systems, but when it does, it makes things a lot more complicated. The problem is that every clock in every machine will be out of sync so we need to maintain a sort of [[Global clock]].
-### Mutual exclusion
+Synchronization is a method to avoid non deterministic behavior in a multi execution environment.
+### Race conditions
 
-It's a system that prevents interference and ensures [[Distributed consistency model|consistency]] of resources access. And it requires:
-- Safety property
-- Liveness property
-- Happens-before relationship
+A race condition occurs when two threads access the same variable, and at least one of them tries to write to it. Since any operation may happen at any time it may lead to non deterministic behavior.
+### Barriers
 
-The simplest solution is to manage the shared resource with only one server and handle access with tokens. Printers utilize this model because it's easy to implement and to use.
-#### [[Global clock|Scalar clock]]
+The barrier forces all the threads that are doing the parallel computation to wait until all involved threads have reached the barrier. When the threads have reached the barrier, the threads are released and begin computing together.
+### Mutex
 
-With this approach we can also use  scalar clocks to ensure the orderness of the messages . This has the advantages of having the possibility to implement a wait queue to acknowledge all the requests and removing the single point of failure that was the centralized server.
-#### Token ring
+Mutex are variable that protect [[Shared memory model]] applications from data races using mutual exclusion. Only one thread can **lock** a mutex variable at any given time and if several threads try to lock a mutex, only one will be successful. If a thread cannot acquire the lock, then it will be blocked. 
 
-Another approach is using a token ring solution, all processes are organized in a logical ring that keeps passing a token and this token grants access to the shared resource.
-#### [[Transactions]]
-### Global state
+>[!warning]
+>Multiple mutexes can lead to deadlocks if not handled correctly
 
-The global state represents the local state of every process in a distributed system together with the messages in transit over the links. A global state can be useful for debugging, [[Termination and deadlock detection]]. Though this would need a [[Global clock]]. A global state can be approximated with the use of cuts that represent the state of all the process and their history up to a certain event. This is called [[Logging]].
+There are 3 types of mutexes:
+- normal -> No deadlock detection and no errors
+- error check -> No deadlock detection but it will return errors when trying to do invalid operations
+- recursive -> It keeps track of how many threads try to lock and then it will unlock only when all threads have released their lock
+### Condition variables
+
+Condition variables allow threads to synchronize explicitly by signaling the meeting of some condition. Without these, the programmer would have to poll to check if this conditions are met.
+### Atomics
+
+Atomic variables are variables that can be accessed and modified in **one** operation, this means that are not susceptible to race conditions and do not require locks 

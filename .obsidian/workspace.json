@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rational Agents.md",
+                "file": "OpenMP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rational Agents.md",
+                "file": "OpenMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rational Agents.md",
+                "file": "OpenMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rational Agents.md"
+                "file": "OpenMP.md"
               }
             }
           }
@@ -203,8 +203,23 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Machine learning.md",
+    "Synchronization.md",
+    "OpenMP.md",
+    "openmp extensions.png",
+    "Parallel technologies.md",
+    "PThreads.md",
+    "Threads.md",
+    "pthread join.png",
+    "Distributed synchronization.md",
+    "Process.md",
+    "process.png",
+    "thread.png",
+    "Shared memory model.md",
+    "shared mem.png",
+    "Parallelization.md",
+    "Parallelization by hand.md",
     "Rational Agents.md",
+    "Machine learning.md",
     "Building a goal based agent.md",
     "Boids.md",
     "Artificial intelligence.md",
@@ -220,25 +235,9 @@
     "bipartite branch.png",
     "Polyhedral methods.md",
     "burglar.png",
-    "Decision tree classifier.md",
-    "Classificazione.md",
     "decision tree2.png",
-    "Pasted image 20231202214057.png.md",
     "decision tree.png",
-    "Matrix.md",
-    "Spazio Rn.md",
-    "Matrici triangolari.md",
-    "Matrici a blocchi.md",
-    "Inverse matrix.md",
-    "Determinant.md",
-    "Algebraic complement.md",
-    "Vectors.md",
     "ILPEx2.png",
-    "ILPex.png",
-    "example ILP.png",
-    "dc poly.png",
-    "nc poly.png",
-    "Pasted image 20231129111847.png",
     "Excalidraw"
   ]
 }
