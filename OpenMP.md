@@ -94,8 +94,22 @@ The `task` directive specifies a work unit which may be executed or deferred to 
 	/* code section */
 }
 #pragma omp taskwait
+#pragma omp taskgroup // Like taskwait but works for the child threads too
 #pragma omp taskyield
 ```
+
+This construct is very useful when dealing with irregular and runtime-dependent execution flows like the while loop. It can be seen as a queuing system that dynamically assigns work to threads.
+
+Tasks can be very useful even with [[Pipeline pattern]]. By creating tasks instead of sections, each thread can execute any task as long as its inputs are ready.
+```rust
+	#pragma omp task depend(out: variable) { read; }
+	#pragma omp task depend(in: variable) { compute; }
+```
+
+`priority(int prio)` can also be used to hint that something is more important.
+
+>[!example]-
+>![[tasks dep ex.png]]
 #### Nested parallelization
 
 OpenMP `parallel` constructs can be nested to achieve different levels of parallelism, each `parallel` region will spawn new threads per thread that enters that region
@@ -111,7 +125,55 @@ OpenMP `parallel` constructs can be nested to achieve different levels of parall
 ```
 
 >[!warning]
-Not all system allow nested parallelization, check the `OMP_NESTED` variable to find out 
+Not all system allow nested parallelization by default, check the `OMP_NESTED` variable to find out 
+
+This technique can easily cause over-subscription of the threads which can degrade performance since the CPU has to waste a lot of cycles just context switching. In such cases setting the number of threads dynamically can improve performance. 
+
+TLDR: use nested when the number of threads that the process will spawn its small
+#### [[SIMD]] vectorization
+
+The loop is divided into *chunks*, each chunk is executed by a single thread with a SIMD instruction and it will be easier for the compiler to generate this kind of instructions since it's the programmer's job to specify this detail
+
+```rust
+#pragma omp simd <data-scope> \
+				 <collapse> \ // fuse two perfectly nested loops
+				 <simdlen(size)> \ // suggest preferred vector lenght
+				 <safelen(size)> // safe length for loop carried dependecies
+// for loop
+```
+
+This directive can be used in conjunction with the `for` directive
+```rust
+#pragma omp for simd \
+	<schedule(simd:static, size)> // chunk size = ceil(req/simdlen) * simdlen 
+// for loop
+```
+
+Function declarations can also be declared as inlinable and vectorizable when inside a SIMD loop.
+```rust
+#pragma omp declare simd \ 
+	<linear(var)> \ // value changes linearly from one call to another
+	<uniform(var)> \ // same value for all calls
+	<notinbrach/inbrach>
+// function definition
+```
+#### Heterogeneous architectures computation
+
+Heterogeneous architecture means that the main execution is processed by the CPU while the parallelization part can be done by accelerators like GPUs, FPGAs or DSPs.
+
+```rust
+#pragma omp target \
+	<nowait> \ // Don't block execution of the main thread
+	<map(type: vals,...)> // Copies varaibles that are needed to the target
+						  // Default type: tofrom
+{
+	// code
+}
+```
+
+If present the execution is offloaded to an accelerator and blocks the main thread execution until its finished, if not, it falls back on the host.
+
+![[map types.png]]
 ### [[Synchronization]]
 
 The `critical` directive specifies a region of code that must be executed by only one thread at a time.
@@ -180,6 +242,7 @@ double omp_get_wtime() // returns wall clock time
 double omp_get_wtick() // return the number of seconds between two clock ticks
 void omp_set_nested(bool nested) // set if nested parallel blocks are allowed 
 void omp_set_max_active_levels(int max_levels) // set max level of nested blocks
+void omp_set_dynamic() // set the number of threads dinamically
 ```
 ### Environment variables
 ```c
@@ -193,4 +256,3 @@ OMP_NESTED // If nested parallel blocks are allowed
 OMP_MAX_ACTIVE_LEVELS // Upper limit on the number of active parallel regions
 OMP_THREAD_LIMIT 
 ```
-

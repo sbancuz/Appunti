@@ -203,8 +203,12 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Synchronization.md",
+    "map types.png",
+    "SIMD.md",
+    "SIMD.png",
     "OpenMP.md",
+    "tasks dep ex.png",
+    "Synchronization.md",
     "openmp extensions.png",
     "Parallel technologies.md",
     "PThreads.md",
@@ -233,11 +237,8 @@
     "Implicit enumeration methods.md",
     "Decision tree.md",
     "bipartite branch.png",
-    "Polyhedral methods.md",
     "burglar.png",
     "decision tree2.png",
-    "decision tree.png",
-    "ILPEx2.png",
     "Excalidraw"
   ]
 }
