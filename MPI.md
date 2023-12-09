@@ -227,10 +227,10 @@ r = e[0] \ o \ e[1] \ o \ \dots\  o\  e[n]
 $$
 ```c
 int MPI_Reduce(const void *sendbuf, void *recvbuf, 
-				MPI_Count count, MPI_Datatype datatype, MPI_Op op, 
+				int count, MPI_Datatype datatype, MPI_Op op, 
 			    int root, MPI_Comm comm) // root will have the result
 int MPI_Reduce_c(const void *sendbuf, void *recvbuf, 
-				 int count, MPI_Datatype datatype, MPI_Op op, 
+				 MPI_Count count, MPI_Datatype datatype, MPI_Op op, 
 			     int root, MPI_Comm comm) // root will have the result
 ```
 
