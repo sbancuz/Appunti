@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenMP.md",
+                "file": "MPI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMP.md",
+                "file": "MPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenMP.md",
+                "file": "MPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenMP.md"
+                "file": "MPI.md"
               }
             }
           }
@@ -203,10 +203,17 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "mpi datatype.png",
+    "Distributed memory model.md",
+    "dist mem.png",
+    "MPI.md",
+    "Shared memory model.md",
+    "shared mem.png",
+    "shared mem.png",
+    "OpenMP.md",
     "map types.png",
     "SIMD.md",
     "SIMD.png",
-    "OpenMP.md",
     "tasks dep ex.png",
     "Synchronization.md",
     "openmp extensions.png",
@@ -218,8 +225,6 @@
     "Process.md",
     "process.png",
     "thread.png",
-    "Shared memory model.md",
-    "shared mem.png",
     "Parallelization.md",
     "Parallelization by hand.md",
     "Rational Agents.md",
@@ -234,11 +239,6 @@
     "Minimax algorithm.md",
     "Complexity of an algorithm.md",
     "Disjunctive constraints.md",
-    "Implicit enumeration methods.md",
-    "Decision tree.md",
-    "bipartite branch.png",
-    "burglar.png",
-    "decision tree2.png",
     "Excalidraw"
   ]
 }
