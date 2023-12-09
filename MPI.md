@@ -83,7 +83,8 @@ To specify the `MPI_Datatype` there is an enum `POD` to *build* our datatype.
 int MPI_Recv(void *buf, // Data
 			 int count, // Number of elements
 			 MPI_Datatype datatype, 
-			 int source, int tag, MPI_Comm comm, 
+			 int source, // Use MPI_ANY_SOURCE if unknown 
+			 int tag, MPI_Comm comm, 
 			 MPI_Status *status) // Some message information
 int MPI_Recv_c(void *buf, 
 			   MPI_Count count, // Another count that is not int like before
