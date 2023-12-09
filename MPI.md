@@ -57,6 +57,7 @@ A message in MPI is composed by:
 - the rank
 - the tag that describes the topic of the message
 - the content
+##### Send
 
 ```c
 int MPI_Send(const void *buf, // Content of the message
@@ -79,6 +80,7 @@ There are 4 ways to handle outgoing messages in MPI and **all** the functions fo
 To specify the `MPI_Datatype` there is an enum `POD` to *build* our datatype.
 
 ![[mpi datatype.png]]
+##### Recive
 
 ```c
 int MPI_Recv(void *buf, // Data
@@ -104,6 +106,7 @@ However this is a bit of a chicken and egg problem if we don't know first the me
 ```c
 int MPI_Probe(int source, int tag, MPI_Comm comm, MPI_Status *status)
 ```
+##### Non-blocking
 
 To handle non-blocking calls we have 
 ```c
@@ -124,6 +127,50 @@ int MPI_Irecv_c(void *buf, MPI_Count count,
 
 where `request` its just an output variable that represents the handler of the function. Now to end the request we have to call
 ```c
-int MPI_wait(MPI_Request *request, MPI_Status *status)
+int MPI_Wait(MPI_Request *request, MPI_Status *status) // Blocking
+int MPI_Test(MPI_Request *request, int *completed, MPI_Status *status) // Non-blocking
 ```
-that blocks the execution until it receives the information from the specified reqeuest.
+
+To cancel a computation we can just use 
+```c
+int MPI_Cancel(MPI_Request *request)
+```
+#### Collective communication
+
+This is a set of functions that need the contribution of all the communicator's processes, this will also handle synchronization and data transfer.
+
+Using this approach the execution is blocked until:
+- All the processes call a matching function
+- The user can read or modify the buffers
+
+>[!warning]
+>There are no guarantees about the completion of the task unless stated otherwise. This means that normally, they shouldn't be used for synchronization unless stated otherwise.
+##### Communicators
+
+Each communicator will live in an **independent universe** and to create new communicators we can create them from `MPI_COMM_WORLD`.
+
+Every time a function takes a communicator in is good practice to create a copy of it just to avoid having conflicts in the main thread.
+```c
+int MPI_Comm_dup(MPI_Comm comm, MPI_Comm *new)
+```
+
+For each communicator we can also split the channels to divide work between various communicators
+```c
+int MPI_Comm_split(MPI_Comm comm, int color, int key, CMPI_Comm *new)
+```
+
+![[mpi split.png]]
+
+To achieve more fine grained control of these communicator, we can also define groups with `MPI_Comm_group`
+
+All of these communicators needs to be freed with
+```c
+int MPI_Comm_free(MPI_Comm *comm)
+```
+##### [[Synchronization#Barriers]]
+
+To handle synchronization we can use barriers
+```c
+int MPI_Barrier(MPI_Comm comm)
+```
+

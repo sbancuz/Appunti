@@ -203,6 +203,8 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "mpi split.png",
+    "Pasted image 20231209133223.png",
     "mpi datatype.png",
     "Distributed memory model.md",
     "dist mem.png",
@@ -223,8 +225,6 @@
     "pthread join.png",
     "Distributed synchronization.md",
     "Process.md",
-    "process.png",
-    "thread.png",
     "Parallelization.md",
     "Parallelization by hand.md",
     "Rational Agents.md",
