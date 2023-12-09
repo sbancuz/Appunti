@@ -203,12 +203,15 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "mpi reductions.png",
+    "Parallelization.md",
+    "MPI.md",
+    "Gather vs Scatter pattern.md",
     "mpi split.png",
     "Pasted image 20231209133223.png",
     "mpi datatype.png",
     "Distributed memory model.md",
     "dist mem.png",
-    "MPI.md",
     "Shared memory model.md",
     "shared mem.png",
     "shared mem.png",
@@ -222,10 +225,8 @@
     "Parallel technologies.md",
     "PThreads.md",
     "Threads.md",
-    "pthread join.png",
     "Distributed synchronization.md",
     "Process.md",
-    "Parallelization.md",
     "Parallelization by hand.md",
     "Rational Agents.md",
     "Machine learning.md",
@@ -238,7 +239,6 @@
     "Maximum cardinality flow.md",
     "Minimax algorithm.md",
     "Complexity of an algorithm.md",
-    "Disjunctive constraints.md",
     "Excalidraw"
   ]
 }

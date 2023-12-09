@@ -80,7 +80,16 @@ There are 4 ways to handle outgoing messages in MPI and **all** the functions fo
 To specify the `MPI_Datatype` there is an enum `POD` to *build* our datatype.
 
 ![[mpi datatype.png]]
-##### Recive
+
+There are also ways to pass structs with *standard-ish* values like
+```c
+struct loc_value_type {
+	float return_value;
+	int process_rank;
+};
+MPI_Datatype mpi_type_value = MPI_FLOAT_INT
+```
+##### Receive
 
 ```c
 int MPI_Recv(void *buf, // Data
@@ -173,4 +182,58 @@ To handle synchronization we can use barriers
 ```c
 int MPI_Barrier(MPI_Comm comm)
 ```
+#### Data transfer
 
+These are a collection of functions for exchanging data using well-known patters
+##### Broadcasting
+
+```c
+int MPI_Bcast(void *buffer, int count, // number of elemets
+			  MPI_Datatype datatype, int root, // rank of the sender
+			  MPI_Comm comm)
+int MPI_Bcast_c(void *buffer, MPI_Count count,
+				MPI_Datatype datatype, int root, 
+				MPI_Comm comm)
+```
+##### [[Gather vs Scatter pattern#Gather]]
+
+```c
+int MPI_Gather(const void *sendbuf, int sendcount, MPI_Datatype sendtype, 
+			   void *recvbuf, int recvcount, MPI_Datatype recvtype, 
+			   int root, MPI_Comm comm) // root will have the result
+int MPI_Gather_c(const void *sendbuf, MPI_Count sendcount, MPI_Datatype sendtype, 
+				 void *recvbuf, MPI_Count recvcount, MPI_Datatype recvtype, 
+				 int root, MPI_Comm comm)
+```
+
+If all the processes exchange the same amount of data there is `MPI_Gatherv` and if only one process end up having the data there is `MPI_Allgather` to broadcast the result. If both there is `MPI_Allgatherv`.
+##### [[Gather vs Scatter pattern#Scatter]]
+
+```c
+int MPI_Scatter(const void *sendbuf, int sendcount, MPI_Datatype sendtype, 
+			    void *recvbuf, int recvcount, MPI_Datatype recvtype, 
+			    int root, MPI_Comm comm) // root will have the result
+int MPI_Scatter_c(const void *sendbuf, MPI_Count sendcount, MPI_Datatype sendtype, 
+				  void *recvbuf, MPI_Count recvcount, MPI_Datatype recvtype, 
+				  int root, MPI_Comm comm)
+```
+
+If all the processes exchange the same amount of data there is `MPI_Scatterv`.
+##### Reduction
+
+This allows to apply an operation $o$ on all the elements $e$ of the buffer and return the value of
+$$
+r = e[0] \ o \ e[1] \ o \ \dots\  o\  e[n]
+$$
+```c
+int MPI_Reduce(const void *sendbuf, void *recvbuf, 
+				MPI_Count count, MPI_Datatype datatype, MPI_Op op, 
+			    int root, MPI_Comm comm) // root will have the result
+int MPI_Reduce_c(const void *sendbuf, void *recvbuf, 
+				 int count, MPI_Datatype datatype, MPI_Op op, 
+			     int root, MPI_Comm comm) // root will have the result
+```
+
+![[mpi reductions.png]]
+
+To broadcast the result there is `MPI_Allreduce`
