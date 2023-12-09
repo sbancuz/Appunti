@@ -105,3 +105,25 @@ However this is a bit of a chicken and egg problem if we don't know first the me
 int MPI_Probe(int source, int tag, MPI_Comm comm, MPI_Status *status)
 ```
 
+To handle non-blocking calls we have 
+```c
+int MPI_Isend(const void *buf, int count, 
+			  MPI_Datatype datatype, int dest,
+			  int tag, MPI_Comm comm, MPI_Request *request)
+int MPI_Isend_c(const void *buf, MPI_Count count, 
+				MPI_Datatype datatype, 
+				int dest, int tag, MPI_Comm comm, MPI_Request *request)
+
+int MPI_Irecv(void *buf, int count, 
+			  MPI_Datatype datatype, 
+			  int source, int tag, MPI_Comm comm, MPI_Request *request)
+int MPI_Irecv_c(void *buf, MPI_Count count, 
+				MPI_Datatype datatype,
+				int source, int tag, MPI_Comm comm, MPI_Request *request)
+```
+
+where `request` its just an output variable that represents the handler of the function. Now to end the request we have to call
+```c
+int MPI_wait(MPI_Request *request, MPI_Status *status)
+```
+that blocks the execution until it receives the information from the specified reqeuest.
