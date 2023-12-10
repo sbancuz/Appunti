@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPI.md",
+                "file": "OpenMP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MPI.md",
+                "file": "OpenMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MPI.md",
+                "file": "OpenMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MPI.md"
+                "file": "OpenMP.md"
               }
             }
           }
@@ -203,9 +203,9 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "MPI.md",
     "mpi reductions.png",
     "Parallelization.md",
-    "MPI.md",
     "Gather vs Scatter pattern.md",
     "mpi split.png",
     "Pasted image 20231209133223.png",
@@ -221,7 +221,6 @@
     "SIMD.png",
     "tasks dep ex.png",
     "Synchronization.md",
-    "openmp extensions.png",
     "Parallel technologies.md",
     "PThreads.md",
     "Threads.md",
