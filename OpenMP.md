@@ -102,8 +102,8 @@ This construct is very useful when dealing with irregular and runtime-dependent 
 
 Tasks can be very useful even with [[Pipeline pattern]]. By creating tasks instead of sections, each thread can execute any task as long as its inputs are ready.
 ```rust
-	#pragma omp task depend(out: variable) { read; }
-	#pragma omp task depend(in: variable) { compute; }
+#pragma omp task depend(out: variable) { read; }
+#pragma omp task depend(in: variable) { compute; }
 ```
 
 `priority(int prio)` can also be used to hint that something is more important.
