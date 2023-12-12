@@ -30,7 +30,10 @@ One way to analyze hypothesis spaces is by the bias they impose and the variance
 With **bias** we mean the tendency of a predictive hypothesis to deviate from the expected value when averaged over different training sets. In the case of the linear function we might say that the hypothesis is **underfitting** because it fails to provide a pattern in the data.
 With **variance** we mean the amount of change in the hypothesis due to fluctuation in the training data. When the variance is too big we call it **overfitting**.
 
-This means that finding the best function for every case is impossible, sometimes an overffited function will underperform in respect to an underfitted one. Most of the time we have to find 
+This means that finding the best function for every case is impossible, sometimes an overffited function will underperform in respect to an underfitted one. Most of the time we have to find a compromise depending on  how appropriate one is from the other. Supervised learning can be done by choosing the hypothesis $h^{*}$ such that is most probable given the data 
+$$
+h^{*} = \text{argmax}P(data|h)P(h)
+$$
 ### Unsupervised learning
 
 Exploits regularities in $D$ to build a representation for reasoning or prediction. The most common unsupervised learning task is [[Clustering]].
