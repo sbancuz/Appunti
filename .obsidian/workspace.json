@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Search algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Search algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Search algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine learning.md"
+                "file": "Search algorithm.md"
               }
             }
           }
@@ -201,20 +201,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "IA.md",
+    "weighted a star.png",
+    "contour.png",
     "Machine learning.md",
+    "Rational Agents.md",
+    "MPI.md",
+    "IA.md",
     "best fit.png",
     "Markov property.md",
     "Clustering.md",
-    "Rational Agents.md",
     "Search algorithm.md",
     "Dijkstra algorithm.md",
     "Paths.md",
     "Graph problems.md",
     "OpenMP.md",
-    "MPI.md",
     "mpi reductions.png",
     "Parallelization.md",
     "Gather vs Scatter pattern.md",
@@ -228,7 +230,6 @@
     "shared mem.png",
     "map types.png",
     "SIMD.md",
-    "SIMD.png",
     "Synchronization.md",
     "Parallel technologies.md",
     "PThreads.md",
@@ -238,7 +239,6 @@
     "Parallelization by hand.md",
     "Building a goal based agent.md",
     "Boids.md",
-    "Artificial intelligence.md",
     "Excalidraw"
   ]
 }

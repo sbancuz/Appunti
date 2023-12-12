@@ -40,7 +40,8 @@ Exploits regularities in $D$ to build a representation for reasoning or predicti
 --> [[9. Data Mining]]
 ### Reinforcement learning
 
-It performs actions that affect the environment, and receiving rewards it learn to maximize its long-term reward.
+It performs actions that affect the environment, and receiving rewards it learn to maximize its long-term reward. The choice of when rewarding the agent is very important, let's consider racing: you could give rewards when an agent has won the race or depending on its position. These are called **sparse** rewards because most of the time the agent doesn't receive them. A better approach to make the learning process much easier and faster would be to give rewards for going in the right direction in the track. As long as we can provide the correct reward signal to the agent, reinforcement learning provides a general way to build AI systems.
+
 The agent needs to compute an action-value function mapping state-action pairs to expected payoffs
 $$
 Q(a_{t}, s_{t}) = payoff
@@ -50,7 +51,6 @@ $$
 V( s_{t}) = payoff
 $$
 Reinforcement learning assumes $Q(\dots)$ to be represented as a table, but in the real world we cannot afford to compute it exactly.
-
 #### Action selection & policy
 
 At each time step, the agent must decide what action to take. And at any given point in time the policy $\pi(st)$ select that very action. So the policy determines how actions map to the new states, and they can be:
