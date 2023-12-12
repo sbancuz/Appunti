@@ -53,4 +53,3 @@ c_{ij} \ge 0, \forall {(i,j)}\in A
 $$
 ![[Dijkstra algorithm]]
 
-Dijkstra algorithm is a very efficient algorithm, but it cannot find the shortest path if there are negative weight path. To fix this, although slowing the algorithm down, is to select the indices with a FIFO policy from $Q$.

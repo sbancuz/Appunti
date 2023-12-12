@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dijkstra algorithm.md",
+                "file": "Search algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dijkstra algorithm.md",
+                "file": "Search algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dijkstra algorithm.md",
+                "file": "Search algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dijkstra algorithm.md"
+                "file": "Search algorithm.md"
               }
             }
           }
@@ -203,9 +203,10 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Dijkstra algorithm.md",
+    "Paths.md",
     "Search algorithm.md",
     "Graph problems.md",
-    "Paths.md",
     "Rational Agents.md",
     "OpenMP.md",
     "MPI.md",
@@ -238,7 +239,6 @@
     "Performance measure.md",
     "Model optimization problems.md",
     "Linear programming.md",
-    "Maximum cardinality flow.md",
     "Excalidraw"
   ]
 }

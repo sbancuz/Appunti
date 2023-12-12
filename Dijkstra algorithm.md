@@ -29,3 +29,4 @@ tags:
 \end{algorithm}
 ```
 
+Dijkstra algorithm is a very efficient algorithm, but it cannot find the shortest path if there are negative weight path. To fix this, although slowing the algorithm down, is to select the indices with a FIFO policy from $Q$. The Global complexity is $O(V^{2})$ and it can be brought down to $O(E\log V)$
