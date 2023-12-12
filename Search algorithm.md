@@ -258,4 +258,4 @@ If we are willing to accept solutions that are suboptimal, but "good enough" -- 
 >[!example]
 >![[weighted a star.png]]
 
-We can call the approach of having weights for every node the **weighted $A^{*}$
+We can call the approach of having weights for every node the **weighted $A^{*}$ search** where we weight the heuristic value more heavily, giving us the evaluation function $f(n) = g(n) + W \times h(n)$ for $W > 1$ 
