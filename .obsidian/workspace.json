@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Dijkstra algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Dijkstra algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Dijkstra algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Search algorithm.md"
+                "file": "Dijkstra algorithm.md"
               }
             }
           }
@@ -203,9 +203,9 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Search algorithm.md",
     "Graph problems.md",
     "Paths.md",
-    "Search algorithm.md",
     "Rational Agents.md",
     "OpenMP.md",
     "MPI.md",

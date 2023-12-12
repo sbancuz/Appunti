@@ -58,7 +58,7 @@ If a state has already been visited then the search tree can be infinite even if
       \end{algorithmic}
     \end{algorithm}
 ```
-The frontier is implemented as a [[Priority queue]]
+The set of unexpandend nodes is called the frontier and it is implemented as a [[Priority queue]].
 ### The eight-queens puzzle
 
 This puzzle consist in placing 8 queens on a chess board such that none of them attack each other at the same time.
@@ -81,13 +81,16 @@ These are too many states to check, we need to find a way to minimize the state 
 A search algorithm is evaluated by it's:
 - Completeness : is the search strategy guaranteed to find a solution when there is one?
 - Optimality :  does the search find the best solution?
-- Complexity : time and space complexity
+- [[Complexity of an algorithm]] : time and space complexity
 - Parameters : 
 	- $b \to$ is the branching factor
 	- $d \to$ is the depth of the shallowest goal node
-### Breadth-First Search
+### Uninformed search strategies
 
-It's a search algorithm in which all the nodes at level $k$ of the search tree must be selected before selecting any node at level $k+1$. It always selects the node with minimum depth.
+An uninformed search algorithm is given no clue about how close a state is to the goal, for example if given a graph, the algorithm doesn't know what is the best first step to reach its goal.
+#### Breadth-First Search
+
+When all actions have the same cost, we can use the breath first search. It's a search algorithm in which all the nodes at level $k$ of the search tree must be selected before selecting any node at level $k+1$. It always selects the node with minimum depth.
 ```pseudo
    \begin{algorithm}
     \begin{algorithmic}
@@ -114,12 +117,12 @@ It's a search algorithm in which all the nodes at level $k$ of the search tree m
       \end{algorithmic}
     \end{algorithm}
 ```
-This is implemented with a [[Priority queue]] and it's complete, optimal and has a temporal complexity of $O(b^{d+1})$ nodes
+This is implemented with a [[Priority queue]] and it's complete, optimal and has a space and temporal complexity of $O(b^{d+1})$ nodes
 
-### Uniform-Cost Search
+#### Uniform-Cost Search
 
-It generalizes BFS sorting the nodes in the frontier according to their increasing path cost from the root. It does not choose the shallowest node. This algorithm is complete, optimal and it's complexity is $O(b^{1+\lceil C^{*} / \epsilon\rceil})$ nodes
+It generalizes BFS sorting the nodes in the frontier according to their increasing path cost from the root. It does not choose the shallowest node. This algorithm is complete, optimal and it's complexity is $O(b^{1+\lceil C^{*} / \epsilon\rceil})$ nodes. 
 
-### Depth First Search
+#### Depth First Search
 
 It's an algorithm that selects a root node, then, it expands one of its successor the one of its successor, and so on. When it reaches a node without successor, it 'backtracks' and chooses one of the deepest nodes not yet chosen. It's frontier can be represented by a Last-In-First-Out queue (LIFO) or it can be implemented using recursion.
