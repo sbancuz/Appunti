@@ -16,9 +16,9 @@ I modelli si dividono in:
 
 Il machine learning è una forma di AI che permette a un sistema di imparare dai dati piuttosto che attraverso la programmazione esplicita.
 Si compone di 4 categorie di tecniche:
-	• [Apprendimento supervisionato] -> il training set deve essere etichettato, bisogna stare attenti all'overfitting, classificazione con tecniche di regressione
-	• [Apprendimento non supervisionato] -> si usano dati non etichettati e i dati vengono classificati con [[Clustering]] e associazioni.
-	• [Apprendimento per rinforzo] -> non si ha un training set, ma il sistema impara dal feedback dall'analisi dei dati.
+	• [[Machine learning#Supervised learning]]-> il training set deve essere etichettato, bisogna stare attenti all'overfitting, classificazione con tecniche di regressione
+	• [[Machine learning#Unsupervised learning]] -> si usano dati non etichettati e i dati vengono classificati con [[Clustering]] e associazioni.
+	• [[Machine learning#Reinforcement learning]] -> non si ha un training set, ma il sistema impara dal feedback dall'analisi dei dati.
 	• [Transfer learning] -> da un sistema addestrato si insegna a fare altro
 
 ## Deep Learning

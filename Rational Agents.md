@@ -108,3 +108,4 @@ Learning allows the agent to operate in initially unknown environments and to be
 
 ![[learning agents.png]]
 
+When an agent is a computer we call this [[Machine learning]].

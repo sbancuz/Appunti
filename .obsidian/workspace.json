@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Machine learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#artificial_intelligence  ",
+                "query": "supervis",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Machine learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Machine learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Search algorithm.md"
+                "file": "Machine learning.md"
               }
             }
           }
@@ -201,13 +201,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18242b08fe621dea",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
+    "IA.md",
+    "Machine learning.md",
+    "best fit.png",
+    "Markov property.md",
+    "Clustering.md",
+    "Rational Agents.md",
+    "Search algorithm.md",
     "Dijkstra algorithm.md",
     "Paths.md",
-    "Search algorithm.md",
     "Graph problems.md",
-    "Rational Agents.md",
     "OpenMP.md",
     "MPI.md",
     "mpi reductions.png",
@@ -224,7 +229,6 @@
     "map types.png",
     "SIMD.md",
     "SIMD.png",
-    "tasks dep ex.png",
     "Synchronization.md",
     "Parallel technologies.md",
     "PThreads.md",
@@ -232,13 +236,9 @@
     "Distributed synchronization.md",
     "Process.md",
     "Parallelization by hand.md",
-    "Machine learning.md",
     "Building a goal based agent.md",
     "Boids.md",
     "Artificial intelligence.md",
-    "Performance measure.md",
-    "Model optimization problems.md",
-    "Linear programming.md",
     "Excalidraw"
   ]
 }
