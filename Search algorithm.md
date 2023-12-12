@@ -2,18 +2,22 @@
 tags:
   - artificial_intelligence
 ---
-Search algorithms are used to resolve search problems and are implemented to have three states:
+Search algorithms are used to resolve search problems in a known environment are implemented to have three states:
 - Problem formulation
 - Solution searching
 - Executing solution
 
+>[!warning]
+>It's important for the environment to be known, fully observable and deterministic
+
+This approach for finding a solution is called **open-loop** because the [[Rational Agents]] can ignore its percepts and still arrive at the solution, if the environment was non-deterministic a **closed-loop** solution would've been better.
+
 This are most effective for finding good solution on games like tic-tac-toe or chess (disregarding the computational complexity in the last example) and are typical of agents that are fully observable, static, discrete and deterministic.
 
 We use games to develop these algorithms because are complex enough to not just 'brute force' and are easily scalable.
-
 ### The 8/15 puzzle
 
-We define a state as a feasible configuration of the 8 tiles on the $3\times 3$ grid and the solution is represented by a sequence of states in the state space.
+We define a state as a feasible configuration of the 8 tiles on the $3\times 3$ grid and the solution is represented by a sequence of states in the state space and that can be achieved with [[Graphs]].
 
 ![[8puzzle.png]]
 
@@ -24,7 +28,7 @@ To solve search problems we have to define some functions:
 
 ![[step cost.png]]
 
-An optimal solution is a solution with the lowest cost. The cost of a path is the sum of the costs of the arcs that compose the path.
+An optimal solution is a solution with the lowest cost. The cost of a [[Paths]] is the sum of the costs of the arcs that compose the path.
 
 The problem arises with the size of the state space, because it tends to be massive. For example the 8-puzzle has $9! = 362880$ states, and the 15-puzzle $16!$ which is computationally taxing just for a relatively small and simple game.
 ## Reducing the search space

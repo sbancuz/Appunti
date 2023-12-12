@@ -30,7 +30,6 @@ The length of the path must be at most $n - 1$.
 #### Lemma
 
 Given a graph, either there exists a directed path that goes from one node to another or there exists a cut where all nodes from the cut side can go to the origin side.
-
 ### Shortest path problem
 
 If $G$ is acyclic we can define the <span class="ob-html-comment" id="comment-d7d9da8e-d685-4788-8210-80ac171f177d" data-tags="[comment,]"><span class="ob-html-comment-body">if (i,j) in A then i less then j </span>topological order</span> starting from the initial node, which is a node without any input arcs, then we repeat the process always selecting nodes with only 1 input. When we are done with all the nodes we can define a simple recursive algorithm that can find the shortest path.

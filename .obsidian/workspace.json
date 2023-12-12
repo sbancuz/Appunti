@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Search algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Search algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Search algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenMP.md"
+                "file": "Search algorithm.md"
               }
             }
           }
@@ -203,6 +203,11 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Graph problems.md",
+    "Paths.md",
+    "Search algorithm.md",
+    "Rational Agents.md",
+    "OpenMP.md",
     "MPI.md",
     "mpi reductions.png",
     "Parallelization.md",
@@ -215,7 +220,6 @@
     "Shared memory model.md",
     "shared mem.png",
     "shared mem.png",
-    "OpenMP.md",
     "map types.png",
     "SIMD.md",
     "SIMD.png",
@@ -227,7 +231,6 @@
     "Distributed synchronization.md",
     "Process.md",
     "Parallelization by hand.md",
-    "Rational Agents.md",
     "Machine learning.md",
     "Building a goal based agent.md",
     "Boids.md",
@@ -236,8 +239,6 @@
     "Model optimization problems.md",
     "Linear programming.md",
     "Maximum cardinality flow.md",
-    "Minimax algorithm.md",
-    "Complexity of an algorithm.md",
     "Excalidraw"
   ]
 }
