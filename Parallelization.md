@@ -57,6 +57,13 @@ for(int i = 5; i < 100; i++)
 	a[i - 5] = a[i] + 100;
 ```
 can be parallelized in clusters of $5$ elements since on the first cluster only depends on the next one. If we were to use more than $5$ elements, we'd introduce dependency since it would not be already computed and, thus, it cannot be parallelized.
+### Data movement
+
+Performance is often more limited by data movement than by computation, this means that transferring data across networks can take many cycles, thus minimizing the overhead is important. Another aspect is the locality of the data, that is, where things are stored.
+
+For this exact purpose we can define two approaches for storing multiple structures 
+- Array of structures ->  this has the advantage of better cache utilization on random access
+- Structure of arrays -> better for vectorization and avoidance of false sharing
 ### Parallel patterns
 
 A recurring combination of task distribution and data access that solves a specific problem in parallel algorithm design. Patterns are universal - thus, can be used in any parallel programming system. 
@@ -74,9 +81,8 @@ This is based on extracting execution form a sequence and parallelizing them, in
 - Fork-join: allows control flow to fork into multiple parallel flows, then rejoin later
 - [[Map pattern]]: performs a **pure** function over every element of a collection
 - [[Stencil pattern]]: **pure** function that has access to a set of neighbors (convolution)
-- Reduction: combine every element in a collection using an associative combiner **pure** function
+- [[Reduction]]: combine every element in a collection using an associative combiner **pure** function
 - Recurrence: loop iteration can depend on one another
-
 #### Serial Data management patterns
 
 - random read
@@ -84,7 +90,6 @@ This is based on extracting execution form a sequence and parallelizing them, in
 - stack allocation $\to$ preserves locality, each thread has is own thread
 - heap allocation $\to$ slower but can be accessed by other threads if need be
 - objects
-
 ### Parallel Data management patterns
 
 - [[Pack pattern]]
@@ -99,3 +104,4 @@ This is based on extracting execution form a sequence and parallelizing them, in
 - Segmentation -> Generalization of [[Geometric decomposition]]
 - Expand -> Combination of pack and map
 - Category reduction -> Given a collection with labels, find all elements with a certain label and reduce them
+- [[Partitioning]] -> Dividing the computational domain into sections then recombine the result

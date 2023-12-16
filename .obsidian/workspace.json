@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Parallelization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Parallelization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Search algorithm.md",
+                "file": "Parallelization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Search algorithm.md"
+                "file": "Parallelization.md"
               }
             }
           }
@@ -203,6 +203,23 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Partitioning.md",
+    "Parallelization.md",
+    "Geometric decomposition.md",
+    "HW Partitioning.md",
+    "Stencil pattern.md",
+    "Pack pattern.md",
+    "expand.png",
+    "Map pattern.md",
+    "bin.png",
+    "unsplit.png",
+    "split.png",
+    "Gather vs Scatter pattern.md",
+    "zip.png",
+    "shift.png",
+    "Reduction.md",
+    "reduction.png",
+    "Search algorithm.md",
     "weighted a star.png",
     "contour.png",
     "Machine learning.md",
@@ -212,33 +229,16 @@
     "best fit.png",
     "Markov property.md",
     "Clustering.md",
-    "Search algorithm.md",
     "Dijkstra algorithm.md",
     "Paths.md",
     "Graph problems.md",
     "OpenMP.md",
-    "mpi reductions.png",
-    "Parallelization.md",
-    "Gather vs Scatter pattern.md",
-    "mpi split.png",
-    "Pasted image 20231209133223.png",
-    "mpi datatype.png",
     "Distributed memory model.md",
-    "dist mem.png",
     "Shared memory model.md",
-    "shared mem.png",
-    "shared mem.png",
-    "map types.png",
     "SIMD.md",
     "Synchronization.md",
     "Parallel technologies.md",
     "PThreads.md",
-    "Threads.md",
-    "Distributed synchronization.md",
-    "Process.md",
-    "Parallelization by hand.md",
-    "Building a goal based agent.md",
-    "Boids.md",
     "Excalidraw"
   ]
 }

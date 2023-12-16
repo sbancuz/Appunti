@@ -1,8 +1,7 @@
 ---
-tags: [sistemi_informativi]
+tags:
+  - parallel_computing
 ---
-La tecnica di partizionamento prevede la duplicazione dell’hardware, per ripartire l’esecuzione dell’applicazione tra i nodi.
+This pattern is used to divide the work into specific domains and then reassemble the result. It generalizes the [[Geometric decomposition]] and allows to parallelize fork join and divide and conquer approaches.
 
-Ogni nodo svolge una funzione specializzata, le richieste vengono inviate alla partizione che possiede i dati rilevanti. Questa tecnica però non migliora la disponibilità in quanto tutti i dati sono su un solo server e se ci fosse un guasto avremmo una graceful degradation, quindi solo certe funzionalità sono inaccessibili
-
-![[Partitions.png]]
+With this data is divided in equally sized non overlapping regions of data in order to avoid conflicts.
