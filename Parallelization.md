@@ -5,7 +5,7 @@ tags:
 ![[Automatic parallelization]]
 
 ![[Parallelization by hand]]
-Designing a good parallel algorithm by extracting all the available parallelism is not enough, because not all is exploitable on real architecture. We need to descrive the parallelism to the compilation tools to make it exploitable.
+Designing a good parallel algorithm by extracting all the available parallelism is not enough, because not all is exploitable on real architecture. We need to describe the parallelism to the compilation tools to make it exploitable.
 
 >[!warning]
 >Creating threads is expensive, sometimes the best solution is to keep it sequential

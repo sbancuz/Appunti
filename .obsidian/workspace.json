@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea6a766e94271757",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Heterogeneous processing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e698de6da409196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Halide.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Halide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Halide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallelization.md"
+                "file": "Halide.md"
               }
             }
           }
@@ -201,10 +228,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18242b08fe621dea",
+  "active": "1e698de6da409196",
   "lastOpenFiles": [
-    "Partitioning.md",
+    "halide.png",
+    "Heterogeneous processing.md",
+    "Halide.md",
+    "DSL.png",
+    "heterogeneous pro.png",
     "Parallelization.md",
+    "Partitioning.md",
     "Geometric decomposition.md",
     "HW Partitioning.md",
     "Stencil pattern.md",
@@ -221,12 +253,10 @@
     "reduction.png",
     "Search algorithm.md",
     "weighted a star.png",
-    "contour.png",
     "Machine learning.md",
     "Rational Agents.md",
     "MPI.md",
     "IA.md",
-    "best fit.png",
     "Markov property.md",
     "Clustering.md",
     "Dijkstra algorithm.md",
@@ -236,9 +266,6 @@
     "Distributed memory model.md",
     "Shared memory model.md",
     "SIMD.md",
-    "Synchronization.md",
-    "Parallel technologies.md",
-    "PThreads.md",
     "Excalidraw"
   ]
 }
