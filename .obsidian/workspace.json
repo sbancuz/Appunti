@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Halide.md",
+                "file": "Minimax algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "supervis",
+                "query": "tag:#artificial_intelligence   ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Halide.md",
+                "file": "Minimax algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Halide.md",
+                "file": "Minimax algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Halide.md"
+                "file": "Minimax algorithm.md"
               }
             }
           }
@@ -230,9 +230,16 @@
   },
   "active": "1e698de6da409196",
   "lastOpenFiles": [
+    "Adversarial search strategies.md",
+    "Minimax algorithm.md",
+    "minimax.png",
+    "Search algorithm.md",
+    "Uninformed search strategies.md",
+    "Informed search strategies.md",
+    "Machine learning.md",
+    "Halide.md",
     "halide.png",
     "Heterogeneous processing.md",
-    "Halide.md",
     "DSL.png",
     "heterogeneous pro.png",
     "Parallelization.md",
@@ -250,10 +257,6 @@
     "zip.png",
     "shift.png",
     "Reduction.md",
-    "reduction.png",
-    "Search algorithm.md",
-    "weighted a star.png",
-    "Machine learning.md",
     "Rational Agents.md",
     "MPI.md",
     "IA.md",
@@ -263,9 +266,6 @@
     "Paths.md",
     "Graph problems.md",
     "OpenMP.md",
-    "Distributed memory model.md",
-    "Shared memory model.md",
-    "SIMD.md",
     "Excalidraw"
   ]
 }
