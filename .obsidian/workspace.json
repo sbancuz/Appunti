@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallelization.md",
+                "file": "MPI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,15 +39,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Gather vs Scatter pattern.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "MPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "MPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Minimax algorithm.md"
+                "file": "MPI.md"
               }
             }
           }
@@ -228,10 +227,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e698de6da409196",
+  "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Adversarial search strategies.md",
+    "Parallelization.md",
+    "PThreads.md",
+    "MPI.md",
+    "OpenMP.md",
+    "Gather vs Scatter pattern.md",
+    "Pack pattern.md",
+    "Geometric decomposition.md",
+    "Stencil pattern.md",
     "Minimax algorithm.md",
+    "Adversarial search strategies.md",
     "minimax.png",
     "Search algorithm.md",
     "Uninformed search strategies.md",
@@ -242,30 +249,22 @@
     "Heterogeneous processing.md",
     "DSL.png",
     "heterogeneous pro.png",
-    "Parallelization.md",
     "Partitioning.md",
-    "Geometric decomposition.md",
     "HW Partitioning.md",
-    "Stencil pattern.md",
-    "Pack pattern.md",
     "expand.png",
     "Map pattern.md",
     "bin.png",
     "unsplit.png",
     "split.png",
-    "Gather vs Scatter pattern.md",
     "zip.png",
     "shift.png",
     "Reduction.md",
     "Rational Agents.md",
-    "MPI.md",
     "IA.md",
     "Markov property.md",
     "Clustering.md",
     "Dijkstra algorithm.md",
     "Paths.md",
-    "Graph problems.md",
-    "OpenMP.md",
     "Excalidraw"
   ]
 }

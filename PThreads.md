@@ -61,6 +61,8 @@ int pthread_mutex_unlock(pthread_mutex_t * mutex);
 ```
 ### [[Synchronization#Condition variables]]
 
+Condition variable are a means of synchronization by explicitly signaling the meeting of a certain condition of the code.
+
 ```c
 int pthread_cond_wait(pthread_condition_t * condition,
 					  pthread_mutex_t * mutex)
