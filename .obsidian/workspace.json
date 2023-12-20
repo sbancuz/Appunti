@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPI.md",
+                "file": "Reduction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#artificial_intelligence   ",
+                "query": "tag:#parallel_computing scan ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321,
-    "collapsed": true
+    "width": 321
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MPI.md",
+                "file": "Reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MPI.md",
+                "file": "Reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MPI.md"
+                "file": "Reduction.md"
               }
             }
           }
@@ -229,10 +228,14 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Parallelization.md",
-    "PThreads.md",
-    "MPI.md",
+    "Map pattern.md",
     "OpenMP.md",
+    "Parallelization.md",
+    "Parallel technologies.md",
+    "MPI.md",
+    "PThreads.md",
+    "Threads.md",
+    "Process.md",
     "Gather vs Scatter pattern.md",
     "Pack pattern.md",
     "Geometric decomposition.md",
@@ -252,7 +255,6 @@
     "Partitioning.md",
     "HW Partitioning.md",
     "expand.png",
-    "Map pattern.md",
     "bin.png",
     "unsplit.png",
     "split.png",
@@ -262,9 +264,6 @@
     "Rational Agents.md",
     "IA.md",
     "Markov property.md",
-    "Clustering.md",
-    "Dijkstra algorithm.md",
-    "Paths.md",
     "Excalidraw"
   ]
 }

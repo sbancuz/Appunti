@@ -10,7 +10,7 @@ A map is a high order function that takes in input a pure function $f$ and a col
 
 This operation is embarrassingly parallel: $T(\infty) = O(1)$ plus a $O(\log n)$ of overhead to divide the work.
 
-The map operation can also be generalized to take as input multiple collections and operate on all of them at the same time. 
+The map operation can also be generalized to take as input multiple collections and operate on all of them at the same time and is called **n-ary** map. 
 
 ### Optimization: Sequence of maps
 
