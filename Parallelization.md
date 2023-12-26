@@ -49,7 +49,7 @@ We can prove this can be easily parallelized just by unrolling the loop into all
 #### Loop carried dependency
 ```c
 for(int i = 1; i < 100; i++)
-	a[i] = a[i-1] + 100;
+	a[i] = a[i - 1] + 100;
 ```
 cannot be parallelized since the $i$-th operation depends on the $i-1$ but,
 ```c
