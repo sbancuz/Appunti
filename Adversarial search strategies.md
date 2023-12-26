@@ -7,7 +7,7 @@ With adversarial search it's intended the search in which our agent will explore
 There are at least three stances we can take towards multi agent [[Rational Agents#Environment]]:
 - Aggregate them all in an **economy**
 - Consider other adversarial agents as just a part of the environment that makes it non deterministic
-- Explicitly model the adversarial agents with the techniques of adversarial game tree search
+- Explicitly model the adversarial agents with the techniques of adversarial game tree [[Search problem]]
 ### Two players zero sum games
 
 The games most commonly studied with AI are what game theorist call deterministic, two player, turn taking, **perfect information, two sum** games. The last two adjectives mean that the game has perfect information and is fully observable.

@@ -34,6 +34,6 @@ These ideas can be implemented in the **branch and bound** algorithm
 The **Bound** function provides a higher estimation of the optimal solution value of the subproblem $P$, returning also a solution $x$ and a logical value that is $true$ if a subproblem $P$ admits no solution. Also if $unfeasible$ is $true$ then we can stop the computation on the branch. The **branch** just passes the solution $x$ to the various subproblems, thus branching the computation. 
 
 A further characterization of the branch and bound is the criterion according to which we choose the next node of the enumeration tree to be expanded. In general we can distinguish:
-- **best first** -> [[Search algorithm#Breadth-First Search]]
-- **depth first** -> [[Search algorithm#Depth First Search]]
+- **best first** -> [[Search problem#Breadth-First Search]]
+- **depth first** -> [[Search problem#Depth First Search]]
 

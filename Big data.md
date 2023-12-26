@@ -31,7 +31,7 @@ In a map reduce problem the computation is divided in:
 > 
 > ![[example map.png]]
 > 
-> The first thing that comes to mind is to use one of the widely known [[Search algorithm]] to find such path, but given their [[Complexity of an algorithm]] and the amount of data that is available this is not quite feasible. And even if it were, just sending this amount of data through some channel to perform the computation would be impossible.
+> The first thing that comes to mind is to use one of the widely known [[Search problem]] to find such path, but given their [[Complexity of an algorithm]] and the amount of data that is available this is not quite feasible. And even if it were, just sending this amount of data through some channel to perform the computation would be impossible.
 > 
 > To resolve this problem we need to make the right assumptions
 > - All the data is not required, we can just take the portion that is relevant, say 50 km from every node is a block

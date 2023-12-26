@@ -1,5 +1,7 @@
-### Informed search strategies
-
+---
+tags:
+  - artificial_intelligence
+---
 Unlike the *normal* search algorithms, informed search strategies use domain specific hints about the location of goals. These hints come in the form of a **heuristic function** denoted $h(n)$.
 
 >[!example]
@@ -34,6 +36,8 @@ If $C^{*}$ is the cost of the optimal solution path, then we can say the followi
 With this we can say that $A^{*}$ with a consistent heuristic is **optimally efficient** in the sense that any algorithm that extends search paths from the initial state must expand all nodes that are surely expanded by $A^{*}$. 
 
 $A^{*}$ is very efficient because it **prunes** away search tree nodes that are not necessary for finding an optimal solution.
+
+To reduce the memory required for $A^{*}$ by searching every time to an augmenting depth like the [[Uninformed search strategies#Iterative deepening search]].
 #### Satisficing search
 
 If we are willing to accept solutions that are suboptimal, but "good enough" -- what we call **satisficing solutions** -- we need to allow $A^{*}$ to use inadmissible heuristic.

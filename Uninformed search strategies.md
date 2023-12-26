@@ -45,8 +45,9 @@ It's an algorithm that selects a root node, then, it expands one of its successo
 It's time complexity is $O(b^{m})$ and spatial complexity is $O(bm)$.
 
 A variant of this is called **backtracking-search** and it uses even less memory than before because it only expands one successor at a time, thus reducing the memory footprint of the algorithm.
+#### Iterative deepening search
 
-A mix of all of the approaches above is the **iterative deepening search**. This works by trying different values for $l$ until, either a solution is found, or the depth-limited search returns a failure. This is very similar to the BFS but rather than saving all the nodes in memory, it just recomputes everything. This may seem too wasteful but in reality since the check is applied multiple times on the top levels, it's not that bad. 
+IDA works by trying different values for $l$ until, either a solution is found, or the depth-limited search returns a failure. This is very similar to the [[Uninformed search strategies#Breadth-First Search]] but rather than saving all the nodes in memory, it just recomputes everything. This may seem too wasteful but in reality since the check is applied multiple times on the top levels, it's not that bad. 
 #### Bidirectional search
 
 This approach works by simultaneously searching both forwards and backwards, hoping that the two searches will meet. The motivation is that $b^{d/2} + b^{d/2}$ is much less than $b^{d}$. For this to work the algorithm needs to keep track of the two frontiers and the two tables of reached states.

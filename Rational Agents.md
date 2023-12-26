@@ -89,7 +89,7 @@ Updating this internal state information as time goes by requires two kinds of k
  The next Roomba can create a model of the environment.
 ### Goal-based agents
 
-Knowing something about the current state of the environment is not always enough to decide what to do. The correct decision depends on its **goal** that has to describe what situations are desirable. This agent also has to use [[Search algorithm]] to plan it's actions while considering their consequence upon the environment. 
+Knowing something about the current state of the environment is not always enough to decide what to do. The correct decision depends on its **goal** that has to describe what situations are desirable. This agent also has to use [[Search problem]] to plan it's actions while considering their consequence upon the environment. 
 
 This could be achieved with the [[Minimax algorithm]] 
 

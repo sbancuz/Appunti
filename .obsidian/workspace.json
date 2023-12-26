@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Minimax algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321
+    "width": 321,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Minimax algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Minimax algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallelization.md"
+                "file": "Minimax algorithm.md"
               }
             }
           }
@@ -228,8 +229,13 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Partitioning.md",
+    "Adversarial search strategies.md",
+    "Informed search strategies.md",
+    "SIMD.md",
     "Parallelization.md",
+    "Search problem.md",
+    "Uninformed search strategies.md",
+    "Partitioning.md",
     "Gather vs Scatter pattern.md",
     "Geometric decomposition.md",
     "Pipeline pattern.md",
@@ -247,11 +253,7 @@
     "Threads.md",
     "Process.md",
     "Minimax algorithm.md",
-    "Adversarial search strategies.md",
     "minimax.png",
-    "Search algorithm.md",
-    "Uninformed search strategies.md",
-    "Informed search strategies.md",
     "Machine learning.md",
     "Halide.md",
     "halide.png",
@@ -263,7 +265,6 @@
     "bin.png",
     "unsplit.png",
     "split.png",
-    "Rational Agents.md",
     "Excalidraw"
   ]
 }

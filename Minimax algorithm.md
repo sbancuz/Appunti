@@ -4,6 +4,8 @@ tags:
 ---
 This algorithm is used to find the optimal strategy for resolving a specific [[Adversarial search strategies]] problem. This is done by working out the **minimax value** -- its utility value -- of each state in the tree.
 
+The utility is $> 0$ if max is winning, $= 0$ when there is a tie and $<0$ if min is winning.
+
 ![[minimax.png]]
 
 In these kind of problems max will always try to find the maximum state value and min the minimum one. So
@@ -56,6 +58,8 @@ $$
 \EndProcedure
 \end{algorithmic}\end{algorithm}
 ```
+This algorithm is optimal when it can search the whole tree, but not when it's limited to using an evaluation function.
+
 The minimax algorithm performs a complete [[Uninformed search strategies#Depth First Search]] of the game tree, this means that its complexity is $O(b^{m})$ and the space complexity is $O(bm)$. This makes it impractical for complex games like chess, because its branching factor is 35 and the average game has a depth of about 80 ply.
 ### Alpha-beta pruning
 
