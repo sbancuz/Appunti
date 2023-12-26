@@ -23,10 +23,10 @@ We define the two players by calling them **max** and **min**. Max will always m
 >[!note]
 >The $\text{Actions}$ and $\text{Result}$ function define the state space graph. We can also define the **complete game tree** as a search tree that follows every sequence of moves all the way to a terminal state. This can be used only for small games like tic-tac-toe because of its high memory and computation requirements.
 
-The objective of max is to find a sequence of moves that will lead to a win, but so is the objective of min. This means that both of their strategies must be a conditional path -- a contingent strategy specifying a response to min's moves. To find this path we can use the Minimax algorithm.
+The objective of max is to find a sequence of moves that will lead to a win, but so is the objective of min. This means that both of their strategies must be a conditional path -- a contingent strategy specifying a response to min's moves. To find this path we can use the [[Minimax algorithm]].
 
-![[Minimax algorithm]]
 >[!tip]
 >This approach can be generalized for multiplayer games by representing not only the two values, but a vector containing all the values of the agents
+### Stochastic search
 
-
+Stochastic means that we know the probability of each outcome when making a decision. To resolve these types of problems we use a variation of minimax called [[Minimax algorithm#Expectiminimax]].

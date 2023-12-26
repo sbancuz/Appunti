@@ -230,6 +230,7 @@
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
     "Adversarial search strategies.md",
+    "Minimax algorithm.md",
     "Informed search strategies.md",
     "SIMD.md",
     "Parallelization.md",
@@ -252,7 +253,6 @@
     "PThreads.md",
     "Threads.md",
     "Process.md",
-    "Minimax algorithm.md",
     "minimax.png",
     "Machine learning.md",
     "Halide.md",

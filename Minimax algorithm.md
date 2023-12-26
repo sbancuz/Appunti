@@ -117,3 +117,15 @@ to $n$. If Player has a better choice either at the same level or at any point h
 \end{algorithmic}\end{algorithm}
 ```
 If this could be perfectly done it would bring down the [[Complexity of an algorithm]] to $O(b^{m/2})$. This means that the branching factor becomes $\sqrt{ b }$.
+### Expectiminimax
+
+This is a variation meant to represent stochastic searches. To be able to represent the uncertainty of the outcome of the moves we introduce **chance nodes** -- one for each possible outcome -- and put them after every decision. Since positions do not have definite minimax values, we can only calculate the **expected value** of a position using the average of the scores.
+$$
+\text{EMinimax}(s) = \begin{cases}
+\text{Utility}(s, max) & \text{Is-Terminal}(s) \\
+\max_{a \in \text{Actions}(s)} \text{EMinimax}(\text{Result}(s,a)) & \text{To-move}(s) = max \\
+\min_{a \in \text{Actions}(s)} \text{EMinimax}(\text{Result}(s,a)) & \text{To-move}(s) = min \\
+\sum_{r}P(r) \text{EMinimax(Result(s,r))}  & \text{To-move}(s) = chance
+\end{cases}
+$$
+If the evaluation is bounded, then we can optimize the search using alpha-beta pruning.
