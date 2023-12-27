@@ -13,33 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea6a766e94271757",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Heterogeneous processing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e698de6da409196",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gather vs Scatter pattern.md",
+                "file": "Adversarial search strategies.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel_computing work ",
+                "query": "tag:#artificial_intelligence   ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -121,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Adversarial search strategies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Adversarial search strategies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine learning.md"
+                "file": "Adversarial search strategies.md"
               }
             }
           }
@@ -229,8 +203,10 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Minimax algorithm.md",
+    "UCB.png",
+    "Machine learning.md",
     "Adversarial search strategies.md",
+    "Minimax algorithm.md",
     "Informed search strategies.md",
     "SIMD.md",
     "Parallelization.md",
@@ -254,13 +230,11 @@
     "Threads.md",
     "Process.md",
     "minimax.png",
-    "Machine learning.md",
     "Halide.md",
     "halide.png",
     "Heterogeneous processing.md",
     "DSL.png",
     "heterogeneous pro.png",
-    "HW Partitioning.md",
     "expand.png",
     "bin.png",
     "unsplit.png",

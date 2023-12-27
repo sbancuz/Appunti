@@ -61,6 +61,8 @@ $$
 This algorithm is optimal when it can search the whole tree, but not when it's limited to using an evaluation function.
 
 The minimax algorithm performs a complete [[Uninformed search strategies#Depth First Search]] of the game tree, this means that its complexity is $O(b^{m})$ and the space complexity is $O(bm)$. This makes it impractical for complex games like chess, because its branching factor is 35 and the average game has a depth of about 80 ply.
+
+Another optimization could be to consider a table of already visited states and their computed value, we call this a **transposition table**. This means that every state will only be evaluated once.
 ### Alpha-beta pruning
 
 To fix the exponential growth of the states of the game, we can cut the number of spaces to search by about a half.
@@ -69,6 +71,8 @@ to $n$. If Player has a better choice either at the same level or at any point h
 - $\alpha \to$ the value of the best path for max -- think of $\alpha$ as **at-least**
 - $\beta \to$ the value of the best path for min -- think of $\beta$ as **at-most**
 
+>[!important]
+>The order of evaluation matters a lot when using alpha beta pruning 
 ```pseudo
 \begin{algorithm}\begin{algorithmic}
 \procedure{Alpha-Beta-Search}{$game, state$}
@@ -117,6 +121,28 @@ to $n$. If Player has a better choice either at the same level or at any point h
 \end{algorithmic}\end{algorithm}
 ```
 If this could be perfectly done it would bring down the [[Complexity of an algorithm]] to $O(b^{m/2})$. This means that the branching factor becomes $\sqrt{ b }$.
+### Heuristic alpha beta pruning
+
+To maximize the computation time, we can cut off the search early and apply a heuristic evaluation function. One example of when to use this approach would be chess -- that even with all other optimizations remains to large to check completely. In other words we change:
+- $\text{Utility} \to \text{Eval}$
+- $\text{Terminal}\to \text{Cutoff}$
+
+The **eval** function returns an **estimate** of the expected utility of state $s$ to $p$ and for terminal states it must be equal to the utility. 
+$$
+\text{Utility}(loss,p) \leq \text{Eval}(s,p) \leq \text{Utility}(win, p)
+$$
+Most evaluation functions will work by calculating various **features** -- like in chess the type of remaining pieces. These features taken together will form **categories**. The evaluation function does not know which states are which, but it can return a value that estimates the **proportion** of states with each outcome. 
+$$
+\text{Eval}(s) = \sum w_{i}f_{i}(s) \qquad \text{ with} \sum w_{i} = 1
+$$
+Cutting off the search at a fixed depth can easily lead to errors due to the approximate nature of the evaluation function.  For example when reaching a certain $d$ we find a very good move but the opponent response will capture a queen with no compensation. This means that we shouldn't always use the evaluation function, but be restricted to the **quiescent** cases -- that is states where the next action will wildly swing the eval. For the other cases the evaluation function should never be computed.
+
+Another problem would be the **horizon effect** -- that is when an evaluation function will delay an inevitable bad move by doing some other bad moves, ending up in a worse position overall. This can be mitigated by allowing **singular extensions** of some branches of the computation for moves that are *clearly better*.
+### Forward pruning
+ 
+Another approach to reduce the search tree is to eliminate *a priori*  some really bad moves to focus the search on the other moves. This is akin on how a human would play a game of chess, by discarding the obvious bad moves and focusing on the few good moves in the position.
+
+This approach obviously poses some risks because it could miss a good move after a *obviously bad* one, thus ending up in a worse position because it didn't check that tree. Another idea would be to do **late move reduction** that checks this bad states, but with a lesser depth than the other branches.
 ### Expectiminimax
 
 This is a variation meant to represent stochastic searches. To be able to represent the uncertainty of the outcome of the moves we introduce **chance nodes** -- one for each possible outcome -- and put them after every decision. Since positions do not have definite minimax values, we can only calculate the **expected value** of a position using the average of the scores.

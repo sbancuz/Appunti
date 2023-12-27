@@ -27,6 +27,36 @@ The objective of max is to find a sequence of moves that will lead to a win, but
 
 >[!tip]
 >This approach can be generalized for multiplayer games by representing not only the two values, but a vector containing all the values of the agents
+### Monte Carlo tree search
+
+The basic MTCS does not use [[Minimax algorithm#Heuristic alpha beta pruning]], instead the value of a state is estimated as the average utility over a number of **simulations** of complete games from that states.
+
+But how can we choose the moves in the simulations? We need a **playout policy** that biases moves towards the *good ones* by using [[Machine learning]]. Now given we have left to decide:
+- from what position do we stater the playouts?
+- how many playouts do we allocate at each position?
+
+For some games we can do a **pure Monte Carlo search** by doing $N$ simulation at the starting positions. For some stochastic games this approach works, but for most is not sufficient, we need also a **selection policy** that focuses computational resources on the important parts of the tree balancing exploration and exploitation and is implemented as such:
+- Selection $\to$ descends the tree selecting successors using the policy until it finds a new node or a leaf
+- Expansion $\to$ if the node is not the goal, it will expand the tree
+- Simulation $\to$ simulate the game from the current node
+- Backpropagation $\to$ the reward is used to update all the nodes visited during the previous steps
+```pseudo
+\begin{algorithm}\begin{algorithmic}
+\Procedure{MonteCarloTreeSeach}{$state$}
+	\State $tree \gets $ Node($state$)
+	\While{IsTimeRemaining()}
+		\State $leaf \gets $ Select($tree$)
+		\State $child \gets $ Expand($leaf$)
+		\State $result \gets $ Simulate($child$)
+		\State  BackPropagate($result, child$)
+	\EndWhile
+\EndProcedure
+\end{algorithmic}\end{algorithm}
+```
+One very effective selection policy is called **upper confidence bounds applied to trees**
+
+![[UCB.png]]
+
 ### Stochastic search
 
 Stochastic means that we know the probability of each outcome when making a decision. To resolve these types of problems we use a variation of minimax called [[Minimax algorithm#Expectiminimax]].
