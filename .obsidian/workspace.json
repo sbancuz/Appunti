@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Machine learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Machine learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Machine learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Minimax algorithm.md"
+                "file": "Machine learning.md"
               }
             }
           }
@@ -229,8 +229,8 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Adversarial search strategies.md",
     "Minimax algorithm.md",
+    "Adversarial search strategies.md",
     "Informed search strategies.md",
     "SIMD.md",
     "Parallelization.md",
