@@ -39,7 +39,7 @@ $$
 - 0-1 : this represent a logical value
 - discrete value
 
-### Rules
+### Constraints
 
 The rules are constraints that our system must follow. This are expressed as multi-variable inequalities
 $$

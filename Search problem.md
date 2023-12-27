@@ -130,3 +130,6 @@ Depending on the type of problem to resolve, be it winning a chess game or findi
 - [[Uninformed search strategies]]
 - [[Informed search strategies]]
 - [[Adversarial search strategies]]
+### Specialized search strategies
+
+In the problems presented before, the representation of the state is generic and lets us only use it to compare if it is equal to another one. We can lose some generality to improve the search techniques. One such example of this is the [[Constraint satisfaction problem]]. 
