@@ -82,3 +82,8 @@ The next idea is to use the **minimum-remaining-values** heuristic and it select
 #### Search and inference
 
 We can inference a lot of information during the course of a search, by making new choices we can reduce the domain on the neighboring values. The simplest form of this is called **forward checking**. Whenever a variable $X$ is assigned we can establish arc consistency for it, and thus can apply AC-3.
+### Local search
+
+Another approach to resolve CSPs is to treat it as a [[Model optimization problems]] that starts from a complete solution and who's objective is to minimize the number of violated constraints -- i.e. the cost. Depending if the problem has a utility function -- high is better -- or a cost function -- low is better -- we can use either the **hill-climb** algorithm or the **min-conflicts** algorithm. These algorithms are not guaranteed to yield the best solution because we can get stuck in a local minima/maxima when trying to optimize the function. 
+
+There are several heuristics that try to fix this kind of problem, but none of them is a silver bullet.
