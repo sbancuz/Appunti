@@ -2,9 +2,9 @@
 tags:
   - artificial_intelligence
 ---
-With adversarial search it's intended the search in which our agent will explore and compete in an environment where other [[Rational Agents]] are plotting against us.
+With adversarial search it's intended the search in which our agent will explore and compete in an environment where other [[Agents]] are plotting against us.
 
-There are at least three stances we can take towards multi agent [[Rational Agents#Environment]]:
+There are at least three stances we can take towards multi agent [[Agents#Environment]]:
 - Aggregate them all in an **economy**
 - Consider other adversarial agents as just a part of the environment that makes it non deterministic
 - Explicitly model the adversarial agents with the techniques of adversarial game tree [[Search problem]]

@@ -21,7 +21,7 @@ The notion of the Turing test has not been focus of studies since it's more impo
 
 The Greek philosopher Aristotle was one of the first to attempt to codify **right thinking**, that is, irrefutable reasoning process. His syllogisms provided patterns for argument structures that always yielded correct conclusions when given correct premise. With these laws, the field of [[Logic]] was born and after the years many systems to describe relations about the objects in the world were created.
 
-Logic requires knowledge of the world that is **certain**, a condition that may not always be true. Here the theory of [[Probability]] fills in the gaps. This, however, is not enough to develop an AI -- what we constructed here is effectively just a machine that predicts the future -- To enact these calculation we need [[Rational Agents]] that can actually perform these tasks. 
+Logic requires knowledge of the world that is **certain**, a condition that may not always be true. Here the theory of [[Probability]] fills in the gaps. This, however, is not enough to develop an AI -- what we constructed here is effectively just a machine that predicts the future -- To enact these calculation we need [[Agents]] that can actually perform these tasks. 
 ### Limited rationality
 
 The problem with a *perfect AI* is that perfect rationality is not always feasible, there are constraints on the computations [[Complexity of an algorithm]] that are just too high.

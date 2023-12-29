@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Propositional logic.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Propositional logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Propositional logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Constraint satisfaction problem.md"
+                "file": "Propositional logic.md"
               }
             }
           }
@@ -203,8 +203,16 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Model optimization problems.md",
+    "proplogic.png",
+    "BNF.png",
+    "Logic.md",
+    "Propositional logic.md",
+    "Logical agents.md",
+    "Agents.md",
+    "Rational agents.md",
+    "Artificial intelligence.md",
     "Constraint satisfaction problem.md",
+    "Model optimization problems.md",
     "Search problem.md",
     "Adversarial search strategies.md",
     "UCB.png",
@@ -223,22 +231,14 @@
     "Map pattern.md",
     "Parallel technologies.md",
     "MPI.md",
-    "Message oriented communication.md",
-    "Reduction.md",
-    "OpenMP.md",
     "componenti tec.png",
     "Scatter.png",
-    "PThreads.md",
-    "Threads.md",
-    "Process.md",
     "minimax.png",
-    "Halide.md",
     "halide.png",
     "DSL.png",
     "heterogeneous pro.png",
     "expand.png",
     "bin.png",
-    "unsplit.png",
     "Excalidraw"
   ]
 }

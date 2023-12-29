@@ -10,7 +10,7 @@ Search algorithms are used to resolve search problems in a known environment are
 >[!warning]
 >It's important for the environment to be known, fully observable and deterministic
 
-This approach for finding a solution is called **open-loop** because the [[Rational Agents]] can ignore its percepts and still arrive at the solution, if the environment was non-deterministic a **closed-loop** solution would've been better.
+This approach for finding a solution is called **open-loop** because the [[Agents]] can ignore its percepts and still arrive at the solution, if the environment was non-deterministic a **closed-loop** solution would've been better.
 
 This are most effective for finding good solution on games like tic-tac-toe or chess (disregarding the computational complexity in the last example) and are typical of agents that are fully observable, static, discrete and deterministic.
 
