@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Propositional logic.md",
+                "file": "First order logic.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Propositional logic.md",
+                "file": "First order logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Propositional logic.md",
+                "file": "First order logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Propositional logic.md"
+                "file": "First order logic.md"
               }
             }
           }
@@ -203,8 +203,9 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Backward chaining algorithm.md",
     "Propositional logic.md",
+    "First order logic.md",
+    "Backward chaining algorithm.md",
     "Forward chaining algorithm.md",
     "example res.png",
     "cnf grammar.png",
@@ -234,7 +235,6 @@
     "Geometric decomposition.md",
     "Pipeline pattern.md",
     "Pack pattern.md",
-    "Stencil pattern.md",
     "componenti tec.png",
     "Scatter.png",
     "minimax.png",

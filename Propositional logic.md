@@ -114,3 +114,45 @@ Knowledge bases containing only definite clauses are interesting for three reaso
 3) Deciding entailment with Horn clauses can be done in linear time to their size
 ### Model checking
 
+This is another method for checking general propositional inference. One approach is based on backtracking and the other on local climbing search. These algorithm are a bit similar to the solution presented in [[Adversarial search strategies]].
+#### Backtracking 
+
+The DPLL algorithm takes it's name form it's creators. It takes in input a sentence in CNF and recursively checks for entailment whilst enumerating all possible modes, but it's still an improvement over the naive implementation because of some optimizations:
+1) Early termination $\to$ some computation don't need to end to find the result
+2) Pure symbol heuristic $\to$ a **pure symbol** is a symbol that always appears with the same sign in all clause
+3) Unit clause heuristic $\to$ assign all unit symbols to their value, this can lead to a cascading effect
+
+```pseudo
+\begin{algorithm}\begin{algorithmic}
+\Procedure{DPLL-Satisfiable}{$sentence$}
+	\State $clauses \gets $ the set of clauses in CNF
+	\State $symbols \gets $ a list of the propositions 
+	\Return DPLL($clauses, symbols, \{\}$)
+\EndProcedure
+\end{algorithmic}\end{algorithm}
+
+\begin{algorithm}\begin{algorithmic}
+\Procedure{DPLL}{$clauses, symbols, model$}
+	\If{every clause in $clauses$ is true in $model$}
+		\Return \True
+	\EndIf
+	\If{some clause in $clauses$ is false in $model$}
+		\Return \False
+	\EndIf   
+	\State $P, val \gets$ FindPureSymbol($symbols, clasuse, model$)
+	\If{$P$ is non null}
+		\Return DPLL($clauses, symbols - P, model \cup \{P = value\}$)
+	\EndIf 
+	\State $P, val \gets$ FindUnitClause($clasuse, model$)
+	\If{$P$ is non null}
+		\Return DPLL($clauses, symbols - P, model \cup \{P = value\}$)
+	\EndIf 
+	\State $P \gets $ First($symbols$)
+	\State $rest \gets $ Rest($symbols$)
+	\Return DPLL($clauses, rest, model \cup \{P = true\}$) $\lor$ DPLL($clauses, rest, model \cup \{P = false\}$) 
+\EndProcedure
+\end{algorithmic}\end{algorithm}
+```
+#### Local search
+
+Not covered, but similar approach to hill climbing with all the heuristics to get out of local minima/maxima
