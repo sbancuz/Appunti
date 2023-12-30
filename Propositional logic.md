@@ -112,3 +112,5 @@ Knowledge bases containing only definite clauses are interesting for three reaso
 1) Every definite clause can be written as an implication whose premise is a conjunction of positive literals and whose conclusion is a single positive literal
 2) Inference can be done through [[Forward chaining algorithm]] and [[Backward chaining algorithm]].
 3) Deciding entailment with Horn clauses can be done in linear time to their size
+### Model checking
+

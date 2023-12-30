@@ -203,10 +203,12 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Backward chaining algorithm.md",
+    "Propositional logic.md",
+    "Forward chaining algorithm.md",
     "example res.png",
     "cnf grammar.png",
     "De Morgan Law.md",
-    "Propositional logic.md",
     "Graph search algorithm.md",
     "logic eq.png",
     "proplogic.png",
@@ -233,12 +235,10 @@
     "Pipeline pattern.md",
     "Pack pattern.md",
     "Stencil pattern.md",
-    "Map pattern.md",
     "componenti tec.png",
     "Scatter.png",
     "minimax.png",
     "halide.png",
-    "DSL.png",
     "Excalidraw"
   ]
 }
