@@ -55,4 +55,6 @@ The sentences added to a knowledge base are called **assertions**, this is done 
 
 >[!warning]
 >A binding list is usually reserved for Horn clauses
+### Axioms
 
+Axioms are associated with purely mathematical domains, but they are needed in all domains. They provide a basic factual information from which useful conclusions can be derived. Some axiom that are in the form $\forall {x,y} P(x,y) {\iff} \dots$ can be viewed as **definitions**. Not all logical sentences about a domain are axioms, some are **theorems** -- that is, they are entailed by the axioms. This helps to reduce the complexity of the KB.
