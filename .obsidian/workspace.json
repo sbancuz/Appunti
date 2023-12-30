@@ -203,10 +203,15 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "example res.png",
+    "cnf grammar.png",
+    "De Morgan Law.md",
+    "Propositional logic.md",
+    "Graph search algorithm.md",
+    "logic eq.png",
     "proplogic.png",
     "BNF.png",
     "Logic.md",
-    "Propositional logic.md",
     "Logical agents.md",
     "Agents.md",
     "Rational agents.md",
@@ -229,16 +234,11 @@
     "Pack pattern.md",
     "Stencil pattern.md",
     "Map pattern.md",
-    "Parallel technologies.md",
-    "MPI.md",
     "componenti tec.png",
     "Scatter.png",
     "minimax.png",
     "halide.png",
     "DSL.png",
-    "heterogeneous pro.png",
-    "expand.png",
-    "bin.png",
     "Excalidraw"
   ]
 }
