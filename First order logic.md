@@ -58,3 +58,6 @@ The sentences added to a knowledge base are called **assertions**, this is done 
 ### Axioms
 
 Axioms are associated with purely mathematical domains, but they are needed in all domains. They provide a basic factual information from which useful conclusions can be derived. Some axiom that are in the form $\forall {x,y} P(x,y) {\iff} \dots$ can be viewed as **definitions**. Not all logical sentences about a domain are axioms, some are **theorems** -- that is, they are entailed by the axioms. This helps to reduce the complexity of the KB.
+### Database semantics
+
+It's a non standard semantic also used in logic programming. This has a few changes that makes it easier to express some relations. The first difference is that every constant symbol refers to a distinct object; the second difference is that everything not explicitly known to be true is false by default. Finally we have that each model can only contain elements that are named as constant symbols. 
