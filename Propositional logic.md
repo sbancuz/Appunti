@@ -2,6 +2,7 @@
 tags:
   - artificial_intelligence
 ---
+[[Propositional logic]] is a declarative language because its based on a truth relation between sentences and possible worlds. It also has sufficient expressive power to deal with partial information, using disjunction and negation. Another useful property of [[propositional logic]] is compositionality -- that is, the meaning of a sentence is derived by the meaning of its parts.
 ### Syntax
 
 The atomic sentences consist of a single propositional symbol. Each such symbol stands for a proposition that can be true or false. **Complex sentences** are composed from simpler ones, held together by parentheses and **logical connectives**. 
