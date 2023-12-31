@@ -64,4 +64,24 @@ SAT planners operate by translating a PDDL problem description into propositiona
 5) Propositionalize the goal $\to$ the goal becomes a disjunction over all of its ground instances
 6) Add successor state axioms $\to$ for each $F$ add $F^{t+1}\iff ACause F^{t} \lor (F^{t}\land \lnot ANotCausesF^{t})$
 
-The model checking for these planners is done incrementally, we choose a max length of the solution, then if we can't find a solution we try again with a greater lenght.
+The model checking for these planners is done incrementally, we choose a max length of the solution, then if we can't find a solution we try again with a greater length.
+### Non deterministic planners
+
+Up until now we worked within an ideal world, but in the real one we face partial observability, non-deterministic and unknown environments. This affects the way we represent the agent perception of the world, we represent this new view in **belief states** -- the set of possible states the agent might be in.  
+
+To perceive unknown information from the environment we have to augment the PDDL by adding the $\text{Percept}$ function that takes as input what we are actually tying to get information and the precondition to do so. 
+
+>[!warning]
+>There is much more in this chapter, but is not covered in the lectures so....
+### Uncertainty
+
+Agents in the real world need to handle **uncertainty**, whether partial observability or non determinism. To resolve this problem we used belief states to represent each possible state the agent might be in and acted accordingly. Although this approach works, it has a couple of drawbacks:
+- the agent must consider all the possible explanation for its sensor observations, no matter how unlikely
+- a correct contingent plan for all the possible cases can grow exponentially large
+- sometimes a completely contingent plan just doesn't exist
+
+If the agent's knowledge cannot guarantee some outcome, it can try to provide a **degree of belief** that certain goals will be accomplished. So when planning a solution, the right thing to do, i.e. the rational decision, depends on both the relative importance of various goals and the likelihood that they will be achieved. Our main tool to deal with this uncertainty is [[Probability theory]].
+
+To make choices on the best course of actions, an agent must first have preferences among different possible outcomes of the various plans. We can use [[Utility theory]] to represent preferences and reason quantitatively with them.
+
+The combination of these two needs is [[Decision theory]]

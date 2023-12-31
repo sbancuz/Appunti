@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Probability theory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Probability theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Probability theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logical agents.md"
+                "file": "Probability theory.md"
               }
             }
           }
@@ -203,8 +203,16 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "First order logic.md",
     "Logical agents.md",
+    "Decision theory.md",
+    "Utility theory.md",
+    "Funzione di utilità.md",
+    "Consumatori.md",
+    "Domanda.md",
+    "Utilità marginale.md",
+    "Curva di domanda individuale.md",
+    "Probability theory.md",
+    "First order logic.md",
     "Propositional logic.md",
     "quant.png",
     "fol symbols.png",
@@ -229,13 +237,6 @@
     "Machine learning.md",
     "Minimax algorithm.md",
     "Informed search strategies.md",
-    "SIMD.md",
-    "Parallelization.md",
-    "Uninformed search strategies.md",
-    "Partitioning.md",
-    "Gather vs Scatter pattern.md",
-    "Geometric decomposition.md",
-    "Pipeline pattern.md",
     "componenti tec.png",
     "Scatter.png",
     "Excalidraw"
