@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Bayesian network.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Bayesian network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Bayesian network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logical agents.md"
+                "file": "Bayesian network.md"
               }
             }
           }
@@ -203,8 +203,10 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Probability theory.md",
+    "LPT.png",
     "Logical agents.md",
+    "Bayesian network.md",
+    "Probability theory.md",
     "Decision theory.md",
     "Utility theory.md",
     "Funzione di utilità.md",
@@ -235,8 +237,6 @@
     "Adversarial search strategies.md",
     "UCB.png",
     "Machine learning.md",
-    "Minimax algorithm.md",
-    "Informed search strategies.md",
     "componenti tec.png",
     "Scatter.png",
     "Excalidraw"
