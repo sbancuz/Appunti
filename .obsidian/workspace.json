@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability theory.md",
+                "file": "Logical agents.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability theory.md",
+                "file": "Logical agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability theory.md",
+                "file": "Logical agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability theory.md"
+                "file": "Logical agents.md"
               }
             }
           }
@@ -203,6 +203,7 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Probability theory.md",
     "Logical agents.md",
     "Decision theory.md",
     "Utility theory.md",
@@ -211,7 +212,6 @@
     "Domanda.md",
     "Utilità marginale.md",
     "Curva di domanda individuale.md",
-    "Probability theory.md",
     "First order logic.md",
     "Propositional logic.md",
     "quant.png",

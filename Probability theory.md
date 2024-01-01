@@ -23,3 +23,6 @@ Every random variable is a function that maps from the domain of possible worlds
 $$
 P(X=x)
 $$
+>[!wanring]
+>TBD
+

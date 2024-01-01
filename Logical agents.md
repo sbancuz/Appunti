@@ -84,4 +84,4 @@ If the agent's knowledge cannot guarantee some outcome, it can try to provide a 
 
 To make choices on the best course of actions, an agent must first have preferences among different possible outcomes of the various plans. We can use [[Utility theory]] to represent preferences and reason quantitatively with them.
 
-The combination of these two needs is [[Decision theory]]
+The combination of these two needs is [[Decision theory]].
