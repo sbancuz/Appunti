@@ -43,7 +43,7 @@ $$
 	 & x\geq 0
 \end{aligned} \iff
 \begin{aligned}
-\max & \text{ } yb \\
+\min & \text{ } yb \\
 	 & yA\leq c \\
 	 & y\geq 0
 \end{aligned} 

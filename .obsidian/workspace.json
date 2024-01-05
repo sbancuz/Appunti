@@ -203,6 +203,10 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Integer linear programming.md",
+    "Disjunctive constraints.md",
+    "Polyhedral methods.md",
+    "Linear programming.md",
     "Flow optimization problems.md",
     "Negative cycle elimination algorithm.md",
     "Bayesian network.md",
@@ -233,10 +237,6 @@
     "Logic.md",
     "Agents.md",
     "Rational agents.md",
-    "Artificial intelligence.md",
-    "Constraint satisfaction problem.md",
-    "Model optimization problems.md",
-    "Search problem.md",
     "UCB.png",
     "componenti tec.png",
     "Excalidraw"
