@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian network.md",
-                "mode": "source",
+                "file": "Linear programming.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bayesian network.md",
+                "file": "Linear programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bayesian network.md",
+                "file": "Linear programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bayesian network.md"
+                "file": "Linear programming.md"
               }
             }
           }
@@ -203,8 +203,10 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
-    "Marginal probability.md",
+    "Flow optimization problems.md",
+    "Negative cycle elimination algorithm.md",
     "Bayesian network.md",
+    "Marginal probability.md",
     "LPT.png",
     "Logical agents.md",
     "Probability theory.md",
@@ -235,9 +237,7 @@
     "Constraint satisfaction problem.md",
     "Model optimization problems.md",
     "Search problem.md",
-    "Adversarial search strategies.md",
     "UCB.png",
-    "Machine learning.md",
     "componenti tec.png",
     "Excalidraw"
   ]
