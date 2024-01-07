@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Flow optimization problems.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#artificial_intelligence   ",
+                "query": "tag:#operations_research  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321,
-    "collapsed": true
+    "width": 321
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Flow optimization problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Flow optimization problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear programming.md"
+                "file": "Flow optimization problems.md"
               }
             }
           }
@@ -203,10 +202,14 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Edmonds-Karp algorithm.md",
+    "Graphs.md",
+    "Paths.md",
+    "Linear programming.md",
+    "Polyhedral methods.md",
+    "Shortest path algorithm in acyclic graph.md",
     "Integer linear programming.md",
     "Disjunctive constraints.md",
-    "Polyhedral methods.md",
-    "Linear programming.md",
     "Flow optimization problems.md",
     "Negative cycle elimination algorithm.md",
     "Bayesian network.md",
@@ -230,13 +233,9 @@
     "example res.png",
     "cnf grammar.png",
     "De Morgan Law.md",
-    "Graph search algorithm.md",
     "logic eq.png",
     "proplogic.png",
     "BNF.png",
-    "Logic.md",
-    "Agents.md",
-    "Rational agents.md",
     "UCB.png",
     "componenti tec.png",
     "Excalidraw"
