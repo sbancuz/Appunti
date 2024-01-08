@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1a5fb8e0d397b93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Triggers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#operations_research  gree",
+                "query": "tag:",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321
+    "width": 321,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Triggers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Triggers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear programming.md"
+                "file": "Triggers.md"
               }
             }
           }
@@ -200,13 +215,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18242b08fe621dea",
+  "active": "b1a5fb8e0d397b93",
   "lastOpenFiles": [
+    "Linear programming.md",
+    "Triggers.md",
     "Flow optimization problems.md",
     "Edmonds-Karp algorithm.md",
     "Graphs.md",
     "Paths.md",
-    "Linear programming.md",
     "Polyhedral methods.md",
     "Shortest path algorithm in acyclic graph.md",
     "Integer linear programming.md",
@@ -232,7 +248,6 @@
     "Forward chaining algorithm.md",
     "example res.png",
     "cnf grammar.png",
-    "De Morgan Law.md",
     "logic eq.png",
     "proplogic.png",
     "BNF.png",
