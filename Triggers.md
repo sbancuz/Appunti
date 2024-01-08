@@ -55,3 +55,9 @@ It's important to ensure that recursive cascading does not produce undesired eff
 - An arc from a node $i$ to a node $j$ if the execution of $T_{i}$ may activate $T_{j}$ 
 
 If this graph is acyclic, then we are sure that it will terminate, if not it may terminate or not. 
+### Applications
+
+There are 3 main applications for triggers:
+- Data replication
+- Integrity constraints
+- [[SQL View#Materialized view]] maintenance
