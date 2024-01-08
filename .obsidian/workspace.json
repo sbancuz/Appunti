@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#operations_research  ",
+                "query": "tag:#operations_research  gree",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flow optimization problems.md"
+                "file": "Linear programming.md"
               }
             }
           }
@@ -202,6 +202,7 @@
   },
   "active": "18242b08fe621dea",
   "lastOpenFiles": [
+    "Flow optimization problems.md",
     "Edmonds-Karp algorithm.md",
     "Graphs.md",
     "Paths.md",
@@ -210,7 +211,6 @@
     "Shortest path algorithm in acyclic graph.md",
     "Integer linear programming.md",
     "Disjunctive constraints.md",
-    "Flow optimization problems.md",
     "Negative cycle elimination algorithm.md",
     "Bayesian network.md",
     "Marginal probability.md",
