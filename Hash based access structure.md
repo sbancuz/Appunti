@@ -6,3 +6,5 @@ The idea is to store data with a [[Hash table]] where the key are the key fields
 
 The hashing works in 2 steps:
 - **folding** $\to$ transforms the key values so that they become positive integers
+- **hashing** $\to$ transforms the positive number into the number of the bucket 
+

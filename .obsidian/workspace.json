@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hash based access structure.md",
+                "file": "Query optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "tag:#parallel_computing tree ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hash based access structure.md",
+                "file": "Query optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hash based access structure.md",
+                "file": "Query optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hash based access structure.md"
+                "file": "Query optimization.md"
               }
             }
           }
@@ -203,19 +203,30 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
-    "Hash.png",
-    "Hash based access structure.md",
+    "query optimizer.png",
+    "DBMS.md",
+    "Query optimization.md",
     "Physical database.md",
+    "Triggers.md",
+    "SQL View.md",
+    "Ranking queries.md",
+    "Tree based access structure.md",
+    "Balanced trees.md",
+    "B+ tree.md",
+    "b+tree.png",
+    "Randomized data structure.md",
+    "Random Treaps.md",
+    "Pack pattern.md",
+    "Hash based access structure.md",
+    "Hash.png",
     "Sequential access structure.md",
     "seq acc struc.png",
     "OpenMP.md",
     "tuples.png",
     "Hard Drive.md",
     "HDD.png",
-    "DBMS.md",
     "Distributed algorithms.md",
     "query management.png",
-    "Ranking queries.md",
     "Sort Filter Loops algorithm.md",
     "Block Nested Loop algorithm.md",
     "NRA algorithm.md",
@@ -225,20 +236,9 @@
     "Fagin's algorithm.md",
     "Fagin algo.png",
     "maxrank.png",
-    "medrank.png",
-    "Triggers.md",
-    "SQL View.md",
-    "standard udpate prio.png",
     "Linear programming.md",
     "Flow optimization problems.md",
     "Edmonds-Karp algorithm.md",
-    "Graphs.md",
-    "Paths.md",
-    "Polyhedral methods.md",
-    "Shortest path algorithm in acyclic graph.md",
-    "Integer linear programming.md",
-    "Disjunctive constraints.md",
-    "Negative cycle elimination algorithm.md",
     "Excalidraw"
   ]
 }

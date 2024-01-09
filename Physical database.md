@@ -40,3 +40,21 @@ B = \left \lfloor \frac{SB}{ST} \right\rfloor
 $$
 >[!warning]
 >In our cost model we assume pages of equal size and organization as blocks
+### Indexes
+
+Data structure that help efficiently retrieve tuples on the basis of a **search key**. They are composed as
+$$
+[\text{Search key, pointer to block}]
+$$
+We have two types of indexes depending on their density:
+- dense $\to$ an index for each search-key value in the file
+- sparse $\to$ only for some search-key value, this can only be used in ordered table
+
+We can also define:
+- primary indexes $\to$ 
+	the search key is **unique** and coincides with the attribute according to which the structure is ordered
+- secondary index $\to$ dense index with an order different from the sequential order of the file
+- clustering index $\to$ generalization of the primary but with **non unique** keys
+
+>[!warning]
+>These terms are not universal between documentations/systems

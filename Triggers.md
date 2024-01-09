@@ -14,20 +14,7 @@ They can be used to specify complex behavior and constraints on data. A trigger 
 
 >[!note]
 >They are compiled and stored in the DBMS like [[Stored procedures]].
-### Syntax
 
-```mySQL
-create trigger <name>
-{ before | after }
-{ insert | delete | update [of <column>] } on <table>
-	referencing {   [ old table [as] OT ]
-					[ new table [as] NT ]
-					[ old [row] [as] OldTuple ]
-					[ new [row] [as] NewTuple ] }
-[ for each { row | statement }]
-[ when <condition> ]
-<SQLProceduralStatement>
-```
 ### Execution modes
 
 Execution modes define when a trigger gets checked to the database and they vary depending on the time.
@@ -60,4 +47,4 @@ If this graph is acyclic, then we are sure that it will terminate, if not it may
 There are 3 main applications for triggers:
 - Data replication
 - Integrity constraints
-- [[SQL View#Materialized view]] maintenance
+- [[DBMS#Materialized view]] maintenance
