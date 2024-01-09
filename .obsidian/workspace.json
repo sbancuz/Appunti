@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8687e4d753f1cc54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ranking queries.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Triggers.md",
+                "file": "Ranking queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Triggers.md",
+                "file": "Ranking queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Triggers.md"
+                "file": "Ranking queries.md"
               }
             }
           }
@@ -215,10 +228,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b1a5fb8e0d397b93",
+  "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
-    "SQL View.md",
+    "medrank.png",
     "Triggers.md",
+    "Ranking queries.md",
+    "SQL View.md",
     "standard udpate prio.png",
     "Linear programming.md",
     "Flow optimization problems.md",
@@ -243,10 +258,8 @@
     "Utilità marginale.md",
     "Curva di domanda individuale.md",
     "First order logic.md",
-    "Propositional logic.md",
     "quant.png",
     "fol symbols.png",
-    "Backward chaining algorithm.md",
     "example res.png",
     "cnf grammar.png",
     "logic eq.png",
