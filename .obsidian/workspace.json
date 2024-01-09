@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranking queries.md",
+                "file": "Physical database.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "925cddd44c0c5fc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenMP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranking queries.md",
+                "file": "OpenMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranking queries.md",
+                "file": "OpenMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranking queries.md"
+                "file": "OpenMP.md"
               }
             }
           }
@@ -201,10 +215,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8687e4d753f1cc54",
+  "active": "925cddd44c0c5fc3",
   "lastOpenFiles": [
-    "Sort Filter Loops algorithm.md",
+    "Physical database.md",
+    "tuples.png",
+    "Hard Drive.md",
+    "HDD.png",
+    "DBMS.md",
+    "Distributed algorithms.md",
+    "query management.png",
     "Ranking queries.md",
+    "Sort Filter Loops algorithm.md",
     "Block Nested Loop algorithm.md",
     "NRA algorithm.md",
     "NRA ex.png",
@@ -231,14 +252,6 @@
     "Marginal probability.md",
     "LPT.png",
     "Logical agents.md",
-    "Probability theory.md",
-    "Decision theory.md",
-    "Utility theory.md",
-    "Funzione di utilità.md",
-    "Consumatori.md",
-    "quant.png",
-    "fol symbols.png",
-    "example res.png",
     "Excalidraw"
   ]
 }
