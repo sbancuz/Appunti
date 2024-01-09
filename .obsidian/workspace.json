@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18242b08fe621dea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear programming.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1a5fb8e0d397b93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Triggers.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8687e4d753f1cc54",
             "type": "leaf",
             "state": {
@@ -46,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,9 +203,18 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Sort Filter Loops algorithm.md",
+    "Ranking queries.md",
+    "Block Nested Loop algorithm.md",
+    "NRA algorithm.md",
+    "NRA ex.png",
+    "Threshold algorithm.md",
+    "TA algo example.png",
+    "Fagin's algorithm.md",
+    "Fagin algo.png",
+    "maxrank.png",
     "medrank.png",
     "Triggers.md",
-    "Ranking queries.md",
     "SQL View.md",
     "standard udpate prio.png",
     "Linear programming.md",
@@ -254,18 +236,9 @@
     "Utility theory.md",
     "Funzione di utilità.md",
     "Consumatori.md",
-    "Domanda.md",
-    "Utilità marginale.md",
-    "Curva di domanda individuale.md",
-    "First order logic.md",
     "quant.png",
     "fol symbols.png",
     "example res.png",
-    "cnf grammar.png",
-    "logic eq.png",
-    "proplogic.png",
-    "BNF.png",
-    "UCB.png",
     "Excalidraw"
   ]
 }

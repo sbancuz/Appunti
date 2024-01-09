@@ -59,7 +59,7 @@ The most common scoring functions are:
 - Sum
 - Avg
 - Min
-- Max
+- Max $\to$ most used
 
 Rather than scoring we can use a **distance function** and get the k-nearest neighbors. For distances we can consider the Lp distance function
 $$
@@ -69,5 +69,26 @@ If we consider also the weights we get
 $$
 L_{p}(t,q,W) = \left( \sum w_{i} | t_{i} - q_{i}|^{p} \right)^{1/p}
 $$
+ >[!example]-
+ >This only works with max
+ >![[maxrank.png]]
  
+ To retrieve the correct result with all scoring functions we can use 
+  ![[Fagin's algorithm]] 
+  A better algorithm is 
+  ![[Threshold algorithm]]
+  If the assumption of random access is breached, then we can use
+  ![[NRA algorithm]]
 ### Skyline queries
+
+In this approach we don't need to specify weights because it's based on the notion of **dominance**. A tuple $t$ **dominates** tuple $s$, indicated $t \prec s$ iff:
+- $\forall {i} \quad1\leq i\leq m \to t[A_{i}]\leq s[A_{j}]$ $\to$ $t$ is nowhere worse than $s$
+- $\exists {j} \quad1\leq j \leq m \land t[A_{j}] < s[A_{j}]$ $\to$ and better at least once
+
+>[!tip]
+>Typically, **lower values** are considered **better**
+
+This approach gives the set of **potentially optimal** tuples.
+
+![[Block Nested Loop algorithm]]
+![[Sort Filter Loops algorithm]]
