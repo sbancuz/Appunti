@@ -34,4 +34,9 @@ To represent memory we use **blocks** and **tuples** that represent the physical
 
 ![[tuples.png]]
 
-In order to estimate the cost of a query we use the **block factor** $B$
+In order to estimate the cost of a query we use the **block factor** $B$ with the tuple size $ST$ and size of a block $SB$
+$$
+B = \left \lfloor \frac{SB}{ST} \right\rfloor
+$$
+>[!warning]
+>In our cost model we assume pages of equal size and organization as blocks
