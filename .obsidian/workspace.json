@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Flow optimization problems.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Flow optimization problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Flow optimization problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear programming.md"
+                "file": "Flow optimization problems.md"
               }
             }
           }
@@ -204,6 +204,7 @@
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
     "Paths.md",
+    "Linear programming.md",
     "Graphs.md",
     "Query optimization.md",
     "query optimizer.png",
@@ -237,7 +238,6 @@
     "TA algo example.png",
     "Fagin's algorithm.md",
     "Fagin algo.png",
-    "Linear programming.md",
     "Flow optimization problems.md",
     "Excalidraw"
   ]
