@@ -218,7 +218,7 @@ Such vectors are called **basic solutions** for problems $P$ and $D$ and are ass
 Given a basic solution $\dot{x}$ for $P$, there exists at least one basic solution $\dot{y}$ for $D$ forming with $\dot{x}$ a pair of **complementary basic solutions**. And since basic solutions are characterized by the basis defining them, we can directly extract feasibility and optimality conditions on the basis matrix.
 $$
 \begin{align}
- & \text{ primal feasible: } b_{N} - A_{N}A^{-1}_{N} b_{B} \geq 0 \\
+ & \text{ primal feasible: } b_{N} - A_{N}A^{-1}_{B} b_{B} \geq 0 \\
  & \text{ dual feasible: } cA^{-1}_{B} \geq 0 
 \end{align}
 $$
