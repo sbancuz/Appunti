@@ -69,9 +69,9 @@ In case we are provided with a feasible solution for the primal and a feasible s
 In fact, even if $D$ contained only one solution, its value would represent a bound to the value of the solutions of $P$.
 ### Feasible growth directions
 
-Let $\dot{x} \in \mathbb{R}^{n}$ be a feasible solution for $P$, the question is whether such solution is optimal or it is improvable. We can state that is there exists a point $\dot{x}$ better than $\ddot{x}$, it must be possible to express it in the form
+Let $\dot{x} \in \mathbb{R}^{n}$ be a feasible solution for $P$, the question is whether such solution is optimal or it is improvable. We can state that there exists a point $\ddot{x}$ better than $\dot{x}$, it must be possible to express it in the form
 $$
-\dot{x} = \ddot{x} + \lambda \xi
+\ddot{x} = \dot{x} + \lambda \xi
 $$
 where $\lambda>0$ is a scalar called **displacement step**, and $\xi$ is a vector of $\mathbb{R}^{n}$ called **displacement direction**. So we can say that $\ddot{x}$ is improvable iff there exists a **feasible growth direction** $\xi$ for which a point $\dot{x}$ still falls in the interior of the feasible region and has objective function value $c\dot{x}>cx$. In other terms, $\ddot{x}$ is optimal iff there exists no such direction $\xi$.
 

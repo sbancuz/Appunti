@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Query optimization.md",
-                "mode": "source",
+                "file": "Linear programming.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Query optimization.md",
+                "file": "Linear programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Query optimization.md",
+                "file": "Linear programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Query optimization.md"
+                "file": "Linear programming.md"
               }
             }
           }
@@ -203,9 +203,11 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Paths.md",
+    "Graphs.md",
+    "Query optimization.md",
     "query optimizer.png",
     "DBMS.md",
-    "Query optimization.md",
     "Physical database.md",
     "Triggers.md",
     "SQL View.md",
@@ -235,10 +237,8 @@
     "TA algo example.png",
     "Fagin's algorithm.md",
     "Fagin algo.png",
-    "maxrank.png",
     "Linear programming.md",
     "Flow optimization problems.md",
-    "Edmonds-Karp algorithm.md",
     "Excalidraw"
   ]
 }
