@@ -84,7 +84,7 @@ A_{I}\xi \leq 0
 $$
 where $A_{I}$ indicates the sub-matrix of $A$ relative to the active constraints $I(\ddot{x})$. Also, when moving along $\xi$ we must take care not to go out of the feasible region. The choice of the displacement step is made such that 
 $$
-\lambda\leq b_{i}-\frac{A_{i}\ddot{x}}{A_{i}\xi} \text{   } \forall {i} \in {I(\ddot{x})} 
+\lambda\leq \frac{b_{i}-A_{i}\ddot{x}}{A_{i}\xi} \text{   } \forall {i} \in {I(\ddot{x})} 
 $$
 We can express these constraints as a LP problem where
 $$

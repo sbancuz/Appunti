@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Linear programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flow optimization problems.md"
+                "file": "Linear programming.md"
               }
             }
           }
@@ -203,12 +203,12 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Flow optimization problems.md",
     "flow4.png",
     "Linear programming.md",
     "Disjunctive constraints.md",
     "Integer linear programming.md",
     "Machine task scheduling.md",
-    "Flow optimization problems.md",
     "Paths.md",
     "Graphs.md",
     "Query optimization.md",
@@ -238,7 +238,6 @@
     "Sort Filter Loops algorithm.md",
     "NRA ex.png",
     "TA algo example.png",
-    "Fagin algo.png",
     "Excalidraw"
   ]
 }
