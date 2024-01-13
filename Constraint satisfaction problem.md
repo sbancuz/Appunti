@@ -46,7 +46,7 @@ A variable is **arc-consistent** if every value in its domain satisfies the vari
 	\State $revised \gets false$
 	\For{ each $x$ in $D_i$}
 		\If{no $y \in D_j$ allows $(x, y)$ to satisfy the constraints}
-			\State $D_i$.delete($x$)
+			\State delete $x$ from $D_i$
 			\State $revised \gets true$
 		\EndIf
 	\EndFor

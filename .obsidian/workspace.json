@@ -6,6 +6,7 @@
       {
         "id": "fc81823bd9661295",
         "type": "tabs",
+        "dimension": 63.43283582089553,
         "children": [
           {
             "id": "8687e4d753f1cc54",
@@ -13,12 +14,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Constraint satisfaction problem.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
-            }
+            },
+            "group": "530bf337f98f0524"
+          }
+        ]
+      },
+      {
+        "id": "a18de9f4d1d99e2c",
+        "type": "tabs",
+        "dimension": 36.56716417910448,
+        "children": [
+          {
+            "id": "7a3c0ea5f1dc6462",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Constraint satisfaction problem.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.9158975427807612,
+                  "close": true
+                }
+              }
+            },
+            "group": "530bf337f98f0524"
           }
         ]
       }
@@ -95,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Constraint satisfaction problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Constraint satisfaction problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Minimax algorithm.md"
+                "file": "Constraint satisfaction problem.md"
               }
             }
           }
@@ -203,8 +248,10 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
-    "Informed search strategies.md",
+    "Adversarial search strategies.md",
     "Search problem.md",
+    "Minimax algorithm.md",
+    "Informed search strategies.md",
     "Uninformed search strategies.md",
     "Flow optimization problems.md",
     "Paths.md",
@@ -232,9 +279,7 @@
     "Hash.png",
     "Sequential access structure.md",
     "seq acc struc.png",
-    "OpenMP.md",
     "tuples.png",
-    "Hard Drive.md",
     "HDD.png",
     "query management.png",
     "NRA ex.png",
