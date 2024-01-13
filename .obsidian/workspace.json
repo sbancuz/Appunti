@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Minimax algorithm.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Minimax algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flow optimization problems.md",
+                "file": "Minimax algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flow optimization problems.md"
+                "file": "Minimax algorithm.md"
               }
             }
           }
@@ -203,9 +203,12 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Informed search strategies.md",
+    "Search problem.md",
+    "Uninformed search strategies.md",
+    "Flow optimization problems.md",
     "Paths.md",
     "Linear programming.md",
-    "Flow optimization problems.md",
     "flow4.png",
     "Disjunctive constraints.md",
     "Integer linear programming.md",
@@ -233,9 +236,7 @@
     "tuples.png",
     "Hard Drive.md",
     "HDD.png",
-    "Distributed algorithms.md",
     "query management.png",
-    "Sort Filter Loops algorithm.md",
     "NRA ex.png",
     "TA algo example.png",
     "Excalidraw"
