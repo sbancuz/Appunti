@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Machine learning.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Machine learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Machine learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Machine learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Constraint satisfaction problem.md"
+                "file": "Machine learning.md"
               }
             }
           }
@@ -248,6 +248,10 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Logical agents.md",
+    "First order logic.md",
+    "Propositional logic.md",
+    "Constraint satisfaction problem.md",
     "Adversarial search strategies.md",
     "Search problem.md",
     "Minimax algorithm.md",
@@ -273,11 +277,7 @@
     "B+ tree.md",
     "b+tree.png",
     "Randomized data structure.md",
-    "Random Treaps.md",
-    "Pack pattern.md",
-    "Hash based access structure.md",
     "Hash.png",
-    "Sequential access structure.md",
     "seq acc struc.png",
     "tuples.png",
     "HDD.png",

@@ -90,6 +90,6 @@ Q(s,a) &= \mathbb E[r_{t+1} + \gamma V(s_{t+1})|s_{t}= s, a_{t} = a]
 $$
 At the beginning the table $Q(\dots)$ is initialized with random values, then with time it will populate with
 $$
-Q(s_{t},a_{t}) = Q(s_{t},a_{t}) + \beta(r_{t+1}+ \gamma \max_{a\in A} Q(s_{t+1},a) - Q(s_{t},a_{t})) 
+Q(s_{t+1},a_{t+1}) = (1- \beta)Q(s_{t},a_{t}) + \beta(r(s,a)+ \gamma \max_{a\in A} Q(s_{t+1},a)) 
 $$
 where $\beta$ is the learning rate.
