@@ -20,12 +20,12 @@ If an agent relies only on prior knowledge of its designer rather than on its ow
 
 From the perspective of an agent the environment can be:
 - fully/partially observable
-- single/multi agent -> roomba vs chess
-- deterministic or not -> stochastic iff we deal explicitly with probabilities
+- single/multi agent $\to$ roomba vs chess
+- deterministic or not $\to$ stochastic iff we deal explicitly with probabilities
 - episodic or sequential
-- static or dynamic
+- static or dynamic $\to$ can the environment change while deliberating
 - discrete or continuous
-- known or unknown -> this is not actually a property of the environment, but it represent the designers vision and knowledge of the environment
+- known or unknown $\to$ this is not actually a property of the environment, but it represent the designers vision and knowledge of the environment
 
 ![[AI environment.png]]
 ### Structure of agents

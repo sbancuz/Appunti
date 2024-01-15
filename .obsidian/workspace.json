@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine learning.md",
-                "mode": "preview",
+                "file": "Agents.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Agents.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine learning.md"
+                "file": "Agents.md"
               }
             }
           }
@@ -248,12 +248,14 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Artificial intelligence.md",
+    "Search problem.md",
+    "Machine learning.md",
+    "Propositional logic.md",
     "Logical agents.md",
     "First order logic.md",
-    "Propositional logic.md",
     "Constraint satisfaction problem.md",
     "Adversarial search strategies.md",
-    "Search problem.md",
     "Minimax algorithm.md",
     "Informed search strategies.md",
     "Uninformed search strategies.md",
@@ -274,9 +276,7 @@
     "Ranking queries.md",
     "Tree based access structure.md",
     "Balanced trees.md",
-    "B+ tree.md",
     "b+tree.png",
-    "Randomized data structure.md",
     "Hash.png",
     "seq acc struc.png",
     "tuples.png",
