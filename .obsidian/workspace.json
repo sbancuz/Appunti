@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Minimax algorithm.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Minimax algorithm.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Minimax algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logical agents.md",
+                "file": "Minimax algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logical agents.md"
+                "file": "Minimax algorithm.md"
               }
             }
           }
@@ -248,8 +248,8 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
-    "First order logic.md",
     "Logical agents.md",
+    "First order logic.md",
     "Agents.md",
     "Artificial intelligence.md",
     "Search problem.md",

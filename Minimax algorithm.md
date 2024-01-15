@@ -110,7 +110,7 @@ to $n$. If Player has a better choice either at the same level or at any point h
 		\State $v2, a2 \gets $ MaxValue($game, game$.Result($state, a$), $\alpha, \beta$)
 		\If{$v2 < v$}
 			\State $v, move \gets v2, a$
-			\State $\alpha \gets $ Min($a, v$)
+			\State $\beta \gets $ Min($a, v$)
 		\EndIf 
 		\If{$v \le \alpha$}
 			\Return $v, move$
