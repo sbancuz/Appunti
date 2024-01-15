@@ -19,7 +19,7 @@ The central component of a knowledge based agents is it's knowledge base -- a se
 
 The next thing we have to model is how the agent should plan its actions. To represent these actions we can use a **factored representation** using a family of languages called **PDDL** which allows to represent more general actions with only a single action.
 
-In PDDL, a **state** is represented as conjunction of ground (no variable) atomic  )single predicate) fluents (aspects of the world that change). It also uses [[First order logic#Database semantics]]. 
+In PDDL, a **state** is represented as conjunction of ground (no variable) atomic single predicate) fluents (aspects of the world that change). It also uses [[First order logic#Database semantics]]. 
 
 An **action schema** represents a family of ground actions. A schema consists of the action name, a list of all the variables used in the schema, a **precondition** and an **effect**. We can choose constants to instantiate the variables yielding a ground action.
 

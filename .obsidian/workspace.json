@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents.md",
-                "mode": "source",
+                "file": "Logical agents.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Agents.md",
+                "file": "Logical agents.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agents.md",
+                "file": "Logical agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agents.md",
+                "file": "Logical agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agents.md"
+                "file": "Logical agents.md"
               }
             }
           }
@@ -248,12 +248,13 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "First order logic.md",
+    "Logical agents.md",
+    "Agents.md",
     "Artificial intelligence.md",
     "Search problem.md",
     "Machine learning.md",
     "Propositional logic.md",
-    "Logical agents.md",
-    "First order logic.md",
     "Constraint satisfaction problem.md",
     "Adversarial search strategies.md",
     "Minimax algorithm.md",
@@ -275,7 +276,6 @@
     "SQL View.md",
     "Ranking queries.md",
     "Tree based access structure.md",
-    "Balanced trees.md",
     "b+tree.png",
     "Hash.png",
     "seq acc struc.png",
