@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Logic.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Logic.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel_computing tree ",
+                "query": "tag:#artificial_intelligence hill  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321,
-    "collapsed": true
+    "width": 321
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -140,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Minimax algorithm.md",
+                "file": "Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Minimax algorithm.md"
+                "file": "Logic.md"
               }
             }
           }
@@ -248,18 +247,20 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Propositional logic.md",
+    "Logic.md",
+    "Constraint satisfaction problem.md",
+    "Uninformed search strategies.md",
+    "Search problem.md",
+    "Informed search strategies.md",
+    "Machine learning.md",
+    "Minimax algorithm.md",
     "Logical agents.md",
+    "Bayesian network.md",
+    "Adversarial search strategies.md",
     "First order logic.md",
     "Agents.md",
     "Artificial intelligence.md",
-    "Search problem.md",
-    "Machine learning.md",
-    "Propositional logic.md",
-    "Constraint satisfaction problem.md",
-    "Adversarial search strategies.md",
-    "Minimax algorithm.md",
-    "Informed search strategies.md",
-    "Uninformed search strategies.md",
     "Flow optimization problems.md",
     "Paths.md",
     "Linear programming.md",
@@ -274,8 +275,6 @@
     "Physical database.md",
     "Triggers.md",
     "SQL View.md",
-    "Ranking queries.md",
-    "Tree based access structure.md",
     "b+tree.png",
     "Hash.png",
     "seq acc struc.png",
