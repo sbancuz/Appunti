@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logic.md",
+                "file": "Constraint satisfaction problem.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Logic.md",
+                "file": "Constraint satisfaction problem.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#artificial_intelligence hill  ",
+                "query": "tag:#artificial_intelligence",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logic.md",
+                "file": "Constraint satisfaction problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logic.md",
+                "file": "Constraint satisfaction problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logic.md"
+                "file": "Constraint satisfaction problem.md"
               }
             }
           }
@@ -247,20 +247,21 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
-    "Propositional logic.md",
-    "Logic.md",
-    "Constraint satisfaction problem.md",
-    "Uninformed search strategies.md",
     "Search problem.md",
-    "Informed search strategies.md",
-    "Machine learning.md",
-    "Minimax algorithm.md",
-    "Logical agents.md",
-    "Bayesian network.md",
     "Adversarial search strategies.md",
-    "First order logic.md",
+    "Minimax algorithm.md",
+    "Informed search strategies.md",
+    "Uninformed search strategies.md",
+    "Rational agents.md",
     "Agents.md",
+    "Logical agents.md",
+    "Machine learning.md",
     "Artificial intelligence.md",
+    "Logic.md",
+    "Propositional logic.md",
+    "Constraint satisfaction problem.md",
+    "Bayesian network.md",
+    "First order logic.md",
     "Flow optimization problems.md",
     "Paths.md",
     "Linear programming.md",
@@ -274,7 +275,6 @@
     "DBMS.md",
     "Physical database.md",
     "Triggers.md",
-    "SQL View.md",
     "b+tree.png",
     "Hash.png",
     "seq acc struc.png",

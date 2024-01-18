@@ -10,7 +10,7 @@ There are at least three stances we can take towards multi agent [[Agents#Enviro
 - Explicitly model the adversarial agents with the techniques of adversarial game tree [[Search problem]]
 ### Two players zero sum games
 
-The games most commonly studied with AI are what game theorist call deterministic, two player, turn taking, **perfect information, two sum** games. The last two adjectives mean that the game has perfect information and is fully observable.
+The games most commonly studied with AI are what game theorist call deterministic, two player, turn taking, **perfect information, zero sum** games. The last two adjectives mean that the game has perfect information and is fully observable.
 
 We define the two players by calling them **max** and **min**. Max will always move first, and then the players will take turns. The turn of each players is called a **ply**. A game can be formally defined with:
 - $S_{0}\to$ The initial state
@@ -31,7 +31,7 @@ The objective of max is to find a sequence of moves that will lead to a win, but
 
 The basic MTCS does not use [[Minimax algorithm#Heuristic alpha beta pruning]], instead the value of a state is estimated as the average utility over a number of **simulations** of complete games from that states.
 
-But how can we choose the moves in the simulations? We need a **playout policy** that biases moves towards the *good ones* by using [[Machine learning]]. Now given we have left to decide:
+But how can we choose the moves in the simulations? We need a **playout policy** that biases moves towards the *good ones* by using [[Machine learning]]. Now given a playout, we have left to decide:
 - from what position do we stater the playouts?
 - how many playouts do we allocate at each position?
 

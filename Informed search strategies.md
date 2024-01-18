@@ -40,7 +40,7 @@ With this we can say that $A^{*}$ with a consistent heuristic is **optimally eff
 
 $A^{*}$ is very efficient because it **prunes** away search tree nodes that are not necessary for finding an optimal solution.
 
-To reduce the memory required for $A^{*}$ by searching every time to an augmenting depth like the [[Uninformed search strategies#Iterative deepening search]].
+To reduce the memory required for $A^{*}$ we can search every time to an augmenting depth like the [[Uninformed search strategies#Iterative deepening search]].
 #### Satisficing search
 
 If we are willing to accept solutions that are suboptimal, but "good enough" -- what we call **satisficing solutions** -- we need to allow $A^{*}$ to use inadmissible heuristic.

@@ -135,7 +135,7 @@ Most evaluation functions will work by calculating various **features** -- like 
 $$
 \text{Eval}(s) = \sum w_{i}f_{i}(s) \qquad \text{ with} \sum w_{i} = 1
 $$
-Cutting off the search at a fixed depth can easily lead to errors due to the approximate nature of the evaluation function.  For example when reaching a certain $d$ we find a very good move but the opponent response will capture a queen with no compensation. This means that we shouldn't always use the evaluation function, but be restricted to the **quiescent** cases -- that is states where the next action will wildly swing the eval. For the other cases the evaluation function should never be computed.
+Cutting off the search at a fixed depth can easily lead to errors due to the approximate nature of the evaluation function.  For example when reaching a certain $d$ we find a very good move but the opponent response will capture a queen with no compensation. This means that we shouldn't always use the evaluation function, but be restricted to the **quiescent** cases -- that is states where the next action will not wildly swing the eval. For the other cases the evaluation function should never be computed.
 
 Another problem would be the **horizon effect** -- that is when an evaluation function will delay an inevitable bad move by doing some other bad moves, ending up in a worse position overall. This can be mitigated by allowing **singular extensions** of some branches of the computation for moves that are *clearly better*.
 ### Forward pruning
