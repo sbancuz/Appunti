@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data centric consistency model.md",
+                "file": "Transactions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data centric consistency model.md",
+                "file": "Transactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data centric consistency model.md",
+                "file": "Transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data centric consistency model.md"
+                "file": "Transactions.md"
               }
             }
           }
@@ -216,10 +216,12 @@
   },
   "active": "31d190139ad8785a",
   "lastOpenFiles": [
+    "Paths.md",
+    "Graphs.md",
     "Transactions.md",
+    "Distributed consistency model.md",
     "Data centric consistency model.md",
     "Commit protocols.md",
-    "Distributed consistency model.md",
     "Eventual consistency model.md",
     "DBMS.md",
     "Global clock.md",
@@ -241,8 +243,6 @@
     "Adversarial search strategies.md",
     "Constraint satisfaction problem.md",
     "Minimax algorithm.md",
-    "Informed search strategies.md",
-    "Uninformed search strategies.md",
     "flow4.png",
     "query optimizer.png",
     "b+tree.png",

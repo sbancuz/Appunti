@@ -45,14 +45,31 @@ $$
 A **schedule** is a sequence of operations performed by concurrent transactions that respects the order of operation of each transaction. To check if a non serial schedule is admissible we have to define the notion of correctness -- that is a schedule that leaves the database in the same state as some serial schedule of the same transaction.
 #### View serializability
 
+Two schedules are **view-equivalent** if they have
+- the same operation
+- same reads-from relationship $\to$ $W_{j}(x)$ precedes $R_{i}(x)$ and there is no $W_{k}(x)$ in between
+- the same final writes $\to$ $W_{i}(x)$ is the last write on $x$ that occurs in $S$
 
+Deciding view-equivalence of two given schedules is done in polynomial time and space [[Complexity of an algorithm]], but the problem of deciding if a generic schedule is can be view serializable is NP complete.
+#### Conflict serializability
 
+This technique defines the order of operation by dealing with conflicts. Two operations $o_{i} \neq o_{j}$ are in **conflict** if they address the same resource and at least one of them is a write. So there can be just two types
+- read write
+- write write
 
-
-
-
+Two schedules are **conflict equivalent** if they contain the same operations and in all the conflicting pairs the transactions occur in the same order. Also a schedule is **conflict serializable** iff it is conflict equivalent to a serial schedule of the same transactions. 
 
 To ensure sequentiality of instruction we use 2 phase locking. The scheduler test if a resource has already received a lock, if so, the operation is delayed. Once a lock for $T$ has been released, $T$ can no longer acquire it. It may deadlock. Another approach to achieve seriability is [[Pessimistic timestamp ordering]] or [[Optimistic timestamp ordering]].
+
+>[!tip]
+>All conflict serializable schedules are also view serializable
+
+Testing for conflict serializability is way easier than view serializability, because we can use a conflict [[graphs]] that has 
+- one node foe each transaction
+- one arch from $T_{i} \to T_{j}$ if there exists at least one conflict between $o_{i}\in T_{i}$ and $o_{j }\in T_{J}$
+If the graph is acyclic, then the schedule it's conflict serializable.
+
+
 
 
 Vedere anche [[transazioni]] di sistemi informativi, magari si possono mettere assieme.
