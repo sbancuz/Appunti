@@ -6,7 +6,6 @@
       {
         "id": "fc81823bd9661295",
         "type": "tabs",
-        "dimension": 63.43283582089553,
         "children": [
           {
             "id": "8687e4d753f1cc54",
@@ -14,56 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian network.md",
-                "mode": "preview",
+                "file": "Transactions.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            },
-            "group": "530bf337f98f0524"
-          }
-        ]
-      },
-      {
-        "id": "a18de9f4d1d99e2c",
-        "type": "tabs",
-        "dimension": 36.56716417910448,
-        "children": [
-          {
-            "id": "7a3c0ea5f1dc6462",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Bayesian network.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.9158975427807612,
-                  "close": true
-                }
-              }
-            },
-            "group": "530bf337f98f0524"
+            }
           }
         ]
       }
@@ -123,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321
+    "width": 321,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -139,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bayesian network.md",
+                "file": "Transactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bayesian network.md",
+                "file": "Transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bayesian network.md"
+                "file": "Transactions.md"
               }
             }
           }
@@ -247,6 +203,14 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "transazioni.md",
+    "Transactions.md",
+    "DBMS.md",
+    "Physical database.md",
+    "Indexes.md",
+    "Bayesian network.md",
+    "Query optimization.md",
+    "03_Physical_Databases_Schema.pdf",
     "Logical agents.md",
     "Agents.md",
     "Search problem.md",
@@ -260,7 +224,6 @@
     "Artificial intelligence.md",
     "Logic.md",
     "Propositional logic.md",
-    "Bayesian network.md",
     "First order logic.md",
     "Flow optimization problems.md",
     "Paths.md",
@@ -268,13 +231,7 @@
     "flow4.png",
     "Disjunctive constraints.md",
     "Integer linear programming.md",
-    "Machine task scheduling.md",
-    "Graphs.md",
-    "Query optimization.md",
     "query optimizer.png",
-    "DBMS.md",
-    "Physical database.md",
-    "Triggers.md",
     "b+tree.png",
     "Hash.png",
     "seq acc struc.png",
