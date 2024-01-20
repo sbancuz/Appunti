@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transactions.md",
+                "file": "DBMS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Distributed synchronization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "426a6dc12321fd57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physical database.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems 2 phase ",
+                "query": "tag:#parallel_computing  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transactions.md",
+                "file": "DBMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transactions.md",
+                "file": "DBMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transactions.md"
+                "file": "DBMS.md"
               }
             }
           }
@@ -216,23 +229,26 @@
   },
   "active": "31d190139ad8785a",
   "lastOpenFiles": [
+    "isolation level.png",
+    "Transactions.md",
+    "DBMS.md",
+    "2pl.png",
+    "Physical database.md",
+    "Distributed synchronization.md",
+    "Distributed consistency model.md",
+    "Competitive analysis.md",
+    "Pessimistic timestamp ordering.md",
     "Paths.md",
     "Graphs.md",
-    "Transactions.md",
-    "Distributed consistency model.md",
     "Data centric consistency model.md",
     "Commit protocols.md",
     "Eventual consistency model.md",
-    "DBMS.md",
     "Global clock.md",
-    "Pessimistic timestamp ordering.md",
-    "Distributed synchronization.md",
     "Termination and deadlock detection.md",
     "Optimistic timestamp ordering.md",
     "Rollback dependency graph.md",
     "ACID.md",
     "transazioni.md",
-    "Physical database.md",
     "Indexes.md",
     "Bayesian network.md",
     "Query optimization.md",
@@ -241,8 +257,6 @@
     "Agents.md",
     "Search problem.md",
     "Adversarial search strategies.md",
-    "Constraint satisfaction problem.md",
-    "Minimax algorithm.md",
     "flow4.png",
     "query optimizer.png",
     "b+tree.png",
@@ -252,7 +266,6 @@
     "HDD.png",
     "query management.png",
     "NRA ex.png",
-    "TA algo example.png",
     "Excalidraw"
   ]
 }

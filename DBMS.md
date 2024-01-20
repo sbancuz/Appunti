@@ -50,4 +50,13 @@ These are structures used to speed up a database.
 create [unique | fullist | spatial] index name on
 	tableName (attributeList) using { btree | hash }
 ```
+### [[Transactions]]
 
+In SQL we can change the isolation levels of [[Transactions]], this modifies which schedules are allow and which aren't
+
+![[isolation level.png]]
+
+To specify a transaction we use
+```mysql
+set [ local ] transaction 
+```

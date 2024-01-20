@@ -11,6 +11,10 @@ It's a system that prevents interference and ensures [[Distributed consistency m
 - Happens-before relationship
 
 The simplest solution is to manage the shared resource with only one server and handle access with tokens. Printers utilize this model because it's easy to implement and to use.
+
+There are two types of locks:
+- r_lock $\to$ shared
+- w_lock $\to$ exclusive
 #### [[Global clock|Scalar clock]]
 
 With this approach we can also use  scalar clocks to ensure the orderness of the messages . This has the advantages of having the possibility to implement a wait queue to acknowledge all the requests and removing the single point of failure that was the centralized server.

@@ -59,8 +59,6 @@ This technique defines the order of operation by dealing with conflicts. Two ope
 
 Two schedules are **conflict equivalent** if they contain the same operations and in all the conflicting pairs the transactions occur in the same order. Also a schedule is **conflict serializable** iff it is conflict equivalent to a serial schedule of the same transactions. 
 
-To ensure sequentiality of instruction we use 2 phase locking. The scheduler test if a resource has already received a lock, if so, the operation is delayed. Once a lock for $T$ has been released, $T$ can no longer acquire it. It may deadlock. Another approach to achieve seriability is [[Pessimistic timestamp ordering]] or [[Optimistic timestamp ordering]].
-
 >[!tip]
 >All conflict serializable schedules are also view serializable
 
@@ -71,7 +69,23 @@ If the graph is acyclic, then the schedule it's conflict serializable.
 
 We can check if a schedule is VSR if, after building the dependency graph and checking that is not CSR,  we remove the **blind write** -- that is a write $W_{i}(x)$ that is not the last action of $x$ and the following action is a write -- conflicts and see if the resulting graph is acyclic.
 
+These methods deal with schedules which are **a posteriori** of the execution. This is not how a real concurrency control system deals with requests. We need to consider [[Competitive analysis|online]] arrival sequences. To implement such algorithms we can either use [[Distributed synchronization#Mutual exclusion]] or timestamps.
+#### Two phase locking
 
+On top of the [[Physical database#Locks table]] table we impose that a transaction cannot acquire any other lock after releasing a lock. This is done to ensure serializability and eliminate non repeatable reads.
 
+![[2pl.png]]
+
+To resolve phantom inserts we can use **predicate locks** that locks on *future data*. This means that we cannot write on just those rows where there is a lock.
+
+>[!tip]
+>2PL schedules are valid CSR.
+
+To deal with dirty reads after abort operations we extend this algorithm to strict two phase locking, that ensures that all the locks held by a transaction can be released only after a commit or a rollback.
+
+>[!warning]
+> Once a lock for $T$ has been released, $T$ can no longer acquire it. This approach may lead to deadlock. 
+
+Another approach to achieve seriability is [[Pessimistic timestamp ordering]] or [[Optimistic timestamp ordering]].
 Vedere anche [[transazioni]] di sistemi informativi, magari si possono mettere assieme.
 =

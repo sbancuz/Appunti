@@ -40,3 +40,6 @@ B = \left \lfloor \frac{SB}{ST} \right\rfloor
 $$
 >[!warning]
 >In our cost model we assume pages of equal size and organization as blocks
+### Locks table
+
+Locks are a means of [[Distributed synchronization#Mutual exclusion]] used mostly in [[Transactions]] by the DBMS, they are implemented by lock tables, which are hash tables indexing the lockable items via hashing. Each locked item has a linked list that represents the transactions that requested the locks. 
