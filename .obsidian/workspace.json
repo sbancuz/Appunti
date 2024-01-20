@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Bayesian network.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Bayesian network.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Bayesian network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Constraint satisfaction problem.md",
+                "file": "Bayesian network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Constraint satisfaction problem.md"
+                "file": "Bayesian network.md"
               }
             }
           }
@@ -247,19 +247,19 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Logical agents.md",
+    "Agents.md",
     "Search problem.md",
     "Adversarial search strategies.md",
+    "Constraint satisfaction problem.md",
     "Minimax algorithm.md",
     "Informed search strategies.md",
     "Uninformed search strategies.md",
     "Rational agents.md",
-    "Agents.md",
-    "Logical agents.md",
     "Machine learning.md",
     "Artificial intelligence.md",
     "Logic.md",
     "Propositional logic.md",
-    "Constraint satisfaction problem.md",
     "Bayesian network.md",
     "First order logic.md",
     "Flow optimization problems.md",
