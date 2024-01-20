@@ -69,6 +69,7 @@ Testing for conflict serializability is way easier than view serializability, be
 - one arch from $T_{i} \to T_{j}$ if there exists at least one conflict between $o_{i}\in T_{i}$ and $o_{j }\in T_{J}$
 If the graph is acyclic, then the schedule it's conflict serializable.
 
+We can check if a schedule is VSR if, after building the dependency graph and checking that is not CSR,  we remove the **blind write** -- that is a write $W_{i}(x)$ that is not the last action of $x$ and the following action is a write -- conflicts and see if the resulting graph is acyclic.
 
 
 
