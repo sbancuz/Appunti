@@ -2,12 +2,10 @@
 tags:
   - distributed_systems
 ---
-A transaction is  an elementary, atomic unit of work performed by an application, in case of a DBMS system they are used as 
-
-Transactions are a method to protect a shared resource against simultaneous access by several processes. Transactions are a sequence of operations that define appropriate programming primitives:
+A transaction is  an elementary, atomic unit of work performed by an application, in case of a DBMS system they are used as a method to protect a shared resource against simultaneous access by several processes. Transactions are a sequence of operations that define appropriate programming primitives:
 - BEGIN_TRANSACTION
-- END_TRANSACTION
-- ABORT_TRANSACTION
+- END_TRANSACTION $\to$ commit-work
+- ABORT_TRANSACTION $\to$ rollback-work
 - READ
 - WRITE
 
@@ -17,14 +15,44 @@ There exists several transaction types:
 - Distributed
 ### Atomicity
 
-Atomicity can be achieved with either a private workspace that copies the memory in a shadow region and operates on that or with a writeahead [[Logging]]
+To ensure that atomicity is respected only the after the **commit** the changes will take effect in the actual DBMS and in all other cases the system will issue a **rollback** to restore the state of the system like it was before the operation.  This can be achieved with either a private workspace that copies the memory in a shadow region and operates on that or with a writeahead [[Logging]]. 
+### Consistency
+
+A transaction must satisfy the DB integrity constraints
+- if $S_{0}$ is consistent then $S_{f}$ is also consistent
+- this is not guaranteed for the intermediate states
+### Isolation
+
+The execution of a transaction must be independent of the concurrent execution of other transactions, in particular, the concurrent execution of a number of transaction must produce the same result as if they were executed sequentially.
+### Durability
+
+The effect of the successful transaction will be committed and will last **forever**.
 ### Controlling concurrency
 
-This can be achieved through separation of concerns. This scheduler must ensure that operations must interweave correctly.
+This can be achieved through separation of concerns. This scheduler must ensure that operations must interweave correctly and respect the [[Data centric consistency model]]. If this isn't the case there are 5 types of anomalies that can happen:
+- lost update $\to$ update is applied from a state that ignores preceding update $r_{1}-r_{2}-w_{2}-w_{1}$ 
+- dirty read $\to$ uncommitted data is used to update data $r_{1}-w_{1}-r_{2}-ab_{1}-w_{2}$
+- non repeatable read $\to$ someone else updates a previously read value $r_{1}-r_{2}-w_{2}-r_{1}$
+- phantom update $\to$ someone else updates data the contributes to a constraint $r_{1}-r_{2}-w_{2}-r_{1}$
+- phantom insert $\to$ someone else inserts data that contributes to previously read data $r_{1}-w_{2}-r_{1}$
 
 ![[conc trans.png]]
 
-To ensure sequentiality of instruction we use 2 phase locking. The scheduler test if a resource has already received a lock, if so, the operation is delayed. Once a lock for $T$ has been released, $T$ can no longer acquire it. It may deadlock. Another approach to achieve seriability is [[Pessimistic timestamp ordering]] or [[Optimistic timestamp ordering]]
+We can define an **operation** as a read/write operation of a specific datum by a transaction and are specified by
+$$
+\{r/w\}_{PID}(var)
+$$
+A **schedule** is a sequence of operations performed by concurrent transactions that respects the order of operation of each transaction. To check if a non serial schedule is admissible we have to define the notion of correctness -- that is a schedule that leaves the database in the same state as some serial schedule of the same transaction.
+#### View serializability
+
+
+
+
+
+
+
+
+To ensure sequentiality of instruction we use 2 phase locking. The scheduler test if a resource has already received a lock, if so, the operation is delayed. Once a lock for $T$ has been released, $T$ can no longer acquire it. It may deadlock. Another approach to achieve seriability is [[Pessimistic timestamp ordering]] or [[Optimistic timestamp ordering]].
 
 
 Vedere anche [[transazioni]] di sistemi informativi, magari si possono mettere assieme.
