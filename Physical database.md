@@ -43,3 +43,16 @@ $$
 ### Locks table
 
 Locks are a means of [[Distributed synchronization#Mutual exclusion]] used mostly in [[Transactions]] by the DBMS, they are implemented by lock tables, which are hash tables indexing the lockable items via hashing. Each locked item has a linked list that represents the transactions that requested the locks. 
+
+Sometimes there exists another type of lock called the **update lock** that is asked by transactions that read and then write. It's used to mitigate the most frequent cause of collision: $r_{1}(x) - r_{2}(x) -w_{1}(x)-w_{2}(x)$
+
+![[udpate lock.png]]
+
+Another approach for mitigating deadlocks is hierarchical locking: basically we lock only the resources that we need with a various levels of granularity
+- ISL $\to$ lock a subelement of the current one in shared mode
+- IXL $\to$ lock a subelement of the current one in exclusive mode
+- SIXL $\to$ lock the element in shared mode with the intention of locking a subelement in exclusive mode
+
+With this approach locks are requested starting from the root and then propagating downwards. 
+
+![[hierarchical lcoks.png]]

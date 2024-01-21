@@ -6,7 +6,7 @@ We assign timestamps to each transaction with a [[Global clock]], write operatio
 
 The scheduler operates as follow:
 1) When receives $write(T,x)$ at $ts$
-	- If $ts>ts_{rd}(x)$ and $ts<ts_{rd}(x)$ perform tentative write $x_{i}$ with timestamp $ts_{wr}(x_{i})$ 
+	- If $ts>ts_{rd}(x)$ and $ts>ts_{wr}(x)$ perform tentative write $x_{i}$ with timestamp $ts_{wr}(x_{i})$ 
 	- else abort $T$ since the write request arrived too late
 2) Scheduler receives $read(T,x)$ at $ts$
 	- If $ts >ts_{wr}(x)$ 

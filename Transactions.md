@@ -88,6 +88,7 @@ To deal with dirty reads after abort operations we extend this algorithm to stri
 
 In order to use lock we have to use techniques for [[Deadlock prevention]] or [[Termination and deadlock detection|deadlock detection]].
 
-Another approach to achieve seriability is [[Pessimistic timestamp ordering]] or [[Optimistic timestamp ordering]].
+Another approach to achieve seriability through the use of timestamps that identify the total ordering of the events of a system, there are two approaches: [[Pessimistic timestamp ordering]] or [[Optimistic timestamp ordering]].
+
 Vedere anche [[transazioni]] di sistemi informativi, magari si possono mettere assieme.
 =

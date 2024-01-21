@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Termination and deadlock detection.md",
+                "file": "DBMS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Termination and deadlock detection.md",
+                "file": "DBMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Termination and deadlock detection.md",
+                "file": "DBMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Termination and deadlock detection.md"
+                "file": "DBMS.md"
               }
             }
           }
@@ -216,13 +216,21 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "SQL.md",
+    "DBMS.md",
+    "Replication.md",
+    "Logging.md",
+    "Physical database.md",
     "Transactions.md",
+    "Pessimistic timestamp ordering.md",
+    "Optimistic timestamp ordering.md",
+    "Rollback dependency graph.md",
+    "hierarchical lcoks.png",
+    "udpate lock.png",
+    "Termination and deadlock detection.md",
     "Deadlock prevention.md",
     "wound wait.png",
     "wait die.png",
-    "Termination and deadlock detection.md",
-    "DBMS.md",
-    "SQL.md",
     "Paths.md",
     "Distributed synchronization.md",
     "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
@@ -233,25 +241,18 @@
     "Excalidraw/Insieme 2023-02-04 14.47.41.excalidraw.md",
     "isolation level.png",
     "2pl.png",
-    "Physical database.md",
     "Distributed consistency model.md",
     "Competitive analysis.md",
-    "Pessimistic timestamp ordering.md",
     "Graphs.md",
     "Data centric consistency model.md",
     "Commit protocols.md",
     "Eventual consistency model.md",
     "Global clock.md",
-    "Optimistic timestamp ordering.md",
-    "Rollback dependency graph.md",
-    "ACID.md",
     "03_Physical_Databases_Schema.pdf",
     "flow4.png",
     "query optimizer.png",
     "b+tree.png",
     "Hash.png",
-    "seq acc struc.png",
-    "tuples.png",
     "Excalidraw"
   ]
 }
