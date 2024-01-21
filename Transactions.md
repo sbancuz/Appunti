@@ -84,7 +84,9 @@ To resolve phantom inserts we can use **predicate locks** that locks on *future 
 To deal with dirty reads after abort operations we extend this algorithm to strict two phase locking, that ensures that all the locks held by a transaction can be released only after a commit or a rollback.
 
 >[!warning]
-> Once a lock for $T$ has been released, $T$ can no longer acquire it. This approach may lead to deadlock. 
+> Once a lock for $T$ has been released, $T$ can no longer acquire it. This approach may lead to deadlock. Another problem it's starvation, typically occurs due to write transaction waiting for resources that are continuously read. 
+
+In order to use lock we have to use techniques for [[Deadlock prevention]] or [[Termination and deadlock detection|deadlock detection]].
 
 Another approach to achieve seriability is [[Pessimistic timestamp ordering]] or [[Optimistic timestamp ordering]].
 Vedere anche [[transazioni]] di sistemi informativi, magari si possono mettere assieme.

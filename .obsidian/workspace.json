@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Distributed synchronization.md",
+                "file": "Termination and deadlock detection.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed synchronization.md",
+                "file": "Termination and deadlock detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed synchronization.md",
+                "file": "Termination and deadlock detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distributed synchronization.md"
+                "file": "Termination and deadlock detection.md"
               }
             }
           }
@@ -216,34 +216,35 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
-    "Distributed synchronization 2024-01-21 18.47.48.excalidraw.md",
+    "Transactions.md",
+    "Deadlock prevention.md",
+    "wound wait.png",
+    "wait die.png",
+    "Termination and deadlock detection.md",
+    "DBMS.md",
+    "SQL.md",
+    "Paths.md",
     "Distributed synchronization.md",
+    "Excalidraw/Successioni 2023-02-05 16.23.21.excalidraw.md",
+    "Distributed synchronization 2024-01-21 18.47.48.excalidraw.md",
     "Excalidraw/Distributed synchronization 2024-01-21 18.47.48.excalidraw.md",
     "Excalidraw/Distributed synchronization 2024-01-21 18.47.09.excalidraw.md",
     "Excalidraw/Drawing 2024-01-21 18.41.32.excalidraw.md",
     "Excalidraw/Insieme 2023-02-04 14.47.41.excalidraw.md",
-    "DBMS.md",
     "isolation level.png",
-    "Transactions.md",
     "2pl.png",
     "Physical database.md",
     "Distributed consistency model.md",
     "Competitive analysis.md",
     "Pessimistic timestamp ordering.md",
-    "Paths.md",
     "Graphs.md",
     "Data centric consistency model.md",
     "Commit protocols.md",
     "Eventual consistency model.md",
     "Global clock.md",
-    "Termination and deadlock detection.md",
     "Optimistic timestamp ordering.md",
     "Rollback dependency graph.md",
     "ACID.md",
-    "transazioni.md",
-    "Indexes.md",
-    "Bayesian network.md",
-    "Query optimization.md",
     "03_Physical_Databases_Schema.pdf",
     "flow4.png",
     "query optimizer.png",
@@ -251,8 +252,6 @@
     "Hash.png",
     "seq acc struc.png",
     "tuples.png",
-    "HDD.png",
-    "query management.png",
     "Excalidraw"
   ]
 }

@@ -18,3 +18,10 @@ Each node keeps track of nodes it sends a message to.  If a node was already awa
 ### Distributed deadlock detection
 
 The is no coordinator in charge of building the global wait-for graph. Processes are allowed to request multiple resources simultaneously and when a process does get blocked, it sends a probe message to the processes holding resources it wants to acquire. When a probe makes it back to the initiator it means that a cycle occurred. In this case the initiator may abort the connection or it may pick the process with the higher identifier and kills it.
+### Obermarck algorithm
+
+This is another algorithm to prevent deadlocks in a [[distributed system]] and it requires an algorithm that can detect cycles in [[Graphs]], to be more specific, in the wait for graph. It consists of 4 steps:
+1) Get the graph info from the *previous* nodes
+2) Update the local graph by merging the information
+3) Check for cycles, if found select one process and kill it
+4) Send away the updated graph to the *next* nodes

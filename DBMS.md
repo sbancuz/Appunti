@@ -58,5 +58,15 @@ In SQL we can change the isolation levels of [[Transactions]], this modifies whi
 
 To specify a transaction we use
 ```mysql
-set [ local ] transaction 
+<set transaction statement> ::= SET [ LOCAL ] TRANSACTION <transaction characteristics>
+
+<transaction characteristics> ::= [ <transaction mode> [ { <comma> <transaction mode> }... ] ]
+
+<transaction mode> ::= <isolation level> | <transaction access mode> | <diagnostics size>
+
+<transaction access mode> ::= READ ONLY| READ WRITE
+
+<isolation level> ::= ISOLATION LEVEL <level of isolation>
+
+<level of isolation> ::= READ UNCOMMITTED | READ COMMITTED | REPEATABLE READ | SERIALIZABLE
 ```
