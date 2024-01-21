@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31d190139ad8785a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBMS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8687e4d753f1cc54",
             "type": "leaf",
             "state": {
@@ -121,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS.md",
+                "file": "Distributed synchronization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBMS.md",
+                "file": "Distributed synchronization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DBMS.md"
+                "file": "Distributed synchronization.md"
               }
             }
           }
@@ -227,14 +214,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "31d190139ad8785a",
+  "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Distributed synchronization 2024-01-21 18.47.48.excalidraw.md",
+    "Distributed synchronization.md",
+    "Excalidraw/Distributed synchronization 2024-01-21 18.47.48.excalidraw.md",
+    "Excalidraw/Distributed synchronization 2024-01-21 18.47.09.excalidraw.md",
+    "Excalidraw/Drawing 2024-01-21 18.41.32.excalidraw.md",
+    "Excalidraw/Insieme 2023-02-04 14.47.41.excalidraw.md",
+    "DBMS.md",
     "isolation level.png",
     "Transactions.md",
-    "DBMS.md",
     "2pl.png",
     "Physical database.md",
-    "Distributed synchronization.md",
     "Distributed consistency model.md",
     "Competitive analysis.md",
     "Pessimistic timestamp ordering.md",
@@ -253,10 +245,6 @@
     "Bayesian network.md",
     "Query optimization.md",
     "03_Physical_Databases_Schema.pdf",
-    "Logical agents.md",
-    "Agents.md",
-    "Search problem.md",
-    "Adversarial search strategies.md",
     "flow4.png",
     "query optimizer.png",
     "b+tree.png",
@@ -265,7 +253,6 @@
     "tuples.png",
     "HDD.png",
     "query management.png",
-    "NRA ex.png",
     "Excalidraw"
   ]
 }
