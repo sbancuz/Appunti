@@ -19,3 +19,4 @@ Queries define a generic operation on data that is stored in a database and they
 [[Ranking queries]]
 ### ORM
 
+Query can also be done from programming languages. The technique of bridging the gap between the object model and the relational model is known as **object relational mapping**. ORMs serve as mediators from common programming languages like Java to SQL syntax in order to standardize and simplify communication with the database.
