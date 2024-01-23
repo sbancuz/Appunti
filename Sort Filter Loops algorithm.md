@@ -9,7 +9,6 @@ tags:
 	\State $W \gets \emptyset$
 	\For{$p \in S$}
 		\If{$p \nprec p' \in W$}
-			\State Remove from $W$ the point dominated by $p$
 			\State Add $p$ to $W$
 		\EndIf 
 	\EndFor 
