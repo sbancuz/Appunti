@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBMS.md",
-                "mode": "source",
+                "file": "Query optimization.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS.md",
+                "file": "Query optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBMS.md",
+                "file": "Query optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DBMS.md"
+                "file": "Query optimization.md"
               }
             }
           }
@@ -216,12 +216,14 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Transactions.md",
+    "Ranking queries.md",
     "SQL.md",
+    "Triggers.md",
+    "Physical database.md",
     "DBMS.md",
     "Replication.md",
     "Logging.md",
-    "Physical database.md",
-    "Transactions.md",
     "Pessimistic timestamp ordering.md",
     "Optimistic timestamp ordering.md",
     "Rollback dependency graph.md",
@@ -246,8 +248,6 @@
     "Graphs.md",
     "Data centric consistency model.md",
     "Commit protocols.md",
-    "Eventual consistency model.md",
-    "Global clock.md",
     "03_Physical_Databases_Schema.pdf",
     "flow4.png",
     "query optimizer.png",
