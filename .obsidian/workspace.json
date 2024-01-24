@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranking queries.md",
+                "file": "Triggers.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranking queries.md",
+                "file": "Triggers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranking queries.md",
+                "file": "Triggers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranking queries.md"
+                "file": "Triggers.md"
               }
             }
           }
@@ -216,8 +216,8 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
-    "Sort Filter Loops algorithm.md",
     "Ranking queries.md",
+    "Sort Filter Loops algorithm.md",
     "Query optimization.md",
     "Transactions.md",
     "SQL.md",
