@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Triggers.md",
-                "mode": "preview",
+                "file": "SQL.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Triggers.md",
+                "file": "SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Triggers.md",
+                "file": "SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Triggers.md"
+                "file": "SQL.md"
               }
             }
           }
@@ -216,12 +216,13 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "view.png",
+    "Triggers.md",
     "Ranking queries.md",
     "Sort Filter Loops algorithm.md",
     "Query optimization.md",
     "Transactions.md",
     "SQL.md",
-    "Triggers.md",
     "Physical database.md",
     "DBMS.md",
     "Replication.md",
@@ -247,7 +248,6 @@
     "2pl.png",
     "Distributed consistency model.md",
     "Competitive analysis.md",
-    "Graphs.md",
     "03_Physical_Databases_Schema.pdf",
     "flow4.png",
     "query optimizer.png",
