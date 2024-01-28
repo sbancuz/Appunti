@@ -9,6 +9,8 @@ A consistency model is a contract between the processes and the data store that 
 
 ![[consistency.png]]
 
+The problem that consistency models solve is to maintain updated all the [[Replication|replicas]] of a given system.
+
 Different models will have different guarantees and different protocols that implement them:
 - Guarantees on content -> max difference on the versions stored at different replicas
 - Guarantees on staleness -> max time between a a change and its propagation for the replicas

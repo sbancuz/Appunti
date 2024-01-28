@@ -19,7 +19,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Distributed consistency model.md",
+                    "file": "Data centric consistency model.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -40,7 +40,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Distributed consistency model.md",
+                    "file": "Data centric consistency model.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Distributed systems questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed consistency model.md",
+                "file": "Distributed systems questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distributed consistency model.md"
+                "file": "Distributed systems questions.md"
               }
             }
           }
@@ -274,9 +274,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b6d2ccd68b38ea6d",
+  "active": "5a3f692863f85683",
   "lastOpenFiles": [
+    "Data centric consistency model.md",
+    "Distributed consistency model.md",
     "Client centric consistency model.md",
+    "Eventual consistency model.md",
+    "Transactions.md",
+    "Agreement.md",
     "Distributed systems questions.md",
     "Mobile code.md",
     "Peer to peer.md",
@@ -296,13 +301,8 @@
     "Ranking queries.md",
     "Sort Filter Loops algorithm.md",
     "Query optimization.md",
-    "Transactions.md",
     "DBMS.md",
     "Replication.md",
-    "Logging.md",
-    "Pessimistic timestamp ordering.md",
-    "Optimistic timestamp ordering.md",
-    "Rollback dependency graph.md",
     "hierarchical lcoks.png",
     "udpate lock.png",
     "wound wait.png",

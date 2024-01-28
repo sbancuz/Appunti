@@ -2,7 +2,10 @@
 tags:
   - distributed_systems
 ---
-In this context we say that a protocol is highly available if it does not require synchronous communication so that if a node fails a client can still receive a reply a correct replica. Some consistency models also employ the use of synchronization variables.
+In this context we say that a protocol is **highly available** if it does not require synchronous communication so that if a node fails a client can still receive a reply a correct replica. Some consistency models also employ the use of synchronization variables.
+
+>[!tip]
+>Also see the part [[Transactions#Controlling concurrency]]
 ### Sequential consistency
 
 The result is the same as if the operations by all processes were executed in some sequential order, and the operations by each process appear in this sequence in the order specified by its program.
