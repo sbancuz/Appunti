@@ -12,7 +12,7 @@ The result is the same as if the operations by all processes were executed in so
 
 ![[data centric consistency.png]]
 
-This means that all the replicas need to agree on a given order of operations: the solution is single leader replication with synchronous replication. Leaderless replication wouldn't work as well since it wouldn't be highly available. The main problems will be high latency due to the synchronous interactions and the blocking clients in case of a network partition.
+This means that all the replicas need to agree on a given order of operations: the solution is single leader replication with synchronous replication. Leaderless replication wouldn't work as well since it **wouldn't be highly available**. The main problems will be **high latency** due to the synchronous interactions and the blocking clients in case of a network partition.
 ### Linearizable consistency
 
 Each operation should appear to take effect instantaneously at some moment between its start and its completion. The idea is that all the write operations should be immediately visible, but operation should have a duration.
