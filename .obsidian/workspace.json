@@ -6,7 +6,7 @@
       {
         "id": "fc81823bd9661295",
         "type": "tabs",
-        "dimension": 41.47121535181237,
+        "dimension": 38.752665245202564,
         "children": [
           {
             "id": "8687e4d753f1cc54",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Peer to peer.md",
+                "file": "Mobile code.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
       {
         "id": "f640f8c9d2cddf70",
         "type": "tabs",
-        "dimension": 58.52878464818764,
+        "dimension": 61.247334754797436,
         "children": [
           {
             "id": "5a3f692863f85683",
@@ -224,9 +224,10 @@
   },
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
+    "Mobile code.md",
+    "Distributed systems questions.md",
     "Peer to peer.md",
     "Big data.md",
-    "Distributed systems questions.md",
     "Leader election.md",
     "Hierarchical flat naming.md",
     "Flat naming.md",
@@ -252,7 +253,6 @@
     "hierarchical lcoks.png",
     "udpate lock.png",
     "Termination and deadlock detection.md",
-    "Deadlock prevention.md",
     "wound wait.png",
     "wait die.png",
     "isolation level.png",
