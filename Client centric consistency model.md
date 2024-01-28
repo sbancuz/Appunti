@@ -23,9 +23,8 @@ A write operation by a process on a data item $x$ is completed before any succes
 The effect of a write operation by a process on a data item $x$ will always be seen a by a successive read operation on $x$ by the same process.
 
 ![[read your writes.png]]
-
 ### Writes follow reads
 
-A write operaation by a process on a data item $x$ following a previous read operation on $x$ by the same process is  guaranteed to take place on the same or more recent value of $x$ that was read
+A write operation by a process on a data item $x$ following a previous read operation on $x$ by the same process is  guaranteed to take place on the same or more recent value of $x$ that was read
 
 ![[write follows read.png]]
