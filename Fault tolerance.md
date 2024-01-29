@@ -11,7 +11,7 @@ We can also define a failure as the result of an error in the system that itself
 - Transient -> occur once and disappear
 - Intermittent -> appear and vanish with no apparent reason
 - Permanent -> continue to exist until the failed components are repaired
-### Failure types in DS
+### Failure types in distributed systems
 
 Both processes and communication channels may fail. The failure model defines the ways in which failure may occur to provide a better understanding of the effects of failures.
 We distinguish between:
@@ -61,7 +61,6 @@ back a NACK. The problem here is that there must be an [[Agreement]] about who i
 Receivers are organized in groups headed by a coordinator and groups are organized in a tree routed at the sender.
 
 ![[hie feedback control.png]]
-
 ### Synchrony
 
 Ideally we would like:

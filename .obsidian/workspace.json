@@ -19,7 +19,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Flat naming.md",
+                    "file": "Fault tolerance.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -40,7 +40,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Flat naming.md",
+                    "file": "Fault tolerance.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems multicast ",
+                "query": "tag:#distributed_systems floodset",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed systems questions.md",
+                "file": "Fault tolerance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed systems questions.md",
+                "file": "Fault tolerance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distributed systems questions.md"
+                "file": "Fault tolerance.md"
               }
             }
           }
@@ -274,14 +274,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a3f692863f85683",
+  "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Distributed systems questions.md",
+    "Fault tolerance.md",
+    "Leader election.md",
+    "RPC.md",
+    "Consensus protocols.md",
+    "Agreement.md",
+    "Commit protocols.md",
+    "Peer to peer.md",
+    "Publish-Subscribe.md",
     "Flat naming.md",
     "DHT.md",
-    "Distributed systems questions.md",
-    "Publish-Subscribe.md",
     "Berkeley sockets.md",
-    "Fault tolerance.md",
     "NTP.md",
     "Big data.md",
     "Data centric consistency model.md",
@@ -289,20 +295,14 @@
     "Distributed consistency model.md",
     "Client centric consistency model.md",
     "Eventual consistency model.md",
-    "Agreement.md",
     "Mobile code.md",
-    "Peer to peer.md",
-    "Leader election.md",
     "Hierarchical flat naming.md",
     "Name resolution.md",
     "Structured naming.md",
     "UDDI.md",
     "Naming.md",
     "REST.md",
-    "SQL.md",
-    "Physical database.md",
     "view.png",
-    "Triggers.md",
     "hierarchical lcoks.png",
     "udpate lock.png",
     "wound wait.png",
