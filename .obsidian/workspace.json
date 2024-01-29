@@ -6,7 +6,7 @@
       {
         "id": "cfd002a67f06a88e",
         "type": "split",
-        "dimension": 44.29637526652452,
+        "dimension": 43.60341151385928,
         "children": [
           {
             "id": "fc81823bd9661295",
@@ -78,7 +78,7 @@
       {
         "id": "f640f8c9d2cddf70",
         "type": "tabs",
-        "dimension": 55.70362473347548,
+        "dimension": 56.39658848614072,
         "children": [
           {
             "id": "5a3f692863f85683",
@@ -277,8 +277,8 @@
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
     "Fault tolerance.md",
-    "Linear programming.md",
     "Distributed systems questions.md",
+    "Linear programming.md",
     "Leader election.md",
     "RPC.md",
     "Consensus protocols.md",

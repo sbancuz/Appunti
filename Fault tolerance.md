@@ -63,11 +63,16 @@ Receivers are organized in groups headed by a coordinator and groups are organiz
 ![[hie feedback control.png]]
 ### Synchrony
 
-Ideally we would like:
+Ideally we would like **close synchrony**:
 - any 2 processes that receive the same multicast message to see the corresponding events in the same order
 - multicast will be delivered to all the members of the group
 
-Unfortunately this can't be the case, thus we need a mechanism to detect these types of failures, and even if we can detect failures correctly, we cannot know whether a failed process has received and processed a message. To resolve this we implement a form of virtual synchrony. With virtual synchrony a group view is the set of processes to which a message should be delivered as seen by the sender at the sending time and also all group view changes must be delivered in a consistent order with respect to other multicasts and each other. We say that a view change occurs when a process joins or leaves the group.
+Unfortunately this can't be the case, thus we need a mechanism to detect these types of failures, and even if we can detect failures correctly, we cannot know whether a failed process has received and processed a message. To resolve this we implement a form of virtual synchrony. 
+
+With **virtual synchrony** a group view is the set of processes to which a message should be delivered as seen by the sender at the sending time and also all group view changes must be delivered in a consistent order with respect to other multicasts and each other. We say that a view change occurs when a process joins or leaves the group.
+
+>[!tip]
+>A view in virtual synchrony means the members of a group of processes in a point in time
 
 ![[Virtual sync.png]]
 

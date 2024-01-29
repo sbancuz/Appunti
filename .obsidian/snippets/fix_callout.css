@@ -1,0 +1,21 @@
+div.popover.hover-popover {
+  transition: ease-out;
+  overflow-x: visible;
+  overflow-y: visible;
+  min-height: none;
+}
+
+div.popover.hover-popover .markdown-preview-view {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.popover.hover-popover .markdown-embed-content .markdown-preview-section {
+  padding: 0rem;
+}
+
+.popover.hover-popover .markdown-embed img {
+  max-width: 100%;
+  max-height: auto;
+  margin: 0em;
+}
