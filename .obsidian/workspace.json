@@ -11,7 +11,7 @@
           {
             "id": "fc81823bd9661295",
             "type": "tabs",
-            "dimension": 66.01851851851852,
+            "dimension": 74.44444444444444,
             "children": [
               {
                 "id": "8687e4d753f1cc54",
@@ -19,7 +19,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Data centric consistency model.md",
+                    "file": "Flat naming.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -32,7 +32,7 @@
           {
             "id": "fda7d2983b9ceefe",
             "type": "tabs",
-            "dimension": 33.98148148148148,
+            "dimension": 25.555555555555554,
             "children": [
               {
                 "id": "b6d2ccd68b38ea6d",
@@ -40,7 +40,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Data centric consistency model.md",
+                    "file": "Flat naming.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -63,7 +63,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.4444444444444444,
+                      "scale": 0.3740922376797649,
                       "close": true
                     }
                   }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel_computing  ",
+                "query": "tag:#distributed_systems multicast ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -151,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 419,
     "collapsed": true
   },
   "right": {
@@ -276,8 +276,15 @@
   },
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
-    "Data centric consistency model.md",
+    "Flat naming.md",
+    "DHT.md",
     "Distributed systems questions.md",
+    "Publish-Subscribe.md",
+    "Berkeley sockets.md",
+    "Fault tolerance.md",
+    "NTP.md",
+    "Big data.md",
+    "Data centric consistency model.md",
     "Transactions.md",
     "Distributed consistency model.md",
     "Client centric consistency model.md",
@@ -285,10 +292,8 @@
     "Agreement.md",
     "Mobile code.md",
     "Peer to peer.md",
-    "Big data.md",
     "Leader election.md",
     "Hierarchical flat naming.md",
-    "Flat naming.md",
     "Name resolution.md",
     "Structured naming.md",
     "UDDI.md",
@@ -298,11 +303,6 @@
     "Physical database.md",
     "view.png",
     "Triggers.md",
-    "Ranking queries.md",
-    "Sort Filter Loops algorithm.md",
-    "Query optimization.md",
-    "DBMS.md",
-    "Replication.md",
     "hierarchical lcoks.png",
     "udpate lock.png",
     "wound wait.png",
