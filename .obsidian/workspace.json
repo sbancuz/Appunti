@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fault tolerance.md",
+                "file": "Distributed systems questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fault tolerance.md",
+                "file": "Distributed systems questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fault tolerance.md"
+                "file": "Distributed systems questions.md"
               }
             }
           }
@@ -274,10 +274,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8687e4d753f1cc54",
+  "active": "5a3f692863f85683",
   "lastOpenFiles": [
-    "Distributed systems questions.md",
     "Fault tolerance.md",
+    "Linear programming.md",
+    "Distributed systems questions.md",
     "Leader election.md",
     "RPC.md",
     "Consensus protocols.md",
@@ -301,7 +302,6 @@
     "Structured naming.md",
     "UDDI.md",
     "Naming.md",
-    "REST.md",
     "view.png",
     "hierarchical lcoks.png",
     "udpate lock.png",
