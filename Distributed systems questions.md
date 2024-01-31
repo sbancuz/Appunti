@@ -93,3 +93,4 @@ ring election $\to$ this approach also has another assumption, the network has t
 ### Discuss virtual Synchrony.
 
 Virtual synchrony is used in the context of fault tolerance of a distributed system. It's built upon the fact that close synchrony -- everyone sees the same messages or same changes of the view in the same order  -- in an environment with process failures is not possible. Virtual synchrony works by creating epochs whenever there is a change in membership. Whenever a message is sent, the sender only sees the a group of active processes that can receive a message and, after it gets sent, there is no guarantee to whether or not it gets received. These changes in membership can be seen as a multicast message that either notifies of a new process or an old one that has exited.
+

@@ -5,7 +5,8 @@
     "editor_size",
     "center_image",
     "embed",
-    "fitting_embed"
+    "fitting_embed",
+    "fix_callout"
   ],
   "baseFontSize": 17,
   "theme": "obsidian",
