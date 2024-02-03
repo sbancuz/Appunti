@@ -19,7 +19,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Fault tolerance.md",
+                    "file": "Name resolution.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -40,7 +40,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Fault tolerance.md",
+                    "file": "Name resolution.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Distributed systems questions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Distributed systems questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Distributed systems questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenMP.md"
+                "file": "Distributed systems questions.md"
               }
             }
           }
@@ -276,8 +276,11 @@
   },
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
-    "Distributed systems questions.md",
+    "Name resolution.md",
+    "name space.png",
     "Fault tolerance.md",
+    "Distributed systems questions.md",
+    "OpenMP.md",
     "Linear programming.md",
     "Leader election.md",
     "RPC.md",
@@ -298,10 +301,7 @@
     "Eventual consistency model.md",
     "Mobile code.md",
     "Hierarchical flat naming.md",
-    "Name resolution.md",
     "Structured naming.md",
-    "UDDI.md",
-    "Naming.md",
     "view.png",
     "hierarchical lcoks.png",
     "udpate lock.png",
@@ -312,7 +312,6 @@
     "03_Physical_Databases_Schema.pdf",
     "flow4.png",
     "query optimizer.png",
-    "b+tree.png",
     "Excalidraw"
   ]
 }
