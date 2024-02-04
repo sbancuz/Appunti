@@ -107,3 +107,42 @@ These differentiation also impacts how client side caching should work, the more
 
 Mutual exclusion is the practice of locking a resource for usage by only one process at a time. This type of synchronization paradigm works under the assumption of both reliable communication and processes. To implement such primitives we can use scalar clocks. Each process will hold its own timestamp that will be updated upon the arrival of a new message, this will provide the an approximation of causality withing a system. This means that whoever is the first who tries to access the shared resource will have its turn before all the other processes, this is achieved through the use of a queue that will add new requests to wait for their turn if the resource is already in use.
 ### Describe what is access control, how it works and the two main ways of implementing it in a distributed system
+
+Access control describes the rules that processes have to follow when accessing a shared resource. This is achieved by means of mutual exclusion. Mutual exclusion works by locking a resource depending if some other process is already using it. There are a few methods to implement this, but the most important ones are with clocks, more precisely scalar clock that try to define a total ordering of the system and the other is with a token ring that defines the order of operation by organizing the system in a logical ring and passing a token that grants access to the shared resource in a loop.
+### Describe the mobile code architectural style.
+
+Mobile code defines a code architecture style in which the system is able to relocate the components of a distributed system at runtime. There are 4 main approaches to implement such systems:
+- Client server $\to$ the client asks the server for something, the server will respond with the result of the computation
+- Remote evaluation $\to$ the client sends the code for the computation to the server, it will run it and respond with the result
+- Code on demand $\to$ the client asks the server for the code and after executes it locally, like javascript when visiting a web page
+- Mobile agent $\to$ the client will take control of some resources of the server and execute the requests directly. No result will ever be send to the client
+### Describe the various techniques to remove unreferenced entities in a distributed system. 
+
+To remove unreferenced entities we can use one of these approaches:
+- mark and sweep $\to$ the system is put on hold and, traversing all nodes in the network, the server will keep track of all the clients encountered, those will not be removed from the system, but all the others not encountered will. This is not a good approach for a distributed system since it needs to halt the entire system to run this computation
+- Reference counting $\to$ Each node keeps track of how many other nodes have its reference, when adding a reference the count goes up by one and when removing it goes down by one. When reaching zero the node will remove itself from the system. This is not immune from race conditions so it's not a good approach either
+- Weighted reference counting $\to$ This is version of reference counting in which a node only keeps track of the decrements. This is done by using two numbers: total weight and partial weight, these numbers have to be the same. When creating a new node the partial weight gets halved and when a computation terminates it sends it back. We can safely remove the node from the system when the partial weight and the total weight are the same.
+- Reference listing $\to$ A node keeps track of the identities that are connected to the node through pings, once it finds itself isolated that it will stop. This still suffers from race conditions.
+### Describe and discuss the protocols you know to get reliable group communication in case of reliable nodes and unreliable links
+
+There are two main approaches to achieve reliable group communication in case of unreliable links and reliable nodes:
+- Multicast $\to$ All messages in a communication are numbered and then multicasted to each node in the system, when a message is received the node it increments its own counter and then sends an ACK to the sender. This approach is prone to network congestion, thus in reality the opposite approach is used. When a node notices that it has received messages out of order, or it has skipped one, it starts a timer; once the timer has ended it will broadcast a NACK to the network that will try to resend the lost message in order to realign the node.
+- Hierarchical feedback control $\to$ This is a more scalable approach in which the network is divided in local networks that can communicate between them through coordinators. It's needed for this link that connects coordinators to be reliable. Inside the local networks the nodes will use multicast.
+### Describe and discuss the kind of failures (the “failure model”) that may happen in a distributed system.
+
+There can be 3 type of failures inside a distributed system:
+- An omission failure $\to$ a node has received a response from another node, this can be due to the message not arriving, the other node crashing or even the response getting lost
+- Byzantine failure $\to$ a node is sending back a wrong result, be it due to a missing computation or an out of order one
+- Timing failure $\to$ time limits of computations are violated
+
+There is also another type of differentiation of failures based on their occurrence:
+- Transient $\to$ these are one off errors and then never reappear
+- Intermittent $\to$ these keep appearing and disappearing without any reason to do so
+- Permanent $\to$ the failure persists
+### Describe the problem of removing unreferenced entities in a distributed system and possible solutions to such problem.
+
+A distributed network is vulnerable to network compartmentalization and failures, this means that some nodes may keep running without any reason to do so, this is because they are no longer reachable from the root node of the system. To deal with this problem there are a couple of solution:
+- Mark and sweep $\to$ first thing, the system halts, then the root sends a message in broadcast to check which are the reachable nodes in the system. Once this computation is finished, then the remaining nodes will be removed. This assumes that the root holds a reference of all the nodes in the system.
+- Reference counting $\to$ all nodes keep track of the number of reference they gave out, once the count reaches 0 then the node will leave. This is vulnerable to network partitioning and race conditions
+- Weighted reference counting $\to$ This tries to solve the problems of reference counting by keeping track only of the decrements. Each node holds a total and partial count, when a node asks for another one it gives half of its partial count to the new node. Only when a node has total and partial count that are equal then it can be removed from the network. If a node can't create new nodes, due to having 1 in the partial count, it can just create a new skeleton (new total and partial count) and act as a proxy for that computation
+- Reference listing $\to$ a node keeps track of the entities to which it has send a reference through pings, once it has no more references then it will remove itself from the network

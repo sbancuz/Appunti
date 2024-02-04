@@ -19,7 +19,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Transactions.md",
+                    "file": "Garbage collector.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -40,7 +40,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Transactions.md",
+                    "file": "Garbage collector.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -63,7 +63,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.3740922376797649,
+                      "scale": 0.5611383565196474,
                       "close": true
                     }
                   }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems  ",
+                "query": "tag:#distributed_systems  failure mode",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -276,17 +276,22 @@
   },
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
-    "Transactions.md",
-    "Global clock.md",
+    "Garbage collector.md",
+    "Fault tolerance.md",
     "Distributed systems questions.md",
-    "Structured naming.md",
+    "Message oriented communication.md",
     "Modeling a distributed system.md",
+    "Stream oriented communication.md",
+    "Mobile code.md",
+    "Transactions.md",
+    "Distributed synchronization.md",
+    "Global clock.md",
+    "Structured naming.md",
     "Peer to peer.md",
     "Event based.md",
     "Data centered model communication.md",
     "Name resolution.md",
     "name space.png",
-    "Fault tolerance.md",
     "OpenMP.md",
     "Linear programming.md",
     "Leader election.md",
@@ -298,11 +303,6 @@
     "Flat naming.md",
     "DHT.md",
     "Berkeley sockets.md",
-    "NTP.md",
-    "Big data.md",
-    "Data centric consistency model.md",
-    "Distributed consistency model.md",
-    "Client centric consistency model.md",
     "view.png",
     "hierarchical lcoks.png",
     "udpate lock.png",

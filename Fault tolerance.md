@@ -52,13 +52,15 @@ On the other hand an algorithm that can handle also byzantine failures needs to 
 - Termination -> all non-faulty processes eventually decide
 #### Reliable group communication multicast
 
-The idea with this approach is to exploit process resilience by means of [[Replication]]. In this approach groups are fixed and process must be non-faulty. In case of a multicast failure the receiver must send 
-back a NACK. The problem here is that there must be an [[Agreement]] about who is in the group and that the receiver must be able to infer if a packet is missing.
+The idea with this approach is to exploit process resilience by means of [[Replication]]. In this approach groups are fixed and process must be non-faulty. In case of a multicast failure the receiver must send back a NACK. The problem here is that there must be an [[Agreement]] about who is in the group and that the receiver must be able to infer if a packet is missing.
 
 ![[non rel comm.png]]
 #### Hierarchical feedback control
 
 Receivers are organized in groups headed by a coordinator and groups are organized in a tree routed at the sender.
+
+>[!warning]
+>The connection between the coordinators has to be reliable
 
 ![[hie feedback control.png]]
 ### Synchrony
