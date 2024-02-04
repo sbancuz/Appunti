@@ -19,7 +19,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Structured naming.md",
+                    "file": "Transactions.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -40,7 +40,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Structured naming.md",
+                    "file": "Transactions.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems floodset",
+                "query": "tag:#distributed_systems  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -276,9 +276,11 @@
   },
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
+    "Transactions.md",
+    "Global clock.md",
+    "Distributed systems questions.md",
     "Structured naming.md",
     "Modeling a distributed system.md",
-    "Distributed systems questions.md",
     "Peer to peer.md",
     "Event based.md",
     "Data centered model communication.md",
@@ -299,10 +301,8 @@
     "NTP.md",
     "Big data.md",
     "Data centric consistency model.md",
-    "Transactions.md",
     "Distributed consistency model.md",
     "Client centric consistency model.md",
-    "Eventual consistency model.md",
     "view.png",
     "hierarchical lcoks.png",
     "udpate lock.png",
