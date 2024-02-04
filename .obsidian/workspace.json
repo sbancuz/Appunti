@@ -19,7 +19,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Data centered model communication.md",
+                    "file": "Structured naming.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -40,7 +40,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Data centered model communication.md",
+                    "file": "Structured naming.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -276,9 +276,13 @@
   },
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
+    "Structured naming.md",
+    "Modeling a distributed system.md",
+    "Distributed systems questions.md",
+    "Peer to peer.md",
+    "Event based.md",
     "Data centered model communication.md",
     "Name resolution.md",
-    "Distributed systems questions.md",
     "name space.png",
     "Fault tolerance.md",
     "OpenMP.md",
@@ -288,7 +292,6 @@
     "Consensus protocols.md",
     "Agreement.md",
     "Commit protocols.md",
-    "Peer to peer.md",
     "Publish-Subscribe.md",
     "Flat naming.md",
     "DHT.md",
@@ -300,9 +303,6 @@
     "Distributed consistency model.md",
     "Client centric consistency model.md",
     "Eventual consistency model.md",
-    "Mobile code.md",
-    "Hierarchical flat naming.md",
-    "Structured naming.md",
     "view.png",
     "hierarchical lcoks.png",
     "udpate lock.png",
