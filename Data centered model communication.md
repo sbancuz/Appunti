@@ -3,7 +3,6 @@ tags:
   - distributed_systems
 ---
 The components communicate through a common repository, data can be added to this repository through [[RPC]] and the access is usually synchronized.
-
 #### Linda
 
 Data is contained in ordered sequences of typed fields (tuples) and stored in a persistent, global shared space. It has 3 standard operations :

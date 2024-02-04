@@ -15,7 +15,7 @@ It identifies the classes of components that build the system, the various types
 - [[REST]]
 - [[Peer to peer]]
 - [[Object-oriented distributed system]]
-- [[Data centered]]
+- [[Data centered model communication]]
 - [[Event based]]
 - [[Mobile code]]
 ### Communication
