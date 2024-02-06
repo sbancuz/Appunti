@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vector clock",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -277,13 +277,15 @@
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
     "Global clock.md",
+    "vec clocks.png",
+    "Mobile code.md",
     "Distributed systems questions.md",
+    "Big data.md",
     "Garbage collector.md",
     "Fault tolerance.md",
     "Message oriented communication.md",
     "Modeling a distributed system.md",
     "Stream oriented communication.md",
-    "Mobile code.md",
     "Transactions.md",
     "Distributed synchronization.md",
     "Structured naming.md",
@@ -301,8 +303,6 @@
     "Commit protocols.md",
     "Publish-Subscribe.md",
     "Flat naming.md",
-    "DHT.md",
-    "Berkeley sockets.md",
     "view.png",
     "hierarchical lcoks.png",
     "udpate lock.png",
@@ -312,7 +312,6 @@
     "2pl.png",
     "03_Physical_Databases_Schema.pdf",
     "flow4.png",
-    "query optimizer.png",
     "Excalidraw"
   ]
 }

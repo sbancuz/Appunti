@@ -163,3 +163,45 @@ There are also other approaches for synchronization that make use of logical clo
 ### Describe Lamport's protocol to guarantee totally ordered multicast messaging using scalar clocks. Clarify the assumptions
 
 To achieve total order we need to have a system with reliable communication with FIFO links, because the system doesn't tolerate missed messages. Whenever a process communication happen with multicast, this means that to send a message we have to send it to all other processes, when we receive that same message we have to broadcast the ACK and only after receiving all ACKs we can accept it. 
+### Consider the architecture of a system for processing large volumes of data in a cluster of machines. Define and compare the following design/architectural choices: batched vs streaming, pipeline vs scheduling. In particular describe their limitations in terms of latency, throughout and elasticity.
+
+A distributed system that processes large volumes of data in clusters will use the map reduce pattern. This architecture is composed of two parts: the map, that processes each single element in the data using some function, and the reduce, that takes the array of results of the map and joins them all together according to some other function. We can have either batched or streaming approaches:
+- batches $\to$ The data is processed in chunks of data divided by some scheduler process. This division can lead to latency since we have to wait for data to create these batches, to have high throughput we need to have large batches. This approach is used with a scheduling architecture that is highly elastic, this is because the scheduler can find out what are the slow processes and assign less work to them
+- streaming $\to$ The data is processed on the fly, this means that a process doesn't need to wait for some new data to perform the computation, this leads to very low latency and high throughput. This approach is used with pipelining, this means that a process can perform multiple operations within the map function. This can lead to not great network elasticity since it's not easy to predict the resource usage of the network.
+### Describe and discuss the kind of failures (the “failure model”) that may happen in a distributed system
+
+There are 3 kinds of failure that can happen in a distributed system
+- Omission failures $\to$ when a process makes a request and it never receives a response, be it due to network issues or a crash in the other process
+- Byzantine failure $\to$ a process receives a response that has wrong data, because the response was computed in a wrongly manner, (missing steps or non in order computation)
+- Timing failure $\to$ a response violates the time constraint that have been put on some computation
+### Describe name resolution in presence of structured names
+
+In structured naming resolution we always start from the root node, the root node, that has only knowledge of its direct children, will forward the request to the relevant node and the process repeats until the entity is either found or not while traversing the tree. This process can be performed either iteratively or recursively, we take the DNS name resolution as an example:
+- Iterative $\to$ You ask the root server for information about some site, the root will give you back the address of one of its children that can have the site, e.g. if you ask for google.com it will respond with the .com domain server. After receiving this response you will have to ask again for google.com to the .com server that you received in the response and it will proceed in giving you some other server, if it's not connected directly. This means there is a lot of back and forth between the client and the various DNS servers
+- Recursive $\to$ You ask the root server for google.com and it asks the .com server for a response and so on until the root server will respond with the result. This means that the client only does one request to the DNS "network" and it will find the result on its own
+
+The main difference in the two approaches, other than the number of network requests, is the ability to cache some intermediate results. In the recursive approach the caching can happen inside the DNS servers and in client.
+### Describe scalar clocks in general and how they can be used to implement totally ordered multicast.
+
+Scalar clocks are a way to define the order of operations in a distributed system by means of a counter that represents the "step" a process is on, this is needed because when dealing with a distributed system the notion of a global clock is nonexistent. When dealing with multiple processes, a process will hold its own scalar clock that gets incremented either each time it sends a message or when it receives one. To achieve total ordering we also have to keep track of the process ID when dealing with clocks. To implement a multicast with only scalar clocks we have to assume that each process is connected with a reliable link and has a FIFO queue to receive the messages. When sending the multicast we have to multicast both the message and the ACKs, each and one of them will also hold a timestamp, and only upon receiving all the ACKs can the application collect the message.
+### Describe the routing mechanisms of Freenet and Chord (the version with finger tables) and compare them.
+
+Freenet is a distributed network with the sole objective of file sharing and anonymity, and as such the files stored on the network are identified by their cryptographic hash that depends on their content then the file will be stored on some other machine that holds the ids that are closest to the new file. When searching up a file, you make a request to the node that you are connected then it will search up, by guessing the route based on the id, the file traversing the network. With each operation each node can perform caching of the route based on the result. A request finished either when a file is found or when it reaches the max hops. 
+
+In Chord the network is structured by a large DTH that will hold all the routes for all the resources that are published in the system. These hash tables are organized in a logical ring that divide the hashes of all the files that are present on the system. When joining this kind on system we just need to contact another node on the network to find one of the hash table. The main advantage is that they will have guarantees on lookup since resources can only be referenced by a specific table.
+### Describe and discuss the mobile code paradigm and the technologies used to implement it
+
+Mobile code is used when we need to distribute the computation on different machines. There are 4 ways to implement:
+- Client server $\to$ the client makes a request to the server and the server will respond with the result. This is how most of the internet services work. 
+- Remote evaluation $\to$ the client gives some code to execute to the server and then the server will respond with the result. This can be used for large computation for example in the scientific field
+- Code on demand $\to$ the client asks the server for some code to run. This is what happens with the javascript that most website use, you visit the site, the site will respond with some code and the you execute it client side
+- Mobile agent $\to$ the client will connect to the server and it will perform some computation with the server resources as if they were its own. All the result are stored on the server. This is analogous to using virtual machines within some site.
+### Describe and compare the various techniques/algorithms you know to synchronize physical clocks in a distributed system
+
+To synchronize physical clocks in a distributed we have 3 main methods:
+- Christian $\to$ Ask a centralized server, this will be the only source of truth of the system
+- Berkley $\to$ A coordinator will periodically ask all the clients in a network for their clocks then average them all. Once computed it will send the result to the clients. 
+- NTP $\to$ The networks is divided hierarchically and the root will have an atomic clock. All the nodes will ask their parent for the time. NTP is also capable of estimating the offset of clocks of different machines.
+### Describe the floodset algorithm (i.e., objective, assumptions, operation) and prove it works correctly.
+
+The floodset algorithm is used for agreement in a distributed system, and it can only work in the presence of faulty processes, not links. It works by duplicating the computation between some nodes and then comparing the result, if even one result is different then we can reject the result. 
