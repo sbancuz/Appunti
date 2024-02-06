@@ -19,7 +19,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Garbage collector.md",
+                    "file": "Global clock.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -40,7 +40,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Garbage collector.md",
+                    "file": "Global clock.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distributed_systems  failure mode",
+                "query": "vector clock",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -276,16 +276,16 @@
   },
   "active": "5a3f692863f85683",
   "lastOpenFiles": [
+    "Global clock.md",
+    "Distributed systems questions.md",
     "Garbage collector.md",
     "Fault tolerance.md",
-    "Distributed systems questions.md",
     "Message oriented communication.md",
     "Modeling a distributed system.md",
     "Stream oriented communication.md",
     "Mobile code.md",
     "Transactions.md",
     "Distributed synchronization.md",
-    "Global clock.md",
     "Structured naming.md",
     "Peer to peer.md",
     "Event based.md",
