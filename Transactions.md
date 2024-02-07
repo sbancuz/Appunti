@@ -54,7 +54,7 @@ Deciding view-equivalence of two given schedules is done in polynomial time and 
 #### Conflict serializability
 
 This technique defines the order of operation by dealing with conflicts. Two operations $o_{i} \neq o_{j}$ are in **conflict** if they address the same resource and at least one of them is a write. So there can be just two types
-- read write
+- read write (r-w or w-r )
 - write write
 
 Two schedules are **conflict equivalent** if they contain the same operations and in all the conflicting pairs the transactions occur in the same order. Also a schedule is **conflict serializable** iff it is conflict equivalent to a serial schedule of the same transactions. 
