@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transactions.md",
+                "file": "Ranking queries.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Transactions.md",
+                "file": "Ranking queries.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transactions.md",
+                "file": "Ranking queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transactions.md",
+                "file": "Ranking queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transactions.md"
+                "file": "Ranking queries.md"
               }
             }
           }
@@ -247,6 +247,7 @@
   },
   "active": "8687e4d753f1cc54",
   "lastOpenFiles": [
+    "Transactions.md",
     "Termination and deadlock detection.md",
     "SQL.md",
     "Global clock.md",
@@ -259,7 +260,6 @@
     "Message oriented communication.md",
     "Modeling a distributed system.md",
     "Stream oriented communication.md",
-    "Transactions.md",
     "Distributed synchronization.md",
     "Structured naming.md",
     "Peer to peer.md",
