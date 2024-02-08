@@ -205,3 +205,9 @@ To synchronize physical clocks in a distributed we have 3 main methods:
 ### Describe the floodset algorithm (i.e., objective, assumptions, operation) and prove it works correctly.
 
 The floodset algorithm is used for agreement in a distributed system, and it can only work in the presence of faulty processes, not links. It works by duplicating the computation between some nodes and then comparing the result, if even one result is different then we can reject the result. 
+### Describe the concept of primary-based consistency protocol, how it works and how many variants exist. Describe the pros and cons of these variants
+
+Ai dunno
+### Describe Remote Procedure Call: communication model, operation, technological and practical alternatives, and issues
+
+Remote procedure call is a programming paradigm in which the network requests are hidden from the caller of the functions. This works under a client server architecture, in which there is also a directory server that enable network transparency. These functions mostly work synchronously, as though they were normal function calls, but they can also work asynchronously resuming the computation the moment they receive and ACK from the callee.  These function are implemented both by IDL, a interface definition language that generates the network code, and some source files that implement the actual logic of the function. These function don't work like normal C functions, in fact passing a parameters by reference is not possible, even large structures are copied and passed by value. There is also an alternative that is RMI that extend the functionality to the object oriented world, even supporting passing by reference.
