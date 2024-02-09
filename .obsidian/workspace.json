@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RPC.md",
+                "file": "Garbage collector.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -53,7 +53,7 @@
       {
         "id": "6b2d4e5e69ee1477",
         "type": "tabs",
-        "dimension": 23.88888888888889,
+        "dimension": 23.888888888888893,
         "children": [
           {
             "id": "20cb3654f52b2199",
@@ -109,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "RPC.md",
+                "file": "Garbage collector.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274
+    "width": 344
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RPC.md",
+                "file": "Garbage collector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RPC.md",
+                "file": "Garbage collector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RPC.md"
+                "file": "Garbage collector.md"
               }
             }
           }
@@ -267,6 +267,7 @@
   "active": "e9db9c737c5d1599",
   "lastOpenFiles": [
     "Distributed systems questions.md",
+    "Garbage collector.md",
     "RPC.md",
     "Untitled 2.md",
     "Ranking queries.md",
@@ -277,7 +278,6 @@
     "vec clocks.png",
     "Mobile code.md",
     "Big data.md",
-    "Garbage collector.md",
     "Fault tolerance.md",
     "Message oriented communication.md",
     "Modeling a distributed system.md",
