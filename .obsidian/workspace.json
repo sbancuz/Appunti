@@ -6,7 +6,6 @@
       {
         "id": "fc81823bd9661295",
         "type": "tabs",
-        "dimension": 41.51061173533084,
         "children": [
           {
             "id": "e9db9c737c5d1599",
@@ -14,27 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Garbage collector.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "3feb34b9f321dd98",
-        "type": "tabs",
-        "dimension": 58.48938826466916,
-        "children": [
-          {
-            "id": "8687e4d753f1cc54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenMP.md",
+                "file": "Query optimization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Query optimization.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -158,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Query optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenMP.md",
+                "file": "Query optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenMP.md"
+                "file": "Query optimization.md"
               }
             }
           }
@@ -264,14 +243,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8687e4d753f1cc54",
+  "active": "e9db9c737c5d1599",
   "lastOpenFiles": [
-    "Distributed systems questions.md",
-    "Garbage collector.md",
-    "RPC.md",
-    "Untitled 2.md",
     "Ranking queries.md",
     "Transactions.md",
+    "Garbage collector.md",
+    "OpenMP.md",
+    "Distributed systems questions.md",
+    "RPC.md",
+    "Untitled 2.md",
     "Termination and deadlock detection.md",
     "SQL.md",
     "Global clock.md",
@@ -289,7 +269,6 @@
     "Data centered model communication.md",
     "Name resolution.md",
     "name space.png",
-    "OpenMP.md",
     "Linear programming.md",
     "Leader election.md",
     "Consensus protocols.md",

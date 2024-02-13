@@ -29,4 +29,4 @@ $$
 >[!warning]
 >If no information is available we assume an even distribution
 
-![[03_Physical_Databases_Schema.pdf#height=1875]]
+![[03_Physical_Databases_Schema.pdf#height=2322]]
