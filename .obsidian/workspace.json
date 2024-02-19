@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e9db9c737c5d1599",
+            "id": "9fb37cbe75c8896a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Replication.md",
+                "file": "Modeling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "propagation",
+                "query": "tag:#mida  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Replication.md",
+                "file": "Modeling.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Replication.md",
+                "file": "Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Replication.md",
+                "file": "Modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Replication.md"
+                "file": "Modeling.md"
               }
             }
           }
@@ -243,8 +243,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e9db9c737c5d1599",
+  "active": "9fb37cbe75c8896a",
   "lastOpenFiles": [
+    "Modeling a distributed system.md",
+    "Modeling.md",
+    "Replication.md",
     "Availability.md",
     "Distributed consistency model.md",
     "Client centric consistency model.md",
@@ -267,11 +270,8 @@
     "Mobile code.md",
     "Big data.md",
     "Message oriented communication.md",
-    "Modeling a distributed system.md",
     "Stream oriented communication.md",
     "Distributed synchronization.md",
-    "Structured naming.md",
-    "Peer to peer.md",
     "name space.png",
     "view.png",
     "hierarchical lcoks.png",
