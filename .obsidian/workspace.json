@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Query optimization.md",
+                "file": "Replication.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "deadlock dete",
+                "query": "propagation",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Query optimization.md",
+                "file": "Replication.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Query optimization.md",
+                "file": "Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Query optimization.md",
+                "file": "Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Query optimization.md"
+                "file": "Replication.md"
               }
             }
           }
@@ -245,6 +245,16 @@
   },
   "active": "e9db9c737c5d1599",
   "lastOpenFiles": [
+    "Availability.md",
+    "Distributed consistency model.md",
+    "Client centric consistency model.md",
+    "Termination and deadlock detection.md",
+    "Global clock.md",
+    "Consensus protocols.md",
+    "Fault tolerance.md",
+    "FloodSet algorithm.md",
+    "Service oriented.md",
+    "Query optimization.md",
     "Ranking queries.md",
     "Transactions.md",
     "Garbage collector.md",
@@ -252,27 +262,17 @@
     "Distributed systems questions.md",
     "RPC.md",
     "Untitled 2.md",
-    "Termination and deadlock detection.md",
     "SQL.md",
-    "Global clock.md",
     "vec clocks.png",
     "Mobile code.md",
     "Big data.md",
-    "Fault tolerance.md",
     "Message oriented communication.md",
     "Modeling a distributed system.md",
     "Stream oriented communication.md",
     "Distributed synchronization.md",
     "Structured naming.md",
     "Peer to peer.md",
-    "Event based.md",
-    "Data centered model communication.md",
-    "Name resolution.md",
     "name space.png",
-    "Linear programming.md",
-    "Leader election.md",
-    "Consensus protocols.md",
-    "Agreement.md",
     "view.png",
     "hierarchical lcoks.png",
     "udpate lock.png",

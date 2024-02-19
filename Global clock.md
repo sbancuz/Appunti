@@ -5,7 +5,7 @@ aliases:
   - scalar clock
   - vector clock
 ---
-A true global clock only exists inside a single machine, it cannot be implemented in a distributed system. Though since it's integral to their existences there exists several approximations.
+*A* true global clock only exists inside a single machine, it cannot be implemented in a distributed system. Though since it's integral to their existences there exists several approximations.
 ### Physical time
 
 Computer clocks are not clocks per se, they are timers, so depending on the drift rate of the clock they could go out of sync. To resolve this we can either:
