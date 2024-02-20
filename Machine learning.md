@@ -1,6 +1,7 @@
 ---
 tags:
   - artificial_intelligence
+  - machine_learning
 ---
 Machine learning is an area of Artificial intelligence focused on building algorithms capable of learning, **extracting** knowledge from experience. These algorithms cannot **create** knowledge. The goal is to build programs that can make informed decisions on new unseen data.
 
