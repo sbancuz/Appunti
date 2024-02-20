@@ -90,6 +90,41 @@
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "logic",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "databases",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "mida",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "probability",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "computing_infrastructures",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
     }
   ],
   "collapse-display": true,
@@ -102,6 +137,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 275,
-  "scale": 0.4230857117953713,
+  "scale": 0.43321187116705206,
   "close": false
 }
