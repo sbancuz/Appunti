@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine learning.md",
+                "file": "System.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf595bc175f8c532",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estimation problem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "tag:#mida  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Estimation problem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Estimation problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine learning.md",
+                "file": "Estimation problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine learning.md"
+                "file": "Estimation problem.md"
               }
             }
           }
@@ -243,16 +257,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9fb37cbe75c8896a",
+  "active": "cf595bc175f8c532",
   "lastOpenFiles": [
-    "Parallelization.md",
-    "Machine learning.md",
-    "Data centers.md",
     "System.md",
+    "Estimation problem.md",
+    "Modeling.md",
+    "Machine learning.md",
+    "Parallelization.md",
+    "Data centers.md",
     "Difference equation.md",
     "static sys exa.png",
     "dynamic sys exa.png",
-    "Modeling.md",
     "Modeling a distributed system.md",
     "Replication.md",
     "Availability.md",
@@ -272,7 +287,6 @@
     "Distributed systems questions.md",
     "RPC.md",
     "Untitled 2.md",
-    "SQL.md",
     "vec clocks.png",
     "name space.png",
     "view.png",
