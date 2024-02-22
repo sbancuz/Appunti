@@ -109,3 +109,13 @@ $$
 \hat{v}(t) = (w(0) +z^{-1}w(1) + z^{-2}w(2) + \dots ) \eta(t) = W(z)\eta(t)
 $$
 With $W(z)$ as the [[Transfer function]] of a stable system. This means that if $w(z)$ is stable then $\hat{v}(t)$ must be **stationary**.
+
+Because $\hat{v}(t)$ and $\dot{v}(t)$ are independent we have that
+$$
+\mathbb  E [\dot{v}(t_{1})\hat{v}(t_{2})] = \mathbb  E[\dot{v})t_{1} ] \mathbb E[\hat{v}(t_{2})] = 0
+$$
+																	^^ *This is equal to zero*
+$$
+\dot{\gamma}_{v} (\tau) = \mathbb E[v(t)v(t+\tau)] = \mathbb E[\dot{v}(t)\dot{v}(t+\tau)] + \mathbb E[\hat{v}(t)\hat{v}(t+\tau)] = \dot{\gamma}_{\dot{v}} (\tau) + \dot{\gamma}_{\hat{v}} (\tau)  
+$$
+
