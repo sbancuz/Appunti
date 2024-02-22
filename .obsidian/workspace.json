@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIPS.md",
+                "file": "Stationary process.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2738147b3213125b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stationary process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,29 +102,29 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MIPS.md",
+                "file": "Stationary process.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
-                  "localJumps": 1,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
-                  "localInterlinks": false,
+                  "localInterlinks": true,
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [],
                   "collapse-display": true,
                   "showArrow": true,
                   "textFadeMultiplier": -3,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
+                  "collapse-forces": false,
+                  "centerStrength": 0.880208333333333,
+                  "repelStrength": 20,
                   "linkStrength": 1,
-                  "linkDistance": 250,
+                  "linkDistance": 407,
                   "scale": 0.5611383565196474,
                   "close": true
                 }
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MIPS.md",
+                "file": "Stationary process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MIPS.md",
+                "file": "Stationary process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MIPS.md"
+                "file": "Stationary process.md"
               }
             }
           }
@@ -243,16 +257,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a6638bb27bb52bf3",
+  "active": "b6d2ccd68b38ea6d",
   "lastOpenFiles": [
+    "Gaussian process.md",
+    "Stationary process.md",
+    "Stochastic process.md",
+    "Estimation problem.md",
+    "MIPS.md",
     "MIPS paths.png",
     "pipelining.png",
     "MIPS arch.png",
     "MIPS arch.png",
-    "MIPS.md",
     "Pipelining.md",
     "instr format mips.png",
-    "Estimation problem.md",
     "Modeling.md",
     "Probability theory.md",
     "System.md",
@@ -275,12 +292,9 @@
     "Service oriented.md",
     "Query optimization.md",
     "Ranking queries.md",
-    "Transactions.md",
-    "Garbage collector.md",
     "vec clocks.png",
     "name space.png",
     "view.png",
-    "hierarchical lcoks.png",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
   ]

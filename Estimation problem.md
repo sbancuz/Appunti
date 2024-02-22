@@ -36,7 +36,7 @@ When $t > t_{n}$ we have a **prediction**, and when $t=t_{n}$ we have **filterin
 >$$
 ### Uncertainty
 
-As already said, in these types of problems we can't model every variable, every noise. So we are dealing with a stochastic problem, and to account for all unknowns in our model we add some **noise term** $w(t)$. 
+As already said, in these types of problems we can't model every variable, every noise. So we are dealing with a [[Stochastic process]], and to account for all unknowns in our model we add some **noise term** $w(t)$. 
 
 The most important feature of a noise term is the fact that we don't know it's value a-priori. To resolve this value we can use information from the past to estimate its future. So we can use [[Probability theory]] to do that!
 
@@ -68,7 +68,10 @@ with an evaluation function
 $$
 J(\theta) = \sum_{n+1}^{N}\epsilon(t_{i})^{2}
 $$
-and we have to find the best $\theta$ to minimize $J(\theta)$. 
+and we have to find the best $\theta$ to minimize $J(\theta)$.  And putting all together we get
+$$
+v(t) = a_{1}v(t_{n-1}) + \dots + a_{k}v(t_{n-k}) + \epsilon(t)
+$$
 If the residual is all white noise, then we can no longer improve the model and $w(t) = \epsilon(t)$
 
  To represent the model we can also use the $\mathcal Z$ transform
@@ -87,5 +90,5 @@ W(z)  & = \frac{V(z)}{\epsilon(z)}   = \frac{1}{1-a_{1}z^{-1}-\dots-a_{k}z^{-k}}
 $$
 and returning to the time domain
 $$
-v(t) = a_{1}z^{-1}v(t_{n-1}) + \dots + a_{k}z^{-k}v(t_{n-k}) + \epsilon(t)
+v(t) = a_{1}z^{-1}v(t) + \dots + a_{k}z^{-k}v(t) + \epsilon(t)
 $$
