@@ -72,7 +72,7 @@ and we have to find the best $\theta$ to minimize $J(\theta)$.  And putting all 
 $$
 v(t) = a_{1}v(t_{n-1}) + \dots + a_{k}v(t_{n-k}) + \epsilon(t)
 $$
-If the residual is all white noise, then we can no longer improve the model and $w(t) = \epsilon(t)$
+If the residual is all [[White noise]], then we can no longer improve the model and $w(t) = \epsilon(t)$
 
  To represent the model we can also use the $\mathcal Z$ transform
 $$

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stationary process.md",
+                "file": "Purely deterministic process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mida  ",
+                "query": "tag:#mida  white ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Stationary process.md",
+                "file": "Purely deterministic process.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,7 +125,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 407,
-                  "scale": 0.5611383565196474,
+                  "scale": 0.5104838363444469,
                   "close": true
                 }
               }
@@ -135,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344
+    "width": 462
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stationary process.md",
+                "file": "Purely deterministic process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stationary process.md",
+                "file": "Purely deterministic process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stationary process.md"
+                "file": "Purely deterministic process.md"
               }
             }
           }
@@ -257,12 +257,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b6d2ccd68b38ea6d",
+  "active": "2738147b3213125b",
   "lastOpenFiles": [
-    "Gaussian process.md",
-    "Stationary process.md",
     "Stochastic process.md",
+    "Purely deterministic process.md",
+    "White noise.md",
     "Estimation problem.md",
+    "Stationary process.md",
+    "Gaussian process.md",
     "MIPS.md",
     "MIPS paths.png",
     "pipelining.png",
@@ -290,8 +292,6 @@
     "Fault tolerance.md",
     "FloodSet algorithm.md",
     "Service oriented.md",
-    "Query optimization.md",
-    "Ranking queries.md",
     "vec clocks.png",
     "name space.png",
     "view.png",

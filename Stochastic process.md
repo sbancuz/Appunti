@@ -30,6 +30,8 @@ $$
 
 ```
 The expected value is given by $\mathbb E[\dots]$ and $\mu(t)$ represents the mean at any given moment.
+#### Properties
+- The $\mathbb E$ is a linear function
 ### (Auto-)covariance function
 
 ```math
@@ -46,7 +48,7 @@ $$
 \gamma(t,t) = \mathbb E[(v(t) - \mu(t))^{2}] = \text{variance}
 $$
 >[!info]
->The square root of the variance is called the [[Standard deviation]]
+>The square root of the variance is called the [[Standard deviation]] $\lambda$
 
 Notice that
 $$
@@ -80,4 +82,30 @@ $$
 
 >[!note]
 >The **maximum correlation** is when $\rho = 1,-1$ and the **minimum correlation** is when $\rho = 0$
+### Dynamic representation
 
+If we consider a constant process $v(t,s) = v(s)$ as an example of a [[Purely deterministic process]], in contrast white noise is an example of **completely unpredictable process**. For any give process $v(t)$ we can decompose it as
+$$
+v(t) = \dot{v}(t) + \hat{v}(t)
+$$
+                                                            ^^     ^^ *purely independent component*
+                                                            ^^  *purely deterministic component*
+Where
+$$
+\begin{align}
+\hat{v}(t) &= \sum_{-\infty}^{t} w(t,i)\eta(i) & \eta(x) \sim \text{Wn}(0, \lambda^{2}) \\
+& = \sum_{-\infty}^{t} w(t-i) \eta(i) \\&=_{k = t-i} \sum_{-\infty}^{t}w(k)\eta(t-k)
+\end{align}
+$$
+
+So we can think of a system as
+```math
+||{"id":429443279350}||
+
+
+```
+Also we can rewrite it with the $\mathcal Z$ transform
+$$
+\hat{v}(t) = (w(0) +z^{-1}w(1) + z^{-2}w(2) + \dots ) \eta(t) = W(z)\eta(t)
+$$
+With $W(z)$ as the [[Transfer function]] of a stable system. This means that if $w(z)$ is stable then $\hat{v}(t)$ must be **stationary**.

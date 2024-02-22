@@ -32,7 +32,7 @@ The output of the model will never exactly output the actual correct output of t
 
 
 ```
-When we can't find no pattern in the data we call the data **white noise**. We can say that a model is good when there is no more pattern to extrapolate from the data. 
+When we can't find no pattern in the data we call the data **[[white noise]]**. We can say that a model is good when there is no more pattern to extrapolate from the data. 
 $$
 \begin{align}
 \epsilon(t)  & = y(t) - \hat{y}(t) \\
