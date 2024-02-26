@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "Secure system.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cache.md",
+                "file": "Secure system.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 309,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -164,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cache.md",
+                "file": "Secure system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cache.md",
+                "file": "Secure system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cache.md"
+                "file": "Secure system.md"
               }
             }
           }
@@ -272,10 +273,10 @@
   },
   "active": "0057c9b0ae12a81e",
   "lastOpenFiles": [
+    "Cache.md",
     "cache summary.png",
     "Test.canvas",
     "Drawing 2024-02-26 11.56.04.excalidraw.md",
-    "Cache.md",
     "cache.png",
     "MIPS.md",
     "MIPS IDIF.png",
@@ -308,7 +309,6 @@
     "Data centers.md",
     "Difference equation.md",
     "static sys exa.png",
-    "dynamic sys exa.png",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
   ]
