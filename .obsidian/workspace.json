@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
+                "file": "Stochastic process.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c742e24d255206b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MIPS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0057c9b0ae12a81e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cache.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Regression.md",
+                "file": "Cache.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression.md",
+                "file": "Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regression.md",
+                "file": "Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regression.md"
+                "file": "Cache.md"
               }
             }
           }
@@ -243,23 +270,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ac8414d63eee69fc",
+  "active": "0057c9b0ae12a81e",
   "lastOpenFiles": [
+    "cache summary.png",
+    "Test.canvas",
+    "Drawing 2024-02-26 11.56.04.excalidraw.md",
+    "Cache.md",
+    "cache.png",
+    "MIPS.md",
+    "MIPS IDIF.png",
+    "Autoregressive process.md",
+    "Moving average process.md",
+    "Stochastic process.md",
+    "Regression.md",
     "regression.png",
     "Supervised learning.md",
-    "Regression.md",
     "Machine learning.md",
     "Reinforcement learning.md",
     "Unsupervised learning.md",
     "Secure system.md",
-    "Stochastic process.md",
     "Purely deterministic process.md",
     "Mixed.md",
     "Stationary process.md",
     "White noise.md",
     "Estimation problem.md",
     "Gaussian process.md",
-    "MIPS.md",
     "MIPS paths.png",
     "pipelining.png",
     "MIPS arch.png",
@@ -274,13 +309,6 @@
     "Difference equation.md",
     "static sys exa.png",
     "dynamic sys exa.png",
-    "Modeling a distributed system.md",
-    "Replication.md",
-    "Availability.md",
-    "Distributed consistency model.md",
-    "vec clocks.png",
-    "name space.png",
-    "view.png",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
   ]

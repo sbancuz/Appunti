@@ -112,10 +112,33 @@ With $W(z)$ as the [[Transfer function]] of a stable system. This means that if 
 
 Because $\hat{v}(t)$ and $\dot{v}(t)$ are independent we have that
 $$
-\mathbb  E [\dot{v}(t_{1})\hat{v}(t_{2})] = \mathbb  E[\dot{v})t_{1} ] \mathbb E[\hat{v}(t_{2})] = 0
+\mathbb  E [\dot{v}(t_{1})\hat{v}(t_{2})] = \mathbb  E[\dot{v}(t_{1}) ] \mathbb E[\hat{v}(t_{2})] = 0
 $$
 																	^^ *This is equal to zero*
 $$
 \dot{\gamma}_{v} (\tau) = \mathbb E[v(t)v(t+\tau)] = \mathbb E[\dot{v}(t)\dot{v}(t+\tau)] + \mathbb E[\hat{v}(t)\hat{v}(t+\tau)] = \dot{\gamma}_{\dot{v}} (\tau) + \dot{\gamma}_{\hat{v}} (\tau)  
 $$
 
+Consider a linear time-invariant dynamical system with input $u(t)$ and output $y(t)$
+```math
+||{"id":1599305467337}||
+
+
+```
+The output of the system is the sum of the free motion $y_{L}(t)$ and the forced motion $y_{F}(t)$
+$$
+y(t) = y_{L}(t) + y_{F}(t)
+$$
+Where  
+$$
+y_{F}(t) = \sum_{t_{0}}^{t} w(t-j)u(t)
+$$
+and $w(i)$ are the samples of the impulse response of the system. And the system can be rewritten with $\mathcal Z$
+$$
+Y(z) = W(z)U(z)
+$$
+																	^^ *this is 1 because u(t) is an impulse*
+If the system is **asymptotically stable**, then the free motion goes to $0$. In other words when the system is asymptotically stable then when $t_{0}$ diverges to $-\infty$ we have
+$$
+y(t) = \sum_{0}^{\infty}w(i)u(t-i)
+$$
