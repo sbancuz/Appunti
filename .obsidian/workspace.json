@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7ec4fa92ca00b679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptography.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Secure system.md",
+                "file": "Cryptography.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -165,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secure system.md",
+                "file": "Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secure system.md",
+                "file": "Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secure system.md"
+                "file": "Cryptography.md"
               }
             }
           }
@@ -271,8 +284,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0057c9b0ae12a81e",
+  "active": "7ec4fa92ca00b679",
   "lastOpenFiles": [
+    "Secure system.md",
+    "Cryptography.md",
     "Cache.md",
     "cache summary.png",
     "Test.canvas",
@@ -289,7 +304,6 @@
     "Machine learning.md",
     "Reinforcement learning.md",
     "Unsupervised learning.md",
-    "Secure system.md",
     "Purely deterministic process.md",
     "Mixed.md",
     "Stationary process.md",
