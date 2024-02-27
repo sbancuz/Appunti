@@ -10,7 +10,7 @@ Many real process can be approximated with **linear models**, even in larger sys
 $$
 y(x_{1},\dots,x_{n}) = w_{n}x_{n} + \dots + w_{1}x_{1} + w_{0}
 $$
-where the weights are called the **features**.
+where the weights are called the **features**. The good thing is that we are guaranteed to reach the global minimum of the function, this means that if a linear model is not performing well it's because it doesn't have enough features.
 
 >[!warning]
 >The input doesn't need to be linear. Only the weights have to be!!
@@ -56,28 +56,18 @@ $$
 \mathbb  E[t | x] = \int tp(t|x) \, dt 
 $$
 - **Discriminative** $\to$ we model the conditional density and resolve for the mean
+	[[Minimizing least squares]]
+	[[Gradient descent]]
+
 - **Direct** $\to$ find $f(x)$ directly from the data
-### Discriminative
-#### Minimizing least squares
+	[[Maximum likelihood]]
+### Multiple outputs
 
-Given a data set with $N$ samples, let us consider the following loss function
+It doesn't change much with respect to the single output case, the target will just be a vector $T$ and the basis will be
 $$
-L(w) = \frac{1}{2} \sum^{N}(y(x_{n}, w) - t_{n})^{2}
+\hat{w}_{OLS} = (\phi^{T}\phi)^{-1}\phi^{T}T
 $$
-This is the residual sum of squares (RSS), aka the sum of squared errors.
+and for each output we will have
 $$
-RSS(w) = || \epsilon||_{2}^{2} = \sum^{N} \epsilon^{2}_{i} 
+\hat{w}_{OLS} = (\phi^{T}\phi)^{-1}\phi^{T}t_{k} 
 $$
-Let's write $RSS$ in matrix form with $\phi = (\phi(x_{1}), \dots, \phi(x_{n})) ^T$ 
-$$
-L(w) = \frac{1}{2} RSS(w) = \frac{1}{2} (t-\phi w)^{T}(t-\phi w)
-$$
-with the first and second derivative being
-$$
-\frac{\delta L(w)}{\delta w} = -\phi^{T}(t-\phi w) \qquad \frac{\delta^{2} L(w)}{\delta^{2} w} = \phi^{T}\phi
-$$
-Assuming that the second derivative is **non singular**
-$$
-\hat{w}_{OLS} = (\phi^{T}\phi)^{-1}\phi^{T}t 
-$$
-

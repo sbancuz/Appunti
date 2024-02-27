@@ -8,59 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac8414d63eee69fc",
+            "id": "0bc9f9d0acf55d73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stochastic process.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c742e24d255206b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MIPS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0057c9b0ae12a81e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secure system.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ec4fa92ca00b679",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cryptography.md",
+                "file": "Ridge regression.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Ridge regression.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -161,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309,
-    "collapsed": true
+    "width": 376
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -178,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Ridge regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Ridge regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography.md"
+                "file": "Ridge regression.md"
               }
             }
           }
@@ -284,10 +243,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7ec4fa92ca00b679",
+  "active": "0bc9f9d0acf55d73",
   "lastOpenFiles": [
-    "Secure system.md",
+    "Regression.md",
+    "Ridge regression.md",
+    "Gradient descent.md",
+    "Minimizing least squares.md",
+    "rigid regression.png",
+    "Pasted image 20240227155055.png",
+    "Maximum likelihood.md",
+    "Supervised learning.md",
+    "Machine learning.md",
+    "Stochastic process.md",
     "Cryptography.md",
+    "Secure system.md",
     "Cache.md",
     "cache summary.png",
     "Test.canvas",
@@ -297,11 +266,7 @@
     "MIPS IDIF.png",
     "Autoregressive process.md",
     "Moving average process.md",
-    "Stochastic process.md",
-    "Regression.md",
     "regression.png",
-    "Supervised learning.md",
-    "Machine learning.md",
     "Reinforcement learning.md",
     "Unsupervised learning.md",
     "Purely deterministic process.md",
@@ -315,14 +280,7 @@
     "MIPS arch.png",
     "MIPS arch.png",
     "Pipelining.md",
-    "instr format mips.png",
     "Modeling.md",
-    "Probability theory.md",
-    "System.md",
-    "Parallelization.md",
-    "Data centers.md",
-    "Difference equation.md",
-    "static sys exa.png",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
   ]

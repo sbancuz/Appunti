@@ -37,3 +37,6 @@ Having $\mathcal D$, to approximate $f$ we need:
 >We don't know where the true $f$ lies, so we can't define the loss function. This process is more akin to functional approximation
 
 To fix this function we define the **empirical loss function** with respect to the actual data, this isn't a perfect solution because data will not lead us to the real $f$, but it's still useful. The hypothesis space has to be as small as possible when we have a limited number of samples, this is still because the minimum does not lie on the $f$.
+### Model selection
+
+Model selection is the practice of choosing the *better* model in order to avoid over-fitted and under-fitted ones. To avoid over-fitting means that we want to find an approximation with low variance, thus we want a *smoother* function, that is given by the coefficients. To do this we can use **regularization**, a choice of regularization is [[Ridge regression]]
