@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ridge regression.md",
+                "file": "Autoregressive process.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e23ad7be2371e90b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ARMA process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag: #mida  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ridge regression.md",
+                "file": "ARMA process.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ridge regression.md",
+                "file": "ARMA process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ridge regression.md",
+                "file": "ARMA process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ridge regression.md"
+                "file": "ARMA process.md"
               }
             }
           }
@@ -243,10 +257,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0bc9f9d0acf55d73",
+  "active": "e23ad7be2371e90b",
   "lastOpenFiles": [
-    "Regression.md",
+    "Autoregressive process.md",
+    "ARMA process.md",
+    "Process.md",
     "Ridge regression.md",
+    "Regression.md",
     "Gradient descent.md",
     "Minimizing least squares.md",
     "rigid regression.png",
@@ -264,7 +281,6 @@
     "cache.png",
     "MIPS.md",
     "MIPS IDIF.png",
-    "Autoregressive process.md",
     "Moving average process.md",
     "regression.png",
     "Reinforcement learning.md",
@@ -280,7 +296,6 @@
     "MIPS arch.png",
     "MIPS arch.png",
     "Pipelining.md",
-    "Modeling.md",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
   ]
