@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Autoregressive process.md",
+                "file": "ARMA process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "e23ad7be2371e90b",
+            "id": "4e4a89151991125f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ARMA process.md",
+                "file": "ARMAX process.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "296b800295fb1b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frequency analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -54,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #mida  ",
+                "query": "tag: #mida  exter",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,11 +115,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ARMA process.md",
+                "file": "Frequency analysis.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 1,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -151,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ARMA process.md",
+                "file": "Frequency analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ARMA process.md",
+                "file": "Frequency analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ARMA process.md"
+                "file": "Frequency analysis.md"
               }
             }
           }
@@ -257,10 +270,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e23ad7be2371e90b",
+  "active": "296b800295fb1b8c",
   "lastOpenFiles": [
-    "Autoregressive process.md",
+    "ARMAX process.md",
+    "Frequency analysis.md",
     "ARMA process.md",
+    "Autoregressive process.md",
+    "Stochastic process.md",
+    "Estimation problem.md",
+    "Moving average process.md",
     "Process.md",
     "Ridge regression.md",
     "Regression.md",
@@ -271,7 +289,6 @@
     "Maximum likelihood.md",
     "Supervised learning.md",
     "Machine learning.md",
-    "Stochastic process.md",
     "Cryptography.md",
     "Secure system.md",
     "Cache.md",
@@ -281,7 +298,6 @@
     "cache.png",
     "MIPS.md",
     "MIPS IDIF.png",
-    "Moving average process.md",
     "regression.png",
     "Reinforcement learning.md",
     "Unsupervised learning.md",
@@ -289,13 +305,10 @@
     "Mixed.md",
     "Stationary process.md",
     "White noise.md",
-    "Estimation problem.md",
-    "Gaussian process.md",
     "MIPS paths.png",
     "pipelining.png",
     "MIPS arch.png",
     "MIPS arch.png",
-    "Pipelining.md",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
   ]

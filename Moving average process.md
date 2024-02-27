@@ -62,3 +62,4 @@ $$
 This means that the $\text{Ma}(\infty)$ has an infinitely long auto-covariance function.
 
 To have an infinitely long auto-covariance function, but with finite number of parameters we need the [[Autoregressive process]]
+![[ARMA process#Vanishing covariance property]]

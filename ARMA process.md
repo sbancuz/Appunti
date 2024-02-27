@@ -26,3 +26,9 @@ The ARMA process can be defined with $\text{Arma}(n,m)$
 										   ^ *ar*
 
 The ARMA process can also be viewed as a $\text{Ma}(\infty)$ process and it implies the usual condition on the coefficients $w_{i}$
+### Vanishing covariance property
+
+All the $\text{Ma,Ar,Arma}$ processes share the property that 
+$$
+\lim_{ \tau \to \infty } {\gamma(\tau)} =0
+$$

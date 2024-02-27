@@ -43,3 +43,4 @@ $$
 \gamma(2) = a_{1}\gamma(1) + a_{2}\gamma(0)
 \end{cases}
 $$
+![[ARMA process#Vanishing covariance property]]
