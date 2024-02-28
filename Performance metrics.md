@@ -13,4 +13,13 @@ To evaluate the performance of the execution we define:
 - $IPC = 1 / CPI$$\to$ Instruction per clock 
 - $\text{Clock cycles} = IC + \text{Stall cycles} + 4$
 - $MIPS = f_{clock} / (CPI * 10^{6})$ $\to$ Million instruction per second
+- $\text{CPU time} = \text{CPI} \times \text{IC} \times T_{clk}$
 
+Performance can be calculated as 
+$$
+\text{Perf}(x) = \frac{1}{\text{CPU time}}
+$$
+and the speed-up that can be measured when optimizing are given by
+$$
+\text{Speedup(w/E)} = \frac{\text{Perf (w/ E)}}{\text{Perf (w/o E)}}
+$$

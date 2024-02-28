@@ -270,14 +270,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "296b800295fb1b8c",
   "lastOpenFiles": [
-    "MIPS.md",
-    "Performance metrics.md",
-    "Cryptography.md",
-    "Frequency analysis.md",
     "ARMAX process.md",
     "ARMA process.md",
+    "Performance metrics.md",
+    "MIPS.md",
+    "Cryptography.md",
+    "Frequency analysis.md",
     "Autoregressive process.md",
     "Stochastic process.md",
     "Estimation problem.md",
