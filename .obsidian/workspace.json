@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Performance metrics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #mida  exter",
+                "query": "tag: #computer_architecture  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Performance metrics.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376,
-    "collapsed": true
+    "width": 376
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -165,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Performance metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Performance metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography.md"
+                "file": "Performance metrics.md"
               }
             }
           }
@@ -271,8 +270,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "296b800295fb1b8c",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
+    "MIPS.md",
+    "Performance metrics.md",
+    "Cryptography.md",
     "Frequency analysis.md",
     "ARMAX process.md",
     "ARMA process.md",
@@ -290,14 +292,12 @@
     "Maximum likelihood.md",
     "Supervised learning.md",
     "Machine learning.md",
-    "Cryptography.md",
     "Secure system.md",
     "Cache.md",
     "cache summary.png",
     "Test.canvas",
     "Drawing 2024-02-26 11.56.04.excalidraw.md",
     "cache.png",
-    "MIPS.md",
     "MIPS IDIF.png",
     "regression.png",
     "Reinforcement learning.md",
@@ -305,7 +305,6 @@
     "Purely deterministic process.md",
     "Mixed.md",
     "Stationary process.md",
-    "White noise.md",
     "MIPS paths.png",
     "pipelining.png",
     "MIPS arch.png",
