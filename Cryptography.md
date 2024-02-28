@@ -8,3 +8,4 @@ It's the study of the techniques to allow secure communication and data storage 
 - Authenticity $\to$ data and their origin are certified
 - Non-repudiation $\to$ creator cannot repudiate data
 - Advanced features $\to$ proof of knowledge
+

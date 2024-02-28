@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frequency analysis.md",
+                "file": "Cryptography.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Frequency analysis.md",
+                "file": "Cryptography.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376
+    "width": 376,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -164,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frequency analysis.md",
+                "file": "Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frequency analysis.md",
+                "file": "Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frequency analysis.md"
+                "file": "Cryptography.md"
               }
             }
           }
@@ -272,8 +273,8 @@
   },
   "active": "296b800295fb1b8c",
   "lastOpenFiles": [
-    "ARMAX process.md",
     "Frequency analysis.md",
+    "ARMAX process.md",
     "ARMA process.md",
     "Autoregressive process.md",
     "Stochastic process.md",
