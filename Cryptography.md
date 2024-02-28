@@ -16,3 +16,11 @@ It's the study of the techniques to allow secure communication and data storage 
 5) It must be portable and operable by just one person
 6) It should be easy to use
 
+To work with cryptography we need a couple of definitions. We can define $P$ as the **plaintext space** of all the possible messages $ptx \in P$, usually $P \subseteq \{ 0,1 \}^{l}$. The **ciphertext space** is the set $C \subseteq \{ 0,1 \}^{l'}$ of all the possible ciphertext $ctx \in C$ and, finally, the key space $K \subseteq \{ 0,1 \}^{\lambda}$ is the set of keys.
+
+An **encryption function** is defined as a function $\mathbb E: P\times K \to C$ with it's inverse operation being the **decryption function** $\mathbb D: C\times K \to P$. 
+
+>[!note]
+To be a correct encryption scheme we need for all $ptx \in P,k,k'\in K$ such that $\mathbb D(\mathbb E(ptx,k),k') = ptx$
+
+To prevent anyone not authorized from being able to understand the data
