@@ -18,4 +18,13 @@ where $\lambda_{i}$ are the zeros of $P(z)$ that is a **stable process**.
 
 >[!warning]
 >Since we are only interested in stationary processes, the condition $|\lambda_{i}| = 1$ must hold
+### [[Frequency analysis]]
+$$
+v(t) = \dot{v}(t) + \hat{v}(t)
+$$
+																   ^^ *This is represented by an [[ARMA process]]*
 
+There is a polynomial $P(z)$ such that
+$$
+P(z)v(t) = 0 \qquad P(z) = 1 - \alpha_{1}z^{-1} - \dots
+$$

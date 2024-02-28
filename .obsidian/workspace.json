@@ -8,46 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0bc9f9d0acf55d73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ARMA process.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e4a89151991125f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ARMAX process.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "296b800295fb1b8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frequency analysis.md",
+                "file": "Purely deterministic process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Frequency analysis.md",
+                "file": "Purely deterministic process.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -164,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frequency analysis.md",
+                "file": "Purely deterministic process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frequency analysis.md",
+                "file": "Purely deterministic process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frequency analysis.md"
+                "file": "Purely deterministic process.md"
               }
             }
           }
@@ -272,12 +245,12 @@
   },
   "active": "296b800295fb1b8c",
   "lastOpenFiles": [
+    "Frequency analysis.md",
+    "ARMA process.md",
     "Performance metrics.md",
     "ARMAX process.md",
-    "ARMA process.md",
     "MIPS.md",
     "Cryptography.md",
-    "Frequency analysis.md",
     "Autoregressive process.md",
     "Stochastic process.md",
     "Estimation problem.md",
