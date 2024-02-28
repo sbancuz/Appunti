@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Performance metrics.md",
+                "file": "Frequency analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Performance metrics.md",
+                "file": "Frequency analysis.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Performance metrics.md",
+                "file": "Frequency analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Performance metrics.md",
+                "file": "Frequency analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Performance metrics.md"
+                "file": "Frequency analysis.md"
               }
             }
           }
@@ -272,9 +272,9 @@
   },
   "active": "296b800295fb1b8c",
   "lastOpenFiles": [
+    "Performance metrics.md",
     "ARMAX process.md",
     "ARMA process.md",
-    "Performance metrics.md",
     "MIPS.md",
     "Cryptography.md",
     "Frequency analysis.md",

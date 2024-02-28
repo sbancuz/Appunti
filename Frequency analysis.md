@@ -56,3 +56,4 @@ $$
 \Gamma_{yy} (\omega)= |W(e^{j \omega})| ^{2}  \Gamma_{uu}(\omega)
 $$
 **proof on the slides, too long don't care** 
+
