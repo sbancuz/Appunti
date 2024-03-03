@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Purely deterministic process.md",
+                "file": "Stochastic process.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68f2ddf5da111d65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Message authentication codes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "352d698d4a02ecbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptographically safe pseudonumber generator.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #computer_architecture  ",
+                "query": "tag: #mida mean",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Purely deterministic process.md",
+                "file": "Message authentication codes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376
+    "width": 376,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -137,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Purely deterministic process.md",
+                "file": "Message authentication codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Purely deterministic process.md",
+                "file": "Message authentication codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Purely deterministic process.md"
+                "file": "Message authentication codes.md"
               }
             }
           }
@@ -243,16 +271,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "296b800295fb1b8c",
+  "active": "68f2ddf5da111d65",
   "lastOpenFiles": [
+    "CBC-MAC.png",
+    "Message authentication codes.md",
+    "Cryptography.md",
+    "Computationally secure cipher.md",
+    "ratcheting.png",
+    "NONCE.md",
+    "CTR.png",
+    "PRP enc1.png",
+    "Cryptographically safe pseudonumber generator.md",
+    "Perfectly secure cipher.md",
+    "Estimation of mean and variance.md",
+    "periodogram.png",
+    "Stochastic process.md",
+    "Purely deterministic process.md",
     "Frequency analysis.md",
     "ARMA process.md",
     "Performance metrics.md",
     "ARMAX process.md",
     "MIPS.md",
-    "Cryptography.md",
     "Autoregressive process.md",
-    "Stochastic process.md",
     "Estimation problem.md",
     "Moving average process.md",
     "Process.md",
@@ -265,23 +305,10 @@
     "Maximum likelihood.md",
     "Supervised learning.md",
     "Machine learning.md",
-    "Secure system.md",
-    "Cache.md",
     "cache summary.png",
     "Test.canvas",
-    "Drawing 2024-02-26 11.56.04.excalidraw.md",
     "cache.png",
     "MIPS IDIF.png",
-    "regression.png",
-    "Reinforcement learning.md",
-    "Unsupervised learning.md",
-    "Purely deterministic process.md",
-    "Mixed.md",
-    "Stationary process.md",
-    "MIPS paths.png",
-    "pipelining.png",
-    "MIPS arch.png",
-    "MIPS arch.png",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
   ]

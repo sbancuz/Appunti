@@ -142,3 +142,11 @@ If the system is **asymptotically stable**, then the free motion goes to $0$. In
 $$
 y(t) = \sum_{0}^{\infty}w(i)u(t-i)
 $$
+The [[Frequency analysis]] of a mixed process is given by
+$$
+\dot{\gamma}_{v}(\tau) = \dot{\gamma}_{\dot{v}}(\tau) + \dot{\gamma}_{\hat{v}}(\tau)
+$$
+which implies 
+$$
+\dot{\Gamma}_{v}(\omega) = \dot{\Gamma}_{\dot{v}} (\omega)+ \dot{\Gamma}_{\hat{v}}(\omega)
+$$

@@ -4,7 +4,11 @@ tags:
 ---
 It's the study of the techniques to allow secure communication and data storage in presence of attackers. With cryptography we want to ensure:
 - Confidentiality $\to$ data can be accessed only by chosen entities
+	There are multiple ways an attacker can accesses unauthorized data: eavesdropping, it knows already a set of plaintexts or, it may tamper with the data trying to decrypt it. To solve there are [[Perfectly secure cipher]] and [[Computationally secure cipher]]
+	
 - Integrity $\to$ prevent tampering or replays
+	To achieve this we either design an intrinsically non tamperable cipher, which is quite the task, or simply add some information using [[Message authentication codes]]
+	
 - Authenticity $\to$ data and their origin are certified
 - Non-repudiation $\to$ creator cannot repudiate data
 - Advanced features $\to$ proof of knowledge
@@ -23,4 +27,3 @@ An **encryption function** is defined as a function $\mathbb E: P\times K \to C$
 >[!note]
 To be a correct encryption scheme we need for all $ptx \in P,k,k'\in K$ such that $\mathbb D(\mathbb E(ptx,k),k') = ptx$
 
-To prevent anyone not authorized from being able to understand the data
