@@ -93,3 +93,67 @@ $$
 v(t) = a_{1}z^{-1}v(t) + \dots + a_{k}z^{-k}v(t) + \epsilon(t)
 $$
 ### VEDERE UNA LEZIONE PRIMA DI 4 MARZO
+### Prediction 
+
+Another problem related to the estimation of a process is to make prediction of future values. Consider a process with rational spectrum
+$$
+v(t) = W(z)\eta(t) = \frac{C(z)}{A(z)}\eta(t)
+$$
+We will denote the estimate as $\hat{v}(t+r|t)$ with $r$ being the **prediction horizon**. In general the predictor will have the following structure
+$$
+\hat{v}(t+r|t) = f(v(t), v(t-1),\dots)
+$$
+>[!example]
+>We can take the naive approach and consider a predictor constructed as the average of the last samples
+>$$
+>\hat{v}(t + 1|t) = \frac{1}{3} v(t) + \frac{1}{3}v(t-1) + \frac{1}{3}v(t-2) 
+>$$ 
+>Is this predictor good? Is it a stationary process? How far is it from optimality?
+
+Our objective is to find the **optimal** predictor
+$$
+\hat{v}(t+r|t)\begin{cases}
+v(t) = W(z) \eta(t) \\
+v(t), v(t-1), \dots
+\end{cases}
+$$
+To do this we define the prediction error
+$$
+\epsilon(t+r) = v(t+r) - \hat{v}(t+r|t)
+$$
+The optimal predictor is the one that minimizes the **mean square prediction error**, i.e. the variance 
+$$
+\mathbb E[\epsilon(t)^{2}]
+$$
+we can express $v(t)$ as
+$$
+v(t) = W(z)\eta(t)
+$$
+Suppose that the past of the white noise is known, then we could estimate 
+$$
+v(t+r) = w_{0}\eta(t+r) + \dots + w_{r-1}\eta(t+1) +w_{r}\eta(t) + w_{r+1}\eta(t-1) + \dots 
+$$
+							^^$\alpha(t)$		                                        							^^ $\beta(t)$ 
+
+So $\beta$ can be computed once the past of $\eta$ is known and $\alpha$ depends on the future of $\eta$.
+
+>[!note]
+>$\alpha$ and $\beta$ are uncorrelated for the reason above
+>
+
+The best prediction for $\alpha(t)$ is given by the expected value, and as such, is $0$. So the optimal predictor $\hat{v}$
+is
+$$
+\hat{v}(t+r|t) = \beta(t)
+$$
+with error
+$$
+\epsilon(t+r) = v(t+r) - \hat{v}(t+r|t) = \alpha(t)
+$$
+We notice that the error $\epsilon$ is actually a [[Moving average process]] so $\mu =0$ and the variance is
+$$
+\mathbb  E[\epsilon(t+r)^{2}] = (w_{0}^{2} + w_{1}^{2} + \dots + w_{r-1}^{2})\lambda^{2}
+$$
+>[!note]
+>The variance will increase with $r$
+
