@@ -99,3 +99,14 @@ $$
 >If the prior has infinite variance, the $w_{n}$ reduces to the ML estimator.
 >If $w_{0} =0$ and $S_{0}=\tau^{2}I$ then $w_{n}$ reduces to the [[Ridge regression]] estimator where $\lambda = \frac{\sigma^{2}}{\tau^{2}}$
 
+What we are interested in is the **posterior predictive distribution**
+$$
+p(t|x, \mathcal  D, \sigma^{2}) = \mathcal  N(t|w_{n}^{T}\phi(x),\sigma^{2}_{n}(x))
+$$
+with 
+$$
+\sigma^{2}_{n} (x) = \sigma^{2} + \phi(x)^{T}S_{n} \phi(x)
+$$
+										   ^^	                ^^^^^ *uncertainty in the parameters value*
+										   ^^ *noise in the target values*
+
