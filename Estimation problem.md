@@ -92,3 +92,4 @@ and returning to the time domain
 $$
 v(t) = a_{1}z^{-1}v(t) + \dots + a_{k}z^{-k}v(t) + \epsilon(t)
 $$
+### VEDERE UNA LEZIONE PRIMA DI 4 MARZO

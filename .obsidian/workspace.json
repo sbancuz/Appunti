@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Message authentication codes.md",
+                "file": "Frequency analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #mida mean",
+                "query": "prime",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Message authentication codes.md",
+                "file": "Frequency analysis.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Message authentication codes.md",
+                "file": "Frequency analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Message authentication codes.md",
+                "file": "Frequency analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Message authentication codes.md"
+                "file": "Frequency analysis.md"
               }
             }
           }
@@ -273,8 +273,15 @@
   },
   "active": "68f2ddf5da111d65",
   "lastOpenFiles": [
-    "CBC-MAC.png",
+    "Moving average process.md",
+    "ARMA process.md",
+    "Autoregressive process.md",
+    "Frequency analysis.md",
+    "Spectral factorization.md",
+    "Estimation problem.md",
+    "Stationary process.md",
     "Message authentication codes.md",
+    "CBC-MAC.png",
     "Cryptography.md",
     "Computationally secure cipher.md",
     "ratcheting.png",
@@ -287,14 +294,9 @@
     "periodogram.png",
     "Stochastic process.md",
     "Purely deterministic process.md",
-    "Frequency analysis.md",
-    "ARMA process.md",
     "Performance metrics.md",
     "ARMAX process.md",
     "MIPS.md",
-    "Autoregressive process.md",
-    "Estimation problem.md",
-    "Moving average process.md",
     "Process.md",
     "Ridge regression.md",
     "Regression.md",
@@ -304,7 +306,6 @@
     "Pasted image 20240227155055.png",
     "Maximum likelihood.md",
     "Supervised learning.md",
-    "Machine learning.md",
     "cache summary.png",
     "Test.canvas",
     "cache.png",
