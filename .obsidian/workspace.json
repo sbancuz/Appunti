@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Branch prediction.md",
+                "file": "Regression.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Branch prediction.md",
+                "file": "Regression.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376
+    "width": 376,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -164,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Branch prediction.md",
+                "file": "Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Branch prediction.md",
+                "file": "Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Branch prediction.md"
+                "file": "Regression.md"
               }
             }
           }
@@ -272,8 +273,9 @@
   },
   "active": "68f2ddf5da111d65",
   "lastOpenFiles": [
-    "RSA Cryptosystem.md",
+    "Supervised learning.md",
     "Branch prediction.md",
+    "RSA Cryptosystem.md",
     "MIPS.md",
     "Performance metrics.md",
     "Estimation problem.md",
@@ -302,7 +304,6 @@
     "Ridge regression.md",
     "Regression.md",
     "Gradient descent.md",
-    "Minimizing least squares.md",
     "rigid regression.png",
     "Pasted image 20240227155055.png",
     "cache summary.png",

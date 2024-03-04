@@ -71,3 +71,16 @@ and for each output we will have
 $$
 \hat{w}_{OLS} = (\phi^{T}\phi)^{-1}\phi^{T}t_{k} 
 $$
+### Bayesian linear regression
+
+We want to formulate our knowledge about the world in a probabilistic way and we want to compute the **posterior probability distribution** for the parameters given observed data. We also specify the **prior distribution** over those parameters before seeing the data.
+
+The posterior distribution is given by the [[Bayes rule]]
+$$
+P(\text{parameters} | \text{data}) = \frac{P(\text{data}|\text{parameters})P(\text{parameters})}{P(\text{data})}
+$$
+or rewritten
+$$
+P(w|\mathcal D) = \frac{P(\mathcal  D |w)P(w)}{P(\mathcal D)}
+$$
+This approach can also be used as a mean to avoid over-fitting, this can be computed by treating the posterior as a prior and get another posterior.
