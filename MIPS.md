@@ -45,7 +45,7 @@ jr   $s1                        # go to add. contained in $s1
 	Write the data of the result to the destination register
 ### Pipelining
 
-Pipelining is a technique to increase throughput when scheduling operations, MIPS makes use of this execution schedule by using 4 register between the various phases of execution. This means that the time to execute for all the instructions is 5 cycles, but overall the speedup for the program is 5x at most.
+Pipelining is a technique to increase throughput when scheduling operations, MIPS makes use of this execution schedule by using 4 register between the various phases of execution. This means that the time to execute for all the instructions is 5 cycles, but overall the speedup for the program is 5x at most. This can be measured with [[Performance metrics]].
 
 ![[pipelining.png]]
 
@@ -67,11 +67,10 @@ This is an attempt to use the result before it's ready, this is for the Load/Sto
 
 This is an attempt to make a decision on the next instruction to execute before the condition is evaluated. The problem is that we don't know what to execute after the branches before the program counter changes. So how can we prepare instructions in the pipeline? 
 -  We wait until we can know for sure what to execute by inserting `noop`s
-- We make **predictions** and execute one branch, if the prediction happens to be wrong, then discard the previous computations and start with the new branch
+- We make [[Branch prediction]] and execute one branch, if the prediction happens to be wrong, then discard the previous computations and start with the new branch
 
 >[!tip]
 >We can use a EX/IF channel to anticipate from $3$ cycles to $2$ cycles or to include a ID/IF channel to go down to $1$ cycle
 >
 ![[MIPS IDIF.png]]
 
-[[Performance metrics]]
