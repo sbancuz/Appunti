@@ -29,7 +29,10 @@ There are 4 techniques for dynamic branch prediction:
 	Table indexed by the lower portion k-bits of the address of the branch instruction, it will hold whether or not the branch was taken recently or not. The table **has no tags** so this prediction could be created by a different branch with the same low bits
  
 - Correlating branch predictors
-	
+	The basic idea is to make prediction based on results of other branches, for example the behavior of 2 nested loops could be correlated. 
 
 - Two-level adaptive branch predictors
+	There is a global history table and a second level history table called **pattern history table** used locally
+
 - Branch target buffer
+	Is a cache storing the **predicted target address** for the taken branch instructions. This can be expressed as PC-relative
