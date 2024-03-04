@@ -35,4 +35,4 @@ There are 4 techniques for dynamic branch prediction:
 	There is a global history table and a second level history table called **pattern history table** used locally
 
 - Branch target buffer
-	Is a cache storing the **predicted target address** for the taken branch instructions. This can be expressed as PC-relative
+	Is a cache storing the **predicted target address** for the taken branch instructions. This can be expressed as PC-relative. This has 3 columns: tags, PTA, branch history table (Only for the dynamic predictions)
