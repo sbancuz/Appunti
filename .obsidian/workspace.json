@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "prime",
+                "query": "tag:#machine_learning estima ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -274,6 +274,8 @@
   "active": "68f2ddf5da111d65",
   "lastOpenFiles": [
     "Supervised learning.md",
+    "Regression.md",
+    "Ridge regression.md",
     "Branch prediction.md",
     "RSA Cryptosystem.md",
     "MIPS.md",
@@ -301,8 +303,6 @@
     "Purely deterministic process.md",
     "ARMAX process.md",
     "Process.md",
-    "Ridge regression.md",
-    "Regression.md",
     "Gradient descent.md",
     "rigid regression.png",
     "Pasted image 20240227155055.png",

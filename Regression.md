@@ -83,4 +83,19 @@ or rewritten
 $$
 P(w|\mathcal D) = \frac{P(\mathcal  D |w)P(w)}{P(\mathcal D)}
 $$
-This approach can also be used as a mean to avoid over-fitting, this can be computed by treating the posterior as a prior and get another posterior.
+This approach can also be used as a mean to avoid over-fitting, this can be computed by treating the posterior as a prior and get another posterior. Assuming Gaussian likelihood model, then both the **conjugate prior** 
+$$
+p(w) = \mathcal  N(w|w_{0},S_{0})
+$$
+and also the posterior are Gaussian
+$$
+p(w|t, \phi, \sigma^{2}) \propto \mathcal  N(w|w_{0}, S_{0}) \mathcal  N(t|\phi w, \sigma^{2}I_{n}) = \mathcal N(w|w_{n},S_{n})
+$$
+with 
+$$
+w_{n} = S_{n}\left( S_{0}^{-1}w_{0} + \frac{\phi^{T}t}{\sigma^{2}} \right), \qquad S_{n}^{-1} = S_{0}^{-1} + \frac{\phi^{T}\phi}{\sigma^{2}} 
+$$
+>[!note]
+>If the prior has infinite variance, the $w_{n}$ reduces to the ML estimator.
+>If $w_{0} =0$ and $S_{0}=\tau^{2}I$ then $w_{n}$ reduces to the [[Ridge regression]] estimator where $\lambda = \frac{\sigma^{2}}{\tau^{2}}$
+
