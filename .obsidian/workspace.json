@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System identification.md",
+                "file": "Autoregressive process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "System identification.md",
+                "file": "Autoregressive process.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System identification.md",
+                "file": "Autoregressive process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System identification.md",
+                "file": "Autoregressive process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System identification.md"
+                "file": "Autoregressive process.md"
               }
             }
           }
@@ -260,17 +260,17 @@
   },
   "active": "a8c9a41a5d64da05",
   "lastOpenFiles": [
+    "White noise.md",
+    "Frequency analysis.md",
+    "System identification.md",
     "Regression.md",
     "Minimizing least squares.md",
-    "System identification.md",
     "System.md",
     "Modeling.md",
-    "White noise.md",
     "ARMAX process.md",
     "ARMA process.md",
     "Prediction.md",
     "Estimation problem.md",
-    "Frequency analysis.md",
     "Stochastic process.md",
     "Supervised learning.md",
     "Ridge regression.md",

@@ -39,8 +39,17 @@ $$
 >\end{cases}
 >$$
 >So the moving average process is weakly stationary.
+### [[Frequency analysis]]
+
+Given a white noise $\eta(t)\sim \text{Wn}(0, \lambda^{2})$ then its spectrum will be
+$$
+\Gamma_{u}(\omega) = \lambda^{2} \qquad \Gamma_{y}(\omega) = |W(e^{j\omega})|^{2}\lambda^{2}
+$$
+```math
+||{"id":1517372517091}||
 
 
+```
 
 
 
