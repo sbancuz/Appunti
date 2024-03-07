@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stochastic process.md",
+                "file": "ARMAX process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "68f2ddf5da111d65",
+            "id": "a8c9a41a5d64da05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "352d698d4a02ecbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cryptographically safe pseudonumber generator.md",
+                "file": "System identification.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Regression.md",
+                "file": "System identification.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -165,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression.md",
+                "file": "System identification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regression.md",
+                "file": "System identification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regression.md"
+                "file": "System identification.md"
               }
             }
           }
@@ -271,19 +258,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "68f2ddf5da111d65",
+  "active": "a8c9a41a5d64da05",
   "lastOpenFiles": [
-    "Supervised learning.md",
     "Regression.md",
+    "Minimizing least squares.md",
+    "System identification.md",
+    "System.md",
+    "Modeling.md",
+    "White noise.md",
+    "ARMAX process.md",
+    "ARMA process.md",
+    "Prediction.md",
+    "Estimation problem.md",
+    "Frequency analysis.md",
+    "Stochastic process.md",
+    "Supervised learning.md",
     "Ridge regression.md",
     "Branch prediction.md",
     "RSA Cryptosystem.md",
     "MIPS.md",
     "Performance metrics.md",
-    "Estimation problem.md",
-    "Frequency analysis.md",
     "Moving average process.md",
-    "ARMA process.md",
     "Autoregressive process.md",
     "Spectral factorization.md",
     "Stationary process.md",
@@ -295,15 +290,7 @@
     "NONCE.md",
     "CTR.png",
     "PRP enc1.png",
-    "Cryptographically safe pseudonumber generator.md",
-    "Perfectly secure cipher.md",
-    "Estimation of mean and variance.md",
     "periodogram.png",
-    "Stochastic process.md",
-    "Purely deterministic process.md",
-    "ARMAX process.md",
-    "Process.md",
-    "Gradient descent.md",
     "rigid regression.png",
     "Pasted image 20240227155055.png",
     "cache summary.png",

@@ -32,3 +32,20 @@ All the $\text{Ma,Ar,Arma}$ processes share the property that
 $$
 \lim_{ \tau \to \infty } {\gamma(\tau)} =0
 $$
+### [[Prediction]]
+
+Consider
+$$
+A(z)v(t) = C(z)\eta(t)
+$$
+where both $A(z),C(z)$ are monic polynomials of the same degree and that all their roots are inside the unit circle. To calculate the 1-step predictor we can apply one step of the long division procedure to the transfer function
+$$
+W(z) = \frac{C(z)}{A(z)} = 1 + \frac{C(z)-A(z)}{A(z)} = 1 + z^{-1} \frac{z(C(z)-A(z))}{A(z)}
+$$
+then the optimal 1-step predictor has the following transfer function
+$$
+W_{1}(z) = \frac{z(C(z)-A(z))}{A(z)}
+$$and in the time domain
+$$
+\hat{v}(t|t-1) = \frac{C(z)-A(z)}{A(z)}v(t)
+$$

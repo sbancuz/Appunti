@@ -84,7 +84,7 @@ $$
 >The **maximum correlation** is when $\rho = 1,-1$ and the **minimum correlation** is when $\rho = 0$
 ### Dynamic representation
 
-If we consider a constant process $v(t,s) = v(s)$ as an example of a [[Purely deterministic process]], in contrast white noise is an example of **completely unpredictable process**. For any give process $v(t)$ we can decompose it as
+If we consider a constant process $v(t,s) = v(s)$ as an example of a [[Purely deterministic process]], in contrast [[white noise]] is an example of **completely unpredictable process**. For any give process $v(t)$ we can decompose it as
 $$
 v(t) = \dot{v}(t) + \hat{v}(t)
 $$

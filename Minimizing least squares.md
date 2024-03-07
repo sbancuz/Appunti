@@ -1,5 +1,7 @@
-#### Minimizing least squares
-
+---
+tags:
+  - machine_learning
+---
 Given a data set with $N$ samples, let us consider the following loss function
 $$
 L(w) = \frac{1}{2} \sum^{N}(y(x_{n}, w) - t_{n})^{2}
