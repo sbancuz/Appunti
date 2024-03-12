@@ -35,11 +35,36 @@ $$
 
 To assign $x$ to a class $C_{k}$ we need that $y_{k}(x) >y_{j}(x), \forall {j} \neq {k}$. The resulting decision boundaries are singly connected and convex.
 
+We can use [[Minimizing least squares]] to approximate the conditional expectation $\mathbb E[t|x]$. Each class is described by its own linear model
+$$
+y_{k}(x) = w_{k}^{T}x + w_{k0}
+$$
+>[!warning]
+>This is not a good method for classification, the nature of linear regression makes it very sensitive for outliers, thus worsening the accuracy of the model.
+
+Another approach to construct a discriminative function is to use the [[Perceptron]] algorithm.
 
 ### Probabilistic discriminative approach
-- Probabilistic discriminative approaches that use probabilities to make decision like for [[Regression]]
+
+Probabilistic discriminative approaches that use probabilities to make decision like for [[Regression]]. This means that we want to predict a result given some value. The posterior probability can be written as a ![[Logistic sigmoid function]]
+The idea is to **maximize the probability** of getting the right label
+$$
+p(t|X,w) = \prod y_{n}^{t_{n}}(1-y_{n})^{1-t_{n}}\qquad y_{n} = \sigma(w^{T}\phi_{n})
+$$
+Taking the negative log of the likelihood, we can define the **cross entropy error function** to be minimized
+$$
+L(w) = -\ln p(t|X,w) = -\sum(t_{n}\ln y_{n} + (1-t_{n})\ln(1-y_{n})) = \sum L_{n}
+$$
+that differentiated becomes
+$$
+\frac{\delta L_{n}}{\delta w} = (y_{n} - t_{n})\phi_{n} 
+$$
+so the gradient becomes
+$$
+\triangledown L(w) = \sum (y_{n} - t_{n})\phi_{n}
+$$
+and to optimize this we can just use [[Gradient descent]] because this function is **convex**. To extend this notion for multiple classes, we can just use the ![[Softmax]]
 ### Probabilistic generative approach
 
-
-- Probabilistic generative approach that use the [[Bayes rule]]
+Probabilistic generative approach that use the [[Bayes rule]]
 

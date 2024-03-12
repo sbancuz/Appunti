@@ -39,4 +39,26 @@ Having $\mathcal D$, to approximate $f$ we need:
 To fix this function we define the **empirical loss function** with respect to the actual data, this isn't a perfect solution because data will not lead us to the real $f$, but it's still useful. The hypothesis space has to be as small as possible when we have a limited number of samples, this is still because the minimum does not lie on the $f$.
 ### Model selection
 
-Model selection is the practice of choosing the *better* model in order to avoid over-fitted and under-fitted ones. To avoid over-fitting means that we want to find an approximation with low variance, thus we want a *smoother* function, that is given by the coefficients. To do this we can use **regularization**, a choice of regularization is [[Ridge regression]]
+Model selection is the practice of choosing the *better* model in order to avoid over-fitted and under-fitted ones. To avoid over-fitting means that we want to find an approximation with low variance, thus we want a *smoother* function, that is given by the coefficients. To do this we can use **regularization**, a choice of regularization is [[Ridge regression]].
+
+>[!Theorem]
+>For any learner $L$, the average accuracy is
+>$$
+> \frac{1}{|\mathcal F|}\sum acc_{G}(L) = \frac{1}{2}
+>$$
+>This is not a problem since we only focus on a small subset of possible concepts.
+
+Assume that we have a data set $\mathcal D$ with $N$ samples obtained by a function $t_{i} = f(x_{i}) + \epsilon$, now we have
+$$
+\mathbb  E[\epsilon] = 0, \qquad \text{Var}[\epsilon] = \sigma^{2}
+$$
+to find a model that approximates $f$ as well as possible we can use the **expected square error**
+$$
+\mathbb E[(t - y(x))^{2}] = \dots =\text{Var}[t] + \text{Var}[y(x)] + \mathbb E[f(x) - y(x)]^{2}
+$$
+										^^   $\sigma^{2}$                  ^^                          ^^ *bias^2*
+								                       ^^ *variance*
+
+![[bias-variance decomposition.png]]
+
+

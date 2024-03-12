@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Supervised learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Supervised learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Supervised learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear programming.md",
+                "file": "Supervised learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear programming.md"
+                "file": "Supervised learning.md"
               }
             }
           }
@@ -246,10 +246,17 @@
   },
   "active": "a8c9a41a5d64da05",
   "lastOpenFiles": [
+    "bias-variance decomposition.png",
+    "Machine learning.md",
+    "Linear programming.md",
+    "Classification.md",
+    "Logistic sigmoid function.md",
+    "Softmax.md",
+    "Perceptron.md",
+    "Gradient descent.md",
     "System identification.md",
     "Minimizing least squares.md",
     "Modeling.md",
-    "Classification.md",
     "Classificazione dei punti critici.md",
     "Supervised learning.md",
     "Regression.md",
@@ -265,13 +272,6 @@
     "Estimation problem.md",
     "Ridge regression.md",
     "Branch prediction.md",
-    "RSA Cryptosystem.md",
-    "MIPS.md",
-    "Performance metrics.md",
-    "Moving average process.md",
-    "Spectral factorization.md",
-    "Stationary process.md",
-    "Message authentication codes.md",
     "CBC-MAC.png",
     "ratcheting.png",
     "CTR.png",
