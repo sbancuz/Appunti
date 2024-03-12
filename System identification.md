@@ -55,4 +55,14 @@ A natural way to describe $f(u; \theta)$ is using a functional expansion
 $$
 f(u; \theta) = \phi^{T}\theta = \sum\theta\phi(u) \qquad \phi(u) \text{ is a basis function}
 $$
+and once we have defined a family of functions parameterized by a vector $\theta$, we have to search the parametrization that yields the best **approximation** of $y(t)$ over the available data.
+
+>[!note] 
+>A model is **identifiable** when there is only one solution for the regression.
+### Dynamical modeling
+
+The identification of dynamical models presents some additional difficulties and pitfalls:
+- The identification algorithm $\mathcal I$ depends on the considered model class
+- The role of the noise model is crucial
+- It's not so simple to define idenfiability
 
