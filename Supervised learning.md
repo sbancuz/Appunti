@@ -8,7 +8,7 @@ More formally given a **training set** of $\mathcal{D} = \{ (x, y) \}$ example i
 $h$ is called a **hypothesis** about the world, which is a model of the data. We call $y_{i}$ the **ground truth** -- the true answer we are asking our model to predict.
 
 Supervised learning is often used to resolve these 3 main problems:
-- Discrete $\to$ Classification
+- Discrete $\to$ [[Classification]]
 - Continuous $\to$ [[Regression]]
 - Probability $\to$ Probability estimation
 
