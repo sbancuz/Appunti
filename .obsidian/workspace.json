@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIPS.md",
+                "file": "Cryptography.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MIPS.md",
+                "file": "Cryptography.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MIPS.md",
+                "file": "Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MIPS.md",
+                "file": "Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MIPS.md"
+                "file": "Cryptography.md"
               }
             }
           }
@@ -244,12 +244,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ffffd76ad16031a1",
+  "active": "08ce20c9103ebbfa",
   "lastOpenFiles": [
+    "pb key encr.png",
+    "MIPS.md",
+    "Cryptography.md",
+    "Message authentication codes.md",
+    "Cryptographic hash.md",
     "scoreboard arch.png",
     "scoreboard.png",
     "Parallelization.md",
-    "MIPS.md",
     "multi pipe.png",
     "Implicit enumeration methods.md",
     "Parallelization by hand.md",
@@ -273,15 +277,11 @@
     "Perceptron.md",
     "Gradient descent.md",
     "Minimizing least squares.md",
-    "Classificazione dei punti critici.md",
-    "Regression.md",
-    "Secure system.md",
     "CBC-MAC.png",
     "ratcheting.png",
     "CTR.png",
     "PRP enc1.png",
     "periodogram.png",
-    "rigid regression.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
