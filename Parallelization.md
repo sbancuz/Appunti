@@ -16,6 +16,7 @@ There are many tools to describe parallel algorithms, in fact many languages hav
 A dependency arises when one operation depends on an earlier operation to complete and produce a result before this later operation can be performed. We can extend this notion of dependency to resources. Two statements can execute in parallel iff there are no dependencies between them. 
 
 When statements execution does not interfere with other we have sequential consistency. This means that the processor can execute these  statement out of order.
+#### Data dependency
 
 Given statements $S_{1}$ and $S_{2}$, :
 - $S_{2}$ ha true/flow dependency on $S_{1}$ iff $S_{2}$ reads a value written by $S_{1}$ -> Read After Write

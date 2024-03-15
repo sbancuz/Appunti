@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a8c9a41a5d64da05",
+            "id": "08ce20c9103ebbfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "MIPS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mida static ",
+                "query": "anti-depen",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "MIPS.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "MIPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "MIPS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Supervised learning.md"
+                "file": "MIPS.md"
               }
             }
           }
@@ -244,8 +244,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a8c9a41a5d64da05",
+  "active": "ffffd76ad16031a1",
   "lastOpenFiles": [
+    "scoreboard arch.png",
+    "scoreboard.png",
+    "Parallelization.md",
+    "MIPS.md",
+    "multi pipe.png",
+    "Implicit enumeration methods.md",
+    "Parallelization by hand.md",
+    "System.md",
+    "prediction form mdoel.png",
+    "Modeling.md",
+    "FIR models.md",
+    "ARIMA or ARIMAX models.md",
+    "Equazioni differenziali ordinarie.md",
+    "ARXAR model.md",
+    "Output error models.md",
+    "White noise.md",
+    "Supervised learning.md",
+    "System identification.md",
     "bias-variance decomposition.png",
     "Machine learning.md",
     "Linear programming.md",
@@ -254,35 +272,17 @@
     "Softmax.md",
     "Perceptron.md",
     "Gradient descent.md",
-    "System identification.md",
     "Minimizing least squares.md",
-    "Modeling.md",
     "Classificazione dei punti critici.md",
-    "Supervised learning.md",
     "Regression.md",
     "Secure system.md",
-    "Stochastic process.md",
-    "Autoregressive process.md",
-    "White noise.md",
-    "Frequency analysis.md",
-    "System.md",
-    "ARMAX process.md",
-    "ARMA process.md",
-    "Prediction.md",
-    "Estimation problem.md",
-    "Ridge regression.md",
-    "Branch prediction.md",
     "CBC-MAC.png",
     "ratcheting.png",
     "CTR.png",
     "PRP enc1.png",
     "periodogram.png",
     "rigid regression.png",
-    "Pasted image 20240227155055.png",
-    "cache summary.png",
     "Test.canvas",
-    "cache.png",
-    "MIPS IDIF.png",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
   ]
