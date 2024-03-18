@@ -10,7 +10,11 @@ It's the study of the techniques to allow secure communication and data storage 
 	To achieve this we either design an intrinsically non tamperable cipher, which is quite the task, or simply add some information using [[Message authentication codes]]. Testing integrity on the whole file requires us to compare it bit by bit with an intact copy, ideally we would want fixed length strings that represent the whole file. These are just [[Cryptographic hash]]. To use them with [[Message authentication codes]] just produce a tag hashing together the message and a secret string.
 
 - Authenticity $\to$ data and their origin are certified
+	To build a secure hybrid encryption scheme we need to be sure that the public key the sender uses is the one of the recipient. We would like to be able to verify authenticity without a preshared secret. To provide authenticity we want a [[Digital signature]]. This means that we need two pairs of keys. These public keys is certified by a trusted party called a **certification authorities**.
+
 - Non-repudiation $\to$ creator cannot repudiate data
+	For this to hold we need to use asynchronous encryption systems
+
 - Advanced features $\to$ proof of knowledge
 ### Kerchoff's principles of ciphers
 1) It must be **practically** unbreakable

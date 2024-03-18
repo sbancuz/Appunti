@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08ce20c9103ebbfa",
+            "id": "7bd79fc3e1927ec6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Shannon information theory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Shannon information theory.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Shannon information theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography.md",
+                "file": "Shannon information theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography.md"
+                "file": "Shannon information theory.md"
               }
             }
           }
@@ -244,11 +244,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "08ce20c9103ebbfa",
+  "active": "7bd79fc3e1927ec6",
   "lastOpenFiles": [
+    "Entropy.md",
+    "Shannon information theory.md",
+    "Cryptography.md",
+    "Digital signature.md",
+    "digi sig.png",
     "pb key encr.png",
     "MIPS.md",
-    "Cryptography.md",
     "Message authentication codes.md",
     "Cryptographic hash.md",
     "scoreboard arch.png",
@@ -275,13 +279,9 @@
     "Logistic sigmoid function.md",
     "Softmax.md",
     "Perceptron.md",
-    "Gradient descent.md",
-    "Minimizing least squares.md",
     "CBC-MAC.png",
     "ratcheting.png",
     "CTR.png",
-    "PRP enc1.png",
-    "periodogram.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
