@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shannon information theory.md",
+                "file": "ARMAX process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "anti-depen",
+                "query": "tag:#mida canonical ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Shannon information theory.md",
+                "file": "ARMAX process.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shannon information theory.md",
+                "file": "ARMAX process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shannon information theory.md",
+                "file": "ARMAX process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shannon information theory.md"
+                "file": "ARMAX process.md"
               }
             }
           }
@@ -246,8 +246,17 @@
   },
   "active": "7bd79fc3e1927ec6",
   "lastOpenFiles": [
-    "Entropy.md",
+    "Prediction.md",
+    "ARMAX process.md",
+    "Frequency analysis.md",
+    "armax newton method.png",
+    "Newton method.md",
+    "newton mehtod.png",
+    "Autoregressive process.md",
+    "System.md",
+    "singelton mida.png",
     "Shannon information theory.md",
+    "Entropy.md",
     "Cryptography.md",
     "Digital signature.md",
     "digi sig.png",
@@ -261,7 +270,6 @@
     "multi pipe.png",
     "Implicit enumeration methods.md",
     "Parallelization by hand.md",
-    "System.md",
     "prediction form mdoel.png",
     "Modeling.md",
     "FIR models.md",
@@ -274,14 +282,6 @@
     "System identification.md",
     "bias-variance decomposition.png",
     "Machine learning.md",
-    "Linear programming.md",
-    "Classification.md",
-    "Logistic sigmoid function.md",
-    "Softmax.md",
-    "Perceptron.md",
-    "CBC-MAC.png",
-    "ratcheting.png",
-    "CTR.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"

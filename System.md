@@ -158,3 +158,58 @@ Now since $W(z)$ is a ration of a monic, it implies that the RHS depends on $y()
 $$
 \hat{\mathcal M} : \hat{y}(t|t-1) =\left( 1-\frac{1}{W(z)} \right)y(t) + \frac{G(z)}{W(z)}u(t-k) 
 $$
+### [[Prediction]] error minimization
+
+The PEM methods are based on the minimization of the residual. Let $\hat{\theta}_{N}$ be the minimum of the cost function $J_{N}(\theta)$. Now since $\epsilon(t)$ depends on the data, assuming that the predictor is stable and that $u(t)$ and $y(t)$ are [[Stationary process]], then $\hat{y}(t)$  will also be stationary. This means that $J_{N}$ is the sample mean value of a stationary process.
+
+>[!note]
+>If the process is ergodic, then $J_{N}$ will tend to the expected value
+
+Accordingly, if we denote with $\Delta$ the set of minima of $\bar{J}$, we expect $\hat{\theta}_{N}$ to tend to $\Delta$. In the case that $S\in \mathcal M$ then there exists $\dot{\theta}$ such that $S=\mathcal M(\dot{\theta})$. But does this also imply that $\hat{\theta}\to\dot{\theta}$?
+
+Take the prediction error
+$$
+\epsilon(t;\theta) = y(t) - \hat{y}(t;\theta) = [y(t) - \hat{y}(t; \dot{\theta})] + [\hat{y}(t;\dot{\theta}) - \hat{y}(t;\theta)]
+$$
+											^^ *innovation*                   
+The **innovation** is the optimal predictor that we could calculate if we knew the true system, and the second term is the combination of two variables that both depend on the past of $u(t),y(t)$, so
+$$
+\text{Var}[\epsilon(t;\theta)] = \text{Var}[\epsilon(t;\dot{\theta})]
+$$
+If $\Delta$ is a singleton we can conclude that a PEM method will lead to a model that asymptotically tends to the true system. In reality the models in $\Delta$ are the **best approximation** of $S$
+
+![[singelton mida.png]]
+### Experimental vs Structural identifiability
+
+If it's possible to **unambiguously estimate all parameters** -- $\Delta$ is a singleton -- we say that the system is identifiable. This depends on 
+- $\mathcal E$ $\to$ Identification experiment
+- $\mathcal M$ $\to$ model family
+
+>[!warning]
+>The input should be sufficiently rich of information content to allow the unambiguous estimation of all parameters
+
+In summary
+- If $\mathcal E$ can be freely designed, then ensure that all that one need to identify is identifiable
+- If not, limit the model family to what's actually identifiable
+### Uncertainty of the parameters
+
+Assume $\Delta=\{ \bar{\theta} \}$ with $\bar{\theta}$ no on the boundary of $\theta$, let also $S\in \mathcal M$ so that $\bar{\theta} = \dot{\theta}$ and define 
+$$
+\psi(t;\theta) = - \left( \frac{d}{dt}\epsilon(t;\theta) \right)^{T}
+$$
+>[!note]
+>If all the involved processes are [[Stationary process]] then $\psi$ will also be.
+
+We can define
+$$
+\bar{R}=\mathbb  E[\psi(t;\dot{\theta})\psi(t;\dot{\theta})^{T}]
+$$
+It can be shown that for a large value of $N$, the variance of the PEM estimator is given by $\bar{P}/N$
+$$
+\sqrt{ N }(\hat{\theta}_{N}-\dot{\theta}) \sim \mathcal N(0,\bar{P})
+$$
+We can also estimate the variance
+$$
+\text{Var}[\epsilon(t;\theta)] = \frac{1}{N}\sum\epsilon(t;\hat{\theta}_{N})^{2}
+$$
+
