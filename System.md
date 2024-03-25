@@ -213,3 +213,26 @@ $$
 \text{Var}[\epsilon(t;\theta)] = \frac{1}{N}\sum\epsilon(t;\hat{\theta}_{N})^{2}
 $$
 
+### Model validation
+
+The identification procedure selects the *best* model belonging to a certain model family. However, we need to ascertain if this model is sufficiently good.
+- Is the model sufficiently in agreement with the observed data?
+-  Is the model sufficiently good for the purpose it is meant for?
+-  Is the model sufficiently flexible (to encompass the true system)?
+
+>[!warning]
+The last question is undecidable from a philosophical point of view.
+
+What really matters is the second question: the model is good if it allows to solve satisfactorily the problem that motivated its construction. To validate a model we could, for example simulate it with some controlled input and check its validity with, for example the bode diagram and checking the spectral response. Another approach is to use statistical tests on the residual.
+
+>[!warning]
+>Obviously, simulation only works when there is an input $u(t)$
+
+Let $\epsilon(t)$ be the signal to be tested and calculate
+$$
+\hat{y}_{N}(\tau) = f(y(t-1),\dots,u(t-1),\dots) = \frac{1}{N}\sum_{1}^{N-\tau}\epsilon(\tau)\epsilon(t + \tau)
+$$
+
+
+
+
