@@ -128,3 +128,15 @@ The idea is that this scheduler does is **register renaming** to remove any WAW 
 
 ![[tomasulo.png]] 
 
+There are 3 stages of the Tomasulo pipeline
+1) Issue 
+	Get an instruction from the instruction queue, check for structural hazards in the reserving stations (**RS**) in if needed add some stalls. If the operands are not yet ready in the register file (**RF**) then we need to keep track of the FU that will produce them. This is the step of renaming.
+
+2) Start execution
+	Once both the operands and the functional units are ready we can start the execution, if they aren't, just monitor the shared bus for the results that we need. The loads and stores works a little bit differently, first they compute the effective address then they will try to execute. To preserve exception behavior no instruction can be executed until all branches before are resolved, if branch prediction is used, then the CPU must know the prediction correctness.
+
+>[!Important]
+> The load/store operation are kept in order
+
+3) Write result
+	Broadcast the result of the operations to the shared buffer and, if needed, write the result to the memory.
