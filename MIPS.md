@@ -124,3 +124,7 @@ To deal with anti-dependency we can read registers only during the Read Operands
 ![[scoreboard arch.png]]
 ### Tomasulo dynamic scheduler
 
+The idea is that this scheduler does is **register renaming** to remove any WAW and WAR  hazards. This is achieved by using some buffers called **reservation stations** in front of the function units to hold pending operations before executing them. Tomasulo kind of works like a scoreboard, but the main difference is that we don't have a centralized buffer that will hold all pending operations, but a distributed one. The result of a computation is broadcasted to all the functional units and to all store buffers.
+
+![[tomasulo.png]] 
+
