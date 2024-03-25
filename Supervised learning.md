@@ -13,6 +13,7 @@ Supervised learning is often used to resolve these 3 main problems:
 - Probability $\to$ Probability estimation
 
 To find the best $h'$ in the hypothesis space we look for a **best fit function** for which each $h(x_{i})$ is close to $y_{i}$.
+### Bias-Variance trade-off
 
 ![[best fit.png]]
 

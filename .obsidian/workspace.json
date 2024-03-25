@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System.md",
+                "file": "MIPS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "System.md",
+                "file": "MIPS.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System.md",
+                "file": "MIPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System.md",
+                "file": "MIPS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System.md"
+                "file": "MIPS.md"
               }
             }
           }
@@ -246,6 +246,9 @@
   },
   "active": "7bd79fc3e1927ec6",
   "lastOpenFiles": [
+    "System.md",
+    "Machine learning.md",
+    "Supervised learning.md",
     "ARMAX process.md",
     "Estimation problem.md",
     "Modeling.md",
@@ -255,7 +258,6 @@
     "Newton method.md",
     "newton mehtod.png",
     "Autoregressive process.md",
-    "System.md",
     "singelton mida.png",
     "Shannon information theory.md",
     "Entropy.md",
@@ -279,8 +281,6 @@
     "ARXAR model.md",
     "Output error models.md",
     "White noise.md",
-    "Supervised learning.md",
-    "System identification.md",
     "bias-variance decomposition.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",

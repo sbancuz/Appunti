@@ -228,11 +228,59 @@ What really matters is the second question: the model is good if it allows to so
 >[!warning]
 >Obviously, simulation only works when there is an input $u(t)$
 
-Let $\epsilon(t)$ be the signal to be tested and calculate
+Given a function we want to identify a model for
 $$
-\hat{y}_{N}(\tau) = f(y(t-1),\dots,u(t-1),\dots) = \frac{1}{N}\sum_{1}^{N-\tau}\epsilon(\tau)\epsilon(t + \tau)
+\hat{y}(t) = f(y(t-1),\dots,u(t-1),\dots)
 $$
+And let $\epsilon(t)$ be the signal to be tested and calculate
+$$
+ \gamma_{N}(\tau)= \frac{1}{N}\sum_{1}^{N-\tau}\epsilon(\tau)\epsilon(t + \tau)
+$$
+To validate the model we need to look at the covariance function also called the **normalized sample covariance function**, that can be calculated by
+$$
+\hat{\rho}(\tau) = \frac{\hat{\gamma}(\tau)}{\hat{\gamma}(0)}
+$$
+>[!warning]
+For this calculation, we need to use a small number of $\tau$, because the higher $\tau$ is, the less data we can use to calculate the average.
+
+If $\epsilon(t)$ is a [[White noise]] then, for values of $\tau>0$, $\hat{\rho}(\tau)$ has a probability distribution that asymptotically tends to a $\mathcal N(0,1/N)$ so
+$$
+\sqrt{ N }\hat{\rho}(\tau) \sim \mathcal  N(0,1)
+$$
+Now to test the model we use the **Anderson tests**. Let the null hypothesis $\mathcal H_{0}$ be that the residual is white
+1) Fix the probability that $\mathcal H_{0}$ is rejected while true, this is the confidence level $\alpha$
+2) Find the value $\beta$ for which the tails of the standard gauassian outside the interval $(-\beta,\beta)$  has area equal to $\alpha$
+$$
+\int_{-\beta}^{\beta} \frac{1}{\sqrt{ 2\pi }} e^{-y^{2}/2}  \, dy = 1- \alpha 
+$$
+3) Count the points of $\hat{\rho}(\tau)$ fall outside the interval $\left( -\frac{\beta}{\sqrt{ N }}, \frac{\beta}{\sqrt{ N }} \right)$
+4) If the fraction of points $n_{out}/n <\alpha$, we can accept the hypothesis
+
+If the model is correct, then the residual and the input should be independent
+$$
+\gamma_{\epsilon u}(\tau|\tau\geq 0) = \mathbb  E[\epsilon(t+\tau)u(t)] \approx 0
+$$
+For $\tau <0$ the auto correlation function can be either null of not depending on the auto correlation of $u(t)$ 
+The sample cross correlation is given by
+$$
+\hat{\gamma}(\tau) = \frac{1}{N} \sum_{1-\max(\tau, 0)}^{N-\max(\tau, 0)} \epsilon(t+\tau)u(t)
+$$
+and the normalized cross correlation function is
+$$
+\hat{\rho}_{\epsilon u}(\tau) = \frac{\hat{\gamma}_{\epsilon u}(\tau)}{\sqrt{ \hat{\gamma}_{\epsilon}(0) \hat{\gamma}_{u}(0) }}
+$$
+and just apply the Anderson tests.
+### Selection of model complexity
+
+In the [[#Prediction error minimization]] identification process, we first have to pick a model family, and then we identify the best model in that category. In other words, $J(\hat{\theta})$ is an indicator of the adherence of the estimated model to the data. If we increase the model complexity, the degrees of freedom also increase, but is the larger model better? This is the [[Supervised learning#Bias-Variance trade-off]].
+
+>[!note]
+The model that we need to pick, from the slides, seems to be the first solution where the whiteness test passes 
+
+The cross validation approach consists in dividing the data in two parts, training and validation sets. While $J(\hat{\theta})$ evaluated on the identification data is a decreasing function of the model complexity, the same evaluated on the validation is not. If the model is too complex the model will not fit well due to overfitting.
+
+```math
+||{"id":1123731415250}||
 
 
-
-
+```

@@ -122,3 +122,5 @@ The ID stage of an instruction can be divided in two stages:
 To deal with anti-dependency we can read registers only during the Read Operands stage. To deal with Output dependency we can stall the new instruction until the previous one finishes.
 
 ![[scoreboard arch.png]]
+### Tomasulo dynamic scheduler
+
