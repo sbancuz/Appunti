@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIPS.md",
+                "file": "Stationary process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MIPS.md",
+                "file": "Stationary process.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MIPS.md",
+                "file": "Stationary process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MIPS.md",
+                "file": "Stationary process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MIPS.md"
+                "file": "Stationary process.md"
               }
             }
           }
@@ -246,6 +246,8 @@
   },
   "active": "7bd79fc3e1927ec6",
   "lastOpenFiles": [
+    "Stochastic process.md",
+    "MIPS.md",
     "tomasulo.png",
     "System.md",
     "Machine learning.md",
@@ -266,7 +268,6 @@
     "Digital signature.md",
     "digi sig.png",
     "pb key encr.png",
-    "MIPS.md",
     "Message authentication codes.md",
     "Cryptographic hash.md",
     "scoreboard arch.png",
@@ -281,7 +282,6 @@
     "Equazioni differenziali ordinarie.md",
     "ARXAR model.md",
     "Output error models.md",
-    "bias-variance decomposition.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
