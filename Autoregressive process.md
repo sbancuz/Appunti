@@ -44,7 +44,7 @@ $$
 \end{cases}
 $$
 ![[ARMA process#Vanishing covariance property]]
-### [[System#Prediction error minimization]] for ARX
+### [[Prediction#Prediction error minimization]] for ARX
 
 The ARX predictor equation configures a linear regression 
 $$

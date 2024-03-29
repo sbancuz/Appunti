@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stationary process.md",
+                "file": "System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -32,7 +32,7 @@
       {
         "id": "6b2d4e5e69ee1477",
         "type": "tabs",
-        "dimension": 23.888888888888893,
+        "dimension": 33.2089552238806,
         "children": [
           {
             "id": "20cb3654f52b2199",
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mida canonical ",
+                "query": "tag:#mida \"Prediction error minimization\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +80,7 @@
       {
         "id": "de25f9ee4077c556",
         "type": "tabs",
-        "dimension": 76.11111111111111,
+        "dimension": 66.7910447761194,
         "children": [
           {
             "id": "b6d2ccd68b38ea6d",
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Stationary process.md",
+                "file": "System.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stationary process.md",
+                "file": "System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stationary process.md",
+                "file": "System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stationary process.md"
+                "file": "System.md"
               }
             }
           }
@@ -246,21 +246,25 @@
   },
   "active": "7bd79fc3e1927ec6",
   "lastOpenFiles": [
+    "Prediction.md",
+    "System.md",
+    "ARMAX process.md",
+    "Autoregressive process.md",
+    "ARMA process.md",
+    "Frequency analysis.md",
+    "Moving average process.md",
+    "Scratchpad.md",
+    "Stationary process.md",
     "Stochastic process.md",
     "MIPS.md",
     "tomasulo.png",
-    "System.md",
     "Machine learning.md",
     "Supervised learning.md",
-    "ARMAX process.md",
     "Estimation problem.md",
     "Modeling.md",
-    "Prediction.md",
-    "Frequency analysis.md",
     "armax newton method.png",
     "Newton method.md",
     "newton mehtod.png",
-    "Autoregressive process.md",
     "singelton mida.png",
     "Shannon information theory.md",
     "Entropy.md",
@@ -278,10 +282,6 @@
     "Parallelization by hand.md",
     "prediction form mdoel.png",
     "FIR models.md",
-    "ARIMA or ARIMAX models.md",
-    "Equazioni differenziali ordinarie.md",
-    "ARXAR model.md",
-    "Output error models.md",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"

@@ -36,7 +36,7 @@ hence the optimal $k$-steps ahead predictor is equal to
 $$
 \hat{y}(t+k|t) = \frac{F_{k}(z)}{C(z)}y(t) + \frac{B(z)E(z)}{C(z)}u(t)
 $$
-### [[System#Prediction error minimization]]
+### [[Prediction#Prediction error minimization]]
 
 Consider the generic ARMAX model
 $$

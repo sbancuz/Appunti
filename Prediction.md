@@ -93,4 +93,24 @@ We can resolve this recursive equation heuristically by initializing $\hat{v}$ t
 
 >[!warning]
 >In case the model is not in canonical form, this prediction will diverge. To fix this we can derive the canonical form by simply inverting the zero and adjusting the noise variance so that the autocovariance function remains unchanged
+### Prediction error minimization
 
+The PEM methods are based on the minimization of the residual. Let $\hat{\theta}_{N}$ be the minimum of the cost function $J_{N}(\theta)$. Now since $\epsilon(t)$ depends on the data, assuming that the predictor is stable and that $u(t)$ and $y(t)$ are [[Stationary process]], then $\hat{y}(t)$  will also be stationary. This means that $J_{N}$ is the sample mean value of a stationary process.
+
+>[!note]
+>If the process is ergodic, then $J_{N}$ will tend to the expected value
+
+Accordingly, if we denote with $\Delta$ the set of minima of $\bar{J}$, we expect $\hat{\theta}_{N}$ to tend to $\Delta$. In the case that $S\in \mathcal M$ then there exists $\dot{\theta}$ such that $S=\mathcal M(\dot{\theta})$. But does this also imply that $\hat{\theta}\to\dot{\theta}$?
+
+Take the prediction error
+$$
+\epsilon(t;\theta) = y(t) - \hat{y}(t;\theta) = [y(t) - \hat{y}(t; \dot{\theta})] + [\hat{y}(t;\dot{\theta}) - \hat{y}(t;\theta)]
+$$
+											^^ *innovation*                   
+The **innovation** is the optimal predictor that we could calculate if we knew the true system, and the second term is the combination of two variables that both depend on the past of $u(t),y(t)$, so
+$$
+\text{Var}[\epsilon(t;\theta)] = \text{Var}[\epsilon(t;\dot{\theta})]
+$$
+If $\Delta$ is a singleton we can conclude that a PEM method will lead to a model that asymptotically tends to the true system. In reality the models in $\Delta$ are the **best approximation** of $S$
+
+![[singelton mida.png]]
