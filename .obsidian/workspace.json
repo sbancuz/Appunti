@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System.md",
+                "file": "Authentication.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1df3b8b4e3b6224",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software security.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mida \"Prediction error minimization\"",
+                "query": "tag:security",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "System.md",
+                "file": "Software security.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -138,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System.md",
+                "file": "Software security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System.md",
+                "file": "Software security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System.md"
+                "file": "Software security.md"
               }
             }
           }
@@ -244,18 +258,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7bd79fc3e1927ec6",
+  "active": "b1df3b8b4e3b6224",
   "lastOpenFiles": [
+    "Secure system.md",
+    "Software security.md",
+    "Authentication.md",
+    "Shannon information theory.md",
+    "Entropy.md",
+    "authent.png",
+    "Cryptography.md",
+    "Stochastic process.md",
     "Prediction.md",
-    "System.md",
+    "MIDA Questions.md",
     "ARMAX process.md",
-    "Autoregressive process.md",
+    "Untitled 4.md",
     "ARMA process.md",
+    "White noise.md",
+    "System.md",
+    "Autoregressive process.md",
     "Frequency analysis.md",
     "Moving average process.md",
     "Scratchpad.md",
     "Stationary process.md",
-    "Stochastic process.md",
     "MIPS.md",
     "tomasulo.png",
     "Machine learning.md",
@@ -266,22 +290,12 @@
     "Newton method.md",
     "newton mehtod.png",
     "singelton mida.png",
-    "Shannon information theory.md",
-    "Entropy.md",
-    "Cryptography.md",
     "Digital signature.md",
     "digi sig.png",
     "pb key encr.png",
-    "Message authentication codes.md",
-    "Cryptographic hash.md",
     "scoreboard arch.png",
     "scoreboard.png",
-    "Parallelization.md",
     "multi pipe.png",
-    "Implicit enumeration methods.md",
-    "Parallelization by hand.md",
-    "prediction form mdoel.png",
-    "FIR models.md",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
