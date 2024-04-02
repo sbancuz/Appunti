@@ -202,7 +202,7 @@ The identification procedure selects the *best* model belonging to a certain mod
 >[!warning]
 The last question is undecidable from a philosophical point of view.
 
-What really matters is the second question: the model is good if it allows to solve satisfactorily the problem that motivated its construction. To validate a model we could, for example simulate it with some controlled input and check its validity with, for example the bode diagram and checking the spectral response. Another approach is to use statistical tests on the residual.
+What really matters is the second question: the model is good if it allows to solve satisfactorily the problem that motivated its construction. To validate a model we could, for example simulate it with some controlled input and check its validity with the bode diagram and checking the spectral response. Another approach is to use statistical tests on the residual.
 
 >[!warning]
 >Obviously, simulation only works when there is an input $u(t)$

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software security.md",
+                "file": "Prediction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:security",
+                "query": "tag:#mida  singleton ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Software security.md",
+                "file": "Prediction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software security.md",
+                "file": "Prediction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software security.md",
+                "file": "Prediction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software security.md"
+                "file": "Prediction.md"
               }
             }
           }
@@ -260,8 +259,14 @@
   },
   "active": "b1df3b8b4e3b6224",
   "lastOpenFiles": [
-    "Secure system.md",
+    "System.md",
+    "Modeling.md",
+    "Estimation problem.md",
+    "Autoregressive process.md",
+    "Stationary process.md",
+    "Moving average process.md",
     "Software security.md",
+    "Secure system.md",
     "Authentication.md",
     "Shannon information theory.md",
     "Entropy.md",
@@ -274,18 +279,12 @@
     "Untitled 4.md",
     "ARMA process.md",
     "White noise.md",
-    "System.md",
-    "Autoregressive process.md",
     "Frequency analysis.md",
-    "Moving average process.md",
     "Scratchpad.md",
-    "Stationary process.md",
     "MIPS.md",
     "tomasulo.png",
     "Machine learning.md",
     "Supervised learning.md",
-    "Estimation problem.md",
-    "Modeling.md",
     "armax newton method.png",
     "Newton method.md",
     "newton mehtod.png",
