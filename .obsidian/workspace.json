@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prediction.md",
+                "file": "Register renaming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mida  singleton ",
+                "query": "tag: #computer_architecture  register renaming ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Prediction.md",
+                "file": "Register renaming.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prediction.md",
+                "file": "Register renaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prediction.md",
+                "file": "Register renaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prediction.md"
+                "file": "Register renaming.md"
               }
             }
           }
@@ -246,8 +246,11 @@
   },
   "active": "b1df3b8b4e3b6224",
   "lastOpenFiles": [
-    "System.md",
+    "SIMD.md",
+    "Register renaming.md",
+    "MIPS.md",
     "Prediction.md",
+    "System.md",
     "Modeling.md",
     "Estimation problem.md",
     "Autoregressive process.md",
@@ -268,15 +271,12 @@
     "White noise.md",
     "Frequency analysis.md",
     "Scratchpad.md",
-    "MIPS.md",
     "tomasulo.png",
     "Machine learning.md",
     "Supervised learning.md",
     "armax newton method.png",
-    "Newton method.md",
     "newton mehtod.png",
     "singelton mida.png",
-    "Digital signature.md",
     "digi sig.png",
     "pb key encr.png",
     "scoreboard arch.png",

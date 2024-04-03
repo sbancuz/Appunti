@@ -80,7 +80,7 @@ All these problems fall under the same underlying region, **dependence**. If two
 	An instruction $j$ is dependent on a data produces by $i$
 
 - Name dependencies 
-	Two instructions use the same memory location, these are the same as [[Parallelization#Data dependency]] when talking in general about parallelization. To resolve this problem, an easy fix would be to change the location where the data would be saved, like for example in another register. This specific action is called **register renaming**.
+	Two instructions use the same memory location, these are the same as [[Parallelization#Data dependency]] when talking in general about parallelization. To resolve this problem, an easy fix would be to change the location where the data would be saved, like for example in another register. This specific action is called [[Register renaming]].
 
 - Control dependencies
 	A control dependence determines the ordering of the instructions and it's preserved by both the program order and the fact that an hazard cannot be allowed to happen before a branch direction is not known
@@ -124,7 +124,7 @@ To deal with anti-dependency we can read registers only during the Read Operands
 ![[scoreboard arch.png]]
 ### Tomasulo dynamic scheduler
 
-The idea is that this scheduler does is **register renaming** to remove any WAW and WAR  hazards. This is achieved by using some buffers called **reservation stations** in front of the function units to hold pending operations before executing them. Tomasulo kind of works like a scoreboard, but the main difference is that we don't have a centralized buffer that will hold all pending operations, but a distributed one. The result of a computation is broadcasted to all the functional units and to all store buffers.
+The idea is that this scheduler does is [[Register renaming]] to remove any WAW and WAR  hazards. This is achieved by using some buffers called **reservation stations** in front of the function units to hold pending operations before executing them. Tomasulo kind of works like a scoreboard, but the main difference is that we don't have a centralized buffer that will hold all pending operations, but a distributed one. The result of a computation is broadcasted to all the functional units and to all store buffers.
 
 ![[tomasulo.png]] 
 
