@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "994e6bb077b1fbeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hardware based speculation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Register renaming.md",
+                "file": "Hardware based speculation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Register renaming.md",
+                "file": "Hardware based speculation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Register renaming.md",
+                "file": "Hardware based speculation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Register renaming.md"
+                "file": "Hardware based speculation.md"
               }
             }
           }
@@ -244,10 +258,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b1df3b8b4e3b6224",
+  "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
-    "SIMD.md",
+    "speculative tomasulo.png",
     "Register renaming.md",
+    "Hardware based speculation.md",
+    "SIMD.md",
     "MIPS.md",
     "Prediction.md",
     "System.md",
@@ -272,8 +288,6 @@
     "Frequency analysis.md",
     "Scratchpad.md",
     "tomasulo.png",
-    "Machine learning.md",
-    "Supervised learning.md",
     "armax newton method.png",
     "newton mehtod.png",
     "singelton mida.png",
