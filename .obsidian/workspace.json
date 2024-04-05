@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardware based speculation.md",
+                "file": "Software security.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Hardware based speculation.md",
+                "file": "Software security.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware based speculation.md",
+                "file": "Software security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware based speculation.md",
+                "file": "Software security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware based speculation.md"
+                "file": "Software security.md"
               }
             }
           }
@@ -260,9 +260,9 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
+    "Hardware based speculation.md",
     "speculative tomasulo.png",
     "Register renaming.md",
-    "Hardware based speculation.md",
     "SIMD.md",
     "MIPS.md",
     "Prediction.md",
@@ -295,7 +295,6 @@
     "pb key encr.png",
     "scoreboard arch.png",
     "scoreboard.png",
-    "multi pipe.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"

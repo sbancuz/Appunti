@@ -11,3 +11,6 @@ This broader scope create more types of bugs
 - software bugs $\to$ it doesn't do what it supposed to
 - vulnerabilities $\to$ unsecure code that may violate a paradigm of a [[Secure system]]
 
+
+
+
