@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Support vector machines.md",
+                "file": "Criterion of reality.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Support vector machines.md",
+                "file": "Criterion of reality.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Support vector machines.md",
+                "file": "Criterion of reality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Support vector machines.md",
+                "file": "Criterion of reality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Support vector machines.md"
+                "file": "Criterion of reality.md"
               }
             }
           }
@@ -246,8 +246,12 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
-    "Ottimizzazione per funzione di più variabili.md",
+    "Particle-wave dualism.md",
+    "Criterion of reality.md",
+    "De Broglie wavelength.md",
+    "Photon.md",
     "Support vector machines.md",
+    "Ottimizzazione per funzione di più variabili.md",
     "Teorema di Lagrange.md",
     "Classification.md",
     "Kernel methods.md",
@@ -273,10 +277,6 @@
     "Hardware based speculation.md",
     "speculative tomasulo.png",
     "Register renaming.md",
-    "SIMD.md",
-    "MIPS.md",
-    "Autoregressive process.md",
-    "Stationary process.md",
     "authent.png",
     "tomasulo.png",
     "armax newton method.png",
