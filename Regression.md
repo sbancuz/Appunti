@@ -10,7 +10,7 @@ Many real process can be approximated with **linear models**, even in larger sys
 $$
 y(x_{1},\dots,x_{n}) = w_{n}x_{n} + \dots + w_{1}x_{1} + w_{0}
 $$
-where the weights are called the **features**. The good thing is that we are guaranteed to reach the global minimum of the function, this means that if a linear model is not performing well it's because it doesn't have enough features.
+where the input parameters are called the **features** and must be linear with respect to the weights $w_{i}$. The good thing is that we are guaranteed to reach the global minimum of the function, this means that if a linear model is not performing well it's because it doesn't have enough features.
 
 >[!warning]
 >The input doesn't need to be linear. Only the weights have to be!!
@@ -23,7 +23,7 @@ $$
 >[!note]
 >The optimal solution, if we have a completely flexible function is the conditional average
 >$$
->\mathbb E [L]= \int t p(t|x)\, dx = y(x)
+>\mathbb E [L]= \int t p(t|x)\, dx = y(x) = \mathbb E[t|x]
 >$$
 
 A common choice for a loss function is the **squared loss function**
