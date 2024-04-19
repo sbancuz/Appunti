@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kernel methods.md",
+                "file": "Support vector machines.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Kernel methods.md",
+                "file": "Support vector machines.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kernel methods.md",
+                "file": "Support vector machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kernel methods.md",
+                "file": "Support vector machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kernel methods.md"
+                "file": "Support vector machines.md"
               }
             }
           }
@@ -246,9 +246,13 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
+    "Ottimizzazione per funzione di più variabili.md",
+    "Support vector machines.md",
+    "Teorema di Lagrange.md",
+    "Classification.md",
+    "Kernel methods.md",
     "kernels.png",
     "Supervised learning.md",
-    "Kernel methods.md",
     "PAC learning.md",
     "Version space.png",
     "System.md",
@@ -257,7 +261,6 @@
     "Minimizing least squares.md",
     "Gradient descent.md",
     "Maximum likelihood.md",
-    "Classification.md",
     "model error.png",
     "Modeling.md",
     "Estimation problem.md",
@@ -274,14 +277,11 @@
     "MIPS.md",
     "Autoregressive process.md",
     "Stationary process.md",
-    "Moving average process.md",
-    "Secure system.md",
     "authent.png",
     "tomasulo.png",
     "armax newton method.png",
     "newton mehtod.png",
     "singelton mida.png",
-    "digi sig.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
