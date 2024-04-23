@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Photon.md",
+                "file": "Branch prediction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mida",
+                "query": "tag:#computer_architecture  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Photon.md",
+                "file": "Branch prediction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 314,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Photon.md",
+                "file": "Branch prediction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Photon.md",
+                "file": "Branch prediction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Photon.md"
+                "file": "Branch prediction.md"
               }
             }
           }
@@ -245,11 +246,14 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
+    "Hardware based speculation.md",
+    "Parallelization.md",
+    "Automatic parallelization.md",
+    "Photon.md",
     "De Broglie wavelength.md",
     "Particle-wave dualism.md",
     "CRT.png",
     "Criterion of reality.md",
-    "Photon.md",
     "Support vector machines.md",
     "Ottimizzazione per funzione di più variabili.md",
     "Teorema di Lagrange.md",
@@ -273,8 +277,6 @@
     "Reinforcement learning.md",
     "Unsupervised learning.md",
     "Prediction.md",
-    "Software security.md",
-    "Hardware based speculation.md",
     "speculative tomasulo.png",
     "authent.png",
     "tomasulo.png",
