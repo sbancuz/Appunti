@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Criterion of reality.md",
+                "file": "Photon.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Criterion of reality.md",
+                "file": "Photon.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314,
-    "collapsed": true
+    "width": 314
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Criterion of reality.md",
+                "file": "Photon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Criterion of reality.md",
+                "file": "Photon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Criterion of reality.md"
+                "file": "Photon.md"
               }
             }
           }
@@ -246,9 +245,10 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
-    "Particle-wave dualism.md",
-    "Criterion of reality.md",
     "De Broglie wavelength.md",
+    "Particle-wave dualism.md",
+    "CRT.png",
+    "Criterion of reality.md",
     "Photon.md",
     "Support vector machines.md",
     "Ottimizzazione per funzione di più variabili.md",
@@ -276,12 +276,10 @@
     "Software security.md",
     "Hardware based speculation.md",
     "speculative tomasulo.png",
-    "Register renaming.md",
     "authent.png",
     "tomasulo.png",
     "armax newton method.png",
     "newton mehtod.png",
-    "singelton mida.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
