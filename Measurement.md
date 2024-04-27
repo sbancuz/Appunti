@@ -18,4 +18,15 @@ $$
 $$
 The physically realizable quantum states for a particle are described by a normalizable [[Wave function]] -- square modulus integrable.
 
-An observable $A$ is described by a Hermitian operator $\hat{A}$ -- hence real eigenvalues and orthogonal eigenfunctions --  
+An observable $A$ is described by a Hermitian operator $\hat{A}$ -- hence real eigenvalues and orthogonal eigenfunctions -- with the existence of an **orthonormal basis** -- for the Hilbert space $\mathcal H$ -- formed by eigenvalues of $\hat{A}$.
+### Quantization
+
+A discrete spectrum is such that we have a **countable** infinite of eigenfunctions $\phi$ and associated eigenvalues $\lambda$. We now consider a **discrete spectrum** observable $A$ for the Hilbert space $L^{2}$ of normalizable wave function, which for example are the
+- orbital angular momentum
+- the spin considered to the **qbit**
+- energy
+
+We can define the expansion of a wave function in eigenfunctions of a discrete spectrum observable as
+$$
+\psi = \sum\lambda_{n}\phi_{n} \qquad \lambda_{n} = \left< \phi_{n} | \psi \right> \qquad ||\psi||^{2} = \sum |\lambda_{n}|^{2} 
+$$ 
