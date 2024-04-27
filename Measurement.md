@@ -18,3 +18,4 @@ $$
 $$
 The physically realizable quantum states for a particle are described by a normalizable [[Wave function]] -- square modulus integrable.
 
+An observable $A$ is described by a Hermitian operator $\hat{A}$ -- hence real eigenvalues and orthogonal eigenfunctions --  

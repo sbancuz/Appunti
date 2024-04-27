@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wave function.md",
+                "file": "Measurement.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Wave function.md",
+                "file": "Measurement.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wave function.md",
+                "file": "Measurement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wave function.md",
+                "file": "Measurement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wave function.md"
+                "file": "Measurement.md"
               }
             }
           }
@@ -246,9 +246,9 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
+    "Wave function.md",
     "Measurement.md",
     "De Broglie wavelength.md",
-    "Wave function.md",
     "Criterion of reality.md",
     "Particle-wave dualism.md",
     "Photon.md",
