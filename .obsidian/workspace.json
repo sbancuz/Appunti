@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Branch prediction.md",
+                "file": "Wave function.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Branch prediction.md",
+                "file": "Wave function.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Branch prediction.md",
+                "file": "Wave function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Branch prediction.md",
+                "file": "Wave function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Branch prediction.md"
+                "file": "Wave function.md"
               }
             }
           }
@@ -246,12 +246,15 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
+    "Measurement.md",
+    "Wave function.md",
+    "De Broglie wavelength.md",
+    "Particle-wave dualism.md",
+    "Photon.md",
+    "Branch prediction.md",
     "Hardware based speculation.md",
     "Parallelization.md",
     "Automatic parallelization.md",
-    "Photon.md",
-    "De Broglie wavelength.md",
-    "Particle-wave dualism.md",
     "CRT.png",
     "Criterion of reality.md",
     "Support vector machines.md",
@@ -274,9 +277,6 @@
     "Estimation problem.md",
     "bias-variance decomposition.png",
     "Machine learning.md",
-    "Reinforcement learning.md",
-    "Unsupervised learning.md",
-    "Prediction.md",
     "speculative tomasulo.png",
     "authent.png",
     "tomasulo.png",
