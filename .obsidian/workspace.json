@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leader election.md",
+                "file": "Wave function.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Leader election.md",
+                "file": "Wave function.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leader election.md",
+                "file": "Wave function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leader election.md",
+                "file": "Wave function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leader election.md"
+                "file": "Wave function.md"
               }
             }
           }
@@ -245,6 +245,8 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
+    "Position representation.md",
+    "Leader election.md",
     "Wave function.md",
     "Measurement.md",
     "Calcolo integrale.md",
@@ -272,8 +274,6 @@
     "Version space.png",
     "System.md",
     "Ridge regression.md",
-    "Regression.md",
-    "Minimizing least squares.md",
     "model error.png",
     "bias-variance decomposition.png",
     "speculative tomasulo.png",

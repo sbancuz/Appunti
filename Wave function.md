@@ -125,3 +125,12 @@ This means that by applying the [[Fourier transform]] to the delta of Dirac can 
 $$
 \dot{\phi}(\bar{r}) = \left( \frac{1}{\sqrt{ h }} \right)^{3}\mathcal  F \{ \phi(\bar{r}) \} |_{\bar{f} = \bar{p} /h}  = h^{-3/2}\Phi\left( \frac{\bar{p}}{h} \right) = h^{-3/2} \iiint _{-\infty}^{\infty}\phi(\bar{r}) e^{-i/\hbar \bar{r} \times \bar{p}} \ dxdydz
 $$
+The momentum representation for a continuous spectrum observable $p_{x}$ has
+$$
+\text{eigenvalues: } -\infty < p_{x}' < \infty \qquad \text{eigenstates:} \{ \phi_{p_{x}} \} 
+$$
+The eigenstates form a **generalized** orthonormal basis. So
+$$
+\hat{p}_{x} \phi_{p_{x'}} = p_{x}'\phi_{p_{x}'} \qquad \left< \phi_{p_{x}'} | \phi_{p_{x}''} \right> = \delta(p'_{x} - p''_{x}) 
+$$
+
