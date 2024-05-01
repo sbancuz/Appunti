@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measurement.md",
+                "file": "Leader election.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer_architecture  ",
+                "query": "Bully",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Measurement.md",
+                "file": "Leader election.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314,
-    "collapsed": true
+    "width": 314
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measurement.md",
+                "file": "Leader election.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measurement.md",
+                "file": "Leader election.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measurement.md"
+                "file": "Leader election.md"
               }
             }
           }
@@ -248,6 +247,11 @@
   "lastOpenFiles": [
     "Wave function.md",
     "Measurement.md",
+    "Calcolo integrale.md",
+    "Disuguaglianza di Schwartz.md",
+    "Fourier transform.md",
+    "Serie di Fourier.md",
+    "Quantum harmonic oscillator.md",
     "De Broglie wavelength.md",
     "Criterion of reality.md",
     "Particle-wave dualism.md",
@@ -270,13 +274,8 @@
     "Ridge regression.md",
     "Regression.md",
     "Minimizing least squares.md",
-    "Gradient descent.md",
-    "Maximum likelihood.md",
     "model error.png",
-    "Modeling.md",
-    "Estimation problem.md",
     "bias-variance decomposition.png",
-    "Machine learning.md",
     "speculative tomasulo.png",
     "authent.png",
     "tomasulo.png",

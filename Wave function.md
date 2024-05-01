@@ -28,7 +28,7 @@ Or more compact
 $$
 \hat{p} = -i\hbar \triangledown 
 $$
-### Operations
+### Dirac representation
 
 The **scalar product** of the wave function is defined in **bra-ket** notation as 
 $$
@@ -69,6 +69,19 @@ The variance, that measures the uncertainty we can consider
 $$
 \left< (x - \left< x \right>)^{2}  \right> = \left< x^{2}  \right>  =\frac{\int _{\infty}^{\infty}x^{2} \, dx }{\int _{-\infty}^{\infty} \, dx }=\lim_{ a \to \infty } \frac{2\int _{0}^{a/2}x^{2} \, dx }{\int _{-a/2}^{a/2} \, dx} = \lim_{ a \to \infty } {\frac{2\left[ \frac{x^{3}}{3} \right]^{a/2}_{0}}{a}} = \lim_{ a \to \infty } {}\frac{a^{3}}{a} = \infty
 $$
+When considering a [[Measurement#Continuous spectrum observable]] the position operator $\hat{x}$
+$$
+\hat{x}\phi_{x'} = x'\phi_{x'}
+$$
+is no more than the 
+$$
+\phi_{x'}(x) = \delta(x - x')
+$$
+So the probability density function becomes
+$$
+P(x) = | \psi (x)| ^{2}
+$$
+
 ### Delta of Dirac
 
 Since we can't define a point for a quantum particle to be, we have to use a differential notation to define it's position. Dirac proposed this operator defined as
@@ -98,6 +111,17 @@ $$
 ||\delta(\bar{r}-\bar{r}')||^{2 } = \iiint _{-\infty}^{\infty}\delta(\bar{r}-\bar{r}') \delta(\bar{r}-\bar{r}') \ dxdydz = \delta(0) = \infty
 $$
 																	^^ *test function,*
+### Momentum representation
 
-
-
+Given a well defined quantum state $\bar{r}'$, we can define the Fourier transform 
+$$
+\mathcal F \{ \delta(\bar{r} - \bar{r}') \} =  e^{-i 2\pi \bar{r}' \times \bar{f}}
+$$
+where the $\bar{f}$ is defined as
+$$
+\bar{f} = \frac{\bar{p}}{2\pi \hbar} = \frac{\bar{p}}{h}
+$$
+This means that by applying the [[Fourier transform]] to the delta of Dirac can transform a position representation of a quantum state to the momentum one. So more formally
+$$
+\dot{\phi}(\bar{r}) = \left( \frac{1}{\sqrt{ h }} \right)^{3}\mathcal  F \{ \phi(\bar{r}) \} |_{\bar{f} = \bar{p} /h}  = h^{-3/2}\Phi\left( \frac{\bar{p}}{h} \right) = h^{-3/2} \iiint _{-\infty}^{\infty}\phi(\bar{r}) e^{-i/\hbar \bar{r} \times \bar{p}} \ dxdydz
+$$

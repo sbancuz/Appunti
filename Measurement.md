@@ -29,4 +29,117 @@ A discrete spectrum is such that we have a **countable** infinite of eigenfuncti
 We can define the expansion of a wave function in eigenfunctions of a discrete spectrum observable as
 $$
 \psi = \sum\lambda_{n}\phi_{n} \qquad \lambda_{n} = \left< \phi_{n} | \psi \right> \qquad ||\psi||^{2} = \sum |\lambda_{n}|^{2} 
-$$ 
+$$
+### Projective quantum measurement
+
+We can define the projective quantum measurement of an observable $A$ as **random** and **discontinuous irreversible** process. This is because measuring an observable perturbs the system, thus augmenting entropy. We describe this process as an orthogonal projection -- at random according to some rule for calculating the probabilities -- on to an eigenfunction of the hermitian operator $\hat{A}$. This process of measurement is also called the **collapse of the wave function**.
+
+>[!important]
+>The measurement will put the eigenfunction $\phi$ into a well-defined state.
+
+Now for simplicity we consider a non-degenerate discrete spectrum observable $A$
+$$
+\text{Discrete set of orthonormal eigenfunctions } : \{ \phi_{i}| i=1,\dots,D-1 \}
+$$
+The fact that this set is orthonormal means that it's also a basis for the Hilbert space, so it implies
+$$
+\left< \phi_{n}|\phi_{m} \right>  = \delta_{nm}
+$$
+From this we can define the **eigenspace for the eigenvalue $a$** as the subset of $\mathcal H$ with dimension $1\leq g \leq D$ where
+$$
+\hat{A}\phi' = a\phi'
+$$
+$g$ is called the **multiplicity or order of degeneracy** of the eigenvalue $a$.
+
+>[!note]
+>An eigenvalue is said to be non degenerate if it's multiplicity is $1$. Moreover an eigenfunction when all it's eigenvalues are non degenerate.
+
+### Born's rule
+Now, given a non-measured quantum state $\psi$ and an orthogonal projector $\hat{\Pi}$ onto the eigenfunction $\phi_{n}$ selected with some probability $P_{n}$ we can formally define the measurement as
+$$
+c_{n}\phi_{n} = \hat{\Pi}_{i\phi_{m}}\psi
+$$
+This probability of **measuring** $a_{n}$ from the observable $A$ can be calculated
+$$
+P_{n} = \frac{||\hat{\Pi}_{\phi_{n}}\psi||^{2}}{||\psi||^{2}} = \frac{||c_{n}\phi_{n}||^{2}}{||\psi||^{2}} = |c_{n}|^{2} \frac{||\phi_{n}||^{2}}{||\psi||^{2}} = \frac{|\left< \phi_{n} | \psi \right> |^{2}}{||\phi_{n}||^{2}||\psi||^{2}}
+$$
+And when we consider a normalized wave function we get
+$$
+P_{n} = |c_{n}|^{2} \qquad c = \sqrt{ P_{n} }e^{i\gamma} \qquad |c| = \sqrt{ P_{n} }
+$$
+>[!important]
+>This corresponds to the wave collapse onto the eigenstate $c\phi_{n}$
+### Fidelity
+
+The fidelity between two quantum states $\phi$ and $\psi$ is defined
+$$
+F(\psi, \phi) = \frac{\left< \psi | \phi \right>\left< \phi | \psi \right>}{\left< \psi | \psi \right> \left< \phi | \phi \right>  } = \frac{\left< \phi | \psi \right>^{*}\left< \phi | \psi \right>}{||\psi||^{2} || \phi||^{2}  } = \frac{|\left< \phi | \psi \right>|^{2}}{||\psi||^{2} || \phi||^{2}  }
+$$
+This means that we can define the probability density distribution in terms of the fidelity, in fact
+$$
+P_{n} = F(\psi, \phi_{n})
+$$
+#### Properties
+1) The fidelity is a **real number** $0 \leq f \leq 1$, so it can be seen as a percentage that represents the degree of **similarity** of the quantum states
+	This can be proven using the **Cauchy-Schwartz** inequality $|\left< \psi | \phi \right>| \leq||\psi||\times||\phi||$ . The fidelity is $1$ iff the two vectors are linearly independent. This is because you can write $\psi = \alpha \phi$ , this means that they describe the same quantum state. This is because in general a quantum state represents a *ray* in the Hilbert space. Inversely the fidelity is $0$ iff the two quantum states are orthogonal
+	This is for the same reason as before. 
+	
+	We can generalize this notion to $F(\psi, \phi) = \cos^{2}\theta$ with $F(\dots) = 1 \to0 \leq \theta \leq 90^{o} \gets F(\dots) = 0$ 
+	
+	Being a probability we also have that $\sum_{n}P_{n} = 1$
+
+2) $F(\psi|\phi) = F(\phi|\psi)$
+	I can invert the numerator and the result is the same
+
+3)  Fidelity is defined for quantum states, so $F(\alpha \psi, \beta \phi) = F(\psi, \phi)$
+$$
+F(\alpha \psi, \beta \phi) = \frac{\left< \alpha\psi | \beta\phi \right>\left< \beta\phi | \alpha\psi \right>}{\left< \alpha\psi | \alpha\psi \right> \left< \beta\phi | \beta \phi \right> } = \frac{|\alpha|^{2}|\beta|^{2}|\left< \phi|\psi \right>|^{2} }{|\alpha|^{2}|\beta|^{2}||\psi||^{2} || \phi||^{2}  }
+$$
+### Discrete spectrum observable continuation
+
+ We can also define the expectation value for a discrete spectrum observable as
+$$
+\left< A \right>_{\phi} = \frac{\left<  \psi | \hat{A}\psi \right> }{\left< \psi | \psi \right> } = \text{normalized} = \left<  \psi | \hat{A}\psi \right>  
+$$
+This can be demonstrated by first setting $\psi = \sum_{n}\lambda_{n} \phi_{n}$ where $\phi_{n}$ is an orthonormal basis formed by the eigenstates of $\hat{A}$. So
+$$
+\begin{align}
+\left< \psi | \hat{A}\psi \right>  & = \int _{-\infty}^{\infty}\psi^{*}\hat{A}\sum\lambda_{n}\phi_{n}(\bar{r}) \, d\bar{r}  =\sum a_{n}\lambda_{n} \int _{-\infty}^{\infty}\psi^{*}\phi_{n}(\bar{r}) \, d\bar{r}   =\sum a_{n}\lambda_{n} \int _{-\infty}^{\infty}\sum \phi_{m}^{*}\lambda_{m}^{*} \phi_{n}(\bar{r}) \, d\bar{r} = \\
+	 & =\sum\sum\lambda_{n}\lambda_{m}^{*}a_{n} \int _{-\infty}^{\infty}\phi_{n}(\bar{r})\phi_{m}^{*}(\bar{r}) \, d\bar{r} =\sum\sum\lambda_{n}\lambda_{m}^{*}a_{n} \delta_{mn} = \sum |\lambda|^{2}a_{n} = \sum a_{n} |\left< \phi_{n} | \psi \right> | ^{2} = \\
+ &  =\sum a_{n} F(\phi_{n}, \psi) = \sum a_{n}P_{n} 
+\end{align}
+$$
+
+The uncertainty in the measurement $\Delta_{\psi} A$ as
+$$
+\begin{align}
+(\Delta A)^{2}_{\psi}  & = \left< (A - \left< A \right>_{\psi})^{2} \right>_{\psi} =  \left< A^{2} - 2A\left< A \right>_{\psi} + \left< A \right>_{\psi}^{2}   \right>_{\psi} = \left< A^{2} \right>_{\psi} -2\left< A \right>_{\psi}\left< A \right>_{\psi} + \left< A \right>^{2}_{\psi} = \left< A^{2} \right>_{\psi} - \left< A \right>_{\psi}^{2}      
+
+\end{align}
+$$
+### Continuous spectrum observable
+
+The real eigenvalues of $A$ form a continuum and are indexed by a continuous parameter $\alpha \in I$. The generalized orthogonal condition in the continuous case becomes
+$$
+\left< \phi_{\alpha} | \phi_{\beta} \right> = \delta(\alpha - \beta) = \begin{cases}
+\infty  & \alpha = \beta\\
+0  & \alpha \neq\beta
+\end{cases} 
+$$
+In the continuous superposition can be rewritten as
+$$
+\psi = \int _{-\infty}^{\infty}\lambda_{\alpha}\phi_{\alpha} \, d\alpha  \qquad ||\psi|| = 1
+$$
+The relation with the eigenfunction remains
+$$
+\hat{A} \phi_{\alpha} = a_{\alpha}\phi_{a}
+$$
+and in the non-degenerate case we can say
+$$
+\alpha = a_{\alpha}
+$$
+This means that
+$$
+\lambda_{\alpha} = \left< \phi_{\alpha} | \psi \right>  \qquad \int _{I} |\lambda_{\alpha}|^{2} \, d\alpha = 1 \qquad P(\alpha) = |\left< \phi_{\alpha} | \psi \right> | ^{2} = |\lambda_{\alpha}|^{2} 
+$$
+
