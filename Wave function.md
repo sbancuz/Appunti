@@ -47,6 +47,15 @@ This also means that
 $$
 || \psi'||^{2} = \left< \psi',\psi' \right> = 1 
 $$
+### TLDR
+
+```math
+||{"id":506104201209}||
+
+
+```
+
+
 ### Position representation
 
 Consider a wave function with well-defined **momentum** $\bar{p}'=\hbar \bar{k}'$. The wave function is an **eigenfunction** of an hermitian operator $\hat{\bar{p}}$. Then the complementary representation in position representation defined 
@@ -81,36 +90,6 @@ So the probability density function becomes
 $$
 P(x) = | \psi (x)| ^{2}
 $$
-
-### Delta of Dirac
-
-Since we can't define a point for a quantum particle to be, we have to use a differential notation to define it's position. Dirac proposed this operator defined as
-$$
-\psi_{\bar{r}'} (\bar{r}) =\delta(\bar{r} - \bar{r}') = \begin{cases}
-\infty  & \bar{r} = \bar{r}' \\
-0  & \text{otherwise}
-\end{cases}
-$$
-This is also called a **generalized function**, they are also called **distribution**.
-
->[!note]
->This is a 3 dimensional delta, it can be rewritten with 1 dimension and it will still behave the same
-
-The definition of this delta function is given by
-$$
-\int _{-\infty}^{\infty}\delta(x-x') \psi(x)\, dx = \psi(x'), \qquad \psi(x) \text{ is a test function}
-$$
-This is an example of a **tempered distribution** -- it can be used with a [[Fourier transform]]. Also this test function must tend rapidly to $0$, i.e. an exponential decay and all the derivatives must be continuous. These are called **Schwartz** functions. 
-
-All tempered distributions are the **continuous linear functional** $\phi$ on $\mathcal S$
-$$
-\phi:\mathcal S \to \mathbb  C \qquad \phi = \delta(x-x') \qquad \left< \delta(x-x')| \psi '\in \mathcal S\right> =  \int _{-\infty}^{\infty}\delta(x-x') \psi(x)\, dx = \psi(x') 
-$$
-Another important property of this function is that is not normalizable in fact
-$$
-||\delta(\bar{r}-\bar{r}')||^{2 } = \iiint _{-\infty}^{\infty}\delta(\bar{r}-\bar{r}') \delta(\bar{r}-\bar{r}') \ dxdydz = \delta(0) = \infty
-$$
-																	^^ *test function,*
 ### Momentum representation
 
 Given a well defined quantum state $\bar{r}'$, we can define the Fourier transform 
@@ -121,7 +100,7 @@ where the $\bar{f}$ is defined as
 $$
 \bar{f} = \frac{\bar{p}}{2\pi \hbar} = \frac{\bar{p}}{h}
 $$
-This means that by applying the [[Fourier transform]] to the delta of Dirac can transform a position representation of a quantum state to the momentum one. So more formally
+This means that by applying the [[Fourier transform]] to the [[delta of Dirac ]]can transform a position representation of a quantum state to the momentum one. So more formally
 $$
 \dot{\phi}(\bar{r}) = \left( \frac{1}{\sqrt{ h }} \right)^{3}\mathcal  F \{ \phi(\bar{r}) \} |_{\bar{f} = \bar{p} /h}  = h^{-3/2}\Phi\left( \frac{\bar{p}}{h} \right) = h^{-3/2} \iiint _{-\infty}^{\infty}\phi(\bar{r}) e^{-i/\hbar \bar{r} \times \bar{p}} \ dxdydz
 $$
@@ -131,6 +110,14 @@ $$
 $$
 The eigenstates form a **generalized** orthonormal basis. So
 $$
-\hat{p}_{x} \phi_{p_{x'}} = p_{x}'\phi_{p_{x}'} \qquad \left< \phi_{p_{x}'} | \phi_{p_{x}''} \right> = \delta(p'_{x} - p''_{x}) 
+\hat{p}_{x} \phi_{p_{x'}} = p_{x}'\phi_{p_{x}'} \qquad \left< \phi_{p_{x}'} | \phi_{p_{x}''} \right> = \delta(p'_{x} - p''_{x})  = \begin{cases}
+0  & p_{x}' \neq p_{x}'' \\
+\infty  & \text{otherwise}
+\end{cases}
 $$
+It's also possible to define the expansion of a normalized quantum state in the continuous basis $\{ \phi_{p_{x}'} \}$
+$$
+\psi(x) = \int _{-\infty}^{\infty}\lambda_{p_{x}'}\phi_{p_{x}'} \, dp_{x}' \qquad \lambda_{p_{x}'} = \left< \phi_{p_{x}'} | \psi \right> =  \dot{\psi}(p_{x}') \qquad \phi_{p_{x}'} = \int _{-\infty}^{\infty}\hbar^{-1/2}e^{1/\hbar p_{x}x} \, dx 
+$$
+					^^ *position representation*                                                          ^^ *momentum representation*
 
