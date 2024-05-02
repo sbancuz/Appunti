@@ -54,8 +54,16 @@ $$
 
 
 ```
-
-
+$$
+\phi_{p'_{x}} = \begin{cases}
+h^{-1/2}e^{-1/\hbar \times p_{x}'(x)}  & \text{position repr} \\
+\delta(p_{x} - p_{x}' )  & \text{momentum repr}
+\end{cases}
+\qquad \phi_{x'} = \begin{cases}
+\delta(x-x') \\
+h^{-1/2}e^{-1/\hbar \times p_{x}'(x)}  
+\end{cases}
+$$
 ### Position representation
 
 Consider a wave function with well-defined **momentum** $\bar{p}'=\hbar \bar{k}'$. The wave function is an **eigenfunction** of an hermitian operator $\hat{\bar{p}}$. Then the complementary representation in position representation defined 
@@ -117,7 +125,7 @@ $$
 $$
 It's also possible to define the expansion of a normalized quantum state in the continuous basis $\{ \phi_{p_{x}'} \}$
 $$
-\psi(x) = \int _{-\infty}^{\infty}\lambda_{p_{x}'}\phi_{p_{x}'} \, dp_{x}' \qquad \lambda_{p_{x}'} = \left< \phi_{p_{x}'} | \psi \right> =  \dot{\psi}(p_{x}') \qquad \phi_{p_{x}'} = \int _{-\infty}^{\infty}\hbar^{-1/2}e^{1/\hbar p_{x}x} \, dx 
+\psi(x) = \int _{-\infty}^{\infty}\lambda_{p_{x}'}\phi_{p_{x}'} \, dp_{x}' \qquad \lambda_{p_{x}'} = \left< \phi_{p_{x}'} | \psi \right> =  \dot{\psi}(p_{x}') \qquad \phi_{p_{x}'} = \int _{-\infty}^{\infty}h^{-1/2}e^{1/\hbar p_{x}x} \, dx 
 $$
 					^^ *position representation*                                                          ^^ *momentum representation*
 

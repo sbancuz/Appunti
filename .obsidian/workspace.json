@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wave function.md",
+                "file": "Uncertainty principle.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Bully",
+                "query": "Heisen",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Wave function.md",
+                "file": "Uncertainty principle.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wave function.md",
+                "file": "Uncertainty principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wave function.md",
+                "file": "Uncertainty principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wave function.md"
+                "file": "Uncertainty principle.md"
               }
             }
           }
@@ -245,18 +245,20 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
-    "Delta of Dirac.md",
+    "Criterion of reality.md",
+    "Uncertainty principle.md",
+    "Measurement.md",
+    "Projective quantum measurement.md",
     "Wave function.md",
+    "Delta of Dirac.md",
     "Position representation.md",
     "Leader election.md",
-    "Measurement.md",
     "Calcolo integrale.md",
     "Disuguaglianza di Schwartz.md",
     "Fourier transform.md",
     "Serie di Fourier.md",
     "Quantum harmonic oscillator.md",
     "De Broglie wavelength.md",
-    "Criterion of reality.md",
     "Particle-wave dualism.md",
     "Photon.md",
     "Branch prediction.md",
@@ -271,9 +273,7 @@
     "Kernel methods.md",
     "kernels.png",
     "Supervised learning.md",
-    "PAC learning.md",
     "Version space.png",
-    "System.md",
     "model error.png",
     "bias-variance decomposition.png",
     "speculative tomasulo.png",

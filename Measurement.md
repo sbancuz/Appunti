@@ -18,57 +18,7 @@ $$
 $$
 The physically realizable quantum states for a particle are described by a normalizable [[Wave function]] -- square modulus integrable.
 
-An observable $A$ is described by a Hermitian operator $\hat{A}$ -- hence real eigenvalues and orthogonal eigenfunctions -- with the existence of an **orthonormal basis** -- for the Hilbert space $\mathcal H$ -- formed by eigenvalues of $\hat{A}$.
-### Quantization
-
-A discrete spectrum is such that we have a **countable** infinite of eigenfunctions $\phi$ and associated eigenvalues $\lambda$. We now consider a **discrete spectrum** observable $A$ for the Hilbert space $L^{2}$ of normalizable wave function, which for example are the
-- orbital angular momentum
-- the spin considered to the **qbit**
-- energy
-
-We can define the expansion of a wave function in eigenfunctions of a discrete spectrum observable as
-$$
-\psi = \sum\lambda_{n}\phi_{n} \qquad \lambda_{n} = \left< \phi_{n} | \psi \right> \qquad ||\psi||^{2} = \sum |\lambda_{n}|^{2} 
-$$
-### Projective quantum measurement
-
-We can define the projective quantum measurement of an observable $A$ as **random** and **discontinuous irreversible** process. This is because measuring an observable perturbs the system, thus augmenting entropy. We describe this process as an orthogonal projection -- at random according to some rule for calculating the probabilities -- on to an eigenfunction of the hermitian operator $\hat{A}$. This process of measurement is also called the **collapse of the wave function**.
-
->[!important]
->The measurement will put the eigenfunction $\phi$ into a well-defined state.
-
-Now for simplicity we consider a non-degenerate discrete spectrum observable $A$
-$$
-\text{Discrete set of orthonormal eigenfunctions } : \{ \phi_{i}| i=1,\dots,D-1 \}
-$$
-The fact that this set is orthonormal means that it's also a basis for the Hilbert space, so it implies
-$$
-\left< \phi_{n}|\phi_{m} \right>  = \delta_{nm}
-$$
-From this we can define the **eigenspace for the eigenvalue $a$** as the subset of $\mathcal H$ with dimension $1\leq g \leq D$ where
-$$
-\hat{A}\phi' = a\phi'
-$$
-$g$ is called the **multiplicity or order of degeneracy** of the eigenvalue $a$.
-
->[!note]
->An eigenvalue is said to be non degenerate if it's multiplicity is $1$. Moreover an eigenfunction when all it's eigenvalues are non degenerate.
-
-### Born's rule
-Now, given a non-measured quantum state $\psi$ and an orthogonal projector $\hat{\Pi}$ onto the eigenfunction $\phi_{n}$ selected with some probability $P_{n}$ we can formally define the measurement as
-$$
-c_{n}\phi_{n} = \hat{\Pi}_{i\phi_{m}}\psi
-$$
-This probability of **measuring** $a_{n}$ from the observable $A$ can be calculated
-$$
-P_{n} = \frac{||\hat{\Pi}_{\phi_{n}}\psi||^{2}}{||\psi||^{2}} = \frac{||c_{n}\phi_{n}||^{2}}{||\psi||^{2}} = |c_{n}|^{2} \frac{||\phi_{n}||^{2}}{||\psi||^{2}} = \frac{|\left< \phi_{n} | \psi \right> |^{2}}{||\phi_{n}||^{2}||\psi||^{2}}
-$$
-And when we consider a normalized wave function we get
-$$
-P_{n} = |c_{n}|^{2} \qquad c = \sqrt{ P_{n} }e^{i\gamma} \qquad |c| = \sqrt{ P_{n} }
-$$
->[!important]
->This corresponds to the wave collapse onto the eigenstate $c\phi_{n}$
+An observable $A$ is described by a Hermitian operator $\hat{A}$ -- hence real eigenvalues and orthogonal eigenfunctions -- with the existence of an **orthonormal basis** -- for the Hilbert space $\mathcal H$ -- formed by eigenvalues of $\hat{A}$. This concept can be expanded to the [[Projective quantum measurement]]
 ### Fidelity
 
 The fidelity between two quantum states $\phi$ and $\psi$ is defined
@@ -97,6 +47,15 @@ F(\alpha \psi, \beta \phi) = \frac{\left< \alpha\psi | \beta\phi \right>\left< \
 $$
 ### Discrete spectrum observable continuation
 
+A discrete spectrum is such that we have a **countable** infinite of eigenfunctions $\phi$ and associated eigenvalues $\lambda$. We now consider a **discrete spectrum** observable $A$ for the Hilbert space $L^{2}$ of normalizable wave function, which for example are the
+- orbital angular momentum
+- the spin considered to the **qbit**
+- energy
+
+We can define the expansion of a wave function in eigenfunctions of a discrete spectrum observable as
+$$
+\psi = \sum\lambda_{n}\phi_{n} \qquad \lambda_{n} = \left< \phi_{n} | \psi \right> \qquad ||\psi||^{2} = \sum |\lambda_{n}|^{2} 
+$$
  We can also define the expectation value for a discrete spectrum observable as
 $$
 \left< A \right>_{\phi} = \frac{\left<  \psi | \hat{A}\psi \right> }{\left< \psi | \psi \right> } = \text{normalized} = \left<  \psi | \hat{A}\psi \right>  
@@ -142,4 +101,7 @@ This means that
 $$
 \lambda_{\alpha} = \left< \phi_{\alpha} | \psi \right>  \qquad \int _{I} |\lambda_{\alpha}|^{2} \, d\alpha = 1 \qquad P(\alpha) = |\left< \phi_{\alpha} | \psi \right> | ^{2} = |\lambda_{\alpha}|^{2} 
 $$
+### Simultaneously measurable observable
+
+Two observable are said to be simultaneously measurable or **compatible** when it exists an orthonormal basis formed by **common eigenstates** of both Hermitian operators $\hat{A},\hat{B}$. This condition can be defined as: two observable $A.B$ are compatible iff $\hat{A},\hat{B}$ commutate
 
