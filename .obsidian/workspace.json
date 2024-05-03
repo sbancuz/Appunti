@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Schrodinger equation.md",
+                "file": "Stochastic Markov Decision process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Schrodinger equation.md",
+                "file": "Stochastic Markov Decision process.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Schrodinger equation.md",
+                "file": "Stochastic Markov Decision process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Schrodinger equation.md",
+                "file": "Stochastic Markov Decision process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Schrodinger equation.md"
+                "file": "Stochastic Markov Decision process.md"
               }
             }
           }
@@ -243,12 +243,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b6d2ccd68b38ea6d",
+  "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
-    "Wave function.md",
-    "Schrodinger equation.md",
     "Reinforcement learning.md",
+    "Stochastic Markov Decision process.md",
     "Markov property.md",
+    "Markov Decision processes.md",
+    "Schrodinger equation.md",
+    "Wave function.md",
     "Uncertainty principle.md",
     "Criterion of reality.md",
     "Measurement.md",
@@ -270,8 +272,6 @@
     "Automatic parallelization.md",
     "CRT.png",
     "Support vector machines.md",
-    "Ottimizzazione per funzione di più variabili.md",
-    "Teorema di Lagrange.md",
     "kernels.png",
     "Version space.png",
     "model error.png",
