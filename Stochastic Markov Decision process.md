@@ -31,3 +31,23 @@ This means that we can also decompose the action-value function
 $$
 Q^{\pi}(s,a) = R(s,a) + \gamma \sum_{s'} P(s'|s,a)\sum_{a'}\pi(s',a')Q^{\pi}(s',a')
 $$
+We now define the **Bellman operator** for $V^{\pi }$ as $T^{\pi}: \mathbb R^{|S|} \to \mathbb R^{|S|}$ 
+$$
+T^{\pi}V^{\pi} = V^{\pi}
+$$
+### Optimal policy
+
+Value function define a partial ordering over policies 
+$$
+\pi \geq \pi' if V^{\pi }(s) \geq V^{\pi'}(s), \forall {s \in S}  {} 
+$$
+For any MDP there exists **an optimal policy** $\pi^{*}$ that is better than or equal to all other policies 
+$$
+\pi^{*} \geq \pi \qquad \forall {\pi}  {} 
+$$
+This is given by maximizing the over $Q^{*}(s,a)$
+
+This operator is 
+- Monotonic $\to$ if $f_{1} \leq f_{2}\implies T^{\pi}f_{1} \leq T^{\pi}f_{2}$
+- Max norm contraption $\to$ $||T^{\pi} f_{1} -T^{\pi}f_{2}||_{\infty} \leq \gamma||f_{1} -f_{2}||_{\infty}$
+- $\lim_{ k \to \infty } {(T^{\pi})^{k}f = V^{\pi}}$
