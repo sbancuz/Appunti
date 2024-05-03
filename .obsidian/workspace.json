@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uncertainty principle.md",
+                "file": "Schrodinger equation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Uncertainty principle.md",
+                "file": "Schrodinger equation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -111,7 +111,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 407,
-                  "scale": 0.34032255756296437,
+                  "scale": 0.24438968678416192,
                   "close": true
                 }
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uncertainty principle.md",
+                "file": "Schrodinger equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uncertainty principle.md",
+                "file": "Schrodinger equation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uncertainty principle.md"
+                "file": "Schrodinger equation.md"
               }
             }
           }
@@ -243,13 +243,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "994e6bb077b1fbeb",
+  "active": "b6d2ccd68b38ea6d",
   "lastOpenFiles": [
-    "Criterion of reality.md",
+    "Wave function.md",
+    "Schrodinger equation.md",
+    "Reinforcement learning.md",
+    "Markov property.md",
     "Uncertainty principle.md",
+    "Criterion of reality.md",
     "Measurement.md",
     "Projective quantum measurement.md",
-    "Wave function.md",
     "Delta of Dirac.md",
     "Position representation.md",
     "Leader election.md",
@@ -269,10 +272,7 @@
     "Support vector machines.md",
     "Ottimizzazione per funzione di più variabili.md",
     "Teorema di Lagrange.md",
-    "Classification.md",
-    "Kernel methods.md",
     "kernels.png",
-    "Supervised learning.md",
     "Version space.png",
     "model error.png",
     "bias-variance decomposition.png",

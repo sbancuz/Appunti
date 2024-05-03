@@ -2,18 +2,26 @@
 tags:
   - machine_learning
 ---
-It performs actions that affect the environment, and receiving rewards it learn to maximize its long-term reward. The choice of when rewarding the agent is very important, let's consider racing: you could give rewards when an agent has won the race or depending on its position. These are called **sparse** rewards because most of the time the agent doesn't receive them. A better approach to make the learning process much easier and faster would be to give rewards for going in the right direction in the track. As long as we can provide the correct reward signal to the agent, reinforcement learning provides a general way to build AI systems.
+It performs actions that affect the environment, and receiving rewards it learn to maximize its **long-term reward**. The choice of when rewarding the agent is very important, let's consider racing: you could give rewards when an agent has won the race or depending on its position. These are called **sparse** rewards because most of the time the agent doesn't receive them. A better approach to make the learning process much easier and faster would be to give rewards for going in the right direction in the track. As long as we can provide the correct reward signal to the agent, reinforcement learning provides a general way to build AI systems.
 
-The agent needs to compute an action-value function mapping state-action pairs to expected payoffs
+We can define the **history** as the sequence of observations, actions and rewards
 $$
-Q(a_{t}, s_{t}) = payoff
+h_{t} = o_{0},a_{0},r_{0},\dots
+$$
+i.e. all the available information up to time $t$. The state $s_{t}$ then can be represented as function of the history of the agent.
+The agent works by computing an action-value function mapping state-action pairs to expected payoffs
+$$
+Q(a_{t}, s_{t}) = \text{payoff}
 $$
 or state-value functions mapping to expected payoffs.
 $$
-V( s_{t}) = payoff
+V( s_{t}) = \text{payoff}
 $$
 Reinforcement learning assumes $Q(\dots)$ to be represented as a table, but in the real world we cannot afford to compute it exactly.
-#### Action selection & policy
+
+>[!note]
+>Reinforcement learning should be used when we don't know the dynamics of the system we want our agent to be in, or when the environment is just too hard to be solved exactly.
+### Action selection & policy
 
 At each time step, the agent must decide what action to take. And at any given point in time the policy $\pi(st)$ select that very action. So the policy determines how actions map to the new states, and they can be:
 - deterministic : this can be modeled as a functions $\pi: S \to A$ 
@@ -28,12 +36,13 @@ The 2 main type of policies are:
 - $\epsilon$-greedy policy: that with a certain $\epsilon$ probability performs a random action otherwise it performs the best one
 
 The environment also has to satisfy the [[Markov property]].
+### Markov Decision processes
 
-Since the agent has to maximize the reward it receives in the long run
+A Markov Decision process is described by a tuple $\left< S,A,P,R \right>$ where $P$ is the **state transition probability matrix**. Since the agent has to maximize the reward it receives in the long run
 $$
 G_{t} \to \infty
 $$
-so we provide an upper bound to the payoff introducing a discount factor to the future rewards
+we have to provide an upper bound to the payoff introducing a discount factor to the future rewards
 $$
 G_{t} \dot{=} R_{t+1} + \gamma R_{t+2}+ \gamma^{2} R_{t+3}+ \dots + \gamma^{k-1} R_{t+k} + \dots < \infty
 $$
@@ -41,7 +50,7 @@ Thus the expected reward is defined as
 $$
 \mathbb  E [G_{k}] = \mathbb E \left[ \sum_{k}^{\infty}\gamma^{k}R_{t+k+1} \right]≤ R_{max} \frac{1}{1-\gamma}
 $$
-##### Goal and rewards
+#### Goal and rewards
 
 The action value function and state value function can both be decomposed as the sum of immediate reward
 $$
