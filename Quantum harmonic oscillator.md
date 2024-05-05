@@ -13,4 +13,4 @@ $$
 >[!info]
 >The electron is a fermion particle with half integer number of spins $s$ 
 
-In this case we can make [[Measurement]] with respect to the axis of the spin. This is also a physical implementation of the **qbit** in $\mathcal H_{2}$. To continue with this example, the eigenfunctions would be **spin-up** and **spin-down** along some axis $\xi$.
+In this case we can make [[Measurement]] with respect to the axis of the spin. This is also a physical implementation of the [[qubit]] in $\mathcal H_{2}$. To continue with this example, the eigenfunctions would be **spin-up** and **spin-down** along some axis $\xi$.

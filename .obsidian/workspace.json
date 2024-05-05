@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stochastic Markov Decision process.md",
+                "file": "qubit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Heisen",
+                "query": "qubit",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Stochastic Markov Decision process.md",
+                "file": "qubit.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stochastic Markov Decision process.md",
+                "file": "qubit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stochastic Markov Decision process.md",
+                "file": "qubit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stochastic Markov Decision process.md"
+                "file": "qubit.md"
               }
             }
           }
@@ -245,15 +245,17 @@
   },
   "active": "994e6bb077b1fbeb",
   "lastOpenFiles": [
-    "Reinforcement learning.md",
+    "Wave function.md",
+    "qubit.md",
+    "Measurement.md",
+    "Quantum harmonic oscillator.md",
     "Stochastic Markov Decision process.md",
+    "Reinforcement learning.md",
     "Markov property.md",
     "Markov Decision processes.md",
     "Schrodinger equation.md",
-    "Wave function.md",
     "Uncertainty principle.md",
     "Criterion of reality.md",
-    "Measurement.md",
     "Projective quantum measurement.md",
     "Delta of Dirac.md",
     "Position representation.md",
@@ -262,7 +264,6 @@
     "Disuguaglianza di Schwartz.md",
     "Fourier transform.md",
     "Serie di Fourier.md",
-    "Quantum harmonic oscillator.md",
     "De Broglie wavelength.md",
     "Particle-wave dualism.md",
     "Photon.md",
@@ -271,7 +272,6 @@
     "Parallelization.md",
     "Automatic parallelization.md",
     "CRT.png",
-    "Support vector machines.md",
     "kernels.png",
     "Version space.png",
     "model error.png",

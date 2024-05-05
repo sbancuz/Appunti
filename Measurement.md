@@ -49,7 +49,7 @@ $$
 
 A discrete spectrum is such that we have a **countable** infinite of eigenfunctions $\phi$ and associated eigenvalues $\lambda$. We now consider a **discrete spectrum** observable $A$ for the Hilbert space $L^{2}$ of normalizable wave function, which for example are the
 - orbital angular momentum
-- the spin considered to the **qbit**
+- the spin considered to the [[qubit]]
 - energy
 
 We can define the expansion of a wave function in eigenfunctions of a discrete spectrum observable as

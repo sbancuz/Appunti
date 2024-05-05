@@ -47,6 +47,14 @@ This also means that
 $$
 || \psi'||^{2} = \left< \psi',\psi' \right> = 1 
 $$
+This notation is also linear in the scalar product for the **second** argument
+$$
+\left< \psi' | \sum\lambda\phi \right> = \sum\lambda \left< \psi' | \phi \right> 
+$$
+The **conjugate symmetry** can be calculated as such
+$$
+\left< \psi | \psi' \right> = \left< \psi' | \psi \right> ^{*} 
+$$ 
 ### TLDR
 
 ```math
