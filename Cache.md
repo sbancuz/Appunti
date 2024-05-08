@@ -32,7 +32,7 @@ How do we put data in the cache? We 3 methods depending on the cache architectur
 - Direct mapping
 	Each memory location maps only to one cache location
 $$
-(\text{Block address})_{\text{cache}} =  (\text{Block address})_{\text{memory}}  +  \text{mod}(\#\text{cache lines})
+(\text{Block address})_{\text{cache}} =  (\text{Block address})_{\text{memory}}  \text{mod}(\#\text{cache lines})
 $$
 - Fully associative cache
 	The memory block can be put in any position of the cache, the problem is that we have to search the data in all cache lines
@@ -40,8 +40,20 @@ $$
 - n-way Set-associative cache
 	This is a middle ground of the 2 architectures, the memory blocks can be put in any cache line of the set
 $$
-(\text{Set})_{\text{cache}} =  (\text{Block address})_{\text{memory}}  +  \text{mod}(\#\text{sets})
+\begin{align}
+(\text{Set})_{\text{cache}}  & =  (\text{Block address})_{\text{memory}}  \text{mod}(\#\text{sets}) \\ \\
+\# \text{Blocks} = \frac{\text{Cache size}}{\text{Block size}}  &\qquad \# \text{Sets} = \frac{\text{Cache size}}{\text{Block size} \times n} 
+\end{align}
 $$
 To actually choose the block when reading we can just use an **LRU policy**, and on a write we can use a **write-back** policy and write it back to lower memory only when the cache line is replaced because of a miss. Upon a miss when writing we can use a **write allocate** that allocates a new cache line.
+### What happens on a write?
+
+In the case that we have a hit we have to make a choice:
+- Write-through 
+	The information is written to both the block in the cache and to the block in lower level memory. To be effective we need to add a **write FIFO buffer** to avoid write stall when writing to lower memory.  This has the the advantage of keeping the memory always up to date.
+
+- Write-back
+	The information is written only to the block in the cache and it gets written in memory **only** when it's replaced due to a miss. To implement this we need a **dirty bit** in each cache block. This has the advantage of few writes in the main memory in the case of multiple writes on the same cache block.
+
 
 ![[cache summary.png]]
