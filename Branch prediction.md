@@ -2,7 +2,7 @@
 tags:
   - computer_architecture
 ---
-It's a method for solving a [[MIPS#Data hazards]] that assumes a given outcome for the branch and proceeds speculatively from that assumption rather than waiting to certify the actual branch outcome. There are 2 types of branch prediction techniques:
+It's a method for solving a [[MIPS#Data hazards]] and [[Control hazards]] that assumes a given outcome for the branch and proceeds speculatively from that assumption rather than waiting to certify the actual branch outcome. There are 2 types of branch prediction techniques:
 - Static prediction, so done at compiler time
 - Dynamic prediction, so done at runtime
 ### Static prediction

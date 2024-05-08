@@ -21,9 +21,15 @@ $$
 $$
 There is also a **dual** representation
 $$
-\bra{\psi}  = \sum \lambda \bra{\phi} 
+\bra{\psi}  = \sum \lambda^{*} \bra{\phi} 
 $$
 that can be calculated from the **bra** notation using an anti-linear isometric operator $+$, or vice versa $+^{-1}$, this is called the **Daga** and mathematically is the conjugate transposition.
 $$
 \bra{\psi}  = \ket{\psi} ^{+}
+$$
+### Norm 
+
+We can define the norm for a qubit as
+$$
+||\psi||^{2} = |\alpha|^{2} + |\beta|^{2} 
 $$

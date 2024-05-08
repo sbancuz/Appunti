@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc81823bd9661295",
+        "id": "9b267598f31aad17",
         "type": "tabs",
         "children": [
           {
-            "id": "994e6bb077b1fbeb",
+            "id": "6e7e830478c23108",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "qubit.md",
+                "file": "Cache.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "qubit.md",
+                "file": "Cache.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 314,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "qubit.md",
+                "file": "Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "qubit.md",
+                "file": "Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "qubit.md"
+                "file": "Cache.md"
               }
             }
           }
@@ -243,11 +244,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "994e6bb077b1fbeb",
+  "active": "6e7e830478c23108",
   "lastOpenFiles": [
-    "Wave function.md",
+    "Performance metrics.md",
+    "Cache.md",
+    "Branch prediction.md",
+    "Control hazards.md",
+    "CPU Pipelining.md",
+    "Time complexity for PRAM.md",
+    "Data hazards.md",
+    "Structural hazards.md",
+    "MIPS.md",
+    "Dynamic scheduling.md",
     "qubit.md",
     "Measurement.md",
+    "Wave function.md",
     "Quantum harmonic oscillator.md",
     "Stochastic Markov Decision process.md",
     "Reinforcement learning.md",
@@ -261,16 +272,6 @@
     "Position representation.md",
     "Leader election.md",
     "Calcolo integrale.md",
-    "Disuguaglianza di Schwartz.md",
-    "Fourier transform.md",
-    "Serie di Fourier.md",
-    "De Broglie wavelength.md",
-    "Particle-wave dualism.md",
-    "Photon.md",
-    "Branch prediction.md",
-    "Hardware based speculation.md",
-    "Parallelization.md",
-    "Automatic parallelization.md",
     "CRT.png",
     "kernels.png",
     "Version space.png",

@@ -17,18 +17,7 @@ Caches are designed in a memory hierarchy ($L1, L 2, L 3$) and are designed base
 The minimum chunk of data that can be copied to cache is called **cache line**, to exploit spatial locality the cache line size must be a multiple of a word in the register size. When we find some data in the cache it's called a **cache hit**, if not it will be a **cache miss**.
 
 >[!warning]
->A cache miss is very slow! From going from one level to the next is one order of magnitude slower!
-
-$$
-\text{Hit rate} = \frac{\# \text{Hits}}{\# \text{memory access}es} \qquad \text{AMAT} = \text{Hit rate} \times \text{Hit time} + \text{Miss rate} \times \text{Miss time}
-$$
-The average memory access time can be rewritten as
-$$
-\text{AMAT} = \text{Hit time} + \text{Miss rate} \times \text{Miss penalty}
-$$
-We can also divide the types of caches in 2:
-- Unified caches
-- Separated caches $\to$ A instruction level cache and data level cache (MIPS and RISC are this one)
+>A cache miss is very slow! From going from one level to the next is one order of magnitude slower! See also [[Performance metrics]]
 #### Cache structure
 
 All cache lines are divide in 3 parts:
