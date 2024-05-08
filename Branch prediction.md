@@ -2,7 +2,7 @@
 tags:
   - computer_architecture
 ---
-It's a method for solving a [[MIPS#Data hazards]] and [[Control hazards]] that assumes a given outcome for the branch and proceeds speculatively from that assumption rather than waiting to certify the actual branch outcome. There are 2 types of branch prediction techniques:
+It's a method for solving [[Control hazards]] that assumes a given outcome for the branch and proceeds speculatively from that assumption rather than waiting to certify the actual branch outcome. There are 2 types of branch prediction techniques:
 - Static prediction, so done at compiler time
 - Dynamic prediction, so done at runtime
 ### Static prediction
@@ -20,7 +20,7 @@ There are 5 different techniques to achieve this:
 - Delayed branch
 ### Dynamic prediction
 
-To use the past branch behavior to predict at runtime the future branch behavior. We need also to memorize the outcome of a branch inside some kind of hardware buffer, this buffer is put in the instruction fetch phase. We need to put 2 information in this buffer:
+To use the past branch behavior to predict at runtime the future branch behavior. We need also to memorize the outcome of a branch inside some kind of hardware buffer, this buffer is put in the instruction fetch phase. We need to put 2 pieces of information in this buffer:
 - Branch Outcome Predictor $\to$ it says to take or not to take
 - Branch Target Buffer $\to$ holds the address of the branch in case the branch is taken
 
@@ -35,4 +35,4 @@ There are 4 techniques for dynamic branch prediction:
 	There is a global history table and a second level history table called **pattern history table** used locally
 
 - Branch target buffer
-	Is a cache storing the **predicted target address** for the taken branch instructions. This can be expressed as PC-relative. This has 3 columns: tags, PTA, branch history table (Only for the dynamic predictions)
+	Is a [[cache]] storing the **predicted target address** for the taken branch instructions. This can be expressed as PC-relative. This has 3 columns: tags, PTA, branch history table (Only for the dynamic predictions)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "CPU Pipelining.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "qubit",
+                "query": "dynamic scheduler",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cache.md",
+                "file": "CPU Pipelining.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cache.md",
+                "file": "CPU Pipelining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cache.md",
+                "file": "CPU Pipelining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cache.md"
+                "file": "CPU Pipelining.md"
               }
             }
           }
@@ -246,19 +246,21 @@
   },
   "active": "6e7e830478c23108",
   "lastOpenFiles": [
+    "MIPS.md",
+    "CPU Pipelining.md",
+    "Dynamic scheduling.md",
+    "Data hazards.md",
+    "Parallelization.md",
+    "Register renaming.md",
+    "Performance metrics.md",
+    "Cache.md",
+    "Branch prediction.md",
     "System.md",
     "Model optimization problems.md",
     "Modeling.md",
-    "Cache.md",
-    "Performance metrics.md",
-    "Branch prediction.md",
     "Control hazards.md",
-    "CPU Pipelining.md",
     "Time complexity for PRAM.md",
-    "Data hazards.md",
     "Structural hazards.md",
-    "MIPS.md",
-    "Dynamic scheduling.md",
     "qubit.md",
     "Measurement.md",
     "Wave function.md",
@@ -270,8 +272,6 @@
     "Schrodinger equation.md",
     "Uncertainty principle.md",
     "Criterion of reality.md",
-    "Projective quantum measurement.md",
-    "Delta of Dirac.md",
     "CRT.png",
     "kernels.png",
     "Version space.png",

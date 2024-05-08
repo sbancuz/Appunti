@@ -63,7 +63,7 @@ can be parallelized in clusters of $5$ elements since on the first cluster only 
 Performance is often more limited by data movement than by computation, this means that transferring data across networks can take many cycles, thus minimizing the overhead is important. Another aspect is the locality of the data, that is, where things are stored.
 
 For this exact purpose we can define two approaches for storing multiple structures 
-- Array of structures ->  this has the advantage of better cache utilization on random access
+- Array of structures ->  this has the advantage of better [[cache]] utilization on random access
 - Structure of arrays -> better for vectorization and avoidance of false sharing
 ### Parallel patterns
 

@@ -59,11 +59,11 @@ CPI_{avg} = CPI_{ideal} + \text{Stalls}
 $$
 ### Memory hierarchy
 
-A big part that we just ignored up until now are the memory accesses. This take a very long time, with respect to other instructions, and can even take variable time depending if they are in a cache memory or not. We can define the **hit rate** and **miss rate**
+A big part that we just ignored up until now are the memory accesses. This take a very long time, with respect to other instructions, and can even take variable time depending if they are in a [[cache]] memory or not. We can define the **hit rate** and **miss rate**
 $$
 \text{Hit rate} = \frac{\text{Hits}}{\text{Mem accesses}} \qquad \text{Miss rate} = 1 - \text{Hit rate}
 $$
-A cache miss however results in a penalty in performance
+A [[cache]] miss however results in a penalty in performance
 $$
 \text{Miss time }= \text{Hit time} + \text{Miss penalty}
 $$
@@ -71,7 +71,7 @@ and typically we have that $\text{Hit time} << \text{Miss penalty}$. In general 
 $$
 AMAT = \text{Hit rate} \times \text{Hit time } + \text{Miss rate } \times \text{Miss time} = \text{Hit time} + \text{Miss rate} \times \text{Miss penalty}
 $$
-Since there are multiple levels of cache this average time is for a single layer of memory. To evaluate a more general notion of miss rate we use the **global miss rate** -- that is, when the CPU fetches data directly from the ram.
+Since there are multiple levels of [[cache]] this average time is for a single layer of memory. To evaluate a more general notion of miss rate we use the **global miss rate** -- that is, when the CPU fetches data directly from the ram.
 $$
 \text{Global miss rate} = \prod \text{Miss rate}_{Li}
 $$
