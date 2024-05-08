@@ -21,7 +21,7 @@ The minimum chunk of data that can be copied to cache is called **cache line**, 
 #### Cache structure
 
 All cache lines are divide in 3 parts:
-- validity bit $\to$ if the position contains valid data or not
+- validity bit $\to$ if the position contains valid data or not, at boot they are all invalid
 - cache tags $\to$ contains the value that univocally identifies the memory address corresponding to the stored data
 - cache data $\to$ the actual data of the cache line
 
