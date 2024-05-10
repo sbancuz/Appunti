@@ -48,10 +48,31 @@ Multiple issues allow for an ideal **instruction per clock** to be
 $$
 IPC_{ideal} > 1 \qquad CPI_{ideal} < 1
 $$
-In this case the dynamic scheduler will have to work overtime to resolve all dependencies and maximize throughput.
+In this case the [[dynamic scheduling]] will have to work overtime to resolve all dependencies and maximize throughput.
 #### Very long instruction word
 
 This is another type of architecture in contrast with [[dynamic scheduling]]. This takes advantage of static scheduling to deal with all the dependencies of the code to help scale performance better, in fact a pure dynamic scheduled approach has an upper bound of issues of 4. 
+
+In VLIW processors the **single-issue packet** (bundle) represents a wide instruction with multiple independent operations per instruction. This is known as a **Very long instruction word**. With this paradigm the compiler has to statically identify the multiple independent operations to be executed in parallel by the FUs. This makes sure that all structural hazards and data hazards are taken care of. $\to$ [[VLIW Code scheduling]]
+
+So, true, anti and output data dependencies are solved **statically** by the compiler by considering the FU latency. The RAW hazards are reordered to solve conflicts, otherwise we can just introduce some NOPs.
+
+>[!note]
+>The compiler must know all the latencies and data dependencies for this to work! 
+
+For architecture we have: 
+- A single PC to fetch the bundles
+- Only one branch for each bundle 
+- Shared multi-ported register file
+- if there are more parallel FUs than the number of issues then we need to have a **dispatch network** to redirect the ops
+
+![[VLIW.png]]
+
+Notice that we didn't say anything about [[Branch prediction]], the compiler can only provide **hints**, nothing more. So the only solution is to have some [[Dynamic scheduling]]. The same is true for data cache misses.
+
+To keep the execution in order the write back phase in a bundle must occur **at the same clock cycle**. 
+
+This type of architecture has one major problem however, **register pressure**. All this multi-cycle latency of bundles and [[Register renaming]] can drastically increase the number of registers needed at a given time.  
 ### Scoreboard pipelining
 
 This is a **centralized*** solution to deal with both hazard detection and resolution. Every instruction goes through a **scoreboard** table that is used to determine when the instruction can read its operands and begin the execution.
