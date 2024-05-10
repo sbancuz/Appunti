@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPU Pipelining.md",
+                "file": "Hardware based speculation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dynamic scheduler",
+                "query": "Reorder",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CPU Pipelining.md",
+                "file": "Hardware based speculation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPU Pipelining.md",
+                "file": "Hardware based speculation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPU Pipelining.md",
+                "file": "Hardware based speculation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPU Pipelining.md"
+                "file": "Hardware based speculation.md"
               }
             }
           }
@@ -246,12 +246,22 @@
   },
   "active": "6e7e830478c23108",
   "lastOpenFiles": [
-    "MIPS.md",
-    "CPU Pipelining.md",
     "Dynamic scheduling.md",
+    "Hardware based speculation.md",
+    "speculative tomasulo.png",
+    "MIPS.md",
+    "Register renaming.md",
+    "Halide.md",
+    "CPU Pipelining.md",
+    "Monte Carlo reinforcement learning.md",
+    "Reinforcement learning.md",
+    "Sorting algorithms.md",
+    "Stochastic Markov Decision process.md",
+    "policy rl.png",
+    "Dynamic programming.md",
+    "Markov Decision processes.md",
     "Data hazards.md",
     "Parallelization.md",
-    "Register renaming.md",
     "Performance metrics.md",
     "Cache.md",
     "Branch prediction.md",
@@ -263,25 +273,14 @@
     "Structural hazards.md",
     "qubit.md",
     "Measurement.md",
-    "Wave function.md",
-    "Quantum harmonic oscillator.md",
-    "Stochastic Markov Decision process.md",
-    "Reinforcement learning.md",
-    "Markov property.md",
-    "Markov Decision processes.md",
-    "Schrodinger equation.md",
-    "Uncertainty principle.md",
-    "Criterion of reality.md",
     "CRT.png",
     "kernels.png",
     "Version space.png",
     "model error.png",
     "bias-variance decomposition.png",
-    "speculative tomasulo.png",
     "authent.png",
     "tomasulo.png",
     "armax newton method.png",
-    "newton mehtod.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"

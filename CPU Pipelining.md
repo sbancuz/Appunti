@@ -80,21 +80,3 @@ The ID stage of an instruction can be divided in two stages:
 To deal with anti-dependency we can read registers only during the Read Operands stage. To deal with Output dependency we can stall the new instruction until the previous one finishes.
 
 ![[scoreboard arch.png]]
-### Tomasulo dynamic scheduler
-
-The idea is that this scheduler does is [[Register renaming]] to remove any WAW and WAR  hazards. This is achieved by using some buffers called **reservation stations** in front of the function units to hold pending operations before executing them. Tomasulo kind of works like a scoreboard, but the main difference is that we don't have a centralized buffer that will hold all pending operations, but a distributed one. The result of a computation is broadcasted to all the functional units and to all store buffers.
-
-![[tomasulo.png]] 
-
-There are 3 stages of the Tomasulo pipeline
-1) Issue 
-	Get an instruction from the instruction queue, check for structural hazards in the reserving stations (**RS**) in if needed add some stalls. If the operands are not yet ready in the register file (**RF**) then we need to keep track of the FU that will produce them. This is the step of renaming.
-
-2) Start execution
-	Once both the operands and the functional units are ready we can start the execution, if they aren't, just monitor the shared bus for the results that we need. The loads and stores works a little bit differently, first they compute the effective address then they will try to execute. To preserve exception behavior no instruction can be executed until all branches before are resolved, if branch prediction is used, then the CPU must know the prediction correctness.
-
->[!Important]
-> The load/store operation are kept in order
-
-3) Write result
-	Broadcast the result of the operations to the shared buffer and, if needed, write the result to the memory.

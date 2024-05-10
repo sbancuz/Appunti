@@ -36,3 +36,24 @@ The 2 main type of policies are:
 - $\epsilon$-greedy policy: that with a certain $\epsilon$ probability performs a random action otherwise it performs the best one $\to$ [[Stochastic Markov Decision process]]
 
 The environment also has to satisfy the [[Markov property]].
+### Taxonomy
+
+To talk about reinforcement learning techniques we have to define a bunch of taxonomy. We say that a technique is **model-free** if to get the result we try to learn the solution, without computing the model, in **model-based** we want to calculate a model that then will compute the solution. 
+
+We also define an **on-policy** algorithm to be the one that tries to approximate value functions on quantities that are associated to the policy that is used to collect the data, **off-policy** try to approximate other value functions. 
+
+Another big distinction is whether they are **online** or **offline**, so they work data collected in real-time or on data that is already collected.
+
+Then there is the distinction between **tabular** and **functional approximation**. In the former is where the state space is small and thus can be represented with a table, but if the number of state is very large we need some function to describe our model. This model could be [[Neural networks]] for example.
+
+The main distinction is between **value-based**, **policy-based** and **actor-critic**. In the first we try to estimate the value function, the second we try to estimate the optimal policy. Lastly actor-critic is the best of both worlds.
+### Model-free prediction
+
+The objective is to estimate the value function of an **unknown MRP**, so a MDP plus a policy. There are a lot of approaches to solve this problem, we will only see
+- [[Monte Carlo reinforcement learning]]
+- Temporal Difference reinforcement learning
+- Comparison between MC and TD
+- $TD(\lambda)$
+### Model-free control
+
+We want to optimize the value function of an **unknown MDP**. !!! Add techniques
