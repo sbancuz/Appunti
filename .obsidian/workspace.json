@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 314,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -259,6 +260,8 @@
   },
   "active": "61c44c40ee1cebe5",
   "lastOpenFiles": [
+    "stripmining.png",
+    "SIMD multiple lanes.png",
     "vector ops.png",
     "SIMD.md",
     "Vector architectures.md",
@@ -284,8 +287,6 @@
     "soft pipe.png",
     "VLIW Code scheduling.md",
     "VLIW dep graph.png",
-    "VLIW.png",
-    "pipeline.png",
     "Hardware based speculation.md",
     "Dynamic scheduling.md",
     "Halide.md",
