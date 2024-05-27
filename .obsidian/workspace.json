@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Qubit.md",
+                "file": "MIPS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "6d30b5068226ff94",
+            "id": "61c44c40ee1cebe5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quantum gates.md",
+                "file": "Vector architectures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +46,7 @@
       {
         "id": "6b2d4e5e69ee1477",
         "type": "tabs",
-        "dimension": 33.2089552238806,
+        "dimension": 42.87037037037037,
         "children": [
           {
             "id": "20cb3654f52b2199",
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "data level parallelism",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
       {
         "id": "de25f9ee4077c556",
         "type": "tabs",
-        "dimension": 66.7910447761194,
+        "dimension": 57.12962962962963,
         "children": [
           {
             "id": "b6d2ccd68b38ea6d",
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Quantum gates.md",
+                "file": "Vector architectures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314,
-    "collapsed": true
+    "width": 314
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quantum gates.md",
+                "file": "Vector architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quantum gates.md",
+                "file": "Vector architectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quantum gates.md"
+                "file": "Vector architectures.md"
               }
             }
           }
@@ -258,13 +257,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6d30b5068226ff94",
+  "active": "61c44c40ee1cebe5",
   "lastOpenFiles": [
+    "vector ops.png",
+    "SIMD.md",
+    "Vector architectures.md",
+    "array controller.png",
+    "Parallelism.md",
+    "Hardware Threads.md",
+    "Performance measure.md",
+    "Performance metrics.md",
+    "multithreading.png",
+    "MIPS.md",
+    "Parallelization.md",
+    "Threads.md",
+    "CPU Pipelining.md",
+    "Qubit.md",
     "Bloch sphere.md",
     "Quantum gates.md",
-    "Qubit.md",
     "bloch sphere.png",
-    "CPU Pipelining.md",
     "Cache.md",
     "summary cache perf.png",
     "Register renaming.md",
@@ -277,25 +288,13 @@
     "pipeline.png",
     "Hardware based speculation.md",
     "Dynamic scheduling.md",
-    "speculative tomasulo.png",
-    "MIPS.md",
     "Halide.md",
     "Monte Carlo reinforcement learning.md",
     "Reinforcement learning.md",
     "Sorting algorithms.md",
     "Stochastic Markov Decision process.md",
-    "policy rl.png",
     "Dynamic programming.md",
     "Markov Decision processes.md",
-    "Data hazards.md",
-    "Parallelization.md",
-    "Performance metrics.md",
-    "Branch prediction.md",
-    "System.md",
-    "Model optimization problems.md",
-    "Modeling.md",
-    "Control hazards.md",
-    "Time complexity for PRAM.md",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"

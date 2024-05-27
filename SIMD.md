@@ -21,3 +21,14 @@ This loop can only be vectorized only if the vector length is less than the dist
 
 >[!warning]
 >Loop iteration at the beginning and end may not be vectorized.
+### Implementation in CPU
+
+There is one radical difference with respect to normal architectures, we need a central controller that sends the vector data to all the processing elements. There is only one program counter. 
+
+![[array controller.png]]
+
+There are $3$ variations of SIMD machines:
+- [[Vector architectures]]
+- SIMD extensions $\to$ SSE, AVX, MMX
+- GPUs
+

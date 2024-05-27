@@ -72,7 +72,7 @@ Notice that we didn't say anything about [[Branch prediction]], the compiler can
 
 To keep the execution in order the write back phase in a bundle must occur **at the same clock cycle**. 
 
-This type of architecture has one major problem however, **register pressure**. All this multi-cycle latency of bundles and [[Register renaming]] can drastically increase the number of registers needed at a given time.  
+This type of architecture has one major problem however, **register pressure**. All this multi-cycle latency of bundles and [[Register renaming]] can drastically increase the number of registers needed at a given time and it takes way to long to compute which instructions can be computed simultaneously. Right now the limit is $6$ for a [[VLIW Code scheduling]] processor that is not even used anymore.  
 ### Scoreboard pipelining
 
 This is a **centralized*** solution to deal with both hazard detection and resolution. Every instruction goes through a **scoreboard** table that is used to determine when the instruction can read its operands and begin the execution.

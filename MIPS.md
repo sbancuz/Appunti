@@ -4,7 +4,7 @@ tags:
 ---
 The MIPS architecture is a type of open CPU that has 32 general purpose registers organized in a **Register File** with 2 reads port and 1 write port. MIPS is also considered a predecessor of the RISC architecture.
 
-MIPS is also an architecture that, like every other architecture, relies heavily on [[CPU Pipelining]] and [[Hardware based speculation]]
+MIPS is also an architecture that, like every other architecture, relies heavily on [[Parallelism]]
 
 ![[MIPS arch.png]]
 
@@ -45,5 +45,3 @@ jr   $s1                        # go to add. contained in $s1
 	Access the memory needed either for writing or reading. In case of a branch change the Program Counter
 5) Write back $WB$
 	Write the data of the result to the destination register
-
-
