@@ -6,22 +6,21 @@ Regular languages are the simplest family of formal languages. This family can b
 - algebraically
 - by generating a grammar
 - by recognizing machines
-
 ### Regular expressions
 
-Are strings $r$ defined over the letters of the terminal alphabet $\Sigma$ and that contains a dew metasymbols
+Are strings $r$ defined over the letters of the terminal alphabet $\Sigma$ and that contains a few metasymbols
 $$
 . \ \cup \ * \ \emptyset \ ()
 $$
 A regex e is a language $L_{e}$ over $\Sigma$ according to the following table
 
-| Regex | Language |
-| - | - |
-| $\epsilon$ | $\{ \epsilon \}$ |*
-| $a \in \Sigma$ | $\{ a \}$ |
-| $s\cup t$ | $L_{s}\cup L_{t}$ |
-| $st$ | $L_{s}L_{t}$ |
-| $s^{*}$ | $L_{s}^{*}$ |
+| Regex          | Language          |
+| -------------- | ----------------- |
+| $\epsilon$     | $\{ \epsilon \}$  |
+| $a \in \Sigma$ | $\{ a \}$         |
+| $s\cup t$      | $L_{s}\cup L_{t}$ |
+| $st$           | $L_{s}L_{t}$      |
+| $s^{*}$        | $L_{s}^{*}$       |
 
 | Syntax | Match |
 | - | - |

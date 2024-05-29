@@ -75,3 +75,13 @@ Since there are multiple levels of [[cache]] this average time is for a single l
 $$
 \text{Global miss rate} = \prod \text{Miss rate}_{Li}
 $$
+### Multiprocessors
+
+We define $P$ the number of nodes, $M$ the number of links and $b$ the bandwidth of a single link. The **Total Network Bandwidth** is 
+$$
+\text{TNB }= M \times b
+$$
+We also define the **Bisection Bandwidth**, this is the division of the machine into two parts, each with half the nodes, then you sum up the bandwidth of the links that cross that imaginary dividing line.
+
+>[!note]
+>Some networks are not symmetric -- see [[Multi-processors]]. To find the worst case metric we need to choose the division that yields the most pessimistic network performance
