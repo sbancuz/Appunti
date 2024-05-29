@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Directory based protocols.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Directory based protocols.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Directory based protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular expressions.md",
+                "file": "Directory based protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular expressions.md"
+                "file": "Directory based protocols.md"
               }
             }
           }
@@ -246,10 +246,13 @@
   },
   "active": "77cc7b364738e8dd",
   "lastOpenFiles": [
-    "Formal languages.md",
-    "Regular expressions.md",
-    "MIPS.md",
     "Multi-processors.md",
+    "Directory based protocols.md",
+    "Snooping protocols.md",
+    "cache fsm.png",
+    "Regular expressions.md",
+    "Formal languages.md",
+    "MIPS.md",
     "Distributed memory model.md",
     "Shared memory model.md",
     "Message oriented communication.md",
@@ -276,12 +279,9 @@
     "Register renaming.md",
     "pipe soft ex2.png",
     "pipe soft ex.png",
-    "soft pipe.png",
     "VLIW Code scheduling.md",
     "Hardware based speculation.md",
     "Dynamic scheduling.md",
-    "Halide.md",
-    "Monte Carlo reinforcement learning.md",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"

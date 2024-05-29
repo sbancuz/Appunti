@@ -46,14 +46,15 @@ There are some decisions to take when designing a multi-processor
 	4) Data parallelism $\to$ [[SIMD]]
 
 - How to maintain cache coherence?
-	A program running on multiple processors will normally have **multiple copies** of the same data in several caches. In a coherent multiprocessor the caches should provide both **migration** and **replication** of shared data items. To maintain coherence we need some **cache coherent protocols**, there are 2 classes:
-	1) Snooping protocols
+	A program running on multiple processors will normally have **multiple copies** of the same data in several caches. Maintaining multiple copies is not a real problem when all we do is reading them, but when there are writes the stuff gets complicated. All processors must have the most recent copy when reading an object. 
+	In a coherent multiprocessor the caches should provide both **migration** and **replication** of shared data items. To maintain coherence we need some **cache coherent protocols**, there are 2 classes:
+	1) [[Snooping protocols]]
 		Each core keeps track of the sharing status of each block with a cache controller that monitors the bus
 	
-	2) Directory based protocols
+	2) [[Directory based protocols]]
 		The sharing status of each block is kept in one location, called a **directory**.
 	
-	These protocols ensure that all writes by one processor are eventually visible to other processors, for one memory address.
+	These protocols ensure that all writes by one processor are eventually visible to other processors, for one memory address. 
 	
 
 - How to maintain memory consistency?
