@@ -246,6 +246,7 @@
   },
   "active": "77cc7b364738e8dd",
   "lastOpenFiles": [
+    "directory fsm.png",
     "Multi-processors.md",
     "Directory based protocols.md",
     "Snooping protocols.md",
@@ -281,7 +282,6 @@
     "pipe soft ex.png",
     "VLIW Code scheduling.md",
     "Hardware based speculation.md",
-    "Dynamic scheduling.md",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
