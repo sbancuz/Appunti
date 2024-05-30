@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Directory based protocols.md",
+                "file": "Leader election.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "data level parallelism",
+                "query": "tag:#distributed_systems  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Directory based protocols.md",
+                "file": "Leader election.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314,
-    "collapsed": true
+    "width": 314
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Directory based protocols.md",
+                "file": "Leader election.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Directory based protocols.md",
+                "file": "Leader election.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Directory based protocols.md"
+                "file": "Leader election.md"
               }
             }
           }
@@ -246,9 +245,10 @@
   },
   "active": "77cc7b364738e8dd",
   "lastOpenFiles": [
+    "Distributed systems questions.md",
+    "Directory based protocols.md",
     "directory fsm.png",
     "Multi-processors.md",
-    "Directory based protocols.md",
     "Snooping protocols.md",
     "cache fsm.png",
     "Regular expressions.md",
@@ -279,7 +279,6 @@
     "summary cache perf.png",
     "Register renaming.md",
     "pipe soft ex2.png",
-    "pipe soft ex.png",
     "VLIW Code scheduling.md",
     "Hardware based speculation.md",
     "Test.canvas",
