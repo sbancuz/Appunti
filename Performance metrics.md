@@ -45,6 +45,7 @@ The basic idea derived from this law is to **make the common case fast**.
 $$
 SU(P,f) = \frac{T_{1}}{T_{P}} = \frac{1}{(1-f)+\frac{f}{P}}, \lim_{ P \to \infty } {SU(P,f)=\frac{1}{1-f}}
 $$
+Where $P$ is the speedup gained from parallelism only for the parallelizable task.
 ### Performance for [[CPU Pipelining]]
 
 Pipelining increases the CPU **throughput**, but does not reduce **latency** of single instructions. The first important difference that comes to mind is about the clock cycles needed to execute a task
