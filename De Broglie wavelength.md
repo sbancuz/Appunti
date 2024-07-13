@@ -30,4 +30,7 @@ It's also possible to apply the matter wave calculations to the Fraunhofer diffr
 $$
 I(x)= sinc^{2} \left( \frac{Dx}{\lambda L} \right)
 $$
-that has a zero in $x = m \frac{\lambda L}{D}$ where $m$ is a non-zero integer.
+that has a zero in $x = m \frac{\lambda L}{D}$ where $m$ is a non-zero integer. The minimum distance for a screen with a rectangular slit of width $D$ is
+$$
+\frac{\left( \frac{D}{2} \right)^{2}}{\lambda L} \leq 0.1
+$$

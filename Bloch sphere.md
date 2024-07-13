@@ -50,4 +50,9 @@ y_{p} = \sin \theta \sin \theta\\
 z_{p} = \cos \theta
 \end{cases}
 $$
+### Transformation with [[Quantum gates]]
 
+The action of a [[Quantum gates]] on a [[Qubit]] is the rotation of the sphere around an axis $\overrightarrow{P_{0}P_{1}}$ joining two points representing the eigenstates of $\hat{U}$ with the angle of rotation $\gamma$ equal to the difference of the phases of the eigenvalues $\lambda_{0}\lambda_{1}$
+$$
+\gamma = \gamma_{1} - \gamma_{0}
+$$

@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardware Threads.md",
+                "file": "Measurement.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4db501440d8bd69f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measurement.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer_architecture  write-thr",
+                "query": "tag:#quantum fideli",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Hardware Threads.md",
+                "file": "Measurement.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443
+    "width": 320
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware Threads.md",
+                "file": "Measurement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware Threads.md",
+                "file": "Measurement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware Threads.md"
+                "file": "Measurement.md"
               }
             }
           }
@@ -243,41 +257,41 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "77cc7b364738e8dd",
+  "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "Bloch sphere.md",
+    "Schrodinger equation.md",
+    "Photon.md",
+    "Particle-wave dualism.md",
+    "De Broglie wavelength.md",
+    "Measurement.md",
+    "Dynamic scheduling.md",
+    "Hardware based speculation.md",
+    "BB84 Protocol.md",
+    "Quantum gates.md",
+    "Projective quantum measurement.md",
+    "Estimation of mean and variance.md",
+    "MIDA Questions.md",
+    "Hardware Threads.md",
     "Cache.md",
     "Vector architectures.md",
     "CPU Pipelining.md",
     "VLIW Code scheduling.md",
-    "Hardware Threads.md",
     "Parallelism.md",
     "Multi-processors.md",
     "Threads.md",
     "Branch prediction.md",
-    "Hardware based speculation.md",
-    "Dynamic scheduling.md",
     "MIPS.md",
     "Structural hazards.md",
     "Snooping protocols.md",
     "Directory based protocols.md",
-    "Register renaming.md",
     "speculative tomasulo.png",
-    "Performance metrics.md",
-    "Leader election.md",
-    "Distributed systems questions.md",
     "directory fsm.png",
     "cache fsm.png",
-    "Regular expressions.md",
-    "Formal languages.md",
-    "Distributed memory model.md",
-    "Shared memory model.md",
-    "Message oriented communication.md",
-    "SIMD.md",
     "stripmining.png",
     "SIMD multiple lanes.png",
     "vector ops.png",
     "array controller.png",
-    "Performance measure.md",
     "multithreading.png",
     "bloch sphere.png",
     "summary cache perf.png",

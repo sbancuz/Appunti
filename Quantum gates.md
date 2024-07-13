@@ -80,7 +80,16 @@ We also have that
 $$
 \hat{x}\ket{+} = \ket{+}  \qquad \hat{x}\ket{-} = \ket{-}  
 $$
-So both the $\ket{-}$ and $\ket{+}$ are eigenstates of $\hat{x}$ with eigenvalues respectively $-1,1$
+So both the $\ket{-}$ and $\ket{+}$ are eigenstates of $\hat{x}$ with eigenvalues respectively $-1,1$. We can also define the *not* operator with respect to the other axis of the [[Bloch sphere]]
+$$
+Y = \left[ \begin{matrix}
+0  & -i \\
+i  & 0
+\end{matrix} \right]  \qquad Z = \left[ \begin{matrix}
+1  & 0 \\
+0  & -1
+\end{matrix} \right] 
+$$
 ### Phase shift quantum gate
 
 The $\hat{R}_{\phi}$ gate, or phase shift gate with $\phi$ *shift* is defined as
@@ -94,11 +103,25 @@ R_{\phi} = \left[ \begin{matrix}
 0 & e^{i\phi}
 \end{matrix} \right] 
 $$
-This means that the matrix is formed by its eigenstates with the eigenvalues on the diagonal.
-#### Z-Pauli operator
+This means that the matrix is formed by its eigenstates with the eigenvalues on the diagonal. From this we can see some notable gates
+- $\hat{Z}$-Pauli gate  $\hat{R}_{\pi} \equiv \hat{Z}$ which has $1,-1$ as eigenvalues
+- $\hat{S}$-Pauli gate $\hat{R}_{\frac{\pi}{2}} \equiv \hat{S}$ which has $1,i$ as eigenvalues
+- $\hat{T}$-Pauli gate $\hat{R}_{\frac{\pi}{4}} \equiv \hat{T}$ which has $1,e^{i\pi/4}$ as eigenvalues
+### Hadamard gate
 
-This operator is defined as 
+This gate is very important and used, it maps like this
 $$
-\hat{R}_{\pi} \equiv \hat{Z}
+\ket{0}  \xrightarrow{\hat{H}} \ket{+} \qquad\ket{1} \xrightarrow{\hat{H}} \ket{ -}  
 $$
-which has $1,-1$ as eigenvalues
+This gate introduces the superposition on the states $\ket{0}$ and $\ket{1}$. It's matrix is
+$$
+H = \left[ \begin{matrix}
+\frac{1}{\sqrt{ 2 }}  & \frac{1}{\sqrt{ 2 }} \\
+\frac{1}{\sqrt{ 2 }}  & -\frac{1}{\sqrt{ 2 }}
+\end{matrix} \right] = \frac{1}{\sqrt{ 2 }}\left[ \begin{matrix}
+1  & 1 \\
+1  & -1
+\end{matrix} \right] 
+$$
+
+

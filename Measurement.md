@@ -18,7 +18,10 @@ $$
 $$
 The physically realizable quantum states for a particle are described by a normalizable [[Wave function]] -- square modulus integrable.
 
-An observable $A$ is described by a Hermitian operator $\hat{A}$ -- hence real eigenvalues and orthogonal eigenfunctions -- with the existence of an **orthonormal basis** -- for the Hilbert space $\mathcal H$ -- formed by eigenvalues of $\hat{A}$. This concept can be expanded to the [[Projective quantum measurement]]
+An observable $A$ is described by a Hermitian operator $\hat{A}$ -- hence real eigenvalues and orthogonal eigenfunctions -- with the existence of an **orthonormal basis** -- for the Hilbert space $\mathcal H$ -- formed by eigenvalues of $\hat{A}$. This concept can be expanded to the [[Projective quantum measurement]]. The orthogonal projector on the quantum state $\phi_{m}$ can be described as
+$$
+\hat{\Pi}_{m} =  \frac{\ket{\phi_{m}}\bra{ \phi_{m}}}{\braket{\phi_{m} |  {\phi_{m}}}  }
+$$
 ### Fidelity
 
 The fidelity between two quantum states $\phi$ and $\psi$ is defined
@@ -104,4 +107,6 @@ $$
 ### Simultaneously measurable observable
 
 Two observable are said to be simultaneously measurable or **compatible** when it exists an orthonormal basis formed by **common eigenstates** of both Hermitian operators $\hat{A},\hat{B}$. This condition can be defined as: two observable $A.B$ are compatible iff $\hat{A},\hat{B}$ commutate
-
+$$
+[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A} = 0
+$$
