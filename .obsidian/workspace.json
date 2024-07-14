@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measurement.md",
+                "file": "Parallelization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#quantum fideli",
+                "query": "tag:#computer_architecture dependence",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Measurement.md",
+                "file": "Parallelization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measurement.md",
+                "file": "Parallelization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measurement.md",
+                "file": "Parallelization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measurement.md"
+                "file": "Parallelization.md"
               }
             }
           }
@@ -259,12 +259,13 @@
   },
   "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "CPU Pipelining.md",
+    "Measurement.md",
     "Bloch sphere.md",
     "Schrodinger equation.md",
     "Photon.md",
     "Particle-wave dualism.md",
     "De Broglie wavelength.md",
-    "Measurement.md",
     "Dynamic scheduling.md",
     "Hardware based speculation.md",
     "BB84 Protocol.md",
@@ -275,7 +276,6 @@
     "Hardware Threads.md",
     "Cache.md",
     "Vector architectures.md",
-    "CPU Pipelining.md",
     "VLIW Code scheduling.md",
     "Parallelism.md",
     "Multi-processors.md",
