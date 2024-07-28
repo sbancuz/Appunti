@@ -26,15 +26,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "Entropy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "b17df58f90ef90b6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -54,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer_architecture write through",
+                "query": "tag:#computer_architecture tomasulo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +112,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cache.md",
+                "file": "Entropy.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -151,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cache.md",
+                "file": "Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cache.md",
+                "file": "Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cache.md"
+                "file": "Entropy.md"
               }
             }
           }
@@ -257,8 +267,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4db501440d8bd69f",
+  "active": "b17df58f90ef90b6",
   "lastOpenFiles": [
+    "Shannon information theory.md",
+    "Dynamic scheduling.md",
+    "speculative tomasulo.png",
+    "Cache.md",
     "Parallelization.md",
     "CPU Pipelining.md",
     "Measurement.md",
@@ -267,7 +281,6 @@
     "Photon.md",
     "Particle-wave dualism.md",
     "De Broglie wavelength.md",
-    "Dynamic scheduling.md",
     "Hardware based speculation.md",
     "BB84 Protocol.md",
     "Quantum gates.md",
@@ -275,7 +288,6 @@
     "Estimation of mean and variance.md",
     "MIDA Questions.md",
     "Hardware Threads.md",
-    "Cache.md",
     "Vector architectures.md",
     "VLIW Code scheduling.md",
     "Parallelism.md",
@@ -284,8 +296,6 @@
     "Branch prediction.md",
     "MIPS.md",
     "Structural hazards.md",
-    "Snooping protocols.md",
-    "speculative tomasulo.png",
     "directory fsm.png",
     "cache fsm.png",
     "stripmining.png",
