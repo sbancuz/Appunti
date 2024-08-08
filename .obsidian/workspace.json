@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPU Pipelining.md",
+                "file": "Perceptron.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:# tomasulo",
+                "query": "tag:#machine_learning perce ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CPU Pipelining.md",
+                "file": "Perceptron.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPU Pipelining.md",
+                "file": "Perceptron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPU Pipelining.md",
+                "file": "Perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPU Pipelining.md"
+                "file": "Perceptron.md"
               }
             }
           }
@@ -243,8 +243,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "CPU Pipelining.md",
     "Dynamic scheduling.md",
     "Untitled.canvas",
     "Measurement.md",
@@ -253,7 +254,6 @@
     "speculative tomasulo.png",
     "Cache.md",
     "Parallelization.md",
-    "CPU Pipelining.md",
     "Bloch sphere.md",
     "Schrodinger equation.md",
     "Photon.md",
