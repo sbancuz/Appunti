@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"96e6e8845c36891e","x":0,"y":0,"width":400,"height":400,"type":"file","file":"Measurement.md"},
+		{"id":"f867e0f97de2ebaf","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"ciao\n"}
+	],
+	"edges":[]
+}

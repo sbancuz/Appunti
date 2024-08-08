@@ -8,43 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77cc7b364738e8dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measurement.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4db501440d8bd69f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entropy.md",
+                "file": "CPU Pipelining.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "b17df58f90ef90b6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer_architecture tomasulo",
+                "query": "tag:# tomasulo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -112,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Entropy.md",
+                "file": "CPU Pipelining.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -123,7 +99,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [],
                   "collapse-display": true,
                   "showArrow": true,
@@ -135,7 +111,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 407,
-                  "scale": 0.24438968678416192,
+                  "scale": 0.5706989738194579,
                   "close": true
                 }
               }
@@ -161,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Entropy.md",
+                "file": "CPU Pipelining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Entropy.md",
+                "file": "CPU Pipelining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Entropy.md"
+                "file": "CPU Pipelining.md"
               }
             }
           }
@@ -267,15 +243,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b17df58f90ef90b6",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
-    "Shannon information theory.md",
     "Dynamic scheduling.md",
+    "Untitled.canvas",
+    "Measurement.md",
+    "Entropy.md",
+    "Shannon information theory.md",
     "speculative tomasulo.png",
     "Cache.md",
     "Parallelization.md",
     "CPU Pipelining.md",
-    "Measurement.md",
     "Bloch sphere.md",
     "Schrodinger equation.md",
     "Photon.md",
@@ -294,8 +272,6 @@
     "Multi-processors.md",
     "Threads.md",
     "Branch prediction.md",
-    "MIPS.md",
-    "Structural hazards.md",
     "directory fsm.png",
     "cache fsm.png",
     "stripmining.png",
