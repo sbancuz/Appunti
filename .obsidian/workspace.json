@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Perceptron.md",
+                "file": "Supervised learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#machine_learning perce ",
+                "query": "artificial in",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Perceptron.md",
+                "file": "Supervised learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Perceptron.md",
+                "file": "Supervised learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Perceptron.md",
+                "file": "Supervised learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Perceptron.md"
+                "file": "Supervised learning.md"
               }
             }
           }
@@ -245,6 +245,11 @@
   },
   "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "Machine learning.md",
+    "Agents.md",
+    "Artificial intelligence.md",
+    "Gradient descent.md",
+    "Perceptron.md",
     "CPU Pipelining.md",
     "Dynamic scheduling.md",
     "Untitled.canvas",
@@ -268,10 +273,6 @@
     "Hardware Threads.md",
     "Vector architectures.md",
     "VLIW Code scheduling.md",
-    "Parallelism.md",
-    "Multi-processors.md",
-    "Threads.md",
-    "Branch prediction.md",
     "directory fsm.png",
     "cache fsm.png",
     "stripmining.png",
