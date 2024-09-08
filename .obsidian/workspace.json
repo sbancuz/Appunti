@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "Parallelization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "artificial in",
+                "query": "hazards",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "Parallelization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "Parallelization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "Parallelization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Supervised learning.md"
+                "file": "Parallelization.md"
               }
             }
           }
@@ -245,13 +245,17 @@
   },
   "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "CPU Pipelining.md",
+    "Structural hazards.md",
+    "Control hazards.md",
+    "Data hazards.md",
+    "Dynamic scheduling.md",
+    "Supervised learning.md",
     "Machine learning.md",
     "Agents.md",
     "Artificial intelligence.md",
     "Gradient descent.md",
     "Perceptron.md",
-    "CPU Pipelining.md",
-    "Dynamic scheduling.md",
     "Untitled.canvas",
     "Measurement.md",
     "Entropy.md",
@@ -269,10 +273,6 @@
     "Quantum gates.md",
     "Projective quantum measurement.md",
     "Estimation of mean and variance.md",
-    "MIDA Questions.md",
-    "Hardware Threads.md",
-    "Vector architectures.md",
-    "VLIW Code scheduling.md",
     "directory fsm.png",
     "cache fsm.png",
     "stripmining.png",

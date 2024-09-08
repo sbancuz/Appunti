@@ -19,7 +19,7 @@ When statements execution does not interfere with other we have sequential consi
 #### Data dependency
 
 Given statements $S_{1}$ and $S_{2}$, :
-- $S_{2}$ ha true/flow dependency on $S_{1}$ iff $S_{2}$ reads a value written by $S_{1}$ -> Read After Write
+										- $S_{2}$ ha true/flow dependency on $S_{1}$ iff $S_{2}$ reads a value written by $S_{1}$ -> Read After Write
 - $S_{2}$ has a anti-dependency on $S_{1}$ iff $S_{2}$ writes a value read by $S_{1}$ -> Write After Read
 
 We can use [[Graphs]] to show the dependency of relationships of the statements.
