@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Hardware based speculation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "schedul",
+                "query": "tomasulo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Hardware based speculation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Hardware based speculation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallelization.md",
+                "file": "Hardware based speculation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallelization.md"
+                "file": "Hardware based speculation.md"
               }
             }
           }
@@ -243,13 +243,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "Dynamic scheduling.md",
+    "Register renaming.md",
+    "Parallelization.md",
     "CPU Pipelining.md",
+    "VLIW Code scheduling.md",
     "Structural hazards.md",
     "Control hazards.md",
     "Data hazards.md",
-    "Dynamic scheduling.md",
     "Supervised learning.md",
     "Machine learning.md",
     "Agents.md",
@@ -262,7 +265,6 @@
     "Shannon information theory.md",
     "speculative tomasulo.png",
     "Cache.md",
-    "Parallelization.md",
     "Bloch sphere.md",
     "Schrodinger equation.md",
     "Photon.md",
@@ -271,8 +273,6 @@
     "Hardware based speculation.md",
     "BB84 Protocol.md",
     "Quantum gates.md",
-    "Projective quantum measurement.md",
-    "Estimation of mean and variance.md",
     "directory fsm.png",
     "cache fsm.png",
     "stripmining.png",
