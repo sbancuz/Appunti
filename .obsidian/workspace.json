@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardware based speculation.md",
+                "file": "Operating System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Hardware based speculation.md",
+                "file": "Operating System.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320
+    "width": 320,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware based speculation.md",
+                "file": "Operating System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware based speculation.md",
+                "file": "Operating System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware based speculation.md"
+                "file": "Operating System.md"
               }
             }
           }
@@ -245,6 +246,23 @@
   },
   "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "CPU multiplexing.md",
+    "Process.md",
+    "Virtual memory.md",
+    "VAS.png",
+    "VAS.png.md",
+    "VAS.png",
+    "Scheduling techniques.png",
+    "General purpose OS.md",
+    "RTOS.md",
+    "GPOS shcedule.png",
+    "Operating System.md",
+    "context switch.png",
+    "Tasks state machine.png",
+    "time quantums.png",
+    "bridge pattern is OS.png",
+    "OS separation.png",
+    "Hardware based speculation.md",
     "Dynamic scheduling.md",
     "Register renaming.md",
     "Parallelization.md",
@@ -264,24 +282,6 @@
     "Entropy.md",
     "Shannon information theory.md",
     "speculative tomasulo.png",
-    "Cache.md",
-    "Bloch sphere.md",
-    "Schrodinger equation.md",
-    "Photon.md",
-    "Particle-wave dualism.md",
-    "De Broglie wavelength.md",
-    "Hardware based speculation.md",
-    "BB84 Protocol.md",
-    "Quantum gates.md",
-    "directory fsm.png",
-    "cache fsm.png",
-    "stripmining.png",
-    "SIMD multiple lanes.png",
-    "vector ops.png",
-    "array controller.png",
-    "multithreading.png",
-    "bloch sphere.png",
-    "summary cache perf.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
     "Excalidraw"
