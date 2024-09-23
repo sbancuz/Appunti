@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System.md",
+                "file": "Deep learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tomasulo",
+                "query": "online",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Operating System.md",
+                "file": "Deep learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320,
-    "collapsed": true
+    "width": 320
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System.md",
+                "file": "Deep learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System.md",
+                "file": "Deep learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System.md"
+                "file": "Deep learning.md"
               }
             }
           }
@@ -246,6 +245,12 @@
   },
   "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "Perceptron.md",
+    "Deep learning.md",
+    "Competitive analysis.md",
+    "Transactions.md",
+    "Sorting algorithms.md",
+    "Operating System.md",
     "CPU multiplexing.md",
     "Process.md",
     "Virtual memory.md",
@@ -256,7 +261,6 @@
     "General purpose OS.md",
     "RTOS.md",
     "GPOS shcedule.png",
-    "Operating System.md",
     "context switch.png",
     "Tasks state machine.png",
     "time quantums.png",
@@ -276,11 +280,7 @@
     "Agents.md",
     "Artificial intelligence.md",
     "Gradient descent.md",
-    "Perceptron.md",
     "Untitled.canvas",
-    "Measurement.md",
-    "Entropy.md",
-    "Shannon information theory.md",
     "speculative tomasulo.png",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
