@@ -1,7 +1,7 @@
 ---
 tags:
 ---
-wThere is a problem, a single [[Perceptron]] can't possibly model complex behaviors, it's just a linear separation boundary in the hypotheses space.  The solution is to make a net of perceptrons that can create a non-linear boundary to correctly give results. Unfortunately Hebbian learning will not work anymore because it can't act on the intermediate or **hidden layers**.
+There is a problem, a single [[Perceptron]] can't possibly model complex behaviors, it's just a linear separation boundary in the hypotheses space.  The solution is to make a net of perceptrons that can create a non-linear boundary to correctly give results. Unfortunately Hebbian learning will not work anymore because it can't act on the intermediate or **hidden layers**.
 
 ![[FFNN.png]]
 
