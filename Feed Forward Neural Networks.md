@@ -37,3 +37,31 @@ To also update the weights of the hidden layers we use **backpropagation**. This
 
 ![[backprop.png]]
 
+We can also technically try to solve this analytically using [[Maximum likelihood]]. In the case for [[Regression]] take for instance
+$$
+t_{n} = g(x_{n}| w) + \epsilon_{n} \qquad \epsilon_{n}\sim \mathcal  N(0, \sigma^{2})
+$$
+then we can approximate a target function using $t$ as (see also [[Stochastic process#Dynamic representation]] using Wold's decomposition)
+$$
+t_{n} \sim \mathcal  N (g(x_{n}| w), \sigma^{2})
+$$
+>[!warning]
+>This, however, doesn't paint the right picture since the noise doesn't always have constant noise, this could be due to measurements errors, but for now let's pretend this is not a problem.
+
+I can then use this to compute the log maximum likelihood $l(w)$ and then maximize it with respect to it's weights
+$$
+argmax_{w}l(w) = argmin_{w}\sum_{n}^{N}(t_{n - g(x_{n}| w)})^{2}
+$$
+If we remove the previous assumption, what does it happen to the estimator? Well, the distribution becomes very good to represent high-variance data, but bad at representing low variance. This is because high-variance data will impact the mean squared errors more, so even a few outliers can impact the result a lot. To minimize this, *not fix*, is to scale the input data with the $log$.
+
+For [[Classification]] we use the cross-entropy as an error function and as posterior probabilities have to be approximated with
+$$
+t_{n} \sim Be(g(x_{n}| w))
+$$
+In this case the maximum likelihood becomes
+$$
+argmax_{w}l(w) = argmin_{w} \left( - \sum_{n}^{N}t_{n} \log g(x_{n}|w )+ (1 - t_{n} )\log(1-  g(x_{n}|w)) \right) = argmin_{w}\left( -\sum_{n}^{N}t_{n}^{T}\log(g_{n}| w) \right)  
+$$
+>[!info] Categorical cross-entropy
+>Using the vector notation we can extend the likelihood to any sized multivariate output vecors
+>

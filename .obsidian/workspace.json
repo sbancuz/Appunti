@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #mida  ",
+                "query": "tag: #mida  decompos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320,
-    "collapsed": true
+    "width": 320
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -246,9 +245,10 @@
   },
   "active": "4db501440d8bd69f",
   "lastOpenFiles": [
+    "Stochastic process.md",
+    "Feed Forward Neural Networks.md",
     "Maximum likelihood.md",
     "Newton method.md",
-    "Feed Forward Neural Networks.md",
     "Gradient descent.md",
     "backprop.png",
     "Prediction.md",
@@ -281,7 +281,6 @@
     "Virtual memory.md",
     "VAS.png.md",
     "General purpose OS.md",
-    "RTOS.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
