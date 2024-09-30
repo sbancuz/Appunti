@@ -18,4 +18,4 @@ $$
 \sum \alpha^{k}  & = \infty \\
 \sum \alpha^{k^{2}}  & < \infty
 \end{align}
-$$To improve the regression process in order to not over-fit too much we can use [[Rigid regression]].
+$$To improve the regression process in order to not over-fit too much we can use [[Ridge regression]].

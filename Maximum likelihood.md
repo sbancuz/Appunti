@@ -1,5 +1,7 @@
-#### Maximum likelihood
-
+---
+tags:
+  - machine_learning
+---
 This is another approach to compute regression, the output variable $t$ can e modeled as a deterministic function $y$ of the input $x$ and a random noise $\epsilon$
 $$
 t = f(x) + \epsilon
@@ -39,3 +41,5 @@ If the number of features $M$ is larger than the number of values $N$, then the 
 >The least squares estimate of $w$ has the smallest variance among all **unbiased estimator**.
 
 This does not mean that this is the best method because unbiased estimator are not very good since they usually have a lot of variance in respect to a **bias estimator**.
+
+See also: [[Newton method|Maximum likelihood method]]

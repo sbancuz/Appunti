@@ -29,10 +29,11 @@ Or in case of neural networks
 $$
 g(x_{n}|w)\sim t_{n}
 $$
-Normally we could use [[Gradient descent]], but $g$ is non-linear, so there are multiple local minima where the minimization could fall into. To avoid some of them we can use momentum, so the weight update function becomes
+Normally we could use [[Gradient descent]] and [[Maximum likelihood]], but $g$ is non-linear, so there are multiple local minima where the minimization could fall into. To avoid some of them we can use momentum, so the weight update function becomes
 $$
 w^{k + 1} = w ^{k} -\eta \frac{ \partial E(w) }{ \partial w }  - \alpha \frac{ \partial E(w) }{ \partial w } 
 $$
 To also update the weights of the hidden layers we use **backpropagation**. This can be done in parallel, locally and it requires just 2 passes thanks to the chain rule of the derivative.
 
 ![[backprop.png]]
+
