@@ -18,7 +18,7 @@ $$
 A single hidden layer feed forward neural network with S shaped activation functions can approximate any measurable function to any desired degree of accuracy on a compact set. So regardless of the function we are learning a single layer can represent it. Two in the case we are dealing with classification. 
 
 >[!warning]
->This doesn't mean that it's a good idea to always only use one hidden layer, but just that it's theoretically possible
+>This doesn't mean that it's a good idea to always only use one hidden layer, but just that it's theoretically possible. In practice would be really bad since it's more likely that it will not generalize. See [[Supervised learning#Bias-Variance trade-off]]
 ### Learning
 
 Recall the learning process of a parametric mode $y(x_{n}| \theta)$ in [[Regression]]/[[Classification]]. We have a training set and we want to find model parameters such that for new data

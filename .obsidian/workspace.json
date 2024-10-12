@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9b267598f31aad17",
+        "id": "402b73e7d9a21e44",
         "type": "tabs",
         "children": [
           {
-            "id": "4db501440d8bd69f",
+            "id": "9df3261551a955a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #mida  decompos",
+                "query": "model complexity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -243,10 +243,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4db501440d8bd69f",
+  "active": "9df3261551a955a4",
   "lastOpenFiles": [
-    "Stochastic process.md",
+    "Supervised learning.md",
     "Feed Forward Neural Networks.md",
+    "ACA questions.md",
+    "CPU Pipelining.md",
+    "Register renaming.md",
+    "Stochastic process.md",
     "Maximum likelihood.md",
     "Newton method.md",
     "Gradient descent.md",
@@ -277,10 +281,6 @@
     "Competitive analysis.md",
     "Transactions.md",
     "Sorting algorithms.md",
-    "Operating System.md",
-    "Virtual memory.md",
-    "VAS.png.md",
-    "General purpose OS.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
