@@ -2,7 +2,7 @@
 tags:
   - OS
 ---
-CPU multiplexing is a technique used to maximize resource utilization. This works by **context switching** to another process while the current one is idling, e.g. waiting for a keystroke. This allows other programs to execute concurrently. Of course just waiting till a process is idle isn't a great idea, it could easily happen that a process will hog all resources and never go to sleep, and other processes won't ever progress, so we introduce **time quantums**. 
+CPU multiplexing is a technique used to maximize resource utilization by running stuff [[Kernel Concurrency|concurrently]]. This works by **context switching** to another process while the current one is idling, e.g. waiting for a keystroke. This allows other programs to execute concurrently. Of course just waiting till a process is idle isn't a great idea, it could easily happen that a process will hog all resources and never go to sleep, and other processes won't ever progress, so we introduce **time quantums**. 
 
 ![[time quantums.png]]
 

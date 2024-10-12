@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feed Forward Neural Networks.md",
+                "file": "Kernel Concurrency.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "model complexity",
+                "query": "tag:#OS  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Feed Forward Neural Networks.md",
+                "file": "Kernel Concurrency.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Feed Forward Neural Networks.md",
+                "file": "Kernel Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Feed Forward Neural Networks.md",
+                "file": "Kernel Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feed Forward Neural Networks.md"
+                "file": "Kernel Concurrency.md"
               }
             }
           }
@@ -245,8 +245,11 @@
   },
   "active": "9df3261551a955a4",
   "lastOpenFiles": [
-    "Supervised learning.md",
+    "CPU multiplexing.md",
+    "Kernel Concurrency.md",
+    "Operating System.md",
     "Feed Forward Neural Networks.md",
+    "Supervised learning.md",
     "ACA questions.md",
     "CPU Pipelining.md",
     "Register renaming.md",
@@ -263,7 +266,6 @@
     "System.md",
     "Minimizing least squares.md",
     "Deep learning.md",
-    "CPU multiplexing.md",
     "sched domains.png",
     "Cgroups.png",
     "Pasted image 20240925154131.png",
@@ -279,8 +281,6 @@
     "Paths.md",
     "Perceptron.md",
     "Competitive analysis.md",
-    "Transactions.md",
-    "Sorting algorithms.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
