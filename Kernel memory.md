@@ -19,3 +19,56 @@ Demand paging defers page frame allocation, reducing memory usage by allocating 
 
 On the other hand copy on write is quite simple. Instead of duplicating page frames, they are shared between the parent and the child process. However, as long as they are shared, they cannot be modified. Whenever the parent or the child process attempts to write into
 a shared page frame, an fault occurs and copies the page.
+
+But what actually happens on a page fault?
+
+![[page fault.png]]
+
+When a process tries to access an address that falls within a VMA but lacks a page table entry, the function `handle_mm_fault` is invoked to configure the missing entry. Once the PTE has been setup will fill the corresponding entry with a mapping to a physical page.
+
+>[!note]
+>Choosing which physical page, or even allocate a new one, depends on the operation and the type of VMA.
+### Allocators
+
+The are various allocators in the kernel:
+```c
+void *kmalloc(size_t size, int flags);
+```
+
+This is the most common, and it's used as a general purpose allocator for small chunks of memory. Normally the operation can sleep unless `GFP_ATOMIC` is set, so one has to be careful to not call this is outside of process context. Use `GFP_KERNEL` for normal use or `GFP_USER` if it's a userspace mapping.
+
+```c
+void *get_zeroed_page(unsigned int flags);
+void *get_free_pages(unsigned int flags, unsigned int order);
+```
+
+These are used to allocate large chunks of memory. This can be called at any time BUT they may fail due to the lack of memory. 
+
+>[!warning]
+>Over-allocation can quickly degrade system responsiveness
+
+```c
+struct page *alloc_pages_node(int nid, unsigned int flags, unsigned int order /* Size 2^order */);
+```
+
+This is for when you want to have precise control of where to allocate down to the NUMA level -- which node/CPU. 
+
+```c
+void *vmalloc(unsigned long size);
+```
+
+This allocates contiguous regions of memory in the virtual address space -- not necessarily contiguous in physical memory. It's important to not use this function for small allocation due to it's big overhead. Also it's not safe to call it in an atomic context.
+
+---
+In general within the kernel allocation and deallocation of fixed sized structures is very common. So we want an allocator that can handle these structures and that does not cause fragmentation. So we define $2$ different allocators:
+- Quicklist $\to$ Only used for paging
+- Slab allocator $\to$ Used for everything else
+
+![[slab allocator.png]]
+
+The slab allocator is a set of APIs used to create caches within the kernel on specific objects. These caches are called `kmem_cache` and there is one for each data structure managed by the kernel.
+
+>[!warning]
+>Allocations with slab allocators do not use locks
+
+Freeing an object keeps it initialized, facilitating faster reuse. This strategy optimizes memory allocation, providing rapid access and minimizing overhead. 
