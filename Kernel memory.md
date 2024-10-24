@@ -45,6 +45,19 @@ The buddy allocator aims to make it easy to merge back blocks of pages when page
 - Backward mapping
 	This relates a `struct page` to a VMA and it's used in invalidating page table entries across processes
 
+```c
+struct page {
+	unsigned long flags;
+	atomic_t _count;
+	struct address_space *mapping;
+	pgoff_t index;
+	struct list_head lru;
+};
+```
+
+>[!note]
+>To reclaim pages there is a daemon that uses the watermarks to manage it's execution. If almost reach the minimum page space, then the allocator will do the work of the daemon
+
 There are other allocator in the kernel, but they may depend on the buddy allocator:
 ```c
 void *kmalloc(size_t size, int flags);
