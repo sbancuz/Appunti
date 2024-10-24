@@ -8,4 +8,4 @@ Unlike user‐space programs, the kernel handles interrupt processing, spinning 
 - Use lock free designs
 - Use some blocking primitives that can be compiled to some platform specific implementations
 
-	
+
