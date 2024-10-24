@@ -271,6 +271,8 @@
   },
   "active": "9df3261551a955a4",
   "lastOpenFiles": [
+    "zones.png",
+    "allocators.png",
     "slab allocator.png",
     "page fault.png",
     "Virtual memory.md",
@@ -302,8 +304,6 @@
     "Pasted image 20240925154131.png",
     "run queue.png",
     "Pasted image 20240925152257.png",
-    "task context switch.png",
-    "bootstrap.png",
     "Process.md",
     "Graphs.md",
     "Flow optimization problems.md",

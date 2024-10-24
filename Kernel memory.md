@@ -30,7 +30,15 @@ When a process tries to access an address that falls within a VMA but lacks a pa
 >Choosing which physical page, or even allocate a new one, depends on the operation and the type of VMA.
 ### Allocators
 
-The are various allocators in the kernel:
+The base that every kernel allocator uses is the buddy allocator.
+
+![[allocators.png]]
+
+The buddy allocator has to manage memory in a NUMA context, so it must be aware of the actual architecture of the machine. This is obvious since allocating on another node is way more costly than allocating on a local one. So, to keep pages close to each other the kernel divides the memory into contiguous chunks called **zones**.
+
+![[zones.png]]
+
+There are other allocator in the kernel, but they may depend on the buddy allocator:
 ```c
 void *kmalloc(size_t size, int flags);
 ```
