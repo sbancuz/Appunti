@@ -35,7 +35,7 @@ The are various allocators in the kernel:
 void *kmalloc(size_t size, int flags);
 ```
 
-This is the most common, and it's used as a general purpose allocator for small chunks of memory. Normally the operation can sleep unless `GFP_ATOMIC` is set, so one has to be careful to not call this is outside of process context. Use `GFP_KERNEL` for normal use or `GFP_USER` if it's a userspace mapping.
+This is the most common, and it's used as a general purpose allocator for small chunks of memory. Normally the operation can sleep unless `GFP_ATOMIC` is set, so one has to be careful to not call this is outside of process context. Use `GFP_KERNEL` for normal use or `GFP_USER` if it's a userspace mapping. It uses the slab allocator to access physical memory.
 
 ```c
 void *get_zeroed_page(unsigned int flags);
@@ -71,4 +71,6 @@ The slab allocator is a set of APIs used to create caches within the kernel on s
 >[!warning]
 >Allocations with slab allocators do not use locks
 
-Freeing an object keeps it initialized, facilitating faster reuse. This strategy optimizes memory allocation, providing rapid access and minimizing overhead. 
+Freeing an object keeps it initialized, facilitating faster reuse. This strategy optimizes memory allocation, providing rapid access and minimizing overhead. There are $2$ types of caches:
+- **dedicated** $\to$ for common structs like the `task_struct`
+- **generic** $\to$ divided in areas with size of powers of $2$
