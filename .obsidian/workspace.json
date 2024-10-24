@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kernel Concurrency.md",
+                "file": "Kernel memory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kernel Concurrency"
+              "title": "Kernel memory"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Kernel Concurrency.md",
+                "file": "Kernel memory.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +126,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Kernel Concurrency"
+              "title": "Graph of Kernel memory"
             }
           }
         ]
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kernel Concurrency.md",
+                "file": "Kernel memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kernel Concurrency"
+              "title": "Backlinks for Kernel memory"
             }
           },
           {
@@ -168,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kernel Concurrency.md",
+                "file": "Kernel memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kernel Concurrency"
+              "title": "Outgoing links from Kernel memory"
             }
           },
           {
@@ -195,10 +195,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kernel Concurrency.md"
+                "file": "Kernel memory.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Kernel Concurrency"
+              "title": "Outline of Kernel memory"
             }
           }
         ],
@@ -271,9 +271,12 @@
   },
   "active": "9df3261551a955a4",
   "lastOpenFiles": [
+    "Virtual memory.md",
+    "Kernel memory.md",
+    "kernel mem.png",
+    "Operating System.md",
     "CPU multiplexing.md",
     "Kernel Concurrency.md",
-    "Operating System.md",
     "Feed Forward Neural Networks.md",
     "Supervised learning.md",
     "ACA questions.md",
@@ -301,12 +304,8 @@
     "bootstrap.png",
     "Wait queue.png",
     "Process.md",
-    "PCB.png",
     "Graphs.md",
     "Flow optimization problems.md",
-    "Paths.md",
-    "Perceptron.md",
-    "Competitive analysis.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",

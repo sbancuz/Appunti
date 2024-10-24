@@ -5,5 +5,5 @@
   "spellcheckLanguages": null,
   "spellcheck": true,
   "readableLineLength": true,
-  "vimMode": true
+  "vimMode": false
 }
