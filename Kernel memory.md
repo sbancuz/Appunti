@@ -38,6 +38,13 @@ The buddy allocator has to manage memory in a NUMA context, so it must be aware 
 
 ![[zones.png]]
 
+The buddy allocator aims to make it easy to merge back blocks of pages when pages are freed. It also strives to avoid splitting up large free blocks as much as it can when there’s a request for a smaller one. To manage physical address pages we also employ a **page cache**, which is a set of physical page descriptors corresponding to pages that contain data directly from VMAs. This cache is accessible in $2$ ways
+- Forward mapping 
+	This involves a file descriptor and an offset to find a specific `struct page`
+	
+- Backward mapping
+	This relates a `struct page` to a VMA and it's used in invalidating page table entries across processes
+
 There are other allocator in the kernel, but they may depend on the buddy allocator:
 ```c
 void *kmalloc(size_t size, int flags);
