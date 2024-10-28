@@ -25,6 +25,12 @@ We can define the **correlation** among a fileter $w = \{ w_{ij} \}$ and an imag
 $$
 (I \otimes w)(r,c) = \sum^{L}_{u = -L}\sum^{L}_{v = -L}\underbrace{ w(u,v) }_{ \text{Kernel} } * I(r+u,c+v)
 $$
+We can also define the **convolutions** among a filter $w$ as the linear transformation
+$$
+(I \circledast w)(r,c) = \sum^{L}_{u = -L}\sum^{L}_{v = -L}\underbrace{ w(u,v) }_{ \text{Kernel} } * I(r-u,c-v)
+$$
+For this last operation we can also consider padding the edges of the input matrix with $0$ to better apply the transformation.
+
 Let's say we try to use a $1$ layer [[Feed Forward Neural Networks]] to classify images, the number of inputs is given by 
 $$
 d = R \times C \times 3
