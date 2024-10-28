@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320,
-    "collapsed": true
+    "width": 320
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -272,12 +271,13 @@
   },
   "active": "9df3261551a955a4",
   "lastOpenFiles": [
-    "Image classification.md",
+    "Feed Forward Neural Networks.md",
     "Convolutional Neural Network.md",
+    "Image classification.md",
+    "CNN layer.png",
     "image rec.png",
     "Column wise unfolding.png",
     "Spatial filter.png",
-    "Feed Forward Neural Networks.md",
     "Supervised learning.md",
     "Perceptron.md",
     "Pasted image 20241028114714.png",
@@ -289,8 +289,6 @@
     "Kernel memory.md",
     "zones.png",
     "allocators.png",
-    "slab allocator.png",
-    "page fault.png",
     "Virtual memory.md",
     "Operating System.md",
     "CPU multiplexing.md",
@@ -307,7 +305,6 @@
     "Estimation problem.md",
     "ARMA process.md",
     "ARIMA or ARIMAX models.md",
-    "System.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",

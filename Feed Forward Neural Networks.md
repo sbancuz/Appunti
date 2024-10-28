@@ -5,6 +5,7 @@ tags:
 There is a problem, a single [[Perceptron]] can't possibly model complex behaviors, it's just a linear separation boundary in the hypotheses space.  The solution is to make a net of perceptrons that can create a non-linear boundary to correctly give results. Unfortunately Hebbian learning will not work anymore because it can't act on the intermediate or **hidden layers**.
 
 ![[FFNN.png]]
+### Activation functions
 
 Feed forward neural networks must be arranged as acyclic [[Graphs#Directed graphs]], this means that, although networks like the image are more common, there can be some connections that skip layers. In order to make the neural network learn we have to make also another modification: the non-linear function of the perceptron can't be the $sign()$ since it's not differentiable, we have to use some non-linear function that it's differentiable and has also the same rough shape if the outputs needs to be normalized.  Here are a couple of examples of simple activation functions, though the most used today is the RELU.
 
