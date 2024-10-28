@@ -75,3 +75,10 @@ This is indeed a very challenging problem since we have to deal with
 	Images in the same class might be dramatically different, think of different types of chairs or animals
 - Perceptual similarity
 	If something is similar to another this is not the same as saying that the pixels are similar
+
+So, how can we actually create an image classifier using a neural network? The idea is to have both feature extraction and classification done by $2$ different networks. So we will have a network like
+
+![[image rec.png]]
+
+The data driven feature extraction step is done by a [[Convolutional Neural Network]]
+
