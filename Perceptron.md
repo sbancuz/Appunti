@@ -1,6 +1,7 @@
 ---
 tags:
   - machine_learning
+  - neural_networks
 ---
 This is a type of [[Classification#Linear classification]]. It's an online algorithm that corresponds to a linear classification model
 $$

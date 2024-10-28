@@ -1,6 +1,7 @@
 ---
 tags:
   - machine_learning
+  - neural_networks
 ---
 The agent observes input-output pairs and learns a function that maps from input to output. When the agent sees new unseen data it will guess the result according to this function.
 
@@ -144,4 +145,24 @@ This technique is used to reduce the bias without impacting the variance. The id
 3) Compute the error of the model
 4) Increase the weights on train cases where the model goes wrong
 5) Repeat
+#### Early stopping
 
+The  training error is always a monotone function, this is not the case when we talk about the cross-validation error. When this happens we can clearly see that we are overfitting the network, thus losing generalization of the model. So a good idea is to check whether this is happening and stop the training as soon as possible.
+
+![[early stop.png]]
+#### Hyperparameter tuning
+
+A good idea to improve the training of the network is to tune under which condition we train. So we can change the number of layers, the learning rate, etc...
+
+#### Weight decay
+
+Since very high weights value usually correlate with overfitting, we can try to add a [[#Regularization]] parameter to try to limit them. This works by putting in the loss function the actual weight value
+$$
+\hat{w}= argmin_{w} \sum^{N}_{n=1}(t_{n} - g(x_{n}| w))^{2} + \underbrace{ \gamma \sum^{Q}_{q=1}(w_{q})^{2} }_{ \text{Regularization} }
+$$
+A good value for $\gamma$ can be found with cross validation.
+#### Dropout
+
+By turning off randomly some neurons we force them to learn an independent feature preventing hidden units to rely on others. This works because it's like averaging many different networks -- which is a technique already proven to improve performance -- and because in this way it's more unlikely that we create *dead neurons*.
+
+![[Dropout.png]]

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kernel memory.md",
+                "file": "Image classification.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kernel memory"
+              "title": "Image classification"
             }
           }
         ]
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OS  ",
+                "query": "tag:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Kernel memory.md",
+                "file": "Image classification.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +126,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Kernel memory"
+              "title": "Graph of Image classification"
             }
           }
         ]
@@ -271,18 +271,28 @@
   },
   "active": "9df3261551a955a4",
   "lastOpenFiles": [
+    "Column wise unfolding.png",
+    "Spatial filter.png",
+    "Feed Forward Neural Networks.md",
+    "Supervised learning.md",
+    "Perceptron.md",
+    "Image classification.md",
+    "Pasted image 20241028114714.png",
+    "Dropout.png",
+    "early stop.png",
+    "Deep learning.md",
+    "Neural networks.md",
+    "Classification.md",
+    "Kernel memory.md",
     "zones.png",
     "allocators.png",
     "slab allocator.png",
     "page fault.png",
     "Virtual memory.md",
-    "Kernel memory.md",
     "kernel mem.png",
     "Operating System.md",
     "CPU multiplexing.md",
     "Kernel Concurrency.md",
-    "Feed Forward Neural Networks.md",
-    "Supervised learning.md",
     "ACA questions.md",
     "CPU Pipelining.md",
     "Register renaming.md",
@@ -297,16 +307,6 @@
     "ARMA process.md",
     "ARIMA or ARIMAX models.md",
     "System.md",
-    "Minimizing least squares.md",
-    "Deep learning.md",
-    "sched domains.png",
-    "Cgroups.png",
-    "Pasted image 20240925154131.png",
-    "run queue.png",
-    "Pasted image 20240925152257.png",
-    "Process.md",
-    "Graphs.md",
-    "Flow optimization problems.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",

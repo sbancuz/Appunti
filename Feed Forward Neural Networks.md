@@ -1,5 +1,6 @@
 ---
 tags:
+  - neural_networks
 ---
 There is a problem, a single [[Perceptron]] can't possibly model complex behaviors, it's just a linear separation boundary in the hypotheses space.  The solution is to make a net of perceptrons that can create a non-linear boundary to correctly give results. Unfortunately Hebbian learning will not work anymore because it can't act on the intermediate or **hidden layers**.
 
@@ -13,6 +14,12 @@ Depending on whether we want [[Regression]] or [[Classification]] our output lay
 $$
 y_{k} = \frac{exp(z_{k})}{\sum_{k}exp(z_{k})}
 $$
+These functions however are not used in real models because better ones have been found. This is because these types of functions don't work in deep networks since the gradient keeps shrinking the input for every layers it passes through. For this we have the ReLU which is defined as
+$$
+g(a) = max(0,a) \qquad g'(a) = 1_{a>0}
+$$
+>[!note]
+>There are a number of different variations of the ReLU, but they work all in the same way. 
 ### Universal approximation theorem
 
 A single hidden layer feed forward neural network with S shaped activation functions can approximate any measurable function to any desired degree of accuracy on a compact set. So regardless of the function we are learning a single layer can represent it. Two in the case we are dealing with classification. 
@@ -65,3 +72,15 @@ $$
 >[!info] Categorical cross-entropy
 >Using the vector notation we can extend the likelihood to any sized multivariate output vecors
 >
+### Initialization
+
+The final result of the gradient descent is highly affected by the starting conditions, so the initialization of the weights matters a lot. 
+- All zeros don't work since they will nullify all the gradients, so no learning can happen
+- Big numbers are also a bad idea, since they take quite a lot of time to converge
+- $w\sim \mathcal N(0, \sigma^{2}=0,01)$ may be good for small networks, but no so much for bigger ones since it can nullify the gradient
+
+Since we know that the variance of the output is the variance of the input scaled by $n \text{Var}(w_i)$ we can normalize the two variances to be the same, this is called **Xavier Initialization**
+$$
+\underbrace{ w\sim \mathcal N\left( 0, \frac{1}{n_{in}}\right) }_{ Original } \qquad\underbrace{ w\sim \mathcal N\left( 0, \frac{2}{n_{in} + n_{out}}\right) }_{ \text{Glorot \& Bengio} } \qquad\underbrace{ w\sim \mathcal N\left( 0, \frac{2}{n_{in}}\right) }_{ \text{He} } \qquad
+$$
+
