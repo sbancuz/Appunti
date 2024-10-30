@@ -26,3 +26,18 @@ We cannot create a CNN with just the convolutional layers, we also need a non-li
 >[!note]
 >Pooling layers commonly use the $max$ operation in their convolutions. This is called **max-pooling**.
 
+Each output element of a convolutional network has a **receptive field**, i.e. the input area that influences that output element
+$$
+A_{conv} = (layers \times (rows - 1))^{2}
+$$
+![[Receptive fields.png]]
+### Training
+
+A convolutional neural network can be trained just like a [[Feed Forward Neural Networks]] so using backpropagation, gradient descent and weights sharing. One key difference in how we compute the gradient is for the max-pooling layers, there the gradient is
+$$
+\begin{cases}
+1  & \text{if the location is a maximun} \\
+0 & \text{if not}
+\end{cases}
+$$
+
