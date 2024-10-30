@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convolutional Neural Network.md",
+                "file": "Image classification.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Convolutional Neural Network"
+              "title": "Image classification"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Convolutional Neural Network.md",
+                "file": "Image classification.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +126,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Convolutional Neural Network"
+              "title": "Graph of Image classification"
             }
           }
         ]
@@ -271,9 +271,10 @@
   },
   "active": "9df3261551a955a4",
   "lastOpenFiles": [
+    "mix image.png",
+    "Convolutional Neural Network.md",
     "Receptive fields.png",
     "Image classification.md",
-    "Convolutional Neural Network.md",
     "Feed Forward Neural Networks.md",
     "CNN layer.png",
     "image rec.png",

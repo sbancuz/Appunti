@@ -87,4 +87,15 @@ So, how can we actually create an image classifier using a neural network? The i
 ![[image rec.png]]
 
 The data driven feature extraction step is done by a [[Convolutional Neural Network]]
+### Data scarcity
+
+Often when dealing with images we don't have enough training data to properly train a model. In this case we can rely on some techniques to artificially create **new valid data**, this is called **data augmentation**. This works because the [[Convolutional Neural Network]] are spatially agnostic. To create new samples we can:
+- Apply geometrical transformations like rotating or scaling
+- Apply photometric transformations like adding noise, superimposing images or modifying the contrast
+
+>[!warning]
+Of course the new samples must preserve the original label and the applied transformations should be **meaningful**, if the size of something is an important quality for classification, then scaling is a bad idea since the model will learn that size it's not actually important
+
+Another idea for data augmentation is to **mixup** images implemented with interpolation.
+![[mix image.png]]\
 
