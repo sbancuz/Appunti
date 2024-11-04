@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "tag:qu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -269,7 +269,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9df3261551a955a4",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
     "mix image.png",
     "Convolutional Neural Network.md",
