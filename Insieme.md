@@ -1,5 +1,7 @@
 ---
-tags: [analisi_1]
+tags:
+  - analisi_1
+  - logica_algebra
 ---
 ## Definizione
 

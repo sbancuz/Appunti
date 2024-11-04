@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image classification.md",
+                "file": "Insieme.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image classification"
+              "title": "Insieme"
             }
           }
         ]
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:qu",
+                "query": "tag:#quantum  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Image classification.md",
+                "file": "Insieme.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +126,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Image classification"
+              "title": "Graph of Insieme"
             }
           }
         ]
@@ -269,12 +269,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "9df3261551a955a4",
   "lastOpenFiles": [
+    "Schrodinger equation.md",
+    "Wave function.md",
+    "Image classification.md",
     "mix image.png",
     "Convolutional Neural Network.md",
     "Receptive fields.png",
-    "Image classification.md",
     "Feed Forward Neural Networks.md",
     "CNN layer.png",
     "image rec.png",
@@ -290,7 +292,6 @@
     "Classification.md",
     "Kernel memory.md",
     "zones.png",
-    "allocators.png",
     "Virtual memory.md",
     "Operating System.md",
     "CPU multiplexing.md",
@@ -306,7 +307,6 @@
     "Output error models.md",
     "Estimation problem.md",
     "ARMA process.md",
-    "ARIMA or ARIMAX models.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
