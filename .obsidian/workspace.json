@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image segmentation.md",
+                "file": "Supervised learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image segmentation"
+              "title": "Supervised learning"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Image segmentation.md",
+                "file": "Supervised learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +126,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Image segmentation"
+              "title": "Graph of Supervised learning"
             }
           }
         ]
@@ -271,9 +271,10 @@
   },
   "active": "8bdefee71c2948e2",
   "lastOpenFiles": [
+    "Feed Forward Neural Networks.md",
+    "Image segmentation.md",
     "image segmentation.png",
     "Image classification.md",
-    "Image segmentation.md",
     "Clustering.md",
     "Insieme.md",
     "Schrodinger equation.md",
@@ -281,7 +282,6 @@
     "mix image.png",
     "Convolutional Neural Network.md",
     "Receptive fields.png",
-    "Feed Forward Neural Networks.md",
     "CNN layer.png",
     "image rec.png",
     "Column wise unfolding.png",
@@ -295,7 +295,6 @@
     "Neural networks.md",
     "Classification.md",
     "Kernel memory.md",
-    "zones.png",
     "Virtual memory.md",
     "Operating System.md",
     "CPU multiplexing.md",
