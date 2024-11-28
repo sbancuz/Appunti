@@ -9,7 +9,7 @@ The **Operating System** is a program that acts as an intermediate layer between
 - Isolation and protection
 - Portability of both applications and itself
 
-The OS serves as a **mediator** between the hardware and the application using it. It's who decides how to manage resources efficiently, to the context of an OS resources are CPU allocations ([[CPU multiplexing]]), [[ Kernel memory ]]([[Virtual memory]]), I/O and time. Another responsibility of the OS is **isolation**, i.e. all running applications are to be protected from other applications, for example if one application crashes, it will not bring down everything else.
+The OS serves as a **mediator** between the hardware and the application using it. It's who decides how to manage resources efficiently, to the context of an OS resources are CPU allocations ([[CPU multiplexing]]), [[ Kernel memory ]]([[Virtual memory]]), [[IO devices]] and time. Another responsibility of the OS is **isolation**, i.e. all running applications are to be protected from other applications, for example if one application crashes, it will not bring down everything else.
 
 ![[OS separation.png]]
 
