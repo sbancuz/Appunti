@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "Distributed systems questions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervised learning"
+              "title": "Distributed systems questions"
             }
           }
         ]
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#quantum  ",
+                "query": "Question",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Supervised learning.md",
+                "file": "Distributed systems questions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +126,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Supervised learning"
+              "title": "Graph of Distributed systems questions"
             }
           }
         ]
@@ -271,6 +271,9 @@
   },
   "active": "8bdefee71c2948e2",
   "lastOpenFiles": [
+    "Domande.md",
+    "Domanda.md",
+    "Supervised learning.md",
     "Feed Forward Neural Networks.md",
     "Image segmentation.md",
     "image segmentation.png",
@@ -286,7 +289,6 @@
     "image rec.png",
     "Column wise unfolding.png",
     "Spatial filter.png",
-    "Supervised learning.md",
     "Perceptron.md",
     "Pasted image 20241028114714.png",
     "Dropout.png",
@@ -305,7 +307,6 @@
     "Stochastic process.md",
     "Maximum likelihood.md",
     "Newton method.md",
-    "Gradient descent.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",

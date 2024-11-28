@@ -5,5 +5,11 @@
   "spellcheckLanguages": null,
   "spellcheck": true,
   "readableLineLength": true,
-  "vimMode": false
+  "vimMode": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
