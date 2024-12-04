@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IO devices.md",
+                "file": "MPI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IO devices"
+              "title": "MPI"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "IO devices.md",
+                "file": "MPI.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +126,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of IO devices"
+              "title": "Graph of MPI"
             }
           }
         ]
@@ -271,11 +271,11 @@
   },
   "active": "8bdefee71c2948e2",
   "lastOpenFiles": [
+    "IO devices.md",
     "driver frameworks.png",
     "device drivers.png",
     "Interrupts.md",
     "IRQ.png",
-    "IO devices.md",
     "DAM.png",
     "interrupts.png",
     "IO communication.png",
@@ -296,7 +296,6 @@
     "Convolutional Neural Network.md",
     "Receptive fields.png",
     "CNN layer.png",
-    "image rec.png",
     "Perceptron.md",
     "Deep learning.md",
     "Neural networks.md",
