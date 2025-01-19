@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPI.md",
+                "file": "ACA questions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MPI"
+              "title": "ACA questions"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MPI.md",
+                "file": "ACA questions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +126,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of MPI"
+              "title": "Graph of ACA questions"
             }
           }
         ]
@@ -271,6 +271,7 @@
   },
   "active": "8bdefee71c2948e2",
   "lastOpenFiles": [
+    "MPI.md",
     "IO devices.md",
     "driver frameworks.png",
     "device drivers.png",
