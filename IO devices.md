@@ -2,9 +2,11 @@
 tags:
   - OS
 ---
-An [[Operating System]] should be able to communicate with peripherals, for instance even when using the keyboard or mouse. To allow communication between the main memory of the device and the outside we can use **buses**. Usually we have 2 types of bus:
+An [[Operating System]] should be able to communicate with peripherals, for instance even when using the keyboard or mouse. To allow communication between the main memory of the device and the outside we can use a bus. Usually we have 2 types of buses:
 - Memory bus $\to$ used by the CPU to access main memory
 - Port bus $\to$ it uses special addresses and instructions to communicate with outside
+
+![[IO communication.png]]
 
 >[!note]
 >The *in* and *out* instruction in Intel CPUs are examples of such instruction. Though to call them you need special privileges.
@@ -22,9 +24,7 @@ To access them we can just have to open them like any other file. In fact they a
 ![[device drivers.png]]
 ### Communication
 
-To communicate we use **device registers**, these are a special type of registers that are **memory mapped**  in order to read/write data to the peripheral memory.
-
-![[IO communication.png]]
+To communicate using Port I/O we use **device registers**, these are a special type of registers that are **memory mapped**  in order to read/write data to the peripheral memory.
 
 >[!example]
 >Legacy x86 CPUs have the UART port mapped starting form the address `0x2f8`, so to read a char from the connected device we just need 
@@ -38,7 +38,7 @@ Ok, we know how to interact with the device, but how can we actually communicate
 
 ![[interrupts.png]]
 
-However there is a case where polling is the better answer: when we have lots of incoming traffic that will generate a huge number of interrupts-- more than $1$ per microsecond. Too many interrupts would cause a state of **live-lock** in which the CPU is in a state where it can't move forward with any user-level process because it's too busy and can't keep up. This is not so far-fetched, Gigabit internet ports can cause these problems due to the massive amount of packet they can receive.
+However there is a case where polling is the better answer: when we have lots of incoming traffic that will generate a huge number of interrupts-- more than $1/\mu s$. Too many interrupts would cause a state of **live-lock** in which the CPU is in a state where it can't move forward with any user-level process because it's too busy and can't keep up. This is not so far-fetched, Gigabit internet ports can cause these problems due to the massive amount of packet they can receive.
 #### DMA
 
 Another method to resolve this issue is to introduce a new device that will sit in-between the CPU and the device and it's only purpose is to handle all the I/O while leaving the CPU free. 

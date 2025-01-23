@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ACA questions.md",
+                "file": "IO devices.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACA questions"
+              "title": "IO devices"
             }
           }
         ]
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Question",
+                "query": "tag:#OS ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ACA questions.md",
+                "file": "IO devices.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,14 +126,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of ACA questions"
+              "title": "Graph of IO devices"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320
+    "width": 320,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -271,16 +272,22 @@
   },
   "active": "8bdefee71c2948e2",
   "lastOpenFiles": [
-    "MPI.md",
+    "Interrupts.md",
     "IO devices.md",
+    "CPU multiplexing.md",
+    "Bus.md",
+    "Port based IO.md",
+    "UART.png",
+    "Operating System.md",
+    "Kernel memory.md",
+    "ACA questions.md",
+    "MPI.md",
     "driver frameworks.png",
     "device drivers.png",
-    "Interrupts.md",
     "IRQ.png",
     "DAM.png",
     "interrupts.png",
     "IO communication.png",
-    "Operating System.md",
     "Distributed systems questions.md",
     "Domande.md",
     "Domanda.md",
@@ -296,17 +303,11 @@
     "mix image.png",
     "Convolutional Neural Network.md",
     "Receptive fields.png",
-    "CNN layer.png",
     "Perceptron.md",
     "Deep learning.md",
     "Neural networks.md",
     "Classification.md",
-    "Kernel memory.md",
     "Virtual memory.md",
-    "CPU multiplexing.md",
-    "Kernel Concurrency.md",
-    "ACA questions.md",
-    "CPU Pipelining.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",

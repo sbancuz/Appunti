@@ -62,7 +62,7 @@ The design of an operating system can follow an hybrid of different architectura
 	These types of systems are typically easier maintain since they can use standard debugging tools for developing modules and they can even have independent release schedules. Stability and security are also enhanced since there is less code in general. However they have a larger memory footprint and can be trickier to debug since you have to follow messages around.
 	 
 - Hybrid
-	They are similar to micro kernels, but some additional modules are still in kernel space to improve performance. All drivers are in user space though. These are how Windows and MacOS are made.
+	They are similar to micro kernels, but some additional modules are still in kernel space to improve performance. All drivers are in user space though. These are how Windows and Mac OS are made.
 	
 - Library Os
 	Services such as networking are provided in the form of libraries and compiled with the application and configuration code
