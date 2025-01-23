@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IO devices.md",
+                "file": "CPU multiplexing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IO devices"
+              "title": "CPU multiplexing"
             }
           }
         ]
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OS ",
+                "query": "tag:#OS boot",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "IO devices.md",
+                "file": "CPU multiplexing.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,15 +126,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of IO devices"
+              "title": "Graph of CPU multiplexing"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320,
-    "collapsed": true
+    "width": 320
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -272,13 +271,13 @@
   },
   "active": "8bdefee71c2948e2",
   "lastOpenFiles": [
-    "Interrupts.md",
+    "Operating System.md",
     "IO devices.md",
     "CPU multiplexing.md",
+    "Interrupts.md",
     "Bus.md",
     "Port based IO.md",
     "UART.png",
-    "Operating System.md",
     "Kernel memory.md",
     "ACA questions.md",
     "MPI.md",

@@ -13,7 +13,7 @@ An [[Operating System]] should be able to communicate with peripherals, for inst
 
 In Linux we have 3 types of devices
 - character devices $\to$ characterized by a char stream, writing has immediate impact on the device memory
-- block device $\to$ memory is seen as a bunch of numbered blocks, each addressed by some number.
+- block device $\to$ memory is seen as a bunch of numbered blocks, each addressed by some number with random access.
 - network device $\to$ it deal with packets of information
 
 To access them we can just have to open them like any other file. In fact they are stored as **special files** in the file system inside `/dev/XX`. Each driver has also 2 ids to identify them. A **major** to  define the driver and a **minor** to distinguish different of the same types of devices.
