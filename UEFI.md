@@ -17,3 +17,5 @@ The GUID Partition Table (GPT) is a modern disk partitioning system that has eme
 	Within the GPT, each partition entry holds significant information:
 	- The first 16 bytes specify the partition type’s globally unique identifier (GUID), which indicates the type of partition (e.g. Linux filesystem, Windows data partition).
 	- The second 16 bytes are a GUID that is unique to that particular partition.
+
+![[GPT.png]]
