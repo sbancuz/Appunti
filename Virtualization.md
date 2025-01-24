@@ -55,3 +55,22 @@ A technique used to save memory is **same-page merging** or **page deduplication
 #### QEMU
 
 Even with KVM, implementing an fully-fledged hypervisor is not exactly easy. You still need to handle all the interaction with the hardware; so **emulated devices** and **hardware passthrough**. 
+
+QEMU uses VIRTIO to create a shared medium for hypervisors and virtual devices to communicate without much overhead. This is implemented by using a standard set of interfaces for drivers to implement. In this setup the guest device driver knows there's an active virtual machine with a specific interface -- we call this **paravirtualization**. Doing so ensures that we initiate vm-exit only when necessary.
+
+![[paravirtualization.png]]
+### Xen paravirtualization
+
+Xen is a type-1 hypervisor and requires a guest OS to be modified to execute in ring 1 and substitute sensitive instruction with calls to the Xen kernel. **User space code** remains unchanged.
+
+![[XEN.png]]
+
+>[!note]
+>Normal operations that would otherwise require ring-0 privileges are replaced with hypercalls to the Xen hypervisor.
+### Containerization
+
+Containers are a way to **isolate a set of processes** and make them think that they are the only ones running on the machine. The machine this processes see isn't the actual machine, but a lesser powerful subset of it. One important distinction is, they are NOT virtual machines. In fact processes running in a container are normal processes running on the **host kernel**, so there is no guest. This, however, also limits the choice of operating system since the kernel is shared with the host. The feature that allows them to function is part of the [[CPU multiplexing#CGroups]], i.e. the Linux **namespace**.
+
+A namespace reduces the set of resources that processes belonging to it can access and manipulate, the PID is one of them. In fact, they allow containerized applications to have their own independent process trees. The global `rootns` always exists and when a child forks a child within a PID namespaces, the child will reside in the same namespace; however is a process creates a new namespace, then it will become a root of it's own tree and all created process will have both PIDs
+
+![[containers.png]]
