@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtualization.md",
+                "file": "CPU multiplexing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtualization"
+              "title": "CPU multiplexing"
             }
           }
         ]
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OS boot",
+                "query": "tag:#OS locks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Virtualization.md",
+                "file": "CPU multiplexing.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,15 +126,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Virtualization"
+              "title": "Graph of CPU multiplexing"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320,
-    "collapsed": true
+    "width": 320
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -272,12 +271,13 @@
   },
   "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
+    "Interrupts.md",
+    "Virtualization.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
     "kvm.png",
     "CPU multiplexing.md",
-    "Virtualization.md",
     "Extended page tables.png",
     "HW virtualization.png",
     "virtual pages.png",
@@ -287,10 +287,8 @@
     "Power management.md",
     "ACPI states.png",
     "power consumption.png",
-    "ACPI.png",
     "Operating System.md",
     "IO devices.md",
-    "Interrupts.md",
     "Bus.md",
     "Port based IO.md",
     "Kernel memory.md",
