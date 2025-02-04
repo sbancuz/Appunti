@@ -8,7 +8,7 @@ I vari insiemi numerici sono:
 	• [Relativi] -> $\{N \cup N*(-1) \in Z\}$
 	• [Razionali] -> $\{a,b\not=0 \in Z \text{ | } \frac{a}{b} \in Q\}$
 	• [Reali] -> DOPO
-	• [Complessi] -> DOPO
+	• [Complessi] -> $\{ a + bi | a,b \in \mathbb{R}, i^{2} = -1 \}$
 
 ## Proprietà di R e Q
 

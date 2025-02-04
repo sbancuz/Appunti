@@ -1,5 +1,6 @@
 ---
-tags: [analisi_1]
+tags:
+  - analisi_1
 ---
 Una funzione è una terna formata da:
 	1 • [[Insieme]] Dominio
@@ -22,32 +23,26 @@ Le funzioni si definiscono $$f:A\to B \text{ e f(a) = b} $$
 Si definisce l'immagine di una funzione come $$Im(f):=\{y\in B \text{ | }\exists x \in A, f(x) = y\}$$
 Le funzioni che $f:N\to R$ sono dette [[Successioni]]
 Le funzioni che $f:R\to R$ sono dette di variabili reali
-
 ## Iniettività
 
-Sia $f:A\to B$ si dice che $f$ è iniettiva se ogni elemento del codominio ha al più un elemento una controimmagine ovvero se $x \not= \overline{x} \to f(x) \not= f(\overline{x})$
+Sia $f:A\to B$ si dice che $f$ è iniettiva se ogni elemento del codominio ha al più un elemento o controimmagine ovvero se $x \not= \overline{x} \to f(x) \not= f(\overline{x})$
 ```math
 ||{"id":718516305693}||
 
 
 ```
-
 ## Suriettività
 
 Sia $f:A\to B$ si dice che $f$ è suriettiva se ogni elemento del codominio ha almeno una controimmagine ovvero $\forall y \in B \text{ | } \exists x \in A \text{ tc } f(x) = y$ 
-
 ## Biettiva
 
 Se è sia iniettiva e suriettiva.
-
 ## Composizione
 
-Se $f:A\to B$ e $g:B \to C$ allora si può definire la funzione $$\begin{align}g•f: A&\to C\\x&\to g(f(x))\end{align}$$
-Quest'operazione non è commutativa $g•f \not= f•g$
-
-## Invertibilità
-
-Sia  $f:A\to B$ si dice che f è invertibile sse $\exists g:B\to A \text{ | } \left\{\begin{align}g•f = i_a \\ f•g = i_b\end{align}\right|$ in tal caso $g$ si dice inversa di $f$, se $f$ è biettiva allora sarà invertibile
+Se $f:A\to B$ e $g:B \to C$ allora si può definire la funzione $$\begin{align}g \circ f: A&\to C\\x&\to g(f(x))\end{align}$$
+Quest'operazione non è commutativa $g\circ f \not= f\circ g$
+## Invertibilità 
+Sia  $f:A\to B$ si dice che f è invertibile sse $\exists g:B\to A \text{ | } \left\{\begin{align}g\circ f = i_a \\ f\circ g = i_b\end{align}\right|$ in tal caso $g$ si dice inversa di $f$, se $f$ è biettiva allora sarà invertibile
 
 >[!info] 
 >L'inversa se esiste è unica e può anche essere inversa di se stessa

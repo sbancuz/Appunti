@@ -13,16 +13,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtual memory.md",
+                "file": "Morfismo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtual memory"
+              "title": "Morfismo"
+            }
+          },
+          {
+            "id": "54764b7b2915d9af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gruppo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gruppo"
+            }
+          },
+          {
+            "id": "7d0bcc219daa3657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Relazione.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relazione"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -42,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OS locks",
+                "query": "proiezione canonica",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Virtual memory.md",
+                "file": "Relazione.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -126,7 +157,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Virtual memory"
+              "title": "Graph of Relazione"
             }
           }
         ]
@@ -270,8 +301,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbcba10fd97097a4",
+  "active": "7d0bcc219daa3657",
   "lastOpenFiles": [
+    "Gruppo.md",
+    "Relazione.md",
+    "Untitled 3.md",
+    "Morfismo.md",
+    "Monoide.md",
+    "Insieme.md",
+    "Relazione d'ordine.md",
+    "Diffeomorfismo.md",
+    "Gruppo abeliano.md",
+    "Funzioni.md",
+    "Identità.md",
+    "Insiemi numerici.md",
+    "Virtual memory.md",
     "Process.md",
     "Threads.md",
     "CPU multiplexing.md",
@@ -295,19 +339,6 @@
     "Bus.md",
     "Port based IO.md",
     "Kernel memory.md",
-    "ACA questions.md",
-    "MPI.md",
-    "Distributed systems questions.md",
-    "Domande.md",
-    "Domanda.md",
-    "Supervised learning.md",
-    "Feed Forward Neural Networks.md",
-    "Image segmentation.md",
-    "Image classification.md",
-    "Clustering.md",
-    "Insieme.md",
-    "Schrodinger equation.md",
-    "Wave function.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
