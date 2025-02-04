@@ -45,12 +45,39 @@ Il gruppo è inoltre isomorfo ad un sottogruppo del gruppo delle funzioni biuniv
 
 ---
 
+[Teorema]
 Sia $f:G_{1}\to G_{2}$ un morfismo di [[Gruppo|Gruppi]]. Allora $f$ è iniettivo $\iff$ $Ker(f) = \{ e_{1} \}$. 
 
 >[!note]- Dimostrazione
 >Sia $f$ iniettivo. Sia $x\in Ker(f)$. Allora $f(x)=e_{2}$ e quindi, poiché anche $f(e_{1})=e_{2}$ si ha che $x=e_{1}$ utilizzando l'ipotesi che $f$ sia iniettiva. Quindi sia il $Ker(f) = \{ e_{1} \}$ e siano $x,y \in G_{1}$ tali che $f(x)=f(y)$, abbiamo che $f(x)f(y^{-1})=e_{2}\implies xy^{-1}=e_{1}\in Ker(f) \implies x=y$
 
 Quando si parla di morfismi di monoidi vale solo $f$ è iniettivo $\implies$ $Ker(f) = \{ e_{1} \}$
+
+[Teorema]
+Sia $f:G_{1}\to G_{2}$ un morfismo di gruppi abeliani. Allora esiste un morfismo iniettivo $\phi:G_{1} /Ker(\phi)\to G_{2}$ tale che il seguente diagramma è commutativo
+```tikz
+\begin{document}
+\begin{tikzpicture}[ baseline=(current bounding box.center), node distance=3cm, Increased distance every node/.style={font=\large}, edge/.append style={line width=1pt} ]
+% Nodes
+\node (G1) {$G_1$};
+\node (G2) [right of=G1, xshift=2cm] {$G_2$};
+\node (Quot) [below of=G1, yshift=-1cm] {$G_1 / \ker(f)$};
+% Arrows 
+\draw[->] (G1) to node[above] {\large $f$} (G2);
+\draw[->] (G1) to node[left] {\large $\pi$} (Quot);
+\draw[->] (Quot) to node[below right] {\large $\varphi$} (G2);
+\end{tikzpicture}
+\end{document}
+```
+
+In particolare $G_{1}/Ker(f)\simeq Im(f)$.
+
+>[!note]- Dimostrazione
+>L'assegnazione $[g]\to f(g)$ definisce una funzione $\phi:G_{1}/Ker(\phi) \to G_{2}$, infatti se $g'\sim g$ allora $g=g'+h$ che quindi implica $f(g) = \underbrace{ f(g'+h) = f(g') + \underbrace{ f(h) }_{ \text{identità }  } }_{ \text{Proprietà dei morfismi} } = f(g')$. Poiché $f$ è morfismo di gruppi, anche $\phi$ lo è, inoltre
+>$$
+>Ker(\phi) = \{ [g] \in G_{1} /Ker(f) : \phi([g]) = 0_{2} \} = \{ [g] \in G_{1} /Ker(f) : f(g) = 0_{2} \} = \{ [0_{1}] \}
+>$$
+>Quindi $\phi$ è iniettivo. Infine visto che $\phi: G_{1} / Ker(f) \to Im(f)$ è un morfismo di gruppi suriettivo. Allora è anche un isomorfismo.
 
 
 

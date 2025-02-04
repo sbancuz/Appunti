@@ -27,7 +27,30 @@ Se $e$ è l'identità di un gruppo $G$, l'insieme $\{  e\} \subseteq G$ è detto
 Sia $X$ un gruppo e $S \subseteq X$ un sottoinsieme. Definiamo $\left< S \right>$ il **sottogruppo generato da $S$**  come l'intersezione di tutti i sottogruppo di $X$ che contengono $S$. 
 
 Si consideri il gruppo $\mathbb{Z}_{n} = (\{ [0],\dots,[n-1] \}, +)$ e siano $m,n \in \mathbb{N}$ con $m<n$. Se
-- $m=0$ allora $\left<[0] \right> = \{ 0 \}$
-- $m>0$ e $z = \frac{mcm\{ m,n \}}{m}$ allora $[zm] = [mcm\{ m,n \}]=[0]$
+- $m=0$ allora $\left<[0] \right> = \{ 0 \} \implies |\left< [0] \right>| = 1$
+- $m>0$ e $z = \frac{mcm\{ m,n \}}{m}$
+	Se adesso prendo la somma di $\sum_{z}[m] = [zm] = [mcm\{ m,n \}] = [0]$. Ovvero sto facendo $\mathbb{Z}_{n}/\mathbb{Z}_{n}$ 
+	Ma se prendo la somma per $i<z$, $\sum_{i}[m] \neq [0]$ perché $i< n \implies im < zm$ e quindi abbiamo che $n$ non divide $im$. Quindi si ha che $|\left<  [m]\right>| = z$
 
----
+In particolare se $MCD\{ m,n \}= 1 \iff \left< [m] \right>=\mathbb{Z}_{n} \iff z=n$; ossia l'insieme $\{ [m] \}$ genera il gruppo $\mathbb{Z}_{n}$ sse $m,n$ sono **coprimi**.
+
+Da qui si può definire la **funzione di Eulero** come $\phi: \mathbb{N} \setminus \{ 0 \} \to \mathbb{N}\setminus \{ 0 \}$
+$$
+\phi(n) = \left| \{ m \leq n : MCD\{ m,n \} = 1 \} \right| 
+$$
+Questa funziona conta il numero di coprimi fino ad $n$.
+
+[Teorema]
+L'insieme dei sottogruppi di $(\mathbb{Z}, +)$ è $\{ n\mathbb{Z}:n \in\mathbb{N} \}$ 
+
+>[!note]- Dimostrazione
+>Sia $H \subseteq \mathbb{Z}$ un sottogruppo non banale. Sia $k=minH_{>0}$ e sia $h \in H_{>0}$ con $h \neq k$. Quindi $h>k$ e $h=nk + r$, $0 \le r \leq k$. Dunque $r=h-nk\in H \implies r=0$ per la minimalità di k.
+### Gruppo ciclico
+
+Un gruppo è **ciclico** se $G = \left< g \right>$ per qualche $g\in G$.
+
+>[!note]
+>Un gruppo ciclico è anche abeliano.
+
+
+
