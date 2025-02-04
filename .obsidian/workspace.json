@@ -52,8 +52,7 @@
               "title": "Morfismo"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -301,12 +300,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7d0bcc219daa3657",
+  "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
-    "Relazione.md",
     "Gruppo.md",
-    "Untitled 3.md",
     "Morfismo.md",
+    "!note.md",
+    "Relazione.md",
+    "Untitled 3.md",
     "Monoide.md",
     "Insieme.md",
     "Relazione d'ordine.md",
@@ -338,7 +338,6 @@
     "IO devices.md",
     "Bus.md",
     "Port based IO.md",
-    "Kernel memory.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",

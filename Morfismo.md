@@ -42,3 +42,15 @@ Un elemento $x \in M$ di un monoide finito è invertibile sse la matrice associa
 Da questo segue che un gruppo finito $G$ di cardinalità $|G| = n$ è isomorfo ad un gruppo di matrici le cui componenti sono $0,1$ e che hanno un unico $1$ in ogni riga/colonna; anche dette **matrici di permutazione**
 
 Il gruppo è inoltre isomorfo ad un sottogruppo del gruppo delle funzioni biunivoche che abbiamo chiamato il gruppo simmetrico $S_{n}$
+
+---
+
+Sia $f:G_{1}\to G_{2}$ un morfismo di [[Gruppo|Gruppi]]. Allora $f$ è iniettivo $\iff$ $Ker(f) = \{ e_{1} \}$. 
+
+>[!note]- Dimostrazione
+>Sia $f$ iniettivo. Sia $x\in Ker(f)$. Allora $f(x)=e_{2}$ e quindi, poiché anche $f(e_{1})=e_{2}$ si ha che $x=e_{1}$ utilizzando l'ipotesi che $f$ sia iniettiva. Quindi sia il $Ker(f) = \{ e_{1} \}$ e siano $x,y \in G_{1}$ tali che $f(x)=f(y)$, abbiamo che $f(x)f(y^{-1})=e_{2}\implies xy^{-1}=e_{1}\in Ker(f) \implies x=y$
+
+Quando si parla di morfismi di monoidi vale solo $f$ è iniettivo $\implies$ $Ker(f) = \{ e_{1} \}$
+
+
+

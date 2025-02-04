@@ -26,4 +26,8 @@ Se $e$ è l'identità di un gruppo $G$, l'insieme $\{  e\} \subseteq G$ è detto
 
 Sia $X$ un gruppo e $S \subseteq X$ un sottoinsieme. Definiamo $\left< S \right>$ il **sottogruppo generato da $S$**  come l'intersezione di tutti i sottogruppo di $X$ che contengono $S$. 
 
+Si consideri il gruppo $\mathbb{Z}_{n} = (\{ [0],\dots,[n-1] \}, +)$ e siano $m,n \in \mathbb{N}$ con $m<n$. Se
+- $m=0$ allora $\left<[0] \right> = \{ 0 \}$
+- $m>0$ e $z = \frac{mcm\{ m,n \}}{m}$ allora $[zm] = [mcm\{ m,n \}]=[0]$
+
 ---
