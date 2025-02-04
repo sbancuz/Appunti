@@ -45,7 +45,8 @@ La classe $[0]$ dell'identità di $G$ è l'identità di $(G\diagup{H}, +)$. Inol
 >$$
 >\mathbb{Z}_{n} = \mathbb{Z} \diagup{n\mathbb{Z}} \qquad \mathbb{Z}_{0} = \mathbb{Z}\diagup{\{ 0 \}}\simeq \mathbb{Z}
 >$$
->Siano $x,y\in \mathbb{Z}$ allora $x\sim y$ sse $x = y + h$ con $h \in n\mathbb{Z}$. Allora $x-y = kn$ per qualche $k \in \mathbb{Z}$ ed il resto della divisione di $x$ per $n$ è uguale al resto della divisione di $y$ per $n$. Quindi $\mathbb{Z}_{n} = \{ [0],\dots,[n-1] \}$
+>Siano $x,y\in \mathbb{Z}$ allora $x\sim y$ sse $x = y + h$ con $h \in n\mathbb{Z}$. Allora $x-y = kn$ per qualche $k \in \mathbb{Z}$ ed il resto della divisione di $x$ per $n$ è uguale al resto della divisione di $y$ per $n$. 
+>In generale si ha che  $\mathbb{Z}_{n} = \{ [0],\dots,[n-1] \}$
 
 Sia $G$ un gruppo abeliano e $H \subseteq G$ un sottogruppo. La proiezione canonica 
 $$

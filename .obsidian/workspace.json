@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Relazione.md",
+                "file": "Morfismo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relazione"
+              "title": "Morfismo"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Relazione.md",
+                "file": "Morfismo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -157,7 +157,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Relazione"
+              "title": "Graph of Morfismo"
             }
           }
         ]
@@ -303,8 +303,8 @@
   },
   "active": "7d0bcc219daa3657",
   "lastOpenFiles": [
-    "Gruppo.md",
     "Relazione.md",
+    "Gruppo.md",
     "Untitled 3.md",
     "Morfismo.md",
     "Monoide.md",
