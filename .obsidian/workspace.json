@@ -55,8 +55,7 @@
               "title": "Anello"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"dominio di integrità",
+                "query": "\"ampliamenti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -132,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Anello.md",
+                "file": "Polinomio.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -160,7 +159,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Anello"
+              "title": "Graph of Polinomio"
             }
           }
         ]
@@ -304,12 +303,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "54764b7b2915d9af",
+  "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
+    "Anello.md",
     "Campo.md",
     "Polinomio.md",
     "Funzioni.md",
-    "Anello.md",
     "Morfismo.md",
     "Gruppo.md",
     "NRA algorithm.md",
