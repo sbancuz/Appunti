@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Campo.md",
+                "file": "Anello.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Campo"
+              "title": "Anello"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Polinomio.md",
+                "file": "Anello.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -159,7 +160,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Polinomio"
+              "title": "Graph of Anello"
             }
           }
         ]
@@ -303,11 +304,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbcba10fd97097a4",
+  "active": "54764b7b2915d9af",
   "lastOpenFiles": [
-    "Funzioni.md",
-    "Polinomio.md",
     "Campo.md",
+    "Polinomio.md",
+    "Funzioni.md",
     "Anello.md",
     "Morfismo.md",
     "Gruppo.md",

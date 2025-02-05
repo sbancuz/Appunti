@@ -49,3 +49,16 @@ Sia $K$ un campo e $p(x)\in K[X]$ un polinomio irriducibile. Allora l'anello quo
 >$$
 >in $K[X] / \left< p(x) \right>$
 
+>[!example]
+>Gli elementi di $\mathbb F_{4} = \mathbb F_{2} /\left< 1 + x + x^{2} \right>$ sono $\{ 0, 1, x, 1 + x\}$. In particolare abbiamo che $[1 + x + x^{2}] = [0] \implies [x^{2}] = -[x+ 1] = [-x-1] = [x + 1]$
+>
+>Per tutti i calcoli bisogna chiaramente lavorare in $\mathbb F_{2}$ visto che è il campo che stiamo dividendo.
+
+[Teorema - Teorema di Ruffini]
+Sia $f(x)\in K[X]$ un polinomio non nullo. Se $\alpha\in K$, il resto della divisione di $f(x)$ per $x - \alpha$ è $f(\alpha)$. In particolare, $\alpha$ è radice di $f(x)$ sse $x - \alpha$ divide $f(x)$ in $K[X]$.
+
+>[!note]- Dimostrazione
+>$f(x)= (x-\alpha)g(x) + r(x)$ con $r(x) = 0$ oppure $deg(r(x)) < 1$. Quindi $r(x)$ è un polinomio constante $r(x) = c\in K$. Calcolando un $\alpha$ si ottiene $f(\alpha) = c$ 
+
+
+
