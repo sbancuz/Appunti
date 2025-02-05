@@ -78,6 +78,21 @@ In particolare $G_{1}/Ker(f)\simeq Im(f)$.
 >Ker(\phi) = \{ [g] \in G_{1} /Ker(f) : \phi([g]) = 0_{2} \} = \{ [g] \in G_{1} /Ker(f) : f(g) = 0_{2} \} = \{ [0_{1}] \}
 >$$
 >Quindi $\phi$ è iniettivo. Infine visto che $\phi: G_{1} / Ker(f) \to Im(f)$ è un morfismo di gruppi suriettivo. Allora è anche un isomorfismo.
+#### Morfismo di anelli
+
+Possiamo definire il morfismo di [[Anello|Anelli]] come la funzione $f:A \to B$ con $A,B$ anelli, se
+$$
+f :(A,+)\to(B, +)
+$$
+è un morfismo di gruppi e
+$$
+f:(A, \cdot) \to (B, \cdot)
+$$
+è un morfismo di monoidi. Il nucleo di un morfismo di anelli è l'insieme
+$$
+Ker(f) = \{ a \in A : f(a) = 0 \}
+$$
+---
 
 
 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppo.md",
+                "file": "Campo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gruppo"
+              "title": "Campo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Gruppo.md",
+                "file": "Morfismo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -160,7 +159,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Gruppo"
+              "title": "Graph of Morfismo"
             }
           }
         ]
@@ -304,11 +303,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "54764b7b2915d9af",
+  "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
+    "Anello.md",
     "Morfismo.md",
-    "Funzioni.md",
     "Gruppo.md",
+    "Campo.md",
+    "NRA algorithm.md",
+    "Ideale.md",
+    "Funzioni.md",
     "Insieme.md",
     "!note.md",
     "Relazione.md",
@@ -338,10 +341,6 @@
     "Power management.md",
     "ACPI states.png",
     "power consumption.png",
-    "Operating System.md",
-    "IO devices.md",
-    "Bus.md",
-    "Port based IO.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",

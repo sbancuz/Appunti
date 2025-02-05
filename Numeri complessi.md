@@ -3,7 +3,7 @@ tags: [analisi_1]
 ---
 Per calcolare la radice quadrata di un numero negativo basta avere la $\sqrt{-1} = i$ infatti $$\text{se} \lt 0\to\sqrt{a} = \sqrt{i*|a|}$$
 Aggiungo a $R$ quindi $i^2 = -1$ in modo tale da poter esprimere tutte le espressioni come $$x+iy \text{ con } x,y \in R$$
-Un numero complesso $z = x+iy$ dove $x,y \in R$ e $i^2=-1$, l'[[insieme]] di tutte queste espressioni si indica con $C$ il [[campo]] non ordinato dei numeri complessi. 
+Un numero complesso $z = x+iy$ dove $x,y \in R$ e $i^2=-1$, l'[[insieme]] di tutte queste espressioni si indica con $C$ il [[Campo]] non ordinato dei numeri complessi. 
 I numeri $C$ hanno le stesse proprietà di $R$ e possono essere rappresentati come punti nel piano $C\to R^2$
 ```math
 ||{"id":274371783654}||
