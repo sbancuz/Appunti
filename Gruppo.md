@@ -52,5 +52,34 @@ Un gruppo è **ciclico** se $G = \left< g \right>$ per qualche $g\in G$.
 >[!note]
 >Un gruppo ciclico è anche abeliano.
 
+[Teorema]
+Sia $G$ un gruppo ciclico. Allora ogni sottogruppo di $G$ è ciclico.
+
+>[!note]- Dimostrazione
+>Sia $g\in G$ tale che $G=\left< g \right>$. La funzione $\phi:(\mathbb{Z}, +) \to G$ definita da $\phi(n) = g^{n}$ è un morfismo suriettivo di gruppi. Abbiamo $2$ casi:
+>1) $G$ è infinito $\to$ allora $Ker(\phi)=\{ 0 \}$ e quindi $\phi$ sarà anche iniettivo, e dunque isomorfo. 
+>2) $G$ è finito $\to$ sia $H\subseteq G$ un sottogruppo. Allora 
+>$$
+>\phi^{-1}(H) = \{ n \in \mathbb{Z} : \phi(n) \in H \} \subseteq \mathbb{Z}
+>$$
+>è un sottogruppo di $\mathbb{Z}$, quindi esiste un $k\in \mathbb{N}$ tale che $\phi^{-1}(H) = \left< k \right>$. La restrizione $\phi\mathbf{k}\mathbb{Z}\to H$ è un morfismo suriettivo di gruppi e $\phi(hk)=[\phi(k)]^{h}$, quindi $H = \left< \phi(k) \right>$
+
+[Corollario]
+L'insieme dei sottogruppi di $\mathbb{Z}_{n}$ è $\{ \left< [m]\right> : [m] \in \mathbb{Z}_{n} \}$
+
+[Teorema]
+Sia $n \in \mathbb{N}$ e sia $d | n$ ($d$ divide $n$). Allora esiste al più un unico sottogruppo di $\mathbb{Z}_{n}$ di cardinalità $d$.
+
+>[!note]- Dimostrazione
+>Sia $H \subseteq \mathbb{Z}_{n}$ sottogruppo tale che $|H|=d$ si considerino le proiezioni canoniche
+>$$
+>\mathbb{Z} \xrightarrow{\pi_{1}} \mathbb{Z_{n}} \xrightarrow{\pi_{2}} \mathbb{Z}_{n} /H
+>$$
+>Poiché $\pi_{1}^{-1}(H) = \{ m \in \mathbb{Z} : \pi_{1}(m) \in H \} = Ker(\pi_{2} \circ\pi_{1})$ è un sottogruppo di $\mathbb{Z}$ allora esiste $k\in \mathbb{N}$ tale che $\pi^{-1}(H) = k\mathbb{Z}$.  Quindi essendo $\pi_{2} \circ\pi_{1}$ un morfismo suriettivo di gruppi
+>$$
+>\mathbb{Z}_{n} /H \simeq \mathbb{Z}/\pi^{-1}(H) = \mathbb{Z} /k\mathbb{Z} = \mathbb{Z}_{k}
+>$$
+>Ossia $k$ è univocamente determinato e allora $H=\pi_{1}(k\mathbb{Z})$ è univocamente determinato.
+
 
 

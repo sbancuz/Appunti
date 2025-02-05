@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "ca593b65a8376036",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
-            }
-          },
-          {
             "id": "54764b7b2915d9af",
             "type": "leaf",
             "state": {
@@ -51,15 +39,23 @@
               "state": {
                 "file": "Gruppo.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Gruppo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proiezione canonica",
+                "query": "suriettiv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -307,12 +303,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ca593b65a8376036",
+  "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
-    "Gruppo.md",
-    "Insieme.md",
     "Funzioni.md",
+    "Gruppo.md",
     "Morfismo.md",
+    "Insieme.md",
     "!note.md",
     "Relazione.md",
     "Untitled 3.md",
