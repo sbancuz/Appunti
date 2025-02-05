@@ -92,7 +92,72 @@ $$
 $$
 Ker(f) = \{ a \in A : f(a) = 0 \}
 $$
----
+ed è un [[Ideale]] di $A$. 
 
+[Teorema]
+Sia $f:A\to B$ un morfismo di anelli commutativi. Allora esiste un morfismo iniettivi di anelli $\psi: A /Ker(f) \to B$ tale che il seguente diagramma è commutativo
 
+```tikz
+\begin{document}
+\begin{tikzpicture}[ baseline=(current bounding box.center), node distance=3cm, Increased distance every node/.style={font=\large}, edge/.append style={line width=1pt} ]
+% Nodes
+\node (G1) {$G_1$};
+\node (G2) [right of=G1, xshift=2cm] {$G_2$};
+\node (Quot) [below of=G1, yshift=-1cm] {$G_1 / \ker(f)$};
+% Arrows 
+\draw[->] (G1) to node[above] {\large $f$} (G2);
+\draw[->] (G1) to node[left] {\large $\pi$} (Quot);
+\draw[->] (Quot) to node[below right] {\large $\psi$} (G2);
+\end{tikzpicture}
+\end{document}
+```
+In particolare, se $f$ è suriettivo
+$$
+\psi: A /Ker(f) \to B
+$$
+è un isomorfismo di anelli.
 
+[Teorema - Teorema cinese dei resti]
+Siano $n_{1},n_{2},\dots,n_{k} \in \mathbb{N}\setminus \{ 0,1 \}$ tali che $MCD\{ n_{i,}n_{j} \} = 1$ per ogni $1 \leq i,j\leq k, i\neq j$. Sia $n = n_{1}n_{2}\dots n_{k}$ allora la funzione $\Psi$ è **isomorfismo di anelli**.
+$$
+\begin{align}
+\Psi   :\quad &  \mathbb{Z}_{n}  \to   \mathbb{Z}_{n_{1}}\times \mathbb{Z}_{n_{2}}\times\dots\times \mathbb{Z}_{n_{k}} \\
+ & [x]_{n}  \to   ([x]_{n_{1}},[x]_{n_{2}},\dots,[x]_{n_{k}})
+\end{align}
+$$
+>[!note]- Dimostrazione
+>Vediamo prima di tutto che la funzione $f$ è un morfismo di anelli, dove $f:\mathbb{Z}\to\mathbb{Z}_{n_{1}}\times\dots\times \mathbb{Z}_{n_{k}}$ è definita da $f(x) = ([x]_{n_{1}}, \dots, [x]_{n_{k}})$
+>- $f(a + b) = ([(a+b)]_{n_{1}}, \dots) = ([a]_{n_{1}},\dots) + ([b]_{n_{1}},\dots) = f(a) + f(b)$
+>- $f(1) = ([1]_{n_{1}, \dots})$ è l'unità
+>- $f(a  b) = ([(ab)]_{n_{1}}, \dots) = ([a]_{n_{1}},\dots) ([b]_{n_{1}},\dots) = f(a) f(b)$
+>Adesso bisogna mostrare che il morfismo sia suriettivo. Sia $([a_{1}]_{n_{1}}, \dots, [a_{k}]_{n_{k}})$ osserviamo che 
+>$$
+>MCD\{ n_{i}, n_{1}n_{2}\dots n_{k} \} = 1
+>$$
+>Quindi abbiamo l'identità di Bézout $\underbrace{ a_{i}n_{i} }_{ u_{i} } + \underbrace{ b_{i} \frac{n}{n_{i}} }_{ v_{i} } = 1$. Adesso definiamo $x = a_{1}v_{1} + \dots + a_{k}v_{k}$ e abbiamo che
+>$$
+>f(x) = ([x]_{n_{1}}, \dots, [x]_{n_{k}})
+>$$
+>infatti
+>$$
+>[v_{i}]_{n_{j}} = \begin{cases}
+>[0]_{n_{j}}  & i \neq j \\
+>[1]_{n_{j}} & \text{altrimenti}
+>\end{cases}
+>$$
+>Per il teorema di isomorfismo abbiamo che $\mathbb{Z} /Ker(f) \simeq \mathbb{Z}_{n_{1}}\times\dots\times \mathbb{Z}_{n_{k}}$ come anelli. Ma abbiamo che $Ker(f) = \left< n_{1} \right>\cap \dots \cap \left< n_{k} \right> = \left< mcm\{ n_{1},\dots,n_{k} \} \right> = \left< n_{1}\dots n_{k} \right>$ e visto che $n_{i}, n_{j}$ sono coprimi, l'isomorfismo $\Psi$ è quello enunciato dal teorema.
+
+[Corollario]
+Sia $U(\mathbb{Z}_{n})$ il gruppo degli elementi invertibili dell'anello $\mathbb{Z}_{n}$. Sia $n=n_{1}\dots n_{k}$, dove $MCD\{ n_{i}, n_{j} \} = 1$ $\forall {1\leq i,j} \leq k {,i\neq j}$ e $n_{i}\in \mathbb{N} \setminus \{ 0,1 \}, \forall {1\leq} i {\leq k}$ allora come gruppi
+$$
+U(\mathbb{Z}_{n})\simeq U(\mathbb{Z}_{n_{1}})\times\dots\times U(\mathbb{Z}_{n_{k}})
+$$
+Poiché un elemento $[x]\in \mathbb{Z}_{n}$ è invertibile sse esiste un'identità di Bézout $ax + bn =1$, abbiamo che $[x]$ è invertibile sse $MCD\{ x,n \}=1$. Quindi
+$$
+\left| U(\mathbb{Z}_{n}) \right| = \phi(n) \qquad \text{Funzione di eulero}
+$$
+[Corollario]
+Sia $\phi:\mathbb{N}\setminus \{ 0 \} \to \mathbb{N}\setminus \{ 0 \}$ la funzione $\phi$ di Eulero. Siano $x,y\in \mathbb{N}\setminus \{ 0 \}$ tali che $MCD\{ x,y \}= 1$ allora
+$$
+\phi(xy) = \phi(x)\phi(y)
+$$
