@@ -64,6 +64,9 @@ Sia $G$ un gruppo ciclico. Allora ogni sottogruppo di $G$ è ciclico.
 >$$
 >è un sottogruppo di $\mathbb{Z}$, quindi esiste un $k\in \mathbb{N}$ tale che $\phi^{-1}(H) = \left< k \right>$. La restrizione $\phi\mathbf{k}\mathbb{Z}\to H$ è un morfismo suriettivo di gruppi e $\phi(hk)=[\phi(k)]^{h}$, quindi $H = \left< \phi(k) \right>$
 
+>[!warning]
+>$(\mathbb{R}, +)$ non è ciclico perché non esiste un biiezione $\underbrace{ \mathbb{R} }_{ \text{continuo} } \simeq \underbrace{ \mathbb{Z} }_{ \text{numerabile} }$
+
 [Corollario]
 L'insieme dei sottogruppi di $\mathbb{Z}_{n}$ è $\{ \left< [m]\right> : [m] \in \mathbb{Z}_{n} \}$
 

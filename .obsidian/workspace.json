@@ -55,7 +55,8 @@
               "title": "Gruppo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Gruppo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -159,7 +160,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Morfismo"
+              "title": "Graph of Gruppo"
             }
           }
         ]
@@ -303,11 +304,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbcba10fd97097a4",
+  "active": "54764b7b2915d9af",
   "lastOpenFiles": [
+    "Morfismo.md",
     "Funzioni.md",
     "Gruppo.md",
-    "Morfismo.md",
     "Insieme.md",
     "!note.md",
     "Relazione.md",
