@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Polinomio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Polinomio"
             }
           },
           {
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "suriettiv",
+                "query": "\"dominio di integrità",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Polinomio.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -159,7 +159,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Morfismo"
+              "title": "Graph of Polinomio"
             }
           }
         ]
@@ -305,13 +305,14 @@
   },
   "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
+    "Funzioni.md",
+    "Polinomio.md",
+    "Campo.md",
     "Anello.md",
     "Morfismo.md",
     "Gruppo.md",
-    "Campo.md",
     "NRA algorithm.md",
     "Ideale.md",
-    "Funzioni.md",
     "Insieme.md",
     "!note.md",
     "Relazione.md",
@@ -338,7 +339,6 @@
     "UEFI.md",
     "GPT.png",
     "Boot.md",
-    "Power management.md",
     "ACPI states.png",
     "power consumption.png",
     "Untitled.canvas",

@@ -161,3 +161,30 @@ Sia $\phi:\mathbb{N}\setminus \{ 0 \} \to \mathbb{N}\setminus \{ 0 \}$ la funzio
 $$
 \phi(xy) = \phi(x)\phi(y)
 $$
+
+Come conseguenza del corollario otteniamo una formula per calcolare la funzione $\phi$ di Eulero. Se $p$ è un numero primo, ci sono $p^{k}$ numeri maggiori o uguali a $1$ e minori o uguali a $p^{k}$. Di questi, i numeri $p,2p,\dots,p^{k-1}$ hanno fattori comuni con $p^{k}$. Quindi 
+$$
+\phi(p^{k}) = p^{k} - p^{k-1}
+$$
+Se $n=p^{k_{1}}-p^{k_{s}}$, per il corollario
+$$
+\phi(n) = \phi(p_{1}^{k_{1}})\dots\phi(p_{s}^{k_{s}}) = p_{1}^{k_{1}}\dots p_{s}^{k_{s}} \prod_{\underbrace{ p | n }_{ p \text{ primo} }}\left( 1- \frac{1}{p} \right) = n  \prod_{\underbrace{ p | n }_{ p \text{ primo} }}\left( 1- \frac{1}{p} \right)
+$$
+[Teorema - Teorema di Eulero]
+Siano $n,a\in \mathbb{N} \setminus \{ 0 \}$ tali che $MCD\{ a,n \} = 1$. Allora
+$$
+[a^{\phi(n)}] = [1] \quad \text{in }\mathbb{Z}_{n}
+$$
+>[!note]- Dimostrazione
+>Sappiamo che la cardinalità del gruppo degli elementi invertibili di $\mathbb{Z}_{n}$ è $|U(\mathbb{Z}_{n})|=\phi(n)$. Sia $\left< [a] \right> \subseteq U(\mathbb{Z}_{n})$ . Allora $|\left< [a] \right>|$ divide $\phi(n)$, ossia $\phi(n) = k \underbrace{ |\left< [a] \right>| }_{ c }$, per qualche $k \in \mathbb{N}$. Abbiamo quindi che
+>$$
+>[1] = [a^{c}] = ([a^{c}])^{k} = [a^{ck}] = [a^{\phi(n)}]
+>$$
+
+[Corollario - Piccolo teorema di Fermat]
+Sia $p$ un numero primo e $a \in \mathbb{N}$. Allora in $\mathbb{Z}_{p}$ abbiamo che $[a] = [a^{p}]$.
+
+>[!note]- Dimostrazione
+>Se $p$ è primo si ha che $\phi(p) = p -1$. Allora dal teorema di Eulero segue che se $a \neq 0$ e $p \cancel{ |}a$, $a^{\phi(p)} \equiv [1]_{p}\implies a^{p-1}\equiv [1]_{p} \implies a^{p} \equiv [a]_{p}$. 
+>Se $a = 0$ o $p |a$ l'uguaglianza si riduce a $[0] =[0]$
+

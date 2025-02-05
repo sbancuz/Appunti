@@ -44,3 +44,8 @@ $$
 x'(y)' = (x + i_{x})(y + i_{y}) = xy + \underbrace{ x+i_{x} + yi_{y} + i_{y}i_{x} }_{ \in I \text{ perché } I \text{ è un ideale di }A }
 $$
 e infine $[x'y'] = [xy]$. Possiamo anche dire che per ogni $[1_{A}]$ è l'unità di $A /I$.
+
+---
+Sia $A$ un anello. Il [[Gruppo#Sottogruppo]] $\left< 1_{A} \right> \subseteq(A, +)$ è un gruppo ciclico. Quindi esiste $n\in \mathbb{N}$ tale che $\left< 1_{A} \right> \simeq \mathbb{Z}_{n}$. Il numero $n$ cosi definito è detto **caratteristica dell'anello A**. Possiamo indicare questo con $char(A)$.
+
+Sia $A$ un anello e sia $\left< 1_{A} \right>$ il sottogruppo di $(A, +)$ generato da $1_{A}$ generato da $1_{A}$. L'intersezione di tutti i sottoanelli di $A$ contenenti $\left< 1_{A} \right>$ si chiama **sottoanello fondamentale di $A$**

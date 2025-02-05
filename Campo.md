@@ -14,6 +14,8 @@ $$
 $$
 Quindi $\mathbb{Z}_{n}$ è un campo sse $n$ è un numero primo.
 
+Sia $A$ un campo e sia $\left< 1_{A} \right>$ il sottogruppo di $(A, +)$ generato da $1_{A}$ generato da $1_{A}$. L'intersezione di tutti i sottocampi di $A$ contenenti $\left< 1_{A} \right>$ si chiama **sottocampo fondamentale di $A$**. Se $p \in \mathbb{N}$ è un numero primo, il sottocampo fondamentale di $\mathbb F$è $\mathbb F_{p}$ perché $\left< [1] \right> = \mathbb F_{p}$.
+
 Per calcolare il MCD basta usare l'algoritmo di **Euclide**
 ```pseudo
 \begin{algorithm}

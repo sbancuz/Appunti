@@ -1,6 +1,8 @@
 ---
 tags:
   - analisi_1
+aliases:
+  - Funzione
 ---
 Una funzione è una terna formata da:
 	1 • [[Insieme]] Dominio
