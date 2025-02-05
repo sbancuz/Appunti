@@ -15,11 +15,32 @@
               "state": {
                 "file": "Morfismo.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Morfismo"
+            }
+          },
+          {
+            "id": "ca593b65a8376036",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           },
           {
@@ -37,7 +58,8 @@
               "title": "Gruppo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -285,7 +307,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbcba10fd97097a4",
+  "active": "ca593b65a8376036",
   "lastOpenFiles": [
     "Gruppo.md",
     "Insieme.md",
