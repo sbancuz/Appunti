@@ -120,3 +120,18 @@ Sia $\alpha \in \mathbb{F}_{p^{n}}$ un generatore del gruppo moltiplicativo $\ma
 >[!note]- Dimostrazione
 >$\mathbb{F}_{p^{}}(\alpha)$ è il più piccolo sottocampo di $\mathbb{F}_{p^{n}}$ contenente sia $\mathbb{F}_{p^{}}$ che $\alpha$. Quindi $\mathbb{F}_{p^{}}(\alpha) \subseteq \mathbb{F}_{p^{n}}$. Poiché $\alpha$ genera il gruppo moltiplicativo $\mathbb{F}_{p^{n}}\setminus \{ 0 \}$, si ha che $\mathbb{F}_{p^{n}} \subseteq \mathbb{F}_{p^{}}(\alpha)$
 
+Siano $p(x), q(x) \in \mathbb{F}_{p}[X]$ due polinomi irriducibili di grado $n$, vogliamo costruire un isomorfismo.
+$$
+f: \mathbb{F}_{p}[X] /\left< p(x) \right> \to \mathbb{F}_{p}[X] / \left< q(x) \right> 
+$$
+Per farlo abbiamo abbiamo bisogno di questo risultato. Siano $F\subseteq K,K'$ due ampliamenti di campi. Se $\alpha \in K$ è algebrico di grado $n$ su $F$ con polinomio minimo $m(x)$, esiste un morfismo di campi $\phi:\mathbb{F}(\alpha) \to K'$ che fissa $F$ sse $m(x)$ ha una radice in $K'$. In questo caso i morfismi $\phi$ sono tanti quanti le radici distinte $\beta_{1},\dots,\beta_{s}$ di $m(x)$ in $K'$ e sono tutti e soli quelli definiti da
+$$
+c_{0} + c_{1} \alpha + \dots + c_{n-1}\alpha^{n-1} \to c_{0} + c_{1}\beta + \dots + c_{n-1}\beta^{n-1}
+$$
+>[!note]- Dimostrazione
+>Se $\alpha$ è algebrico di grado $n$ su $F$, con polinomio minimo $m(x)$ e $\phi: F(\alpha) \to K'$ è un morfismo, allora
+>$$
+> 0 = \phi(0) = \phi(m(\alpha)) = m(\phi(\alpha))
+>$$
+>quindi $\phi(\alpha)$ deve essere radice di $x(x)$ in $K'$
+ 
