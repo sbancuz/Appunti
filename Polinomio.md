@@ -277,3 +277,46 @@ Sia $K$ un campo, allora
 1) Se $f(x)\in K[X]$ ha un fattore multiplo, allora $MCD\{ f,f' \} \neq 1$ dove $f'$ è la derivata.
 2) Se $K$ ha caratteristica $0$ o è un campo finito di caratteristica $p$ e $MCD\{ f,f' \}\neq 1$, allora $f(x)$ ha sempre un fattore multiplo
 
+Possiamo anche estendere il **teorema cinese dei resti** per i polinomi. Siano $p_{i}(x)$ con $MCD\{ p_{i}(x), p_{j}(x) = 1 \}$
+$$
+\mathbb{F}_{p}[X] / \left< f \right>  \simeq \mathbb{F}_{p}[X] / \left< p_{1}(x) \right>\times \dots \times \mathbb{F}_{p}[X] / \left< p_{k}(x) \right>
+$$
+dato $(s_{1}, \dots, s_{k})\in \mathbb{F}_{p}^{k}$, esiste un unica classe $[h(x)] \in \mathbb{F}_{p}[X] /\left< f \right>$ tale che
+$$
+\begin{cases}
+[h(x)] = [s_{1}]  & \text{in } \mathbb{F}_{p}[X] /\left< p_{1}(x) \right>  \\
+\quad \vdots \\
+ [h(x)] = [s_{k}]  & \text{in } \mathbb{F}_{p}[X] /\left< p_{k}(x) \right>  
+\end{cases}
+$$
+ossia $h(x) - s_{i}$ è divisibile per $p_{i}(x)$, quindi divide
+$$
+h(x) [h(x) - 1] \dots [h(x) - (p - 1)] = h(x)^{p} - h(x)
+$$
+
+>[!example]
+>Fattorizziamo $f:x^{5} + x^{2} + 2x + 1 \in \mathbb{F}_{3}[X]$. Prima bisogna verificare che $MCD\{ f,f' \} = 1$
+>$$
+>MCD\{ f,f' \} = MCD\{  x^{5} + x^{2} + 2x + 1 , 5x^{4} + 2x^{} + 2 \} = 1 \checkmark 
+>$$
+>Poi bisogna calcolare i resti
+>$$
+>\begin{align}
+>x ^{ 3 (5 -1)} = x^{12}  & \equiv [x^{2} +2]_{f} \\
+>x^{3(3)} = x^{9}  & \equiv [2x^{4} + x^{3} + x^{2}+ 2x + 2]_{f} \\
+>x^{3(2)} = x^{6}  & \equiv [2x^{3} + x^{2} + 2x]_{f} \\
+>x^{3}  & \equiv [x^{3}]_{f} \\
+>1  & \equiv [1]_{f} \\
+>\end{align}
+>$$
+>E quindi ho
+>$b_{0} + b_{1}x^{3} + b_{2}(2x^{3} + x^{2 } + 2x ) + b_{3}(2x^{4} + x^{3} + x^{2} + 2x + 2) + b_{4}(x^{2} + 2 ) =$$b_{0}+b_{1}x + b_{2} x^{2} + b_{3}x^{3} + b_{4}x^{4}$
+>Poi si mette tutto in un sistema e ottengo $(b_{0},b_{1},b_{2},b_{3},b_{4}) = (0,1,1,1,2)$. Quindi $f(x) = MCD\{ f, i + x + x^{2} + x^{3} +2x^{4} : i=0,1,2\} = (1 + x^{2}) (x^{3} + 2x+1)$
+
+
+
+
+
+
+
+
