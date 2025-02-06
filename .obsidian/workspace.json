@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anello.md",
+                "file": "Campo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Anello"
+              "title": "Campo"
             }
           }
         ]
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ampliamenti",
+                "query": "\"ciclico",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -305,12 +305,12 @@
   },
   "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
-    "Anello.md",
     "Campo.md",
+    "Gruppo.md",
+    "Anello.md",
     "Polinomio.md",
     "Funzioni.md",
     "Morfismo.md",
-    "Gruppo.md",
     "NRA algorithm.md",
     "Ideale.md",
     "Insieme.md",

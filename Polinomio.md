@@ -144,4 +144,56 @@ Adesso vogliamo mostrare che un campo che ha cardinalità $p^{n}$ è un campo di
 $$
 x^{p^{n}} - x \in \mathbb{F}_{p}[X]
 $$
-infatti, se $K$ è un campo e $|K| = p^{n}$, allora il suo gruppo moltiplicativo $K \setminus \{ 0 \}$ ha cardinalità $p^{n} - 1$ e quindi si ha $\alpha^{p^{n}- 1}=1$. Quindi ogni elemento di $K$ è radice del polinomio $x^{p^{n}}-x$. Per il teorema di Ruffini, $K$ è un campo  di spezzamento.
+infatti, se $K$ è un campo e $|K| = p^{n}$, allora il suo gruppo moltiplicativo $K \setminus \{ 0 \}$ ha cardinalità $p^{n} - 1$ e quindi si ha $\alpha^{p^{n}- 1}=1$ in quanto $K \setminus \{ 0 \}$ è ciclico. Quindi ogni elemento di $K$ è radice del polinomio $x^{p^{n}}-x$. Per il teorema di Ruffini, $K$ è un campo  di spezzamento.
+
+Adesso manca solo da dimostrare che ogni polinomio di grado $n$ irriducibile in $\mathbb{F}_{p}[X]$ divide $x^{p^{n}} - x \in \mathbb{F}_{p}[X]$. Tutti e soli i polinomi irriducibili su $\mathbb{F}_{p}$ di grado $n$ sono i fattori irriducibili di grado $n$ di $x^{p^{n}} - x \in \mathbb{F}_{p}[X]$
+
+>[!Dimostrazione]-
+>Sia $p(x) \in \mathbb{F}_{p}[X]$ irriducibile di grado $n$ e sia $K = \mathbb{F}_{p}[Y] / \left< p(y) \right>$, allora $K$ ha $p^{n}$ elementi che sono le radici di $x^{p^{n}} - x$. Poiché $y \in K$ è una radice, allora $p(x)\in K[X]$ e $p(x), x^{p^{n}} - x \in \mathbb{F}_{p}[X]$ hanno una radice in comune in $K\implies$ per il teorema di Ruffini hanno un fattore in comune $x-y\in K[X]$. Quindi poiché il MCD in $\mathbb{F}_{p}[X]$ è lo stesso che in $K[X]$, allora $p(x), x^{p^{n}} - x \in \mathbb{F}_{p}[X]$ hanno un MCD diverso da $1\in \mathbb{F}_{p}[X]$. Visto che $p(x)$ è irriducibile allora $p(x)$ divide $x^{p^{n}} - x$
+
+Adesso vogliamo costruire un isomorfismo di campi 
+$$
+f: \mathbb{F}_{p}[X] /\left< p(x) \right> \to \mathbb{F}_{p}[X] / \left< q(x) \right> 
+$$
+dove $p(x), q(x)\in \mathbb{F}_{p}[X]$ sono monici irriducibili di grado $n$. Basta costruire un morfismo di anelli. Infatti, un morfismo di anelli che sono campi è iniettivo, ed inoltre
+$$
+|\mathbb{F}_{p}[X] /\left< p(x) \right>| \simeq|\mathbb{F}_{p}[X] / \left< q(x) \right>| = p^{n}
+$$
+Sia ha che, se $y\in \mathbb{F}_{p}[X] /\left< p(x) \right>$, allora $p(x)\in \mathbb{F}_{p}[X]$ è il polinomio minimo di $y$ su $\mathbb{F}_{p}$. Quindi se $p(x)$ ha una radice in $\mathbb{F}_{p}[X] /\left< p(x) \right>$ possiamo usare la proposizione sull'estensione di morfismi di campi per definire il morfismo $f$ che sarà un isomorfismo. Infatti
+$$
+\mathbb{F}_{p} \subseteq \mathbb{F}_{p}[X] /\left< p(x) \right>, \mathbb{F}_{p}[X] /\left< q(x) \right> \quad \text{e } \quad \mathbb{F}_{p}[X] /\left< p(x) \right> = \mathbb{F}_{p}([x])
+$$
+dove $[x]$ è la classe di equivalenza di $x\in \mathbb{F}_{p}[X] /\left< p(x) \right>$. Poiché $\mathbb{F}_{p}[X] /\left< q(x) \right>$ è un campo di spezzamento di $x^{p^{n}}- x$ e $p(x)$ lo divide, allora $p(x)$ fattorizza a fattori di grado $1$ sul campo $\mathbb{F}_{p}[X] /\left< q(x) \right>$.
+
+Tutto questo implica che, dato $\beta \in \mathbb{F}_{p}[X] /\left< q(x) \right>$ tale che $p(\beta)=0$ allora l'assegnazione
+$$
+c_{0} + c_{1}x + \dots + c_{n-1}x^{n-1} \to c_{0} + c_{1}\beta + \dots + c_{n-1}\beta^{n-1}
+$$
+definisce un morfismo di anelli
+$$
+f: \mathbb{F}_{p}[X] /\left< p(x) \right> \to \mathbb{F}_{p}[X] / \left< q(x) \right> 
+$$
+>[!example]
+>In $\mathbb{F}_{3}[X]$ si considerino i polinomi irriducibili $1 + x^{2}$ e $2+x+x^{2}$, entrambi minimi su $x$ e $y$ rispettivamente. Quindi si ha che
+>$$
+>1+x^{2} = y + y^{2} + x^{2} = x^{2} + 2y^{2} + 2y + 2 = \dots = (x + y + 2)(x + 2y + 1)
+>$$
+>quindi in $K'[X]$, $1 + x^{2}$ ha le rue radici $-y-2 = 2y + 1$ e $-2y -1 = y + 2$.
+>Abbiamo quindi $2$ isomorfismi $f:K \to K'$ e $g: K \to K'$ con rispettivamente $a_{0} + a_{1}x \to a_{0} + a_{1}(2y + 1)$ e $a_{0} + a_{1}x \to a_{0} + a_{1}(y + 2)$
+
+[Lemma]
+Se $K$ è un anello commutativo di caratteristica prima $p$, allora
+$$
+(x + y) ^{p^{h}} = x^{p^{h}} + y^{p^{h}}
+$$
+per ogni $x,y\in K$ e $h \geq 1$. Da questo lemma segue che, se $K$ è un campo di caratteristica $p$, la funzione
+$$
+\Phi: K \to K \qquad x \to x^{p}
+$$
+è un morfismo di campi. Se $K = \mathbb{F}_{p^{n}}$, $\Phi$ si dice **automorfismo**, essendo un morfismo iniettivo da un campo di cardinalità finita in se stesso. Questo è anche chiamato **automorfismo di Frobenius**
+
+[Teorema]
+Il gruppo degli automorfismi di $\mathbb{F}_{p^{n}}$ o $Aut(\mathbb{F}_{p^{n}})$ è ciclico di cardinalità $n$, generato dall'automorfismo di Frobenius.
+
+[Lemma]
+Sia $F$ un campo. Il polinomio $x^{d} -1 | x^{n}-1$ in $\mathbb{F}[X]$ sse $d|n$.
