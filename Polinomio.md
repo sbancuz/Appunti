@@ -196,4 +196,84 @@ $$
 Il gruppo degli automorfismi di $\mathbb{F}_{p^{n}}$ o $Aut(\mathbb{F}_{p^{n}})$ è ciclico di cardinalità $n$, generato dall'automorfismo di Frobenius.
 
 [Lemma]
-Sia $F$ un campo. Il polinomio $x^{d} -1 | x^{n}-1$ in $\mathbb{F}[X]$ sse $d|n$.
+Sia $F$ un campo. Il polinomio $x^{d} -1 | x^{n}-1$ in $\mathbb{F}[X]$ sse $d|n$. Questo implica $d|n \iff x^{p^{d}}-x|x^{p^{n}}-x$  
+
+[Proposizione]
+Tutti e soli i sottocampi di $\mathbb{F}_{p^{n}}$ sono i campi $\mathbb{F}_{p^{d}}$ dove $d |n$
+
+Finora, dato un numero primo $p$ e un numero naturale $n\neq 0$, abbiamo costruito un campo di cardinalità $p^{n}$ prendendo un polinomio irriducibile $q\in \mathbb{F}_{p}[X]$ e facendo il quoziente
+$$
+\mathbb{F}_{p}[X] /\left< Q \right>
+$$
+Abbiamo anche visto che due campi costruiti in questo mode, aventi stessa cardinalità, sono isomorfi. Da qui possiamo fare qualche osservazione
+1) Sia $K$ un campo finito, qual'è la caratteristica di $K$? 
+	Un campo finito ha caratteristica $p$ ed il suo sottocampo fondamentale è $\mathbb{F}_{p}$
+2) Sia $K$ un campo finito e $\mathbb{F}_{p} \subseteq K$ per qualche primo. Inoltre il gruppo moltiplicativo $K\setminus \{ 0 \}$ è ciclico e quindi, se $K\setminus \{ 0 \} = \left< \alpha \right> \implies K = \mathbb{F}_{p}(\alpha)$. Quindi se il grado di $\alpha$ su $\mathbb{F}_{p}$ è $n$, abbiamo che $|K|=p^{n}$, ossia **ogni campo finito ha cardinalità** $p^{n}$, per qualche primo e $n\neq 0$ naturale.
+3) Siano $K_{1},K_{2}$ di cardinalità $p^{n}$. Sia $K_{1}=\mathbb{F}_{p}(\alpha)$ dove $\alpha$ è generatore del gruppo $K_{1}\setminus \{ 0 \}$ di grado $n$. Sia adesso $q\in \mathbb{F}_{p}[X]$ il suo polinomio minimo. Quindi $deg(q)=n$ e $q$ è irriducibile. 
+	1) $K_{1}, K_{2}$ sono campi di spezzamento di $x^{p^{n}} -x\in \mathbb{F}_{p}[X]$
+	2) ogni polinomio irriducibile di grado $n$ in $\mathbb{F}_{p}[X]$ è fattore di $x^{p^{n}}-x$
+	3) Ne segue che il polinomio $q$ ha una radice in $K_{2}$, sia $\beta$ tale radice
+	4) Allora l'assegnazione $\alpha\to\beta$ definisce un morfismo di campi da $K_{1}$ in $K_{2}$ poiché un morfismo di campi è sempre iniettivo, e poiché tale morfismo è suriettivo ed, infine, avendo $|K_{1}|=|K_{2}|$ si ha
+$$
+K_{1} \simeq K_{2}
+$$
+
+[Teorema - Algoritmo di Berlekamp]
+Sia $f(x)\in \mathbb{F}_{p}[X]$ di grado $d > 1$, sia $h(x) \in \mathbb{F}_{p}[X]$ di grado $1 \leq deg(h) < d$ tale che $f(x) | h(x)^{p} - h(x)$ allora
+$$
+f(x) = MCD\{ f(x), h(x) \}\cdot MCD\{ f(x), h(x) - 1 \}\cdot .. \cdot MCD\{ f(x), h(x) - (p - 1) \}
+$$
+è una fattorizzazione non banale di $f(x) \in \mathbb{F}_{p}[X]$
+
+>[!Dimostrazione]-
+>Supponiamo che $f(x)$ divida $h(x)^{p}-h(x)$. Il polinomio $x^{p}-x$ si fattorizza come 
+>$$
+>x^{p}- x = x(x-1)(x-2)\dots(x-(p-1))
+>$$
+>banalmente posso sostituire $x$ con $h(x)$ e abbiamo che $MCD\{ h(x) - i, h(x)  -j\} = 1$. Infatti, se $MCD\{ \dots \} = D(x)$ allora
+>$$
+>\begin{align}
+>h(x) - i = D(x)H_{i}(x) \\
+>h(x) - j = D(x)H_{j}(x)
+>\end{align} \implies
+>$$
+>$D(x)[H_{i}(x) - H_{j}(x)] = j -i\in \mathbb{F}_{p}\implies Deg(D) = 0$ per $i \neq j$
+>Inoltre, se $MCD\{ a,b \} = 1$ si ha che $MCD\{ f, ab \}= MCD\{ f,a \}MCD\{ f,b \}$ si ha che
+>$$
+>MCD\{ f,a_{1}\dots a_{k} \} = MCD\{ f,a_{1} \}\dots MCD\{ f, a_{k} \}
+>$$
+>Poiché $f(x) | h(x)^{p}-h(x)$ abbiamo che
+>$$
+>f(x) = MCD\{ f(x), h(x)^{p}-h(x) \}
+>$$
+>e visto che, per $i\neq j$, si ha $MCD\{ h(x) - i, h(x) -j \} = 1$ abbiamo che
+>$$
+>f(x) =  MCD\{ f(x), h(x)^{p}-h(x) \} = MCD\{ f,h \}\dots MCD\{ f, h -p + 1 \}
+>$$
+>Poiché $Deg(h-1)<deg(f)$ e $MCD\{ f, h - i \} \neq f(x)$. Quindi nella fattorizzazione precedente appaiono solo polinomi di grado $<d$, quindi è una fattorizzazione non banale di $f$.
+
+Possiamo anche mostrare che un polinomio $h(x)\in \mathbb{F}_{p}[X]$ che soddisfa ^^ esiste sempre. 
+
+>[!Dimostrazione]-
+> Sia
+>$$
+>h(x) = b_{0} + b_{1}x + \dots + b_{d-1}x^{d -1}
+>$$
+>allora 
+>$$
+>h(x)^{p} = b_{0}^{p} + b_{1}^{p}x^{p} + \dots + b_{d-1}^{p}x^{p(d -1)}
+>$$
+>>[!note]- Passaggio
+>>A quanto pare abbiamo dimostrato da qualche parte che $(x + y)^{p}= x^{p} + y^{p}$.
+>
+>Ma visto che, $b_{i}^{p}=b_{i}$ possiamo semplificare a 
+>$$
+>h(x)^{p} = b_{0}^{} + b_{1}^{}x^{p} + \dots + b_{d-1}^{}x^{p(d -1)}
+>$$
+>e adesso si ha che (roba che non voglio scrivere tanto non mi metto a spiegare sto teorema)
+
+Sia $f(x) = p_{1}(x)\dots p_{k}(x)$ una fattorizzazione di $f(x)\in \mathbb{F}_{p}[X]$ in fattori irriducibili. Supponiamo che $f$ non abbia fattori multipli. [Teorema]
+Sia $K$ un campo, allora
+1) Se $f(x)\in K[X]$ ha un fattore multiplo, allora $MCD\{ f,f' \} \neq 1$ dove $f'$ è la derivata.
+2) Se $K$ ha caratteristica $0$ o è un campo finito di caratteristica $p$ e $MCD\{ f,f' \}\neq 1$, allora $f(x)$ ha sempre un fattore multiplo
+
