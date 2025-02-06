@@ -133,5 +133,15 @@ $$
 >$$
 > 0 = \phi(0) = \phi(m(\alpha)) = m(\phi(\alpha))
 >$$
->quindi $\phi(\alpha)$ deve essere radice di $x(x)$ in $K'$
- 
+>quindi $\phi(\alpha)$ deve essere radice di $m(x)$ in $K'$. Viceversa, sia $\beta$ una radice di $m(x)$ in $K'$ e considerando il morfismo di anelli $v_{\beta}: F[X] \to K'$. Poiché $m(x)\in Ker(v_{\beta})$, dal teorema di isomorfismo per anelli abbiamo che $Ker(v_{\beta}) = \left< (m(x)) \right>$, essendo $m(x)$ irriducibile. Quindi abbiamo trovato un morfismo iniettivo $\phi:F(\alpha) \to K'$ che soddisfa le proprietà dell'enunciato della proposizione.
+
+Sia $F$ un [[Campo]] e $f(x) \in F[X]$ un polinomio di grado $n \geq 1$. Un campo $K$, ampliamento di $F$, si dice **campo di spezzamento** di $f(x)$ su $F$ se $f(x)$ fattorizza in polinomi di grado $1$ su $K[X]$ e non ci sono campi intermedi con questa proprietà
+
+>[!example]
+>$\mathbb{Q}(\sqrt{ 2 })$ è un campo di spezzamento di $x^{2} - 2 \in \mathbb{Q}[X]$. $\mathbb{C}$ è campo di spezzamento di $x^{2} + 1 \in \mathbb{R}[X]$
+
+Adesso vogliamo mostrare che un campo che ha cardinalità $p^{n}$ è un campo di spezzamento del polinomio
+$$
+x^{p^{n}} - x \in \mathbb{F}_{p}[X]
+$$
+infatti, se $K$ è un campo e $|K| = p^{n}$, allora il suo gruppo moltiplicativo $K \setminus \{ 0 \}$ ha cardinalità $p^{n} - 1$ e quindi si ha $\alpha^{p^{n}- 1}=1$. Quindi ogni elemento di $K$ è radice del polinomio $x^{p^{n}}-x$. Per il teorema di Ruffini, $K$ è un campo  di spezzamento.
