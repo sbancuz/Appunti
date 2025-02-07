@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Campo.md",
+                "file": "Tensori.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Campo"
+              "title": "Tensori"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Forma bilineare.md",
+                "file": "Tensori.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -159,7 +160,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Forma bilineare"
+              "title": "Graph of Tensori"
             }
           }
         ]
@@ -303,10 +304,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbcba10fd97097a4",
+  "active": "54764b7b2915d9af",
   "lastOpenFiles": [
-    "Campo.md",
     "Forma bilineare.md",
+    "Tensori.md",
+    "Campo.md",
+    "Criterio del confronto asintotico per le serie.md",
     "Morfismo.md",
     "Polinomio.md",
     "Gruppo.md",
@@ -329,7 +332,6 @@
     "Threads.md",
     "CPU multiplexing.md",
     "Interrupts.md",
-    "Virtualization.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
@@ -337,7 +339,6 @@
     "Extended page tables.png",
     "HW virtualization.png",
     "virtual pages.png",
-    "UEFI.md",
     "GPT.png",
     "ACPI states.png",
     "power consumption.png",
