@@ -310,13 +310,42 @@ $$
 >\end{align}
 >$$
 >E quindi ho
->$b_{0} + b_{1}x^{3} + b_{2}(2x^{3} + x^{2 } + 2x ) + b_{3}(2x^{4} + x^{3} + x^{2} + 2x + 2) + b_{4}(x^{2} + 2 ) =$$b_{0}+b_{1}x + b_{2} x^{2} + b_{3}x^{3} + b_{4}x^{4}$
+>$b_{0} + b_{1}x^{3} + b_{2}\underbrace{ (2x^{3} + x^{2 } + 2x ) }_{ x^{6} } + b_{3}\underbrace{ (2x^{4} + x^{3} + x^{2} + 2x + 2) }_{ x^{9} } + b_{4}\underbrace{ (x^{2} + 2 ) }_{ x^{12} } =$$b_{0}+b_{1}x + b_{2} x^{2} + b_{3}x^{3} + b_{4}x^{4}$
 >Poi si mette tutto in un sistema e ottengo $(b_{0},b_{1},b_{2},b_{3},b_{4}) = (0,1,1,1,2)$. Quindi $f(x) = MCD\{ f, i + x + x^{2} + x^{3} +2x^{4} : i=0,1,2\} = (1 + x^{2}) (x^{3} + 2x+1)$
 
+Sia $f(x)\in \mathbb{F}_{p}[X], deg(f) = d$ e sia $f(x)=p_{1}(x)p_{2}(x)\dots p_{k}(x)$ una fattorizzazione in fattori irriducibili non banali aventi tutti molteplicità $1$. Siano
+$$
+\begin{align}
+r_{0} &  = [1]_{f} \\
+r_{1} & =[x^{p}]_{f} \\
+ & \vdots   \\
+r_{d-1} &  = [x^{d-1}p]_{f}
+\end{align}
+$$
+con $deg(r_{i}) <d$. Definiamo la matrice $A \in Mat_{d\times d}(\mathbb{F}_{p})$ come la matrice dei coefficienti del termine di grado $i$ del polinomio $r_j(x)$ -- ovvero prendo la matrice del sistema -- e possiamo risolvere con il classico $(A - I)\bar{b} = \bar{0}$.
 
+[Teorema]
+Il numero di fattori irriducibili $k$ nella fattorizzazione di $f$ è uguale alla dimensione del nucleo di $A - I$, ossia
+$$
+k = d - Rango(A - I)
+$$
+Se $f\in \mathbb{F}_{p}[X]$ ha fattori irriducibili di molteplicità $>1$, procediamo nel seguente modo.
+$$
+D = MCD \{ f,f' \}\neq 1
+$$
+osserviamo che $f /D$ ha fattori irriducibili tutti di molteplicità $1$. Infatti se $p_{1}, \dots, p_{k}$ sono tutti distinti abbiamo che
+$$
+f / D = p_{1}\dots p_{k}
+$$
+Adesso fattorizziamo sia $f /D$ che $D$ e andiamo avanti ripetendo finché non si arriva a
+$$
+MCD\{ D_{i}, D_{i}' \} = 1
+$$
 
-
-
-
+>[!example]
+>In $\mathbb{F}_{3}[X]$ consideriamo $f(x) = 1 + 2x + 2x^{2} + x^{5} + x^{6} + x^{7}$. Si ha che $f' = 2 + x + 2x^{4} + x^{6}$ e $MCD\{ f,f' \} = 1 + 2x + x^{3} = D$. Quindi $f /D = 1 + 2x^{2} + x^{3} + x^{4}$ che fattorizzandolo si trova $f /D = (x +1)(1 + 2x + x^{3})$. Poiché $D$ non ha radici in $\mathbb{F}_{3}$, è irriducibile. Allora 
+>$$
+>f = f /D \cdot D = (x+1)(1 + 2x + x^{3})^{2}
+>$$
 
 
