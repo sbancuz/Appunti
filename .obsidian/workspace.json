@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polinomio.md",
+                "file": "Forma bilineare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Polinomio"
+              "title": "Forma bilineare"
             }
           },
           {
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ciclico",
+                "query": "\"automorfismo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Polinomio.md",
+                "file": "Forma bilineare.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -159,7 +159,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Polinomio"
+              "title": "Graph of Forma bilineare"
             }
           }
         ]
@@ -306,11 +306,12 @@
   "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
     "Campo.md",
+    "Forma bilineare.md",
+    "Morfismo.md",
     "Polinomio.md",
     "Gruppo.md",
     "Anello.md",
     "Funzioni.md",
-    "Morfismo.md",
     "NRA algorithm.md",
     "Ideale.md",
     "Insieme.md",
@@ -338,7 +339,6 @@
     "virtual pages.png",
     "UEFI.md",
     "GPT.png",
-    "Boot.md",
     "ACPI states.png",
     "power consumption.png",
     "Untitled.canvas",

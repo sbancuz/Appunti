@@ -187,4 +187,69 @@ Sia $p$ un numero primo e $a \in \mathbb{N}$. Allora in $\mathbb{Z}_{p}$ abbiamo
 >[!note]- Dimostrazione
 >Se $p$ è primo si ha che $\phi(p) = p -1$. Allora dal teorema di Eulero segue che se $a \neq 0$ e $p \cancel{ |}a$, $a^{\phi(p)} \equiv [1]_{p}\implies a^{p-1}\equiv [1]_{p} \implies a^{p} \equiv [a]_{p}$. 
 >Se $a = 0$ o $p |a$ l'uguaglianza si riduce a $[0] =[0]$
+### Endomorfismo
 
+Siano $v,w$ spazi vettoriali su un [[Campo]] $K$, un funzione $f:v\to w$ è un morfismo di spazi vettoriali se
+$$
+f(av_{1} + bv_{2}) = af(v_{1}) + b f{(v_{2})}
+$$
+Un morfismo di campi vettoriali è detto un **endomorfismo** di $v$. L'insieme degli endomorfismi di uno spazio vettoriale è indicato con $End(v)$. Questo insieme è un anello con le operazioni di somma e composizione di funzioni, ed ha come identità $Id_{v}: V\to V$ -- se $d\mathrm{Im} v >1$ allora l'anello è anche commutativo.
+
+Un endomorfismo invertibile è anche detto **automorfismo**.
+
+Ad un endomorfismo $f \in End(v)$, se $di m(v) = n$, possiamo associare una matrice. Sia $\{ e_{1},\dots,e_{n}  \}$ una base di $v$. Sia 
+$$
+f(e_{i}) = a_{1i}e_{1} + \dots + a_{ni}e_{n}
+$$
+allora ad $f$ associamo la matrice $M(f)\in Mat_{n\times n}(K)$ la cui colonna $i$-esima è $(a_{1i}, \dots, a_{ni})^{T}$
+
+[Teorema]
+Sia $v$ uno spazio vettoriale di dimensione $n$ sul campo $K$. Allora la funzione
+$$
+M: End(v) \to Mat_{n\times n}(K) \qquad f\to M(f)
+$$
+è un isomorfismo di anelli.
+
+>[!example]
+>Si consideri il campo $\mathbb{F}_{4} = \mathbb{F}_{2}[X] / \left< 1 + x + x^{2} \right>$. Questo è uno spazio vettoriale di dimensione $2$ sul campo $\mathbb{F}_{2}$. Nella base $\{ 1, x \}$, l'automorfismo di Frobenius $\Phi: \mathbb{F}_{4} \to \mathbb{F}_{4} \equiv v \to v^{2}$, che è un morfismo di spazi vettoriali perché $\Phi(y)=y$, è rappresentato con una matrice $Mat_{2\times2}$. 
+>Le colonne si trovano come descritto sopra con la base canonica $\Phi(e_{1}) = \Phi(1) = 1$ e $\Phi(e_{2}) = \Phi(x)=x^{2}= 1+x$ quindi
+>$$
+>M(\Phi) = \begin{pmatrix}
+>1 & 1 \\
+>0 & 1
+\end{pmatrix}
+>$$
+>La rappresentazione matriciale di $Aut(\mathbb{F}_{4}) \simeq \{A\in Mat_{2\times 2} (\mathbb{F}_{2}) :  \det(A) = 1\}$ e ce ne sono $16$
+>$$
+>\left\{\begin{pmatrix}
+>1 & 0 \\
+>0 & 1
+\end{pmatrix}, \begin{pmatrix}
+>1 & 1 \\
+>0 & 1
+\end{pmatrix}, \dots
+> \right\} 
+>$$
+>Ma il campo è composto solo da $$ Aut(\mathbb{F}_{4}) \underbrace{ = }_{ \text{ come campo } } 
+>\left\{\underbrace{ \begin{pmatrix}
+>1 & 0 \\
+>0 & 1
+\end{pmatrix} }_{ M(\Phi) }, \underbrace{ \begin{pmatrix}
+>1 & 1 \\
+>0 & 1
+\end{pmatrix} }_{ M(\phi)^{2} }
+> \right\} 
+$$
+
+Sia $v$ uno spazio vettoriale di dimensione $n$ su un campo $K$. Sia $\{ e_{1},\dots,e_{n} \}$ una base di $v$. L'insieme 
+$$
+V^{*} = \{ f: V \to K  : f \text{ è morfismo di spazi vettoriali}\}
+$$
+è detto **spazio duale** di $v$. Sia $e_{i}^{*}: V\to K$ il morfismo definito da 
+$$
+e_{i}^{*}(e_{j}) = \begin{cases}
+1_{K}  & i = j \\
+0  & \text{altrimenti}
+\end{cases}
+$$
+L'insieme $\{ e_{1}^{*},\dots,e_{n}^{*} \}$ è una base di $V^{*}$. In particolare $dim(V^{*})=dim(V)=n$
