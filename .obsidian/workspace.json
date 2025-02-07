@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tensori.md",
+                "file": "Logica modale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tensori"
+              "title": "Logica modale"
             }
           }
         ],
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Tensori.md",
+                "file": "Logica modale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -160,7 +160,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Tensori"
+              "title": "Graph of Logica modale"
             }
           }
         ]
@@ -306,7 +306,12 @@
   },
   "active": "54764b7b2915d9af",
   "lastOpenFiles": [
+    "Relazione.md",
+    "Logica modale.md",
     "Forma bilineare.md",
+    "Propositional logic.md",
+    "First order logic.md",
+    "Logic.md",
     "Tensori.md",
     "Campo.md",
     "Criterio del confronto asintotico per le serie.md",
@@ -319,7 +324,6 @@
     "Ideale.md",
     "Insieme.md",
     "!note.md",
-    "Relazione.md",
     "Untitled 3.md",
     "Monoide.md",
     "Relazione d'ordine.md",
@@ -328,10 +332,6 @@
     "Identità.md",
     "Insiemi numerici.md",
     "Virtual memory.md",
-    "Process.md",
-    "Threads.md",
-    "CPU multiplexing.md",
-    "Interrupts.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",

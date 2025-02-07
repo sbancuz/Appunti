@@ -6,6 +6,7 @@ Sia $X$ un insieme. Un sottoinsieme $R \subseteq X \times X$ si dice **relazione
 1) riflessiva $\to$ $(x,x) \in R \quad \forall {x} \in {X}$
 2) simmetrica $\to$ $(x,y)\in \implies (y,x) \in R \quad \forall {x,y} \in {R}$
 3) transitiva $\to$ $(x,y) \in R, (y, z) \in R \implies (x,z) \in R \quad \forall {z,y,x} \in  {X}$
+4) antisimmetrica $\to$ $(x,y)\in R, (y,x)\in R \implies x= y, \forall {x,y} \in {X}$
 
 Se una relazione soddisfa $1,2,3$ allora è detta **relazione di equivalenza** e si indica con $x \sim y$. Sia $x\in X$ e $R$ una relazione di equivalenza su $X$, l'insieme 
 $$
@@ -31,9 +32,9 @@ $$
 g_{1}\sim g_{2}  \equiv g_{1}=g_{2}h
 $$
 è di equivalenza. Quindi si ha che
-1) $g\sim g: g=ge \quad \forall {g} \in {G};e\in H$
-2) $g_{1}\sim g_{2} \implies g_{2}\sim g_{1} : g_{1}=g_{2}h \implies g_{1}h^{-1}=g_{2}$
-3) $g_{1}\sim g_{2},g_{2}\sim g_{3} \implies g_{1}\sim g_{3} : g_{1}=g_{2}h. g_{2}=g_{3}h' \implies g_{1} = g_{3} \underbrace{ hh' }_{ \in H } =g_{3}h''$
+5) $g\sim g: g=ge \quad \forall {g} \in {G};e\in H$
+6) $g_{1}\sim g_{2} \implies g_{2}\sim g_{1} : g_{1}=g_{2}h \implies g_{1}h^{-1}=g_{2}$
+7) $g_{1}\sim g_{2},g_{2}\sim g_{3} \implies g_{1}\sim g_{3} : g_{1}=g_{2}h. g_{2}=g_{3}h' \implies g_{1} = g_{3} \underbrace{ hh' }_{ \in H } =g_{3}h''$
 In questo caso l'insieme quoziente lo indichiamo con $G\diagup{H}$. Se $G$ è abeliano, possiamo definire la seguente operazione 
 $$
 G\diagup{H} : [g_{1}] + [g_{2}] = [g_{1} + g_{2}]
