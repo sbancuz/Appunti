@@ -30,6 +30,30 @@
               "icon": "lucide-file",
               "title": "Morfismo"
             }
+          },
+          {
+            "id": "ca33da71ff11f3dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 5"
+            }
           }
         ]
       }
@@ -51,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"cinese",
+                "query": "\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -281,6 +305,11 @@
   },
   "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
+    "Untitled 5.md",
+    "Morfismo.md",
+    "Anello.md",
+    "Gruppo.md",
+    "Monoide.md",
     "Forma bilineare.md",
     "Logica multimodale.md",
     "Logica modale.md",
@@ -291,22 +320,17 @@
     "Tensori.md",
     "Campo.md",
     "Criterio del confronto asintotico per le serie.md",
-    "Morfismo.md",
     "Polinomio.md",
-    "Gruppo.md",
-    "Anello.md",
     "Funzioni.md",
     "NRA algorithm.md",
     "Ideale.md",
     "Insieme.md",
     "!note.md",
     "Untitled 3.md",
-    "Monoide.md",
     "Relazione d'ordine.md",
     "Diffeomorfismo.md",
     "Gruppo abeliano.md",
     "Identità.md",
-    "Insiemi numerici.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",

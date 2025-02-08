@@ -8,7 +8,7 @@ Siano $M_{1}, M_{2}$ monoidi con [[Identità]] $e_{1},e_{2}$. Una funzione $f:M_
 
 Il **nucleo** di un morfismo di monoidi $f:M_{1} \to M_{2}$ è il [[Monoide#Sottomonoide]] di $M_1$ definito così
 $$
-Ker(f) = \{ x \in M : f(x) = e_{2} \}
+Ker(f) = \{ x \in M_{1} : f(x) = e_{2} \}
 $$
 >[!note]
 >Da definizione il kernel di un monoide ha sempre al suo interno l'identità
