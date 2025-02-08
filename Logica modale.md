@@ -218,4 +218,52 @@ L'antisimmetria non è esprimibile, ossia non esiste una formula $F$ tale che $(
 
 >[!Dimostrazione]-
 >A pagina $9$ del terzo se ho voglia
+### Logiche modali normali
 
+Lo schema di formule $def_{\diamond} : \diamond \iff \lnot\square \lnot A$ è valido, $\vDash def_{\diamond}$
+
+Sia $X$ una variabile e $F$ una formula. Definiamo la **sostituzione uniforme** di $F$ al posto di $X$ un una formula $G$. Quindi scriviamo
+$$
+G[F / X]
+$$
+La formula ottenuta da $G$ dove ogni occorrenza di $X$ è stata sostituita con $F$. Una **logica modale normale** è un insieme di formule tale che
+1) $\Gamma$ contiene tutte le tautologie della logica proposizionale
+2) $\Gamma$ contiene tutte le istanze dello schema $K: \square(A \implies B)\implies(\square A \implies \square B)$
+3) $\Gamma$ contiene tutte le istanze dello schema $def_{\diamond}: \diamond A \iff \lnot\square \lnot A$
+4) è chiuso sotto **modus ponens**, quindi se $A\in \Gamma$ e $(A\implies B)\in \Gamma$ allora $B\in \Gamma$
+5) è chiuso sotto **necessitazione**, quindi se $A\in \Gamma$ allora $\square A\in \Gamma$
+6) è chiuso sotto **sostituzione uniforme**, quindi se $A\in \Gamma$ allora $A[B / X]\in \Gamma$
+
+La **logica modale** $K$ è definita dai seguenti schemi di assiomi e regole:
+1) Assiomi $\to$ $1,2,3$ sopra
+2) Regole di inferenza $\to$ $4,5,6$ sopra
+
+Data una logica modale $L$, una **dimostrazione** in $L$ è una successione finita di formule tali che o
+- ognuna è un assioma
+- è ottenuta dalle formule precedenti dalla successione via applicazione di inferenza
+
+Una formula $F$ si dice **teorema** di $L$, e scriviamo 
+$$
+\vdash _{L}F
+$$
+sse esiste una dimostrazione in $L$ la cui ultima formula è $F$. 
+
+[Teorema]
+L'insieme $\{ F: \vdash_{K}  F\}$ è chiuso sotto sostituzione uniforme.
+
+Nelle logiche epistemiche si estende la logica $K$ aggiungendo lo schema di assiomi
+$$
+\square F \implies F
+$$
+La logica $K$ a cui aggiungiamo questo assioma è detta **logica T**. I teoremi della logica normale $T$ sono validi su frame riflessivi. Se accettiamo il **principio di introspezione epistemica positiva**,  ossia se assumiamo che ogni volta che si sa qualcosa si sa di sapere, aggiungiamo l'assioma
+$$
+\square F \implies \square \square F
+$$
+Abbiamo cosi definito la **logica $S 4$**. I suoi teoremi sono validi su frame riflessivi e transitivi. Se accettiamo anche il **principio di introspezione negativa**, ossia che ogni volta che non sappiamo qualcosa, sappiamo di non saperla aggiungiamo 
+$$
+\lnot \square F \implies\square \lnot \square F
+$$
+E questa è la logica $S 5$. I suoi teoremi sono validi su frame riflessivi, simmetrici e transitivi -- ossia sono validi sulle relazioni di equivalenza.
+
+Una logica è **valida** se $\vdash_{L}A \implies \vDash A$. [Teorema] La logica $K$ è valida.
+Una logica è **completa** se $\vDash A \implies \vdash_{L} A$. [Teorema] La logica $K$ è completa.

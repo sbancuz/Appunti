@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forma bilineare.md",
+                "file": "Morfismo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Forma bilineare"
-            }
-          },
-          {
-            "id": "54764b7b2915d9af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logica modale.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Logica modale"
+              "title": "Morfismo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"automorfismo",
+                "query": "\"cinese",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -132,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Logica modale.md",
+                "file": "Morfismo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -160,7 +135,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Logica modale"
+              "title": "Graph of Morfismo"
             }
           }
         ]
@@ -304,11 +279,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "54764b7b2915d9af",
+  "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
-    "Relazione.md",
-    "Logica modale.md",
     "Forma bilineare.md",
+    "Logica multimodale.md",
+    "Logica modale.md",
+    "Relazione.md",
     "Propositional logic.md",
     "First order logic.md",
     "Logic.md",
@@ -331,7 +307,6 @@
     "Gruppo abeliano.md",
     "Identità.md",
     "Insiemi numerici.md",
-    "Virtual memory.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
