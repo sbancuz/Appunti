@@ -26,7 +26,7 @@ La logica proposizionale è una logica vero-funzionale: assegnando valori $0$ o 
 >Sia $\square A \implies \diamond A, A\implies \diamond A$, è vera $A \implies \square\diamond A$? Non è chiaro se sia vera o false. 
 
 Ci sono vari tipi di logica semantica
-1) Epistemica $\to$ $\square A$ diventa *si sa che * $A$
+1) Epistemica $\to$ $\square A$ diventa *si sa che* $A$
 2) Deontica $\to$ $\square A$ diventa *è obbligatorio che* $A$
 3) Doxatica $\to$ $\square A$ diventa *si crede che* $A$ 
 4) Dimostrativa $\to$ $\square A$ diventa *è dimostrabile che* $A$

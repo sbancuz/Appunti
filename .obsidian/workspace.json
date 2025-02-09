@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polinomio.md",
+                "file": "Logica modale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Polinomio"
+              "title": "Logica modale"
             }
           }
         ],
@@ -156,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Polinomio.md",
+                "file": "Logica modale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -184,7 +184,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Polinomio"
+              "title": "Graph of Logica modale"
             }
           }
         ]
@@ -330,6 +330,7 @@
   },
   "active": "2d7c902e1bef169b",
   "lastOpenFiles": [
+    "Polinomio.md",
     "Morfismo.md",
     "Campo.md",
     "Ideale.md",
@@ -338,7 +339,6 @@
     "Logica modale.md",
     "Relazione.md",
     "Propositional logic.md",
-    "Polinomio.md",
     "Untitled 5.md",
     "Monoide.md",
     "Forma bilineare.md",
