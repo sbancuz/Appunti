@@ -134,7 +134,7 @@ $$
 >$$
 >MCD\{ n_{i}, n_{1}n_{2}\dots n_{k} \} = 1
 >$$
->Quindi abbiamo l'identità di Bézout $\underbrace{ a_{i}n_{i} }_{ u_{i} } + \underbrace{ b_{i} \frac{n}{n_{i}} }_{ v_{i} } = 1$. Adesso definiamo $x = a_{1}v_{1} + \dots + a_{k}v_{k}$ e abbiamo che
+>Quindi abbiamo l'identità di Bézout $\underbrace{ c_{i}n_{i} }_{ u_{i} } + \underbrace{ b_{i} \frac{n}{n_{i}} }_{ v_{i} } = 1$. Adesso definiamo $x = a_{1}v_{1} + \dots + a_{k}v_{k}$ e abbiamo che
 >$$
 >f(x) = ([x]_{n_{1}}, \dots, [x]_{n_{k}})
 >$$

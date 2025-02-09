@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Polinomio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Polinomio"
             }
           }
         ],
@@ -156,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Polinomio.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -184,7 +184,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Morfismo"
+              "title": "Graph of Polinomio"
             }
           }
         ]
@@ -330,6 +330,7 @@
   },
   "active": "2d7c902e1bef169b",
   "lastOpenFiles": [
+    "Morfismo.md",
     "Campo.md",
     "Ideale.md",
     "Anello.md",
@@ -338,7 +339,6 @@
     "Relazione.md",
     "Propositional logic.md",
     "Polinomio.md",
-    "Morfismo.md",
     "Untitled 5.md",
     "Monoide.md",
     "Forma bilineare.md",
