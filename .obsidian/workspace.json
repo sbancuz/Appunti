@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "Logica modale.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -306,8 +306,9 @@
   },
   "active": "6fc44e230cb5930b",
   "lastOpenFiles": [
-    "Propositional logic.md",
+    "Relazione.md",
     "Logica modale.md",
+    "Propositional logic.md",
     "Polinomio.md",
     "Morfismo.md",
     "Gruppo.md",
@@ -315,7 +316,6 @@
     "Anello.md",
     "Untitled 5.md",
     "Campo.md",
-    "Relazione.md",
     "Monoide.md",
     "Forma bilineare.md",
     "Logica multimodale.md",

@@ -67,13 +67,13 @@ Un **modello** di un frame $(S,R)$ è una terna $(S,R,V)$ dove
 $$
 V: Var \to  \underbrace{\mathcal  P(S) }_{ \text{insieme delle parti} }
 $$
-è detta **funzione di valutazione**. Una formula $F$ si dice **vera in un mondo $x$ del modello $M$** e scriviamo $M  \vDash_{x} F$ sse 
-5) $F$ è una variabile, quindi $x\in V(F)$
-6) $F$ è $\lnot y$ e $y$ è una variabile, quindi $x\notin V(Y)$
-7) $F$ è del tipo $\lnot G$, dove $G$ è una formula, quindi $M \cancel{ \vDash_{x} } G$
-8) $F$ è del tipo $G_{1}\land G_{2}$ o $G_{1} \lor G_{2}$
-9) $F$ è del tipo $\square G$, quindi per ogni $y\in S$ tale che $(x,y)\in R$
-10) $F$ è del tipo $\diamond G$, quindi esiste un mondo $y\in S$ tale che $(x,y)\in R$
+è detta **funzione di valutazione**. Una formula $F$ si dice **vera in un mondo $x$ del modello $M$** e scriviamo $M  \vDash_{x} F$ sse:
+1) $F$ è una variabile, quindi $x\in V(F)$
+2) $F$ è $\lnot y$ e $y$ è una variabile, quindi $x\notin V(Y)$
+3) $F$ è del tipo $\lnot G$, dove $G$ è una formula, quindi $M \cancel{ \vDash_{x} } G$
+4) $F$ è del tipo $G_{1}\land G_{2}$ o $G_{1} \lor G_{2}$
+5) $F$ è del tipo $\square G$, quindi per ogni $y\in S$ tale che $(x,y)\in R$
+6) $F$ è del tipo $\diamond G$, quindi esiste un mondo $y\in S$ tale che $(x,y)\in R$
 
 Una formula è **soddisfacibile** se esiste un modello $M=(S,R,V)$ e un mondo $x\in S$ tale che $M \vDash_{x}F$
 
@@ -116,13 +116,13 @@ $$
 >Sia $w\in S$ un mondo e $M$ un modello su un frame $(S,R)$. Sia $M \vDash_{w} \square(A \implies B)$ e $M \vDash_{w} \square A$. La prima significa che $M \vDash_{v} A\implies B$ per ogni $v \in S$ tale che $(w,v)\in R$. La seconda significa $M \vDash_{v} A$ per ogni $v\in S$ tale che $(w,v)\in R$. 
 >Dunque $M \vDash_{v} B$ per ogni $v\in S$ tale che $(w,v)\in R$, ossia $M \vDash _w\square B$. Quindi abbiamo mostrato che questo schema è valido.
 
-Possiamo anche mostrare che i seguenti schemi sono validi
+Possiamo anche mostrare che i seguenti schemi sono validi:
 1) $\square(A \land B) \iff (\square A \land \square B)$
 2) $\diamond(A \lor B) \iff (\diamond A \lor \diamond B)$
 3) $\square(A \implies B) \implies (\diamond A \implies \diamond B)$
 4) $\diamond(A \implies B) \implies (\square A \implies \diamond B)$
 
-Invece i seguenti schemi non lo sono
+Invece i seguenti schemi non lo sono:
 1) $\diamond A \implies \square A$
 2) $\square A \implies A$
 3) $\square A \implies \square \square A$
@@ -138,7 +138,7 @@ Diciamo che un frame $(S,R)$ gode di una certa proprietà se ne gode la relazion
 Lo schema $\square A \implies A$  è valido in un frame $(S,R)$ sse $R$ è riflessiva.
 
 >[!Dimostrazione]-
-Sia $Z = V(X), Z\subseteq S$, tale che $y \in Z$ -- quindi $x$ è falsa nel mondo $y$. Sia $\{ z \in S : (y,z) \in R \} \subseteq Z$ -- $x$ sia vera in tutti i mondi accessibili da $y$. Allora, se $M=(S,R,V)$
+>Sia $R$ non riflessiva, allora c'è un mondo $y\in S$ tale che $(y,y)\notin R$. Sia $Z = V(X), Z\subseteq S$, tale che $y \in Z$ -- quindi $x$ è falsa nel mondo $y$. Sia $\{ z \in S : (y,z) \in R \} \subseteq Z$ -- $x$ sia vera in tutti i mondi accessibili da $y$. Allora, se $M=(S,R,V)$
 >$$
 >M \vDash _{y} \square X \qquad \text{ ma } \qquad M \cancel{ \vDash _{y} } X
 >$$
@@ -168,8 +168,8 @@ $$
 è un **morfismo di frame** se $(x,y)\in R_{1} \implies (f(x),f(y))\in R_{2}$
 
 Siano $M_{1} = (S_{1},R_{1},V_{1})$ e $M_{2}=(S_{2},R_{2},V_{2})$ due modelli. Un morfismo di frame $f:(S_{1},R_{1})\to(S_{2},R_{2})$ è un **morfismo di modelli** se:
-1) $w\in V_{1}(x) \iff f(w) \in V_{2}(x), \forall {w} \in  {S_{1}}, x\in Var$
-2) $(f(w),y)\in R_{2} \implies \exists {v}\in  {}S_{1}$ tale che $(w,v)\in R_{1}$ e $f(v)=y$ $\forall {w} \in {S_{1}},y\in S_{2}$
+8) $w\in V_{1}(x) \iff f(w) \in V_{2}(x), \forall {w} \in  {S_{1}}, x\in Var$
+9) $(f(w),y)\in R_{2} \implies \exists {v}\in  {}S_{1}$ tale che $(w,v)\in R_{1}$ e $f(v)=y$ $\forall {w} \in {S_{1}},y\in S_{2}$
 
 >[!note]
 >I morfismi di modelli sono solitamente detti **p-morfismi**.
@@ -227,16 +227,16 @@ $$
 G[F / X]
 $$
 La formula ottenuta da $G$ dove ogni occorrenza di $X$ è stata sostituita con $F$. Una **logica modale normale** è un insieme di formule tale che
-1) $\Gamma$ contiene tutte le tautologie della logica proposizionale
-2) $\Gamma$ contiene tutte le istanze dello schema $K: \square(A \implies B)\implies(\square A \implies \square B)$
-3) $\Gamma$ contiene tutte le istanze dello schema $def_{\diamond}: \diamond A \iff \lnot\square \lnot A$
-4) è chiuso sotto **modus ponens**, quindi se $A\in \Gamma$ e $(A\implies B)\in \Gamma$ allora $B\in \Gamma$
-5) è chiuso sotto **necessitazione**, quindi se $A\in \Gamma$ allora $\square A\in \Gamma$
-6) è chiuso sotto **sostituzione uniforme**, quindi se $A\in \Gamma$ allora $A[B / X]\in \Gamma$
+10) $\Gamma$ contiene tutte le tautologie della logica proposizionale
+11) $\Gamma$ contiene tutte le istanze dello schema $K: \square(A \implies B)\implies(\square A \implies \square B)$
+12) $\Gamma$ contiene tutte le istanze dello schema $def_{\diamond}: \diamond A \iff \lnot\square \lnot A$
+13) è chiuso sotto **modus ponens**, quindi se $A\in \Gamma$ e $(A\implies B)\in \Gamma$ allora $B\in \Gamma$
+14) è chiuso sotto **necessitazione**, quindi se $A\in \Gamma$ allora $\square A\in \Gamma$
+15) è chiuso sotto **sostituzione uniforme**, quindi se $A\in \Gamma$ allora $A[B / X]\in \Gamma$
 
 La **logica modale** $K$ è definita dai seguenti schemi di assiomi e regole:
-1) Assiomi $\to$ $1,2,3$ sopra
-2) Regole di inferenza $\to$ $4,5,6$ sopra
+16) Assiomi $\to$ $1,2,3$ sopra
+17) Regole di inferenza $\to$ $4,5,6$ sopra
 
 Data una logica modale $L$, una **dimostrazione** in $L$ è una successione finita di formule tali che o
 - ognuna è un assioma
