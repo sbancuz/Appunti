@@ -57,12 +57,12 @@ Sia $G$ un gruppo ciclico. Allora ogni sottogruppo di $G$ è ciclico.
 
 >[!note]- Dimostrazione
 >Sia $g\in G$ tale che $G=\left< g \right>$. La funzione $\phi:(\mathbb{Z}, +) \to G$ definita da $\phi(n) = g^{n}$ è un morfismo suriettivo di gruppi. Abbiamo $2$ casi:
->1) $G$ è infinito $\to$ allora $Ker(\phi)=\{ 0 \}$ e quindi $\phi$ sarà anche iniettivo, e dunque isomorfo. 
+>1) $G$ è infinito $\to$ allora $Ker(\phi)=\{ 0 \}$ e quindi $\phi$ sarà anche iniettivo, e dunque isomorfo. Ogni sottogruppo di $\mathbb{Z}$ è ciclico.
 >2) $G$ è finito $\to$ sia $H\subseteq G$ un sottogruppo. Allora 
 >$$
 >\phi^{-1}(H) = \{ n \in \mathbb{Z} : \phi(n) \in H \} \subseteq \mathbb{Z}
 >$$
->è un sottogruppo di $\mathbb{Z}$, quindi esiste un $k\in \mathbb{N}$ tale che $\phi^{-1}(H) = \left< k \right>$. La restrizione $\phi\mathbf{k}\mathbb{Z}\to H$ è un morfismo suriettivo di gruppi e $\phi(hk)=[\phi(k)]^{h}$, quindi $H = \left< \phi(k) \right>$
+>è un sottogruppo di $\mathbb{Z}$, quindi esiste un $k\in \mathbb{N}$ tale che $\phi^{-1}(H) = \left< k \right>$. La restrizione $\phi:\mathbf{k}\mathbb{Z}\to H$ è un morfismo suriettivo di gruppi e $\phi(hk)=[\phi(k)]^{h}$, quindi $H = \left< \phi(k) \right>$
 
 >[!warning]
 >$(\mathbb{R}, +)$ non è ciclico perché non esiste un biiezione $\underbrace{ \mathbb{R} }_{ \text{continuo} } \simeq \underbrace{ \mathbb{Z} }_{ \text{numerabile} }$

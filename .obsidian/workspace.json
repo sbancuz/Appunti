@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Ideale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Ideale"
             }
           },
           {
@@ -54,6 +54,30 @@
               "icon": "lucide-file",
               "title": "Untitled 5"
             }
+          },
+          {
+            "id": "6fc44e230cb5930b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Morfismo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Morfismo"
+            }
           }
         ]
       }
@@ -75,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"",
+                "query": "\"ciclico",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -131,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Ideale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -159,7 +183,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Morfismo"
+              "title": "Graph of Ideale"
             }
           }
         ]
@@ -305,25 +329,25 @@
   },
   "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
-    "Untitled 5.md",
-    "Morfismo.md",
     "Anello.md",
+    "Ideale.md",
+    "Morfismo.md",
+    "Untitled 5.md",
+    "Campo.md",
     "Gruppo.md",
+    "Relazione.md",
     "Monoide.md",
     "Forma bilineare.md",
     "Logica multimodale.md",
     "Logica modale.md",
-    "Relazione.md",
     "Propositional logic.md",
     "First order logic.md",
     "Logic.md",
     "Tensori.md",
-    "Campo.md",
     "Criterio del confronto asintotico per le serie.md",
     "Polinomio.md",
     "Funzioni.md",
     "NRA algorithm.md",
-    "Ideale.md",
     "Insieme.md",
     "!note.md",
     "Untitled 3.md",
