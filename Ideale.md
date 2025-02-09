@@ -24,7 +24,7 @@ Un anello i cui ideali sono tutti principali si dice **anello ad ideali principa
 [Teorema]
 Sia $A$ un [[anello]] commutativo e $I \subseteq A$ un ideale. Allora
 1) $I =A$ sse $I$ contiene un elemento invertibile
-2) $A$ è un [[Anello#Campo]] sse i suoi unici ideali sono $\left< 0 \right>, A=\left< 1_{A} \right>$
+2) $A$ è un [[Campo]] sse i suoi unici ideali sono $\left< 0 \right>, A=\left< 1_{A} \right>$
 
 >[!note]- Dimostrazione 1
 >Se $I =A$ allora $1_{A}\in A$ e $1_{A}$ è invertibile. Sia $u\in I$ un elemento invertibile. Allora $u^{-1}\in A$ e quindi $1_{A}=uu^{-1}\in I$. Ne segue che $A = \left< 1_{A} \right> \subseteq I$ e quindi $I=A$

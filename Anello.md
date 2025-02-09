@@ -28,7 +28,6 @@ Sia $A$ un anello commutativo e sia $x\in A$ un elemento che non è uno zero-div
 $$
 xy = xz \implies y =z \quad \forall {y,z} \in  {A} 
 $$
-[[Campo]]
 ### Anello quoziente
 
 Sia $A$ un anello commutativo e $I \subseteq A$ un ideale. In particolare, $A$ con l'operazione $+$ è un [[Gruppo]] abeliano e $I$ è un sottogruppo di $A$. Allora possiamo definire il gruppo quoziente $A /I$ con l'operazione

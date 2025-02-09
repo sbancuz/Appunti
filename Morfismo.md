@@ -75,7 +75,7 @@ In particolare $G_{1}/Ker(f)\simeq Im(f)$.
 >[!note]- Dimostrazione
 >L'assegnazione $[g]\to f(g)$ definisce una funzione $\phi:G_{1}/Ker(\phi) \to G_{2}$, infatti se $g'\sim g$ allora $g=g'+h$ che quindi implica $f(g) = \underbrace{ f(g'+h) = f(g') + \underbrace{ f(h) }_{ \text{identità }  } }_{ \text{Proprietà dei morfismi} } = f(g')$. Poiché $f$ è morfismo di gruppi, anche $\phi$ lo è, inoltre
 >$$
->Ker(\phi) = \{ [g] \in G_{1} /Ker(f) : \phi([g]) = 0_{2} \} = \{ [g] \in G_{1} /Ker(f) : f(g) = 0_{2} \} = \{ [0_{1}] \}
+>Ker(\phi) = \{ [g] \in G_{1} /Ker(f) : \phi([g]) = 0_{2} \} = \{ [0_{1}] \}
 >$$
 >Quindi $\phi$ è iniettivo. Infine visto che $\phi: G_{1} / Ker(f) \to Im(f)$ è un morfismo di gruppi suriettivo. Allora è anche un isomorfismo.
 #### Morfismo di anelli
