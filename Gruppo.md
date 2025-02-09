@@ -41,7 +41,7 @@ $$
 Questa funziona conta il numero di coprimi fino ad $n$.
 
 [Teorema]
-L'insieme dei sottogruppi di $(\mathbb{Z}, +)$ è $\{ n\mathbb{Z}:n \in\mathbb{N} \}$ 
+	L'insieme dei sottogruppi di $(\mathbb{Z}, +)$ è $\{ n\mathbb{Z}:n \in\mathbb{N} \}$ 
 
 >[!note]- Dimostrazione
 >Sia $H \subseteq \mathbb{Z}$ un sottogruppo non banale. Sia $k=minH_{>0}$ e sia $h \in H_{>0}$ con $h \neq k$. Quindi $h>k$ e $h=nk + r$, $0 \le r \leq k$. Dunque $r=h-nk\in H \implies r=0$ per la minimalità di k.

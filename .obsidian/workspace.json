@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideale.md",
+                "file": "Anello.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ideale"
-            }
-          },
-          {
-            "id": "ca33da71ff11f3dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 5.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 5"
+              "title": "Anello"
             }
           },
           {
@@ -61,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
-                "mode": "source",
+                "file": "Logica modale.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -76,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Logica modale"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ciclico",
+                "query": "\"cinese",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -155,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ideale.md",
+                "file": "Logica modale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -183,7 +160,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Ideale"
+              "title": "Graph of Logica modale"
             }
           }
         ]
@@ -327,25 +304,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbcba10fd97097a4",
+  "active": "6fc44e230cb5930b",
   "lastOpenFiles": [
-    "Anello.md",
-    "Ideale.md",
+    "Propositional logic.md",
+    "Logica modale.md",
+    "Polinomio.md",
     "Morfismo.md",
+    "Gruppo.md",
+    "Ideale.md",
+    "Anello.md",
     "Untitled 5.md",
     "Campo.md",
-    "Gruppo.md",
     "Relazione.md",
     "Monoide.md",
     "Forma bilineare.md",
     "Logica multimodale.md",
-    "Logica modale.md",
-    "Propositional logic.md",
     "First order logic.md",
     "Logic.md",
     "Tensori.md",
     "Criterio del confronto asintotico per le serie.md",
-    "Polinomio.md",
     "Funzioni.md",
     "NRA algorithm.md",
     "Insieme.md",

@@ -61,7 +61,6 @@ Sia $f(x)\in K[X]$ un polinomio non nullo. Se $\alpha\in K$, il resto della divi
 >$f(x)= (x-\alpha)g(x) + r(x)$ con $r(x) = 0$ oppure $deg(r(x)) < 1$. Quindi $r(x)$ è un polinomio constante $r(x) = c\in K$. Calcolando un $\alpha$ si ottiene $f(\alpha) = c$ 
 
 [Proposizione]
-
 Se $K$ è un campo, ogni sottogruppo finito del gruppo moltiplicativo $K \setminus \{  0 \}$ è ciclico. In particolare, se $k$ è un campo finito, $K \setminus \{ 0 \}$ è un gruppo ciclico.
 
 Sia $p \in \mathbb{N}$ un numero primo e sia $n \in \mathbb{N}\setminus \{  0\}$. Sia $Q(x)\in \mathbb F_{p}[X]$ un qualsiasi polinomio irriducibile di grado $n$. Definiamo il campo
