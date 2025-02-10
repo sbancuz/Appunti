@@ -147,7 +147,8 @@ Lo schema $\square A \implies A$  è valido in un frame $(S,R)$ sse $R$ è rifle
 Lo schema $A \implies \square\diamond A$ è valida in un frame $(S,R)$ sse $R$ è simmetrica.
 
 >[!Dimostrazione]-
->Sia $R$ simmetrica, ossia $(x,y)\in R \implies (y,x)\in R$. Sia $M \vDash_{w}A$ e $(w,v)\in R$. Dunque $(v,w)\in R$ e $M \vDash_{v} \diamond A$ per ogni $v \in S$ tale che $(w,v)\in R$, ossia $M \vDash_{w}\square\diamond A$.
+>Sia $R$ simmetrica, ossia $(x,y)\in R \implies (y,x)\in R$. 
+>Sia $M \vDash_{w}A$ e $(w,v)\in R$. Dunque $(v,w)\in R$. Per ogni $v \in S$ ho $(w,v)\in R$ tale che $M \vDash_{v} \diamond A$, ossia $M \vDash_{w}\square\diamond A$.
 >Adesso assumiamo che lo schema sia valido in $(S,R)$, sia $x$ una variabile $V(x)= \{ s \}$, sia $t\in S$ tale che $(s,t)\in R$. Quindi $M \vDash_{S}x$. Dalla validità dello schema segue allora che
 >$$
 >M \vDash _{S}\square\diamond X
