@@ -27,7 +27,8 @@ Sia $A$ un [[anello]] commutativo e $I \subseteq A$ un ideale. Allora
 2) $A$ è un [[Campo]] sse i suoi unici ideali sono $\left< 0 \right>, A=\left< 1_{A} \right>$
 
 >[!note]- Dimostrazione 1
->Se $I =A$ allora $1_{A}\in A$ e $1_{A}$ è invertibile. Sia $u\in I$ un elemento invertibile. Allora $u^{-1}\in A$ e quindi $1_{A}=uu^{-1}\in I$. Ne segue che $A = \left< 1_{A} \right> \subseteq I$ e quindi $I=A$
+>$\implies$ Se $I =A$ allora $1_{A}\in A$ e $1_{A}$ è invertibile. 
+>$\impliedby$ Sia $u\in I$ un elemento invertibile. Allora $u^{-1}\in A$ e quindi $1_{A}=uu^{-1}\in I$. Ne segue che $A = \left< 1_{A} \right> \subseteq I$ e quindi $I=A$
 
 >[!note]- Dimostrazione 2
 >Sia $A$ un campo e sia $I\neq\left< 0 \right>$. Se $x \in I$ e $x \neq 0$ allora $x$ è invertibile e quindi $I =A$ per $(1)$. Viceversa, se $\left< 0 \right>$ e $A$ sono gli unici ideali di $A$, e se $x\in A \setminus \{ 0 \}$, allora $\left< x \right>=\left< 1_{A} \right>$, ossia $ax =1_{A}$ per qualche $a \in A$. Quindi $x$ è invertibile.

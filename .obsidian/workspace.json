@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anello.md",
+                "file": "Relazione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Anello"
+              "title": "Relazione"
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica modale.md",
+                "file": "Morfismo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logica modale"
+              "title": "Morfismo"
+            }
+          },
+          {
+            "id": "10a9871df6fecf69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gruppo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gruppo"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"cinese",
+                "query": "\"canonica",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -156,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Logica modale.md",
+                "file": "Ideale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -184,15 +208,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Logica modale"
+              "title": "Graph of Ideale"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320,
-    "collapsed": true
+    "width": 320
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -328,16 +351,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2d7c902e1bef169b",
+  "active": "6fc44e230cb5930b",
   "lastOpenFiles": [
-    "Polinomio.md",
-    "Morfismo.md",
-    "Campo.md",
-    "Ideale.md",
-    "Anello.md",
     "Gruppo.md",
-    "Logica modale.md",
+    "Ideale.md",
     "Relazione.md",
+    "Norma canonica.md",
+    "Anello.md",
+    "Logica modale.md",
+    "Morfismo.md",
+    "Polinomio.md",
+    "Campo.md",
     "Propositional logic.md",
     "Untitled 5.md",
     "Monoide.md",
@@ -355,7 +379,6 @@
     "Relazione d'ordine.md",
     "Diffeomorfismo.md",
     "Gruppo abeliano.md",
-    "Identità.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
