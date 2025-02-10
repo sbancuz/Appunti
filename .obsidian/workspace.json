@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Logica modale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Logica modale"
             }
           },
           {
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ideale.md",
+                "file": "Logica modale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -208,7 +208,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Ideale"
+              "title": "Graph of Logica modale"
             }
           }
         ]
@@ -351,15 +351,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6fc44e230cb5930b",
+  "active": "2d7c902e1bef169b",
   "lastOpenFiles": [
-    "Gruppo.md",
+    "Morfismo.md",
     "Ideale.md",
+    "Gruppo.md",
     "Relazione.md",
     "Norma canonica.md",
     "Anello.md",
     "Logica modale.md",
-    "Morfismo.md",
     "Polinomio.md",
     "Campo.md",
     "Propositional logic.md",

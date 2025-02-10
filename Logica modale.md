@@ -138,7 +138,7 @@ Diciamo che un frame $(S,R)$ gode di una certa proprietà se ne gode la relazion
 Lo schema $\square A \implies A$  è valido in un frame $(S,R)$ sse $R$ è riflessiva.
 
 >[!Dimostrazione]-
->Sia $R$ non riflessiva, allora c'è un mondo $y\in S$ tale che $(y,y)\notin R$. Sia $Z = V(X), Z\subseteq S$, tale che $y \in Z$ -- quindi $x$ è falsa nel mondo $y$. Sia $\{ z \in S : (y,z) \in R \} \subseteq Z$ -- $x$ sia vera in tutti i mondi accessibili da $y$. Allora, se $M=(S,R,V)$
+>Sia $R$ non riflessiva, allora c'è un mondo $y\in S$ tale che $(y,y)\notin R$. Sia $Z = V(X), Z\subseteq S$, tale che $y \notin Z$ -- quindi $x$ è falsa nel mondo $y$. Sia $\{ z \in S : (y,z) \in R \} \subseteq Z$ -- $x$ sia vera in tutti i mondi accessibili da $y$. Allora, se $M=(S,R,V)$
 >$$
 >M \vDash _{y} \square X \qquad \text{ ma } \qquad M \cancel{ \vDash _{y} } X
 >$$
