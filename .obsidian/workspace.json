@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Relazione.md",
+                "file": "Morfismo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Relazione"
+              "title": "Morfismo"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 6.md",
+                "file": "Anello.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +124,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled 6"
+              "title": "Anello"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,7 +203,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Logica modale.md",
+                "file": "Morfismo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -232,7 +231,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Logica modale"
+              "title": "Graph of Morfismo"
             }
           }
         ]
@@ -256,17 +255,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kernel memory.md",
+                "file": "Morfismo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kernel memory"
+              "title": "Backlinks for Morfismo"
             }
           },
           {
@@ -275,12 +274,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kernel memory.md",
+                "file": "Morfismo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kernel memory"
+              "title": "Outgoing links from Morfismo"
             }
           },
           {
@@ -290,7 +289,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -302,62 +303,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kernel memory.md"
+                "file": "Morfismo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kernel memory"
+              "title": "Outline of Morfismo"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "06b3c2de6d2cd6ee",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "13d608ab472d6fb2",
-            "type": "leaf",
-            "state": {
-              "type": "ob_comments",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          }
-        ]
-      },
-      {
-        "id": "adba6d7c494d8bfe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7e29be9463de357d",
-            "type": "leaf",
-            "state": {
-              "type": "ob_comments",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0ed275f3ff99eeee",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e293017314722dd9",
-            "type": "leaf",
-            "state": {
-              "type": "ob_comments",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -376,16 +332,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2d7c902e1bef169b",
+  "active": "cbcba10fd97097a4",
   "lastOpenFiles": [
-    "Untitled 6.md",
-    "Logica modale.md",
-    "Morfismo.md",
-    "Ideale.md",
-    "Gruppo.md",
-    "Relazione.md",
-    "Norma canonica.md",
     "Anello.md",
+    "ABC.md",
+    "Untitled 6.md",
+    "Ideale.md",
+    "Morfismo.md",
+    "Relazione.md",
+    "Gruppo.md",
+    "Logica modale.md",
+    "Norma canonica.md",
     "Polinomio.md",
     "Campo.md",
     "Propositional logic.md",
@@ -403,7 +360,6 @@
     "!note.md",
     "Untitled 3.md",
     "Relazione d'ordine.md",
-    "Diffeomorfismo.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
