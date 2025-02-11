@@ -138,29 +138,35 @@ Diciamo che un frame $(S,R)$ gode di una certa proprietà se ne gode la relazion
 Lo schema $\square A \implies A$  è valido in un frame $(S,R)$ sse $R$ è riflessiva.
 
 >[!Dimostrazione]-
->Sia $R$ non riflessiva, allora c'è un mondo $y\in S$ tale che $(y,y)\notin R$. Sia $Z = V(X), Z\subseteq S$, tale che $y \notin Z$ -- quindi $x$ è falsa nel mondo $y$. Sia $\{ z \in S : (y,z) \in R \} \subseteq Z$ -- $x$ sia vera in tutti i mondi accessibili da $y$. Allora, se $M=(S,R,V)$
->$$
->M \vDash _{y} \square X \qquad \text{ ma } \qquad M \cancel{ \vDash _{y} } X
->$$
+>*Hp: $R$ non è riflessiva*. Quindi $\exists {y} \in {S}$ tale che $(y,y) \notin R$ e $y\notin V(A)$.
+>Sia $\{ s \in S : (y,s) \in R \} \subseteq V(A)$, ovvero sia $A$ vera in tutti i mondi accessibili da $y$. Allora $M \vDash_{y}\square A$ ma $M \cancel{ \vDash_{y} }A$ perché risulta in $\forall {y} \in {S}$ tale che $(s,y)\in R$ che è assurdo vista l'ipotesi.
 
 [Teorema]
 Lo schema $A \implies \square\diamond A$ è valida in un frame $(S,R)$ sse $R$ è simmetrica.
 
 >[!Dimostrazione]-
->Sia $R$ simmetrica, ossia $(x,y)\in R \implies (y,x)\in R$. 
->Sia $M \vDash_{w}A$ e $(w,v)\in R$. Dunque $(v,w)\in R$. Per ogni $v \in S$ ho $(w,v)\in R$ tale che $M \vDash_{v} \diamond A$, ossia $M \vDash_{w}\square\diamond A$.
->Adesso assumiamo che lo schema sia valido in $(S,R)$, sia $x$ una variabile $V(x)= \{ s \}$, sia $t\in S$ tale che $(s,t)\in R$. Quindi $M \vDash_{S}x$. Dalla validità dello schema segue allora che
->$$
->M \vDash _{S}\square\diamond X
->$$
->da cui $M \vDash_{t}\diamond X$. Quindi esiste $r\in S$ tale che $(t,r)\in R$ e $M \vDash _rX$, ossia $r=s$
+>$\implies$ 
+>Sia $R$ una relazione di simmetria, cioè $(x,y)\in R \implies (y, x)\in R$. 
+>Sia $(w,v)\in R$ e $M\vDash_{w}A$ allora $\forall {v} \in S : {(w,v)\in R}$ abbiamo che $\exists {(v,w)} \in  {R}$ e$M \vDash_{v}\diamond A$ $\implies M \vDash_{w}\square\diamond A$
+>
+>$\impliedby$
+>*Hp: lo schema $A \implies \square\diamond A$ è valido in un frame $(S,R)$*
+>Sia $x\in var$ e $V(x) = \{ s \}$ e sia $t\in S : (s,t) \in R$, quindi $M \vDash_{s}x$.
+>Dalla validità dell'ipotesi segue che $M \vDash_{s}\square\diamond x$ da cui si ottiene $M \vDash_{t}\diamond x$. Quindi $\exists {r} \in  {S} : (t,r) \in R$ e $M \vDash_{r} x$, il che significa che $r = s$
 
 [Teorema]
 Lo schema $\square A\implies\square\square A$ è valido in un frame $(S,R)$ sse $R$ è transitiva
 
 >[!Dimostrazione]-
->Sia $R$ transitiva e sia $M \vDash_{w} \square A$, ossia $M \vDash_{v} A$ per ogni $v\in S$ tale che $(w,v)\in R$. Sia $u\in S$ tale che $(v,u)\in R$, con $(w,v)\in R$ allora $(w,u)\in R$ e quindi $M \vDash_{v}\square A$ per ogni $v\in S$ tale che $(w,v)\in R$, ossia $M \vDash_{w}\square\square A$. Assumiamo adesso che sia valido lo schema $(S,R)$. Sia $x$ una variabile $s\in S$ e $V(x) = \{ w \in S : (s,w)\in R \}$. 
->Allora $M \vDash_{S}\square x$ e quindi, per la validità dello schema, $M \vDash_{S}\square\square x$, da cui $M \vDash_{t}\square x$ per ogni $t\in S$ tale che $(s,t)\in R$, ossia $M \vDash_{r}X$ per ogni $r\in S$ tale che $(t,r)\in R$, $(s,t)\in R$. Da ciò segue che $r\in V(x)$ ossia $(s,t)\in R$ e $(t,r)\in R$ => $(s,r)\in R$ 
+>$\implies$
+>Sia $R$ transitiva, cioè $(x,y)\in R \land(y,z) \in R \implies (x,z)\in R$
+>Sia $M \vDash_{w}\square A$ e $\forall { v} \in {S} : (w,v) \in R$, allora $M \vDash_{v} A$.
+>Sia adesso $u \in S : (v,u) \in R$ allora abbiamo che $\exists {(w,u)\in} R {}$ quindi $M \vDash_{v}\square A, \forall {v\in S} : {(w,v)\in R}$ cioè $M \vDash_{w}\square\square A$
+>
+>$\impliedby$
+>*Hp: lo schema $\square A \implies\square\square A$ è valido in un frame*
+>Sia $x\in var, s\in, V(x)=\{ w\in S : (s,w)\in R \}$. Allora $M \vDash_{s}\square x$ e per la validità dello schema $M \vDash_{s}\square\square x$. Da questo segue che $M \vDash_{t}\square x, \forall {t}  {}\in S : (s,t)\in R$, ma questo non è nient'altro che $M \vDash_{r}x, \forall {(t,r)} \in  {R}$.
+>Quindi $r\in V(x)$, cioè $(s,t)\in R$ e $(t,r)\in R \implies (s,r)\in R$ 
 
 Siano $(S_{1}, R_{1})$ e $(S_{2},R_{2})$ due frame. Una funzione 
 $$
