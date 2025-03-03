@@ -62,7 +62,7 @@
               "type": "markdown",
               "state": {
                 "file": "Logica modale.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gruppo.md",
+                "file": "Untitled 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gruppo"
+              "title": "Untitled 5"
             }
           },
           {
@@ -126,8 +126,33 @@
               "icon": "lucide-file",
               "title": "Anello"
             }
+          },
+          {
+            "id": "10e79fc1ae97de9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polinomio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Polinomio"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +172,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"canonica",
+                "query": "\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -203,7 +228,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Untitled 5.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,20 +251,19 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 407,
-                  "scale": 0.5706989738194579,
+                  "scale": 0.6678996873565398,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Morfismo"
+              "title": "Graph of Untitled 5"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320,
-    "collapsed": true
+    "width": 320
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -255,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Untitled 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +289,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Morfismo"
+              "title": "Backlinks for Untitled 5"
             }
           },
           {
@@ -274,12 +298,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Untitled 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Morfismo"
+              "title": "Outgoing links from Untitled 5"
             }
           },
           {
@@ -303,13 +327,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Untitled 5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Morfismo"
+              "title": "Outline of Untitled 5"
             }
           }
         ],
@@ -332,19 +356,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbcba10fd97097a4",
+  "active": "20cb3654f52b2199",
   "lastOpenFiles": [
+    "Gruppo.md",
+    "Logica modale.md",
+    "Morfismo.md",
+    "Polinomio.md",
+    "Campo.md",
+    "Ideale.md",
     "Anello.md",
     "ABC.md",
     "Untitled 6.md",
-    "Ideale.md",
-    "Morfismo.md",
     "Relazione.md",
-    "Gruppo.md",
-    "Logica modale.md",
     "Norma canonica.md",
-    "Polinomio.md",
-    "Campo.md",
     "Propositional logic.md",
     "Untitled 5.md",
     "Monoide.md",
