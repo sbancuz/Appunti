@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 5.md",
+                "file": "Gruppo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled 5"
+              "title": "Gruppo"
+            }
+          },
+          {
+            "id": "4af4ad7f5dc18675",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           },
           {
@@ -152,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -172,7 +184,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"",
+                "query": "\"eulero",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -228,7 +240,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Untitled 5.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -256,7 +267,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Untitled 5"
+              "title": "Graph view"
             }
           }
         ]
@@ -356,13 +367,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20cb3654f52b2199",
+  "active": "4af4ad7f5dc18675",
   "lastOpenFiles": [
+    "Campo.md",
+    "Untitled 5.md",
     "Gruppo.md",
     "Logica modale.md",
     "Morfismo.md",
     "Polinomio.md",
-    "Campo.md",
     "Ideale.md",
     "Anello.md",
     "ABC.md",
@@ -370,7 +382,6 @@
     "Relazione.md",
     "Norma canonica.md",
     "Propositional logic.md",
-    "Untitled 5.md",
     "Monoide.md",
     "Forma bilineare.md",
     "Logica multimodale.md",
