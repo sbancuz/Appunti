@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "402b73e7d9a21e44",
+        "id": "9322657e29fe0b3d",
         "type": "tabs",
         "children": [
           {
-            "id": "cbcba10fd97097a4",
+            "id": "06883cacf4d9e8bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Feed Forward Neural Networks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,143 +28,40 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
-            }
-          },
-          {
-            "id": "6fc44e230cb5930b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ideale.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ideale"
-            }
-          },
-          {
-            "id": "2d7c902e1bef169b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logica modale.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Logica modale"
-            }
-          },
-          {
-            "id": "10a9871df6fecf69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gruppo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Gruppo"
-            }
-          },
-          {
-            "id": "4af4ad7f5dc18675",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
-            }
-          },
-          {
-            "id": "47b923c47dc80bee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anello.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Anello"
-            }
-          },
-          {
-            "id": "10e79fc1ae97de9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polinomio.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Polinomio"
+              "title": "Feed Forward Neural Networks"
             }
           }
-        ],
-        "currentTab": 4
+        ]
+      },
+      {
+        "id": "ec212c3e762fc4b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91fbc11e9e3dc754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANNDL Questions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ANNDL Questions"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"eulero",
+                "query": "\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -240,6 +137,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "ANNDL Questions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -267,14 +165,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of ANNDL Questions"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320
+    "width": 320,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -367,16 +266,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4af4ad7f5dc18675",
+  "active": "91fbc11e9e3dc754",
   "lastOpenFiles": [
+    "Feed Forward Neural Networks.md",
+    "ANNDL Questions.md",
+    "Neural networks.md",
+    "Classification.md",
+    "Perceptron.md",
+    "Polinomio.md",
+    "Anello.md",
     "Campo.md",
     "Untitled 5.md",
     "Gruppo.md",
     "Logica modale.md",
     "Morfismo.md",
-    "Polinomio.md",
     "Ideale.md",
-    "Anello.md",
     "ABC.md",
     "Untitled 6.md",
     "Relazione.md",
@@ -390,11 +294,6 @@
     "Tensori.md",
     "Criterio del confronto asintotico per le serie.md",
     "Funzioni.md",
-    "NRA algorithm.md",
-    "Insieme.md",
-    "!note.md",
-    "Untitled 3.md",
-    "Relazione d'ordine.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
