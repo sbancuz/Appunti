@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feed Forward Neural Networks.md",
+                "file": "Regression.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Feed Forward Neural Networks"
+              "title": "Regression"
             }
           }
         ]
@@ -268,6 +268,7 @@
   },
   "active": "91fbc11e9e3dc754",
   "lastOpenFiles": [
+    "Regression.md",
     "Feed Forward Neural Networks.md",
     "ANNDL Questions.md",
     "Neural networks.md",
@@ -293,7 +294,6 @@
     "Logic.md",
     "Tensori.md",
     "Criterio del confronto asintotico per le serie.md",
-    "Funzioni.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
