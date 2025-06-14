@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANNDL Questions.md",
+                "file": "Domande.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -58,7 +58,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ANNDL Questions"
+              "title": "Domande"
             }
           }
         ]
@@ -268,9 +268,9 @@
   },
   "active": "91fbc11e9e3dc754",
   "lastOpenFiles": [
+    "ANNDL Questions.md",
     "Regression.md",
     "Feed Forward Neural Networks.md",
-    "ANNDL Questions.md",
     "Neural networks.md",
     "Classification.md",
     "Perceptron.md",
