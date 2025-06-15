@@ -117,6 +117,11 @@ $$
 $$
 è un isomorfismo di anelli.
 
+>[!Dimostrazione]-
+>Dobbiamo solo far vedere che $\phi([a])=f(a), \forall {[a]\in A/I} {}$ è morfismo di anelli. Il resto segue dalla dimostrazione per gli isomorfismi di gruppi.
+>- $\phi([1_{A}]) = f(1_{A}) = 1_{B}$
+>- $\phi([a][b])=\phi([ab])=f(ab)=f(a)f(b)=\phi([a])\phi([b])$
+
 [Teorema - Teorema cinese dei resti]
 Siano $n_{1},n_{2},\dots,n_{k} \in \mathbb{N}\setminus \{ 0,1 \}$ tali che $MCD\{ n_{i,}n_{j} \} = 1$ per ogni $1 \leq i,j\leq k, i\neq j$. Sia $n = n_{1}n_{2}\dots n_{k}$ allora la funzione $\Psi$ è **isomorfismo di anelli**.
 $$

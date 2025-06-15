@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
-                "mode": "source",
+                "file": "Gruppo.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,37 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Regression"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ec212c3e762fc4b4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "91fbc11e9e3dc754",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Domande.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Domande"
+              "title": "Gruppo"
             }
           }
         ]
@@ -266,22 +236,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "91fbc11e9e3dc754",
+  "active": "06883cacf4d9e8bf",
   "lastOpenFiles": [
-    "ANNDL Questions.md",
+    "Morfismo.md",
+    "Anello.md",
+    "Ideale.md",
+    "Gruppo.md",
     "Regression.md",
+    "Domande.md",
+    "ANNDL Questions.md",
     "Feed Forward Neural Networks.md",
     "Neural networks.md",
     "Classification.md",
     "Perceptron.md",
     "Polinomio.md",
-    "Anello.md",
     "Campo.md",
     "Untitled 5.md",
-    "Gruppo.md",
     "Logica modale.md",
-    "Morfismo.md",
-    "Ideale.md",
     "ABC.md",
     "Untitled 6.md",
     "Relazione.md",
@@ -293,7 +264,6 @@
     "First order logic.md",
     "Logic.md",
     "Tensori.md",
-    "Criterio del confronto asintotico per le serie.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
