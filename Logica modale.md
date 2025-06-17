@@ -53,12 +53,9 @@ Un **frame** è una coppia $(S,R)$, dove $S$ è un insieme non vuoto, detto **in
 \draw[->] (5) edge[out=150, in=120, looseness=10] (5);
 \draw[->] (6) edge[out=150, in=120, looseness=10] (6);
 % Arrows between nodes
-\draw[->] (2) to[bend left] (3);
+\draw[->] (3) to[bend left] (6);
 \draw[->] (2) to[bend left=25] (4);
 \draw[->] (2) to[bend left=35] (6);
-% Cross on node 6
-\draw[thick] (7.7, -1.3) -- (8.3, -0.7);
-\draw[thick] (7.7, -0.7) -- (8.3, -1.3);
 \end{tikzpicture}
 \end{document}
 >```
