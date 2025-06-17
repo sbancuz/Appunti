@@ -6,6 +6,7 @@
       {
         "id": "990c08c1e40a6154",
         "type": "tabs",
+        "dimension": 49.84008528784648,
         "children": [
           {
             "id": "49491d6d105c1c9d",
@@ -36,6 +37,7 @@
       {
         "id": "9322657e29fe0b3d",
         "type": "tabs",
+        "dimension": 50.15991471215352,
         "children": [
           {
             "id": "06883cacf4d9e8bf",
@@ -137,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Logica modale.md",
+                "file": "Morfismo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -165,7 +167,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Logica modale"
+              "title": "Graph of Morfismo"
             }
           }
         ]
@@ -266,17 +268,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "06883cacf4d9e8bf",
+  "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
-    "Propositional logic.md",
     "Logica modale.md",
     "Morfismo.md",
     "Polinomio.md",
-    "Campi ordinati.md",
     "Campo.md",
+    "Anello.md",
     "Ideale.md",
     "Gruppo.md",
-    "Anello.md",
+    "Propositional logic.md",
+    "Campi ordinati.md",
     "Relazione.md",
     "Regression.md",
     "Domande.md",

@@ -235,7 +235,8 @@ $$
 \end{pmatrix}, \dots
 > \right\} 
 >$$
->Ma il campo è composto solo da $$ Aut(\mathbb{F}_{4}) \underbrace{ = }_{ \text{ come campo } } 
+>Ma il campo è composto solo da 
+>$$ Aut(\mathbb{F}_{4}) \underbrace{ = }_{ \text{ come campo } } 
 >\left\{\underbrace{ \begin{pmatrix}
 >1 & 0 \\
 >0 & 1
@@ -244,7 +245,7 @@ $$
 >0 & 1
 \end{pmatrix} }_{ M(\phi)^{2} }
 > \right\} 
-$$
+>$$
 
 Sia $v$ uno spazio vettoriale di dimensione $n$ su un campo $K$. Sia $\{ e_{1},\dots,e_{n} \}$ una base di $v$. L'insieme 
 $$
