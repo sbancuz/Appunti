@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
-                "mode": "preview",
+                "file": "Gruppo.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Gruppo"
             }
           }
         ]
@@ -45,8 +45,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica modale.md",
-                "mode": "preview",
+                "file": "Ideale.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -60,7 +60,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logica modale"
+              "title": "Ideale"
             }
           }
         ]
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #logica_algebra cinese",
+                "query": "tag: #logica_algebra lineare",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Ideale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -167,15 +167,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Morfismo"
+              "title": "Graph of Ideale"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256,
-    "collapsed": true
+    "width": 256
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -268,18 +267,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49491d6d105c1c9d",
+  "active": "06883cacf4d9e8bf",
   "lastOpenFiles": [
-    "Logica modale.md",
-    "Morfismo.md",
-    "Polinomio.md",
     "Campo.md",
     "Anello.md",
     "Ideale.md",
+    "Morfismo.md",
     "Gruppo.md",
+    "Logica modale.md",
+    "Sottoinsieme.md",
+    "Polinomio.md",
+    "Relazione.md",
+    "Monoide.md",
     "Propositional logic.md",
     "Campi ordinati.md",
-    "Relazione.md",
     "Regression.md",
     "Domande.md",
     "ANNDL Questions.md",
@@ -291,11 +292,9 @@
     "ABC.md",
     "Untitled 6.md",
     "Norma canonica.md",
-    "Monoide.md",
     "Forma bilineare.md",
     "Logica multimodale.md",
     "First order logic.md",
-    "Logic.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
