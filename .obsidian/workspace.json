@@ -6,41 +6,9 @@
       {
         "id": "990c08c1e40a6154",
         "type": "tabs",
-        "dimension": 49.84008528784648,
         "children": [
           {
             "id": "49491d6d105c1c9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gruppo.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Gruppo"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9322657e29fe0b3d",
-        "type": "tabs",
-        "dimension": 50.15991471215352,
-        "children": [
-          {
-            "id": "06883cacf4d9e8bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -267,19 +235,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "06883cacf4d9e8bf",
+  "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
-    "Ideale.md",
-    "Monoide.md",
-    "Gruppo.md",
-    "Funzioni.md",
+    "Relazione.md",
     "Morfismo.md",
-    "Campo.md",
+    "Ideale.md",
     "Anello.md",
+    "Gruppo.md",
+    "Monoide.md",
+    "Funzioni.md",
+    "Campo.md",
     "Logica modale.md",
     "Sottoinsieme.md",
     "Polinomio.md",
-    "Relazione.md",
     "Propositional logic.md",
     "Campi ordinati.md",
     "Regression.md",
