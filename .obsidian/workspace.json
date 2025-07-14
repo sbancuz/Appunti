@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Gruppo.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -45,8 +45,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideale.md",
-                "mode": "source",
+                "file": "Morfismo.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -60,7 +60,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ideale"
+              "title": "Morfismo"
             }
           }
         ]
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #logica_algebra lineare",
+                "query": "tag: #logica_algebra cinese",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ideale.md",
+                "file": "Morfismo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -167,7 +167,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Ideale"
+              "title": "Graph of Morfismo"
             }
           }
         ]
@@ -269,16 +269,17 @@
   },
   "active": "06883cacf4d9e8bf",
   "lastOpenFiles": [
+    "Ideale.md",
+    "Monoide.md",
+    "Gruppo.md",
+    "Funzioni.md",
+    "Morfismo.md",
     "Campo.md",
     "Anello.md",
-    "Ideale.md",
-    "Morfismo.md",
-    "Gruppo.md",
     "Logica modale.md",
     "Sottoinsieme.md",
     "Polinomio.md",
     "Relazione.md",
-    "Monoide.md",
     "Propositional logic.md",
     "Campi ordinati.md",
     "Regression.md",
@@ -294,7 +295,6 @@
     "Norma canonica.md",
     "Forma bilineare.md",
     "Logica multimodale.md",
-    "First order logic.md",
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
