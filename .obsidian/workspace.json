@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Ideale.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Ideale"
             }
           },
           {
@@ -55,7 +55,8 @@
               "title": "Anello"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Anello.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -159,7 +160,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Morfismo"
+              "title": "Graph of Anello"
             }
           }
         ]
@@ -259,13 +260,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49491d6d105c1c9d",
+  "active": "0088945aea7a6bfe",
   "lastOpenFiles": [
+    "Ideale.md",
+    "Morfismo.md",
     "Anello.md",
     "Campo.md",
-    "Morfismo.md",
     "Relazione.md",
-    "Ideale.md",
     "Gruppo.md",
     "Monoide.md",
     "Funzioni.md",
