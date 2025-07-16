@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anello.md",
-                "mode": "source",
+                "file": "Logica modale.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Anello"
+              "title": "Logica modale"
             }
           }
         ],
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Anello.md",
+                "file": "Logica modale.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -160,7 +160,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Anello"
+              "title": "Graph of Logica modale"
             }
           }
         ]
@@ -262,9 +262,9 @@
   },
   "active": "0088945aea7a6bfe",
   "lastOpenFiles": [
+    "Anello.md",
     "Ideale.md",
     "Morfismo.md",
-    "Anello.md",
     "Campo.md",
     "Relazione.md",
     "Gruppo.md",
