@@ -63,17 +63,29 @@
               "state": {
                 "file": "HW accelerators.canvas",
                 "viewState": {
-                  "x": 1397.1816285319273,
-                  "y": 1388.1736689905856,
-                  "zoom": -3
+                  "x": -383.6734718231262,
+                  "y": 1763.4014478740473,
+                  "zoom": -0.9999999999999997
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "HW accelerators"
             }
+          },
+          {
+            "id": "be1c6abbbe68141d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,6 +271,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -269,20 +282,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d1208636f48f5d59",
+  "active": "be1c6abbbe68141d",
   "lastOpenFiles": [
+    "Untitled 7.md",
+    "HW accelerators.canvas",
+    "Data footprint gap.png",
+    "Accelerators.png",
+    "System level opt.png",
     "HW design flow.png",
     "Design space.png",
     "ASIC economics.png",
-    "HW accelerators.canvas",
     "Interconnection network.png",
     "CLB.png",
     "FPGA.png",
     "Design flow.png",
-    "Standard cell ASIC routing.png",
-    "standard cell ASIC.png",
-    "memory hierarchy..png",
-    "bus.png",
     "Branch prediction.md",
     "Vector architectures.md",
     "Multi-processors.md",
@@ -307,7 +320,6 @@
     "Feed Forward Neural Networks.md",
     "Neural networks.md",
     "Classification.md",
-    "Perceptron.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
