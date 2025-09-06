@@ -59,24 +59,17 @@
             "id": "d1208636f48f5d59",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Logica modale.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "HW accelerators.canvas",
+                "viewState": {
+                  "x": 3041.996657335291,
+                  "y": 1456.2931429154387,
+                  "zoom": -2.6
                 }
               },
-              "icon": "lucide-file",
-              "title": "Logica modale"
+              "icon": "lucide-layout-dashboard",
+              "title": "HW accelerators"
             }
           }
         ],
@@ -147,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Logica modale.md",
+                "file": "HW accelerators.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -175,14 +168,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Logica modale"
+              "title": "Graph of HW accelerators"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256
+    "width": 256,
+    "collapsed": true
   },
   "right": {
     "id": "c67f3df35ab999ab",
@@ -277,8 +271,14 @@
   },
   "active": "d1208636f48f5d59",
   "lastOpenFiles": [
-    "Morfismo.md",
+    "Architecture.png",
+    "HW accelerators.canvas",
+    "Specialization.png",
+    "PLM.png",
+    "soc architecture.png",
+    "SOC scaling.png",
     "Logica modale.md",
+    "Morfismo.md",
     "Polinomio.md",
     "2 thick.png",
     "2 thin.png",
@@ -307,11 +307,6 @@
     "containers.png",
     "XEN.png",
     "paravirtualization.png",
-    "kvm.png",
-    "Extended page tables.png",
-    "HW virtualization.png",
-    "virtual pages.png",
-    "GPT.png",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
