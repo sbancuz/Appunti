@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
-                "mode": "preview",
+                "file": "Branch prediction.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Branch prediction"
             }
           },
           {
@@ -63,9 +63,9 @@
               "state": {
                 "file": "HW accelerators.canvas",
                 "viewState": {
-                  "x": 3041.996657335291,
-                  "y": 1456.2931429154387,
-                  "zoom": -2.6
+                  "x": 519.7874540574163,
+                  "y": 2352.821348853391,
+                  "zoom": -1.4
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -163,7 +163,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 407,
-                  "scale": 0.5823869764908621,
+                  "scale": 0.5823869764908624,
                   "close": true
                 }
               },
@@ -175,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256,
+    "width": 384,
     "collapsed": true
   },
   "right": {
@@ -271,25 +271,33 @@
   },
   "active": "d1208636f48f5d59",
   "lastOpenFiles": [
-    "Architecture.png",
+    "memory hierarchy..png",
     "HW accelerators.canvas",
+    "bus.png",
+    "Accellerators with PLM.png",
+    "memory hierarchy.png",
+    "Branch prediction.md",
+    "Vector architectures.md",
+    "Multi-processors.md",
+    "PThreads.md",
+    "Insieme.md",
+    "Funzioni.md",
+    "Monoide.md",
+    "Morfismo.md",
+    "Architecture.png",
     "Specialization.png",
     "PLM.png",
     "soc architecture.png",
     "SOC scaling.png",
     "Logica modale.md",
-    "Morfismo.md",
     "Polinomio.md",
     "2 thick.png",
-    "2 thin.png",
     "Ideale.md",
     "Gruppo.md",
     "Campo.md",
     "Anello.md",
     "Propositional logic.md",
     "Relazione.md",
-    "Monoide.md",
-    "Funzioni.md",
     "Sottoinsieme.md",
     "Campi ordinati.md",
     "Regression.md",
@@ -299,14 +307,6 @@
     "Neural networks.md",
     "Classification.md",
     "Perceptron.md",
-    "Untitled 5.md",
-    "ABC.md",
-    "Untitled 6.md",
-    "Norma canonica.md",
-    "Forma bilineare.md",
-    "containers.png",
-    "XEN.png",
-    "paravirtualization.png",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
