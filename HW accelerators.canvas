@@ -103,7 +103,7 @@
 		{"id":"3a1875304a7a7219","type":"text","text":"## System level optimization\n\nThe input language for system specification is still an open question. **HLS**  is the process of automatically generating hardware from a software description.\n\nThe generation is **very** dependent on how the code is written. The programmer sees a combination of **Computational functions**   and **Data structures** that represent a model of computation.","x":-4620,"y":200,"width":560,"height":280},
 		{"id":"c4ba7405f19f3d1e","type":"file","file":"System level opt.png","x":-5240,"y":130,"width":389,"height":400},
 		{"id":"04fd822d3953b2a3","type":"text","text":"### Loosely coupled Accelerator\n\nMore efficient in case of large data sets","x":-4805,"y":614,"width":365,"height":106},
-		{"id":"16840def6136f615","type":"file","file":"Accelerators.png","x":-4622,"y":860,"width":560,"height":145},
+		{"id":"16840def6136f615","type":"file","file":"Accelerators.png","x":-4622,"y":860,"width":558,"height":145},
 		{"id":"a6b7298f19cc5820","type":"text","text":"### Tightly Coupled Accelerator","x":-4280,"y":640,"width":360,"height":55},
 		{"id":"f1e86b1358358480","type":"text","text":"How to access data efficiently?","x":-4280,"y":1128,"width":250,"height":60},
 		{"id":"753265b5f7a1fee8","type":"text","text":"How much to allocate on chip?","x":-4690,"y":1128,"width":250,"height":60},

@@ -63,29 +63,17 @@
               "state": {
                 "file": "HW accelerators.canvas",
                 "viewState": {
-                  "x": -383.6734718231262,
-                  "y": 1763.4014478740473,
+                  "x": -286.30537899069816,
+                  "y": 2278.490458404017,
                   "zoom": -0.9999999999999997
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "HW accelerators"
             }
-          },
-          {
-            "id": "be1c6abbbe68141d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -282,7 +270,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "be1c6abbbe68141d",
+  "active": "d1208636f48f5d59",
   "lastOpenFiles": [
     "Untitled 7.md",
     "HW accelerators.canvas",
