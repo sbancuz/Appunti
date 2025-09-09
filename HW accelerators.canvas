@@ -97,7 +97,6 @@
 		{"id":"29b2649c4115019a","type":"text","text":"## CISC (Intel x86)\n\nIt has a lot of instructions and addressing modes. They ought to be more **powerful** instructions, but their sheer quantity means that for a given program only a fraction of them will be utilized. ","x":4485,"y":-1197,"width":521,"height":234},
 		{"id":"fa30b44d47799516","type":"text","text":"# Software","x":-1503,"y":-691,"width":250,"height":60},
 		{"id":"48ecd4f36d24bd34","type":"text","text":"Flexible and cheaper","x":-1680,"y":-440,"width":250,"height":60,"color":"4"},
-		{"id":"16f7c847b757f4c8","type":"text","text":"- Parallel programming\n- Code optimization for WRT the platform\n- Real-time constraints","x":-1340,"y":-472,"width":286,"height":125},
 		{"id":"f670c0213df6a6fd","type":"text","text":"Heterogeneous computing systems","x":-418,"y":-142,"width":264,"height":60},
 		{"id":"b44c351c1d42010b","type":"text","text":"# Challenges\n","x":-3680,"y":-120,"width":250,"height":60,"color":"1"},
 		{"id":"3a1875304a7a7219","type":"text","text":"## System level optimization\n\nThe input language for system specification is still an open question. **HLS**  is the process of automatically generating hardware from a software description.\n\nThe generation is **very** dependent on how the code is written. The programmer sees a combination of **Computational functions**   and **Data structures** that represent a model of computation.","x":-4620,"y":200,"width":560,"height":280},
@@ -121,7 +120,8 @@
 		{"id":"860dc8edc525b7a6","type":"text","text":"## Reliability\n\nWe have to me sure the implementations matches all the requirements. But we also have to keep in mind that the system will inevitably fail because something may break.\n\nThis is not the only reason it may break:\n- Defects\n- Radiation\n- Design errors","x":-4200,"y":1700,"width":500,"height":340},
 		{"id":"59c00bd29d237615","type":"text","text":"## Hardware security\n\nMost of design houses are fabless. So we have to defend from IC/IP piracy and overbuilding.\n","x":-3520,"y":1700,"width":437,"height":170},
 		{"id":"7d01546ace2f7a18","type":"text","text":"## Hardware Trojan horses\n\nSupply chains are vulnerable to attacks. A malicious action can happen in any step of production.","x":-3780,"y":2140,"width":449,"height":159},
-		{"id":"17a2328448955c22","type":"text","text":"## Transient Execution Attacks\n\nSometimes CPU features can also create unexpected attack vectors. TEAs are a family of vulnerabilities created from *extra* features of CPUs that are not required by the ISA ","x":-3200,"y":2133,"width":500,"height":207}
+		{"id":"17a2328448955c22","type":"text","text":"## Transient Execution Attacks\n\nSometimes CPU features can also create unexpected attack vectors. TEAs are a family of vulnerabilities created from *extra* features of CPUs that are not required by the ISA ","x":-3200,"y":2133,"width":500,"height":207},
+		{"id":"16f7c847b757f4c8","type":"text","text":"- Parallel programming\n- Code optimization for WRT the platform\n- Real-time constraints","x":-1360,"y":-456,"width":420,"height":92}
 	],
 	"edges":[
 		{"id":"0f21c72be0fb3fe3","fromNode":"1b51ab6dbb8ffbb0","fromSide":"bottom","toNode":"f670c0213df6a6fd","toSide":"top","label":"Result"},
