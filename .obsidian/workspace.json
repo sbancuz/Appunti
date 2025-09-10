@@ -6,6 +6,7 @@
       {
         "id": "990c08c1e40a6154",
         "type": "tabs",
+        "dimension": 53.25159914712153,
         "children": [
           {
             "id": "49491d6d105c1c9d",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anello.md",
+                "file": "Funzioni.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Anello"
+              "title": "Funzioni"
             }
           }
         ]
@@ -36,6 +37,7 @@
       {
         "id": "7151cfc701819fc3",
         "type": "tabs",
+        "dimension": 46.74840085287846,
         "children": [
           {
             "id": "8e424893476ceed1",
@@ -67,8 +69,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideale.md",
-                "mode": "source",
+                "file": "Morfismo.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -82,7 +84,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ideale"
+              "title": "Morfismo"
             }
           }
         ],
@@ -285,12 +287,13 @@
   },
   "active": "447a8c639bd2ac9c",
   "lastOpenFiles": [
+    "Funzioni.md",
     "Anello.md",
-    "Gruppo.md",
-    "Ideale.md",
-    "Campo.md",
-    "Untitled 8.md",
     "Morfismo.md",
+    "Untitled 8.md",
+    "Ideale.md",
+    "Gruppo.md",
+    "Campo.md",
     "Branch prediction.md",
     "HW accelerators.canvas",
     "Untitled 7.md",
@@ -308,7 +311,6 @@
     "Multi-processors.md",
     "PThreads.md",
     "Insieme.md",
-    "Funzioni.md",
     "Monoide.md",
     "Logica modale.md",
     "Polinomio.md",

@@ -38,5 +38,5 @@ Sia $A$ un [[anello]] commutativo e $I \subseteq A$ un ideale. Allora
 >Sia $A$ un campo e sia $I\neq\left< 0 \right>$. Se $x \in I$ e $x \neq 0$ allora $x$ è invertibile e quindi $I =A$ per $(1)$. 
 >
 >$\impliedby$
->Viceversa, se $\left< 0 \right>$ e $A$ sono gli unici ideali di $A$, e se $x\in A \setminus \{ 0 \}$, allora $\left< x \right>=\left< 1_{A} \right>$, ossia $ax =1_{A}$ per qualche $a \in A$. Quindi $x$ è invertibile.
+>Viceversa, se $\left< 0 \right>$ e $A$ sono gli unici ideali di $A$, e se $x\in A \setminus \{ 0 \}$, abbiamo $I = \{ ax | a \in A \}$ ovvero $\left< x \right>=\left< 1_{A} \right>$, ossia $ax =1_{A}$ per qualche $a \in A$. Quindi $x$ è invertibile.
 
