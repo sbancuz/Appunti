@@ -73,7 +73,7 @@ Sia $f:G_{1}\to G_{2}$ un morfismo di gruppi abeliani. Allora esiste un morfismo
 In particolare $G_{1}/Ker(f)\simeq Im(f)$.
 
 >[!note]- Dimostrazione
->L'assegnazione $[g]\to f(g)$ definisce una funzione $\phi:G_{1}/Ker(\phi) \to G_{2}$, infatti se $g'\sim g$ allora $g=g'+h$ che quindi implica $f(g) = \underbrace{ f(g'+h) = f(g') + \underbrace{ f(h) }_{ \text{identità }  } }_{ \text{Proprietà dei morfismi} } = f(g')$. Poiché $f$ è morfismo di gruppi, anche $\phi$ lo è, inoltre
+>L'assegnazione $[g]\to f(g)$ definisce una funzione $\phi:G_{1}/Ker(f) \to G_{2}$, infatti se $g'\sim g$ allora $g=g'+h$ che quindi implica $f(g) = \underbrace{ f(g'+h) = f(g') + \underbrace{ f(h) }_{ \text{identità }  } }_{ \text{Proprietà dei morfismi} } = f(g')$. Poiché $f$ è morfismo di gruppi, anche $\phi$ lo è, inoltre
 >$$
 >Ker(\phi) = \{ [g] \in G_{1} /Ker(f) : \phi([g]) = 0_{2} \} = \{ [0_{1}] \}
 >$$
