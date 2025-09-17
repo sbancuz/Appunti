@@ -6,7 +6,7 @@
       {
         "id": "990c08c1e40a6154",
         "type": "tabs",
-        "dimension": 53.25159914712153,
+        "dimension": 50.10660980810234,
         "children": [
           {
             "id": "49491d6d105c1c9d",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Funzioni.md",
+                "file": "Morfismo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Funzioni"
+              "title": "Morfismo"
             }
           }
         ]
@@ -37,7 +37,7 @@
       {
         "id": "7151cfc701819fc3",
         "type": "tabs",
-        "dimension": 46.74840085287846,
+        "dimension": 49.89339019189765,
         "children": [
           {
             "id": "8e424893476ceed1",
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morfismo.md",
+                "file": "Logica modale.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -60,7 +60,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morfismo"
+              "title": "Logica modale"
             }
           }
         ]
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #logica_algebra classe",
+                "query": "tag: #logica_algebra composi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 5.md",
+                "file": "Morfismo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled 5"
+              "title": "Backlinks for Morfismo"
             }
           },
           {
@@ -239,8 +239,7 @@
               "title": "Outline of Untitled 5"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -260,16 +259,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8e424893476ceed1",
+  "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
-    "Relazione.md",
+    "Logica modale.md",
     "Morfismo.md",
-    "Funzioni.md",
-    "Anello.md",
-    "Untitled 8.md",
-    "Ideale.md",
-    "Gruppo.md",
+    "Polinomio.md",
     "Campo.md",
+    "Anello.md",
+    "Ideale.md",
+    "Funzioni.md",
+    "Relazione.md",
+    "Untitled 8.md",
+    "Gruppo.md",
     "Branch prediction.md",
     "HW accelerators.canvas",
     "Untitled 7.md",
@@ -288,8 +289,6 @@
     "PThreads.md",
     "Insieme.md",
     "Monoide.md",
-    "Logica modale.md",
-    "Polinomio.md",
     "Propositional logic.md",
     "Sottoinsieme.md",
     "Campi ordinati.md",
