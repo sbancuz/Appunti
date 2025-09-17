@@ -6,61 +6,22 @@
       {
         "id": "990c08c1e40a6154",
         "type": "tabs",
-        "dimension": 50.10660980810234,
         "children": [
           {
             "id": "49491d6d105c1c9d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Morfismo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "Tesi.canvas",
+                "viewState": {
+                  "x": -1796.7135067283934,
+                  "y": 470.71091675561274,
+                  "zoom": -0.5999999999999998
                 }
               },
-              "icon": "lucide-file",
-              "title": "Morfismo"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7151cfc701819fc3",
-        "type": "tabs",
-        "dimension": 49.89339019189765,
-        "children": [
-          {
-            "id": "8e424893476ceed1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logica modale.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Logica modale"
+              "icon": "lucide-layout-dashboard",
+              "title": "Tesi"
             }
           }
         ]
@@ -261,8 +222,9 @@
   },
   "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
-    "Logica modale.md",
     "Morfismo.md",
+    "Tesi.canvas",
+    "Logica modale.md",
     "Polinomio.md",
     "Campo.md",
     "Anello.md",
@@ -297,7 +259,6 @@
     "ANNDL Questions.md",
     "Feed Forward Neural Networks.md",
     "Neural networks.md",
-    "Classification.md",
     "Untitled.canvas",
     "Test.canvas",
     "03_Physical_Databases_Schema.pdf",
