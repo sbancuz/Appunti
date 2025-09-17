@@ -19,9 +19,6 @@
 		{"id":"9ed8fa2295463952","x":1161,"y":-91,"width":150,"height":53,"type":"text","text":"Spectre V1"},
 		{"id":"f746ae6ef0686d97","x":1364,"y":-91,"width":250,"height":60,"type":"text","text":"Retbleed"},
 		{"id":"07f2d58d70c7ad53","x":198,"y":-360,"width":175,"height":60,"color":"2","type":"text","text":"# Spectre"},
-		{"id":"3ff544c7fef3ace9","x":-177,"y":1090,"width":250,"height":60,"type":"text","text":"RSB"},
-		{"id":"67bb10ad7539d383","x":415,"y":1090,"width":131,"height":50,"type":"text","text":"PHT"},
-		{"id":"9f14cf0eb14d7662","x":644,"y":1085,"width":105,"height":60,"type":"text","text":"BTB"},
 		{"id":"693d341ce94a8df1","x":1680,"y":-91,"width":385,"height":50,"type":"text","text":"Transient scheduler atttacks"},
 		{"id":"b3b3b2e6616ffe81","x":2120,"y":-91,"width":250,"height":50,"type":"text","text":"Downfall"},
 		{"id":"c2507c7c40ebec05","x":2410,"y":-95,"width":313,"height":54,"type":"text","text":"Floating point value injection"},
@@ -30,10 +27,13 @@
 		{"id":"ada88796d91424a3","x":3420,"y":-91,"width":250,"height":60,"type":"text","text":"Speculative code store bypass"},
 		{"id":"9dd51343041cef84","x":193,"y":-720,"width":180,"height":60,"color":"1","type":"text","text":"# Attacchi"},
 		{"id":"1531a31477052c53","x":-2502,"y":-398,"width":250,"height":60,"type":"text","text":"RED $\\to$ BREAKS\nBLUE $\\to$ NEEDS"},
-		{"id":"b08c5ae1bca82ee6","x":-2173,"y":640,"width":165,"height":52,"type":"text","text":"OOO execution"},
-		{"id":"73a403c5db54bc40","x":-1991,"y":640,"width":108,"height":50,"type":"text","text":"Cache"},
-		{"id":"f091b3ed00267425","x":-2590,"y":642,"width":250,"height":50,"type":"text","text":"Virtual address space"},
-		{"id":"b7529020e74db5ef","x":-2289,"y":900,"width":116,"height":52,"type":"text","text":"ROB"}
+		{"id":"b08c5ae1bca82ee6","x":-2173,"y":380,"width":165,"height":52,"type":"text","text":"OOO execution"},
+		{"id":"73a403c5db54bc40","x":-1991,"y":380,"width":108,"height":50,"type":"text","text":"Cache"},
+		{"id":"f091b3ed00267425","x":-2590,"y":382,"width":250,"height":50,"type":"text","text":"Virtual address space"},
+		{"id":"b7529020e74db5ef","x":-2289,"y":640,"width":116,"height":52,"type":"text","text":"ROB"},
+		{"id":"67bb10ad7539d383","x":345,"y":225,"width":131,"height":50,"type":"text","text":"PHT"},
+		{"id":"9f14cf0eb14d7662","x":574,"y":220,"width":105,"height":60,"type":"text","text":"BTB"},
+		{"id":"3ff544c7fef3ace9","x":-740,"y":195,"width":250,"height":60,"type":"text","text":"RSB"}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
