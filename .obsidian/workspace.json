@@ -15,13 +15,25 @@
               "state": {
                 "file": "Tesi.canvas",
                 "viewState": {
-                  "x": -3075.887329206658,
-                  "y": 275.78008855136864,
-                  "zoom": 2.220446049250313e-16
+                  "x": -2192.129549513961,
+                  "y": 667.3297911665784,
+                  "zoom": -0.515923001220248
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Tesi"
+            }
+          },
+          {
+            "id": "92bb34e476de5308",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "RIDL_Rogue_In-Flight_Data_Load.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "RIDL_Rogue_In-Flight_Data_Load"
             }
           }
         ]
@@ -222,8 +234,12 @@
   },
   "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
-    "Morfismo.md",
+    "meltdown.pdf",
+    "fallout.pdf",
+    "CacheOut.pdf",
+    "RIDL_Rogue_In-Flight_Data_Load.pdf",
     "Tesi.canvas",
+    "Morfismo.md",
     "Logica modale.md",
     "Polinomio.md",
     "Campo.md",
