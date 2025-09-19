@@ -15,9 +15,9 @@
               "state": {
                 "file": "Tesi.canvas",
                 "viewState": {
-                  "x": -2192.129549513961,
-                  "y": 667.3297911665784,
-                  "zoom": -0.515923001220248
+                  "x": -1784.6605865478318,
+                  "y": 320.42178543432743,
+                  "zoom": -0.05319780585631194
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -234,6 +234,8 @@
   },
   "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
+    "foreshadow-NG.pdf",
+    "foreshadow.pdf",
     "meltdown.pdf",
     "fallout.pdf",
     "CacheOut.pdf",
