@@ -15,9 +15,9 @@
               "state": {
                 "file": "Tesi.canvas",
                 "viewState": {
-                  "x": -1784.6605865478318,
-                  "y": 320.42178543432743,
-                  "zoom": -0.05319780585631194
+                  "x": -899.7041389484395,
+                  "y": 610.951697901309,
+                  "zoom": -0.5580987568940814
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -234,6 +234,8 @@
   },
   "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
+    "lvi.pdf",
+    "zombieload.pdf",
     "foreshadow-NG.pdf",
     "foreshadow.pdf",
     "meltdown.pdf",

@@ -29,7 +29,6 @@
 		{"id":"4172db38e76f062a","type":"text","text":"Line fill buffer","x":-3782,"y":781,"width":250,"height":60},
 		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-3500,"y":781,"width":250,"height":60},
 		{"id":"b65bed7d8977ce33","x":-3089,"y":751,"width":250,"height":60,"type":"text","text":"Eviction path for L1-cache"},
-		{"id":"73a403c5db54bc40","type":"text","text":"Cache","x":-2714,"y":1500,"width":108,"height":50},
 		{"id":"2e08a31be435afbf","x":-3192,"y":841,"width":250,"height":60,"type":"text","text":"Microarchitectural Data Sampling buffers"},
 		{"id":"b9c3e86e34038c81","x":-2843,"y":673,"width":250,"height":60,"type":"text","text":"TLB"},
 		{"id":"19bd50ae50a09c26","x":-2594,"y":793,"width":250,"height":60,"type":"text","text":"STL forwarding"},
@@ -48,7 +47,13 @@
 		{"id":"17015ec0afbd6549","x":-2864,"y":100,"width":250,"height":240,"type":"file","file":"foreshadow.pdf"},
 		{"id":"bd3a9659fbdf5ea1","x":-2560,"y":400,"width":250,"height":60,"type":"text","text":"Foreshadow NG"},
 		{"id":"a3ece9078a3e4c5f","x":-2560,"y":87,"width":243,"height":267,"type":"file","file":"foreshadow-NG.pdf"},
-		{"id":"db28a353f236c263","type":"text","text":"SGAxe","x":-3460,"y":960,"width":250,"height":60}
+		{"id":"db28a353f236c263","type":"text","text":"SGAxe","x":-3460,"y":960,"width":250,"height":60},
+		{"id":"8602394eac8a9a7d","x":-1342,"y":100,"width":250,"height":254,"type":"file","file":"zombieload.pdf"},
+		{"id":"574cd6443d535528","x":-1329,"y":629,"width":250,"height":60,"type":"text","text":"Unknown microcode assist (see paper)"},
+		{"id":"56f272fb94b631c1","x":-1007,"y":100,"width":250,"height":254,"type":"file","file":"lvi.pdf"},
+		{"id":"73a403c5db54bc40","type":"text","text":"Cache","x":-936,"y":1434,"width":108,"height":50},
+		{"id":"3f136479b71ee9db","x":-959,"y":677,"width":250,"height":60,"type":"text","text":"STL forwarding"},
+		{"id":"2f8cce1bdef72f4e","x":-834,"y":569,"width":250,"height":60,"type":"text","text":"One of another meltdown type attack"}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
@@ -104,6 +109,15 @@
 		{"id":"4ef3cc0d3bbe19aa","fromNode":"156dd8dea96c01dc","fromSide":"bottom","toNode":"73a403c5db54bc40","toSide":"top"},
 		{"id":"b113f0c8d8762a53","fromNode":"156dd8dea96c01dc","fromSide":"bottom","toNode":"294c44a6dd4078f2","toSide":"top"},
 		{"id":"79f9501f668abaef","fromNode":"156dd8dea96c01dc","fromSide":"right","toNode":"bd3a9659fbdf5ea1","toSide":"left","color":"4"},
-		{"id":"ccb43a6b525e1c82","fromNode":"156dd8dea96c01dc","fromSide":"bottom","toNode":"b9c3e86e34038c81","toSide":"top"}
+		{"id":"ccb43a6b525e1c82","fromNode":"156dd8dea96c01dc","fromSide":"bottom","toNode":"b9c3e86e34038c81","toSide":"top"},
+		{"id":"ef6c6c3f416e6767","fromNode":"f255d5bf84cf34ab","fromSide":"bottom","toNode":"4172db38e76f062a","toSide":"top"},
+		{"id":"35383c387b78fac7","fromNode":"f255d5bf84cf34ab","fromSide":"bottom","toNode":"73a403c5db54bc40","toSide":"top"},
+		{"id":"c42e9ae429ef7af6","fromNode":"f255d5bf84cf34ab","fromSide":"bottom","toNode":"b08c5ae1bca82ee6","toSide":"top"},
+		{"id":"393f483c48b984b5","fromNode":"f255d5bf84cf34ab","fromSide":"bottom","toNode":"b9b13afb60d13a9d","toSide":"top"},
+		{"id":"39e1ea64dde99ffe","fromNode":"f255d5bf84cf34ab","fromSide":"bottom","toNode":"574cd6443d535528","toSide":"top"},
+		{"id":"321f188288245f50","fromNode":"08d899674990d939","fromSide":"bottom","toNode":"b08c5ae1bca82ee6","toSide":"top"},
+		{"id":"8b00582400d5f68c","fromNode":"08d899674990d939","fromSide":"bottom","toNode":"73a403c5db54bc40","toSide":"top"},
+		{"id":"e0fd7592b2e82c57","fromNode":"08d899674990d939","fromSide":"bottom","toNode":"3f136479b71ee9db","toSide":"top"},
+		{"id":"08fc590c34013150","fromNode":"08d899674990d939","fromSide":"bottom","toNode":"2f8cce1bdef72f4e","toSide":"top"}
 	]
 }
