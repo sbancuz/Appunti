@@ -15,13 +15,25 @@
               "state": {
                 "file": "Tesi.canvas",
                 "viewState": {
-                  "x": 2495.135754389497,
-                  "y": 304.6030100154577,
+                  "x": -733.0714248841148,
+                  "y": 461.5571447948993,
                   "zoom": -0.5580987568940814
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Tesi"
+            }
+          },
+          {
+            "id": "a93cb26c6db7fe41",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
             }
           },
           {
@@ -36,7 +48,8 @@
               "title": "RIDL_Rogue_In-Flight_Data_Load"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,7 +245,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49491d6d105c1c9d",
+  "active": "a93cb26c6db7fe41",
   "lastOpenFiles": [
     "lvi.pdf",
     "zombieload.pdf",
