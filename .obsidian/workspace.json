@@ -15,41 +15,16 @@
               "state": {
                 "file": "Tesi.canvas",
                 "viewState": {
-                  "x": -733.0714248841148,
-                  "y": 461.5571447948993,
-                  "zoom": -0.5580987568940814
+                  "x": -1045.7582640190383,
+                  "y": 1238.8280550405195,
+                  "zoom": -1.6535438308173354
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Tesi"
             }
-          },
-          {
-            "id": "a93cb26c6db7fe41",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
-            }
-          },
-          {
-            "id": "92bb34e476de5308",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "RIDL_Rogue_In-Flight_Data_Load.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "RIDL_Rogue_In-Flight_Data_Load"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,16 +220,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a93cb26c6db7fe41",
+  "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
-    "lvi.pdf",
-    "zombieload.pdf",
-    "foreshadow-NG.pdf",
-    "foreshadow.pdf",
-    "meltdown.pdf",
-    "fallout.pdf",
-    "CacheOut.pdf",
+    "fpvi-scsb_sec21.pdf",
+    "downfall.pdf",
+    "retbleed_sec22.pdf",
+    "spectre.pdf",
+    "bhi-spectre-bhb_sec22.pdf",
+    "vmscape_sp26.pdf",
+    "slam_sp24.pdf",
+    "ghostrace_sec24.pdf",
+    "sprectre RSB.pdf",
     "RIDL_Rogue_In-Flight_Data_Load.pdf",
+    "lvi.pdf",
     "Tesi.canvas",
     "Morfismo.md",
     "Logica modale.md",
@@ -293,8 +271,6 @@
     "Feed Forward Neural Networks.md",
     "Neural networks.md",
     "Untitled.canvas",
-    "Test.canvas",
-    "03_Physical_Databases_Schema.pdf",
-    "Excalidraw"
+    "Test.canvas"
   ]
 }
