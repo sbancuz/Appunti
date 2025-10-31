@@ -71,8 +71,8 @@
 		{"id":"9f14cf0eb14d7662","type":"text","text":"BTB","x":591,"y":880,"width":105,"height":60},
 		{"id":"67bb10ad7539d383","type":"text","text":"PHT","x":1219,"y":860,"width":131,"height":50},
 		{"id":"892c881d2bece9c3","x":949,"y":1166,"width":250,"height":60,"color":"4","type":"text","text":"Branch prediction"},
-		{"id":"e68cf7da6d27e6fb","x":1465,"y":-386,"width":250,"height":60,"type":"text","text":"SLAP"},
-		{"id":"1b767f8d9731f3cf","x":1682,"y":-223,"width":250,"height":60,"type":"text","text":"Load Address Prediction"}
+		{"id":"e68cf7da6d27e6fb","x":3155,"y":414,"width":250,"height":60,"type":"text","text":"SLAP"},
+		{"id":"1b767f8d9731f3cf","x":3155,"y":633,"width":250,"height":60,"color":"4","type":"text","text":"Load Address Prediction"}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
