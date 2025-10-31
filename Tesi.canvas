@@ -37,7 +37,6 @@
 		{"id":"2f8cce1bdef72f4e","type":"text","text":"One of another meltdown type attack","x":-834,"y":569,"width":250,"height":60},
 		{"id":"3ff544c7fef3ace9","type":"text","text":"RSB","x":-827,"y":820,"width":250,"height":60},
 		{"id":"07953d14e1677bbe","type":"file","file":"sprectre RSB.pdf","x":-709,"y":100,"width":257,"height":254},
-		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1912,"y":841,"width":250,"height":60},
 		{"id":"2a3355c93b6582f3","type":"text","text":"Locks","x":-501,"y":751,"width":112,"height":50},
 		{"id":"aed980e2e8d9b6a6","type":"file","file":"ghostrace_sec24.pdf","x":-389,"y":100,"width":250,"height":254},
 		{"id":"b364788bfa88ad7c","type":"file","file":"slam_sp24.pdf","x":-102,"y":60,"width":250,"height":294},
@@ -70,9 +69,10 @@
 		{"id":"e266ed1e4a115bcd","type":"text","text":"Spectre BHI","x":466,"y":680,"width":250,"height":60},
 		{"id":"9f14cf0eb14d7662","type":"text","text":"BTB","x":591,"y":880,"width":105,"height":60},
 		{"id":"67bb10ad7539d383","type":"text","text":"PHT","x":1219,"y":860,"width":131,"height":50},
-		{"id":"892c881d2bece9c3","x":949,"y":1166,"width":250,"height":60,"color":"4","type":"text","text":"Branch prediction"},
-		{"id":"e68cf7da6d27e6fb","x":3155,"y":414,"width":250,"height":60,"type":"text","text":"SLAP"},
-		{"id":"1b767f8d9731f3cf","x":3155,"y":633,"width":250,"height":60,"color":"4","type":"text","text":"Load Address Prediction"}
+		{"id":"892c881d2bece9c3","type":"text","text":"Branch prediction","x":949,"y":1166,"width":250,"height":60,"color":"4"},
+		{"id":"e68cf7da6d27e6fb","type":"text","text":"SLAP","x":3155,"y":414,"width":250,"height":60},
+		{"id":"1b767f8d9731f3cf","type":"text","text":"Load Address Prediction","x":3155,"y":633,"width":250,"height":60,"color":"4"},
+		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1920,"y":901,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
