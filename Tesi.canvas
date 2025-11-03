@@ -12,7 +12,6 @@
 		{"id":"227e05219ed87fc3","type":"text","text":"Meltdown US","x":-2267,"y":400,"width":250,"height":60,"color":"6"},
 		{"id":"4172db38e76f062a","type":"text","text":"Line fill buffer","x":-3782,"y":781,"width":250,"height":60},
 		{"id":"b08c5ae1bca82ee6","type":"text","text":"[[OOO execution]]","x":-2140,"y":1177,"width":165,"height":52,"color":"4"},
-		{"id":"b7529020e74db5ef","type":"text","text":"ROB","x":-2140,"y":1432,"width":116,"height":52},
 		{"id":"f091b3ed00267425","type":"text","text":"Virtual address space","x":-2560,"y":1122,"width":250,"height":50},
 		{"id":"7c24df7d0e6b824a","type":"file","file":"meltdown.pdf","x":-2267,"y":80,"width":250,"height":260},
 		{"id":"294c44a6dd4078f2","type":"text","text":"SGX","x":-3151,"y":1087,"width":250,"height":60,"color":"4"},
@@ -60,9 +59,6 @@
 		{"id":"4341e703b937a50a","type":"text","text":"Floating point ops","x":2420,"y":760,"width":250,"height":60},
 		{"id":"13712921e03c9324","type":"text","text":"pipelining","x":2731,"y":633,"width":250,"height":60},
 		{"id":"e266ed1e4a115bcd","type":"text","text":"Spectre BHI","x":466,"y":680,"width":250,"height":60},
-		{"id":"9f14cf0eb14d7662","type":"text","text":"BTB","x":591,"y":880,"width":105,"height":60,"color":"3"},
-		{"id":"67bb10ad7539d383","type":"text","text":"PHT","x":1219,"y":860,"width":131,"height":50},
-		{"id":"892c881d2bece9c3","type":"text","text":"Branch prediction","x":949,"y":1166,"width":250,"height":60,"color":"4"},
 		{"id":"e68cf7da6d27e6fb","type":"text","text":"SLAP","x":3155,"y":414,"width":250,"height":60,"color":"6"},
 		{"id":"1b767f8d9731f3cf","type":"text","text":"Load Address Prediction","x":3155,"y":633,"width":250,"height":60,"color":"4"},
 		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1920,"y":901,"width":250,"height":60},
@@ -71,7 +67,10 @@
 		{"id":"2e08a31be435afbf","type":"text","text":"Microarchitectural Data Sampling buffers","x":-3276,"y":853,"width":250,"height":60},
 		{"id":"b9c3e86e34038c81","type":"text","text":"TLB","x":-2307,"y":691,"width":250,"height":60},
 		{"id":"19bd50ae50a09c26","type":"text","text":"STL forwarding","x":-2739,"y":803,"width":250,"height":50},
-		{"id":"78c1d0b86bd005fd","type":"text","text":"Intel VT-x, amd equivalent??","x":260,"y":800,"width":250,"height":60}
+		{"id":"78c1d0b86bd005fd","type":"text","text":"Intel VT-x, amd equivalent??","x":260,"y":800,"width":250,"height":60},
+		{"id":"67bb10ad7539d383","type":"text","text":"PHT","x":959,"y":1105,"width":131,"height":50,"color":"4"},
+		{"id":"9f14cf0eb14d7662","type":"text","text":"BTB","x":611,"y":1125,"width":105,"height":60,"color":"3"},
+		{"id":"b7529020e74db5ef","type":"text","text":"[[ROB]]","x":-2256,"y":1420,"width":116,"height":52}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
@@ -162,8 +161,6 @@
 		{"id":"d2fc573cbe227a92","fromNode":"b3b3b2e6616ffe81","fromSide":"bottom","toNode":"73a403c5db54bc40","toSide":"top"},
 		{"id":"513472fba2b8fe0a","fromNode":"c2507c7c40ebec05","fromSide":"bottom","toNode":"4341e703b937a50a","toSide":"top"},
 		{"id":"84a5934516c1690f","fromNode":"ada88796d91424a3","fromSide":"bottom","toNode":"13712921e03c9324","toSide":"top"},
-		{"id":"f140709ae29ab2b1","fromNode":"9f14cf0eb14d7662","fromSide":"bottom","toNode":"892c881d2bece9c3","toSide":"top"},
-		{"id":"b1a0759cc2c5abf1","fromNode":"67bb10ad7539d383","fromSide":"bottom","toNode":"892c881d2bece9c3","toSide":"top"},
 		{"id":"c44aa1ec5fe92ea2","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"e68cf7da6d27e6fb","toSide":"top"},
 		{"id":"0ce2d7dbc009a709","fromNode":"e68cf7da6d27e6fb","fromSide":"bottom","toNode":"1b767f8d9731f3cf","toSide":"top"},
 		{"id":"ce5be3a59f2e30fa","fromNode":"857b4d2df92ee3e5","fromSide":"bottom","toNode":"1a2776d3298adad3","toSide":"top"}

@@ -11,17 +11,24 @@
             "id": "49491d6d105c1c9d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Tesi.canvas",
-                "viewState": {
-                  "x": 875.9658180669629,
-                  "y": 773.810205778996,
-                  "zoom": -0.6645057715775268
+                "file": "ROB.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Tesi"
+              "icon": "lucide-file",
+              "title": "ROB"
             }
           }
         ]
@@ -222,8 +229,9 @@
   },
   "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
-    "OOO execution.md",
     "Tesi.canvas",
+    "ROB.md",
+    "OOO execution.md",
     "fpvi-scsb_sec21.pdf",
     "downfall.pdf",
     "retbleed_sec22.pdf",
@@ -268,8 +276,6 @@
     "Regression.md",
     "Domande.md",
     "ANNDL Questions.md",
-    "Feed Forward Neural Networks.md",
-    "Neural networks.md",
     "Untitled.canvas",
     "Test.canvas"
   ]
