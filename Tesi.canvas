@@ -35,7 +35,6 @@
 		{"id":"56f272fb94b631c1","type":"file","file":"lvi.pdf","x":-1007,"y":100,"width":250,"height":254},
 		{"id":"3f136479b71ee9db","type":"text","text":"STL forwarding","x":-959,"y":677,"width":250,"height":60},
 		{"id":"2f8cce1bdef72f4e","type":"text","text":"One of another meltdown type attack","x":-834,"y":569,"width":250,"height":60},
-		{"id":"3ff544c7fef3ace9","type":"text","text":"RSB","x":-827,"y":820,"width":250,"height":60},
 		{"id":"07953d14e1677bbe","type":"file","file":"sprectre RSB.pdf","x":-709,"y":100,"width":257,"height":254},
 		{"id":"2a3355c93b6582f3","type":"text","text":"Locks","x":-501,"y":751,"width":112,"height":50},
 		{"id":"aed980e2e8d9b6a6","type":"file","file":"ghostrace_sec24.pdf","x":-389,"y":100,"width":250,"height":254},
@@ -55,7 +54,6 @@
 		{"id":"f746ae6ef0686d97","type":"text","text":"Retbleed","x":1468,"y":405,"width":250,"height":65},
 		{"id":"693d341ce94a8df1","type":"text","text":"Transient scheduler atttacks","x":1773,"y":414,"width":385,"height":50},
 		{"id":"b3b3b2e6616ffe81","type":"text","text":"Downfall","x":2198,"y":413,"width":250,"height":50},
-		{"id":"1a2776d3298adad3","type":"text","text":"RSB","x":1466,"y":631,"width":250,"height":60},
 		{"id":"82940069470b82f0","type":"file","file":"retbleed_sec22.pdf","x":1466,"y":20,"width":250,"height":334},
 		{"id":"a5e774385b5766a8","type":"text","text":"LVI","x":1948,"y":595,"width":250,"height":60},
 		{"id":"e67328dc3b07cadd","type":"text","text":"SIMD (gather)","x":2260,"y":595,"width":250,"height":60},
@@ -72,7 +70,8 @@
 		{"id":"892c881d2bece9c3","type":"text","text":"Branch prediction","x":949,"y":1166,"width":250,"height":60,"color":"4"},
 		{"id":"e68cf7da6d27e6fb","type":"text","text":"SLAP","x":3155,"y":414,"width":250,"height":60},
 		{"id":"1b767f8d9731f3cf","type":"text","text":"Load Address Prediction","x":3155,"y":633,"width":250,"height":60,"color":"4"},
-		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1920,"y":901,"width":250,"height":60}
+		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1920,"y":901,"width":250,"height":60},
+		{"id":"1a2776d3298adad3","type":"text","text":"RSB","x":113,"y":1000,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
@@ -84,7 +83,6 @@
 		{"id":"294c089f4a3350b5","fromNode":"227e05219ed87fc3","fromSide":"bottom","toNode":"b7529020e74db5ef","toSide":"top"},
 		{"id":"870133ca417d5911","fromNode":"227e05219ed87fc3","fromSide":"bottom","toNode":"b08c5ae1bca82ee6","toSide":"top"},
 		{"id":"e68af6689a9c00e6","fromNode":"07f2d58d70c7ad53","fromSide":"bottom","toNode":"857b4d2df92ee3e5","toSide":"top"},
-		{"id":"e27bca0d1992a7d3","fromNode":"857b4d2df92ee3e5","fromSide":"bottom","toNode":"3ff544c7fef3ace9","toSide":"top"},
 		{"id":"64427e380acb98eb","fromNode":"07f2d58d70c7ad53","fromSide":"bottom","toNode":"df30fe5d8deae77d","toSide":"top"},
 		{"id":"a3e4f58fb25c9dd7","fromNode":"9a76f96808cead23","fromSide":"bottom","toNode":"156dd8dea96c01dc","toSide":"top"},
 		{"id":"daab73ec29f3c9c4","fromNode":"9a76f96808cead23","fromSide":"bottom","toNode":"904990fb40f618c6","toSide":"top"},
@@ -167,6 +165,7 @@
 		{"id":"f140709ae29ab2b1","fromNode":"9f14cf0eb14d7662","fromSide":"bottom","toNode":"892c881d2bece9c3","toSide":"top"},
 		{"id":"b1a0759cc2c5abf1","fromNode":"67bb10ad7539d383","fromSide":"bottom","toNode":"892c881d2bece9c3","toSide":"top"},
 		{"id":"c44aa1ec5fe92ea2","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"e68cf7da6d27e6fb","toSide":"top"},
-		{"id":"0ce2d7dbc009a709","fromNode":"e68cf7da6d27e6fb","fromSide":"bottom","toNode":"1b767f8d9731f3cf","toSide":"top"}
+		{"id":"0ce2d7dbc009a709","fromNode":"e68cf7da6d27e6fb","fromSide":"bottom","toNode":"1b767f8d9731f3cf","toSide":"top"},
+		{"id":"ce5be3a59f2e30fa","fromNode":"857b4d2df92ee3e5","fromSide":"bottom","toNode":"1a2776d3298adad3","toSide":"top"}
 	]
 }
