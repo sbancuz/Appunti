@@ -15,16 +15,41 @@
               "state": {
                 "file": "Tesi.canvas",
                 "viewState": {
-                  "x": 460.4788342526177,
-                  "y": 807.8086093429783,
+                  "x": -2221.295054293151,
+                  "y": 860.7300575622326,
                   "zoom": -0.6645057715775268
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Tesi"
             }
+          },
+          {
+            "id": "0163d37d57be36e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OOO execution.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OOO execution"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,8 +245,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49491d6d105c1c9d",
+  "active": "0163d37d57be36e3",
   "lastOpenFiles": [
+    "OOO execution.md",
+    "Tesi.canvas",
     "fpvi-scsb_sec21.pdf",
     "downfall.pdf",
     "retbleed_sec22.pdf",
@@ -232,8 +259,6 @@
     "ghostrace_sec24.pdf",
     "sprectre RSB.pdf",
     "RIDL_Rogue_In-Flight_Data_Load.pdf",
-    "lvi.pdf",
-    "Tesi.canvas",
     "Morfismo.md",
     "Logica modale.md",
     "Polinomio.md",
