@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROB.md",
+                "file": "STL forwarding.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ROB"
+              "title": "STL forwarding"
             }
           }
         ]
@@ -230,6 +230,10 @@
   "active": "49491d6d105c1c9d",
   "lastOpenFiles": [
     "Tesi.canvas",
+    "STL forwarding.md",
+    "Linear address masking.md",
+    "BTB.md",
+    "PHT.md",
     "ROB.md",
     "OOO execution.md",
     "fpvi-scsb_sec21.pdf",
@@ -272,10 +276,6 @@
     "Monoide.md",
     "Propositional logic.md",
     "Sottoinsieme.md",
-    "Campi ordinati.md",
-    "Regression.md",
-    "Domande.md",
-    "ANNDL Questions.md",
     "Untitled.canvas",
     "Test.canvas"
   ]
