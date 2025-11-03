@@ -65,7 +65,7 @@
 		{"id":"4341e703b937a50a","type":"text","text":"Floating point ops","x":2420,"y":760,"width":250,"height":60},
 		{"id":"13712921e03c9324","type":"text","text":"pipelining","x":2731,"y":633,"width":250,"height":60},
 		{"id":"e266ed1e4a115bcd","type":"text","text":"Spectre BHI","x":466,"y":680,"width":250,"height":60},
-		{"id":"9f14cf0eb14d7662","type":"text","text":"BTB","x":591,"y":880,"width":105,"height":60},
+		{"id":"9f14cf0eb14d7662","type":"text","text":"BTB","x":591,"y":880,"width":105,"height":60,"color":"3"},
 		{"id":"67bb10ad7539d383","type":"text","text":"PHT","x":1219,"y":860,"width":131,"height":50},
 		{"id":"892c881d2bece9c3","type":"text","text":"Branch prediction","x":949,"y":1166,"width":250,"height":60,"color":"4"},
 		{"id":"e68cf7da6d27e6fb","type":"text","text":"SLAP","x":3155,"y":414,"width":250,"height":60},
