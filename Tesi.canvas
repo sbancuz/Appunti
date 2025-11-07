@@ -29,7 +29,6 @@
 		{"id":"8602394eac8a9a7d","type":"file","file":"zombieload.pdf","x":-1342,"y":100,"width":250,"height":254},
 		{"id":"574cd6443d535528","type":"text","text":"Unknown microcode assist (see paper)","x":-1329,"y":629,"width":250,"height":60},
 		{"id":"56f272fb94b631c1","type":"file","file":"lvi.pdf","x":-1007,"y":100,"width":250,"height":254},
-		{"id":"2f8cce1bdef72f4e","type":"text","text":"One of another meltdown type attack","x":-834,"y":569,"width":250,"height":60},
 		{"id":"07953d14e1677bbe","type":"file","file":"sprectre RSB.pdf","x":-709,"y":100,"width":257,"height":254},
 		{"id":"2a3355c93b6582f3","type":"text","text":"Locks","x":-501,"y":751,"width":112,"height":50},
 		{"id":"aed980e2e8d9b6a6","type":"file","file":"ghostrace_sec24.pdf","x":-389,"y":100,"width":250,"height":254},
@@ -70,7 +69,8 @@
 		{"id":"e266ed1e4a115bcd","type":"text","text":"Spectre BHI","x":557,"y":748,"width":250,"height":60},
 		{"id":"533c1d5699e8a370","type":"text","text":"Spectre v2 (BTI)","x":735,"y":588,"width":250,"height":59,"color":"4"},
 		{"id":"b9c3e86e34038c81","type":"text","text":"TLB","x":-2140,"y":800,"width":250,"height":60},
-		{"id":"3f136479b71ee9db","type":"text","text":"[[STL forwarding]]","x":-1007,"y":767,"width":250,"height":60}
+		{"id":"2f8cce1bdef72f4e","type":"text","text":"One of another meltdown type attack","x":-1300,"y":776,"width":250,"height":60},
+		{"id":"3f136479b71ee9db","type":"text","text":"[[STL forwarding]]","x":-920,"y":830,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
