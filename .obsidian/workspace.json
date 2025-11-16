@@ -15,16 +15,29 @@
               "state": {
                 "file": "Tesi.canvas",
                 "viewState": {
-                  "x": -3135.8351042931504,
-                  "y": 949.0337946962173,
+                  "x": 582.0399834048831,
+                  "y": 829.0622017977398,
                   "zoom": -0.5509923304635675
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Tesi"
             }
+          },
+          {
+            "id": "bfe4175176549d63",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,7 +233,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49491d6d105c1c9d",
+  "active": "bfe4175176549d63",
   "lastOpenFiles": [
     "ROB.md",
     "Tesi.canvas",
