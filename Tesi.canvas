@@ -70,7 +70,7 @@
 		{"id":"b9c3e86e34038c81","type":"text","text":"TLB","x":-2140,"y":800,"width":250,"height":60},
 		{"id":"2f8cce1bdef72f4e","type":"text","text":"One of another meltdown type attack","x":-1300,"y":776,"width":250,"height":60},
 		{"id":"3f136479b71ee9db","type":"text","text":"[[STL forwarding]]","x":-920,"y":830,"width":250,"height":60},
-		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1860,"y":1062,"width":250,"height":60}
+		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1860,"y":1062,"width":250,"height":60,"color":"4"}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
