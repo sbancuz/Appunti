@@ -53,7 +53,7 @@
 		{"id":"ada88796d91424a3","type":"text","text":"Speculative code store bypass","x":2820,"y":414,"width":250,"height":60},
 		{"id":"7f2769efcc6b9aa3","type":"file","file":"fpvi-scsb_sec21.pdf","x":2545,"y":-13,"width":400,"height":400},
 		{"id":"4341e703b937a50a","type":"text","text":"Floating point ops","x":2420,"y":760,"width":250,"height":60},
-		{"id":"13712921e03c9324","type":"text","text":"pipelining","x":2731,"y":633,"width":250,"height":60},
+		{"id":"13712921e03c9324","type":"text","text":"pipelining","x":2731,"y":633,"width":250,"height":60,"color":"4"},
 		{"id":"e68cf7da6d27e6fb","type":"text","text":"SLAP","x":3155,"y":414,"width":250,"height":60,"color":"6"},
 		{"id":"1b767f8d9731f3cf","type":"text","text":"Load Address Prediction","x":3155,"y":633,"width":250,"height":60,"color":"4"},
 		{"id":"1a2776d3298adad3","type":"text","text":"RSB","x":113,"y":1000,"width":250,"height":60},
