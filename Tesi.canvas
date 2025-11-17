@@ -56,7 +56,6 @@
 		{"id":"13712921e03c9324","type":"text","text":"pipelining","x":2731,"y":633,"width":250,"height":60},
 		{"id":"e68cf7da6d27e6fb","type":"text","text":"SLAP","x":3155,"y":414,"width":250,"height":60,"color":"6"},
 		{"id":"1b767f8d9731f3cf","type":"text","text":"Load Address Prediction","x":3155,"y":633,"width":250,"height":60,"color":"4"},
-		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1920,"y":901,"width":250,"height":60},
 		{"id":"1a2776d3298adad3","type":"text","text":"RSB","x":113,"y":1000,"width":250,"height":60},
 		{"id":"b65bed7d8977ce33","type":"text","text":"Eviction path for L1-cache","x":-3067,"y":763,"width":250,"height":60},
 		{"id":"2e08a31be435afbf","type":"text","text":"Microarchitectural Data Sampling buffers","x":-3276,"y":853,"width":250,"height":60},
@@ -70,7 +69,8 @@
 		{"id":"533c1d5699e8a370","type":"text","text":"Spectre v2 (BTI)","x":735,"y":588,"width":250,"height":59,"color":"4"},
 		{"id":"b9c3e86e34038c81","type":"text","text":"TLB","x":-2140,"y":800,"width":250,"height":60},
 		{"id":"2f8cce1bdef72f4e","type":"text","text":"One of another meltdown type attack","x":-1300,"y":776,"width":250,"height":60},
-		{"id":"3f136479b71ee9db","type":"text","text":"[[STL forwarding]]","x":-920,"y":830,"width":250,"height":60}
+		{"id":"3f136479b71ee9db","type":"text","text":"[[STL forwarding]]","x":-920,"y":830,"width":250,"height":60},
+		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1860,"y":1062,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
