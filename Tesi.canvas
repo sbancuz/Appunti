@@ -59,7 +59,7 @@
 		{"id":"1a2776d3298adad3","type":"text","text":"RSB","x":113,"y":1000,"width":250,"height":60},
 		{"id":"b65bed7d8977ce33","type":"text","text":"Eviction path for L1-cache","x":-3067,"y":763,"width":250,"height":60},
 		{"id":"2e08a31be435afbf","type":"text","text":"Microarchitectural Data Sampling buffers","x":-3276,"y":853,"width":250,"height":60},
-		{"id":"19bd50ae50a09c26","type":"text","text":"STL forwarding","x":-2739,"y":803,"width":250,"height":50},
+		{"id":"19bd50ae50a09c26","type":"text","text":"STL forwarding","x":-2739,"y":803,"width":250,"height":50,"color":"4"},
 		{"id":"78c1d0b86bd005fd","type":"text","text":"Intel VT-x, amd equivalent??","x":260,"y":800,"width":250,"height":60,"color":"3"},
 		{"id":"67bb10ad7539d383","type":"text","text":"[[PHT]]","x":959,"y":1105,"width":131,"height":50,"color":"4"},
 		{"id":"b7529020e74db5ef","type":"text","text":"[[ROB]]","x":-2256,"y":1420,"width":116,"height":52},
