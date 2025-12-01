@@ -40,7 +40,7 @@
 		{"id":"df30fe5d8deae77d","type":"text","text":"Spectre STL","x":1159,"y":407,"width":250,"height":63},
 		{"id":"9ed8fa2295463952","type":"text","text":"Spectre V1","x":1002,"y":412,"width":150,"height":53,"color":"4"},
 		{"id":"3e4010ad7ae5c431","type":"file","file":"spectre.pdf","x":824,"y":-46,"width":400,"height":400},
-		{"id":"59af12a6f0fdf59e","type":"text","text":"Store to load","x":1179,"y":565,"width":250,"height":60},
+		{"id":"59af12a6f0fdf59e","type":"text","text":"Store to load","x":1179,"y":565,"width":250,"height":60,"color":"4"},
 		{"id":"f746ae6ef0686d97","type":"text","text":"Retbleed","x":1468,"y":405,"width":250,"height":65},
 		{"id":"693d341ce94a8df1","type":"text","text":"Transient scheduler atttacks","x":1773,"y":414,"width":385,"height":50},
 		{"id":"b3b3b2e6616ffe81","type":"text","text":"Downfall","x":2198,"y":413,"width":250,"height":50},
@@ -69,7 +69,7 @@
 		{"id":"533c1d5699e8a370","type":"text","text":"Spectre v2 (BTI)","x":735,"y":588,"width":250,"height":59,"color":"4"},
 		{"id":"b9c3e86e34038c81","type":"text","text":"TLB","x":-2140,"y":800,"width":250,"height":60},
 		{"id":"2f8cce1bdef72f4e","type":"text","text":"One of another meltdown type attack","x":-1300,"y":776,"width":250,"height":60},
-		{"id":"3f136479b71ee9db","type":"text","text":"[[STL forwarding]]","x":-920,"y":830,"width":250,"height":60},
+		{"id":"3f136479b71ee9db","type":"text","text":"[[STL forwarding]]","x":-920,"y":830,"width":250,"height":60,"color":"4"},
 		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1860,"y":1062,"width":250,"height":60,"color":"4"}
 	],
 	"edges":[
