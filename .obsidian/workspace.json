@@ -11,20 +11,40 @@
             "id": "49491d6d105c1c9d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Tesi.canvas",
-                "viewState": {
-                  "x": 2238.7324195649835,
-                  "y": 720.1655186990645,
-                  "zoom": -0.5509923304635675
+                "file": "ROB.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Tesi"
+              "icon": "lucide-file",
+              "title": "ROB"
+            }
+          },
+          {
+            "id": "c88444b326f28b6b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,10 +240,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49491d6d105c1c9d",
+  "active": "c88444b326f28b6b",
   "lastOpenFiles": [
-    "ROB.md",
     "Tesi.canvas",
+    "ROB.md",
     "OOO execution.md",
     "STL forwarding.md",
     "Linear address masking.md",
