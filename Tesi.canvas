@@ -31,7 +31,7 @@
 		{"id":"56f272fb94b631c1","type":"file","file":"lvi.pdf","x":-1007,"y":100,"width":250,"height":254},
 		{"id":"07953d14e1677bbe","type":"file","file":"sprectre RSB.pdf","x":-709,"y":100,"width":257,"height":254},
 		{"id":"2a3355c93b6582f3","type":"text","text":"Locks","x":-501,"y":751,"width":112,"height":50},
-		{"id":"aed980e2e8d9b6a6","type":"file","file":"ghostrace_sec24.pdf","x":-389,"y":100,"width":250,"height":254},
+		{"id":"aed980e2e8d9b6a6","type":"file","file":"ghostrace_sec24.pdf","x":-389,"y":100,"width":250,"height":254,"subpath":"#page=1"},
 		{"id":"b364788bfa88ad7c","type":"file","file":"slam_sp24.pdf","x":-102,"y":60,"width":250,"height":294},
 		{"id":"192c04c29d52adb8","type":"text","text":"Another spectre","x":-292,"y":688,"width":250,"height":60},
 		{"id":"1b5bc8d5e5527d21","type":"file","file":"vmscape_sp26.pdf","x":198,"y":60,"width":250,"height":294},
