@@ -30,7 +30,7 @@
 		{"id":"56f272fb94b631c1","type":"file","file":"lvi.pdf","x":-1007,"y":100,"width":250,"height":254},
 		{"id":"07953d14e1677bbe","type":"file","file":"sprectre RSB.pdf","x":-709,"y":100,"width":257,"height":254},
 		{"id":"2a3355c93b6582f3","type":"text","text":"Locks","x":-501,"y":751,"width":112,"height":50,"color":"4"},
-		{"id":"aed980e2e8d9b6a6","type":"file","file":"ghostrace_sec24.pdf","x":-389,"y":100,"width":250,"height":254,"subpath":"#page=1"},
+		{"id":"aed980e2e8d9b6a6","type":"file","file":"ghostrace_sec24.pdf","subpath":"#page=1","x":-389,"y":100,"width":250,"height":254},
 		{"id":"b364788bfa88ad7c","type":"file","file":"slam_sp24.pdf","x":-102,"y":60,"width":250,"height":294},
 		{"id":"192c04c29d52adb8","type":"text","text":"Another spectre","x":-292,"y":688,"width":250,"height":60,"color":"4"},
 		{"id":"1b5bc8d5e5527d21","type":"file","file":"vmscape_sp26.pdf","x":198,"y":60,"width":250,"height":294},
@@ -61,7 +61,6 @@
 		{"id":"67bb10ad7539d383","type":"text","text":"[[PHT]]","x":959,"y":1105,"width":131,"height":50,"color":"4"},
 		{"id":"b7529020e74db5ef","type":"text","text":"[[ROB]]","x":-2256,"y":1420,"width":116,"height":52,"color":"4"},
 		{"id":"e1d750ad7bdc2d23","type":"text","text":"[[Linear address masking]]","x":10,"y":707,"width":250,"height":60,"color":"3"},
-		{"id":"9f14cf0eb14d7662","type":"text","text":"[[BTB]]","x":682,"y":1095,"width":105,"height":60,"color":"3"},
 		{"id":"e266ed1e4a115bcd","type":"text","text":"Spectre BHI","x":557,"y":748,"width":250,"height":60},
 		{"id":"533c1d5699e8a370","type":"text","text":"Spectre v2 (BTI)","x":735,"y":588,"width":250,"height":59,"color":"4"},
 		{"id":"b9c3e86e34038c81","type":"text","text":"TLB","x":-2140,"y":800,"width":250,"height":60},
@@ -69,7 +68,8 @@
 		{"id":"3f136479b71ee9db","type":"text","text":"[[STL forwarding]]","x":-920,"y":830,"width":250,"height":60,"color":"4"},
 		{"id":"b9b13afb60d13a9d","type":"text","text":"SMT ","x":-1860,"y":1062,"width":250,"height":60,"color":"4"},
 		{"id":"b65bed7d8977ce33","type":"text","text":"Eviction path for L1-cache","x":-3026,"y":751,"width":250,"height":60},
-		{"id":"a5e774385b5766a8","type":"text","text":"LVI","x":1908,"y":528,"width":250,"height":60,"color":"3"}
+		{"id":"a5e774385b5766a8","type":"text","text":"LVI","x":1908,"y":528,"width":250,"height":60,"color":"3"},
+		{"id":"9f14cf0eb14d7662","type":"text","text":"[[BTB]]","x":644,"y":1155,"width":105,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"e8f57dc1b594a7c9","fromNode":"9dd51343041cef84","fromSide":"bottom","toNode":"9a76f96808cead23","toSide":"top"},
